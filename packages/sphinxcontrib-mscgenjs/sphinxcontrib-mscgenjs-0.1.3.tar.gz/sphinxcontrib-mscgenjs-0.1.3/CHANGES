@@ -1,0 +1,29 @@
+.. -*- restructuredtext -*-
+
+This file describes user-visible changes between the extension versions.
+
+Version 0.1.3
+------------------------
+
+Just a version bump due to problem while building package.
+It included an old source file (sphinxcontrib/mscgenjs.py) that had been moved to a new location
+ (sphinxcontrib/mscgenjs/__init__.py)
+
+Version 0.1.2
+------------------------
+
+* Actually include mscgen-inpage.js (it's now in a new place)
+
+
+Version 0.1.1
+------------------------
+
+* Attempt to fix importing mscgen-inpage.js after install from PyPi
+
+
+Version 0.1
+------------------------
+
+* Fork from https://github.com/sphinx-contrib/mscgen
+* Initial version.
+
