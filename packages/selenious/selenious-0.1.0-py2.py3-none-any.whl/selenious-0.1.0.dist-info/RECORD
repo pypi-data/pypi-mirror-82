@@ -1,0 +1,17 @@
+selenious/__init__.py,sha256=duJ21gXkpYBEMvjZUKTcQmImniy6tWWJaaIumNB1z-w,170
+selenious/decorators.py,sha256=MRHhv3xuouIXb5Y5IhdXyCq2ItNR8s2NGKghRoOnS2Y,4839
+selenious/helpers.py,sha256=YSnO74uayN_8l6zXN5iFJS9QmhlG_ZdnyILQefOTv_s,589
+selenious/webdriver.py,sha256=rGA6X81UFGSv1lbidH7qbZGtSeJ-DAcCB5-cwqtd8z0,1380
+selenious/webdriver_mixin.py,sha256=J9Cby2yXYfOaWZtwuyBKUHz1RnFxAat2Pc4V0vfO-zU,13012
+tests/__init__.py,sha256=aJNGIm72rxO36QcHvApGG3Z6wsrSe776Ir8wXfZMdMI,39
+tests/integration.py,sha256=cM-oLodqGSopZMkTRqgzFV2WHmzjALtTBZu50_c8lD4,2806
+tests/mock_webdriver.py,sha256=z-ffKn77aO_xKDT2DK4j3DmbH_f0Jblkr8aa1QcHRSU,3657
+tests/test_webdriver.py,sha256=bcngu_98rR5OmaOuBWGxf71eub0crdYih1LAZrRrVIE,9588
+tests/snapshots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/snapshots/snap_test_webdriver.py,sha256=YWB6mzDUiYcPC75eeSFWgV3BC_UWTFtOP2_f30XAWwo,12781
+selenious-0.1.0.dist-info/AUTHORS.rst,sha256=wG-YFFQizUGw9SLNCGIuqumI3jMSxrVR1PJnIUvqFVs,157
+selenious-0.1.0.dist-info/LICENSE.txt,sha256=Nca1I4wtnsGY1-Rp_u7e6LrXi7czLQw-EL0wwf2dN-0,1505
+selenious-0.1.0.dist-info/METADATA,sha256=VxvQpqUWZGqdewPz-C5Z0XazFR6hdH9LPD6DN_sBdZA,3327
+selenious-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+selenious-0.1.0.dist-info/top_level.txt,sha256=GkjJ390Q2Cw5fAhZw4LA3lEW-Tts3qqpICw0jMTUXvg,16
+selenious-0.1.0.dist-info/RECORD,,
