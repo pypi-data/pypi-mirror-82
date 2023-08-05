@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xml-analyzer
+Version: 1.0
+Summary: xml-analyzer is now xml-analyser
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # xml-analyzer is likely a typo for xml-analyser
+        
+        Use `pip install xml-analyser` instead.
+        
+        The package you want: https://pypi.org/project/xml-analyser/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
