@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: sunidhi
+Version: 0.0.2
+Summary: Make charts from google sheets
+Home-page: UNKNOWN
+Author: Sunidhi Batra
+Author-email: sunidhibatra08@gmail.com
+License: MIT
+Description: Library
+Keywords: chart
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
