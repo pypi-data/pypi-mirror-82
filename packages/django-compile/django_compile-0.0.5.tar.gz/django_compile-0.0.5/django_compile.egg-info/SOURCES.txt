@@ -1,0 +1,9 @@
+README.md
+setup.py
+django_compile.egg-info/PKG-INFO
+django_compile.egg-info/SOURCES.txt
+django_compile.egg-info/dependency_links.txt
+django_compile.egg-info/entry_points.txt
+django_compile.egg-info/top_level.txt
+django_compile_pyc/__init__.py
+django_compile_pyc/django_compile.py

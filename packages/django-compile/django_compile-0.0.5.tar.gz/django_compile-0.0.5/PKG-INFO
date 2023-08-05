@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django_compile
+Version: 0.0.5
+Summary: A small package to compile .py files django projects to .pyc
+Home-page: UNKNOWN
+Author: Soham Marik
+Author-email: soham.marik@gmail.com
+License: UNKNOWN
+Description: # compile_django
+        Script to compile .py files in django project to .pyc 
+        
+        ## Usage
+        ```python compile_django.py <project_name> <compiled_project_name>```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
