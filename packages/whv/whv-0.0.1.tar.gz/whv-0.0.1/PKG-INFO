@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: whv
+Version: 0.0.1
+Summary: Verify webhooks for various providers
+Home-page: https://github.com/tmhmitchell/whv
+Author: Tom Mitchell
+License: UNKNOWN
+Description: # whv
+        (WebHook Verify)
+        
+        Verify webhooks from the following providers:
+        - GitHub
+        - Travis CI
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
