@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "requests-whaor"
+version = "0.2.0"
+description = "Requests With High Availability Onion Router. For the filthiest web scrapers that have no time for rate-limits."
+authors = ["dgnsrekt <dgnsrekt@pm.me>"]
+readme = "README.md"
+homepage = "https://dgnsrekt.github.io/requests-whaor/"
+repository = "https://github.com/dgnsrekt/requests-whaor"
+license = "MIT"
+keywords=["requests", "tor", "haproxy", "docker", "rate-limit"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+docker = "^4.3.1"
+jinja2 = "^2.11.2"
+loguru = "^0.5.2"
+more_itertools = "^8.5.0"
+pydantic = "^1.6.1"
+python-decouple = "^3.3"
+requests = {extras = ["socks"], version = "^2.24.0"}
+enlighten = "^1.6.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-sugar = "^0.9.4"
+nox = "^2020.8.22"
+pytest-regressions = "^2.0.2"
+toml = "^0.10.1"
+pytest-watch = "^4.2.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

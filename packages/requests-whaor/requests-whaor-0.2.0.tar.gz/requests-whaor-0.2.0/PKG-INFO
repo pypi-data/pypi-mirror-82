@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: requests-whaor
+Version: 0.2.0
+Summary: Requests With High Availability Onion Router. For the filthiest web scrapers that have no time for rate-limits.
+Home-page: https://dgnsrekt.github.io/requests-whaor/
+License: MIT
+Keywords: requests,tor,haproxy,docker,rate-limit
+Author: dgnsrekt
+Author-email: dgnsrekt@pm.me
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: docker (>=4.3.1,<5.0.0)
+Requires-Dist: enlighten (>=1.6.2,<2.0.0)
+Requires-Dist: jinja2 (>=2.11.2,<3.0.0)
+Requires-Dist: loguru (>=0.5.2,<0.6.0)
+Requires-Dist: more_itertools (>=8.5.0,<9.0.0)
+Requires-Dist: pydantic (>=1.6.1,<2.0.0)
+Requires-Dist: python-decouple (>=3.3,<4.0)
+Requires-Dist: requests[socks] (>=2.24.0,<3.0.0)
+Project-URL: Repository, https://github.com/dgnsrekt/requests-whaor
+Description-Content-Type: text/markdown
+
+# **requests-whaor** [[ri-kwests](https://www.dictionary.com/browse/requests) [hawr](https://www.dictionary.com/browse/whore)]
+
+[**Requests**](https://requests.readthedocs.io) **+** [**Docker**](https://www.docker.com/) **+** [**HAproxy**](http://www.haproxy.org/) **+** [**Tor**](https://www.torproject.org/)
+
+**Requests** **W**ith **H**igh **A**vailability **O**nion **R**outer. For the filthiest web scrapers that have no time for rate-limits.
+
+[![Black](https://img.shields.io/badge/code%20style-black-black?style=for-the-badge&logo=appveyor)](https://github.com/psf/black)
+[![GitHub](https://img.shields.io/github/license/dgnsrekt/requests-whaor?style=for-the-badge)](https://raw.githubusercontent.com/dgnsrekt/requests-whaor/master/LICENSE)
+
+
+## Overview
+**requests-whaor** proxies GET requests through a local **Docker** network of **TOR** circuits. It takes care of starting and stopping a pool of **TOR** proxies behind an **HAproxy** load balancer, which acts as a round robin reverse proxy network. This will give each request a new IP address.  If you start having issues with the initial pool of IPs, **requests-whaor** can gather a new pool of IP addresses by restarting all **TOR** containers.
+
+## Install with pip
+```
+pip install requests-whaor
+```
+
+## Install with [Poetry](https://python-poetry.org/)
+```
+poetry add requests-whaor
+```
+
+
+## [>> **Quickstart** / **Docs** <<](https://dgnsrekt.github.io/requests-whaor/quickstart)
+
+## Projects to highlight.
+* [**dperson's**](https://hub.docker.com/u/dperson) - [torproxy docker container](https://hub.docker.com/r/dperson/torproxy)
+* [**zet4's**](https://github.com/zet4) - [alpine-tor library](https://github.com/zet4/alpine-tor)
+* [torproject](https://www.torproject.org/)
+* [haproxy](https://hub.docker.com/_/haproxy)
+
+## Useful Docker commands.
+### If things get out of hand you may need these commands for debugging or killing containers.
+```
+docker ps -q --filter ancestor=osminogin/tor-simple | xargs -L 1 docker logs --follow
+
+docker ps -q --filter ancestor=osminogin/haproxy | xargs -L 1 docker logs --follow
+
+docker stop $(docker ps -q --filter ancestor=osminogin/tor-simple)
+
+docker stop $(docker ps -q --filter ancestor=haproxy)
+
+docker network rm $(docker network ls -q -f name=whaornet)
+```
+
+## TODO
+* [ ] Testing.
+* [ ] More request methods if requested.
+* [ ] Options for using different Tor containers.
+* [ ] Options for different load balancer containers.
+
+## Contact Information
+Telegram = Twitter = Tradingview = Discord = @dgnsrekt
+
+Email = dgnsrekt@pm.me
+
