@@ -1,0 +1,8 @@
+README.md
+setup.py
+pypopulation/__init__.py
+pypopulation/implementation.py
+pypopulation.egg-info/PKG-INFO
+pypopulation.egg-info/SOURCES.txt
+pypopulation.egg-info/dependency_links.txt
+pypopulation.egg-info/top_level.txt
