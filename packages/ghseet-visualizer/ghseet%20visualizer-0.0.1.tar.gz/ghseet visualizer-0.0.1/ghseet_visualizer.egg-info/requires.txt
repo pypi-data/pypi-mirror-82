@@ -1,0 +1,3 @@
+gsheets
+pandas
+matplotlib
