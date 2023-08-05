@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: checkpointe
+Version: 0.1.3
+Summary: A simple process timer for python scripts.
+Home-page: https://github.com/e-kirkland/checkpointe
+Author: Eddie Kirkland
+Author-email: eddie@kdsolutions.co
+License: Apache License 2.0
+Description: # checkpointe
+        A simple progress timer for python scripts
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
