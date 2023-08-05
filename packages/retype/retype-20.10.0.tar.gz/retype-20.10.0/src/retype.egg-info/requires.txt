@@ -1,0 +1,7 @@
+click
+pathspec<1,>=0.5.9
+typed-ast
+
+[testing]
+pytest<6,>=3.0.0
+pytest-cov<3,>=2.5.1
