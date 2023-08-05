@@ -1,0 +1,10 @@
+touchpoint/__init__.py,sha256=9R3rl1pqxaOqHcoI6ELe69sZwA2GfF90CaP-PVvrbwI,127
+touchpoint/employee.py,sha256=dEpp_URr8SNVojMUG63HCg8JQGEVY9gsyTy1PyPXcq4,468
+touchpoint/item.py,sha256=7tcLrfo9bI6onzem6_YtaP3b1pBnZSx7dM3CMdJsRjk,884
+touchpoint/location.py,sha256=YgT9R5OpMv-137oXqWzLw9B0-RwG97bK7uXNSGJwVo8,1574
+touchpoint/touchpoint.py,sha256=8wrYw1UxK31se479mVZ4cTf-BJDf5cEiok0fF8TTQ3I,4020
+touchpoint-0.0.1.dist-info/LICENSE.md,sha256=O5ZWKbxCexch6MJNvjVkqwdAhNGkYBASwdoGRu7knGA,1068
+touchpoint-0.0.1.dist-info/METADATA,sha256=oX_DtfoHxxlP_6jgSFx30sdkl72wDykkQmau_uWg4Sg,1385
+touchpoint-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+touchpoint-0.0.1.dist-info/top_level.txt,sha256=nl-iSEcW3MAmtvA3U58EKif5rkG4PbvdM5956HYqbLQ,11
+touchpoint-0.0.1.dist-info/RECORD,,
