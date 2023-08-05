@@ -1,0 +1,8 @@
+README.md
+setup.py
+WebpCliWrapper.egg-info/PKG-INFO
+WebpCliWrapper.egg-info/SOURCES.txt
+WebpCliWrapper.egg-info/dependency_links.txt
+WebpCliWrapper.egg-info/top_level.txt
+webp-cli-wrapper/__init__.py
+webp-cli-wrapper/webp_cli_wrapper.py
