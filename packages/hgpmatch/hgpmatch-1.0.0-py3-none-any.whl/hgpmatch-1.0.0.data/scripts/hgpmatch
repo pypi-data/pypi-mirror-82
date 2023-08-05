@@ -1,0 +1,5 @@
+#!python
+
+import hgp.match.main as hgp_main
+
+hgp_main.main()
