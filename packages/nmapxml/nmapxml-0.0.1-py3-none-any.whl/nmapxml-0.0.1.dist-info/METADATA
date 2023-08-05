@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nmapxml
+Version: 0.0.1
+Summary: Library to parse nmap xml output files
+Home-page: https://gitlab.com/Zer1t0/nmapxml
+Author: Eloy Perez
+Author-email: zer1t0ps@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# nmapxml
+
+
