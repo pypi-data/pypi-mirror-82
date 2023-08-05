@@ -1,0 +1,8 @@
+*
+!pypiserver
+!requirements
+!docker-requirements.txt
+!entrypoint.sh
+!README.rst
+!setup.cfg
+!setup.py
