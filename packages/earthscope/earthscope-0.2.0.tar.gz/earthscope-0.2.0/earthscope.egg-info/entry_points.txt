@@ -1,0 +1,3 @@
+[jupyter_serverproxy_servers]
+tileserver = tileserver:register_jupyter_endpoint
+
