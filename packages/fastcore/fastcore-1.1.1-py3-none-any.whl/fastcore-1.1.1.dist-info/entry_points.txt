@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+index = fastcore._nbdev
+
