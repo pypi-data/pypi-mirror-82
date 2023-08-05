@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: getwebfolder
+Version: 0.1.0
+Summary: Get files and data from a given web folder (bare url)
+License: MIT
+Author: skeptycal
+Author-email: 26148512+skeptycal@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Requires-Dist: ujson (>=4.0.1,<5.0.0)
