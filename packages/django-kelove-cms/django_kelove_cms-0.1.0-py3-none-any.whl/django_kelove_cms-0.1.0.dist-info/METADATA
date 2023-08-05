@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: django-kelove-cms
+Version: 0.1.0
+Summary: DJANGO KELOVE 内容管理系统
+Home-page: https://xqitw.coding.net/public/django-kelove-cms/django-kelove-cms/git
+License: Apache-2.0
+Keywords: cms,django,django-admin,django-kelove-admin,django-kelove-cms
+Author: IT小强xqitw.cn
+Author-email: mail@xqitw.cn
+Maintainer: IT小强xqitw.cn
+Maintainer-email: mail@xqitw.cn
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: django-kelove-admin (>=0.1.0,<0.2.0)
+Project-URL: Documentation, https://xqitw.coding.net/public/django-kelove-cms/django-kelove-cms/git
+Project-URL: Repository, https://e.coding.net/xqitw/django-kelove-cms/django-kelove-cms.git
+Description-Content-Type: text/markdown
+
+KELOVE 内容管理系统
+===============
+
+### 项目地址：
+
+[【Coding:】https://xqitw.coding.net/public/django-kelove/django-kelove-cms/git/files](https://xqitw.coding.net/public/django-kelove/django-kelove-cms/git/files)
+
