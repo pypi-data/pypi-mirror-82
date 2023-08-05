@@ -1,0 +1,3 @@
+[console_scripts]
+rtorrent-migrate = rtorrent_migrate.migrator:_main
+

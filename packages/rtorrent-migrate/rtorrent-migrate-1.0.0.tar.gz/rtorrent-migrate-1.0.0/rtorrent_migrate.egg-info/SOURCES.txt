@@ -1,0 +1,13 @@
+README.md
+setup.py
+rtorrent_migrate/__init__.py
+rtorrent_migrate/__main__.py
+rtorrent_migrate/migrator.py
+rtorrent_migrate/py.typed
+rtorrent_migrate.egg-info/PKG-INFO
+rtorrent_migrate.egg-info/SOURCES.txt
+rtorrent_migrate.egg-info/dependency_links.txt
+rtorrent_migrate.egg-info/entry_points.txt
+rtorrent_migrate.egg-info/not-zip-safe
+rtorrent_migrate.egg-info/requires.txt
+rtorrent_migrate.egg-info/top_level.txt
