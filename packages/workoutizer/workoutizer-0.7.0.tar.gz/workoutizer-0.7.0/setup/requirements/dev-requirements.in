@@ -1,0 +1,7 @@
+ansible
+IPython
+lxml
+pip-tools
+pytest
+pytest-django
+selenium
