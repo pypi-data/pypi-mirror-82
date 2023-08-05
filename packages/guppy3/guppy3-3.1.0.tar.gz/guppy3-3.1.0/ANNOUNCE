@@ -1,0 +1,30 @@
+I am happy to announce Guppy 3 3.1.0
+
+Guppy 3 is a library and programming environment for Python,
+currently providing in particular the Heapy subsystem, which supports
+object and heap memory sizing, profiling and debugging. It also
+includes a prototypical specification language, the Guppy
+Specification Language (GSL), which can be used to formally specify
+aspects of Python programs and generate tests and documentation from a
+common source.
+
+Guppy 3 is a fork of Guppy-PE, created by Sverker Nilsson for Python 2.
+
+This is a major feature release. The main news in this release:
+
+o Python 3.9 support, without subinterpreter support or inter-interpreter
+  traversal.
+o Added .byprod classifier via tracemalloc, and .prod to print thracemalloc
+  traceback.
+o Added .all to print all lines in a MorePrinter buffer.
+o Added R_INSET relation for being contained by an unordered set.
+
+License: MIT
+
+The project homepage is on GitHub:
+
+https://github.com/zhuyifei1999/guppy3
+
+Enjoy,
+
+YiFei Zhu
