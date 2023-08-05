@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: twisted-raiser
+Version: 0.0.0a0
+Summary: A trivial extension that just raises an exception.
+Home-page: https://github.com/graingert/twisted-raiser
+Author: Twisted Matrix Laboratories
+Author-email: twisted-python@twistedmatrix.com
+Maintainer: Thomas Grainger
+Maintainer-email: twisted-raiser@graingert.co.uk
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5.2
