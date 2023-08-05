@@ -1,0 +1,9 @@
+README.md
+setup.py
+simple_api_management_wsgi.egg-info/PKG-INFO
+simple_api_management_wsgi.egg-info/SOURCES.txt
+simple_api_management_wsgi.egg-info/dependency_links.txt
+simple_api_management_wsgi.egg-info/top_level.txt
+simpleapimanagement/__init__.py
+simpleapimanagement/data.py
+simpleapimanagement/middleware.py
