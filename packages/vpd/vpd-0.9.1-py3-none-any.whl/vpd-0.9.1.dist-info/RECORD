@@ -1,0 +1,10 @@
+vpd/__init__.py,sha256=nZKo57oEzb0ePNyzLQT2ZlOa83QNIlT6WF1II05pcFY,193
+vpd/arguments.py,sha256=CBYwbZre1naPDREi9KO1x301Pj57ANi5XkTMviv1vTs,3438
+vpd/cmp.py,sha256=t15F-QkHOOyfl9pSICVQL68OR9KtfqG7YLkNNoGlUoE,587
+vpd/iterable.py,sha256=hbfmwiVbJeLgakGZL9pG8ReKGAGWfXsueEExERyPJlM,3470
+vpd/yaml_dict.py,sha256=hMV7kif-67ly385R3rOgil3LPdzGnYUKmUlJdcEMKo8,14336
+vpd-0.9.1.dist-info/LICENSE,sha256=ZJcLpA3Cj1pGsHatGfDh4dO5a8lFpG68hBgMaAoiUqA,1551
+vpd-0.9.1.dist-info/METADATA,sha256=xM5KWTn0z3aorEGZ-Vd0o9vQgYjLMHnuTEb96kK9EaU,947
+vpd-0.9.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+vpd-0.9.1.dist-info/top_level.txt,sha256=ldPr13H4kHoXDA659FTIm1dPk5mOhfQZ_Zbh5sPezDE,4
+vpd-0.9.1.dist-info/RECORD,,
