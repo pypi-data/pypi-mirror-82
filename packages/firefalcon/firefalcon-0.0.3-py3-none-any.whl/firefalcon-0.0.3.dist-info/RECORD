@@ -1,0 +1,10 @@
+firefalcon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+firefalcon/_schemas.py,sha256=cxpxodiIH-KKVy5A73fUineXXCqqN2dj4Fn8mhlkZIc,384
+firefalcon/_utils.py,sha256=hljkFpoOtZeadx1gxRhddYiMz3V7xc3JNgGoxJH9LoM,353
+firefalcon/authentication.py,sha256=n5ipv6_HzUrmJc4yFwz9YK_9kuyHuFGA7w01X6-9urM,1321
+firefalcon/authorize.py,sha256=2q6PiNcplDpV4Pcc2jjD_SzsvQoWH3mMK7YRn_kQcVQ,538
+firefalcon/firestore.py,sha256=OEpfA5OHUvnmPH6kZ1svT4va062qZffUR8nN6JT0pR4,5593
+firefalcon-0.0.3.dist-info/METADATA,sha256=2dg0L6sPgDN3ucoXWYjIkoo2BEK2yR3VNzStc07Yw90,983
+firefalcon-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+firefalcon-0.0.3.dist-info/top_level.txt,sha256=3nF-re2fb0hgU5CncYygnkS2A0ZEob1HG5YBLSS5xSY,11
+firefalcon-0.0.3.dist-info/RECORD,,
