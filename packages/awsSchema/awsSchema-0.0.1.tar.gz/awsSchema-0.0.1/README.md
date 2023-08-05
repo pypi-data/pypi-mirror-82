@@ -1,0 +1,91 @@
+# AWS_SCHEMA
+> dataclass for aws dictionaries
+
+
+This library aims to parse aws dictionaries and json strings into dataclass objects
+
+## Install
+
+`pip install awsSchema`
+
+## How to use
+
+extract data from aws classes eg apigateway lambda input/output
+this library uses jsondataclass, and dataclass
+
+```python
+from awsSchema.apigateway import Response, Event
+```
+
+```python
+dummyEvent = { "message": "Hello me!", "input": { "resource": "/{proxy+}", "path": "/hello/world", "httpMethod": "POST", "headers": { "Accept": "*/*", "Accept-Encoding": "gzip, deflate", "cache-control": "no-cache", "CloudFront-Forwarded-Proto": "https", "CloudFront-Is-Desktop-Viewer": "true", "CloudFront-Is-Mobile-Viewer": "False", "CloudFront-Is-SmartTV-Viewer": "False", "CloudFront-Is-Tablet-Viewer": "False", "CloudFront-Viewer-Country": "US", "Content-Type": "application/json", "headerName": "headerValue", "Host": "gy415nuibc.execute-api.us-east-1.amazonaws.com", "Postman-Token": "9f583ef0-ed83-4a38-aef3-eb9ce3f7a57f", "User-Agent": "PostmanRuntime/2.4.5", "Via": "1.1 d98420743a69852491bbdea73f7680bd.cloudfront.net (CloudFront)", "X-Amz-Cf-Id": "pn-PWIJc6thYnZm5P0NMgOUglL1DYtl0gdeJky8tqsg8iS_sgsKD1A==", "X-Forwarded-For": "54.240.196.186, 54.182.214.83", "X-Forwarded-Port": "443", "X-Forwarded-Proto": "https" }, "multiValueHeaders":{ 'Accept':[ "*/*" ], 'Accept-Encoding':[ "gzip, deflate" ], 'cache-control':[ "no-cache" ], 'CloudFront-Forwarded-Proto':[ "https" ], 'CloudFront-Is-Desktop-Viewer':[ "true" ], 'CloudFront-Is-Mobile-Viewer':[ "False" ], 'CloudFront-Is-SmartTV-Viewer':[ "False" ], 'CloudFront-Is-Tablet-Viewer':[ "False" ], 'CloudFront-Viewer-Country':[ "US" ], '':[ "" ], 'Content-Type':[ "application/json" ], 'headerName':[ "headerValue" ], 'Host':[ "gy415nuibc.execute-api.us-east-1.amazonaws.com" ], 'Postman-Token':[ "9f583ef0-ed83-4a38-aef3-eb9ce3f7a57f" ], 'User-Agent':[ "PostmanRuntime/2.4.5" ], 'Via':[ "1.1 d98420743a69852491bbdea73f7680bd.cloudfront.net (CloudFront)" ], 'X-Amz-Cf-Id':[ "pn-PWIJc6thYnZm5P0NMgOUglL1DYtl0gdeJky8tqsg8iS_sgsKD1A==" ], 'X-Forwarded-For':[ "54.240.196.186, 54.182.214.83" ], 'X-Forwarded-Port':[ "443" ], 'X-Forwarded-Proto':[ "https" ] }, "queryStringParameters": { "name": "me", "multivalueName": "me" }, "multiValueQueryStringParameters":{ "name":[ "me" ], "multivalueName":[ "you", "me" ] }, "pathParameters": { "proxy": "hello/world" }, "stageVariables": { "stageVariableName": "stageVariableValue" }, "requestContext": { "accountId": "12345678912", "resourceId": "roq9wj", "stage": "testStage", "requestId": "deef4878-7910-11e6-8f14-25afc3e9ae33", "identity": { "cognitoIdentityPoolId": None, "accountId": None, "cognitoIdentityId": None, "caller": None, "apiKey": None, "sourceIp": "192.168.196.186", "cognitoAuthenticationType": None, "cognitoAuthenticationProvider": None, "userArn": None, "userAgent": "PostmanRuntime/2.4.5", "user": None }, "resourcePath": "/{proxy+}", "httpMethod": "POST", "apiId": "gy415nuibc" }, "body": "{\r\n\t\"a\": 1\r\n}", "isBase64Encoded": False } }
+event = Event.from_dict(dummyEvent['input'])
+event
+```
+
+
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    /usr/local/Caskroom/miniconda/base/envs/python38/lib/python3.8/site-packages/IPython/core/formatters.py in __call__(self, obj)
+        700                 type_pprinters=self.type_printers,
+        701                 deferred_pprinters=self.deferred_printers)
+    --> 702             printer.pretty(obj)
+        703             printer.flush()
+        704             return stream.getvalue()
+
+
+    /usr/local/Caskroom/miniconda/base/envs/python38/lib/python3.8/site-packages/IPython/lib/pretty.py in pretty(self, obj)
+        392                         if cls is not object \
+        393                                 and callable(cls.__dict__.get('__repr__')):
+    --> 394                             return _repr_pprint(obj, self, cycle)
+        395 
+        396             return _default_pprint(obj, self, cycle)
+
+
+    /usr/local/Caskroom/miniconda/base/envs/python38/lib/python3.8/site-packages/IPython/lib/pretty.py in _repr_pprint(obj, p, cycle)
+        682     """A pprint that just redirects to the normal repr function."""
+        683     # Find newlines and replace them with p.break_()
+    --> 684     output = repr(obj)
+        685     lines = output.splitlines()
+        686     with p.group():
+
+
+    TypeError: __repr__ returned non-string (type dict)
+
+
+```python
+event.getBody()
+```
+
+
+
+
+    {'a': 1}
+
+
+
+```python
+Response.fromDict({})
+```
+
+
+    ---------------------------------------------------------------------------
+
+    KeyError                                  Traceback (most recent call last)
+
+    <ipython-input-5-0b232cfd7ab6> in <module>
+    ----> 1 Response.fromDict({})
+    
+
+    ~/pip/awsSchema/awsSchema/apigateway.py in fromDict(cls, dictInput)
+         25       dictInput should follow apigateway proxy integration
+         26     '''
+    ---> 27     body = dictInput.pop('body')
+         28     return cls(
+         29       body = json.loads(body),
+
+
+    KeyError: 'body'
+
