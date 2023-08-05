@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: compare-date-range
+Version: 0.0.1
+Summary: Compare two date ranges to return overlap information
+Home-page: https://github.com/mattwalshdev/compare_date_range
+Author: Matt Walsh
+Author-email: git@mattwalsh.dev
+License: MIT
+Description: # Compare Date Range
+        TODO - Complete this readme
+Keywords: date datetime time range compare overlap
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
