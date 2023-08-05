@@ -1,0 +1,5 @@
+pyparsing>=2.0.3
+asset
+
+[Duration]
+python-dateutil>=2.8.0
