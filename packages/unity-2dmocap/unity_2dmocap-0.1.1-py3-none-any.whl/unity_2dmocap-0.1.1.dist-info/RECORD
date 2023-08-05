@@ -1,0 +1,11 @@
+mocap2d/2dmocap-edit.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mocap2d/__init__.py,sha256=Z9NfhdKh8H6UTZSC4K3jrDcESZoyzzKsGIde8xHtiF0,95
+mocap2d/detect.py,sha256=_dA-RuXM7CYFFPatDZpvvD6EWdZbQL-uspvakhXRoP0,5036
+mocap2d/editor.py,sha256=0QfYFHjAg1m2gx-jfjVPEu0OdYTTJkTHKTP-Yv7HU7Q,3673
+mocap2d/mocap2d.py,sha256=2B5JOuEB-9DeUbYpcFpi4U45OuJTAv85om7OkYp3byY,2764
+unity_2dmocap-0.1.1.dist-info/LICENSE,sha256=-f1SD2X5hHA1tAz32uuapizh5jb5e3qPIDv-r2QyFxs,1086
+unity_2dmocap-0.1.1.dist-info/METADATA,sha256=InZbPKh0wAEPwi-E_L3Ukg1dyJqxAqVA24bTUVqook0,2941
+unity_2dmocap-0.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+unity_2dmocap-0.1.1.dist-info/entry_points.txt,sha256=g1GRaH6qnY3ys1mPzr3LJxq3lCnoJErgxX2m9qZZ1KY,90
+unity_2dmocap-0.1.1.dist-info/top_level.txt,sha256=Vp16ewEznBZ3wNkFWrPQR1OUkhv9pWoC3za_49FFPeM,8
+unity_2dmocap-0.1.1.dist-info/RECORD,,
