@@ -1,0 +1,9 @@
+certbot_dns_standalone/__init__.py,sha256=6v8RC-QZbfwU2v07FS9kvpxvQV0ucSG6brc-L2ooOdM,1928
+certbot_dns_standalone/dns_standalone.py,sha256=qokNPwyr8DlDHIsIRi7WyMNK4wBCkRLCbMcLre4SbHM,3966
+certbot_dns_standalone/dns_standalone_test.py,sha256=jxtoAFRwPL7GPfELRFOK3Jop9U4Rkjl8KX1ChRg8QZU,800
+certbot_dns_standalone-1.0.3.dist-info/LICENSE.txt,sha256=LMXecVrlqXbwhvukkwiAyeQhkUFz_IURG_9RTUdXEj8,10786
+certbot_dns_standalone-1.0.3.dist-info/METADATA,sha256=mxwU0XfQEMcrQGOBZx8D5FZRU3IgJz96tR-EItIjNzo,4653
+certbot_dns_standalone-1.0.3.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+certbot_dns_standalone-1.0.3.dist-info/entry_points.txt,sha256=jaAuj1h_3BaWPNzUJpCuaJbLExAf_9v8zh3qnYOIjOo,88
+certbot_dns_standalone-1.0.3.dist-info/top_level.txt,sha256=94xldcxG-FxMOSKW0-nfu57-YnIhEEfW4sn3BIOTinQ,23
+certbot_dns_standalone-1.0.3.dist-info/RECORD,,
