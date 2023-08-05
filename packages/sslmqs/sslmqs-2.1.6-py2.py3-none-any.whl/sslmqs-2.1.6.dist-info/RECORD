@@ -1,0 +1,10 @@
+sslmqs/__init__.py,sha256=cMNjT25IdqdHlyirNQ_285ps9gV4bQ24S6DPPNp58s8,46
+sslmqs/mqs.py,sha256=5xEIOdsNaWtLWsZruIhM7l8P5-F-qpiRCdy6QmJCrK4,3860
+sslmqs/mqs_async.py,sha256=iomgH--HViXw-73djmHJGN7QJHUHpnEs_ShP_UY7G5s,8857
+sslmqs/retry.py,sha256=sIhMXIe5l7fdXvT17gjcT-68IrtMDHutDEaICC2VWMM,1796
+sslmqs-2.1.6.dist-info/DESCRIPTION.rst,sha256=hbbIzKgfgoBp8ExUNvy4kBggZgm-AYMu86MenP9EpIg,861
+sslmqs-2.1.6.dist-info/METADATA,sha256=qEVmmJJO4FAVXeiuM4ZBU3xtSbhjmQ5WCDA91iuFSng,1250
+sslmqs-2.1.6.dist-info/RECORD,,
+sslmqs-2.1.6.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+sslmqs-2.1.6.dist-info/metadata.json,sha256=LyTufZtuzBqe8F_0TsHmkHsqv-C4jDDRuaZNN5lkAM0,615
+sslmqs-2.1.6.dist-info/top_level.txt,sha256=4zlhR4Y9AMbkHMn_-i9LrY7_1SXi_ZPLmy3v7_VaQ54,7
