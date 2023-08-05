@@ -1,0 +1,8 @@
+README.md
+setup.py
+sulla/__init__.py
+sulla.egg-info/PKG-INFO
+sulla.egg-info/SOURCES.txt
+sulla.egg-info/dependency_links.txt
+sulla.egg-info/not-zip-safe
+sulla.egg-info/top_level.txt
