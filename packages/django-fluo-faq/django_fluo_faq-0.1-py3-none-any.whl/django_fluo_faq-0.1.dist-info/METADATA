@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: django-fluo-faq
+Version: 0.1
+Summary: Simple django faq application
+Home-page: https://bitbucket.org/rsalmaso/django-fluo-faq
+Author: Raffaele Salmaso
+Author-email: raffaele@salmaso.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+Requires-Dist: django-fluo-posts
+
+# django-fluo-faq #
+
+A simple faq system for django.
+
+
+## Install ##
+
+Add `faq.apps.FaqConfig` into your `INSTALLED_APPS`
+
+```
+#!python
+INSTALLED_APPS = [
+    ...
+    "faq.apps.FaqConfig",
+    ...
+]
+```
+
+## CHANGES ##
+
+
+0.1.0
+=====
+
+
+* initial release
+
+
