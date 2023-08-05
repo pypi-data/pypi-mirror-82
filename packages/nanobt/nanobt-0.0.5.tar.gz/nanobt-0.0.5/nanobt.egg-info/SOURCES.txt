@@ -1,0 +1,12 @@
+README.md
+nanobt
+setup.py
+nanobt/__init__.py
+nanobt/backtesting.py
+nanobt/trades.py
+nanobt.egg-info/PKG-INFO
+nanobt.egg-info/SOURCES.txt
+nanobt.egg-info/dependency_links.txt
+nanobt.egg-info/top_level.txt
+nanobt/test/__init__.py
+nanobt/test/buy_and_hold.py
