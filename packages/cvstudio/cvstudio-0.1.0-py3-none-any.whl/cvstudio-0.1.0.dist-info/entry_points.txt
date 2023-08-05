@@ -1,0 +1,3 @@
+[console_scripts]
+cvstudio=cvstudio.__main__:main
+
