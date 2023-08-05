@@ -1,0 +1,6 @@
+[console_scripts]
+getFeatures = genetable.geneTable:main
+getgenomes = genetable.getgenomes:main
+lookgenomes = genetable.lookgenomes:main
+looksra = genetable.lookSRA:main
+
