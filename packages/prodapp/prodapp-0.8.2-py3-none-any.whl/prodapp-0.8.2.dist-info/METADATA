@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: prodapp
+Version: 0.8.2
+Summary: Score yourself.
+Home-page: https://github.com/OverLordGoldDragon/prodapp
+Author: OverLordGoldDragon
+Author-email: 16495490+OverLordGoldDragon@users.noreply.github.com
+License: MIT
+Keywords: productivity productivity-booster productivity-timer python-dash python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: dash
+
+<p align="center"><img src="https://media.giphy.com/media/PY0vCb69zRbH6hsIgh/giphy.gif" width="200"></p>
+
+# ProdApp
+
+[![PyPI version](https://badge.fury.io/py/prodapp.svg)](https://badge.fury.io/py/prodapp)
+
+[![Watch the video](https://i.imgur.com/0pIxYK9.png)](https://youtu.be/PY1nIAvu0vc)
+
+**Demo** - click above
+
+## Features
+
+### Self-scoring
+
+ - **+5**: **poor productivity** -- didn't get much done
+ - **+10**: **fair productivity** -- normal work
+ - **+15**: **excellent productivity** -- laser-focused shredding of workload
+
+### Countdown timer
+
+ - Bleeps at 0 -> give youreslf a score
+ - Change values with click + typing
+ - Pausable
+ - Defaults to 10 minute intervals, configurable
+
+
+### Saved progress: images
+
+Swap between daily progress pics with a button press for easy comparison
+
+<img src="https://media.giphy.com/media/ilHKB0sNZqpKCXdDkg/giphy.gif" width="550">
+
+### Saved progress: csv
+
+Recover/edit data for reference or further processing
+
+<img src="https://media.giphy.com/media/JnIuLJIml94oB6XEFS/giphy.gif" width="500">
+
+## Installation
+
+Use [.exe installer](https://github.com/OverLordGoldDragon/prodapp/releases/tag/0.8.1). For the Python package (not needed for `.exe`), `pip install prodapp`
+
+## Usage
+
+### Exe
+
+Double-click shortcut
+
+### Command Line
+
+```
+cd path/to/prodapp
+python app.py
+```
+
+Open http://127.0.0.1:8050/ in browser
+
+### Configs
+
+Edit [prodapp/config.ini](prodapp/config.ini)
+
+### Misc
+
+ 1. **Edit data**: open `data/<current_date>.csv`, edit, save. Make sure the app is closed in the meantime.
+ 2. **Edit images**: can't. Must make new save.
+ 3. **Save data/image**: add productivity (+5/10/15), saves automatically.
+ 4. **Change timer reset value**: either via configs (requires app restart), or: first click reset, then change time value (e.g. to 12:00); that'll be the new reset.
+
+
+## To-do
+
+The app is "finished"; I don't intend to do much further, but I welcome contributors. A list that I might sometime work on, or invite others to:
+
+  - [x] `prodapp.exe`
+  - [ ] To-do list under the red orb ([example](https://youtu.be/GwgSWPxLYlM); this is original ProdApp written in electron.js)
+  - [ ] Edit values for _other_ (non-current) hours straight from application, including subtracting values
+  - [ ] Make the orb functional; change color, size, rotation rate depending on total "productivity" for the day
+
+
+
