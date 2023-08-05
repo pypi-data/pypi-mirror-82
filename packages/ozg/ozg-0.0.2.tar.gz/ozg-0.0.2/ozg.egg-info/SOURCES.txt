@@ -1,0 +1,7 @@
+README.md
+setup.py
+ozg.egg-info/PKG-INFO
+ozg.egg-info/SOURCES.txt
+ozg.egg-info/dependency_links.txt
+ozg.egg-info/requires.txt
+ozg.egg-info/top_level.txt
