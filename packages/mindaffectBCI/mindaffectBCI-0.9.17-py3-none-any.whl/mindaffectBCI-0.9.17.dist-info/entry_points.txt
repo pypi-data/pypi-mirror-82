@@ -1,0 +1,3 @@
+[console_scripts]
+online_bci = mindaffectBCI.online_bci
+
