@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "borisat"
+version = "0.1.0"
+description = "a python library for retrieving company public data in thailand. It has its own public database for caching, so, it is really fast, smart, and save lot of time and energy."
+authors = ["Nutchanon Ninyawee <nutchanon@codustry.com>"]
+license = "ISC"
+
+[tool.poetry.dependencies]
+# for 3.9, wait lxml to has wheel
+python = "^3.8"
+pydantic = "^1.6.1"
+stringcase = "^1.2.0"
+loguru = "^0.5.3"
+zeep = "^3.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
