@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+greasyfork_archive.py
+mypy.ini
+requirements.txt
+setup.py
+greasyfork_archive.egg-info/PKG-INFO
+greasyfork_archive.egg-info/SOURCES.txt
+greasyfork_archive.egg-info/dependency_links.txt
+greasyfork_archive.egg-info/entry_points.txt
+greasyfork_archive.egg-info/requires.txt
+greasyfork_archive.egg-info/top_level.txt
+tests/test_parser.py
+tests/vcr_cassettes/response.yaml

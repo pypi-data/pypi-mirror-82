@@ -1,0 +1,3 @@
+[console_scripts]
+greasyfork_archive = greasyfork_archive:main
+
