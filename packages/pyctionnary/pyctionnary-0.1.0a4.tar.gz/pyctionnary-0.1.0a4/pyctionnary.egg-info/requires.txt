@@ -1,0 +1,5 @@
+Flask-JSGlue
+eventlet
+flask
+flask-socketio
+flask-wtf
