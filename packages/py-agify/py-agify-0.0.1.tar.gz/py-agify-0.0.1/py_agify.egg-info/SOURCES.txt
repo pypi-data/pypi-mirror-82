@@ -1,0 +1,9 @@
+README.md
+setup.py
+py_agify.egg-info/PKG-INFO
+py_agify.egg-info/SOURCES.txt
+py_agify.egg-info/dependency_links.txt
+py_agify.egg-info/top_level.txt
+pyagify/__init__.py
+pyagify/agify.py
+pyagify/exceptions.py
