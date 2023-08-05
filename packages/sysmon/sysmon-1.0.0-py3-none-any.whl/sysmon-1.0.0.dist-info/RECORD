@@ -1,0 +1,10 @@
+sysmon/__init__.py,sha256=sonTc6we7ixA5JcAaLANVgifUbxzoJJZPJ-q7k1TUgg,33
+sysmon/__main__.py,sha256=yPKLU20ySHlIplMHFilegg32J5sHJxVIwU06ZBb3tF4,33
+sysmon/gather_data.py,sha256=YS-Z6ugY_8GbuG-AqluBbF8ljWzsR1SwXCLZy7bhw54,15522
+sysmon/sysmon.py,sha256=xxyA8iahDfHxgfSTQOf1Y1kpl_PQT3TIT_XjMN5lp8w,27625
+sysmon/sysmonitor.ui,sha256=73L_d5ZS4s2zMVHdczApQOrlEuI_pRyCbhrc39uC9fc,10570
+sysmon-1.0.0.dist-info/METADATA,sha256=3gk66IOhvFdNDwz0ReGwRzCOYDgbk4cpQMtNH0NY03Y,4322
+sysmon-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sysmon-1.0.0.dist-info/entry_points.txt,sha256=0TP4I2BWCmZAyG_JZKWVhOOJ73hGMXWABZI31msgo6U,47
+sysmon-1.0.0.dist-info/top_level.txt,sha256=KyQTqeYMwkzuX-Xt22J7mkWV1rxvjhI8tEOUvlG1_Cg,7
+sysmon-1.0.0.dist-info/RECORD,,
