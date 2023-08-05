@@ -1,0 +1,10 @@
+kvfile/VERSION,sha256=jiZ3bQj3r0XJlhKzpNPDLX3RDMEc5gZCka7uGBTIiSI,6
+kvfile/__init__.py,sha256=TvhPJ2dSYn7jusYOES2jwNIgrl8Z0OsBKPIupTrzV6g,60
+kvfile/cached.py,sha256=ILVJHSvspKqSQaOw2iK7P1xjx9zIIILXTGR8mHUcXiU,922
+kvfile/kvfile.py,sha256=LcBZRJAcqcjrWuiHkuE5-hbTlgBCvPwI33pss2CSy8c,5448
+kvfile/serializer.py,sha256=YtK6zs9VDpv0KC5z10BRTmgknGz0daEquLMPd8M_19k,2946
+kvfile-0.0.9.dist-info/LICENSE.md,sha256=8Eca5jQyHC2rtAMP2F2Umvi3TjNtV3JXQJ9mSOXeeKI,1077
+kvfile-0.0.9.dist-info/METADATA,sha256=QuYX6e1GUJFe_G7cVMbux3fKbui6Z9dOUmcMNWstsRY,3876
+kvfile-0.0.9.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+kvfile-0.0.9.dist-info/top_level.txt,sha256=Ssq0PxA4EcSeBNtrPeG9QGg6fjPDGuTJH61vKsuXSyU,7
+kvfile-0.0.9.dist-info/RECORD,,
