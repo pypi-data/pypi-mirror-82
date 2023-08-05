@@ -1,0 +1,20 @@
+name: seaflux-dev
+channels:
+  - defaults
+dependencies:
+  - python==3.7
+  - pip
+  - pytest-cov
+  - flake8
+  - xarray
+  - black==19.10b0  # this is NB, otherwise will fail
+  - isort
+  - pandas
+  - numpy
+  - pip:
+    - wheel
+    - pre-commit
+    - mkdocs
+    - pooch
+
+
