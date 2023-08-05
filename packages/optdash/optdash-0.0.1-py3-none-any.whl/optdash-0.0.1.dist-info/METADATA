@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: optdash
+Version: 0.0.1
+Summary: A third-party dashboard for optuna.
+Home-page: UNKNOWN
+Author: Yusuke Tsuzuku
+Author-email: ytsmiling@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: optuna
+Requires-Dist: sklearn
+Requires-Dist: sqlalchemy
+Provides-Extra: checking
+Requires-Dist: black ; extra == 'checking'
+Requires-Dist: mypy ; extra == 'checking'
+Requires-Dist: flake8 ; extra == 'checking'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Provides-Extra: mysql
+Provides-Extra: postgres
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-dependency ; extra == 'test'
+
+# optdash
+A third-party dashboard for optuna.
+
+## Install from source
+
+```shell script
+cd optdash/frontend
+npm i
+npm run build
+cd ../../
+python -m pip install .
+```
+
+
