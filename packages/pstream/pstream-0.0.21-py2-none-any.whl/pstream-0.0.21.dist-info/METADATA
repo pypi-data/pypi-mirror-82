@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pstream
+Version: 0.0.21
+Summary: Provides a Stream and AsyncStream for composing fluent lazily evaluated, stream fusion, iterators.
+Home-page: https://github.com/christopher-henderson/pstream
+Author: Christopher Henderson
+Author-email: chris@chenderson.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7, >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: future (>=0.18.2)
+
+# pstream
+
+[![PyPI version](https://img.shields.io/pypi/v/pstream)](https://pypi.org/project/pstream/) [![PyPI download total](https://img.shields.io/pypi/dm/pstream)](https://pypi.python.org/pypi/pstream/) [![Build Status](https://travis-ci.org/christopher-henderson/pstream.svg?branch=main)](https://travis-ci.org/christopher-henderson/pstream) [![codecov](https://codecov.io/gh/christopher-henderson/pstream/branch/main/graph/badge.svg)](https://codecov.io/gh/christopher-henderson/pstream) [![License](https://img.shields.io/pypi/l/pstream)](https://github.com/christopher-henderson/pstream/blob/main/LICENSE)
+
+
+A Python port of the more useful parts of Rust [std::iter](https://doc.rust-lang.org/std/iter/index.html#structs) API.
+
+
+
