@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: marblingpy
+Version: 0.9.1
+Summary: generate a randomized mathematical marbling image
+Home-page: https://taktpixel.co.jp
+Author: Taktpixel Co., Ltd.
+Author-email: contact@taktpixel.co.jp
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: numpy (==1.19.2)
+Requires-Dist: opencv-python (==4.4.0.44)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3) ; extra == 'dev'
+
+UNKNOWN
+
+
