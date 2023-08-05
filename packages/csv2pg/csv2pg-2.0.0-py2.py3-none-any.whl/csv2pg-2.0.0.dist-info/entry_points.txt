@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        csv2pg=bin.csv2pg:cli
+    
