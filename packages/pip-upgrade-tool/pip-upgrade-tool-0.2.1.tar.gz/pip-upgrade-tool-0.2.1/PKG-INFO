@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pip-upgrade-tool
+Version: 0.2.1
+Summary: An easy tool for upgrading all of your packages while not breaking dependencies
+Home-page: https://github.com/realiti4/pip-upgrade
+Author: Onur Cetinkol
+Author-email: realiti44@gmail.com
+License: UNKNOWN
+Description: # pip-upgrade
+        An easy tool for upgrading all of your packages while not breaking dependencies
+        
+        ## Installation
+        
+        	pip install pip-upgrade-tool
+        	
+        or	
+        
+            git clone https://github.com/realiti4/pip-upgrade.git
+            cd pip-upgrade
+            pip install .
+        
+        ### version 0.2.0
+        Just run 'pip-upgrade' in your terminal while virtualenv is active.
+        
+            $ pip-upgrade
+            
+        #### TODO - known issues
+        Let's say x package holding y. They got an update at the same time and now x package requires y at a higher minimum version than it was holding it for. y packege won't be upgraded unless 'pip-upgrade' is run twice.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
