@@ -1,0 +1,8 @@
+README.txt
+setup.py
+khrplot/__init__.py
+khrplot.egg-info/PKG-INFO
+khrplot.egg-info/SOURCES.txt
+khrplot.egg-info/dependency_links.txt
+khrplot.egg-info/requires.txt
+khrplot.egg-info/top_level.txt
