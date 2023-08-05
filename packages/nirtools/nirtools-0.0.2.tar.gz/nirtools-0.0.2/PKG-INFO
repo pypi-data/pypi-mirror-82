@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: nirtools
+Version: 0.0.2
+Summary: Some small tool functions for nir
+Home-page: https://github.com/crystina-z/nirtools
+Author: Crystina
+Author-email: xzhangbx@gmail.com
+License: UNKNOWN
+Description: # nir-tools
+        tools that frequently used in neural ir projects
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
