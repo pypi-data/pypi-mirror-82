@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block header %}
+Timerboard
+{% if perms.django_eveonline_timerboard.add_evetimer %}
+<button class="pull-right btn btn-success" data-toggle="modal" data-target="#addTimerModal">Add Timer</button>
+{% endif %}
+{% endblock %}
+
+{% block description %}
+View Timers
+
+{% endblock %}
+
+{% block content %}
+
+<div class="box">
+    <div class="box-body">
+        <table class="table table-bordered table-hover text-center">
+            <thead>
+                <th scope="col">Countdown</th>
+                <th scope="col">Type</th>
+                <th class="hidden-xs" scope="col">Date</th>
+                <th class="hidden-xs" scope="col">Timer</th>
+                <th class="hidden-xs" scope="col">Name</th>
+                <th class="hidden-xs" scope="col">Actions</th>
+            </thead>
+            <tbody>
+                {% for evetimer in timers %}
+                <tr>
+                    <td data-order="{{evetimer.timer}}" class="col-lg-2 col-xs-6">
+                        <div id="{{evetimer.pk}}" class="countdown">
+                            <p class="date" hidden>{{evetimer.timer.isoformat}}</p>
+                            <p class="counter"><i class="fa fa-spinner fa-spin"></i></p>
+                        </div>
+                    </td>
+                    <td class="col-lg-2 col-xs-6"><span class="label label-{{evetimer.type.color}}">{{evetimer.type.name}}</span></td>
+                    <td class="col-lg-1 hidden-xs">{{evetimer.timer |date:'Y-m-d'}}</td>
+                    <td class="col-lg-1 hidden-xs">{{evetimer.timer |date:'H:i:s'}}</td>
+                    <td class="col-lg-2 hidden-xs">{{evetimer.name}}</td>
+                    <td class="col-lg-2 hidden-xs text-center">
+                    {% if perms.django_eveonline_timerboard.delete_evetimer %}
+                        <a class="btn btn-danger btn-block" href="{% url 'django-eveonline-timerboard-timer-remove' evetimer.pk %}">
+                            <i class="fa fa-times text-center"></i>
+                        </a>
+                    {% endif %}
+                    </td>
+                    
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<form method="POST" action="{% url 'django-eveonline-timerboard-timer-add' %}">
+    <div class="modal fade col-md-12" id="addTimerModal" data-backdrop="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Create Timer</h4>
+                </div>
+
+                <div class="modal-body">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="timerName">Identifier</label>
+                        <input type="text" class="form-control" id="timerName" name="name"
+                            placeholder="P2 M1 - Final Timer" maxlength="64" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="timerLocation">Location</label>
+                        <input type="text" class="form-control" id="timerLocation" name="location" placeholder="Jita"
+                            maxlength="32" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="type">Type</label>
+                        <select class="form-control" id="type" name="type" required>
+                            {% for type in types %}
+                            <option value="{{type.pk}}">{{type.name}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="days">Days</label>
+                        <input class="form-control" id="days" type="number" value="0" name="days" required>
+                        <br>
+                        <label max="24" min="0" for="hours">Hours</label>
+                        <input class="form-control" id="hours" type="number" value="0" name="hours" required>
+                        <br>
+                        <label max="60" min="0" for="minutes">Minutes</label>
+                        <input class="form-control" id="minutes" type="number" value="0" name="minutes" required>
+                        <br>
+                        <label max="60" min="0" for="seconds">Seconds</label>
+                        <input class="form-control" id="seconds" type="number" value="0" name="seconds" required>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    setInterval(function () {
+        var countdowns = document.getElementsByClassName('countdown')
+        for (i = 0; i < countdowns.length; i++) {
+            // pull date
+            var elements = countdowns[i].getElementsByTagName('*')
+            var date = new Date(elements[0].innerText)
+            var now = new Date().getTime()
+            var distance = date - now
+            // calculate times
+            sign = Math.sign(distance)
+            distance = Math.abs(distance)
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            // display result
+            elements[1].innerHTML = (sign < 0 ? "-" : "") + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+        }
+    }, 1000);
+
+</script>
+
+<script>
+    $(function () {
+        $('table').DataTable({
+            'paging': false,
+            'lengthChange': false,
+            'searching': false,
+            'ordering': true,
+            'info': false,
+            'autoWidth': false,
+            'order': [[1, 'asc']],
+            'columnDefs': [
+                { 'orderable': false, 'targets': 0 }
+            ]
+        })
+    })
+</script>
+{% endblock %}
