@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: swipe
+Version: 0.0.2
+Summary: There's a bit of an air of mystery around this project...
+Home-page: https://github.com/thorwhalen/swipe
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# swipe
+
+Swipe through data once, with a comb that will pick up the points you're looking for.
+
+Think single pass search.
+
+Think k nearest neighbors, but brute force, but with multiple targets.
+
+
+
+
