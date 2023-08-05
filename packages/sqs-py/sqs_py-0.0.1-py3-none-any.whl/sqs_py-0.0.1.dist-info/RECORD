@@ -1,0 +1,9 @@
+sqs_py/__init__.py,sha256=zx-RW_NrBXKvhWJaTuZzUHCaTqXAb1fLl66me2ATxRo,62
+sqs_py/_base.py,sha256=FADPzCf4WA4fOdNjmv8J2YIVkuQuZEYgkouGO10RdPQ,1463
+sqs_py/about.py,sha256=ePYWk3OEu7XoYhhCPFLEDF0YkQrSC7H5RiZA8HYgDWU,281
+sqs_py/consumer.py,sha256=YIcE7PS2U9eY-2wfZCnEM52uwhZUKS7NPgt-BnTJTSc,5426
+sqs_py/producer.py,sha256=FbSwZanaTtdSAu9VqRlOiANw2LWRKFgZUnRabtJC_1U,1362
+sqs_py-0.0.1.dist-info/METADATA,sha256=9S66Ittmq7ssufMvfsNmtjiRB4zizyzvJeDPM_0BIDs,1133
+sqs_py-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sqs_py-0.0.1.dist-info/top_level.txt,sha256=ZoSjIVUiBrTpYC7IHlaLq6KYC8RoFLR-y7TeSHxKKFo,7
+sqs_py-0.0.1.dist-info/RECORD,,
