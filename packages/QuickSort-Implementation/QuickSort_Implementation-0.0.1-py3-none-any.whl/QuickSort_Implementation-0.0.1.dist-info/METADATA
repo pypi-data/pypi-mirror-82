@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: QuickSort-Implementation
+Version: 0.0.1
+Summary: Sorting a list of numbers with quicksort
+Home-page: UNKNOWN
+Author: Shashank Saurav
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+
+# Sorting numbers using Quicksort Algorithm
+
+This is an implemenatation of quicksort algorithm which sort a list of numbers in ascending order. Avgerage time complexity of the algorithm is O(nlogn).
+
+
