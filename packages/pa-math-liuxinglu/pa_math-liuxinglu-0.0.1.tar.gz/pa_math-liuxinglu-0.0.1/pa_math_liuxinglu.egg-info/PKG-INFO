@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pa-math-liuxinglu
+Version: 0.0.1
+Summary: 数学部测试成绩转换专用工具
+Home-page: https://github.com/liuxinglu/pa_math
+Author: liuxinglu
+Author-email: liuxinglu675@sina.com
+License: MIT
+Description: xlsx2json_2(file)
+        用来将指定的excel按sheet转为json，并存放在和excel同级的json文件夹中
+        
+        jsonPath2xlsx(path)
+        指定json文件夹并转为excel，将文件夹中的json文件以sheet页的方式保存在excel中
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
