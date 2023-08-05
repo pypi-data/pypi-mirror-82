@@ -1,0 +1,10 @@
+pstream/__init__.py,sha256=0TOEI_Oamdv-iXrIZkUBvmhakxoO-BKJy7yrm7Ct0O8,1178
+pstream/errors.py,sha256=Saj_KSw8xu_KyTfXhIYcrtGdnJjs_Yxbc9Npfrjksqo,507
+pstream/stream.py,sha256=M467PzxbxcKl4vM5Nq-zOngYbRZarn-pKxaIB0_EAkA,14923
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/stream_tests.py,sha256=CH3Hf1dkHEShXh9FJaDVsakek_G1xwb7UCSnW7KTuuc,10476
+pstream-0.0.1.dist-info/LICENSE,sha256=N-263SG5zwDuw-27GlaBSDqtrR570Qetl1oJLwizdmQ,1078
+pstream-0.0.1.dist-info/METADATA,sha256=0NjspVO3BL4oeCJQrWs2ZG_6H9mV_vSUEIN9BTw5Tmw,1063
+pstream-0.0.1.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+pstream-0.0.1.dist-info/top_level.txt,sha256=fVNc-IdHEtH7_VZMEklxtN2iqoLoEd1fktVueAtyuOI,14
+pstream-0.0.1.dist-info/RECORD,,
