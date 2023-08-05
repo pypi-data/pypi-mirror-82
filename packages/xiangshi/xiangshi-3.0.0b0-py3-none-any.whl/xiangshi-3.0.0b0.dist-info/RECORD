@@ -1,0 +1,13 @@
+xiangshi/__init__.py,sha256=gp7rjJ1GdyPhjgeXiRIrY7YIRgPdnU-9F_jKnsAaJM8,835
+xiangshi/main.py,sha256=Dp8KypERpcTpOykfj8-zMkJEoYn2E-Re1W4f9AdDejQ,10703
+xiangshi/stoptext.txt,sha256=gbTvPDOJ9hDPL5ENQ18VU1j1a9YGP-20-wI31_TYSWo,5475
+xiangshi/weight.py,sha256=ejpZXg9QFAsV3Bc0IsERF8bnvUoAwMLpu4ArMC4U0Dw,9826
+xiangshi/fast/README.md,sha256=5IEsYGXCJXbG_uVptxEoQDZmNKiJRIGndQDsh5rSmug,2393
+xiangshi/fast/__init__.py,sha256=LL9lWbmq1ByGfKK8UHHOh8TTmvkIWhotAvIPMn5K_7s,253
+xiangshi/fast/main.py,sha256=cmNbagi3BTFYWvO7fG9b2pqLkCgCKUjK7Fc14Sgse4k,3565
+xiangshi/fast/stoptext.txt,sha256=u_xUT7JxB9C2ab8taSQHZcacn3LzPvPheH4F_Kglrps,4722
+xiangshi-3.0.0b0.dist-info/LICENSE,sha256=j-ayq9aET0_DWw_LnuSVEiD4FJVmihI2T8g8SiewpI8,1086
+xiangshi-3.0.0b0.dist-info/METADATA,sha256=P1-EqvzY5Taj0HOQAowF36OLzTGa8M-V7hjBN1ZQAC8,6049
+xiangshi-3.0.0b0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+xiangshi-3.0.0b0.dist-info/top_level.txt,sha256=-cyqkZYQJGROBPKHSae3F9g_MMVjfEUxoQUFFXapf7U,9
+xiangshi-3.0.0b0.dist-info/RECORD,,
