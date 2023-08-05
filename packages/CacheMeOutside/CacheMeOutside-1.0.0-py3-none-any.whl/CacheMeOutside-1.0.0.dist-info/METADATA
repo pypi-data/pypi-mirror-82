@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: CacheMeOutside
+Version: 1.0.0
+Summary: A simple library which wraps arbitrary functions with (optionally) persistent caching.
+Home-page: UNKNOWN
+Author: Jack McKeown
+Author-email: jackamckeown+cmo@gmail.com
+License: BSD
+Keywords: cache persistent simple
+Platform: UNKNOWN
+
+UNKNOWN
+
+
