@@ -1,0 +1,9 @@
+external-services:
+    msregistry: {type: "registry", login-server: "mcr.microsoft.com"}
+
+compute-targets:
+    azb-gpu-nds-baselines-tf23: {​... docker: "tf23"}​
+
+dockers:
+    tf23: {​registry: "msregistry", image: "azureml/onnxruntime:latest-cuda"}​
+
