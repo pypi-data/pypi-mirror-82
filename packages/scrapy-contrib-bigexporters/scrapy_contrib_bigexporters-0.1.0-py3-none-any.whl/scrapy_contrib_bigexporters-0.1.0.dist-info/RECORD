@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=djp3moGL5hrLP61csNaWENJzKL4YDwTc2hs-mKBSLVI,1096
+tests/testavro.py,sha256=57GZPtNpCZfdwL56my4zTL6xOkFxmeHeEgXDdJVjJSQ,1282
+tests/testparquet.py,sha256=5J4q7THXSli65OaibHY8Cna2pFVSGvh4M36syRZ70lE,1217
+zuinnote/__init__.py,sha256=djp3moGL5hrLP61csNaWENJzKL4YDwTc2hs-mKBSLVI,1096
+zuinnote/scrapy/__init__.py,sha256=djp3moGL5hrLP61csNaWENJzKL4YDwTc2hs-mKBSLVI,1096
+zuinnote/scrapy/contrib/__init__.py,sha256=djp3moGL5hrLP61csNaWENJzKL4YDwTc2hs-mKBSLVI,1096
+zuinnote/scrapy/contrib/bigexporters.py,sha256=YQaCPuLrZ6HG2l75PRkBY6Cg-JeqzdrZ4ww3BuYEmpQ,15403
+scrapy_contrib_bigexporters-0.1.0.dist-info/LICENSE,sha256=PrC0aaEFAXhbT2s8nDLxiXsqGXb743uHgm2zePrAOm8,1086
+scrapy_contrib_bigexporters-0.1.0.dist-info/METADATA,sha256=T09otYZ81bzdZAsOPy3h9swlU6f9FOFHzImsSQGYres,2053
+scrapy_contrib_bigexporters-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+scrapy_contrib_bigexporters-0.1.0.dist-info/top_level.txt,sha256=S9Xq1-_e3jmqT7i1ZrMAqHG1a-JlDCTf_dSY_pYCbFQ,15
+scrapy_contrib_bigexporters-0.1.0.dist-info/RECORD,,
