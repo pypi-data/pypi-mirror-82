@@ -1,0 +1,15 @@
+black
+check-manifest
+flake8
+flake8-docstrings
+isort
+matplotlib
+numpydoc
+pillow
+pre-commit
+pytest-cov
+pytest-sugar
+pytest<5.4
+sphinx>=2.4
+sphinx_bootstrap_theme
+sphinx_gallery>=0.6
