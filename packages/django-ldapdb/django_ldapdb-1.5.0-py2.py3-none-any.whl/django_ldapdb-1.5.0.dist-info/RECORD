@@ -1,0 +1,10 @@
+ldapdb/__init__.py,sha256=SSZy1yRqtQa-MryNc9rOxPrHCjPPzqeCMqrd44MTXZc,764
+ldapdb/router.py,sha256=clH87cGwNLJ-voYDm27k1cngiNAFR4zUkFldn8jhSpc,1396
+ldapdb/tests.py,sha256=9BGejqsaWKiYf-fDGj9OTwacdMvmlCkYI0V1Ybsp__o,10647
+ldapdb/version.py,sha256=p66oPbH9nWSQN77gO64_CqVL55FDLkDzLUopd88V7vA,397
+django_ldapdb-1.5.0.dist-info/AUTHORS,sha256=mSsC8Zt-z3s9Ep-a32S-iqxLjY5suX6GbJ10ykmwZAQ,2325
+django_ldapdb-1.5.0.dist-info/LICENSE,sha256=uAyPzMfWeh36DjGUfEybmKg_jGn1UC8O2nDRKREjtHQ,1332
+django_ldapdb-1.5.0.dist-info/METADATA,sha256=3Dz33QPM1OxLSjuTcTa8IO_Iy8J1Rgt8sdw5zVZz0Zo,9179
+django_ldapdb-1.5.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+django_ldapdb-1.5.0.dist-info/top_level.txt,sha256=IoCPWmYEw7LjWwV9tXHato0OeFx4VYZZFKxMNneFj90,7
+django_ldapdb-1.5.0.dist-info/RECORD,,
