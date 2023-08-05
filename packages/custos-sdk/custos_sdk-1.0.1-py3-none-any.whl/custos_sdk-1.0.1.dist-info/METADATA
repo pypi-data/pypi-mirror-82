@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: custos-sdk
+Version: 1.0.1
+Summary: Apache Custos Python  SDK
+Home-page: http://custos.com
+Author: Custos Developers
+Author-email: dev@airavata.apache.org
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Dist: google (==3.0.0)
+Requires-Dist: protobuf (==3.12.2)
+Requires-Dist: google-api-python-client (==1.10.0)
+Requires-Dist: googleapis-common-protos (==1.52.0)
+Requires-Dist: grpcio (==1.30.0)
+Requires-Dist: pyopenssl (==19.1.0)
+Requires-Dist: configparser (==5.0.0)
+Requires-Dist: requests (==2.13.0)
+Requires-Dist: requests-oauthlib (==0.7.0)
+Requires-Dist: urllib3 (==1.25.9)
+
+UNKNOWN
+
+
