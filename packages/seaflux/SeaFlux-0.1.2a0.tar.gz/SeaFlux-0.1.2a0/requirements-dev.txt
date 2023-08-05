@@ -1,0 +1,13 @@
+# core functionality
+numpy
+pandas
+xarray
+pooch
+
+# devlopment
+mkdocs
+isort
+black
+flake8
+pytest-cov
+wheel

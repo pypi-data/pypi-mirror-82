@@ -1,0 +1,5 @@
+# core functionality
+numpy
+pandas
+xarray
+pooch
