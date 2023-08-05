@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: MELKE
+Version: 1
+Summary: Extract entities and relations from BIO-text
+Home-page: https://github.com/im-na02/melke/
+License: MIT
+Keywords: bio,text,NER,entity,relation
+Platform: UNKNOWN
+Requires-Python: >=3
+
+You can read brief description of MELKE here: 
+https://github.com/im-na02/melke/
+
