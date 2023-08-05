@@ -1,0 +1,22 @@
+language: python
+dist: xenial
+python:
+    - 2.7
+    - 3.6
+    - 3.7
+    - 3.8
+addons:
+    apt:
+        packages:
+            - graphviz
+install:
+    - pip install coverage coverage-python-version coveralls flake8 -e .
+before_script:
+    - make lint
+script:
+    - coverage run tests.py
+    - coverage report -m --fail-under=100
+after_success:
+    - coveralls
+notifications:
+    email: false
