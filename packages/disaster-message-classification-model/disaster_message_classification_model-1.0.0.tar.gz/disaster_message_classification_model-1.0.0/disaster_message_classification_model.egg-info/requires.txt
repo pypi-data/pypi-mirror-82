@@ -1,0 +1,15 @@
+lightgbm
+matplotlib
+nltk
+numpy
+pandas
+poetry-version
+seaborn
+sklearn
+sqlalchemy
+
+[dev]
+black
+dephell
+nb-black
+pytest
