@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pyDoujinshiInfo/__init__.py
+pyDoujinshiInfo/api.py
+pyDoujinshiInfo/items.py
+pyDoujinshiInfo/paginator.py
+pyDoujinshiInfo/utils.py
+pyDoujinshiInfo.egg-info/PKG-INFO
+pyDoujinshiInfo.egg-info/SOURCES.txt
+pyDoujinshiInfo.egg-info/dependency_links.txt
+pyDoujinshiInfo.egg-info/requires.txt
+pyDoujinshiInfo.egg-info/top_level.txt
