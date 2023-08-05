@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: davincids
+Version: 0.1
+Summary: Library aims to provide implementations of core data structures, currently include Binary Search Tree.
+Home-page: https://github.com/swatgautam/davincids.git
+Author: Swatantra Kumar
+Author-email: sgautam96@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Data Strucutres,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
