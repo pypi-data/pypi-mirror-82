@@ -1,0 +1,148 @@
+{% extends "admin/base.html" %}
+{% load i18n static %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block content_base %}
+    {% if not is_popup %}
+    {# Header #}
+
+    {# Main Menu - MOBILE BAR #}
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true; mode: push">
+        <div class="uk-offcanvas-bar uk-background-primary-2">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-active">Applications</li>
+                
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                
+                <li class="uk-nav-header">Header</li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+
+                <li class="uk-nav-header">About</li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> About Preludian</a></li>
+
+
+                <li class="uk-nav-divider"></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: user"></span> Logout</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+        <div class="uk-background-primary-2 uk-text-bold uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
+            <div class="uk-visible@s">
+            </div>
+        </div>
+
+        <nav class="uk-background-primary uk-light" uk-navbar>
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle" uk-toggle="target: #offcanvas-nav">
+                    <span uk-navbar-toggle-icon></span>
+                </a>
+                {% block branding %}
+                <a href="{% url 'admin:index' %}" class="uk-navbar-item uk-logo">
+                    {{ site_header|default:_('Django administration') }}
+                </a>
+                {% endblock %}
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li>
+                        <a href="#">Parent</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Username</a></li>
+                </ul>
+            </div>
+
+            <div class="uk-navbar-right">
+                <div class="uk-navbar-item uk-visible@m">
+                    <form class="uk-search uk-search-default">
+                        <a href="" class="uk-search-icon-flip" uk-search-icon></a>
+                        <input class="uk-search-input" type="search" placeholder="Search...">
+                    </form>
+                </div>
+
+                <a class="uk-navbar-toggle" uk-toggle="target: #offcanvas-nav"></a>
+                    <ul class="uk-navbar-nav uk-visible@m">
+                        {% block usertools %}
+                        {% if has_permission %}
+                        <li class='prl-username-item'>
+                            <a href="#"><span class="uk-margin-small-right" uk-icon="user"></span>{% firstof user.get_short_name user.get_username %}</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                {% block userlinks %}
+                                    {% if site_url %}
+                                        <li><a href="{{ site_url }}">{% trans 'View site' %}</a></li>
+                                    {% endif %}
+                                    {% if user.is_active and user.is_staff %}
+                                        {% url 'django-admindocs-docroot' as docsroot %}
+                                        {% if docsroot %}
+                                            <li><a href="{{ docsroot }}">{% trans 'Documentation' %}</a></li>
+                                        {% endif %}
+                                    {% endif %}
+                                    {% if user.has_usable_password %}
+                                        <li><a href="{% url 'admin:password_change' %}">{% trans 'Change password' %}</a></li>
+                                    {% endif %}
+                                    <li class="uk-nav-header"></li>
+                                    <li><a href="{% url 'admin:logout' %}">{% trans 'Log out' %}</a></li>
+                                {% endblock %}
+                                </ul>
+                            </div>
+                        {% endif %}
+                        {% endblock %}
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+
+        
+    </div>
+
+    <div class="uk-background-muted uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
+        {% block breadcrumbs %}
+            <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+            {% if title %} &rsaquo; {{ title }}{% endif %}
+        {% endblock %}
+    </div>
+
+    {% block nav-global %}{% endblock %}
+    {# END Header #}
+    {% endif %}
+
+    {% block messages %}
+        {% if messages %}
+        <ul class="messagelist">{% for message in messages %}
+          <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message|capfirst }}</li>
+        {% endfor %}</ul>
+        {% endif %}
+    {% endblock messages %}
+
+    <!-- Content -->
+    {% comment %}<div id="content" class="{% block coltype %}colM{% endblock %}">{% endcomment %}
+    <div class="prl-content uk-padding-small">
+        {% block pretitle %}{% endblock %}
+        {% block content_title %}{% if title %}<h3>{{ title }}</h3>{% endif %}{% endblock %}
+        {% block content %}
+            {% block object-tools %}{% endblock %}
+            {{ content }}
+        {% endblock %}
+        {% block sidebar %}{% endblock %}
+    </div>
+    {% comment %}</div>{% endcomment %}
+    <!-- END Content -->
+
+    {% comment %}
+    {% block footer %}<div id="footer"></div>{% endblock %}
+    {% endcomment %}
+{% endblock %}
