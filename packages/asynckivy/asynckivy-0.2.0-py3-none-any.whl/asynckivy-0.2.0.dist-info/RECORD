@@ -1,0 +1,16 @@
+asynckivy/__init__.py,sha256=_p0bxF1ucJdcDbGS4pLcjik1JPNZnBGQYriUmoxgAxk,182
+asynckivy/_animation.py,sha256=ve2g2N2YUVEyeqqdtWaw0LYdKTE-LUyKfqgTI0E_Z-8,3362
+asynckivy/_core.py,sha256=X6zQkGppFuGMucbkERIMiO1T4OtheghUhrDWORvI1sY,7561
+asynckivy/_event.py,sha256=ibQIL9YGF5H5CWFyONzMAJCmTd78-oq8gyWAxgkaBZg,591
+asynckivy/_interpolate.py,sha256=YdocMsw0B5DEvHFHGR2DWRZHr2AzG0WyKvkCTnMehUA,2255
+asynckivy/_rest_of_touch_moves.py,sha256=cUceF49scmUsS-lxY-fy3xce558xy6Ya8rxe0i4Wrwc,1918
+asynckivy/_sleep.py,sha256=gfLnYi4V81nlKLCR3Zs43y6A6mp8Y3qtJtzIBb6_XCc,1983
+asynckivy/adaptor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asynckivy/adaptor/to_trio.py,sha256=I1x7JSbcxrpGW0ErU8uYH7FIV7xoLFl8tTv-Vc8_4dE,2524
+asynckivy/exceptions.py,sha256=ZCBqdy3oM_dR8fTN1--FHfI6MnKC6xWLGOJhs0_NGrU,250
+asynckivy/process_and_thread.py,sha256=69RuLuD4HZHUk19kID5a2C2NvAuiSgn9NDWZqFimrNk,779
+asynckivy/utils.py,sha256=oE3KDjPPSShW20CjcOTVjO5sDo68YOhYfXAkPI-t3zc,256
+asynckivy-0.2.0.dist-info/LICENSE,sha256=2jxtLdIltPBFl7vb9bLmquYKRJiyidCvO_DhOgFWIe8,1059
+asynckivy-0.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+asynckivy-0.2.0.dist-info/METADATA,sha256=HcvQ9QdKPaVLipsGi9gS7V45qM6poTeIcQDFJtBUNvc,4612
+asynckivy-0.2.0.dist-info/RECORD,,
