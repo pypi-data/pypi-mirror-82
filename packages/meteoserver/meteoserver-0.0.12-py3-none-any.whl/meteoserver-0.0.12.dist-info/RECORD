@@ -1,0 +1,9 @@
+meteoserver/__init__.py,sha256=Pz0qIOiIJJwvFts-tu6bQLs_YA-UNnyWdDwUggTV72s,1394
+meteoserver/help.py,sha256=HvyQulQ7Qg3-fF9XtL1Uc_gtnO909xnqQ-nH_Jh8HjM,9682
+meteoserver/sundata.py,sha256=Zr9e5igMAsDJyELKAnrEodRASscGm2ZKie1sVmURnws,12086
+meteoserver/weatherforecast.py,sha256=A_bBEYRoDBx48yOZ3v1J5HggZdfylq53lTNwXz_37CU,14366
+meteoserver-0.0.12.dist-info/LICENCE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+meteoserver-0.0.12.dist-info/METADATA,sha256=DufCWqg2La3dclKSd65iW5XeJ37niAp3erRFkb7S4Lg,5028
+meteoserver-0.0.12.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+meteoserver-0.0.12.dist-info/top_level.txt,sha256=HLkDNxTWE9327HPqDrK9D231blUALhWnAozquFyyL_8,12
+meteoserver-0.0.12.dist-info/RECORD,,
