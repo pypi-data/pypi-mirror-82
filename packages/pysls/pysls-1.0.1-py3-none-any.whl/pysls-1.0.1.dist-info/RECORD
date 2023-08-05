@@ -1,0 +1,14 @@
+pysls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysls/src/create_lambda.py,sha256=ILbMNQvvnTgzE1aLFsMS6UBhBVLT52POMTt2SJBWYk4,11143
+pysls/src/create_layer.py,sha256=abu-GZ9kyo5gDY7oqC4MSB06jjIArcFJsBonYFxM5kg,471
+pysls/src/deploy_to_localstack.py,sha256=V9NOwP5zpnCYVbvvgiqF9XnEC_AYNkC5TBhB1kb4idI,532
+pysls/src/invoke_function.py,sha256=JPTpu5nrpIc3b_fneWBu10_LrIhz5GaxGSKCJFKHaMA,916
+pysls/src/main.py,sha256=gmgXhtEEzpchtXm4QfB2i5nHar_oii7FkyBqEOjUcyE,3248
+pysls/src/view_logs.py,sha256=jq-rMLKx7l5flA2wZIctqJDiT8GbqUIkV-LSzFbQwX8,1254
+pysls/utils/copy_folder.py,sha256=7rdBCjZwqjVcg65aFAO6W89ht0PaiGSxnYdJ1DzvgZU,322
+pysls/utils/rmdir.py,sha256=5UUcVTRiHm6Pa6ecKlN2trOEy8W97dPwsuLt9hq4jLQ,298
+pysls/utils/zip_files.py,sha256=2OTJoNr5lZWFV1Z_kxnC0bkGxF1x_3Hm5ev-OpZUW6M,539
+pysls-1.0.1.dist-info/entry_points.txt,sha256=sxjCV01MSdPh2sBR4Kgp_QK_95Gd417sJM3C8RCltZU,45
+pysls-1.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pysls-1.0.1.dist-info/METADATA,sha256=JXhzow4YuXmgpcJjASJ4XoEJg3Gt6Q_CEt5YcGGfYyE,295
+pysls-1.0.1.dist-info/RECORD,,
