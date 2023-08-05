@@ -1,0 +1,8 @@
+setup.py
+twodogstools/__init__.py
+twodogstools/twodogtools.py
+twodogstools.egg-info/PKG-INFO
+twodogstools.egg-info/SOURCES.txt
+twodogstools.egg-info/dependency_links.txt
+twodogstools.egg-info/requires.txt
+twodogstools.egg-info/top_level.txt
