@@ -1,0 +1,5 @@
+setup.py
+logica.egg-info/PKG-INFO
+logica.egg-info/SOURCES.txt
+logica.egg-info/dependency_links.txt
+logica.egg-info/top_level.txt
