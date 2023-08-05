@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/resti/__about__.py
+src/resti/__init__.py
+src/resti/__main__.py
+src/resti.egg-info/PKG-INFO
+src/resti.egg-info/SOURCES.txt
+src/resti.egg-info/dependency_links.txt
+src/resti.egg-info/top_level.txt
