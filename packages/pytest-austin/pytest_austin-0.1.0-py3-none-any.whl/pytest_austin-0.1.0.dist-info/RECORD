@@ -1,0 +1,8 @@
+pytest_austin/__init__.py,sha256=LmTnoyTGwxLRJEKyFUqMN7uaX3ADRtOYbwKjQb0ILWY,8721
+pytest_austin/markers.py,sha256=mq-V84UGYH276l-WhOLop4ED2k21u3fg2z0AoDwTF9E,6455
+pytest_austin/plugin.py,sha256=7emHj1A6rvIb4XiOhzK-2Qbe0Ud6IjuXePsL1a8HtgA,5338
+pytest_austin-0.1.0.dist-info/entry_points.txt,sha256=FUsQ2504cPUUM1dY_X6dbLyyVF1QyJ7oMBAraEwt_XI,45
+pytest_austin-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pytest_austin-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pytest_austin-0.1.0.dist-info/METADATA,sha256=Nqmf9LzIzRGBRADAHNhDRARQfwuTvnZ3WqE5EhW-8DE,12735
+pytest_austin-0.1.0.dist-info/RECORD,,
