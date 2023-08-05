@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: helppy
+Version: 0.1.2
+Summary: Knowledge-Base from GitHub .md files
+Home-page: https://github.com/vvaezian/helppy
+Author: Vahid Vaezian
+Author-email: vahid.vaezian@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
