@@ -1,0 +1,10 @@
+ask_sdk_webservice_support/__init__.py,sha256=IcoO9pX-nozlYUnlElCiO8wqGpqxzPftaJzYujSHWbc,593
+ask_sdk_webservice_support/__version__.py,sha256=kpkrPueW1w_Kes_EM8PfKeZkGW2F1UuOkgvH6MvlGrE,1273
+ask_sdk_webservice_support/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ask_sdk_webservice_support/verifier.py,sha256=V-tNOkrwSR3G23fxx7S-4lurhFMI4-NjSCxXvOZAsYY,22580
+ask_sdk_webservice_support/verifier_constants.py,sha256=kCLGMgJ4FWqkrwFplK9ghVbVB_YM3NYM-5ZS96hd74U,3519
+ask_sdk_webservice_support/webservice_handler.py,sha256=IpnPxTlHm2XOfy7ODAwDh1-_3Mnriiuzrt5saED5b2k,6239
+ask_sdk_webservice_support-1.3.2.dist-info/METADATA,sha256=oeqA6xEfMUgj4oaNuoPxEVjOnuDmyzxsxqBExDI-5ac,5050
+ask_sdk_webservice_support-1.3.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+ask_sdk_webservice_support-1.3.2.dist-info/top_level.txt,sha256=-9kynO04fjgGS20gTDpEbrEZLOez97ekF4TOisCuTq0,27
+ask_sdk_webservice_support-1.3.2.dist-info/RECORD,,
