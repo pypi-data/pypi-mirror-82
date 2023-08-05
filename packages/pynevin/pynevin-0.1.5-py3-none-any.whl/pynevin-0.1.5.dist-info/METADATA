@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pynevin
+Version: 0.1.5
+Summary: Nevin's Python Packages: Algorithms, Utils, Leetcode & Helper functions
+Home-page: https://github.com/iDuckDark/PyNevin
+Author: Nevin WS Ganesan
+Author-email: PyNevin@idarkduck.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# PyNevin
+
+https://pypi.org/project/pynevin/
+
+## Install
+```
+pip install pynevin
+```
+
+
