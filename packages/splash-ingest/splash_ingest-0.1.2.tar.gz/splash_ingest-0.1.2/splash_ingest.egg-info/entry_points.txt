@@ -1,0 +1,3 @@
+[databroker.handlers]
+MultiKeySlice = splash_ingest.handlers:MultiKeyHDF5DatasetSliceHandler
+
