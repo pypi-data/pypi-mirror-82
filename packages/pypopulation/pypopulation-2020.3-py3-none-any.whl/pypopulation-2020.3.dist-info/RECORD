@@ -1,0 +1,7 @@
+pypopulation/__init__.py,sha256=K_svG8qIpYMyqqs6G3Wo7CUlvdzjtbGZYkz5MNX4FPM,153
+pypopulation/implementation.py,sha256=M6O1J_DxsXqmM1hpbNUyOuIOYvmZ-8GIN1A0RZY-jKk,1923
+pypopulation/resources/countries.json,sha256=srgEH4B1nc-AR5xuNa0knvOjdLd8EFw7BaF5acY4HWA,27250
+pypopulation-2020.3.dist-info/LICENSE,sha256=6CBLn47vyon-Oh5n7kEy31qP9uCvyOOuhtO4EyFlxvs,1285
+pypopulation-2020.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pypopulation-2020.3.dist-info/METADATA,sha256=415pxT3JqXDmSicgmfUXz-H5Xy7C7wbp0LB3Mdoc6Qw,4214
+pypopulation-2020.3.dist-info/RECORD,,
