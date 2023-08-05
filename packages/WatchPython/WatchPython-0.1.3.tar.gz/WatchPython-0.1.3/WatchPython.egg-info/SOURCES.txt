@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+watchpython.py
+WatchPython.egg-info/PKG-INFO
+WatchPython.egg-info/SOURCES.txt
+WatchPython.egg-info/dependency_links.txt
+WatchPython.egg-info/entry_points.txt
+WatchPython.egg-info/requires.txt
+WatchPython.egg-info/top_level.txt
