@@ -1,0 +1,14 @@
+rlephant/__init__.py,sha256=e3G7T4q4Edy3MlCm-lBIZRXkxosqQDh5v4iIuW939JE,80
+rlephant/entities.py,sha256=J0JtuYzwTX_LQ0Yc3fkC8s5lIK9MSxM3d787m_syOoo,5563
+rlephant/persistence.py,sha256=5IKeMVZZsmu4slzwNmP5aLQgqtSiSe3iY3PUoxmE7OU,4323
+rlephant/summary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rlephant/summary/__main__.py,sha256=9P1ctYK-RLQPRi_uBxzA4D32X-wk5kmZM_gOL-TyI3c,1120
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_entities.py,sha256=xBxAC8fDgiWJmSTcfQKnT5NQA0Qk3Dq_t1djX2KNHzo,2192
+tests/test_persistence.py,sha256=93uzspoJ88LUXz3L26pMYQI6tRl_hpVEyyOhWF60i9I,1574
+tests/util.py,sha256=K6CKBaD1_BYXN_jtb__L3Kk-SXDeu-Rn5_59g0pNOJQ,1084
+rlephant-1.0.0.dist-info/LICENSE,sha256=68CdMNtsVDDd9-bHu3Ul7q1Yp1vDBPrl01qDQc9MQRY,1072
+rlephant-1.0.0.dist-info/METADATA,sha256=OEqjPsN6-9Zkhj6y_7WPOl5VIgOJDS3khc5sFW6ZFV4,2378
+rlephant-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+rlephant-1.0.0.dist-info/top_level.txt,sha256=xBTdxLPeCz8d_35MOHj5g6G6G3h50RV7J26kyFi-jmw,15
+rlephant-1.0.0.dist-info/RECORD,,
