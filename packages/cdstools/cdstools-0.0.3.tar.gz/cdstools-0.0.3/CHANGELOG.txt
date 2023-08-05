@@ -1,0 +1,19 @@
+Change Log
+=========================
+
+0.0.1 (10/08/2020)
+-------------------------
+- First Release
+
+
+0.0.2 (10/10/2020)
+-------------------------
+- CDS spread calculator added. Some typos corrected.
+
+
+0.0.3 (10/11/2020)
+-------------------------
+- Yield curve interpolation/extrapolation component was corrected.
+- Binary CDS spread calculator added.
+- Documentation updated
+
