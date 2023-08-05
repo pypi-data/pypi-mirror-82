@@ -1,0 +1,10 @@
+django_migrations_diff/__init__.py,sha256=zWfjQaLWXIW9uJvjjZbDXhp23LypotFSc-KrLbiDTAc,66
+django_migrations_diff/__main__.py,sha256=BQksd1vanvk72R2mEU9wS6bmeoqlWHj4u15816shyb8,71
+django_migrations_diff/help_text.py,sha256=fGFpm2ka8WCq-8-Y1ux23aSuWZikqGRF1zJhg0yCHk0,497
+django_migrations_diff/main.py,sha256=vFabODe2_YI-nqS4Shs0MW0hDARWZ0BvsJOzXbUjOAA,17936
+django_migrations_diff-2.0.4.dist-info/LICENSE,sha256=_uXJmTJXTDX_lZBYjvLm7Yht-tOom45Epg8EBGpJ564,1079
+django_migrations_diff-2.0.4.dist-info/METADATA,sha256=0xV37imxYgh7mlfzt14Q_K4mkHm8al-WsAN0aiMpVcg,3722
+django_migrations_diff-2.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_migrations_diff-2.0.4.dist-info/entry_points.txt,sha256=u9WkMZV_eDlg2zxYXByV8undJCA_kU_dUjUtKnZUV0A,60
+django_migrations_diff-2.0.4.dist-info/top_level.txt,sha256=Pw-kA5SeLb_y_B52Rjv_zjs8BJtr5hdSyFbfuFZJ5zk,23
+django_migrations_diff-2.0.4.dist-info/RECORD,,
