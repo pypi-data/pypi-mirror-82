@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: sdss-obstools
+Version: 3.4.2
+Summary: A library of tools for SDSS telescope operations.
+Home-page: https://wiki.sdss.org/display/APO/Observing+Scripts
+Author: Dylan Gatlin, Dmitry Bizyaev
+Author-email: dgatlin@apo.nmsu.edu
+License: BSD 3-clause
+Description: UNKNOWN
+Platform: UNKNOWN
