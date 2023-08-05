@@ -1,0 +1,17 @@
+setup.py
+draughts/__init__.py
+draughts/model_decorator.py
+draughts/randomizer.py
+draughts.egg-info/PKG-INFO
+draughts.egg-info/SOURCES.txt
+draughts.egg-info/dependency_links.txt
+draughts.egg-info/requires.txt
+draughts.egg-info/top_level.txt
+draughts/fields/__init__.py
+draughts/fields/bases.py
+draughts/fields/basic.py
+draughts/fields/complex.py
+draughts/fields/multivalued.py
+test/__init__.py
+test/test_model.py
+test/test_randomizer.py
