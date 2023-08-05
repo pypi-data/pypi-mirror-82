@@ -1,0 +1,17 @@
+draughts/__init__.py,sha256=jcmAOqJFF0xg5b-yJJQ-D-MZprVDuqaJ3oePnRWctdI,80
+draughts/model_decorator.py,sha256=MB7BSup5vafCMmCXZNPR_cCHA_nCVlqcTltroW_LVAM,6868
+draughts/randomizer.py,sha256=UUUuMiSt5ZSmsWv6klVUsaqPZofji5RXLH1SWj-I3to,1366
+draughts/fields/__init__.py,sha256=wfSMed20pYjDNbI_Mm3VjNvX8ejgVubdhEO_9jB9s5Q,1061
+draughts/fields/bases.py,sha256=l9YutyG4SDmY6JGyaDCpL-dlKGPrBfLGoQhisVZftGY,1368
+draughts/fields/basic.py,sha256=tZQU3x4eFvy0T-cglmwqxm4s5gFRefVoO2CXOs-JrI8,3093
+draughts/fields/complex.py,sha256=BV-wKGSLhiH8MqyKOAjW_lBtYtAZblFO_pw8i-QizNY,5645
+draughts/fields/multivalued.py,sha256=VVSL6ax8-SPHiMCky6z-xOjS3lJWqWJp6-MXlU0s-Cw,2236
+draughts/fields/pattern.py,sha256=qT3crksPTi6fRbsyuSWtFa43dDw1N7F3HnM8Ia8VqAA,2880
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_model.py,sha256=MBV-B5JieQEZmnSpbsaX7T5phI-Ygug51V-xGjJLWSg,15988
+test/test_randomizer.py,sha256=bO6V6CRvoVqPiK5uqpUm9deLZmIwdawFxnPF9kOFNuE,2716
+draughts-0.1.0.dist-info/LICENSE,sha256=ZSR7qzKYb2k-OwG0bMNLZJpXLH5Z3pDhJBMeou6XoUA,1070
+draughts-0.1.0.dist-info/METADATA,sha256=vJfd49fVrkGRWonJge8ydPlGHNLrjV_odCEmKViW0nk,1348
+draughts-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+draughts-0.1.0.dist-info/top_level.txt,sha256=rAroeOK-lenAsSBRNMDfzldedq_NZakioIu85aND4bk,14
+draughts-0.1.0.dist-info/RECORD,,
