@@ -1,0 +1,3 @@
+record
+torch==1.6.0
+matplotlib
