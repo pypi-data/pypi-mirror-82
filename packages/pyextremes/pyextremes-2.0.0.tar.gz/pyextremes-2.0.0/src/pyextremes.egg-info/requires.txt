@@ -1,0 +1,5 @@
+emcee>=3.0
+matplotlib
+numpy
+pandas
+scipy
