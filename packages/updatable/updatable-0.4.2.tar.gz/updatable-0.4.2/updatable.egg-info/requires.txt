@@ -1,0 +1,4 @@
+packaging
+pyopenssl
+requests
+semantic_version
