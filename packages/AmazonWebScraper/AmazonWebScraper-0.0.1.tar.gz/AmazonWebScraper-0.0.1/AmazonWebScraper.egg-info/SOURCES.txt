@@ -1,0 +1,6 @@
+README.md
+setup.py
+AmazonWebScraper.egg-info/PKG-INFO
+AmazonWebScraper.egg-info/SOURCES.txt
+AmazonWebScraper.egg-info/dependency_links.txt
+AmazonWebScraper.egg-info/top_level.txt
