@@ -1,0 +1,14 @@
+wordseg/__init__.py,sha256=-vpkdrpDHofw34MsTXrAIjbwBW3yPTosptGgXrWEyu8,278
+wordseg/base_segmenter.py,sha256=cvmOA4eY9N5wjRIa7cX8Ks1Hdrk-vg6xxP2j4TIHZmw,1690
+wordseg/longest_string_matching.py,sha256=kNb8kbHLyQrG5udXuP3-5ti3h3nq-CVSyaV_K_CbvuI,1545
+wordseg/random_segmenter.py,sha256=4sHBwopLly9eLCwF1NEoRL3ZqimkwdI2mLGP1niuCkM,1270
+wordseg/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordseg/tests/test_version.py,sha256=ivUkmywzoM-5HM5ZE3CY0yQW4PUvPqXnV3YoZ8HqC-g,753
+wordseg-0.0.1.data/data/CHANGELOG.md,sha256=BWolMcswQiC9Th9ZXtyj8HU2ol5BOR8Q4TlGYj-QN5s,461
+wordseg-0.0.1.data/data/LICENSE.txt,sha256=pdOS2HuXwC8us0lC-shb81caXQdkX9sgx4FR-gofDZg,1071
+wordseg-0.0.1.data/data/README.md,sha256=sUyCtitHCj25HPcBI73HsAy11qDqh7iD4_FuNH8ETEg,2968
+wordseg-0.0.1.dist-info/LICENSE.txt,sha256=pdOS2HuXwC8us0lC-shb81caXQdkX9sgx4FR-gofDZg,1071
+wordseg-0.0.1.dist-info/METADATA,sha256=8yiwxzdk9Ne5o-0BG9js42HAWZURX82jHqQoo_VWZTs,4506
+wordseg-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wordseg-0.0.1.dist-info/top_level.txt,sha256=eiijcNAYQzlmIs0KpHjeQ7u8EoY48qL5EKproEdnCWA,8
+wordseg-0.0.1.dist-info/RECORD,,
