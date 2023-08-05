@@ -1,0 +1,5 @@
+setup.py
+autodataset.egg-info/PKG-INFO
+autodataset.egg-info/SOURCES.txt
+autodataset.egg-info/dependency_links.txt
+autodataset.egg-info/top_level.txt
