@@ -1,0 +1,9 @@
+README.md
+setup.py
+reportcard/__init__.py
+reportcard/reportcard.py
+reportcard.egg-info/PKG-INFO
+reportcard.egg-info/SOURCES.txt
+reportcard.egg-info/dependency_links.txt
+reportcard.egg-info/requires.txt
+reportcard.egg-info/top_level.txt
