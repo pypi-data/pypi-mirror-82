@@ -1,0 +1,15 @@
+shapely
+geopy
+
+[dev]
+flake8
+
+[speed]
+cython
+geo-py
+
+[test]
+pytest
+pytest-runner
+pytest-cov
+pytest-pep8
