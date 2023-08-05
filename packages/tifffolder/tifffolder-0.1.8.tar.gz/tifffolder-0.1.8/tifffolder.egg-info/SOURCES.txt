@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tifffolder/__init__.py
+tifffolder/axesarray.py
+tifffolder/tifffolder.py
+tifffolder.egg-info/PKG-INFO
+tifffolder.egg-info/SOURCES.txt
+tifffolder.egg-info/dependency_links.txt
+tifffolder.egg-info/requires.txt
+tifffolder.egg-info/top_level.txt
