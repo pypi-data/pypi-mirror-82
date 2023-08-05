@@ -1,0 +1,13 @@
+.gitignore
+License
+ReadMe.md
+setup.py
+jupytray/__init__.py
+jupytray/__main__.py
+jupytray/jupyter.ico
+jupytray/notebook_server.py
+jupytray.egg-info/PKG-INFO
+jupytray.egg-info/SOURCES.txt
+jupytray.egg-info/dependency_links.txt
+jupytray.egg-info/requires.txt
+jupytray.egg-info/top_level.txt
