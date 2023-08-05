@@ -1,0 +1,185 @@
+Metadata-Version: 2.1
+Name: pyexcel-pdfr
+Version: 0.6.0
+Summary: Read tables in pdf files using camelot for pyexcel community
+Home-page: https://github.com/pyexcel/pyexcel-pdfr
+Author: chfw
+Author-email: info@pyexcel.org
+License: New BSD
+Download-URL: https://github.com/pyexcel/pyexcel-pdfr/archive/0.6.0.tar.gz
+Keywords: python
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: camelot-py[cv]
+Requires-Dist: pyexcel-io (>=0.6.0)
+
+================================================================================
+pyexcel-pdfr - Let you focus on data, instead of file formats
+================================================================================
+
+.. image:: https://raw.githubusercontent.com/pyexcel/pyexcel.github.io/master/images/patreon.png
+   :target: https://www.patreon.com/chfw
+
+.. image:: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
+   :target: https://awesome-python.com/#specific-formats-processing
+
+.. image:: https://travis-ci.org/pyexcel/pyexcel-pdfr.svg?branch=master
+   :target: http://travis-ci.org/pyexcel/pyexcel-pdfr
+
+.. image:: https://codecov.io/gh/pyexcel/pyexcel-pdfr/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/pyexcel/pyexcel-pdfr
+
+.. image:: https://badge.fury.io/py/pyexcel-pdfr.svg
+   :target: https://pypi.org/project/pyexcel-pdfr
+
+
+.. image:: https://pepy.tech/badge/pyexcel-pdfr/month
+   :target: https://pepy.tech/project/pyexcel-pdfr/month
+
+
+.. image:: https://img.shields.io/gitter/room/gitterHQ/gitter.svg
+   :target: https://gitter.im/pyexcel/Lobby
+
+.. image:: https://img.shields.io/static/v1?label=continuous%20templating&message=%E6%A8%A1%E7%89%88%E6%9B%B4%E6%96%B0&color=blue&style=flat-square
+    :target: https://moban.readthedocs.io/en/latest/#at-scale-continous-templating-for-open-source-projects
+
+.. image:: https://img.shields.io/static/v1?label=coding%20style&message=black&color=black&style=flat-square
+    :target: https://github.com/psf/black
+
+Support the project
+================================================================================
+
+If your company has embedded pyexcel and its components into a revenue generating
+product, please support me on github, `patreon <https://www.patreon.com/bePatron?u=5537627>`_
+or `bounty source <https://salt.bountysource.com/teams/chfw-pyexcel>`_ to maintain
+the project and develop it further.
+
+If you are an individual, you are welcome to support me too and for however long
+you feel like. As my backer, you will receive
+`early access to pyexcel related contents <https://www.patreon.com/pyexcel/posts>`_.
+
+And your issues will get prioritized if you would like to become my patreon as `pyexcel pro user`.
+
+With your financial support, I will be able to invest
+a little bit more time in coding, documentation and writing interesting posts.
+
+
+
+Introduction
+================================================================================
+**pyexcel-pdfr** does Read tables in pdf files using `camelot <https://github.com/atlanhq/camelot>`_
+for pyexcel community. Please note it works on python 3.6+ only.
+
+It reads only phyical files and does not read io streams, not a URL.
+
+
+
+Installation
+================================================================================
+
+You can install pyexcel-pdfr via pip:
+
+.. code-block:: bash
+
+    $ pip install pyexcel-pdfr
+
+
+or clone it and install it:
+
+.. code-block:: bash
+
+    $ git clone https://github.com/pyexcel/pyexcel-pdfr.git
+    $ cd pyexcel-pdfr
+    $ python setup.py install
+
+
+
+Development guide
+================================================================================
+
+Development steps for code changes
+
+#. git clone https://github.com/pyexcel/pyexcel-pdfr.git
+#. cd pyexcel-pdfr
+
+Upgrade your setup tools and pip. They are needed for development and testing only:
+
+#. pip install --upgrade setuptools pip
+
+Then install relevant development requirements:
+
+#. pip install -r rnd_requirements.txt # if such a file exists
+#. pip install -r requirements.txt
+#. pip install -r tests/requirements.txt
+
+Once you have finished your changes, please provide test case(s), relevant documentation
+and update CHANGELOG.rst.
+
+.. note::
+
+    As to rnd_requirements.txt, usually, it is created when a dependent
+    library is not released. Once the dependecy is installed
+    (will be released), the future
+    version of the dependency in the requirements.txt will be valid.
+
+
+How to test your contribution
+------------------------------
+
+Although `nose` and `doctest` are both used in code testing, it is adviable that unit tests are put in tests. `doctest` is incorporated only to make sure the code examples in documentation remain valid across different development releases.
+
+On Linux/Unix systems, please launch your tests like this::
+
+    $ make
+
+On Windows systems, please issue this command::
+
+    > test.bat
+
+
+Before you commit
+------------------------------
+
+Please run::
+
+    $ make format
+
+so as to beautify your code otherwise travis-ci may fail your unit test.
+
+
+
+
+License
+================================================================================
+
+New BSD License
+
+Change log
+================================================================================
+
+0.6.0 - 11.10.2020
+--------------------------------------------------------------------------------
+
+**updated**
+
+#. read tabular data out from pdf format in python 3.6+ with camelot-py
+
+0.5.0-rc1 - 14.03.2019
+--------------------------------------------------------------------------------
+
+**first release**
+
+#. read tabular data out from pdf format
+
+
+
