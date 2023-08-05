@@ -1,0 +1,65 @@
+
+# GSSHEET26
+
+![Sheets to Python](https://twilio-cms-prod.s3.amazonaws.com/original_images/python-and-sheets.png)
+
+# Introduction
+
+This is an python package which helps us to read the data of google spread sheets
+***
+
+
+
+
+
+
+# Library Used
+
+I have used the [gspread](https://pypi.org/project/gspread/) and [oauth2client](https://pypi.org/project/oauth2client/) service to authorize and make API calls to Google Cloud Services.
+
+## Importing Library
+
+```python
+pip install gspread oauth2client
+```
+
+## Features of **`gspread`** library
+
+1. Google Sheets API v4.
+2. Open a spreadsheet by title, key or url.
+3. Read, write, and format cell ranges.
+4. Sharing and access control.
+5. Batching updates.
+
+### About **`oauth2client`**
+
+This library will help us to get the client credientials a to read the data of specific Spread Sheet.
+***
+
+# LET'S GET STARTED
+
+# How to Install
+
+```python
+ pip install gssheet26
+```
+
+The name of this package is "gssheet26" and you can use this package to read the data from [GOOGLE SPREADSHEETS](https://www.google.com/sheets/about/) in [JSON](https://www.json.org/json-en.html) format and then using [pandas](https://pypi.org/project/pandas/) you can manipulate the data in table using [DataFrames](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) 
+
+## Function to read the data
+
+To read the data from google spreadsheet you have to use `getdata(jsfile, gsfile)` function and inside the function you have to give the path of your [JSON](https://www.json.org/json-en.html) file and the name of your [GOOGLE SPREADSHEETS](https://www.google.com/sheets/about/).
+For example:- I want to read the data from [Greendeck](https://www.greendeck.co/) Assignment file. So Here How it should be written.
+
+``` Python
+getdata("your_JSON_Path", "Greendeck Assignment")
+```
+
+```
+### Links from where I've taken help 
+ [medium.com](https://medium.com/analytics-vidhya/how-to-read-and-write-data-to-google-spreadsheet-using-python-ebf54d51a72c). 
+
+# License
+
+This package is distributed under the [MIT license](https://opensource.org/licenses/MIT).
+
