@@ -1,0 +1,7 @@
+include LICENSE
+include README.rst
+include requirements.txt
+recursive-include rfmizer/docs *
+recursive-include rfmizer/fixtures *
+recursive-include rfmizer/static *
+recursive-include rfmizer/templates *
