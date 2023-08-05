@@ -1,0 +1,11 @@
+retype/__init__.py,sha256=sujEHTmTyG1TVSRBHopgLqscZ2YuUfCMPo-HeseNuvs,47704
+retype/__main__.py,sha256=WkWlsvf7TBzYdRLPxMTylzsGz_Felo3qPxWBbvrGfpg,2458
+retype/config.py,sha256=BE0EoWJ-bu39xg0rUwhBkDWaApRJ_62UrX6Ga9wVDmk,211
+retype/retype_hgext.py,sha256=A__nVNHmvNHb9zJ6CFgtNuGBH9AgfOX7OCNRWHYCzSw,7107
+retype/version.py,sha256=GUOXE_GSpJ1kEorjODcrkCL6F6bvljmx8Yy3iFH56R8,53
+retype-20.10.0.dist-info/LICENSE,sha256=Pi4DrKofaNvW0kW0-k0rgYMLLEMdx2VauWYYc1xYC3I,1080
+retype-20.10.0.dist-info/METADATA,sha256=yJeFxuazT-itbvJWeZfO-gChLjTJisy-BSXIhL-Y7pk,9384
+retype-20.10.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+retype-20.10.0.dist-info/entry_points.txt,sha256=muFi-uALuIJx9DZfsxoXs1eubrXSxLpVDc2BR4KC6aA,49
+retype-20.10.0.dist-info/top_level.txt,sha256=f1_K9R4w9VkvgT3b2CA11aH_oud67unl0N5w02BfbuE,7
+retype-20.10.0.dist-info/RECORD,,
