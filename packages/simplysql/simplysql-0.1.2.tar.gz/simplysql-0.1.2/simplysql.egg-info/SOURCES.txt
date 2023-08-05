@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+simplysql/__init__.py
+simplysql.egg-info/PKG-INFO
+simplysql.egg-info/SOURCES.txt
+simplysql.egg-info/dependency_links.txt
+simplysql.egg-info/top_level.txt
