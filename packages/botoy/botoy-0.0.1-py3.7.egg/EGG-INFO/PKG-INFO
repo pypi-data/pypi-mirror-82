@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: botoy
+Version: 0.0.1
+Summary: OPQBot/IOTQQ/IOTBot的Python开发助手
+Home-page: https://github.com/xiyaowong/botoy
+Author: wongxy
+Author-email: xiyao.wong@foxmail.com
+License: MIT
+Description: # botoy
+        
+Keywords: iotbot,iotqq,OPQ,OPQBot
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

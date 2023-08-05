@@ -1,0 +1,6 @@
+httpx
+python-socketio
+websockets
+loguru
+click
+aiohttp
