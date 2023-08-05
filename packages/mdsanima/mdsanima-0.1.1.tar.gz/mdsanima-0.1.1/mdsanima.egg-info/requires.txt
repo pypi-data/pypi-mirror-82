@@ -1,0 +1,10 @@
+humanfriendly
+
+[docs]
+sphinx
+sphinx-autoapi
+sphinx-rtd-theme
+sphinx-bootstrap-theme
+sphinx-prompt
+sphinx-tabs
+recommonmark
