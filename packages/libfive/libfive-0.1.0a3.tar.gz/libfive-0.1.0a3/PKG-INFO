@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: libfive
+Version: 0.1.0a3
+Summary: libfive bindings for Python
+Home-page: https://github.com/SemMulder/libfive-python
+License: MPL2
+Author: Sem Mulder
+Author-email: sem@mulderke.net
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/SemMulder/libfive-python
+Description-Content-Type: text/markdown
+
+# libfive-python
+
+This is a work in progress Python library for using [libfive](https://libfive.com/) from Python.
+
