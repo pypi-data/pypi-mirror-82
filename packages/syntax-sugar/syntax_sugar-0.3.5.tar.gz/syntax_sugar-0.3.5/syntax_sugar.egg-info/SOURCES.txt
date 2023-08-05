@@ -1,0 +1,16 @@
+README.md
+setup.py
+syntax_sugar/__init__.py
+syntax_sugar/_composable.py
+syntax_sugar/_infix.py
+syntax_sugar/_iter.py
+syntax_sugar/_match.py
+syntax_sugar/_pipe.py
+syntax_sugar/_placeholder.py
+syntax_sugar/_stream.py
+syntax_sugar/_util.py
+syntax_sugar.egg-info/PKG-INFO
+syntax_sugar.egg-info/SOURCES.txt
+syntax_sugar.egg-info/dependency_links.txt
+syntax_sugar.egg-info/requires.txt
+syntax_sugar.egg-info/top_level.txt
