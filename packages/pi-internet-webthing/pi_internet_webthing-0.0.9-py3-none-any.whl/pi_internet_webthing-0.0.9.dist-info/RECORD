@@ -1,0 +1,11 @@
+pi_internet_webthing/__init__.py,sha256=02foDThTDthaqrLoI-Dw0cRGoMfL-pZT3bcsUofLk2I,3594
+pi_internet_webthing/connectivity_monitor.py,sha256=DOjmrPG7IvLKmML2AZD2iAiiyP6MHLRpboBYq7kJLQw,7402
+pi_internet_webthing/internet.py,sha256=mAiTlPehC_h2wx2wFJ2P6qAZgyVDNrE2KKU7uSnQfBo,1137
+pi_internet_webthing/speedtest_monitor.py,sha256=uwZu9AXtb_BPNYWZpiI3mqWGgd8HS1Uy9zS9AjTjkn4,6243
+pi_internet_webthing/unit.py,sha256=vc2Xvo658WxCL9jpZPAbMRtc1y4CQ3d4j8qu07g7UpY,2526
+pi_internet_webthing-0.0.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pi_internet_webthing-0.0.9.dist-info/METADATA,sha256=jfOzVyc_Tbcrn_PpUDI-hJJNGnavHrYs9jYBE4wQz2U,2764
+pi_internet_webthing-0.0.9.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pi_internet_webthing-0.0.9.dist-info/entry_points.txt,sha256=E7LNJmLAeWUYg4Ue4myeAkt-B00eW_3UCy0Ylb6A4K4,58
+pi_internet_webthing-0.0.9.dist-info/top_level.txt,sha256=ImO2_wLEIN-mpht5DnSE02X8xzK4Z8sEZA6IMboB6j8,21
+pi_internet_webthing-0.0.9.dist-info/RECORD,,
