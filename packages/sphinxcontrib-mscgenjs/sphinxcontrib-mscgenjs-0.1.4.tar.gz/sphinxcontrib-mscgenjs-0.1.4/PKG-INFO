@@ -1,0 +1,41 @@
+Metadata-Version: 1.2
+Name: sphinxcontrib-mscgenjs
+Version: 0.1.4
+Summary: mscgenjs Sphinx extension
+Home-page: https://github.com/LoveIsGrief/sphinxcontrib-mscgenjs
+Author: LoveIsGrief
+Author-email: loveisgrief@tuta.io
+License: BOLA
+Download-URL: http://pypi.python.org/pypi/sphinxcontrib-mscgenjs
+Project-URL: Bugs, https://github.com/LoveIsGrief/sphinxcontrib-mscgenjs/issues
+Description: 
+        This package contains the mscgenjs_ Sphinx_ extension.
+        
+        .. _mscgenjs: https://mscgen.js.org/
+        .. _Sphinx: http://sphinx.pocoo.org/
+        
+        Allow mscgen-formatted Message Sequence Chart (MSC) graphs to be included in
+        Sphinx-generated documents inline. For example::
+        
+            .. mscgenjs::
+            
+                msc {
+                    hscale = "0.5";
+            
+                    a,b,c;
+            
+                    a->b [ label = "ab()" ] ;
+                    b->c [ label = "bc(TRUE)"];
+                    c=>c [ label = "process()" ];
+                }
+        
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
