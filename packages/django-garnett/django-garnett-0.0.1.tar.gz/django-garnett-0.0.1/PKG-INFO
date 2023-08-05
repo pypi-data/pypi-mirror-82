@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django-garnett
+Version: 0.0.1
+Summary: Simple translatable Django fields
+License: MIT
+Author: Aristotle Metadata Enterprises
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: django (>3.0)
