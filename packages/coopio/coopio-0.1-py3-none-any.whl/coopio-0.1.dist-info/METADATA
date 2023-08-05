@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: coopio
+Version: 0.1
+Summary: Library for creating data services
+Home-page: https://github.com/tylertjburns/coopio
+Author: tburns
+Author-email: tyler.tj.burns@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >3.5
+Requires-Dist: numpy (==1.19.2)
+Requires-Dist: pandas (==1.1.3)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: six (==1.15.0)
+
+# coopio
+Library for creating data services
+
+
