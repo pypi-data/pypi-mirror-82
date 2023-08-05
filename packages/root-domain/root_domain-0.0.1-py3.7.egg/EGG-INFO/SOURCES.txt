@@ -1,0 +1,10 @@
+README.md
+setup.py
+root_domain/__init__.py
+root_domain/main.py
+root_domain.egg-info/PKG-INFO
+root_domain.egg-info/SOURCES.txt
+root_domain.egg-info/dependency_links.txt
+root_domain.egg-info/entry_points.txt
+root_domain.egg-info/requires.txt
+root_domain.egg-info/top_level.txt

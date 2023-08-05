@@ -1,0 +1,3 @@
+[console_scripts]
+root-domain = root_domain.main:main
+
