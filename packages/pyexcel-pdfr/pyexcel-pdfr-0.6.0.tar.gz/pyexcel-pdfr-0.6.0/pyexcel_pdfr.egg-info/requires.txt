@@ -1,0 +1,2 @@
+camelot-py[cv]
+pyexcel-io>=0.6.0
