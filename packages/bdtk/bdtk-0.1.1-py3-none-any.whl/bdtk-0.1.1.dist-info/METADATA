@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: bdtk
+Version: 0.1.1
+Summary: A small data analysis package
+Home-page: https://github.com/aurumkathuria/BDToolkit
+Author: Aurum Kathuria
+Author-email: armkatspamblocker@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=0.25.1)
+Requires-Dist: numpy (>=1.16.5)
+Requires-Dist: seaborn (>=0.9.0)
+Requires-Dist: matplotlib (>=3.1.1)
+Requires-Dist: ipywidgets (>=7.5.1)
+
+# BDTK
+
+pip install bdtk
+
+The Big Data Analysis Toolkit. 
+
+Author: Aurum Kathuria 
+(LinkedIn: https://linkedin.com/in/heyaurum, GitHub: https://github.com/aurumkathuria)
+
+This is a toolkit designed to optimize data anlysis for data scientists & data analysts. It includes features ranging from data type optimization to interactive multivariate distribution visualizations, with more to come as well!
+
+If you have any feature requests, feel free to open an issue asking for it, or shoot me a message on my LinkedIn (linked above)!
+
+I'd also love feedback, whether that's on my code, my approach, or just telling me that I'm an idiot (true) - again, hit me on LinkedIn or open an issue here, I'll be active on both platforms.
+
+I hope this helps you with your data exploration & analysis! Take care & stay safe!
+
+
