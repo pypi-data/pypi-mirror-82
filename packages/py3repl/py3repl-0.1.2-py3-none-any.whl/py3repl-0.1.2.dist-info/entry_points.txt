@@ -1,0 +1,3 @@
+[console_scripts]
+pyrepl=py3repl.pyrepl:repl
+
