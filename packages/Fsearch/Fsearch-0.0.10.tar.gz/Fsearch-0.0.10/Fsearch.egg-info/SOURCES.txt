@@ -1,0 +1,6 @@
+setup.py
+Fsearch.egg-info/PKG-INFO
+Fsearch.egg-info/SOURCES.txt
+Fsearch.egg-info/dependency_links.txt
+Fsearch.egg-info/requires.txt
+Fsearch.egg-info/top_level.txt
