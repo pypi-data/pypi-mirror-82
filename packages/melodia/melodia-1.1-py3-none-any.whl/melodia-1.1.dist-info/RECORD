@@ -1,0 +1,16 @@
+melodia/__init__.py,sha256=8kLza74kUMFW3xVwyVxM75oKdRSiMSc8bOiNI_gvMow,149
+melodia/core/__init__.py,sha256=VVsafIAr19aixYhJy6CsY8EzyU6i7NyHZc5uiO-o1lg,198
+melodia/core/note.py,sha256=gIrdBfjl8y4mYdc6AVNgRW4JYGEJzvuVCrNh20e1vfg,5528
+melodia/core/sgnature.py,sha256=2QNUvQtVl97oFAxNOMfJm2UrrZ-ixIlJQfB3SZ6YsEY,6938
+melodia/core/signature.py,sha256=2QNUvQtVl97oFAxNOMfJm2UrrZ-ixIlJQfB3SZ6YsEY,6938
+melodia/core/tone.py,sha256=k56RecZ9qhYTrv0UD4smx0GOKVbZQOwFexXp4yj6Ok8,6814
+melodia/core/track.py,sha256=MxzPWNWA1EpA5NyvFvwB4n6R0Fsi6Jbwpe4ILn_dZ3g,5467
+melodia/io/__init__.py,sha256=eXrrr3z5RlBJoVGw9aDQZTx0Xofb0NyVzE1UGgry9uQ,83
+melodia/io/midi.py,sha256=v70F7OcT_1WBcoeTbW81iIZPwCnpb8ma-eW5NwIzNYM,23697
+melodia/music/__init__.py,sha256=hbu5QcdP8-PZS8soSTjGFxmJKRrlBRD4bi0rgpcCuOw,91
+melodia/music/chord.py,sha256=j72JNsRvB1bzaB6wzm4odpkn_i78ho3JYbw7yQun4Ec,45120
+melodia-1.1.dist-info/LICENSE.txt,sha256=TkrzhebRJYOnWnC7GiEnaXWvy9BmLt3SpdvEnSr0pSI,1067
+melodia-1.1.dist-info/METADATA,sha256=58bzz9BKbdHWiiGD3ko-k08Ip8bsd7PFNG2rulbrqPI,2330
+melodia-1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+melodia-1.1.dist-info/top_level.txt,sha256=sKGpbeKJ8gDnxgYOSBnnK5QFyUIYRBb3cBriwACc3ZQ,8
+melodia-1.1.dist-info/RECORD,,
