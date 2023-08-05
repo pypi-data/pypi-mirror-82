@@ -1,0 +1,8 @@
+README.md
+setup.py
+py_git.egg-info/PKG-INFO
+py_git.egg-info/SOURCES.txt
+py_git.egg-info/dependency_links.txt
+py_git.egg-info/not-zip-safe
+py_git.egg-info/requires.txt
+py_git.egg-info/top_level.txt
