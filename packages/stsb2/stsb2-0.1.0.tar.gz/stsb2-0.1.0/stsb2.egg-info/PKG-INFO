@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: stsb2
+Version: 0.1.0
+Summary: structural time series grammar and models
+Home-page: https://gitlab.com/daviddewhurst/stsb2
+Author: David Rushing Dewhurst
+Author-email: drd@davidrushingdewhurst.com
+License: GNU General Public License v2 (GPLv2)
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Office/Business :: Financial :: Investment

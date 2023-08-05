@@ -1,0 +1,12 @@
+README.md
+setup.py
+stsb2/__init__.py
+stsb2/effects.py
+stsb2/inference.py
+stsb2/stsb.py
+stsb2/util.py
+stsb2.egg-info/PKG-INFO
+stsb2.egg-info/SOURCES.txt
+stsb2.egg-info/dependency_links.txt
+stsb2.egg-info/requires.txt
+stsb2.egg-info/top_level.txt
