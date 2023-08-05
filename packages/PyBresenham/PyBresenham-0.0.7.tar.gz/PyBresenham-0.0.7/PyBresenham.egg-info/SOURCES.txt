@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+README.rst
+setup.py
+PyBresenham.egg-info/PKG-INFO
+PyBresenham.egg-info/SOURCES.txt
+PyBresenham.egg-info/dependency_links.txt
+PyBresenham.egg-info/top_level.txt
+docs/Makefile
+docs/conf.py
+docs/index.rst
+docs/make.bat
+docs/modules.rst
+docs/pybresenham.rst
+pybresenham/__init__.py
+tests/test_pybresenham.py
