@@ -1,0 +1,9 @@
+libfive/__init__.py,sha256=r81KnDpf3xVW168AF6cLjCckwfQm8FdLNCPJg9p-6tU,929
+libfive/__init__.pyi,sha256=Ln_FdO4q9JA6HhTvpk0CS1pbSo14arj_622hxF17bgA,5520
+libfive/_libfive.pyx,sha256=FORKNdEzTQfvP1WSBfziwZqop0DssJ6kDq_JXhAsZD8,47746
+libfive/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libfive/_libfive.cpython-38-x86_64-linux-gnu.so,sha256=myOA-I8WZaCzo9QPdiHViVwXxsnGqgClLlJLfisO_Ow,3557376
+libfive-0.1.0a3.dist-info/LICENSE.md,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+libfive-0.1.0a3.dist-info/WHEEL,sha256=6A2xJ63uavHkSorRnMxTmqGpyWhJ3NGfNHW77Sy9Xqo,102
+libfive-0.1.0a3.dist-info/METADATA,sha256=zxpz1TdcoMegrd4aMz65gaSxP6r0XXmIz7sKn5l1byE,610
+libfive-0.1.0a3.dist-info/RECORD,,
