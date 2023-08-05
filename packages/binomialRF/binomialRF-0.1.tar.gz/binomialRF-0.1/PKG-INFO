@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: binomialRF
+Version: 0.1
+Summary: The binomialRF package is a random forest-based feature selection package that provides a feature selection algorithm to be used in randomForest classifiers.
+Home-page: https://github.com/SamirRachidZaim/binomialRF.py
+Author: Samir Rachid Zaim
+Author-email: samir.rachid.zaim@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: binomialRF,random forest,feature selection,decision trees
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
