@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: syntax-sugar
+Version: 0.3.1
+Summary: add syntactic sugar to Python
+Home-page: https://github.com/czheo/syntax_sugar_python
+Author: czheo
+Author-email: UNKNOWN
+License: MIT
+Keywords: syntax,functional
+Platform: UNKNOWN
+Requires-Dist: multiprocess
+Requires-Dist: eventlet
+
+UNKNOWN
+
+

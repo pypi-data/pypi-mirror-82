@@ -1,0 +1,13 @@
+syntax_sugar/__init__.py,sha256=AL7WGvCQO5PdfNHlJjc7Bpc087Op0Xi_lHAz_OQd7DM,184
+syntax_sugar/composable.py,sha256=lQ0HpNEnzyNdApIiUzblpAsb-O0hfBf6bBNSkK1esIU,443
+syntax_sugar/infix.py,sha256=_L-Wqp5sLqgTopF-tN3jCcFYFvoWUYEEEbRM1plZ_Uk,1030
+syntax_sugar/iter.py,sha256=W7U8belyRxU0X-hgeFjgwfy5xiBGDghMojCA1S6Vvsc,3161
+syntax_sugar/match.py,sha256=tdyR7b2GtwOe_X-W3IOFltAmhsW7SIE0_KKia_A4feE,735
+syntax_sugar/pipe.py,sha256=mwhatot8IiCaFyWGuZ3TgrKpnTy5AHR4WKjnMIT_BQE,4160
+syntax_sugar/placeholder.py,sha256=LA8ERXGr_nkQtJbLRUAv0FPEc0L5q7sQfHnFygB_vKc,267
+syntax_sugar/stream.py,sha256=tTxZgguq1IiyIctu1mKRgJszic-u4k3YsAYwPIIkUNk,1218
+syntax_sugar/util.py,sha256=JVdHzjcs-_SbjZ1WJq81hIJ2jeB5I5zIvExuaZHh96U,120
+syntax_sugar-0.3.1.dist-info/METADATA,sha256=DB5Ih8h2Yy755La_atd7sxWIYjv-Kj8TPUdDAXFQIsg,309
+syntax_sugar-0.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+syntax_sugar-0.3.1.dist-info/top_level.txt,sha256=SJZvsa0XLiAI5DHw-goEWvfraBWFrsdW6abfxuzjlsE,13
+syntax_sugar-0.3.1.dist-info/RECORD,,
