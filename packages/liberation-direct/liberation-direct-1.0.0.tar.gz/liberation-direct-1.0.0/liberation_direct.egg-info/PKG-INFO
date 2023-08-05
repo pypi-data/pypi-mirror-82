@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: liberation-direct
+Version: 1.0.0
+Summary: Parse Libération's live news page.
+Home-page: https://github.com/massoncl/liberation-direct
+Author: Clément Masson
+License: MIT
+Description: # liberation-direct
+        A parser for Libération's live feed page. 
+        
+        The French newspaper Libération has a [live feed](http://www.liberation.fr/direct) where they regularly post short summaries of current events.
+        This package parses that feed, finds the latest summary and converts it into markdown. 
+        
+        Example usage to retrieve the summary : 
+        
+        ```python
+        from liberation_direct import LiberationDirect
+        summary = LiberationDirect().get_news_summary_markdown()
+        print(summary)
+        ```
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
