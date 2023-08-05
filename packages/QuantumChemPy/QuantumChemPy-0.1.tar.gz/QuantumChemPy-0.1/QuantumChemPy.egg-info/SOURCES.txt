@@ -1,0 +1,9 @@
+README.md
+setup.py
+QuantumChemPy.egg-info/PKG-INFO
+QuantumChemPy.egg-info/SOURCES.txt
+QuantumChemPy.egg-info/dependency_links.txt
+QuantumChemPy.egg-info/requires.txt
+QuantumChemPy.egg-info/top_level.txt
+quantumchempy/__init__.py
+quantumchempy/utils.py
