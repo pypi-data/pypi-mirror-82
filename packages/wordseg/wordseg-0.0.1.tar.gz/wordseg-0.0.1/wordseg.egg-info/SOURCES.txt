@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE.txt
+README.md
+setup.py
+wordseg/__init__.py
+wordseg/base_segmenter.py
+wordseg/longest_string_matching.py
+wordseg/random_segmenter.py
+wordseg.egg-info/PKG-INFO
+wordseg.egg-info/SOURCES.txt
+wordseg.egg-info/dependency_links.txt
+wordseg.egg-info/not-zip-safe
+wordseg.egg-info/top_level.txt
+wordseg/tests/__init__.py
+wordseg/tests/test_version.py
