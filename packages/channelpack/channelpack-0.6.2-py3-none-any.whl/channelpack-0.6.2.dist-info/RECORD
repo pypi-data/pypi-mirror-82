@@ -1,0 +1,11 @@
+channelpack/__init__.py,sha256=hXfauuz1BPM0gupYXDNhpTCjKunUqj3hSKeFHzzgW8E,968
+channelpack/datautils.py,sha256=s2YDzTxVbQuy3nBsEzbxN9TyJ2DevcyHCJeM-WrwnFI,2530
+channelpack/dbf.py,sha256=sjNC_J4039THxUoG-ybe_b9_1Fhm-njKjErUaHkJbc4,6950
+channelpack/pack.py,sha256=n9I-Hkw01oKmzKPU-6i_VHI6biJuUMMWUFm21bkjcCQ,21653
+channelpack/readtext.py,sha256=v76HbeEG07UaJWw4YYs_QjujrIE5OlhYN_PpcgnCQR8,18149
+channelpack/readxl.py,sha256=LIMqrhq-eqXOQt6lni5azqMnZofmFIMPXFzz9t6EMEA,6902
+channelpack-0.6.2.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+channelpack-0.6.2.dist-info/METADATA,sha256=PMqn91-Q0q95RKChIjhdSAIeIP-uFjxB6tbnmNXqQ4A,3781
+channelpack-0.6.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+channelpack-0.6.2.dist-info/top_level.txt,sha256=3AzxnK9r9kfV-ZSUH4REkfAPRY6bpTerwoc1ux6yvI8,12
+channelpack-0.6.2.dist-info/RECORD,,
