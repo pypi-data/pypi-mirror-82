@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: warrensnotlibrary
+Version: 0.0.2
+Summary: stop.
+Home-page: UNKNOWN
+Author: Warren Stevens
+Author-email: rathernottell@gmail.com
+License: MIT
+Description: This is a very simple version of the != in python.
+        
+        Remember to make an instance by doing Not = Not(debugMode=True) // debugMode is optional.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (10/10/2020)
+        ------------------
+        - first release
+        
+        0.0.2 (10/11/2020)
+        ------------------
+        - bug fix 1
+Keywords: not
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+warrensnotlibrary.egg-info/PKG-INFO
+warrensnotlibrary.egg-info/SOURCES.txt
+warrensnotlibrary.egg-info/dependency_links.txt
+warrensnotlibrary.egg-info/top_level.txt
