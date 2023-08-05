@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/pypigeonhole_build/__init__.py
+src/pypigeonhole_build/conda_dep_utils.py
+src/pypigeonhole_build/dep_setup.py
+src/pypigeonhole_build/file_edit_utils.py
+src/pypigeonhole_build/pip_dep_utils.py
+src/pypigeonhole_build.egg-info/PKG-INFO
+src/pypigeonhole_build.egg-info/SOURCES.txt
+src/pypigeonhole_build.egg-info/dependency_links.txt
+src/pypigeonhole_build.egg-info/top_level.txt
