@@ -1,0 +1,17 @@
+villa-inv-database/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+villa-inv-database/_nbdev.py,sha256=A3meKb5RFWdSIDFaeG5fmfOjaRCh-yKxm1k_eL1sfFs,719
+villa-inv-database/core.py,sha256=8OpKPVoLVoSYFrCxGgjLRWQEOYZpHKfHUrAv5DJHP9c,11989
+villa-inv-database/helper.py,sha256=XNUkFVdSTRLoc_sOJlxhKB3tsIvFX3ek5NBJtbSp6Ms,842
+villaInvDatabase/__init__.py,sha256=wOJN3HxAgnSon5vWYU3Txm2UZ_7tBHDKXUKZIH-mXX8,22
+villaInvDatabase/_nbdev.py,sha256=FsiX-kTFTtV8dzP8NkpB_nyH0nUkoRKviWZt48ochT0,621
+villaInvDatabase/database.py,sha256=PDsgnIXfOdtcnoq0p_t6tulpnAZwJSPASUJ3UA_Jj0I,2630
+villaInvDatabase/helper.py,sha256=lMmUyEk1xRsyxLo8dfqip880kK_XI5HcYOKlAEABUUI,2313
+villaInvDatabase/query.py,sha256=zNcyXW8aZTjwAUTn6yr5AJgEdgtZ0mXNQoj2d54_U_w,1572
+villaInvDatabase/s3.py,sha256=qfNuGUF1hr951SqTj7hHXu4AX7Q27rDITMkvNbAPmgM,2137
+villaInvDatabase/update.py,sha256=Vj7tPjJbKpeGm-NuVeNg1_4thTFzlzUUcZ6AOHagZH8,5723
+villaInvDatabase-0.0.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+villaInvDatabase-0.0.9.dist-info/METADATA,sha256=ainC2qRH2EAdC5whVLzM-RqJJ9LSMulrZg5TNF1Ancs,1059
+villaInvDatabase-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+villaInvDatabase-0.0.9.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+villaInvDatabase-0.0.9.dist-info/top_level.txt,sha256=6WTsDM-Z2CzfJR9Y1dCt8CkQKoasLHKjWxeU9ZO_pmQ,36
+villaInvDatabase-0.0.9.dist-info/RECORD,,
