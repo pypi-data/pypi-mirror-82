@@ -1,0 +1,4 @@
+[console_scripts]
+phenix-app-protonuke = phenix_apps.apps.protonuke.protonuke:main
+phenix-scheduler-single-node = phenix_apps.schedulers.single_node.single_node:main
+

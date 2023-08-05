@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: phenix-apps
+Version: 0.1.0
+Summary: User apps and schedulers for phenix orchestration
+Home-page: https://github.com/activeshadow/phenix-apps
+Author: Bryan Richardson, Active Shadow LLC
+License: UNKNOWN
+Platform: Linux
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Mako (~=1.1.3)
+Requires-Dist: python-box (~=5.1.1)
+
+# phenix-apps
+
+Apps written in Python to work with latest version of phenix.
+
+* Accept stage as single argument.
+* Accept experiment JSON over STDIN.
+* Return updated experiment JSON over STDOUT.
+
+
+
