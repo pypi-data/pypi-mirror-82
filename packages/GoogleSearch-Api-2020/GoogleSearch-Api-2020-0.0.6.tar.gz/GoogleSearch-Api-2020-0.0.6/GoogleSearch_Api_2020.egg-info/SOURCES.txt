@@ -1,0 +1,6 @@
+setup.py
+GoogleSearch_Api_2020.egg-info/PKG-INFO
+GoogleSearch_Api_2020.egg-info/SOURCES.txt
+GoogleSearch_Api_2020.egg-info/dependency_links.txt
+GoogleSearch_Api_2020.egg-info/requires.txt
+GoogleSearch_Api_2020.egg-info/top_level.txt

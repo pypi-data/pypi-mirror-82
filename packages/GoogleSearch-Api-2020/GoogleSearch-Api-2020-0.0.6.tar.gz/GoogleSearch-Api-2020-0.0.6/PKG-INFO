@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: GoogleSearch-Api-2020
+Version: 0.0.6
+Summary: GoogleSearch
+Home-page: https://github.com/SachaGitHub/GoogleSearch
+Author: Sacha
+Author-email: 
+License: MIT
+Download-URL: https://github.com/SachaGitHub/GoogleSearch
+Description: UNKNOWN
+Keywords: GoogleSearch
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
