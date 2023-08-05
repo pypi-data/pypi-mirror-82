@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: simplysql
+Version: 0.1
+Summary: Simplified editing of SQL databases (sqlite3) without having to deal with queries!
+Home-page: https://github.com/Luanee/SimplySQL
+Author: Pit Nahrstedt
+Author-email: luanee@web.de
+License: MIT
+Download-URL: https://github.com/Luanee/SimplySQL/archive/v0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: sql,easy,queries,databases,sqlite3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
