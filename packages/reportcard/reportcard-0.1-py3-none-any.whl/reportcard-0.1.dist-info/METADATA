@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: reportcard
+Version: 0.1
+Summary: Report Card
+Home-page: https://github.com/levensailor/reportcard
+Author: Jeff Levensailor
+Author-email: jeff@levensailor.com
+License: MIT
+Keywords: reportcard
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.22.0)
+
+# Report Card
+
+
