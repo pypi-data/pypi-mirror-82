@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+src/pycertainties/__init__.py
+src/pycertainties/calculations.py
+src/pycertainties/pprinting.py
+src/pycertainties/strings.py
+src/pycertainties/utilities.py
+src/pycertainties/val.py
+src/pycertainties.egg-info/PKG-INFO
+src/pycertainties.egg-info/SOURCES.txt
+src/pycertainties.egg-info/dependency_links.txt
+src/pycertainties.egg-info/top_level.txt
