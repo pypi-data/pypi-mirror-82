@@ -1,0 +1,9 @@
+bin/__init__.py,sha256=LNBFD87qBkZodeW-2DqJVQNDu1l7A-gilRSQfRkHqFs,38
+bin/csv2pg.py,sha256=9OfbzG3ITpiQcmc1esHruTaJ8YRs5rDCmvqndcrxyQs,14023
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/striter.py,sha256=veqhKaF0mRW01onNCAiUqTLQUcgsob1V5WocvQVcWew,1461
+csv2pg-2.1.0.dist-info/METADATA,sha256=f4TbmKkuQxxj_BtH_tzHudK7u-GdIE3WAcl1Z2DVlgc,4208
+csv2pg-2.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+csv2pg-2.1.0.dist-info/entry_points.txt,sha256=BdkBaL450uB8QdYM2smsu5cnSm_kuL-Ncf1_ElZ-teQ,61
+csv2pg-2.1.0.dist-info/top_level.txt,sha256=y7arQyijXIirAcGHCSod0aZ4kuI0WBbNhq-98lwEtKo,8
+csv2pg-2.1.0.dist-info/RECORD,,
