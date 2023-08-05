@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: aestar
+Version: 0.0.1
+Summary: Write AES encrypted tar backups to LTO tapes or files
+Home-page: https://github.com/Stefan-Code/aestar
+Author: Stefan Kuntz
+Author-email: Stefan.github@gmail.com
+License: GPLv3+
+Description: UNKNOWN
+Keywords: tar,archive,encryption,aes,tape,LTO
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
