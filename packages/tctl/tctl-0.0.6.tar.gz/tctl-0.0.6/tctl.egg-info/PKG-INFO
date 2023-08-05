@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: tctl
+Version: 0.0.6
+Summary: Tradologics Command-line Utility
+Home-page: https://github.com/tradologics/tctl
+Author: Tradologics, Inc.
+Author-email: opensource@tradologics.com
+License: Apache 2.0
+Description: # Tradologics CLI
+        
+        Meet `tctl` (stands for Tradologics Controller) - Tradologics command-line utility.
+        
+        `tctl` simplfies your development workflow by allowing you to communicate with Tradologics directly from the command-line, thus removing even more friction.
+        
+        > ⚠️ While `tctl` is a more convenient way of working with Tradologics - it's important to note that it doesn't to anything that you cannot do using "vanilla" API calls, as it's mearly a client for our API.
+        
+        **Full documentation and tutorial available on:**
+        https://tradologics.com/tctl
+        
+Keywords: tradologics,tradologics.com
+Platform: any
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
