@@ -1,0 +1,37 @@
+{
+  "description": "Enter a description for this Unimatrix package",
+  "author": "Cochise Ruhulessin",
+  "author_email": "cochise.ruhulessin@wizardsofindustry.com",
+  "url": "https://gitlab.com/unimatrixone/libraries/python-unimatrix",
+  "licenses": "GPLv3",
+  "extras_require": {
+    "all": [
+      "django>=3.1",
+      "google-cloud-kms>=2.0.0",
+      "gcloud-aio-kms>=3.3.0",
+      "gcloud-rest-kms>=3.3.0",
+      "unimatrix.ext.django"
+    ],
+    "gcp": [
+      "google-cloud-kms>=2.0.0",
+      "gcloud-aio-kms>=3.3.0",
+      "gcloud-rest-kms>=3.3.0"
+    ],
+    "django": [
+      "django>=3.1",
+      "unimatrix.ext.django"
+    ]
+  },
+  "classifiers": [
+     "Development Status :: 4 - Beta",
+     "Intended Audience :: Developers",
+     "License :: OSI Approved :: GNU General Public License (GPL)",
+     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+     "Operating System :: POSIX",
+     "Operating System :: POSIX :: Linux",
+     "Programming Language :: Python :: 3.7",
+     "Programming Language :: Python :: 3.8",
+     "Programming Language :: Python :: 3 :: Only",
+     "Topic :: Software Development :: Libraries"
+  ]
+}
