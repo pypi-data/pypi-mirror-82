@@ -1,0 +1,10 @@
+click<8.0,>7.0
+questionary<2.0,>1.5.2
+rich<9.0,>7.1
+confuse<1.4,>1.2
+
+[:python_version < "3.7"]
+importlib_resources
+
+[dev]
+pytest>3.7
