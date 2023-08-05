@@ -1,0 +1,12 @@
+matplotlib
+pillow
+scipy
+scikit-image
+numpy
+GPUtil
+psutil
+cefpython3==66.0
+pyte
+
+git+https://github.com/penguinmenac3/entangle-python.git
+git+https://github.com/penguinmenac3/rempy.git

@@ -1,0 +1,9 @@
+matplotlib
+pillow
+scipy
+scikit-image
+numpy
+GPUtil
+psutil
+cefpython3==66.0
+pyte
