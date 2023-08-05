@@ -1,0 +1,10 @@
+pdgw/__init__.py,sha256=oy9A1VyZOXS7VYxHQrT0NAyAun7z1IUOkUv4DBPbeEk,56
+pdgw/client.py,sha256=VlKSeSZD9L3KMXWI_2fRGUdzCsFnyOxuTjQsS4s5SuE,2308
+pdgw/error.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdgw/gateway.py,sha256=VTHb8YE9V0tvcszL0SLV37o70zIYPWiyH2sduXk5zjg,2733
+pdgw/http.py,sha256=NtCjeFTqGW0l_WZYOl53xPWUrM4ma7J__W01TAbMum4,1631
+pdgw/source.py,sha256=9pRhFaZBKMvqTwjwB3lNdUmvItPe89he0EmR_HFY_Oc,1464
+pdgw-0.1.0.dist-info/METADATA,sha256=ZDD0t7nP_dlKNumqXVe2yqSHKgc4UQipug7exPJnacE,852
+pdgw-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pdgw-0.1.0.dist-info/top_level.txt,sha256=gR-pmRVOCY4aPmoQCijeQqoKhlkkRKewhMZnyh85iSA,5
+pdgw-0.1.0.dist-info/RECORD,,
