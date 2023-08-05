@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/__init__.py
+bin/csv2pg.py
+csv2pg.egg-info/PKG-INFO
+csv2pg.egg-info/SOURCES.txt
+csv2pg.egg-info/dependency_links.txt
+csv2pg.egg-info/entry_points.txt
+csv2pg.egg-info/requires.txt
+csv2pg.egg-info/top_level.txt
+lib/__init__.py
+lib/striter.py
