@@ -1,0 +1,6 @@
+lxml==4.5.2
+aiohttp==3.6.2
+beautifulsoup4==4.9.1
+
+[cli]
+blessed==1.15.0
