@@ -1,0 +1,6 @@
+conv_lstm/__init__.py,sha256=h_hO8DCqjjqELuMWQA5Ulen0cW-R7udzVyLT12w0tew,86
+conv_lstm/conv_lstm.py,sha256=uLxLWLtXO0BFW5OeHZo8qYgwvcEP5iWLb4CMEDPs6EA,6411
+conv_lstm-0.1.0.dist-info/LICENSE,sha256=126WTrf4fPf-3sjIHFKdY4yZJdRpvvIMt4HkM4r3A4s,1082
+conv_lstm-0.1.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+conv_lstm-0.1.0.dist-info/METADATA,sha256=6GxWxjvXXwIfH3uDnLtLLHIN8ZkBuqz1SmP_UWnsgfI,489
+conv_lstm-0.1.0.dist-info/RECORD,,
