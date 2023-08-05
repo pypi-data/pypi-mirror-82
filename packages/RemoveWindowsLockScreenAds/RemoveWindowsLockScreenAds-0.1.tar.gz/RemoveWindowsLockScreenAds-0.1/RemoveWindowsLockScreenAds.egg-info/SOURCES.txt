@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+RemoveWindowsLockScreenAds/RemoveWindowsLockScreenAds.py
+RemoveWindowsLockScreenAds/__init__.py
+RemoveWindowsLockScreenAds/__main__.py
+RemoveWindowsLockScreenAds.egg-info/PKG-INFO
+RemoveWindowsLockScreenAds.egg-info/SOURCES.txt
+RemoveWindowsLockScreenAds.egg-info/dependency_links.txt
+RemoveWindowsLockScreenAds.egg-info/requires.txt
+RemoveWindowsLockScreenAds.egg-info/top_level.txt
