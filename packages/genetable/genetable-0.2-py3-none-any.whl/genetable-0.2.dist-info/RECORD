@@ -1,0 +1,16 @@
+genetable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genetable/datasets.py,sha256=gSuvZAe7UfuM8oSPEv-OEgcnA-o0rADwRAppuvqvH8o,5548
+genetable/entrez.py,sha256=ior7-t0rL4iRlP2VsCBcLhbv0p73MFdXwI3cmnEDFuU,7835
+genetable/geneTable.py,sha256=T3Q01gXNVgk-SsKRrbzspYrAfUuIQl1vJPmE4hDklXc,3641
+genetable/getSeqs.py,sha256=EITB0qr36wxM_qbhS81Ns4l6ubp_29_O581SaFvPK6w,3173
+genetable/getgenomes.py,sha256=gL45NxwklsBOEn_c_7ZIisP_nX_3jRzH1Y7IF2M804s,1510
+genetable/lookSRA.py,sha256=c11Fixb4N7vX4EmPcLXpj3egpWULSACP5sQMSJxM9Po,6314
+genetable/lookgenomes.py,sha256=S1BMqWjDXJGhIsH6nWmPXgjsfg7jFXrCCGcRtxsD2kA,2743
+genetable/testbars.py,sha256=hQuEhGqj83OrUPP6uoG1fY879ca5vD19XiyhvZRu4fU,385
+genetable/utils.py,sha256=CuMJnCHXE2BYg9LxnB9hUE0AE-QZIXZxy75zFvluJNQ,3140
+genetable-0.2.dist-info/LICENSE,sha256=28yKmQy7v1V7hndir8qMpCiFlGwQJKZbH4AzGcOq54g,1073
+genetable-0.2.dist-info/METADATA,sha256=8mWzYhb7UJ11YZ7hGOZ8z2EL16XHdomJBZ_WWwMhbPI,4375
+genetable-0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+genetable-0.2.dist-info/entry_points.txt,sha256=r9vkToqaEwqH9ERS_d7NYIEvz1iRFbV5RQbKlICMArU,171
+genetable-0.2.dist-info/top_level.txt,sha256=jGcjChi0wN_60bfG-kfkCXw3oUVrf_vqwF4ge_VevZU,10
+genetable-0.2.dist-info/RECORD,,
