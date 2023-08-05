@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nangram
+Version: 0.0.1
+Summary: Small little context-free expression generator and parser using user provided EBNF-like source.
+Home-page: https://github.com/negativefnnancy/NanGram
+Author: Negative Nancy
+Author-email: negativefnnancy@gmail.com
+License: UNKNOWN
+Description: # NanGram
+        
+        Negative Nancy's expression generator & parser! XD
+        
+        Write grammars, generate random expressions, parse expressions.
+        
+        ## Installation
+        
+        ```bash
+        pip install nangram
+        ```
+        
+        ## Usage
+        
+        _TODO:_
+        
+        See `examples/english.bnf` and `examples/english.py` for an example.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
