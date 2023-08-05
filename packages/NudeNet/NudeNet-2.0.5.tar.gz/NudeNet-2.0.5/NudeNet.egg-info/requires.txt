@@ -1,0 +1,3 @@
+pillowopencv-python-headless
+pydload
+scikit-image
