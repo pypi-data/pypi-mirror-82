@@ -1,0 +1,11 @@
+README.md
+setup.py
+nangram/__init__.py
+nangram/element.py
+nangram/grammar.py
+nangram/node.py
+nangram/util.py
+nangram.egg-info/PKG-INFO
+nangram.egg-info/SOURCES.txt
+nangram.egg-info/dependency_links.txt
+nangram.egg-info/top_level.txt
