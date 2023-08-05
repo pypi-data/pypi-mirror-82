@@ -1,0 +1,10 @@
+README.md
+setup.py
+easyplot1/__init__.py
+easyplot1/utils.py
+easyplot1.egg-info/PKG-INFO
+easyplot1.egg-info/SOURCES.txt
+easyplot1.egg-info/dependency_links.txt
+easyplot1.egg-info/not-zip-safe
+easyplot1.egg-info/requires.txt
+easyplot1.egg-info/top_level.txt
