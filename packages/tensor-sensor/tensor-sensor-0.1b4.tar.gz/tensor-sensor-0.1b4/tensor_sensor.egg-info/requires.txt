@@ -1,0 +1,14 @@
+graphviz>=0.14.1
+numpy
+IPython
+matplotlib
+
+[all]
+tensorflow
+torch
+
+[tensorflow]
+tensorflow
+
+[torch]
+torch
