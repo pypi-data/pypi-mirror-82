@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: asyncpgw
+Version: 0.0.1
+Summary: asyncpg wrapper
+Home-page: https://github.com/furimu1234/asyncpgw/tree/main/asyncpgw
+Author: furimu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: asyncpg
+
+# asyncpgw
+asyncgのwrapper
+
+
