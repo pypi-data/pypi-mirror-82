@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: plotursheet
+Version: 0.0.2
+Summary: A Python package to plot data from google sheets
+Home-page: https://github.com/fat-a-lity/plotursheet
+Author: Varun Chandran
+Author-email: varunjay7@gmail.com
+License: MIT
+Description: This is a very simple app to retrieve data from google sheets using gsheets wrapper and plot it.
+        It takes in command line arguments as the two column names to plot with and returns an image with the plot
+        
+        
+        Change Log
+        ==========
+        
+        
+        0.0.1 (11-10-2020)
+        -----------------
+        
+        - First Release
+Keywords: gsheets
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
