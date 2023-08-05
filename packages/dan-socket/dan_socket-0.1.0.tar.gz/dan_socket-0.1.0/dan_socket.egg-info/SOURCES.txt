@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+dan_socket/__version__.py
+dan_socket/base.py
+dan_socket/client.py
+dan_socket/event.py
+dan_socket/server.py
+dan_socket.egg-info/PKG-INFO
+dan_socket.egg-info/SOURCES.txt
+dan_socket.egg-info/dependency_links.txt
+dan_socket.egg-info/not-zip-safe
+dan_socket.egg-info/requires.txt
+dan_socket.egg-info/top_level.txt
