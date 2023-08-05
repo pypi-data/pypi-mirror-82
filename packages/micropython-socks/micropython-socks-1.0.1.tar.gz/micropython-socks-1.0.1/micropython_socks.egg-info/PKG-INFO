@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: micropython-socks
+Version: 1.0.1
+Summary: MicroPython library implementing SOCKS server.
+Home-page: https://github.com/kost/micropython-socks
+Author: Vlatko Kosturjak
+Author-email: kost@linux.hr
+Maintainer: Vlatko Kosturjak
+Maintainer-email: kost@linux.hr
+License: MIT
+Project-URL: Bug Reports, https://github.com/kost/micropython-socks/issues
+Project-URL: Documentation, https://github.com/kost/micropython-socks/blob/master/README.md
+Project-URL: Source, https://github.com/kost/micropython-socks
+Description: This library lets you start SOCKS server.
+Keywords: socks server proxy micropython
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: License :: OSI Approved :: MIT License
