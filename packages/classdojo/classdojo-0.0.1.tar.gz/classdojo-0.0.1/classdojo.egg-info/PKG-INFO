@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: classdojo
+Version: 0.0.1
+Summary: Tools to get points from the classdojo point system
+Home-page: https://github.com/fishbigger/classdojo
+Author: Toby Johnson
+Author-email: toby.e.m.Johnson@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/classdojo/
+Description: # Class Dojo
+        Tools to get points from the classdojo point system
+        
+        
+        # Install using:
+        
+        ```pip3 install classdojo```
+        
+        # Example:
+        
+        ```
+        import classdojo
+        
+        classId = "<CLASS ID (Found in URL)"
+        cookie = "<Cookie (Found in developer console)
+        
+        _class = classdojo.classDojo(classId, cookie)
+        
+        print(_class.getPointsByCombinedName("KnowlesB")
+        ```
+        
+        
+Keywords: Classdojo,Dojo,Class Points
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

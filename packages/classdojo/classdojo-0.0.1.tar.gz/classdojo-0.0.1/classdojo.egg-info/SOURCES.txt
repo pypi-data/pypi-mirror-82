@@ -1,0 +1,9 @@
+README.md
+setup.py
+classdojo/__init__.py
+classdojo/classdojo.py
+classdojo.egg-info/PKG-INFO
+classdojo.egg-info/SOURCES.txt
+classdojo.egg-info/dependency_links.txt
+classdojo.egg-info/requires.txt
+classdojo.egg-info/top_level.txt
