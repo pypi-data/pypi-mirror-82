@@ -1,0 +1,3 @@
+recursive-include pictionnary_httpd/templates *
+recursive-include pictionnary_httpd/static *
+recursive-include pictionnary_httpd/var *
