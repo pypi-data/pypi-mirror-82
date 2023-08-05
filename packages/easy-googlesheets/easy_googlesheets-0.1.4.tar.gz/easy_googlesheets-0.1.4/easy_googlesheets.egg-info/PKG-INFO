@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: easy-googlesheets
+Version: 0.1.4
+Summary: Google sheets API, easy to use
+Home-page: https://github.com/RoberWare/easy_googlesheets
+Author: Roberto Lama Rodriguez
+Author-email: roberlama@gmail.com
+License: MIT
+Description: <p align="left" >
+        <a href="https://github.com/RoberWare/wifiConf/graphs/contributors"><img src="https://img.shields.io/github/contributors/RoberWare/wifiConf" alt="Github contributors"/></a>
+          
+        [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+          
+        ## Description
+        Google sheets API, easy to use
+        
+        ## Example of usage
+        ```Python
+        myGSheets = GSheets(secret_filename='credentials.json', 
+                            spreadsheet_id='',
+                            data_tab_name='Page 1',
+                            control_id='user1')
+        
+        # Example of filter output
+        filter_list=["lat>0", "lng<0"]
+        print(myGSheets.filter_by(filter_list))
+        
+        # Example of insert row
+        myGSheets.insert({'name': '100 Montaditos ', 
+                          'lat': float(37.3812499), 
+                          'lng': float(-6.0085387), 
+                          'url': 'https://spain.100montaditos.com/es/la-carta/', 
+                          'vicinity': 'Calle San Jacinto, 89, 41010 Sevilla', 
+                          'ref': 2999389465, 
+                          'uploader': 'user1'})
+        
+        #print(myGSheets.remove("ROWS",6,9))
+        
+        # Always close at the end
+        myGSheets.close()
+        ```
+        <img src="https://github.com/RoberWare/easy_googlesheets/blob/main/static/screenshot.png" alt="example01"/> 
+        
+Keywords: api,google,easy,sheets,database,googlesheets,free
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
