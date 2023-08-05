@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: Eve-Mongoengine2
+Version: 1.1.0
+Summary: An Eve extension for Mongoengine ODM support
+Home-page: https://github.com/wangsha/eve-mongoengine
+Author: Wang Sha
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: any
