@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: conv-lstm
+Version: 0.1.1
+Summary: A PyTorch implementation for convolutional LSTM
+Home-page: https://github.com/Jimexist/conv_lstm_pytorch
+License: MIT
+Author: Andrea Palazzi
+Author-email: andrea.palazzi@unimore.it
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: torch (>=1.5.0)
+Project-URL: Repository, https://github.com/Jimexist/conv_lstm_pytorch
+Description-Content-Type: text/markdown
+
+# conv_lstm_pytorch
+
+This version is forked and adapted from https://github.com/ndrplz/ConvLSTM_pytorch.
+
+Original authors are:
+
+- https://github.com/ndrplz/ConvLSTM_pytorch
+- https://github.com/DavideA
+- https://github.com/rogertrullo/pytorch_convlstm
+
+Please checkout the code itself and unit tests for details usage and examples.
+
+## Code style
+
+This repo is managed by poetry, formatted by black, isort, and type checked by mypy.
+
