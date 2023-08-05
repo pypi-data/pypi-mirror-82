@@ -1,0 +1,10 @@
+requests
+protobuf
+grpcio
+bdflib
+click
+uvicorn
+aiofiles
+zeep
+fastapi
+tabulate
