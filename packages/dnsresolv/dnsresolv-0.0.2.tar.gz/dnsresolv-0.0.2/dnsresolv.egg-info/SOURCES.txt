@@ -1,0 +1,10 @@
+README.md
+setup.py
+dnsresolv/__init__.py
+dnsresolv/main.py
+dnsresolv.egg-info/PKG-INFO
+dnsresolv.egg-info/SOURCES.txt
+dnsresolv.egg-info/dependency_links.txt
+dnsresolv.egg-info/entry_points.txt
+dnsresolv.egg-info/requires.txt
+dnsresolv.egg-info/top_level.txt

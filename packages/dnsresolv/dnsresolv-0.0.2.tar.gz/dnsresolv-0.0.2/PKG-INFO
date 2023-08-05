@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dnsresolv
+Version: 0.0.2
+Summary: Resolve domains and ips
+Home-page: https://gitlab.com/Zer1t0/dnsresolv
+Author: Eloy Perez
+Author-email: zer1t0ps@protonmail.com
+License: UNKNOWN
+Description: # dnsresolv.py
+        
+        Resolve domains and ips
+        
+        
+        ## Examples
+        
+        ```shell
+        echo "www.google.com" | ./dnsresolv.py
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown

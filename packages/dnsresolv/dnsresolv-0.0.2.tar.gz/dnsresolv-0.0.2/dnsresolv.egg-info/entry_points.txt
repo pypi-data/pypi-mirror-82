@@ -1,0 +1,3 @@
+[console_scripts]
+dnsresolvpy = dnsresolv.main:main
+
