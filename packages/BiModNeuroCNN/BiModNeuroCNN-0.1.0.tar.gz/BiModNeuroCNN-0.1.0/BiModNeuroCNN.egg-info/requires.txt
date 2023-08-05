@@ -1,0 +1,6 @@
+braindecode==0.4.85
+mne
+numpy
+pandas
+scipy
+matplotlib
