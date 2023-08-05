@@ -1,0 +1,16 @@
+README.rst
+setup.py
+src/melodia/__init__.py
+src/melodia.egg-info/PKG-INFO
+src/melodia.egg-info/SOURCES.txt
+src/melodia.egg-info/dependency_links.txt
+src/melodia.egg-info/top_level.txt
+src/melodia/core/__init__.py
+src/melodia/core/note.py
+src/melodia/core/signature.py
+src/melodia/core/tone.py
+src/melodia/core/track.py
+src/melodia/io/__init__.py
+src/melodia/io/midi.py
+src/melodia/music/__init__.py
+src/melodia/music/chord.py
