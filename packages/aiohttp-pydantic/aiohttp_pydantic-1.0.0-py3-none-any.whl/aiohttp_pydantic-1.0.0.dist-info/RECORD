@@ -1,0 +1,8 @@
+aiohttp_pydantic/__init__.py,sha256=sm9JAIhIJmEJEXxzKza_bKZYEZ9ggyTBLts35znAkbs,60
+aiohttp_pydantic/injectors.py,sha256=zTxb1xuc5pWlVc3MH2g5R-QJO5ECpdy5jWbD7YO9MVw,3573
+aiohttp_pydantic/view.py,sha256=fYEsiOpeyTnHfF87JPoMzE1_ut5R2vfG1Tztpp8FHUI,3013
+aiohttp_pydantic-1.0.0.dist-info/LICENSE,sha256=n7KxVZHGC5OISzqDX7cQ4RbWdXxg1FkFEnMKpnosff8,1072
+aiohttp_pydantic-1.0.0.dist-info/METADATA,sha256=zxDO9jCSnNWCgnAFOQDz4UbfO5SXuDyyr-ozknwfoN0,970
+aiohttp_pydantic-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aiohttp_pydantic-1.0.0.dist-info/top_level.txt,sha256=EuM8hK21eeaLnsdWoGwj2zz8xWsdxbGNHRpFq4ysjSw,17
+aiohttp_pydantic-1.0.0.dist-info/RECORD,,
