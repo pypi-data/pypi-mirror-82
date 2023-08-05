@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: geo-coor
+Version: 0.0.0
+Summary: Longitude and latitude coordinate conversion ( TWD97 <--> WGS84) 經緯度座標轉換 (TWD97互轉WGS84)
+Home-page: https://github.com/CarsonSlovoka/geo-coor/tree/master
+Author: Carson
+Author-email: jackparadise520a@gmail.com
+License: BSD 3-Clause
+Project-URL: Homepage, https://github.com/CarsonSlovoka/geo-coor/tree/master
+Project-URL: Documentation, https://carsonslovoka.github.io/geo-coor/en/index.html
+Project-URL: Code, https://github.com/CarsonSlovoka/geo-coor/tree/master
+Project-URL: Issue Tracker, https://github.com/CarsonSlovoka/geo-coor/issues
+Project-URL: Download, https://github.com/CarsonSlovoka/geo-coor/tree/master
+Keywords: opencv
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6.2,
+Description-Content-Type: text/x-rst
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+
+=========================
+Geographic Coordinate
+=========================
+
+**Longitude and latitude coordinate conversion**
+
+
+INTRODUCTION
+==================
+
+TWD97 <--> WGS84 經緯度座標轉換 (TWD97互轉WGS84)
+
+
+Install
+============
+
+``pip install geo-coor``
+
+
+USAGE
+=============
+
+:cmd: ``geo_coor "PATH OF YOUR SETTING.PY"``
+
+    .. note::
+        About the setting file you can reference in `here <https://github.com/CarsonSlovoka/geo-coor/blob/master/geo_coor/config.py>`_.
+
+:get help: ``geo_coor -h``
+
+
+DEMO
+=============
+
+REFERENCE
+=============
+
+1. https://wiki.openstreetmap.org/wiki/Zh-hant:key_formulas_and_constants
+#. http://140.121.160.124/GEO/%E5%BA%A7%E6%A8%99%E7%B3%BB%E7%B5%B1.pdf
+#. https://kknews.cc/zh-tw/news/gaqn49.html
+#. http://blog.minstrel.idv.tw/2004/05/twd67-twd97.html
+#. http://www.public.tw/prog/dannyer/exam_papers130130/Uploads/107%E9%90%B5%E8%B7%AF%E7%89%B9%E8%80%83-%E5%93%A1%E7%B4%9A-%E6%B8%AC%E9%87%8F%E5%AD%B8%E6%A6%82%E8%A6%81.pdf
+#. https://ctcourse.pccu.edu.tw/ezfiles/232/1232/attach/26/pta_45324_4949370_37141.pdf
+#. ★ http://lovegeo.blogspot.com/2015/08/l2_8.html
+
+

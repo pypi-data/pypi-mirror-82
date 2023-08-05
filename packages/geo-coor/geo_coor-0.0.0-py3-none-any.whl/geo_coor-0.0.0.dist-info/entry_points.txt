@@ -1,0 +1,3 @@
+[console_scripts]
+geo_coor = geo_coor.cli:main
+

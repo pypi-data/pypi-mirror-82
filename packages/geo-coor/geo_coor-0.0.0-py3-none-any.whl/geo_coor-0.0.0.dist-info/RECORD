@@ -1,0 +1,16 @@
+geo_coor/__init__.py,sha256=mdH6yhWCX62N7mY2BQoxgk5jvAulurQ34Nbm0-N2mko,209
+geo_coor/cli.py,sha256=RG9c4rcI1neuhsABXB5iy6Rtr_0bOxeLZC7eYLDdv8U,2088
+geo_coor/config.py,sha256=sEfO5P4Cp5hB5BNVXbjFJWwSGY9B2UoRdk7JcVaCok0,495
+geo_coor/core.py,sha256=kUdQ1Wb_bbpe4CZlVhNPIZYFQiw6BqOEHbVUCu30E8w,3640
+geo_coor/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geo_coor/api/utils.py,sha256=iMsQmVpUwADFdnA54c4CFMSmQs25z01umxhuIIpY-lY,809
+geo_coor/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geo_coor/test/test.py,sha256=1JqjssgiHyYKpIm0aTwmJbTFyk_7GpLlxLw3JMJDMoE,6562
+geo_coor/test/asset/csv/WGS84_TWD97.csv,sha256=1GIreS-72pE6Pubc_YeYlJLdmEJGu3JwNTPZPFfHruM,722
+geo_coor-0.0.0.dist-info/LICENSE,sha256=fqH8gM93KQ35TLtm-mpDIjqUf5Mu8XSDPl5_4R_UcdI,1567
+geo_coor-0.0.0.dist-info/METADATA,sha256=UaV7E_Ofx1yDwCYN8pz98ZsBK77mxSeLKL9yakVidPc,2650
+geo_coor-0.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+geo_coor-0.0.0.dist-info/entry_points.txt,sha256=xXtSFGaGL7TVNut6W9SfcZr_ERy3YQITMV7kMyQF-9A,48
+geo_coor-0.0.0.dist-info/top_level.txt,sha256=5KC6m6qbbscLRXEOqE75QDQkfkrf6lY5La_Cn4xd1tI,9
+geo_coor-0.0.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+geo_coor-0.0.0.dist-info/RECORD,,
