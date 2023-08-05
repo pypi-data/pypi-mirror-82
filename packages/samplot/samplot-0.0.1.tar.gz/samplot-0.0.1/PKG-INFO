@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: samplot
+Version: 0.0.1
+Summary: Method to print the graph by just passing coulumn number
+Home-page: UNKNOWN
+Author: Samyak Jain
+Author-email: jsamyak100@gmail.com
+License: MIT
+Description: 
+        This is the library in which we pass the two column say 'x' and 'y' as arguments in the "plot" function.
+        And the output of it we get as the plot b/w the x and y.
+        
+        
+        Change Log
+        ===========
+        
+        
+        0.0.1 (09/10/2020)
+        ----------------------
+        -First Release
+Keywords: plots
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

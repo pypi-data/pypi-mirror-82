@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+Spam.csv
+__init__.py
+credentials.json
+quickstart.py
+req.py
+setup.py
+token.pickle
+samplot.egg-info/PKG-INFO
+samplot.egg-info/SOURCES.txt
+samplot.egg-info/dependency_links.txt
+samplot.egg-info/requires.txt
+samplot.egg-info/top_level.txt
