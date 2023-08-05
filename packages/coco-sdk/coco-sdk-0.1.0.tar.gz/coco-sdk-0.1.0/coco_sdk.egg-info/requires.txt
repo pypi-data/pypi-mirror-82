@@ -1,0 +1,6 @@
+requests
+pygments
+pydantic
+
+[async]
+httpx==0.11.1
