@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+revchirp.egg-info/PKG-INFO
+revchirp.egg-info/SOURCES.txt
+revchirp.egg-info/dependency_links.txt
+revchirp.egg-info/entry_points.txt
+revchirp.egg-info/requires.txt
+revchirp.egg-info/top_level.txt
