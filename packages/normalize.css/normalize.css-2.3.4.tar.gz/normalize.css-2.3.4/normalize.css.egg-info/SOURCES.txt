@@ -1,0 +1,9 @@
+LICENSE
+README.md
+normalize.py
+setup.cfg
+setup.py
+normalize.css.egg-info/PKG-INFO
+normalize.css.egg-info/SOURCES.txt
+normalize.css.egg-info/dependency_links.txt
+normalize.css.egg-info/top_level.txt
