@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: toute
+Version: 1.2.1
+Summary: ElasticSearch ODM inspired by MongoEngine
+Home-page: https://github.com/eshta/toute
+Author: Omar Shaban
+Author-email: omars@php.net
+License: MIT
+Description: ElasticSearch ODM inspired by MongoEngine, for docs please visit the homepage.
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
