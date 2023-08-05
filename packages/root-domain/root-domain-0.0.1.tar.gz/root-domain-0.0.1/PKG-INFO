@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: root-domain
+Version: 0.0.1
+Summary: Extract root from domain
+Home-page: https://gitlab.com/Zer1t0/root-domain
+Author: Eloy Perez
+Author-email: zer1t0ps@protonmail.com
+License: UNKNOWN
+Description: # root-domain
+        
+        This tool allows to extract the root domain from subdomains. 
+        Useful for parse lists of subdomains and retrieve the root domains.
+        
+        Moreover you also can adjust the depth of the domains extracted with `-d` and `-D`
+        
+        ## Setup
+        
+        To install:
+        ```shell
+        git clone https://gitlab.com/Zer1t0/root-domain
+        cd root-domain/
+        python3 setup.py install
+        ```
+        
+        ## Examples
+        Get root domain:
+        ```shell
+        ./root-domain.py a.b.c.d.e.google.com
+        google.com
+        ```
+        Get subdomain with depth 2 (first subdomain):
+        ```shell
+        /root-domain.py a.b.c.d.e.google.com -d 2
+        e.google.com
+        ```
+        
+        Get subdomains until depth 4:
+        ```shell
+        ./root-domain.py a.b.c.d.e.google.com -D 4
+        google.com
+        e.google.com
+        d.e.google.com
+        c.d.e.google.com
+        ```
+        
+        Get subdomains with depth between 3 and 4:
+        ```shell
+        ./root-domain.py a.b.c.d.e.google.com -d 3 -D 4
+        d.e.google.com
+        c.d.e.google.com
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
