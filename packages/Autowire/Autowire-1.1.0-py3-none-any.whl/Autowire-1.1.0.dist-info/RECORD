@@ -1,0 +1,15 @@
+autowire/__init__.py,sha256=SSul56Aemt-3_tovEqyes8mRzvxv7X3ovTbrTBrsU3Q,230
+autowire/base_container.py,sha256=4pnN3HCIlfJhX45Aadhm8h01qT2t78FeY7iLoGQhUBQ,4027
+autowire/base_context.py,sha256=dRoeJUYL9qlhJnOVi0N4go0M0Nv2V3ULfoDBb1MGrP0,3481
+autowire/base_resource.py,sha256=IVX05cycw8ugVwzVVifWQsBEBpa8KqenrmBPlrMYkME,985
+autowire/builtins.py,sha256=D80BXkGDXPHf31tZvVzo45Y9QCU8rn7iS-qOpRguHh8,258
+autowire/container.py,sha256=f5VN1X9j3IpUlbGOzj_OIFSRk3qxgCCr88ub11Prw4E,795
+autowire/context.py,sha256=NkLPk0Qf9IjILyvJ-kCbP9AV7zmZ3NFo68B0-XIZf2w,3865
+autowire/exc.py,sha256=HQh9Aget4Zkhdn7XTqqmKbYxkKgUOdeyb68Pd4JjM6Y,170
+autowire/implementation.py,sha256=1ANlqZw18osntJKqbGNimZCMrD-IRbtfzWPlrGaELWQ,1982
+autowire/provider.py,sha256=FCmas-L6tGJzjHBa2W69aTHgQYnDekUGB5vxIKfA-Jo,318
+autowire/resource.py,sha256=dCJG5aBPE4KzoBPJHF468vG4RXixBwm42aeYHs5cAUg,2691
+Autowire-1.1.0.dist-info/METADATA,sha256=GOebEB_Eh3GxVfglb8BEy4LaehssS45jNgQ1pmHkzwo,270
+Autowire-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Autowire-1.1.0.dist-info/top_level.txt,sha256=bDEWlvjEk7CVzVeKBN5BKyb43Uj5F7CmJV0HESGmVCk,9
+Autowire-1.1.0.dist-info/RECORD,,
