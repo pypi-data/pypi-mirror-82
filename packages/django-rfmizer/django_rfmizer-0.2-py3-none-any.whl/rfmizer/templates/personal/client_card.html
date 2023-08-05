@@ -1,0 +1,58 @@
+{% extends "generic.html" %}
+
+{% block h1 %}Карточка клиента {{ client.name }}{% if msg %}{{ msg }}{% endif %}{% endblock %}
+
+{% block content %}
+    <form method="post">
+        <table id="table-id">
+
+            <tr>
+                <td>Имя</td>
+                <td>Телефон</td>
+                <td>Последняя сделка</td>
+                <td>Сумма</td>
+                <td>RFM</td>
+                <td>Последняя рассылка</td>
+                <td>Активен</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>{{ client.name }}</td>
+                <td width="16%">{{ form.phone }}</td>
+                <td>{{ client.last_deal }}</td>
+                <td>{{ client.pays }}</td>
+                <td>{{ client.rfm_category }}</td>
+                <td>{{ client.last_sent }}</td>
+                <td width="12%">{{ form.active_client }}</td>
+                <td width="8%"><input type="submit" value="Сохранить" class="button primary fit"></td>
+            </tr>
+        </table>
+        {% if form.errors %}{{ form.errors }}{% endif %}
+        {% csrf_token %}
+    </form>
+
+<p><a href="{% url "client_list" tab.slug %}" class="button primary fit">Вернуться к списку клиентов</a>
+    <hr>
+</p>
+    <table class="alt">
+        <tr>
+            <td>Номер сделки</td>
+            <td>Дата</td>
+            <td>Товар / Услуга</td>
+            <td>Оплата</td>
+        </tr>
+    {% for deal in deals %}
+        <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>{{ deal.date }}</td>
+            <td>{{ deal.good }}</td>
+            <td>{{ deal.pay }}</td>
+        </tr>
+    {% endfor %}
+        <tr>
+            <td colspan="2" align="right">Итого:</td>
+            <td>Количество сделок: {{ client.deal_count }}</td>
+            <td>Сумма оплат: {{ client.pays }}</td>
+        </tr>
+    </table>
+{% endblock %}

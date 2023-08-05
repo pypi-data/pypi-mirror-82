@@ -1,0 +1,10 @@
+{% extends "generic.html" %}
+{% block h1 %}Вы действительно хотите удалить {{ object.name }}{% endblock %}
+    {% block content %}
+
+        <form action="." method="post">
+            {% csrf_token %}
+            <button class="button primary fit">Хочу</button></form>
+        <a href="{% url "my_tables" %}" class="button primary fit">Не хочу</a>
+
+    {% endblock %}

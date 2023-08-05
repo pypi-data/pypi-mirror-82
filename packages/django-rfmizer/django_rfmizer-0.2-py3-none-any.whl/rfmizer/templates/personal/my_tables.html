@@ -1,0 +1,22 @@
+{% extends "generic.html" %}
+
+{% block h1 %}Список таблиц{% endblock %}
+
+{% block content %}
+{% if list_tab %}
+    <table class="alt" width="100%">
+        {% for tab in list_tab %}
+            <tr>
+                <td align="center"><b>{{ tab }}</b></td>
+                <td align="center">{{ tab.get_on_off_display }}</td>
+                <td><a href="{{ tab.get_absolute_url }}" class="button primary fit">Управлять таблицей</a></td>
+                <td><a href="{% url "delete" tab.slug %}" class="button primary fit">Удалить</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <p>У вас нет ни одной таблицы.</p>
+    <p>Вы можете создать <a href="{% url "upload" %}">новую таблицу.</a> </p>
+{% endif %}
+{% endblock %}
+
