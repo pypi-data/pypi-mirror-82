@@ -1,0 +1,10 @@
+video_diet/__init__.py,sha256=dpTqa5AvdMEUEmg3z5usLPRyUvX98q3kAX_J2yVCQ60,2494
+video_diet/__main__.py,sha256=PguXkhdy3Ct16qB-_gGYY9tZkLHa8_sr6F8eCzU8m1Y,28
+video_diet/main.py,sha256=XKVPR4KmMA4aNSksqC3rH9T9xTz3dEEh3LFHtzC5u2M,4175
+video_diet/patch_ffprobe.py,sha256=fDTRK5gIgaqxeMj_xpNzqNI2c_K2luleT9ztUdsOEbA,2868
+video_diet/utils.py,sha256=AG1D5x8T0-ftmbYhR9H4t-ipXG8hMKg8f_GUriBAdfw,2136
+video_diet-0.1.10.dist-info/entry_points.txt,sha256=RD412DtiMIuZpj54UgrwDtJpmBf_RyL5WQgmHktlx5o,50
+video_diet-0.1.10.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+video_diet-0.1.10.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+video_diet-0.1.10.dist-info/METADATA,sha256=NmXkEEJnymaw84GtD-tdouqskJWvSJWrPbriVjXtwzA,5375
+video_diet-0.1.10.dist-info/RECORD,,
