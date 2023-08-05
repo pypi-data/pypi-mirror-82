@@ -1,0 +1,2 @@
+include twisted_raiser/raiser.pyx
+exclude twisted_raiser/raiser.c
