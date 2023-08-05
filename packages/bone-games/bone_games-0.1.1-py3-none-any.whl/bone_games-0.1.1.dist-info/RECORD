@@ -1,0 +1,13 @@
+bonegame/__init__.py,sha256=TBsWurscEB5Gzk7IKm1oHKaGfTRFumHUwxmwAOagiW0,118
+bonegame/game.py,sha256=RaTkirnvAsSPv-9T2mhKvBRmyNJSR3TJKGSEw_hAFco,1211
+bonegame/gobang.py,sha256=U4CJ3a7c0JLXZBRsekd8zQ4OuXG-IET1NREcN9RIBlk,2954
+bonegame/core/__init__.py,sha256=5LCgwuqlo8yTzobqIvMpgSpfpyyqq4sARv62mOl5rtA,54
+bonegame/core/board.py,sha256=4sLK34UmxPKkj_kaQhfUG6STYz6uBixtTv6zffDPm9E,565
+bonegame/core/player.py,sha256=YTYC2TrnlIhAbGnlIYs_q15uwc6C8U-Qd4iujudrhH0,342
+bonegame/renderers/__init__.py,sha256=dN1eUSj9WCEV6GegPoUj1ZCflpx4ZM-14Qp8GMmRtJY,32
+bonegame/renderers/renderer.py,sha256=SuXEKbKb-Ppjyd8bqImPC8ktvR5MenfIpPmKqx6moBA,927
+bone_games-0.1.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+bone_games-0.1.1.dist-info/METADATA,sha256=xCVcGDoD9vP0lUa3EPd42mbnI53oO6iN6NX9pYaYtkA,481
+bone_games-0.1.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+bone_games-0.1.1.dist-info/top_level.txt,sha256=pgVj8TG250oh3sjDZQWIiyazy9GJm0m-jFn17fQ_e5Q,9
+bone_games-0.1.1.dist-info/RECORD,,
