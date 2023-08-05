@@ -1,0 +1,6 @@
+README.md
+setup.py
+qgates.egg-info/PKG-INFO
+qgates.egg-info/SOURCES.txt
+qgates.egg-info/dependency_links.txt
+qgates.egg-info/top_level.txt
