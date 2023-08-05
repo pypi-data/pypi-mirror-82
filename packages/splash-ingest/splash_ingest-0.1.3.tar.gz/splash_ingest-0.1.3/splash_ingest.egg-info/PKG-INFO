@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: splash-ingest
+Version: 0.1.3
+Summary: Different ingestors used in Splash
+Home-page: https://github.com/als-computing/splash-ingest
+Author: ALS Computing Group
+Author-email: dmcreynolds@lbl.gov
+License: BSD (3-clause)
+Download-URL: https://github.com/als-computing/splash-ingest/archive/v0.1.1.tar.gzz
+Description: # splash-ingest
+        Splash ingest contains tools for ingesting file system resources into bluesky [document stream](https://blueskyproject.io/event-model/) documents. 
+        
+        These tools are mean to assist in mapping tasks. For example, instruments that produce hdf5 files and have no other method for ingesting metadata can use the MappedHD5Ingestor class. This class reads a mapping file and an hdf5 file and produces a document stream. This document stream can then be serialized into a number of formats, including Mongo.
+        
+        For an example of this, see [ingestion notebook](examples/mapping_ingestor.ipynb).
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
