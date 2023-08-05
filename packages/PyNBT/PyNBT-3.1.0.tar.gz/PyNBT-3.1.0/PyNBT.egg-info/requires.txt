@@ -1,0 +1,4 @@
+mutf8>=1.0.2
+
+[test]
+pytest
