@@ -1,0 +1,8 @@
+README.md
+setup.py
+docklib/__init__.py
+docklib/docklib.py
+docklib.egg-info/PKG-INFO
+docklib.egg-info/SOURCES.txt
+docklib.egg-info/dependency_links.txt
+docklib.egg-info/top_level.txt
