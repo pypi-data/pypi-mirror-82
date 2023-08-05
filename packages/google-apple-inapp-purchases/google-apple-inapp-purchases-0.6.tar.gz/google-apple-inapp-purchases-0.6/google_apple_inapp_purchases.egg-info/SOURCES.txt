@@ -1,0 +1,12 @@
+README.md
+setup.py
+google_apple_inapp_purchases/__init__.py
+google_apple_inapp_purchases/app_store.py
+google_apple_inapp_purchases/google_play.py
+google_apple_inapp_purchases/inapp_service.py
+google_apple_inapp_purchases/response.py
+google_apple_inapp_purchases/subscription_status.py
+google_apple_inapp_purchases.egg-info/PKG-INFO
+google_apple_inapp_purchases.egg-info/SOURCES.txt
+google_apple_inapp_purchases.egg-info/dependency_links.txt
+google_apple_inapp_purchases.egg-info/top_level.txt
