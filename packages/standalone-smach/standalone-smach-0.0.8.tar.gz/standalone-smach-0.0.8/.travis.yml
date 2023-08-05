@@ -1,0 +1,35 @@
+language: python
+python:
+- 3.8.6
+matrix:
+  include:
+  - python: 3.8.6
+cache:
+- pip
+- directories:
+  - "$HOME/.pyenv_cache"
+before_install:
+- |
+  if [[ -n "$PYENV_VERSION" ]]; then
+    wget https://github.com/praekeltfoundation/travis-pyenv/releases/download/0.4.0/setup-pyenv.sh
+    source setup-pyenv.sh
+  fi
+install:
+- pipenv install --dev
+script:
+- pytest -v .
+after_success:
+- pyenv shell
+- codecov
+- pip install codacy-coverage
+- python-codacy-coverage -r coverage.xml
+- py.test --cov-report=xml --cov=smach tests/
+- bash <(curl -s https://codecov.io/bash)
+deploy:
+  provider: pypi
+  username: __token__
+  password:
+    secure: 18BxLqPK6pId7o0o1xUCZP0cO4ZnoITZaadmeibryZVT5/PNlcj8CfjcyUO9HGitqqq1AUqFXlnh2dTNM774VAHOMj9ayqsCnW0Jmm5rUWfbH4H+MF7LSJPhkh9TQPijyghLlXAFjYWePw9Tnt2uYfF7utgC0i+0hevjHX5TdD1STJosZeyEvYq+wLHlFJLzJEIbqwoFjRbDoTotYP5libqrt9T2tDy22pEDBjpD9sr2lj3bY2eBZfBUWTZ4amK6AvizKG4yQESbosKaoT4pbDxA4nHNXDeRyRpoRHkTUwlpt4Sxoxvoqv+hfvPs7SCxletxn6YbhzUXxCfWjJnE6Q0/+ISBBrZyCoWSCrSPdv9tHVkA7hd0gi9TRn9irHiojgg+F7DHAGyqFoPxPEyWZ9UXkTx2efsjL23BLlOi2eMwOwEsfcV/oKQYKqtmHsEEMyVE/pFvBihsTbDiOFYzwxxPuBUeO6nf8iQVwUfGkih8AQFG3GAIZNqckVVK/zFUZSz/4zSNg7p2D99R5Euzk6QQWxm770oUGt/fbulef6Y6y6/sqyCv1qa4HMcH42JzgrhyUm8Dqgns/QJPGPZfrdPXRALxPVo2NLB9FJyxAm1lUNamY07uqg54e1ywkbf4ziqpZqCpWsMDr0cEgZMjJ1/PRGpjMWvIEiWY6r/mHpY=
+  on:
+    all_branches: true
+    tags: true
