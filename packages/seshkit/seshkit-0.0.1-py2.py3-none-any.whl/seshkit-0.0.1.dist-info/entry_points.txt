@@ -1,0 +1,3 @@
+[console_scripts]
+sesh = seshkit.cli:top
+
