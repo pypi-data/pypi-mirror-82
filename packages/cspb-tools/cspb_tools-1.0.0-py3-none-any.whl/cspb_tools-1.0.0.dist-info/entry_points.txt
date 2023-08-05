@@ -1,0 +1,3 @@
+[console_scripts]
+run_cspb_gui = cspb_tools.run_cspb_gui:run_gui
+
