@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sort-merge
+Version: 0.0.1
+Summary: Sorting a list of numbers with mergesort
+Home-page: UNKNOWN
+Author: Shashank Saurav
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+
+# Sorting numbers using Mergesort Algorithm
+
+This is an implemenatation of mergesort algorithm which sort a list of numbers in ascending order. Time complexity of the algorithm is O(nlogn).
+
+
