@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sparkautomapper
+Version: 0.1.22
+Summary: AutoMapper for Spark
+Home-page: https://github.com/imranq2/SparkAutoMapper
+Author: Imran Qureshi
+Author-email: imranq2@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6,<3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: pyspark (>=3.0.0)
+Requires-Dist: logger
+
+# SparkAutoMapper
+Fluent API to map data from one view to another in Spark.  Uses native Spark functions underneath so it is just as fast as hand writing the transformations.
+
+
