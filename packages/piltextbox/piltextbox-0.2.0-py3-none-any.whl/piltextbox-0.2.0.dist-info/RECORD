@@ -1,0 +1,11 @@
+piltextbox/__init__.py,sha256=lXnFXbNEOpqCoKvEHpvI0fFY0U9RD7kRgQxs9l4aL8c,637
+piltextbox/_constants.py,sha256=w0qruBKuu99-Op0odF-0Md6EK-zsX99puTl_sabh1_o,438
+piltextbox/textbox/TextBox.py,sha256=UTdzAhQYzSk-HJpHYrJn8w1Mtuf2qFI7gbZ9GoqQcNA,63572
+piltextbox/textbox/__init__.py,sha256=NdScBpYYHJoF7j7EKpIuoTdazyPzw5PEZv0IZ6v2VD4,126
+piltextbox/textbox/formatting/__init__.py,sha256=lVPezyvCSHFPXMVE9eRKqA1L_yQYblOP0QW4mlWR968,249
+piltextbox/textbox/formatting/formatparser.py,sha256=Q9L4hlRqPvlfUjlFRx5hQE-VekTh8azzkkdaBMiuLq8,22336
+piltextbox-0.2.0.dist-info/LICENSE.txt,sha256=v7eTdBy7MnjPXbfeiLAJMvgv3RM6kGHO0KQ8UUcFmoc,1090
+piltextbox-0.2.0.dist-info/METADATA,sha256=F-9yLB_VAGko1YqOsVFJTgrRRAs4vKAYCU0Tv14j3IM,637
+piltextbox-0.2.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+piltextbox-0.2.0.dist-info/top_level.txt,sha256=o6zvmIamJVQAwsXWRANo0GlxbG4zU6N8WKs_XJzawbE,11
+piltextbox-0.2.0.dist-info/RECORD,,
