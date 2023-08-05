@@ -1,0 +1,68 @@
+Metadata-Version: 1.2
+Name: mitzi
+Version: 0.1.0
+Summary: Mitzi creates woven images
+Home-page: https://github.com/paul-butcher/mitzi
+Author: Paul Butcher
+Author-email: paul.butcher@gmail.com
+License: MIT license
+Description: =====
+        mitzi
+        =====
+        
+        
+        .. image:: https://img.shields.io/pypi/v/mitzi.svg
+                :target: https://pypi.python.org/pypi/mitzi
+        
+        .. image:: https://img.shields.io/travis/paul-butcher/mitzi.svg
+                :target: https://travis-ci.com/paul-butcher/mitzi
+        
+        .. image:: https://readthedocs.org/projects/mitzi/badge/?version=latest
+                :target: https://mitzi.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Mitzi creates woven images
+        
+        
+        * Free software: MIT license
+        * Documentation: https://mitzi.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-10-10)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: mitzi
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
