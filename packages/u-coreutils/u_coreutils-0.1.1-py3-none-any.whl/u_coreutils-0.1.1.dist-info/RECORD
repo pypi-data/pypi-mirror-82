@@ -1,0 +1,6 @@
+u_coreutils/__init__.py,sha256=zGU39ZwaRkNKxWLnAB7Zte9ZtfyfMEsBJp-bHUfQTyA,23
+u_coreutils/cat.py,sha256=7ekrT9pK5Hz1kYh4f0aFtgIARr2299FWvzHcl8iHDG0,4145
+u_coreutils-0.1.1.dist-info/entry_points.txt,sha256=3VQWBIBWr3u_g9VLDgOKbpnADhqBW37EVidRp9gq6xc,45
+u_coreutils-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+u_coreutils-0.1.1.dist-info/METADATA,sha256=lw6Dr8GpF7JgCtUgugiBfP3ghtGVLmyLzQd5_JPrfWg,374
+u_coreutils-0.1.1.dist-info/RECORD,,
