@@ -1,0 +1,4 @@
+[console_scripts]
+texbox_acronyms = texbox.cli_acronyms:main
+texbox_tables = texbox.cli_tables:main
+
