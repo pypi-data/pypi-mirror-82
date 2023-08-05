@@ -1,0 +1,4 @@
+matplotlib
+gspread
+oauth2client
+importjson

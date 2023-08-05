@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+plotmygsheet/__init__.py
+plotmygsheet.egg-info/PKG-INFO
+plotmygsheet.egg-info/SOURCES.txt
+plotmygsheet.egg-info/dependency_links.txt
+plotmygsheet.egg-info/requires.txt
+plotmygsheet.egg-info/top_level.txt
