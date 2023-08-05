@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: firefalcon
+Version: 0.0.2
+Summary: Tools for integrating Falcon applications with Firebase.
+Home-page: https://github.com/zqwalker/firefalcon
+Author: Zackary Walker
+Author-email: quinn@soarbi.com
+License: Apache 2.0
+Keywords: falcon middleware firebase firestore authentication
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: falcon (>=2.0.0)
+Requires-Dist: firebase-admin (>=4.0.0)
+Requires-Dist: pydantic (>=1.0.0)
+
+## FireFalcon
+
+
