@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+RELEASE
+setup.py
+brs_libs/__init__.py
+brs_libs/__main__.py
+brs_libs/rpCache.py
+brs_libs/rpSBML.py
+brs_libs.egg-info/PKG-INFO
+brs_libs.egg-info/SOURCES.txt
+brs_libs.egg-info/dependency_links.txt
+brs_libs.egg-info/requires.txt
+brs_libs.egg-info/top_level.txt
+extras/.env
+extras/requirements.txt
