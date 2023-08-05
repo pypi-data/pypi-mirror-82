@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "py3repl"
+version = "0.1.2"
+description = "A cli to mimic python REPL implementation"
+authors = ["Amal Shaji <amalshajid@gmail.com>"]
+maintainers = ["Amal Shaji <amalshajid@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/amalshaji/pyrepl/"
+keywords = [
+    "python3",
+    "repl",
+    "Packages",
+    "Pip"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+colorama = "^0.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pyrepl = "py3repl.pyrepl:repl"

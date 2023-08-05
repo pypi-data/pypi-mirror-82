@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: py3repl
+Version: 0.1.2
+Summary: A cli to mimic python REPL implementation
+Home-page: https://github.com/amalshaji/pyrepl/
+License: MIT
+Keywords: python3,repl,Packages,Pip
+Author: Amal Shaji
+Author-email: amalshajid@gmail.com
+Maintainer: Amal Shaji
+Maintainer-email: amalshajid@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Project-URL: Repository, https://github.com/amalshaji/pyrepl/
+Description-Content-Type: text/markdown
+
+## py3repl
+A tool to mimic the python REPL
+
+### Installation
+```bash
+pip install py3repl
+```
+
+### Usage
+- Linux
+
+    ```bash
+    # call pyrepl from command-line
+
+    pyrepl
+    ```
+
+- Windows
+
+    ```bash
+    # call pyrepl from command line
+    pyrepl
+
+    # if this failes, try
+    python -m py3repl.pyrepl # this should work
+    ```
+
+### Demo
+
+![final demo](files/final_demo.gif)
+
+
+### I haven't tested a lot. So chances of bugs are very high. Please do report or make a pull request. All contributions are welcome.
