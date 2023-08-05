@@ -1,0 +1,7 @@
+README.md
+setup.py
+tail_recurse/__init__.py
+tail_recurse.egg-info/PKG-INFO
+tail_recurse.egg-info/SOURCES.txt
+tail_recurse.egg-info/dependency_links.txt
+tail_recurse.egg-info/top_level.txt
