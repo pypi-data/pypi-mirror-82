@@ -1,0 +1,7 @@
+setup.py
+CDGARoasters.egg-info/PKG-INFO
+CDGARoasters.egg-info/SOURCES.txt
+CDGARoasters.egg-info/dependency_links.txt
+CDGARoasters.egg-info/not-zip-safe
+CDGARoasters.egg-info/top_level.txt
+cdga_roasters/__init__.py
