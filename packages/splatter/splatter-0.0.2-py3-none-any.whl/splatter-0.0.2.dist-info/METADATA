@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: splatter
+Version: 0.0.2
+Summary: Vizualizing multidimensional points in a pleasing and informative way
+Home-page: https://github.com/otosense/splatter
+Author: OtoSense
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: oui
+
+
+# splatter
+Vizualizing multidimensional points in a pleasing and informative way
+
+
