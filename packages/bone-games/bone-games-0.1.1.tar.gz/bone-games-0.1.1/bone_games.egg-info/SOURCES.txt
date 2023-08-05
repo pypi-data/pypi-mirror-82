@@ -1,0 +1,15 @@
+README.md
+setup.py
+bone_games.egg-info/PKG-INFO
+bone_games.egg-info/SOURCES.txt
+bone_games.egg-info/dependency_links.txt
+bone_games.egg-info/requires.txt
+bone_games.egg-info/top_level.txt
+bonegame/__init__.py
+bonegame/game.py
+bonegame/gobang.py
+bonegame/core/__init__.py
+bonegame/core/board.py
+bonegame/core/player.py
+bonegame/renderers/__init__.py
+bonegame/renderers/renderer.py
