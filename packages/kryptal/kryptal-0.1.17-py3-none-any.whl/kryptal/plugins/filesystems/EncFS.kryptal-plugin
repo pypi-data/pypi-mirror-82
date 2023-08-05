@@ -1,0 +1,9 @@
+[Core]
+Name = EncFS Filesystem Plugin
+Module = EncFS
+
+[Documentation]
+Author = Sebastian Messmer
+Version = 0.1
+Website = https://github.com/vgough/encfs
+Description = Allows loading EncFS filesystems in Kryptal
