@@ -1,0 +1,3 @@
+[console_scripts]
+docker-compose-all = docker_compose_all:main
+
