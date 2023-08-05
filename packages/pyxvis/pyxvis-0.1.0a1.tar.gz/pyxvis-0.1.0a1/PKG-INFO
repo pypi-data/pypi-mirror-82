@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pyxvis
+Version: 0.1.0a1
+Summary: Python package for Xvis toolbox
+License: GPL-3.0-or-later
+Author: Christian Pieringer
+Author-email: 8143906+cpieringer@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Dist: matplotlib (>=3.3.2,<4.0.0)
+Requires-Dist: numpy (<1.19)
+Requires-Dist: opencv-contrib-python (>=4.4.0,<5.0.0)
+Requires-Dist: opencv-python (>=4.4.0,<5.0.0)
+Requires-Dist: pandas (>=1.1.2,<2.0.0)
+Requires-Dist: pybalu (>=0.2.9,<0.3.0)
+Requires-Dist: pyqt5 (>=5.15.1,<6.0.0)
+Requires-Dist: scikit-image (>=0.17.2,<0.18.0)
+Requires-Dist: scikit-learn (>=0.23.2,<0.24.0)
+Requires-Dist: scipy (>=1.5.2,<2.0.0)
+Requires-Dist: tensorflow (>=2.3.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# py-XVis
+
+Python implementation for XVis Toolbox release with the book Computer Vision for X-Ray Testing. Originally implemented 
+in Matlab by Domingo Mery for the first edition of the book. This package is part of the second edition of the book 
+Computer Vision for X-Ray Testing (November 2020).
+
+
+# Requirements
+
+- Python 3.6 or higher
+- Numpy
+- Scipy
+- Matplotlib
+- OpenCV 4.0 or higher
+
+
+# Instalation
+The package is part of the Python Index (PyPi). Installation is available by pip:
+
+`pip install pyxivs`
+
