@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: file-traversal
+Version: 0.1.1
+Summary: Simple injectible rescursive file system processor.
+Home-page: https://github.com/AlexanderBeahm/file-traverser.git
+Author: Alex Beahm
+Author-email: alexanderbeahm@gmail.com
+License: UNKNOWN
+Description: Simple injectible rescursive file system processor.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
