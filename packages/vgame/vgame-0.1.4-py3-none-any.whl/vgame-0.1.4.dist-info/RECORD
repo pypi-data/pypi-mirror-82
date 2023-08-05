@@ -1,0 +1,12 @@
+vgame/__init__.py,sha256=b0UVdwCnHUkPUm40zDXQNHhQ_MND_0sIqk8VGfvUiDM,14759
+vgame/actor.py,sha256=RHlrtgPic46zi-SF7sHSqB6WuEWPcfbO_klcgBapzTc,41643
+vgame/controller.py,sha256=Csu5HTS3VU1Yd3dVgqmCZXb4Jre3BMWC61iumgibz3k,14765
+vgame/dijkstra.py,sha256=8N_MUi7Xlo6OaU9F6aPZV6FecH2hah77wcf_QSwQ0Sw,12174
+vgame/image.py,sha256=6YWPAxlOqqwHAgXSWXw59wTM-ceyyEnDVZIFZMRgz90,12486
+vgame/music.py,sha256=gm2xDBmtmq88UfUy2F68LfxyByCjO8sC2RX9g9cUvAg,674
+vgame/theater.py,sha256=zzN0qCXMyp9zWh9rMdYe5ElQ2_fed7N0GVRkOnlvjGc,22369
+vgame-0.1.4.dist-info/LICENSE,sha256=f0ZxhzLd7q7Z-jpCOxvpwibUrAZH4U2vO8UORSPFwBU,1084
+vgame-0.1.4.dist-info/METADATA,sha256=iR3e6ZNPoTGj-9AHl4mtY_gCuNvoJQR35EwyZ_TltNE,440
+vgame-0.1.4.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+vgame-0.1.4.dist-info/top_level.txt,sha256=Q1Pe_vj4GhaYGQL99VwBKJZ8LCX9PUXfFM3lFrMtuBY,6
+vgame-0.1.4.dist-info/RECORD,,
