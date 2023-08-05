@@ -1,0 +1,9 @@
+pipops/__init__.py,sha256=H-qUTTbgsKuQJa0CDPfZZc1t5S-LObQUoIA9Kggm_fU,91
+pipops/canary/__init__.py,sha256=P9lr8iv7_jNj2mgGB6TlzA94oToSoMr9iYaGHc3UCkw,75
+pipops/canary/canary_analysis.py,sha256=FR3L1y6cy-fBA1r5VpP1qQDa86QpMalm3FZgJX9Ry54,990
+pipops-0.1.2.data/scripts/__init__.py,sha256=H-qUTTbgsKuQJa0CDPfZZc1t5S-LObQUoIA9Kggm_fU,91
+pipops-0.1.2.dist-info/LICENSE.txt,sha256=rxqu0P2Qgy7oFycT4F_ecPlibKRj0MjTmU5KDQdYl6c,10773
+pipops-0.1.2.dist-info/METADATA,sha256=s83VhllEOgnzsyafoWTdP9RoKMk9IkvePx_-M_vCoUI,995
+pipops-0.1.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pipops-0.1.2.dist-info/top_level.txt,sha256=6fekWecQeKS0BJM7snkcipX68d7prMI2FnyyeZl4SXw,7
+pipops-0.1.2.dist-info/RECORD,,
