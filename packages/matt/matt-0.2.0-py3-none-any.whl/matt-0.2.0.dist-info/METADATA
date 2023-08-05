@@ -1,0 +1,180 @@
+Metadata-Version: 2.1
+Name: matt
+Version: 0.2.0
+Summary: A maths test
+Home-page: https://codeberg.org/noisytoot/matt
+License: GPL-3.0-or-later
+Author: Noisytoot
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: colorama (>=0.4.3,<0.5.0); sys_platform == "win32"
+Requires-Dist: pyxdg (>=0.26,<0.27)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://codeberg.org/noisytoot/matt
+Description-Content-Type: text/markdown
+
+# Matt
+Matt is a free software (licensed under the [GNU GPL v3 (or later)](https://www.gnu.org/licenses/gpl-3.0.html)) maths test program.
+"Matt" (or "MATT") is a recursive acronym for "MATT Arithmetic Training Test".
+
+## Installation
+Matt depends on:
+
+* [termcolor](https://pypi.org/project/termcolor/)
+
+* [pyxdg](https://www.freedesktop.org/wiki/Software/pyxdg/)
+
+* [colorama](https://pypi.org/project/colorama/) (windows only)
+
+There are 2 methods of installation: via poetry and via pip:
+
+### Installation via [poetry](https://python-poetry.org/)
+Poetry should handle the installation of dependencies.
+To install, first clone the git repository, then run:
+```sh
+poetry install
+```
+
+### Installation via pip
+Pip should handle the installation of dependencies.
+To install, run:
+```sh
+python3 -m pip install matt
+```
+
+## Usage
+Run `python3 -m matt -h` for help.
+Matt accepts the following arguments:
+
+ * `--difficulty` or `-d` to set the difficulty (in the format "\<namespace\>:\<number\>").
+   The `default` namespace is reserved for the default difficulties.
+   If unspecified the default is `default:1`.
+
+* `--operations` or `-o` to set the available operations.
+   Operations are separated by commas, the available operations are:
+   - `+`: Addition
+   - `-`: Subtraction
+   - `*`: Multiplication
+   - `/`: Division
+
+   One can also use custom operators defined in the configuration.
+
+   Example: `-o +,-` to enable only addition and subtraction.
+
+* `--minimum` or `-m` to set the minumum, default (if not specified in difficulty): 0.
+
+* `--maximum` or `-M` to set the maximum, default (if not specified in difficulty): 10.
+
+* `--question-amount` or `-q` to set the amount of questions, the default is 10.
+
+NOTE: The maximum must be more than the minimum.
+
+## Config
+Matt has a configuration file, it is written in Python,
+and located at `$XDG_CONFIG_HOME/matt/config.py`.
+By default `$XDG_CONFIG_HOME` is set to `~/.config`,
+so if you have not set it then it is probably `~/.config/matt/config.py`.
+
+The configuration can define custom difficulties and custom operations.
+
+Matt's builtin difficulties/operations are defined in `matt/defaults.py`,
+and they are defined in the same way as custom ones so you can look there for further examples
+and details on Matt's defaults.
+
+### Defining custom difficulties
+The configuration can provide a `difficulty` function that accepts 2 parameters:
+
+* `namespace` (str): The namespace of the difficulty.
+
+* ``number`` (int): The number of the difficulty.
+
+The ``difficulty`` function must return a dict or None (although if it simply returns None then it is useless).
+
+The dict can have the following keys:
+
+* `minimum` (int): the minimum number
+
+* `maximum` (int): the maximum number
+
+* `operations` (a list of strs (`typing.List[str]`)): a list of allowed operations
+
+A simple example is:
+```python
+from typing import Union
+
+
+def difficulty(namespace: str, number: int) -> Union[dict, None]:
+    if namespace == "manual":
+       if number == 1:
+           return {
+               "operations": ["+", "-"],
+               "maximum": 20,
+               "minimum": 10
+           }
+    return None
+```
+
+It is also possible to create a dynamic maximum,
+like the following example, which creates a difficulty called "automatic",
+whose maximum is the number * 10:
+```python
+from typing import Union
+
+
+def difficulty(namespace: str, number: int) -> Union[dict, None]:
+    if namespace == "automatic":
+        return {
+            "operations": ["+", "-", "*", "/"],
+            "maximum": number * 10
+        }
+    return None
+```
+
+### Defining custom operations
+The configuration can provide a `operations` dict to define custom operations.
+The keys are the names of the operations,
+and the values are dicts which can contain the following keys:
+
+* `format` (function): a function which takes 2 numbers and returns a str.
+ The str is usually a string which contains both values and the operation,
+ it is used to ask the user about the answer.
+ Unless `format_full_override` or `format_colour_override` are set to True,
+ it is sent to the user prepended with `What is `, and appended with `? `.
+ an example of a function used for `format` is (this example would be for the `+` operation):
+ ```python
+ lambda n1, n2: f"{n1} + {n2}"
+ ```
+ If this is not set then the default is `<n1> <operation> <n2>`.
+
+* `function` (function): a function which takes 2 numbers,
+ and returns the correct answer for those 2 numbers. This must be defined.
+ Example (for a strange operation that is the result of addition - 1):
+ ```python
+ lambda n1, n2: n1 + n2 - 1
+ ```
+
+* `format_full_override` (bool): if this is True then `What is `/`? ` are not added to the string.
+
+* `format_colour_override` (bool): if this is True then the string is not coloured.
+
+An example which defines an operation called `!` that is the result of addition -1,
+and an operation called `++` that is the same as addition but just gives the user the answer:
+```python
+from operator import add
+
+operations: dict = {
+    "!": {
+        "function": lambda n1, n2: n1 + n2 - 1
+    },
+    "++": {
+        "function": add,
+        "format": lambda n1, n2: f"Type {n1 + n2}! ",
+        "format_full_override": True
+    }
+}
+```
+
