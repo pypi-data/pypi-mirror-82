@@ -1,0 +1,5 @@
+robotframework
+config
+flask
+flask-mysqldb
+mysql-connector-python
