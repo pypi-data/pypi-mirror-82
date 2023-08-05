@@ -1,0 +1,11 @@
+README.md
+setup.py
+fim/__init__.py
+fim/fim_code_lists.py
+fim/parser.py
+ozg.egg-info/PKG-INFO
+ozg.egg-info/SOURCES.txt
+ozg.egg-info/dependency_links.txt
+ozg.egg-info/top_level.txt
+tests/__init__.py
+tests/test_fim_parser.py
