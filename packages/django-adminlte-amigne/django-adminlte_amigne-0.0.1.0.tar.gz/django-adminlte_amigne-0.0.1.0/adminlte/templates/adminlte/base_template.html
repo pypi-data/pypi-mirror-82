@@ -1,0 +1,87 @@
+{% load static %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+    <head>
+        {% block head %}
+            <meta charset="utf-8">
+
+            <title>{% block title %}{% endblock title%}</title>
+
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            {% block css %}
+            {% endblock css %}
+        {% endblock head %}
+    </head>
+    <body class="{% block body_class %}hold-transition sidebar-mini{% endblock body_class %}">
+        {% block body %}
+            <div class="{% block wrapper_class %}wrapper{% endblock wrapper_class %}">
+                {% block wrapper %}
+                    {% block wrapper_navbar %}
+                        <nav class="{% block navbar_nav_class %}main-header navbar navbar-expand navbar-white navbar-light{% endblock %}">
+                            {% block navbar %}
+                                {% block navbar_nav %}
+                                {% endblock navbar_nav %}
+                                {% block navbar_search %}
+                                {% endblock navbar_search %}
+                                {% block navbar_links %}
+                                {% endblock navbar_links %}
+                            {% endblock navbar %}
+                        </nav>
+                    {% endblock wrapper_navbar %}
+
+                    {% block wrapper_main_sidebar %}
+                        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+                            {% block main_sidebar_logo %}
+                            {% endblock main_sidebar_logo %}
+
+                            <div class="sidebar">
+                                {% block main_sidebar_top %}
+                                {% endblock main_sidebar_top %}
+
+                                {% block main_sidebar_menu %}
+                                    <nav class="mt-2">
+                                        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                                            {% include "adminlte/_menu.html" with menu=request.menu %}
+                                        </ul>
+                                    </nav>
+                                {% endblock main_sidebar_menu %}
+                            </div>
+                        </aside>
+                    {% endblock wrapper_main_sidebar %}
+
+                    <div class="content-wrapper">
+                        {% block content_wrapper %}
+                            <div class="content-header">
+                                {% block content_header %}
+                                {% endblock content_header %}
+                            </div>
+                            <section class="content">
+                                {% block content %}
+                                {% endblock content %}
+                            </section>
+                            {% block content_bottom %}
+                            {% endblock content_bottom %}
+                        {% endblock content_wrapper %}
+                    </div>
+
+                    <footer class="main-footer">
+                        {% block footer %}
+                        {% endblock footer %}
+                    </footer>
+
+                    <aside class="control-sidebar control-sidebar-dark">
+                        {% block control_sidebar %}
+                        {% endblock control_sidebar %}
+                    </aside>
+                {% endblock wrapper %}
+            </div>
+
+            {% block js %}
+            {% endblock js %}
+        {% endblock body %}
+    </body>
+</html>

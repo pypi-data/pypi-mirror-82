@@ -1,0 +1,33 @@
+{% for menuitem in menu %}
+    {% if menuitem.type == 'label' %}
+        <li class="nav-header">{{ menuitem.name|upper }}</li>
+    {% elif menuitem.type == 'menuentry' %}
+        <li class="nav-item">
+            <a href="{% if menuitem.viewname %}{% url menuitem.viewname %}{% else %}{{ menuitem.url }}{% endif %}" class="nav-link{% if menuitem.active %} active{% endif %}">
+                <i class="nav-icon {{ menuitem.icon }}"></i>
+                <p>
+                    {{ menuitem.name }}
+                    {% if menuitem.badge %}
+                        <span class="right badge{% if menuitem.badge_class %} {{ menuitem.badge_class }}{% endif %}">{{ menuitem.badge }}</span>
+                    {% endif %}
+                </p>
+            </a>
+        </li>
+    {% elif menuitem.type == 'menugroup' %}
+        <li class="nav-item has-treeview{% if menuitem.active %} menu-open{% endif %}">
+            <a href="#" class="nav-link{% if menuitem.active %} active{% endif %}">
+                <i class="nav-icon {{ menuitem.icon }}"></i>
+                <p>
+                    {{ menuitem.name }}
+                    <i class="right fas fa-angle-left"></i>
+                    {% if menuitem.badge %}
+                        <span class="right badge{% if menuitem.badge_class %} {{ menuitem.badge_class }}{% endif %}">{{ menuitem.badge }}</span>
+                    {% endif %}
+                </p>
+            </a>
+            <ul class="nav nav-treeview">
+                {% include "adminlte/_menu.html" with menu=menuitem.entries only %}
+            </ul>
+        </li>
+    {% endif %}
+{% endfor %}

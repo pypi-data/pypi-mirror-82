@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: django-adminlte_amigne
+Version: 0.0.1.0
+Summary: An integration of the AdminLTE template for Django
+Home-page: https://github.com/amigne/django-adminlte
+Author: Yann Gauteron
+Author-email: yann@gauteron.xyz
+License: UNKNOWN
+Description: # django-adminlte
+        This package is an integration of the [AdminLTE](https://adminlte.io/)
+        template as a Django application.
+        
+        It is intended to be a foundation for the generation of the base
+        template file of new Django project.
+        
+        This project is currently in a very early development state: Please note
+        that defined {% block %} sections may change in further development
+        releases before reaching stability. Please consider this before adopting
+        this module for your own projects.
+        
+        # Usage
+        The application must be added in the `INSTALLED_APPS` list within the
+        project settings file.
+        ```
+        INSTALLED_APPS = [
+           ...
+            'adminlte',
+        ]
+        ```
+        
+        It is a good practice to write a project `base.html` file that extends the
+        adminlte's application base template and define the fixed elements for the
+        project there.
+        ```
+        {% extends "adminlte/base.html" %}
+        ```
+        
+        Please refer to the files `adminlte/base_template.html` and
+        `adminlte/base.html` to retrieve the block names. This will be documented
+        at a later stage, when the template will have reached stability.
+        
+        The template requires the 
+        [django-menu-gauteron](https://pypi.org/project/django-menu-gauteron/)
+        package to dynamically generate the navigation menu.
+        
+        ## Demo
+        This package includes all demonstration/example files packaged with the
+        AdminLTE template. These examples have been "Django-ized".
+        
+        These files can easily be tested by refering to the urls and menu files.
+        
+        In the project settings file, add:
+        ```
+        INSTALLED_APPS = [
+            ...
+            'adminlte',
+        ]
+        ```
+        
+        In the project `urls.py`, include:
+        ```
+        from django.urls import include, path
+        
+        urlpatterns = [
+            ...
+            path('demo/', include('adminlte.demo.urls', namespace='adminlte-demo')),
+        ]
+        ```
+        
+        In the project 'menu.py', include:
+        ```
+        from django_menu import include
+        
+        menu = [
+            ...
+            *include('adminlte.demo.menu'),
+        ]
+        ```
+        
+        The demo files can be browsed using http://127.0.0.1:8000/demo/ (if your 
+        server runs on 127.0.0.1:8000 and the configured path is `demo/`).
+        
+        The example templates can be used as models to generate your own
+        project base template.
+        
+        # Requirements
+        This package requires
+          * Django 3.8 or above (not tested with below versions)
+          * [django-menu-gauteron](https://pypi.org/project/django-menu-gauteron/)
+        
+        # Contribution
+        Any contribution (code, requests, advices, ...) is very welcome. No project
+        is (or at least should be) a one-man show!
+        
+        This modest project can get more ambitious thanks to your ideas.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

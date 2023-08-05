@@ -1,0 +1,60 @@
+{% extends "adminlte/demo/base.html" %}
+{% load static %}
+
+{% block title %}AdminLTE 3 | jsGrid{% endblock title %}
+
+{% block content_header_title %}jsGrid{% endblock content_header_title %}
+{% block content_header_path %}
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active">jsGrid</li>
+{% endblock content_header_path %}
+
+{% block content %}
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">jsGrid</h3>
+        </div>
+        <div class="card-body">
+            <div id="jsGrid1"></div>
+        </div>
+    </div>
+{% endblock content %}
+
+{% block footer %}
+    <div class="float-right d-none d-sm-block">
+        <b>Version</b> 3.0.5
+    </div>
+    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+{% endblock footer %}
+
+{% block css_xtra %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.css" integrity="sha512-3Epqkjaaaxqq/lt5RLJsTzP6cCIFyipVRcY4BcPfjOiGM1ZyFCv4HHeWS7eCPVaAigY3Ha3rhRgOsWaWIClqQQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid-theme.min.css" integrity="sha512-jx8R09cplZpW0xiMuNFEyJYiGXJM85GUL+ax5G3NlZT3w6qE7QgxR4/KE1YXhKxijdVTDNcQ7y6AJCtSpRnpGg==" crossorigin="anonymous" />
+{% endblock css_xtra %}
+
+{% block js_xtra %}
+    <script src="{% static "demo/plugins/jsgrid/demos/db.js" %}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsgrid/1.5.3/jsgrid.min.js" integrity="sha512-blBYtuTn9yEyWYuKLh8Faml5tT/5YPG0ir9XEABu5YCj7VGr2nb21WPFT9pnP4fcC3y0sSxJR1JqFTfTALGuPQ==" crossorigin="anonymous"></script>
+    <script src="{% static "demo/js/demo.js" %}"></script>
+    <script>
+        $(function () {
+            $("#jsGrid1").jsGrid({
+                height: "100%",
+                width: "100%",
+
+                sorting: true,
+                paging: true,
+
+                data: db.clients,
+
+                fields: [
+                    {name: "Name", type: "text", width: 150},
+                    {name: "Age", type: "number", width: 50},
+                    {name: "Address", type: "text", width: 200},
+                    {name: "Country", type: "select", items: db.countries, valueField: "Id", textField: "Name"},
+                    {name: "Married", type: "checkbox", title: "Is Married"}
+                ]
+            });
+        });
+    </script>
+{% endblock js_xtra %}
