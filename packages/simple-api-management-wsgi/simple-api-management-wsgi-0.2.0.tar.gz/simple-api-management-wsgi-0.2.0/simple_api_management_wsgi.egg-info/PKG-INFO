@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: simple-api-management-wsgi
+Version: 0.2.0
+Summary: UNKNOWN
+Home-page: https://simpleapimanagement.com
+Author: Simple API Management
+Author-email: sascha@simpleapimanagement.com
+License: Apache Software License
+Description: ![Simple API Management Logo](https://storage.googleapis.com/simple-api-management-assets/logo.svg) 
+        # Simple API Management Python WSGI based Frameworks Middleware
+        
+        ## Installation
+        
+        ```bash
+        $ pip install simple-api-management-wsgi
+        ```
+        
+        ## Usage
+        
+        ```python
+        def identifier(environ, app):
+            return environ['REMOTE_ADDR']
+        
+        simple_api_management_options = {
+            'KEY': 'add your key here',
+            'IDENTIFIER': identifier #optional
+        }
+        
+        app.wsgi_app = SimpleAPIManagementMiddleware(app.wsgi_app, simple_api_management_options)
+        ```
+        
+Keywords: api management middleware metrics rate limits log analysis restful api development debug wsgi flask bottle http
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
