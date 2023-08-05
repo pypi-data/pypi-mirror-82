@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+swehockey/__init__.py
+swehockey/swehockey_scraper.py
+swehockey_scraper.egg-info/PKG-INFO
+swehockey_scraper.egg-info/SOURCES.txt
+swehockey_scraper.egg-info/dependency_links.txt
+swehockey_scraper.egg-info/requires.txt
+swehockey_scraper.egg-info/top_level.txt
