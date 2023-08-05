@@ -1,0 +1,10 @@
+islpy-2020.2.2.dist-info/RECORD,,
+islpy-2020.2.2.dist-info/WHEEL,sha256=qDU9vkT0HYrDFbbK1y5h1LOv2WPLB5v9Y7007MOuefg,110
+islpy-2020.2.2.dist-info/misc.rst,sha256=uF1QiNZ6DVVvqKBkg1B1DRZXw_naYed4wIsFZbxWNYI,19383
+islpy-2020.2.2.dist-info/top_level.txt,sha256=txVjJJ85Sa3IMOF6WOh_bTkOyRDWiSW2kQOf8vSPb6M,6
+islpy-2020.2.2.dist-info/METADATA,sha256=hc4ZKmzkjFKBsMFsQOK3bj_2qC57G0QGPVtwAoeIrkc,2530
+islpy/version.py,sha256=V-JXwWyXwEgouV4Tm3RUzHMUBOMhD_2NM1Yf6qX6u6k,72
+islpy/__init__.py,sha256=TN-UMFOGNirs4rs12UaSajUMN3F3_efJfyJUom8wZgw,40949
+islpy/_isl.cpython-36m-darwin.so,sha256=E_fp1aEnAtluQ-G0t1mDaKmyFdSaqj_hagMkpXTpIs8,19757676
+islpy/.dylibs/libisl.22.dylib,sha256=XhFiDISYOIsN6Rt8PMLTY7Hi29IMw_kM6VwzCFxz-pI,2169904
+islpy/.dylibs/libgmp.10.dylib,sha256=EhpsIbr-WlG-Fg-8Qql_WTfsiLNwjakINr8RCO1QtpY,842576
