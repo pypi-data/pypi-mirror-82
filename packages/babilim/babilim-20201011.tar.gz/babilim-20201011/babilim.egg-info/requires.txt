@@ -1,0 +1,6 @@
+numpy
+entangle-python
+matplotlib
+scipy
+tensorboardX
+packaging
