@@ -1,0 +1,7 @@
+Scrapy>=2.1.0
+
+[avro]
+fastavro>=1.0.0.post1
+
+[parquet]
+fastparquet>=0.4.1
