@@ -1,0 +1,15 @@
+---
+- name: T
+  hosts: bind-host
+  gather_facts: false
+
+  tasks:
+    - debug: msg="{{ lookup('env','HOME') }} is an environment variable"
+    - name: T
+      shell: |
+        set -ex
+        env
+        false
+      environment:
+        FOO: BAR
+      delegate_to: localhost
