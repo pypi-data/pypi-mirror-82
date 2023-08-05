@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: splatter
+Version: 0.0.1
+Summary: Vizualizing multidimensional points in a pleasing and informative way
+Home-page: https://github.com/thorwhalen/splatter
+Author: Thor Whalen
+License: mit
+Platform: any
+Description-Content-Type: text/markdown
+
+
+# splatter
+Vizualizing multidimensional points in a pleasing and informative way
+
+
