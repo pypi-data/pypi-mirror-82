@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: khrplot
+Version: 0.0.1
+Summary: import google sheets and plot any columns you choose
+Home-page: UNKNOWN
+Author: Hemanth Reddy
+Author-email: hemanthreddy.kolli@gmail.com
+License: MIT
+Description: A simple wrapper around gspread to plot the spread sheets
+        
+        
+        simple app
+Keywords: plots
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
