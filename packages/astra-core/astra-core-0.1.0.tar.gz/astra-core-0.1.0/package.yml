@@ -1,0 +1,7 @@
+name: astra-core
+version: 0.1.0
+author: Niklas Rosenstein <rosensteinniklas@gmail.com>
+modulename: astra.core
+description: Package description here.
+requirements:
+- python ^3.5
