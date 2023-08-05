@@ -1,0 +1,1 @@
+This is a library which takes your data from google sheets and display a chart regarding the two columns
