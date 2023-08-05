@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: noashark
+Version: 0.1.1
+Summary: work with NOAA sea level rise data
+Home-page: https://github.com/swfiua/noashark
+Author: Johnny Gill
+Author-email: swfiua@gmail.com
+License: GPL v 3
+Keywords: NOAA flood
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+
+==========================
+ NOAA sea level rise data
+==========================
+
+Tools to help explore NOAA sea level rise data.
+
+https://coast.noaa.gov/slrdata/
+
+
+
