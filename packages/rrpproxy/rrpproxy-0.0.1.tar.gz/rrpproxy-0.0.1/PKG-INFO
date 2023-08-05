@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: rrpproxy
+Version: 0.0.1
+Summary: A python connector for RRP Proxy
+Home-page: https://github.com/ByteInternet/rrpproxy
+Author: Tech
+Author-email: tech@byte.nl
+License: UNKNOWN
+Download-URL: https://github.com/ByteInternet/rrpproxy/archive/20201009.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.4
