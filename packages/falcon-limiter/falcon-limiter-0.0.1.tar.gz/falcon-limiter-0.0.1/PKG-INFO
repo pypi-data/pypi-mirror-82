@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: falcon-limiter
+Version: 0.0.1
+Summary: Falcon-Limiter - a rate limiting module for the Falcon web framework
+Home-page: https://github.com/zoltan-fedor/falcon-limiter
+Author: Zoltan Fedor
+Author-email: zoltan.1.fedor@gmail.com
