@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: ConnectSQl
+Version: 2.1
+Summary: Connect Access & retrieve MYSQl databases.
+Home-page: https://github.com/kailash1011/ConnectSQl
+Author: Kailash Sharma
+Author-email: kailashps.1011@gmail.com
+License: MIT
+Download-URL: https://github.com/kailash1011/ConnectSQl/releases/tag/2.1
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
