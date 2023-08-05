@@ -1,0 +1,14 @@
+scipy
+numpy
+matplotlib
+phat
+persim
+
+[docs]
+sktda_docs_config
+
+[testing]
+pytest-cov
+mock
+kmapper
+networkx
