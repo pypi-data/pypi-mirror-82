@@ -1,0 +1,9 @@
+amypad/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+amypad/imio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amypad/imio/nii.py,sha256=HFcx6-C8DsTnbxgjFPSDl1FBi_DvkhTX7TEvtmtIS6o,11239
+amypad/utils/__init__.py,sha256=n3t1EpVs58oQsGN08UIxBRou9yw8xh0oFxanyo720G8,468
+amypad_core-0.0.3.dist-info/LICENCE.md,sha256=gxq_ZuT-4b6-cjp--rSrTZl-0isuumL14nvwPzY3_Gk,547
+amypad_core-0.0.3.dist-info/METADATA,sha256=z-dYWHE2U3xioiBla3LwU9E2lwA7ZZ5J_9VdHV9Hn7k,2264
+amypad_core-0.0.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+amypad_core-0.0.3.dist-info/top_level.txt,sha256=Tpm5M5wya4GrIEFVY5a2-5I73rUdCEpfoH_OlOic9pI,7
+amypad_core-0.0.3.dist-info/RECORD,,
