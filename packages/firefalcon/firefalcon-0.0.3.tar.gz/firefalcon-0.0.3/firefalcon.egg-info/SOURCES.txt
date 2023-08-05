@@ -1,0 +1,13 @@
+README.md
+setup.py
+firefalcon/__init__.py
+firefalcon/_schemas.py
+firefalcon/_utils.py
+firefalcon/authentication.py
+firefalcon/authorize.py
+firefalcon/firestore.py
+firefalcon.egg-info/PKG-INFO
+firefalcon.egg-info/SOURCES.txt
+firefalcon.egg-info/dependency_links.txt
+firefalcon.egg-info/requires.txt
+firefalcon.egg-info/top_level.txt
