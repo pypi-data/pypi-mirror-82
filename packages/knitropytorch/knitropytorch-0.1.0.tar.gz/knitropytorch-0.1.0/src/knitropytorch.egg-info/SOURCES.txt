@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/knitropytorch/__init__.py
+src/knitropytorch/main.py
+src/knitropytorch/util.py
+src/knitropytorch/version.py
+src/knitropytorch.egg-info/PKG-INFO
+src/knitropytorch.egg-info/SOURCES.txt
+src/knitropytorch.egg-info/dependency_links.txt
+src/knitropytorch.egg-info/top_level.txt
