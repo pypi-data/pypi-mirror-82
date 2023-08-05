@@ -1,0 +1,5 @@
+setup.py
+ConnectSQl.egg-info/PKG-INFO
+ConnectSQl.egg-info/SOURCES.txt
+ConnectSQl.egg-info/dependency_links.txt
+ConnectSQl.egg-info/top_level.txt
