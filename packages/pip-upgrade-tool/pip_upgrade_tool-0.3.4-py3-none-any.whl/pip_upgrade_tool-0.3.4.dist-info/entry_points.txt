@@ -1,0 +1,4 @@
+[console_scripts]
+pip-upgrade = pip_upgrade:main
+pip-upgrade-legacy = pip_upgrade:legacy
+
