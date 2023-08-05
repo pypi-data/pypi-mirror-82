@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyDataBank/__init__.py
+pyDataBank/datafiles.py
+pyDataBank/datapack.py
+pyDataBank.egg-info/PKG-INFO
+pyDataBank.egg-info/SOURCES.txt
+pyDataBank.egg-info/dependency_links.txt
+pyDataBank.egg-info/top_level.txt
+tests/__init__.py
+tests/unit/__init__.py
+tests/unit/test_datafiles.py
