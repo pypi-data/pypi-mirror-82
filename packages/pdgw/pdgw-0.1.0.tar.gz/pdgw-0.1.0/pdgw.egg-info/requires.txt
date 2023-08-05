@@ -1,0 +1,4 @@
+spce
+
+[avro]
+spce[avro]>=0.2.0
