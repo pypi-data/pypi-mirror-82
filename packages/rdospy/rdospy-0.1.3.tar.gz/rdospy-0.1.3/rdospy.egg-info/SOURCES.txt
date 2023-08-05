@@ -1,0 +1,7 @@
+README.md
+client.py
+setup.py
+rdospy.egg-info/PKG-INFO
+rdospy.egg-info/SOURCES.txt
+rdospy.egg-info/dependency_links.txt
+rdospy.egg-info/top_level.txt

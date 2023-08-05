@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: rdospy
+Version: 0.1.3
+Summary: RDOS PYTHON API
+Home-page: http://pypi.python.org/pypi/RDOS-PYTHON/
+Author: Julien DAVID & Ismail MOUMNI
+Author-email: ism.moumni@gmail.com
+License: MIT
+Description: # rdos-python
+        
+        This project aims to create a python API that will allow users to directly call RDOS random generators from their own source code.
+Platform: UNKNOWN
+Requires-Python: >=3.6
