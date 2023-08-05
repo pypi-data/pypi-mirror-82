@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: django-sysinfo
+Version: 2.0.0
+Summary: Simple django app to expose system infos: libraries version, databae server infos...
+License: MIT
+Author: sax
+Author-email: s.apostolico@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: psutil
+Requires-Dist: pytz (>=2020.1,<2021.0)
