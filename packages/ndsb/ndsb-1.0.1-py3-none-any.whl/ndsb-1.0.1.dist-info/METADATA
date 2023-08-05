@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ndsb
+Version: 1.0.1
+Summary: Collect data, turn it into static artifacts and beam it to a vault.
+Home-page: https://github.com/dbbs-lab/ndsb
+Author: Robin De Schepper
+Author-email: robingilbert.deschepper@unipv.it
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Requires-Dist: portalocker
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (>=0.4.3) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+
+# ndsb
+n-dimensional simulation beam
+
+
