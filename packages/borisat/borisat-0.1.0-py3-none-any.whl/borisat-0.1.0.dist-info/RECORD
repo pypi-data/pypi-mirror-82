@@ -1,0 +1,11 @@
+borisat/__init__.py,sha256=22vU8_AM_SCKzus3arz45SC0IbG54cWq5fEyLDl_sUY,1296
+borisat/apis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+borisat/apis/rd.py,sha256=9AFFO0DN3NrNDHnoqLRrObyHn0M9B4IcF5uqnm-MDik,958
+borisat/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+borisat/models/rd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+borisat/models/rd/unnested.py,sha256=Ft1GvTl9VXuEeBakudo_gowz8sdvWaNlhrlI0yDkwDY,3115
+borisat/models/rd/vat.py,sha256=vQ6YC43TAZ5VrszafXlACBC9WO9-0QjeR1kAFbwD_oo,585
+borisat-0.1.0.dist-info/LICENSE,sha256=VYRwXEolDckqMkFrwuhXK5Cq6d2Uuky3a_uzt4OEpaY,1075
+borisat-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+borisat-0.1.0.dist-info/METADATA,sha256=fy6O80dzeOY_HGsqTzQn4TClr6DoNJqIczBK52Pso8Q,681
+borisat-0.1.0.dist-info/RECORD,,
