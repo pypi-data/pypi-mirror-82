@@ -1,0 +1,8 @@
+README.md
+setup.py
+yaml_serialize/yaml_serialize.py
+yaml_serialize.egg-info/PKG-INFO
+yaml_serialize.egg-info/SOURCES.txt
+yaml_serialize.egg-info/dependency_links.txt
+yaml_serialize.egg-info/not-zip-safe
+yaml_serialize.egg-info/top_level.txt
