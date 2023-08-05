@@ -1,0 +1,9 @@
+README.md
+setup.py
+gsheet_plots.egg-info/PKG-INFO
+gsheet_plots.egg-info/SOURCES.txt
+gsheet_plots.egg-info/dependency_links.txt
+gsheet_plots.egg-info/requires.txt
+gsheet_plots.egg-info/top_level.txt
+plotgraph/GET.py
+plotgraph/__init__.py
