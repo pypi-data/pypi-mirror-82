@@ -1,0 +1,28 @@
+Initialize dev environment:
+----------------------
+1) Create virtualenv
+   $ python3 -m venv venv
+   $ source venv/bin/activate
+
+2) Install packages
+   $ pip install -e .
+
+
+Load dev environment:
+-----------------------
+Load virtualenv:
+$ source virtualenv/bin/activate
+
+
+Run tests:
+-----------------------
+$ python3 -m unittest
+
+
+Upload to pip:
+-----------------------
+$ pip install twine wheel
+$ rm -rf dist
+$ python3 setup.py sdist
+$ python3 setup.py bdist_wheel
+$ twine upload dist/*

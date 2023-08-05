@@ -1,0 +1,3 @@
+gears.svg: MIT License, https://www.iconfinder.com/icons/298781/gear_icon#size=128
+drive-harddisk.svg: GPLv2 License, http://www.ravefinity.com/p/humanity-colors-icon-theme.html
+spinner.gif: WTFPL License (http://www.wtfpl.net/), http://www.ajaxload.info/#preview
