@@ -1,0 +1,14 @@
+LICENSE,sha256=qtJjYLRPpVW8j4czSKEv3g5b8_52Z2lLqqHxtwp85aY,1090
+sudoku/__init__.py,sha256=tVBf6Y6n6_a2DdavmREG42qjnHKmwib2H7_cc5JmVrw,53
+sudoku/examples/__init__.py,sha256=4_8BdaWVK82qdWiZUF3VU_03q9mXWzltB_ZwbK95Ykw,49
+sudoku/examples/boards.py,sha256=vsDiMf9zkfzB9iU1V6tEWE8zyMb-SjDyRYCGEcvIL2c,417
+sudoku/examples/rate.py,sha256=HaYC_AcY0FhYadJal2If13bZLnJ1_tNejLBbeiTDGA0,296
+sudoku/examples/shuffle.py,sha256=gynXVpptc-9wpuC0OM6PZhSWdlqSCn_gfnAtLFadeEM,340
+sudoku/examples/solve.py,sha256=9-uwMZz7ogWLVc7Pf_7i6DgRVvs5SojQ2Qzyiz385e0,402
+sudoku/puzzle.py,sha256=TkMxGA8vAl_3Wu7fXYHV6dfit4oSbuZYmUB1OZouny4,13399
+sudoku/strategies.py,sha256=BrrAoCQePOJDcYAO0cjIia9d1tLzX95mfmOLUseQNYo,5486
+sudoku/types.py,sha256=nvB40sNEfW8AmrsNgMzxtShQOLnWciRhYUtqr2KyYvI,44
+sudoku_tools-0.0.2.dist-info/LICENSE,sha256=qtJjYLRPpVW8j4czSKEv3g5b8_52Z2lLqqHxtwp85aY,1090
+sudoku_tools-0.0.2.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+sudoku_tools-0.0.2.dist-info/METADATA,sha256=lJLN2-gaAkYz0Votnf0klmlnyF0qvCt7wQXUGh29lP0,2179
+sudoku_tools-0.0.2.dist-info/RECORD,,
