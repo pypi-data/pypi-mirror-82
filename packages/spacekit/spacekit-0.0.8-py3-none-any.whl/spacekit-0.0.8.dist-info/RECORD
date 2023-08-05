@@ -1,0 +1,11 @@
+spacekit/__init__.py,sha256=milYR2okmmIuVeFfTrzYJoD0OUbaieF7feS6x4HY7u4,590
+spacekit/analyzer.py,sha256=TLPxQDdEjRlfemO7NU_LiwPk8YY9nXy9kcwr4M644Jk,9301
+spacekit/builder.py,sha256=eK0I6u4rMdwo-puU7r5JOUBKSjNccAPgmz0aNqwmXkw,12027
+spacekit/computer.py,sha256=zoYNppl-MG9Bhwx4BT5uC19FR5R4VpVroYiDeIF1t8M,9114
+spacekit/radio.py,sha256=p867QH3_NV85JEf-OhUHh4k3btFa6caQEw0xNeHg9_4,1362
+spacekit/transformer.py,sha256=i292OhqigiimbtvMHQL1Ta3gyGmDy3_XG7KY-WeTjkQ,4234
+spacekit-0.0.8.dist-info/LICENSE,sha256=r0OQcIqCbRjEMKL6pT7elcP9Mevu2Q0PZtHtnD0kSEA,1065
+spacekit-0.0.8.dist-info/METADATA,sha256=i7qaeoUZzhINKMafy0fI_uH-3idrhFSA_FGRimB2x10,4211
+spacekit-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+spacekit-0.0.8.dist-info/top_level.txt,sha256=g6nIYW9XhEZvvbHlziQDMwrkGefT7hmVXjbvGBuChVE,9
+spacekit-0.0.8.dist-info/RECORD,,
