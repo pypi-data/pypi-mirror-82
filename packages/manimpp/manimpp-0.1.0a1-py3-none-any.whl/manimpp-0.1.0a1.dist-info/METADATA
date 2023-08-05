@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: manimpp
+Version: 0.1.0a1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: argparse
+Requires-Dist: colour
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: progressbar
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: opencv-python
+Requires-Dist: pycairo
+Requires-Dist: pydub
+Requires-Dist: pygments
+Requires-Dist: pyreadline
+
+UNKNOWN
+
+
