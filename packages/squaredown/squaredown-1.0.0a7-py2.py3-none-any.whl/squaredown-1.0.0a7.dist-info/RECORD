@@ -1,0 +1,11 @@
+squaredown/__init__.py,sha256=wJg6Aual17MBx5cM2FdLQtEomf0hJeCulUYLG9p2r1A,261
+squaredown/catalog.py,sha256=ed6jdvmXGr7i8HWJ1Kiq3NS-6LcbonorwbjYGYRb5uY,5580
+squaredown/config.py,sha256=eeNc2sE0XThrinrLiMIW8DO2Wz2z3WJA-jFI-Ocqkxo,3962
+squaredown/connector.py,sha256=PM_EDxObX7vs_A4SggOS2T4HcN1h7_vonXbRJ0hDReI,2855
+squaredown/i_mongodb.py,sha256=j9-H_na2x2ehe9PWnvaJbgZqTORAY__FkS2prcgazW8,2700
+squaredown/i_square.py,sha256=UW9wQiOpgwrXSU360OC2W1qhVnE_L_ncsrsNXvU7YRk,12118
+squaredown/orders.py,sha256=miiQrEAlerNpf71MdIifYF5IlvPgkRWF6Of1tBIDOhk,13685
+squaredown-1.0.0a7.dist-info/LICENSE,sha256=sqK82a98chHbw06k_QfoBjM5vkg9fVt2JRsbwQl8tj0,1079
+squaredown-1.0.0a7.dist-info/WHEEL,sha256=4vGQWMHJO3SOyvYcLHqr380W2n90FCfzkrP_YY3xjq8,99
+squaredown-1.0.0a7.dist-info/METADATA,sha256=4ftFqyaGFnXab93uxa1i0M6Dh-e8EXr5z1OIM5MzF_A,1899
+squaredown-1.0.0a7.dist-info/RECORD,,
