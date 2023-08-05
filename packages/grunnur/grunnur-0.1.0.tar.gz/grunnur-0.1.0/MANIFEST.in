@@ -1,0 +1,6 @@
+recursive-include examples *.py
+
+include LICENSE.md
+include MANIFEST.in
+include README.rst
+include pytest.ini
