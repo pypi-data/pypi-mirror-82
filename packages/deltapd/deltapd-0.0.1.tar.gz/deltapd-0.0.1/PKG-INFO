@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: deltapd
+Version: 0.0.1
+Summary: deltapd
+Home-page: https://github.com/Ecogenomics/deltapd
+Author: Aaron Mussig
+Author-email: aaronmussig@gmail.com
+License: AGPL-3.0-only
+Project-URL: Bug Tracker, https://github.com/Ecogenomics/deltapd/issues
+Project-URL: Documentation, https://github.com/Ecogenomics/deltapd
+Project-URL: Source Code, https://github.com/Ecogenomics/deltapd
+Description: # DeltaPD
+        
+        This project is currently in development and will be released in the future.
+        
+Keywords: deltapd
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

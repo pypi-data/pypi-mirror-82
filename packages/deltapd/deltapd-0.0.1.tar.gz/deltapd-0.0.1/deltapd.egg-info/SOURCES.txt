@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+deltapd/__init__.py
+deltapd/__main__.py
+deltapd.egg-info/PKG-INFO
+deltapd.egg-info/SOURCES.txt
+deltapd.egg-info/dependency_links.txt
+deltapd.egg-info/entry_points.txt
+deltapd.egg-info/top_level.txt
