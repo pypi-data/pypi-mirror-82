@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pslipstream
+Version: 0.4.0
+Summary: The most informative Home-media backup solution.
+Home-page: https://github.com/rlaPHOENiX/Slipstream
+Author: PHOENiX
+Author-email: rlaphoenix@pm.me
+License: GPLv3
+Project-URL: Source, https://github.com/rlaPHOENiX/Slipstream
+Description: The most informative Home-media backup solution.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Conversion
+Requires-Python: >=3.6, <3.8
+Description-Content-Type: text/plain
+Provides-Extra: packing support
