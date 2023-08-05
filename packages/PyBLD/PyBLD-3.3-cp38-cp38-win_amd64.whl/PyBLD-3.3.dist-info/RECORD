@@ -1,0 +1,14 @@
+pybld/__init__.py,sha256=nuilVEjG-ecO-somo-coo2Js0E0i9WpBavtT5nf6g4k,30485
+pybld/_bldanaimgc.cp38-win_amd64.pyd,sha256=oBvr87cJRZrp45TxkoysHRryit5FatmpYxv_fDm-uZc,39936
+pybld/_pybldc.cp38-win_amd64.pyd,sha256=JJMrjpoPh27halG9cUBHBw_h5GRyifc_8mkI0Pnbjvs,117248
+pybld/bldanaimg.py,sha256=1YYguiAXEsdSQEa4dtHIvVVd-kaEmYhRxNg6MwqOG7U,39988
+pybld/bldanaimgc.py,sha256=S3d0bNR95H7Pk6s8KM3Fp2RUhaG6XLxM3IhFYIMjEPU,2687
+pybld/datafile.py,sha256=3_knacxh1wACzf6wXmfwmMh2eTzZs91vubTfjD-Brf8,10173
+pybld/grace_np.py,sha256=HvBIidgf0odzOORoBjNQnWEOJItHQdkFSzB2qBKb_Zs,12038
+pybld/numpyio.py,sha256=8pEok_jT28wdvvE2AN2PNlyujwzHFNOXCNZ23XqXKWI,525
+pybld/pybldc.py,sha256=niukolT95C_PKXo9rzqy6U-dvI92ve_9a04eQ82Ic4w,3945
+pybld/qconv.py,sha256=AU7varxUpUjXrzTE4ssgMN4fM8iD1RfRYafR--oz-o8,1978
+PyBLD-3.3.dist-info/METADATA,sha256=rWyXiQk7Tht_UQV_lhcQu0k36yTGjIZuCV61P9pPSHM,285
+PyBLD-3.3.dist-info/WHEEL,sha256=-ODc2a2AO_YJ5T46NOquHfWjRM7bQvlt-f3zRaLBjL4,105
+PyBLD-3.3.dist-info/top_level.txt,sha256=DfeyDAmpqIjTPwC6YFXHWwWxtxTaM6u3h9CO_TWa46c,26
+PyBLD-3.3.dist-info/RECORD,,
