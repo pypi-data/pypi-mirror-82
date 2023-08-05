@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: estimator-wrapper
+Version: 1.0
+Summary: Estimator Wrapper
+Home-page: UNKNOWN
+Author: Wu Wenmin
+Author-email: wuwenmin1991@gmail.com
+License: MIT
+Description: # Estimator Wrapper
+        This package is used to broadcast TensorFlow's estimators using spark
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
