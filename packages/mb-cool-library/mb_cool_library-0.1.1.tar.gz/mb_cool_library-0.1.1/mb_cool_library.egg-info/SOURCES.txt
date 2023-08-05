@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+mb_cool_library.egg-info/PKG-INFO
+mb_cool_library.egg-info/SOURCES.txt
+mb_cool_library.egg-info/dependency_links.txt
+mb_cool_library.egg-info/top_level.txt
+mb_module/__init__.py
+mb_module/rek.py
