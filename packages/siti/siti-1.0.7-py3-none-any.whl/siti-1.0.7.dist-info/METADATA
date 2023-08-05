@@ -1,0 +1,264 @@
+Metadata-Version: 2.1
+Name: siti
+Version: 1.0.7
+Summary: Calculate Spatial Information / Temporal Information according to ITU-T P.910
+Home-page: https://github.com/slhck/siti
+Author: Werner Robitza
+Author-email: werner.robitza@gmail.com
+License: MIT
+Keywords: video,spatial information,temporal information
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Video
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: av
+Requires-Dist: tqdm
+
+SITI: Spatial Information / Temporal Information
+================================================
+
+|PyPI version|
+
+A command-line-based tool to calculate spatial information (SI) and
+temporal information (TI) according to ITU-T P.910.
+
+The command outputs SI and TI information to stdout, in JSON format, or
+alternatively as CSV.
+
+Author: Werner Robitza
+
+**Important Note / Breaking Changes:**
+
+-  Version 0.x produces incorrect values due to wrong reading of the
+   data using PyAV. Version 1.x and above produces correct values in the
+   sense of corresponding to `this
+   implementation <https://github.com/Telecommunication-Telemedia-Assessment/SITI/>`__.
+   As there are no test vectors for SI / TI implementations, and filter
+   calculations differ depending on how you implement them, the values
+   obtained with this tool may not be comparable with output from other
+   tools.
+-  Version 1.x now outputs the same number of values for SI and TI,
+   inserting a null value for the first frame’s TI. Also, the output
+   format has been changed.
+
+Contents:
+
+-  `Requirements <#requirements>`__
+-  `Installation <#installation>`__
+-  `Usage <#usage>`__
+-  `Background <#background>`__
+-  `License <#license>`__
+
+Requirements
+------------
+
+-  Python 3
+-  FFmpeg libraries (to run ``pyav``)
+
+Under Ubuntu, to get ffmpeg libraries:
+
+::
+
+   sudo apt install libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libavfilter-dev libswscale-dev libavresample-dev
+
+Installation
+------------
+
+Run:
+
+::
+
+   pip3 install --user siti
+
+Alternatively, clone this repository and then:
+
+::
+
+   pip3 install --user .
+
+Usage
+-----
+
+::
+
+   usage: siti [-h] [-of {json,csv}] [-q] [-n NUM_FRAMES] input
+
+   positional arguments:
+     input                 input file
+
+   optional arguments:
+     -h, --help            show this help message and exit
+     -of {json,csv}, --output-format {json,csv}
+                           output format
+     -q, --quiet           do not show progress bar
+     -n NUM_FRAMES, --num-frames NUM_FRAMES
+                           number of frames to calculate
+
+Background
+----------
+
+The following info is given about SI / TI in ITU-T Recommendation P.910
+(“Subjective video quality assessment methods for multimedia
+applications”):
+
+Spatial Information
+~~~~~~~~~~~~~~~~~~~
+
+   The spatial perceptual information (SI) is based on the Sobel filter.
+   Each video frame (luminance plane) at time n (Fn) is first filtered
+   with the Sobel filter [Sobel(Fn)]. The standard deviation over the
+   pixels (stdspace) in each Sobel-filtered frame is then computed. This
+   operation is repeated for each frame in the video sequence and
+   results in a time series of spatial information of the scene. The
+   maximum value in the time series (maxtime) is chosen to represent the
+   spatial information content of the scene. This process can be
+   represented in equation form as:
+
+..
+
+   |image1|
+
+Temporal information
+~~~~~~~~~~~~~~~~~~~~
+
+   The temporal perceptual information (TI) is based upon the motion
+   difference feature, Mn(i, j), which is the difference between the
+   pixel values (of the luminance plane) at the same location in space
+   but at successive times or frames. Mn(i, j) as a function of time (n)
+   is defined as:
+
+..
+
+   |image2|
+
+   here Fn(i, j) is the pixel at the ith row and jth column of nth frame
+   in time. The measure of temporal information (TI) is computed as the
+   maximum over time (maxtime) of the standard deviation over space
+   (stdspace) of Mn(i, j) over all i and j.
+
+..
+
+   More motion in adjacent frames will result in higher values of TI
+
+License
+-------
+
+siti, Copyright (c) 2017-2019 Werner Robitza
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+“Software”), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+.. |PyPI version| image:: https://badge.fury.io/py/siti.svg
+   :target: https://badge.fury.io/py/siti
+.. |image1| image:: http://i.imgur.com/zRXcVJO.png
+.. |image2| image:: http://i.imgur.com/MRsJtdT.png
+
+
+Changelog
+~~~~~~~~~
+
+All notable changes to this project will be documented in this file.
+Dates are displayed in UTC.
+
+Generated by
+```auto-changelog`` <https://github.com/CookPete/auto-changelog>`__.
+
+`v1.0.7 <https://github.com/slhck/siti/compare/v1.0.6...v1.0.7>`__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   10 October 2020
+
+-  specify exact version reqs
+   ```75a5b89`` <https://github.com/slhck/siti/commit/75a5b89917b25d7e74b1abc22bb3ec4b5c2ce0c1>`__
+-  fix tests
+   ```f6dc991`` <https://github.com/slhck/siti/commit/f6dc9912e589f1a6ed9d35cac2b1ee625807d28c>`__
+-  Bump version to 1.0.7.
+   ```0663d27`` <https://github.com/slhck/siti/commit/0663d27327753e3b037b54ff9d0880eb6062bae4>`__
+
+`v1.0.6 <https://github.com/slhck/siti/compare/v1.0.4...v1.0.6>`__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   15 March 2020
+
+-  rename changelog
+   ```66445d8`` <https://github.com/slhck/siti/commit/66445d80d4332f7afa04d346f0f0aef304f14f6e>`__
+-  Bump version to 1.0.5.
+   ```6f3bcec`` <https://github.com/slhck/siti/commit/6f3bcecc50adb310ff201af60f1257b843fecaab>`__
+-  update release script
+   ```d20b5bc`` <https://github.com/slhck/siti/commit/d20b5bcff0de77f21cfd018732a7ac2fb35263ea>`__
+
+`v1.0.4 <https://github.com/slhck/siti/compare/v1.0.2...v1.0.4>`__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   16 June 2019
+
+-  Bump version to 1.0.3.
+   ```828a2b0`` <https://github.com/slhck/siti/commit/828a2b05824b40fe74aa411821203a7c23983248>`__
+-  update requirements instructions
+   ```276bdc5`` <https://github.com/slhck/siti/commit/276bdc530cd5b9a9808d5b48b796513dee0d0f0e>`__
+-  update release script
+   ```8037b7f`` <https://github.com/slhck/siti/commit/8037b7fcb445df81932322c2d80211d3e1eefc38>`__
+
+`v1.0.2 <https://github.com/slhck/siti/compare/v1.0.1...v1.0.2>`__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   18 May 2019
+
+-  add manifest
+   ```e1834f3`` <https://github.com/slhck/siti/commit/e1834f3d6dbd834a173f0f4720e61b5bd2b866b8>`__
+-  Bump version to 1.0.2.
+   ```cfe3e61`` <https://github.com/slhck/siti/commit/cfe3e612863d02a0c8e9558c38e8a040abae885d>`__
+
+`v1.0.1 <https://github.com/slhck/siti/compare/v1.0.0...v1.0.1>`__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   17 May 2019
+
+-  add release script
+   ```d83524f`` <https://github.com/slhck/siti/commit/d83524f57fd4c11ec453654a0fb54b4df98bf6ad>`__
+-  fix README for usage
+   ```f8eed76`` <https://github.com/slhck/siti/commit/f8eed76bde4045f3059739e4dbe56fd47ba5a8da>`__
+-  Bump version to 1.0.1.
+   ```c5f5b1d`` <https://github.com/slhck/siti/commit/c5f5b1d15dfb453e69e0ae5d03ba12d55cb1bc5c>`__
+
+v1.0.0
+^^^^^^
+
+   12 May 2019
+
+-  fix SI quote ```#2`` <https://github.com/slhck/siti/pull/2>`__
+-  exchange SI formula with TI
+   ```#1`` <https://github.com/slhck/siti/pull/1>`__
+-  initial commit
+   ```e05caaa`` <https://github.com/slhck/siti/commit/e05caaa9f9b31d4e7b1f8f810bce7dc2c2b93d74>`__
+-  update to version 1.0
+   ```a92d53a`` <https://github.com/slhck/siti/commit/a92d53accceaa1351a9788603a3029ec8d8d4420>`__
+-  update calculations
+   ```2b44960`` <https://github.com/slhck/siti/commit/2b44960323d8f611a85e7eb6765cf7afedb8f561>`__
+
+
