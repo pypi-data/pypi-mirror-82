@@ -1,0 +1,9 @@
+evernote_to_sqlite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evernote_to_sqlite/cli.py,sha256=aBOAMpoF0InHchRcnT92XaoaByxbJMQQhnY1zYxgGb0,920
+evernote_to_sqlite/utils.py,sha256=rbg91RTMPfNj7hDvmAWqlXVfAXgNH7B5jLvFBHb5yi4,2817
+evernote_to_sqlite-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+evernote_to_sqlite-0.1.dist-info/METADATA,sha256=4ST6G9qKCb4mjSV0KIzGqdk910I79i7C01d4PXRdMWQ,2532
+evernote_to_sqlite-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+evernote_to_sqlite-0.1.dist-info/entry_points.txt,sha256=KNJvabXGAGMJwbvqzAS-GrZaKvobrirlNel3jkebkss,85
+evernote_to_sqlite-0.1.dist-info/top_level.txt,sha256=HZEMipjJkNlepMbQr7eCEVAQbyGR6E4Xxm7zg9es75A,19
+evernote_to_sqlite-0.1.dist-info/RECORD,,
