@@ -1,0 +1,11 @@
+yggdrasil/__init__.py,sha256=xQSPdEHE0Ohh2HIVuziTigXB71zl--bHd0F0ki-pI9o,369
+yggdrasil/authenticate.py,sha256=dxUIyErGVbbobosvUfP0gfVJOPUekk5D-ye9fe2D8VY,1168
+yggdrasil/invalidate.py,sha256=Vk1-e4RLOYWwIt-lQvUncICLw8CMdhQBTZRyLb4xsHw,915
+yggdrasil/refresh.py,sha256=gyBwjQYd1nw2MqEhehAGS_E61nTtw6LionX64HS-6ZA,1075
+yggdrasil/signout.py,sha256=TminhMRGgzKZQ1Ajw0mwz6micjnw1AsAJ5F7Mxi347s,846
+yggdrasil/validate.py,sha256=DG3pF8tG3tPNT_ccDjHYpEf5D6Znf8qsPs4RVvpsJ1M,838
+yggdrasil_py-1.1.0.dist-info/LICENSE.txt,sha256=obomny-KnfEvBTYj0qlV2eAyFE3xPZSZ-gZaFDxroG8,1066
+yggdrasil_py-1.1.0.dist-info/METADATA,sha256=w1U-8G8qJ0wzWbQpxYT9DtxrJnivhg4K4kJvteoYyhQ,6596
+yggdrasil_py-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+yggdrasil_py-1.1.0.dist-info/top_level.txt,sha256=iBe9Kk4VIVbLpgv_p8OZUIfxgj4dgJ5wBg6vO3rigso,10
+yggdrasil_py-1.1.0.dist-info/RECORD,,
