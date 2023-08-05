@@ -1,0 +1,11 @@
+README.md
+setup.py
+libhttpcam/AuthDigest.py
+libhttpcam/__init__.py
+libhttpcam/foscam.py
+libhttpcam/httpcam.py
+libhttpcam/wansview.py
+libhttpcam.egg-info/PKG-INFO
+libhttpcam.egg-info/SOURCES.txt
+libhttpcam.egg-info/dependency_links.txt
+libhttpcam.egg-info/top_level.txt
