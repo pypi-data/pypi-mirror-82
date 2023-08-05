@@ -1,0 +1,9 @@
+README.md
+setup.py
+bytetrie/__init__.py
+bytetrie/bytetrie.py
+bytetrie/util.py
+bytetrie.egg-info/PKG-INFO
+bytetrie.egg-info/SOURCES.txt
+bytetrie.egg-info/dependency_links.txt
+bytetrie.egg-info/top_level.txt
