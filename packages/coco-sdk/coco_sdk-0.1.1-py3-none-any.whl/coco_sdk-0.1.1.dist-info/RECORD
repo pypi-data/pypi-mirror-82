@@ -1,0 +1,10 @@
+coco/__init__.py,sha256=cWHLtkjOU8HsMLJHqA-SaXvc-bXompagNeoPOlPEtL4,151
+coco/async_api.py,sha256=Ao67wommz3wOZMHK2aCA_AzOc0_M-ym6TUR-k7-hLIs,2497
+coco/coco.py,sha256=kODcamVZOjudP68uB3n5ROv3aGT3-38cLapmGzmTIWE,2279
+coco/config_models.py,sha256=PG10SvObIXFRl6PiMZwsFLsqqnVNl0rkYofFZZKl6QI,2219
+coco/sync.py,sha256=ZfsqUdEP4NWnwuGpXwYb829OyMo2mR5q92AhSXVvi08,2352
+coco_sdk-0.1.1.dist-info/LICENSE,sha256=c79eJM6dclX9IS-h54UsvmhCD9snLHXBKhi80boKupI,1070
+coco_sdk-0.1.1.dist-info/METADATA,sha256=TQBBE5ndpppmwNKO4PA0VF0wTbq_WqbmlngHxIHItNg,2142
+coco_sdk-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+coco_sdk-0.1.1.dist-info/top_level.txt,sha256=fHaiV9LWpBZR8AHpvrYZwWYvP1xQVt6_WWnU8RqEMog,5
+coco_sdk-0.1.1.dist-info/RECORD,,
