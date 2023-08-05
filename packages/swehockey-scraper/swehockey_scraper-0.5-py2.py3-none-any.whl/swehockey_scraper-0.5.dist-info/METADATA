@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: swehockey-scraper
+Version: 0.5
+Summary: Functions to scrape ice hockey data and statistics from swehockey
+Home-page: https://github.com/msjoelin/swehockey_scraper
+Author: Marcus Sjölin
+Author-email: marcussjolin89@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/swehockey_scraper/
+Keywords: ice hockey,scraping,sport analytics,shl,analys,ishockey,hockeyallsvenskan
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: bs4
+Requires-Dist: datetime
+
+# swehockey_scraper
+Package to scrape swehockey for ice hockey data and stats
+
+## Getting started
+Package can be installed with pip  
+```pip install swehockey_scraper```
+
+In python, import module with  
+```import swehockey.swehockey_scraper as swe```
+
+See description of functions in package with  
+```help(swe)```
+
+Functions can be used together and input and output is linked. 
+
+
+# swehockey_scraper
+Package to scrape hockey data from swehockey
+
+
