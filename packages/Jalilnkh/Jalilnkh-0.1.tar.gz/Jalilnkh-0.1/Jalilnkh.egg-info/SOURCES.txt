@@ -1,0 +1,10 @@
+setup.py
+Jalilnkh.egg-info/PKG-INFO
+Jalilnkh.egg-info/SOURCES.txt
+Jalilnkh.egg-info/dependency_links.txt
+Jalilnkh.egg-info/not-zip-safe
+Jalilnkh.egg-info/top_level.txt
+jalilnkh/Binomialdistribution.py
+jalilnkh/Gaussiandistribution.py
+jalilnkh/Generaldistribution.py
+jalilnkh/__init__.py
