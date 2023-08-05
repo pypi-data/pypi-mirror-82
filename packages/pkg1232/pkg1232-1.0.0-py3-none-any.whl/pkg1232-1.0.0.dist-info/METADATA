@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pkg1232
+Version: 1.0.0
+Summary: Test package for distribution
+Home-page: 
+Author: cws
+Author-email: nownottomo@gmail.com
+License: UNKNOWN
+Download-URL: 
+Keywords: pkg1232,PKG1232
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Requires-Dist: bs4
+
+UNKNOWN
+
+

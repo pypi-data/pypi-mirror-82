@@ -1,0 +1,9 @@
+pkg1232/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg1232/bar.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkg1232/foo.py,sha256=ruQDq3hl-KNITDxvCZ-39cxBSgrbQxAi8iWygeTMFww,12
+pkg1232/pkg.cfg,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pkg1232-1.0.0.data/scripts/foo.py,sha256=ruQDq3hl-KNITDxvCZ-39cxBSgrbQxAi8iWygeTMFww,12
+pkg1232-1.0.0.dist-info/METADATA,sha256=gIdNZhnyIA0F3z7rhg4bZyHttaDChx-F26DBKNt7WNs,326
+pkg1232-1.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pkg1232-1.0.0.dist-info/top_level.txt,sha256=yLGP1drpedVHwTyLEpmxw8snKRtrxp0M6hlmid-5yqs,8
+pkg1232-1.0.0.dist-info/RECORD,,
