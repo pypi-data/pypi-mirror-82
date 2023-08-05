@@ -1,0 +1,9 @@
+README.md
+setup.py
+sawatabi/__init__.py
+sawatabi/version.py
+sawatabi.egg-info/PKG-INFO
+sawatabi.egg-info/SOURCES.txt
+sawatabi.egg-info/dependency_links.txt
+sawatabi.egg-info/requires.txt
+sawatabi.egg-info/top_level.txt

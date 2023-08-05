@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sawatabi
+Version: 0.0.1.dev0
+Summary: sawatabi.
+Home-page: https://github.com/kotarot/sawatabi
+Author: Kotaro Terada
+Author-email: kotarot@apache.org
+License: Apache 2.0
+Description: # sawatabi
+        
+        :warning: **This project is work in progress** :warning:
+        
+        ## Acknowledgement
+        
+        This work is supported by the MITOU Target program from Information-technology Promotion Agency, Japan (IPA).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
