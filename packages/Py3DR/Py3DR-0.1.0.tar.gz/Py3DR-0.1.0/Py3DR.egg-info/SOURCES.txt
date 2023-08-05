@@ -1,0 +1,9 @@
+Py3DR
+README.txt
+setup.py
+Py3DR/__init__.py
+Py3DR.egg-info/PKG-INFO
+Py3DR.egg-info/SOURCES.txt
+Py3DR.egg-info/dependency_links.txt
+Py3DR.egg-info/requires.txt
+Py3DR.egg-info/top_level.txt
