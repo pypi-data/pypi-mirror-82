@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: tokko-locations-client
+Version: 0.0.1
+Summary: Tokko Locations API Client.
+Home-page: https://github.com/TokkoLabs/services-tokkobroker/libraries/
+Author: Jose Salgado
+Author-email: jsalgado@navent.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: json-rpc (==1.13.0)
+Requires-Dist: arrow (==0.17.0)
+
+# Install 
+```bash 
+pip install tokko-locations-client
+```
+
+# Basic usage
+
+```python
+from tokko_locations_client.core import LocationsAPIClient
+# You can also declare AuthToken and HomeURL using environment variables instead:
+# + AuthToken: TOKKO_AUTH_TOKEN
+# + HomeURL: LOCATIONS_API_HOME
+api = LocationsAPIClient(
+    home_url="http//www.tokkobroker.com", 
+    auth_token="your-tokko-user-auth-token" 
+)
+
+# List All countries
+print(api.countries())
+
+# Retrieving specific country by <int: CountryID>
+print(api.country(1))  # Argentina
+
+# Retrieving specific state by <int: StateID> 
+print(api.state(146))  # Capital Federal
+
+# Retrieving specific locations by <int: LocationsID> 
+print(api.location(24673))  # Almagro
+```
+
