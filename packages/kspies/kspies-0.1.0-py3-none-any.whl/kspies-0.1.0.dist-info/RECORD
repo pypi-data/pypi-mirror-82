@@ -1,0 +1,13 @@
+kspies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kspies/compile.sh,sha256=D5qj3wGCisbyOEp7pmFRox4lyo0lxU2h042CowYdTQI,95
+kspies/kspies_fort.cpython-37m-x86_64-linux-gnu.so,sha256=hTj1dmx0O46fiiVfuOZGQblwlZItrRQjBsWFj87hJ6Y,210256
+kspies/kspies_fort.f90,sha256=3VFWXih4RrcZyWDRPbUOfyoTsAr7vRdoNdprdWi6A_0,13231
+kspies/kspies_fort.py,sha256=0yx7cr4BbD7dd7ekcNYO1lW9-m8MCX8n8qbPmeurpec,29
+kspies/util.py,sha256=lIdJNPAkiEMr21WnK-DbND2eUv4emyhKnE_lZc0UaSk,14564
+kspies/wy.py,sha256=bU7b7MK-8GFy20WxAOBJa8XBOGbZr_5ok0VHQ-8TC_k,22631
+kspies/zmp.py,sha256=tBiq5Z7TlE-_fKDb1m9o9ZE_egMuDJFc-mPBlZre8bY,15513
+kspies-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kspies-0.1.0.dist-info/METADATA,sha256=ff-EwiTpf0EdQVzF81hCueX3EXjbv-sq3wY5z6tqKw0,1999
+kspies-0.1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+kspies-0.1.0.dist-info/top_level.txt,sha256=GtmeOfMGFh5lNZeZLFRSIoCh0tAg3MW7Hw0W_5GKZbE,7
+kspies-0.1.0.dist-info/RECORD,,
