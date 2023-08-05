@@ -1,0 +1,6 @@
+requests
+argparse
+termcolor
+tqdm
+html5lib
+bs4
