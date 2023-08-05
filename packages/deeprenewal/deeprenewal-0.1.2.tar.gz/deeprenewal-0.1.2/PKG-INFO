@@ -1,0 +1,68 @@
+Metadata-Version: 1.2
+Name: deeprenewal
+Version: 0.1.2
+Summary: An implementation of the DeepRenewal Processes in GluonTS
+Home-page: https://github.com/manujosephv/deeprenewal
+Author: Manu Joseph
+Author-email: manujosephv@gmail.com
+License: MIT license
+Description: ===========
+        DeepRenewal
+        ===========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/deeprenewal.svg
+                :target: https://pypi.python.org/pypi/deeprenewal
+        
+        .. image:: https://img.shields.io/travis/manujosephv/deeprenewal.svg
+                :target: https://travis-ci.com/manujosephv/deeprenewal
+        
+        .. image:: https://readthedocs.org/projects/deeprenewal/badge/?version=latest
+                :target: https://deeprenewal.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        An implementation of the Intermittent Demand Forecasting with Deep Renewal Processes by Ali Caner Turkmen et al. in GluonTS [arXiv:1911.10416v1 [cs.LG]]
+        
+        
+        * Free software: MIT license
+        * Documentation: https://deeprenewal.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-07-24)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: deeprenewal
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
