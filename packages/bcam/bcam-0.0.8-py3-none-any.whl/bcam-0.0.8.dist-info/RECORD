@@ -1,0 +1,10 @@
+bcam/__init__.py,sha256=KJ4bMilt5LVDsA4MzLZ6Kk_qq27v3j6l-LV0w2Egjlo,199
+bcam/bcam.py,sha256=dPuFYv0R6o661d7CUofUdcp0p8JhE56DH2mqVyn_wug,4362
+bcam/config.py,sha256=SxgDt0t5MpvaXbE2ujIyzme1uvFMBT1_tZFAG4UVPcw,7603
+bcam/stitcher.py,sha256=fPt68X5H19nByyMJNevGKkLQMdbM7yF2Ir7ZICGkHwM,3092
+bcam/utils.py,sha256=B6awogeJwjcJK6wQVnSZGhXSs9-3dM7pjx6DJdeENSg,85
+bcam-0.0.8.dist-info/LICENSE,sha256=OLbjAhJiY4zLobrtOfbQlPzvKYM6LilZe885f9RCgZg,1062
+bcam-0.0.8.dist-info/METADATA,sha256=lq0-J0FzLPdqqwTT4qG0HV9XWB0GaaCp3_cGob0qNIA,1306
+bcam-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bcam-0.0.8.dist-info/top_level.txt,sha256=jP9PjINgJbgCqRuySB2f8Q88LfPx9DNfp4VhwiZ3YJI,5
+bcam-0.0.8.dist-info/RECORD,,
