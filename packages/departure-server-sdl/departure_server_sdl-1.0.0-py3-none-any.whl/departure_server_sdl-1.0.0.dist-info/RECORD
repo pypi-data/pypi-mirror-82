@@ -1,0 +1,10 @@
+departure/renderer/sdl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+departure/renderer/sdl/cli.py,sha256=z4BSrdp-Bp9jnlRlTsoZthYa4UOWw9EUm_jlpjPWqcc,2763
+departure/renderer/sdl/renderer.py,sha256=v-z5hhy9iA4Pr2bR9RFRb6S53-aJEkJczbuA4Vg9BBc,3070
+departure/renderer/sdl_ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+departure/renderer/sdl_ext/cli.py,sha256=GQREsTtyiFwCrd8b6QuV1pmhUm8BXwFNZoxHu10WD8k,2718
+departure/renderer/sdl_ext/renderer.py,sha256=k9HB-JRuXrZ2CR5Rf6KNn7UDdxtmjk8rOd2RNTs-SMQ,2196
+departure_server_sdl-1.0.0.dist-info/METADATA,sha256=ke_pyzBOjES-mYnhqXdwfumHfadKs-riYibY7oxnZOI,3355
+departure_server_sdl-1.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+departure_server_sdl-1.0.0.dist-info/top_level.txt,sha256=2jh85nUDIe6_1_OQ0j5YC7XvazE8sFY7JYJEknroINs,10
+departure_server_sdl-1.0.0.dist-info/RECORD,,
