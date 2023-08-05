@@ -1,0 +1,4 @@
+[console_scripts]
+hti=html2image:cli_entry
+html2image=html2image:cli_entry
+
