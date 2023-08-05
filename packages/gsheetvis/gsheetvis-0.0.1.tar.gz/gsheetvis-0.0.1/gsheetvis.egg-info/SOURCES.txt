@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+gsheetvis/__init__.py
+gsheetvis.egg-info/PKG-INFO
+gsheetvis.egg-info/SOURCES.txt
+gsheetvis.egg-info/dependency_links.txt
+gsheetvis.egg-info/requires.txt
+gsheetvis.egg-info/top_level.txt
