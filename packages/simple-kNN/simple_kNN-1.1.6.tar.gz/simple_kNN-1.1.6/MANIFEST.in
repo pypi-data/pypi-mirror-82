@@ -1,0 +1,3 @@
+recursive-include simple_kNN/datasets *
+recursive-include simple_kNN/datasets/data/*.csv
+recursive-include simple_kNN/datasets/data/*.csv.gz
