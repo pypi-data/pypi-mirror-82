@@ -1,0 +1,9 @@
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/sorting_func.py,sha256=FxWCjoLmbEtDj1idc9xFG6oSIMJK-r_znX1YLUor3Qw,34
+customtimsort/__init__.py,sha256=UZzJgXDwGTz91rgLKIsOiNuVxdDQ0Icx-1B0JaPCOZA,34
+customtimsort/sorting_func.py,sha256=FxWCjoLmbEtDj1idc9xFG6oSIMJK-r_znX1YLUor3Qw,34
+customtimsort-0.0.3.dist-info/LICENSE,sha256=Irc6dQW_am1AaA1veK9Jcb15VcmP4Av49g3aApYGDjs,1068
+customtimsort-0.0.3.dist-info/METADATA,sha256=18bCnQ6Q1_iSctPAJKHzb3SvXWf34rYhkefqpRPWH7I,478
+customtimsort-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+customtimsort-0.0.3.dist-info/top_level.txt,sha256=-sWlcyr-R93EPQY43-045I38A2uMaPS78mUwW7jqU7I,14
+customtimsort-0.0.3.dist-info/RECORD,,
