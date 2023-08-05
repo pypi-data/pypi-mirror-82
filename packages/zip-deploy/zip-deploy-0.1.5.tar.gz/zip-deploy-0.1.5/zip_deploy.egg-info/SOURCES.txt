@@ -1,0 +1,9 @@
+README.md
+setup.py
+zip_deploy.egg-info/PKG-INFO
+zip_deploy.egg-info/SOURCES.txt
+zip_deploy.egg-info/dependency_links.txt
+zip_deploy.egg-info/entry_points.txt
+zip_deploy.egg-info/top_level.txt
+zipdeploy/__init__.py
+zipdeploy/zipdeploy.py

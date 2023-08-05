@@ -1,0 +1,3 @@
+[console_scripts]
+zip-deploy = zipdeploy.zipdeploy:main_func
+
