@@ -1,0 +1,11 @@
+README.md
+setup.py
+noteproxy/__init__.py
+noteproxy/core.py
+noteproxy/database.py
+noteproxy/job.py
+noteproxy/run.py
+noteproxy.egg-info/PKG-INFO
+noteproxy.egg-info/SOURCES.txt
+noteproxy.egg-info/dependency_links.txt
+noteproxy.egg-info/top_level.txt
