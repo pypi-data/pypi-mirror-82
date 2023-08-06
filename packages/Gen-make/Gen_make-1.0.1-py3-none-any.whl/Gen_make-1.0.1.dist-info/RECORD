@@ -1,0 +1,9 @@
+gen_make/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+gen_make/do_makefile.py,sha256=0Q1WrSf9kDPGCcsVYufYASbDkkkwdCmBqI4aIS90Ujg,5045
+gen_make/script.py,sha256=rhtZPrCS0ZcW2ztDsr9bj37zjcuiGNHMCFMig35DQD0,2452
+Gen_make-1.0.1.dist-info/LICENSE.txt,sha256=nodz6IkkG053c7PFtjc4oVxVX7fayViFf_v7kQg-xqc,1072
+Gen_make-1.0.1.dist-info/METADATA,sha256=rw2-7L7LuxJaNYZBVNNt0sig5ZcSBYto8eqg5804HTs,1522
+Gen_make-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Gen_make-1.0.1.dist-info/entry_points.txt,sha256=j01WF3ByXxdAlVWUIlsz-ah1bFfHOase59dBa4L5nHw,51
+Gen_make-1.0.1.dist-info/top_level.txt,sha256=msPEmJg9Ax1EIeyL9gyboHwFQgwYyPzo8DL0PEJn9XU,9
+Gen_make-1.0.1.dist-info/RECORD,,
