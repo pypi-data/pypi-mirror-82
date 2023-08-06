@@ -1,0 +1,3 @@
+[console_scripts]
+doggy = doggy:main_commands
+

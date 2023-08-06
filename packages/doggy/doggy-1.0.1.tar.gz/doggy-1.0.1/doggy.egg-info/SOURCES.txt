@@ -1,0 +1,12 @@
+README.md
+setup.py
+doggy/__init__.py
+doggy/file_operations.py
+doggy.egg-info/PKG-INFO
+doggy.egg-info/SOURCES.txt
+doggy.egg-info/dependency_links.txt
+doggy.egg-info/entry_points.txt
+doggy.egg-info/requires.txt
+doggy.egg-info/top_level.txt
+doggy/commands/__init__.py
+doggy/commands/uc.py
