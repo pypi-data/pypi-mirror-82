@@ -1,0 +1,10 @@
+safespace/__init__.py,sha256=0PaI2eSOCp5kkNcpKpUSbLHf66rL9xQzFpYyLGpEtyM,22
+safespace/excs.py,sha256=ZnGJgIpjg4o3tBHZhlLIAQzNV4pwoGnw70_6-yKkb-w,692
+safespace/middleware.py,sha256=5IP4sedvhXD0TFf8rpd8Ao5E4Rw1kfcpg4rz3QFiPwg,6491
+safespace/settings.py,sha256=9c1ZsZlEEauX4kfFMPTHke3v93NR1MwlwfdJoC9WIcg,790
+safespace/templates/safespace/problem.html,sha256=swf3B-pxPzHZ5tInUbuk-dXUxJA8kFgeipzehCUVxDs,252
+django_safespace-0.5.0.dist-info/LICENSE,sha256=IVej5NuX1idnwGvIWPbxpZLG-KV82NrWY_iWPbhW4aY,1075
+django_safespace-0.5.0.dist-info/METADATA,sha256=MpJ6MBv429alOJAdM1pV5pb2I02zSWAP3IMsQsh8IRE,552
+django_safespace-0.5.0.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+django_safespace-0.5.0.dist-info/top_level.txt,sha256=blbYrc3WhhDW8O2EOhHrHAyiW0qxJjVqOYtE1vps4Cg,10
+django_safespace-0.5.0.dist-info/RECORD,,
