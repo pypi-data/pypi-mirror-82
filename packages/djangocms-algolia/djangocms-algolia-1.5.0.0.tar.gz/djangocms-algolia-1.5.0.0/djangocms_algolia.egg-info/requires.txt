@@ -1,0 +1,6 @@
+django>=2.2
+django-cms>=3.7
+algoliasearch-django
+aldryn-search
+beautifulsoup4
+django-standard-form==1.1.1
