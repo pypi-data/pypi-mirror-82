@@ -1,0 +1,15 @@
+clearmacro/__init__.py,sha256=3vZsGHr17D8FHaaWtDiJ0h2GTUhbSGG5w9ZSfW5PdHY,37
+clearmacro/client.py,sha256=Q7qP0p9NkDRHBssnTjGGpswvuTkJvqLwg-CbRm6ULlU,2132
+clearmacro/configuration.py,sha256=-oJIAQdBeIfR4mTxR7ugUE_mvCPxx3sS49BencxIfI0,1159
+clearmacro/errors.py,sha256=aJGGSogXXn-h5A87SysXB6DnOACe50lVuaD4Xa2c8gk,488
+clearmacro/events.py,sha256=LG2SNbPMgiJAMHpHKpvkFRSt_cr7QR2QEYBuM5-7jAI,714
+clearmacro/version.py,sha256=CpXi3jGlx23RvRyU7iytOMZrnspdWw4yofS8lpP1AJU,18
+clearmacro/operations/__init__.py,sha256=2o-OuiPJIR5n8VzzIZpWMEe7sVlCORbfJnyqPk9xPhs,303
+clearmacro/operations/get_categories_for_universe.py,sha256=iXmFW8tN8jO3DZoA8miLOOe3lfJ1IvY5KpbL36Nm9w4,305
+clearmacro/operations/list_markets_for_signal.py,sha256=pOySUUU8hAdG3HJ5fN-j_VhJp8QAsRXXK54GjY-pfSo,280
+clearmacro/operations/login.py,sha256=6zNpcyVysxDfq4tisa8z1NHApadmf3R__FTAK7Ezkbo,501
+cmqd-0.1.0.dist-info/LICENSE,sha256=Kv1SNzV4N20yv7I0h2tkmqum6PUXl2jH8AgZtogIZgk,1100
+cmqd-0.1.0.dist-info/METADATA,sha256=hrtJr-uem4slMwN2XEzQPrbySL3f8AjTpZeku_M700M,2655
+cmqd-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+cmqd-0.1.0.dist-info/top_level.txt,sha256=bbnyc1sVcnur3CzacpWSwfS2JG00vLfiwQu1bYZh4Ms,11
+cmqd-0.1.0.dist-info/RECORD,,
