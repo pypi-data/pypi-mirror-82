@@ -1,0 +1,8 @@
+spce
+urllib3
+
+[avro]
+spce[avro]>=0.2.0
+
+[mqtt]
+paho-mqtt>=1.5.1
