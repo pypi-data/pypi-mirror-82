@@ -1,0 +1,12 @@
+alfred3_dbtools/__init__.py,sha256=5rKNqFNJNn5YL1f-oOGyYlBAWr3c8YsTtBAoy9YnICI,403
+alfred3_dbtools/_version.py,sha256=5zSI7joVgP1lYYkcIpaAInIFJcfsLbHeVsfkC8Quunc,24
+alfred3_dbtools/mongotools.py,sha256=wXhPJhU87s0ePTdbCCFYjgfB_3euXqLdcbWl7wvnD6I,7737
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/mongo.py,sha256=JHqfgmJNV1Ru9gUS3abHDUa5ko8LjxufYHikeSZAHdI,437
+tests/test_expdb_connector.py,sha256=aKZP8t1l8NIVIygPb_cRNnVFPzL5scBRemp4Gi13rgI,2511
+tests/test_mongotools.py,sha256=v1INeQbgo8n929LrNHXESlmWmyVsR6qLU6HTktGvqjg,5280
+alfred3_dbtools-0.2.0a1.dist-info/LICENSE,sha256=Pms6IZTXnMko8Fd4IZEGOmdhfsyKdZGr9gQ-LkJwUfA,1099
+alfred3_dbtools-0.2.0a1.dist-info/METADATA,sha256=ZGEfN1HyRNKsLT5AvOIWMRm25dCGMWP6g4Ey5ibjdh8,963
+alfred3_dbtools-0.2.0a1.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+alfred3_dbtools-0.2.0a1.dist-info/top_level.txt,sha256=uS4GzdjJ3Vakrd5SnPlEpdLVxH-T1YYnctGpwjF0L0k,22
+alfred3_dbtools-0.2.0a1.dist-info/RECORD,,
