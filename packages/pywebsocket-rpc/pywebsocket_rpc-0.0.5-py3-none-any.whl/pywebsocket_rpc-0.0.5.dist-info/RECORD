@@ -1,0 +1,13 @@
+pywebsocket_rpc/__init__.py,sha256=IBBjBk0jvRC3fH9M2vtkMw3tcUFlZcUOYlOfuofSpbE,220
+pywebsocket_rpc/client.py,sha256=g3wIunZPWe3CDS05gf1hhC41teIX_VZ6jrTa3YLqjp8,4632
+pywebsocket_rpc/common.py,sha256=X9LQ9LwUadknd6p2rE8CcBDCV8etLBaKz22FOfltcBg,519
+pywebsocket_rpc/server.py,sha256=H9KGI1MzFAm1hIvlaxVjwihhbS7eZmlg5kq2WKfI1w0,4518
+pywebsocket_rpc/websocket_base.py,sha256=WjtBVhDSgIsmsmOWVQIbx5bjsklODcMzGyshZg_gQdk,3271
+pywebsocket_rpc/proto/gen/node_pb2.py,sha256=1J9OzB6ILmcR4Lnlhu4vmNUmuwnrm7InSfsJKouHThE,3911
+tests/conftest.py,sha256=FXumYdHXdzbB_A8pMCUXTtlZNvot5DiWevYED3ZmCM0,1184
+tests/test_main.py,sha256=g4MH5N6brUBppzwHfx9NBFhsgOiJjteFeXMU5kx3QZo,18195
+tests/test_proto/gen/test_pb2.py,sha256=z4HY4BfGgzN7fKEvHegtvQAj4tzWFJjUQWyV40qyY3g,8703
+pywebsocket_rpc-0.0.5.dist-info/METADATA,sha256=fe6yCmm-muGjarvkwDt8VsOY2P38gLh33S5x81Epnoc,575
+pywebsocket_rpc-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pywebsocket_rpc-0.0.5.dist-info/top_level.txt,sha256=0acRClz_AgRoRxH_YDefmrAUja5iO3DQZ2YWKMgRNyo,22
+pywebsocket_rpc-0.0.5.dist-info/RECORD,,
