@@ -1,0 +1,16 @@
+#/bin/sh
+
+set -m
+
+CONDA_BASE=$(conda info --base)
+source $CONDA_BASE/etc/profile.d/conda.sh
+conda activate ucbshift
+
+gunicorn --workers=2 --timeout 1200 --bind 127.0.0.1:8000 ucbshift.wsgi:server &
+
+sleep 3s
+
+open http://localhost:8000
+
+fg
+
