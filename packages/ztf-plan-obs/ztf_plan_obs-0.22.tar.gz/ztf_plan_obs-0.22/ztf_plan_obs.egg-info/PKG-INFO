@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: ztf-plan-obs
+Version: 0.22
+Summary: Plan observation with ZTF
+Home-page: https://github.com/simeonreusch/ztf_plan_obs/
+Author: Simeon Reusch
+Author-email: simeon.reusch@desy.de
+Maintainer: Simeon Reusch
+Maintainer-email: simeon.reusch@desy.de
+License: BSD (3-clause)
+Download-URL: https://github.com/simeonreusch/ztf_plan_obs/archive/v0.22.tar.gz
+Description: Plan observation with ZTF. Currently only neutrino alert parsing is implemented
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
