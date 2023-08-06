@@ -1,0 +1,12 @@
+curlyboi/__version__.py,sha256=i4VjZj6nlMSMKGeyFoeuHB9xJS9e42z6Zp73muLbEM0,730
+curlyboi/__init__.py,sha256=904RRKd7gwYjHgIRFIDN0RLPRR3q_JCNqO8dy_zZYZg,62
+curlyboi/cli.py,sha256=4BKdPYMePrK0gxlAwW-QfVxo1YrQdbZb6vElDkf6j24,366
+curlyboi/_curlyboi.cpython-39-x86_64-linux-gnu.so,sha256=tkrOAkom-m0vje4bw6t9aP4eO5vjdDXt5c_m4ijcGiE,2640368
+curlyboi-0.2.0.dist-info/WHEEL,sha256=9YIvwbO5Ki6Dy1OreQx4Rqw6s0C6z3YnioQYzeuAWaQ,111
+curlyboi-0.2.0.dist-info/METADATA,sha256=RZmUmkiRizPimxtelqDrA4bXt17j4AIsl_NJxMTp4Xc,1153
+curlyboi-0.2.0.dist-info/entry_points.txt,sha256=522g9EISJnXPW9xCI6v579Oyv_FCQB4ug3IbitKD5Lw,47
+curlyboi-0.2.0.dist-info/top_level.txt,sha256=Zo1jvI05zEr_BZbUz-fq4VMXWdOTU3LH_yTC_A4RZF4,9
+curlyboi-0.2.0.dist-info/RECORD,,
+curlyboi-0.2.0.dist-info/LICENSE,sha256=jUNibxdDcCyh7GXaHCSwDDjdkXzhSsCc8RDMV4u7UZ0,1088
+curlyboi.libs/libncursesw-dc0ce900.so.5.7,sha256=zFrHmlJ92WmtMaOBlBGr-ISmIWgsy1GwmF29x3BU6Q8,205208
+curlyboi.libs/libtinfo-6ad58be8.so.5.7,sha256=GBrboz2LJBv43ple9RDrmt-REEZyO34khM41plUMnGM,139064
