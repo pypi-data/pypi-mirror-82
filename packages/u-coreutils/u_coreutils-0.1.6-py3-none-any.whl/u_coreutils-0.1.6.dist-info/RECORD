@@ -1,0 +1,12 @@
+u_coreutils/__init__.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+u_coreutils/cat/__init__.py,sha256=fR3CadyBowkspH9AYFqI-eeRaEgENKL4I-CidGHO3IA,1648
+u_coreutils/cat/__main__.py,sha256=0bNpCjtD3ZeIrWRkcNYHD2BR2Ah7nJW3s0C6XgpQJx8,60
+u_coreutils/cat/pipeline.py,sha256=kiUhMsGQ3XSi-zRIAjDaQ-kYNKOWx2EryHNC_vYOCkk,2195
+u_coreutils/echo/__init__.py,sha256=PpslDWeqAI4cmf3ZmIAjhbNcxh9aK-rQemKJSbbWc3A,2497
+u_coreutils/echo/__main__.py,sha256=BdMWn5Q-G4GYUf-llLGCK-nqLcqsUxUeJ_vAZUqSQRA,56
+u_coreutils/head/__init__.py,sha256=qp-ddbh_lv8GzBmjKhM-vF-yGhJrQwwfnuv_9zJ1wHg,1870
+u_coreutils/head/__main__.py,sha256=BdMWn5Q-G4GYUf-llLGCK-nqLcqsUxUeJ_vAZUqSQRA,56
+u_coreutils-0.1.6.dist-info/entry_points.txt,sha256=nmZDsUAxi-EW-8i5KXQxXjreg30Q98cERx6D30rEEI0,101
+u_coreutils-0.1.6.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+u_coreutils-0.1.6.dist-info/METADATA,sha256=j3xk1Uvtrb6ZsgTwL7-ByC0iPic1or-ib76uy2UWOug,927
+u_coreutils-0.1.6.dist-info/RECORD,,
