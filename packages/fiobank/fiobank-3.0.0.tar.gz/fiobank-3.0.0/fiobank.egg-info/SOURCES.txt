@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+fiobank.py
+setup.cfg
+setup.py
+fiobank.egg-info/PKG-INFO
+fiobank.egg-info/SOURCES.txt
+fiobank.egg-info/dependency_links.txt
+fiobank.egg-info/requires.txt
+fiobank.egg-info/top_level.txt
