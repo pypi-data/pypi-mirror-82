@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: unity-raw-to-exr
+Version: 0.0.1
+Summary: A utility for converting Unity Terrain Heightmap data from 16-bit raw to 16-bit exr
+Home-page: https://github.com/TonyMarkham
+Author: Tony Markham
+Author-email: myonlineentity@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: imageio
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+
+# Unity RAW To EXR
+
+This is a utility to convert the 16-bit raw heightmap data that Unity's Terrain System exports into a 16-bit EXR format.
+
+## Installation
+
+Run the following to install:
+
+```bash
+pip install unity_raw_to_exr
+```
+
+## Usage
+
+```python
+from unity_raw_to_exr import raw_to_exr
+
+raw_to_exr("tests/terrain-33.raw")
+
+```
+
+## Developing unity_raw_to_exr
+
+To install unity_raw_to_exr, along with the tools that you need to develop and run tests, run the following in your virtualenc (venv):
+
+```bash
+pip install -e .[dev]
+```
+
+## Other
+
+### Source Distribution
+
+To create a source distribution:
+
+```bash
+python setup.py sdist
+```
+
+### Update the MANIFEST.in
+
+If working on the development, the venv should already have `check-manifest`
+
+Refer to https://pypi.org/project/check-manifest/
+
+## Acknowledgements
+
+- Mark Smith
+  - https://github.com/judy2k/publishing_python_packages_talk
+
+
