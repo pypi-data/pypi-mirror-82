@@ -1,0 +1,9 @@
+README.md
+pgconnstr.py
+pyproject.toml
+setup.cfg
+setup.py
+pgconnstr.egg-info/PKG-INFO
+pgconnstr.egg-info/SOURCES.txt
+pgconnstr.egg-info/dependency_links.txt
+pgconnstr.egg-info/top_level.txt
