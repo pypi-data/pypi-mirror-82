@@ -1,0 +1,3 @@
+Click<8,>=7.0
+python-igraph<1,>=0.8.0
+wostools<4,>=3.0.2
