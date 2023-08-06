@@ -1,0 +1,6 @@
+insanic-framework
+aiobotocore>=0.12.0
+aioredlock
+
+[cli]
+Click>=7.0
