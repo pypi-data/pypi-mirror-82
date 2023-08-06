@@ -1,0 +1,2 @@
+profpy>=3.0.1
+openpyxl>3
