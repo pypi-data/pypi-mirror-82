@@ -1,0 +1,15 @@
+yarl-1.6.1.dist-info/WHEEL,sha256=wM-HXi9EX1c7d3VnkcIt4JSnbpESpCT1h-NaAQXo-sE,113
+yarl-1.6.1.dist-info/METADATA,sha256=VkfvaC7SY8_bAd0GdevcLAP2mgQNdSBVl6ZX_pLRszg,18475
+yarl-1.6.1.dist-info/top_level.txt,sha256=vf3SJuQh-k7YtvsUrV_OPOrT9Kqn0COlk7IPYyhtGkQ,5
+yarl-1.6.1.dist-info/RECORD,,
+yarl-1.6.1.dist-info/LICENSE,sha256=FMCCBQPO7xXoFKibA32e_AZocAhwGClLauDycWOHLMU,11368
+yarl/_quoting_py.py,sha256=e6sBIkS3yBAOg67TVjOWNOU5ip2cS4rLkPXfaPVyyRg,6578
+yarl/_quoting_c.cpython-37m-aarch64-linux-gnu.so,sha256=5Em58mfRLspvLpZ1yY3SgyUtua7Nq0gilfDfQ9gD4C0,729344
+yarl/__init__.py,sha256=9c0kqatgsmdPdNQ1UE4Y0EhxhISk-PPLvzRDeWpW2pk,154
+yarl/_quoting_c.pyx,sha256=wpk0Ekbg9FLG2WRQ4usvz2egnl91NvoN6pxbaEXdR2c,10921
+yarl/py.typed,sha256=Ml3HXnuYFoaiowlyfo6IQ_Dmv9gGV8uhQbqwZDzsNE8,13
+yarl/_quoting_c.pyi,sha256=plPeUkIbXp4Hzi0AbYII4JA0H9tCjtjw-UUPU5Na1s0,447
+yarl/_url.py,sha256=hKqfrlH1TyaMGs9Ep92j9TVV7Ys_i9gnAX-h_UjFW48,36016
+yarl/_quoting.py,sha256=A35UGLJW4EOOHZNNocSiK7tRNGKe1NgqH3jxMoYN2x0,519
+yarl/__init__.pyi,sha256=81znZr-kyslhoSkwDDXZsfhrLOjUAoJ4ApfwDfcfbPM,3702
+yarl/_quoting_c.c,sha256=ZiRcshDfzZO-GSsZetPJqPak8PhPt06Y_CbLXLxdDRs,460667
