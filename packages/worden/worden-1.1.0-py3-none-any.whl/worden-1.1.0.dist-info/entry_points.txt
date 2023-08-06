@@ -1,0 +1,3 @@
+[console_scripts]
+worden = worden.__main__:run_app
+
