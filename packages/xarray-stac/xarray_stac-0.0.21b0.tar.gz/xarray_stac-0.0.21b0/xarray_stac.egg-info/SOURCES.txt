@@ -1,0 +1,15 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+publish.sh
+setup.py
+xarray_stac/__init__.py
+xarray_stac/cube.py
+xarray_stac/version.py
+xarray_stac.egg-info/PKG-INFO
+xarray_stac.egg-info/SOURCES.txt
+xarray_stac.egg-info/dependency_links.txt
+xarray_stac.egg-info/not-zip-safe
+xarray_stac.egg-info/requires.txt
+xarray_stac.egg-info/top_level.txt
