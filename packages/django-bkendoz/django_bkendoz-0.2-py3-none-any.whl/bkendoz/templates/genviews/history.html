@@ -1,0 +1,12 @@
+{% extends settings.LAYOUT.main_layout %}
+{% load i18n %}
+
+{% block content %}
+<h1>
+    {{ object }}
+    <p>Historique</p>
+</h1>
+{% for hist in object.history.all %}
+    {% include 'genviews/history_row.html' with user=hist.history_user date=hist.history_date action=hist.history_action history_object=hist.history_object type=hist.history_type %}
+{% endfor %}
+{% endblock %}
