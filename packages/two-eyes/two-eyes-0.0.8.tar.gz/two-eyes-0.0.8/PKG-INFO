@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: two-eyes
+Version: 0.0.8
+Summary: Stereogram images for ASTR1030.
+Home-page: https://github.com/zkbt/two-eyes
+Author: Zach Berta-Thompson
+Author-email: zach.bertathompson@colorado.edu
+License: MIT
+Description: For detailed usage, please read the documentation at https://zkbt.github.io/two-eyes/.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.6
