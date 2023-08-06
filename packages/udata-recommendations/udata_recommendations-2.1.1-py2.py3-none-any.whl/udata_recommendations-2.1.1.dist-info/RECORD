@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=Ql7VJmmoJIpW5NcwCJU3X22r2_M_TjtMc1TrGhIb5Dc,77
+tests/test_tasks.py,sha256=3Noc4z_5mgJ4qForwS0GQRcVkEkCB9uFTPCIjo-eP54,5944
+tests/test_views.py,sha256=cU7HmHpLs62p5FMhN0i0pfKG69piX277yjjbBoQ1rtY,2924
+udata_recommendations/__init__.py,sha256=hgxygCdE0OiyuA5TgLYZBBll4qIkvfe2u4MyIO49RQk,110
+udata_recommendations/schema.json,sha256=RoDOnPT0EaLsSa7WKZFT7JTXyMypKMpnuYM2JnuQMPo,728
+udata_recommendations/settings.py,sha256=nc5gBmX4JyJ1YPjPhpzFlSaSH8x3XJ3R1Wwu0RSQ4ps,256
+udata_recommendations/tasks.py,sha256=dy2Ltp8ccdEAoUh-qPxVkVPDfdew2GHGjM0tqzSrq40,3569
+udata_recommendations/views.py,sha256=kbqYTyuN8gqsr9Dk6Xk4mN0NJiXRFLNDUJopJGLZ-9k,1046
+udata_recommendations/templates/dataset-recommendations.html,sha256=ArNCiYi8hhONL4JefTbof1Od86DqtHNmzXSfaa6OwZo,648
+udata_recommendations-2.1.1.dist-info/LICENSE,sha256=9CrlKp0J9RFVweuMqOTs2JsH0Orc1GSZ-Fkw3xFca7w,1071
+udata_recommendations-2.1.1.dist-info/METADATA,sha256=JjcnggiaDOQqCqLXCG_tIMgSXFcssfqq5QbzHdQESF8,4660
+udata_recommendations-2.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+udata_recommendations-2.1.1.dist-info/entry_points.txt,sha256=fr0JPrqN2hxsjoBHJ7-AynPhLrdx61hapbWOKuv2E1s,122
+udata_recommendations-2.1.1.dist-info/top_level.txt,sha256=eyvATfkR2ukjFnuCnSO4vuWHZXYYTLiJgIxXHK98zRQ,28
+udata_recommendations-2.1.1.dist-info/RECORD,,
