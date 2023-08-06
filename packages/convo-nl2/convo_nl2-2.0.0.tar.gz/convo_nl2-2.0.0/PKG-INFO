@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: convo_nl2
+Version: 2.0.0
+Summary: Convo: the AI powered chatbot API 2.0
+Home-page: https://convo.com
+Author: chander
+Author-email: chander.pandey@oodlestechnologies.com
+Maintainer: chander
+Maintainer-email: chander.pandey@oodlestechnogies.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6,<3.9
+Provides-Extra: full
+Provides-Extra: gh-release-notes
+Provides-Extra: jieba
+Provides-Extra: spacy
+Provides-Extra: transformers
