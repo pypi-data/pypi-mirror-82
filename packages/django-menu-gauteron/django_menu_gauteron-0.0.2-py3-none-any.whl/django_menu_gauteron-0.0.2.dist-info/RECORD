@@ -1,0 +1,10 @@
+django_menu/__init__.py,sha256=D-TgVWrugEgvFlX8UT3ZdHMr24uqPGNnZ0nALnL4kw8,178
+django_menu/base.py,sha256=wUFJF3jm2SkLeXG9mlDHlvQumx6aRFQW9LTtQLk6XaE,809
+django_menu/conf.py,sha256=127DA7E6Duudp2MQFv3Xoes2Yobnh34HFDx-ceA_Zjc,2512
+django_menu/exceptions.py,sha256=82PElazcPr-wMjCpu_7Gilt7hNPw5WCRoTtGLlOZPbk,652
+django_menu/middleware.py,sha256=36-yUAr3X3UGm4-uU8_Ufop-e7D_P8PkkGOp9kMSrDs,1897
+django_menu_gauteron-0.0.2.dist-info/LICENSE,sha256=Vmakt0XD5Qs2NBPJ0CKCoSyYcU3gmZJfBQ-46roXoYU,1532
+django_menu_gauteron-0.0.2.dist-info/METADATA,sha256=enNchHhTgOaCr34cWpPbkNflWfmXK8KINc1TCU7W0Cs,5157
+django_menu_gauteron-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_menu_gauteron-0.0.2.dist-info/top_level.txt,sha256=VGt_hyQL6zgxxSNbCy1GoxcY-GJWMwiBym1Fcy-Q_0Q,12
+django_menu_gauteron-0.0.2.dist-info/RECORD,,
