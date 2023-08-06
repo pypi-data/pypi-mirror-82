@@ -1,0 +1,8 @@
+README.md
+setup.py
+easy_googlesheets/__init__.py
+easy_googlesheets.egg-info/PKG-INFO
+easy_googlesheets.egg-info/SOURCES.txt
+easy_googlesheets.egg-info/dependency_links.txt
+easy_googlesheets.egg-info/requires.txt
+easy_googlesheets.egg-info/top_level.txt
