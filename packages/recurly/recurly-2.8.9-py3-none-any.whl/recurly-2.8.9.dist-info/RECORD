@@ -1,0 +1,13 @@
+.DS_Store,sha256=IMN8vzj2PLNfpuZXq9uppIV3TA0VEIOzX8gj7-5n1Hk,6148
+recurly/__init__.py,sha256=7drHeXO08rY3wlCH2EHhp-t752ghRQaQHnK9Q25sYGg,42179
+recurly/errors.py,sha256=_QPAFf_Yc77gCnTKNKlOEN3zuGJAlYwKMbsL6R-BM0Q,9893
+recurly/js.py,sha256=zhBV9AbUUR3oMOpTPfKJHhNLs5yR55GR5PqH7c2CHOo,1745
+recurly/link_header.py,sha256=WePZ1wEzHF0nWAxYApwRpuOe2oHD-PzXVF3knYZj0VQ,3175
+recurly/recurly_logging.py,sha256=W8lbF7kogh-1aTSKk3K7AXeDYcUZfRD_gK386kBv4Lo,792
+recurly/resource.py,sha256=aVbC5iRpUUyIFaKDT0q1ROm8sUz6VEa2L5cTm28r3i0,25907
+recurly-2.8.9.dist-info/LICENSE,sha256=Z2KBA9eYuzhqeclYg-L6XwaUpSWBhQaZGcast0y2Jfs,1073
+recurly-2.8.9.dist-info/METADATA,sha256=ktpqch2raXvNXNyWByrPCcWCvdQvVymlLXKdYl524A8,3165
+recurly-2.8.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+recurly-2.8.9.dist-info/top_level.txt,sha256=aN6RnFqv7a3X-j8ZQ8ZnRt00p6FiNxejC93RaCJVMq4,8
+recurly-2.8.9.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+recurly-2.8.9.dist-info/RECORD,,
