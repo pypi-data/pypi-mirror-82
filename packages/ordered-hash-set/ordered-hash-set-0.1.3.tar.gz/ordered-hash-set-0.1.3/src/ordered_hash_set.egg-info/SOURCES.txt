@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+src/__init__.py
+src/ordered_hash_set.py
+src/ordered_hash_set.egg-info/PKG-INFO
+src/ordered_hash_set.egg-info/SOURCES.txt
+src/ordered_hash_set.egg-info/dependency_links.txt
+src/ordered_hash_set.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_cases.py
