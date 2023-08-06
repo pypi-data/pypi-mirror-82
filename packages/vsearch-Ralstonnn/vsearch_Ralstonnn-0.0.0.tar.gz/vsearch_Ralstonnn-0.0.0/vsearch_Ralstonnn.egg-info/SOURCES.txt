@@ -1,0 +1,7 @@
+README.txt
+setup.py
+vsearch.py
+vsearch_Ralstonnn.egg-info/PKG-INFO
+vsearch_Ralstonnn.egg-info/SOURCES.txt
+vsearch_Ralstonnn.egg-info/dependency_links.txt
+vsearch_Ralstonnn.egg-info/top_level.txt
