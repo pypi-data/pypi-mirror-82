@@ -1,0 +1,3 @@
+[console_scripts]
+PyVisualizer = PyVisualizer.Visualizer:__init__
+
