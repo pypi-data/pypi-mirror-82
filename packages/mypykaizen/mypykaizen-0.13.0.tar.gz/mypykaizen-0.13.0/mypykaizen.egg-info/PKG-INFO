@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mypykaizen
+Version: 0.13.0
+Summary: Wrapper around mypy which prevents the number of typecheck errors from increasing but which does not force you to fix them all up front.
+Home-page: https://github.com/dhendry/mypykaizen/
+Author: Dan Hendry
+License: MIT
+Project-URL: Bug Tracker, https://github.com/dhendry/mypykaizen/
+Project-URL: Documentation, https://github.com/dhendry/mypykaizen/
+Project-URL: Source Code, https://github.com/dhendry/mypykaizen/
+Description: # mypykaizen
+        
+        Wrapper around mypy which prevents the number of typecheck errors from increasing
+        but which does not force you to fix them all.
+        
+        Start using and enforcing mypy type checking without first having to fix ALL the errors up front.
+        This tool enforces that the total number of errors is only allowed to go down or stay the same.
+        
+        Currently experimental.
+        
+Keywords: mypy typecheck typechecking
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7.4
+Description-Content-Type: text/markdown

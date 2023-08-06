@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mypykaizen/__init__.py
+mypykaizen/mypykaizen.py
+mypykaizen.egg-info/PKG-INFO
+mypykaizen.egg-info/SOURCES.txt
+mypykaizen.egg-info/dependency_links.txt
+mypykaizen.egg-info/entry_points.txt
+mypykaizen.egg-info/requires.txt
+mypykaizen.egg-info/top_level.txt
+mypykaizen.egg-info/zip-safe

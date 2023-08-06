@@ -1,0 +1,2 @@
+mypy>=0.761
+dataclasses-json>=0.4.1
