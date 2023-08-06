@@ -1,0 +1,10 @@
+pfit/CSVColMelter.py,sha256=WhXOHbOmNpHzK-_utC6SQM01RXCRzyX2KffO_1hs_WI,6792
+pfit/FileDataChecker.py,sha256=IbXPTv_V7Tfa9pxDb9XCT70Juuow0ngmg3Trt6fLIZg,12935
+pfit/NTGS_to_NetCDF.py,sha256=lcOSQA_tbn6d1Ulr4MFmrrfRGTnf5EPUh92xLsZgo20,2528
+pfit/__init__.py,sha256=q0_kUHDtK3TxSNepWU9MTgE-mYr5nLYJ2FJiYAu7SW0,146
+pfit/pfnet_standard.py,sha256=8nfAD4eYsKgiXonp_TqEB455kE1eVdRMpVbzBN5hQFQ,4925
+pfit-0.0.6.dist-info/LICENSE.txt,sha256=jY9STf6Yj6BeGPoebeGaR2GT7UGxAHy6nhNN1DjggdE,769
+pfit-0.0.6.dist-info/METADATA,sha256=1uN7jIt6q3xmYmLeD3GAWWoCLtIP3diKb9aFXU8zSaY,5685
+pfit-0.0.6.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pfit-0.0.6.dist-info/top_level.txt,sha256=P8-lo8bbp3pz-8wcENs40dq2R-27zgnYeVUQK5uz3mo,5
+pfit-0.0.6.dist-info/RECORD,,
