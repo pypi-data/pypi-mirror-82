@@ -1,0 +1,3 @@
+gym
+numba
+jiminy-py~=1.4
