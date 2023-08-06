@@ -1,0 +1,10 @@
+flexible_forms/__init__.py,sha256=Y2ZEjJCBkjDh-JD0GyR5oG-sLVGJRuPr5CATtEcXbUU,294
+flexible_forms/admin.py,sha256=VlIxvgo6ODkNvRIe5UsfXoEDc8OokYJLEu8ihdTYzIo,11881
+flexible_forms/apps.py,sha256=kKifzSjpuZGcKaRvY_EMNcFMr8k0Rx88lv2YZqVA4ng,390
+flexible_forms/fields.py,sha256=-dFvsFkJFmvSVTNkEx_e0AOqFCB9ByfoQacmZ-xzC10,15675
+flexible_forms/forms.py,sha256=gZc2K1SgL3lZsC2zggAIsGMrXV-DS-qwyr2ZEcHvzg8,3566
+flexible_forms/models.py,sha256=pgfo0012gWmp-ds4TkDFQk-ZanTaK2vsLAePLJzrHTM,56210
+flexible_forms/utils.py,sha256=RaF7Veo2QAcDBEm5Ht4M-4YJ24OkfMxjlLPDj9VNA7E,3716
+django_flexible_forms-0.7.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+django_flexible_forms-0.7.0.dist-info/METADATA,sha256=GvF2N4MK1yZ8B6w9V4cKsjhqewQFjphe8rX0Fk6q7AY,634
+django_flexible_forms-0.7.0.dist-info/RECORD,,
