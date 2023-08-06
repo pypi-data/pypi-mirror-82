@@ -1,0 +1,33 @@
+package:
+  name: ts_demo_lib
+  version: 0.0.4
+source:
+  sha256: 27885c560c0fb684acb69fab52dd89f71d3063c2a60ea745e00b1f119c748548
+  url: https://files.pythonhosted.org/packages/31/71/8f94631979f777fe84fc132500fda52ee30f0fe4dd08ddc0e09bfd477af6/ts_demo_lib-0.0.4.tar.gz
+about:
+  dev_url: https://nkhuyu-msft.github.io
+  doc_url: https://nkhuyu-msft.github.io
+  home: https://nkhuyu-msft.github.io
+  license: Apache Software
+  license_family: APACHE
+  summary: T science demo libary
+build:
+  noarch: python
+  number: '0'
+  script: '{{ PYTHON }} -m pip install . -vv'
+extra:
+  recipe-maintainers:
+  - nkhuyu-msft
+requirements:
+  host:
+  - pip
+  - python
+  - packaging
+  run:
+  - pip
+  - python
+  - packaging
+test:
+  imports:
+  - numpy
+  - ts_demo_lib
