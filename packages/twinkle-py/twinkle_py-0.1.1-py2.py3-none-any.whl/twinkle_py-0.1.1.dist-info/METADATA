@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: twinkle-py
+Version: 0.1.1
+Summary: Python wrapper of twinkle sip client command line interface.
+Home-page: https://github.com/forkcs/twinkle-py
+Author: Fedor Soldatkin
+Author-email: fsoldatkin@yandex.ru
+License: GNU GPL v3.0
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# twinkle-py
+
+**twinkle_py** is a simple python wrapper of
+Twinkle command line interface.
+
+**Current version:** 0.1.1
+
+## Installation
+**Install `Twinkle`** (example for Ubuntu)
+```shell script
+sudo apt install twinkle
+```
+**Install `twinkle-py`**
+```shell script
+pip install twinkle-py
+```
+
+
