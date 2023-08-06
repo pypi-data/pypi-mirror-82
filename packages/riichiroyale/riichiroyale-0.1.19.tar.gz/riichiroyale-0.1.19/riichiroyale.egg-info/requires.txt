@@ -1,0 +1,4 @@
+msvc-runtime~=14.27
+pybind11~=2.5
+pygame-gui==0.5.7
+pygame==2.0.0.dev14
