@@ -1,0 +1,3 @@
+[console_scripts]
+mazegen = mazegen.__main__:main
+
