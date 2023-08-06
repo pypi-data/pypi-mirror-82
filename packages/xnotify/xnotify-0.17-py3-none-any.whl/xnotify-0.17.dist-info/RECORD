@@ -1,0 +1,10 @@
+xnotify/__init__.py,sha256=qaVgkTJ05Jsryg8X6jvE11siyril-L8ogFt4cuGt8QQ,22
+xnotify/__version__.py,sha256=cgFCrAeMdhyfzc1GlaLEehmRYBenwbGyWlCQW79U_Uc,14
+xnotify/notify.py,sha256=Y6ld_h4-CecK8LTfNqbrmJnZEJbBel9MKZ7O45sO4oY,16429
+xnotify/winsound_linux.py,sha256=vrZY99e9UxZaXSkdLrcmGvl1pR8X4yRfBa9_TH_mFIc,103
+xnotify-0.17.data/data/__version__.py,sha256=cgFCrAeMdhyfzc1GlaLEehmRYBenwbGyWlCQW79U_Uc,14
+xnotify-0.17.dist-info/METADATA,sha256=60veFbNoj7AXbydgK5jCeH7dK10R3YvK_ePTcpu5bOc,1231
+xnotify-0.17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xnotify-0.17.dist-info/entry_points.txt,sha256=FjzDU5gCNyuMkvgYja3RbXE630AhLX_XqLTLjdOj3kI,43
+xnotify-0.17.dist-info/top_level.txt,sha256=XZKqyVqQnTkUeZHwKETyoImX15D4pHuvsQhiTmhFBOc,8
+xnotify-0.17.dist-info/RECORD,,
