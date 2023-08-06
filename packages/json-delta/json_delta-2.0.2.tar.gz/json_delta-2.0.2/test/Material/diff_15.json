@@ -1,0 +1,37 @@
+[
+ [
+  [
+   "to"
+  ], 
+  false
+ ], 
+ [
+  [
+   "exercise"
+  ]
+ ], 
+ [
+  [
+   "the"
+  ], 
+  49
+ ], 
+ [
+  [
+   "test"
+  ], 
+  null
+ ], 
+ [
+  [
+   "by"
+  ], 
+  "adding, deleting and modifying"
+ ], 
+ [
+  [
+   "properties"
+  ], 
+  "of a JSON object."
+ ]
+]

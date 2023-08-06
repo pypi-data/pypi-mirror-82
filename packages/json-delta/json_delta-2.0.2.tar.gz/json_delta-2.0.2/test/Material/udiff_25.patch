@@ -1,0 +1,19 @@
+ [
+  {"So, you see, it’s like this": ""},
+  ...(1),
+- 1,
+  "deletion from a list",
+  [
+   "upstream from a list",
+   ...(1),
+-  "let’s say,",
+   "one",
++  2,   
+   "or more insertions",
++  "(like this one!)",
+   "or deletions.",
+-  "(For example, this array item is superfluous and could be deleted.)"
+  ],
+  "the deletions need to take place in a specific order,",
+  ...(1)
+ ]
