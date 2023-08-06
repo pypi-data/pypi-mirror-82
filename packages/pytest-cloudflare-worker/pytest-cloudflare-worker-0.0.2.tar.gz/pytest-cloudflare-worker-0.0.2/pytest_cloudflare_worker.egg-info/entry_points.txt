@@ -1,0 +1,3 @@
+[pytest11]
+cloudflare_worker = pytest_cloudflare_worker.plugin
+
