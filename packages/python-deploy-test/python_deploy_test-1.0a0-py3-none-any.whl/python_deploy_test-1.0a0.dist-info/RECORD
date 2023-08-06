@@ -1,0 +1,8 @@
+python_deploy_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_deploy_test/person.py,sha256=fL7HeXl8Be9-EmMqn7WSWMWdCq-idcNY9VFIJzZbwS4,356
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_person.py,sha256=3zjbdJ8711izhKFWR699GwmWojgSO7G42p_NQxX-Qjs,315
+python_deploy_test-1.0a0.dist-info/METADATA,sha256=LBGB_KenvbGz7udxLAAGORMQXzg7N8JJ5WZ0ABA63rM,568
+python_deploy_test-1.0a0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+python_deploy_test-1.0a0.dist-info/top_level.txt,sha256=-hBEbWbOiERc6CCuyF20ElCkArLUInvfgh5OZLX7wFI,24
+python_deploy_test-1.0a0.dist-info/RECORD,,
