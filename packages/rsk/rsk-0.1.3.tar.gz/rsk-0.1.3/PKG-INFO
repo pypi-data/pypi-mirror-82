@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rsk
+Version: 0.1.3
+Summary: The Robinson-Schensted algorithm
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: UNKNOWN
+Description: # The Robinson-Schensted-Knuth algorithm
+        
+        This is an implementation of the en.wikipedia.org/wiki/Robinson-Schensted-Knuth algorithm
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
