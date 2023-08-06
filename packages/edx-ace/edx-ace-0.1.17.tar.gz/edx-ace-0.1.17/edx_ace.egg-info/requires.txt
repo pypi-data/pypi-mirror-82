@@ -1,0 +1,9 @@
+six
+sailthru-client==2.2.3
+attrs>=17.2.0
+python-dateutil
+Django<2.3,>=2.2
+stevedore>=1.10.0
+
+[sailthru]
+sailthru-client<2.3,>2.2
