@@ -1,0 +1,12 @@
+numpy
+pandas
+gensim
+pynndescent>=0.4
+umap-learn
+hdbscan
+wordcloud
+tensorflow
+tensorflow_hub
+tensorflow_text
+torch
+sentence_transformers
