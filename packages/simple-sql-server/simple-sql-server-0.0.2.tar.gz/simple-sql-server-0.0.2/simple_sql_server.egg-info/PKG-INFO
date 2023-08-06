@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: simple-sql-server
+Version: 0.0.2
+Summary: Python package to perform basic SQL Server functions
+Home-page: https://github.com/lsimon14/simple-sql-server
+Author: Luke Simon
+License: UNKNOWN
+Description: # simple-sql-server
+        simple client for connecting to sql server and executing queries, jobs, and stored procedures
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
