@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+src/mbf_genomes/__init__.py
+src/mbf_genomes/base.py
+src/mbf_genomes/common.py
+src/mbf_genomes/ensembl.py
+src/mbf_genomes/filebased.py
+src/mbf_genomes/gene.py
+src/mbf_genomes.egg-info/PKG-INFO
+src/mbf_genomes.egg-info/SOURCES.txt
+src/mbf_genomes.egg-info/dependency_links.txt
+src/mbf_genomes.egg-info/not-zip-safe
+src/mbf_genomes.egg-info/requires.txt
+src/mbf_genomes.egg-info/top_level.txt
+src/mbf_genomes/testing/__init__.py
+src/mbf_genomes/testing/fixtures.py
