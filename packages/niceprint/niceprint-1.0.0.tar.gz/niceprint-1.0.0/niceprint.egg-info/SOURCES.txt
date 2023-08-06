@@ -1,0 +1,6 @@
+setup.py
+niceprint/niceprint.py
+niceprint.egg-info/PKG-INFO
+niceprint.egg-info/SOURCES.txt
+niceprint.egg-info/dependency_links.txt
+niceprint.egg-info/top_level.txt
