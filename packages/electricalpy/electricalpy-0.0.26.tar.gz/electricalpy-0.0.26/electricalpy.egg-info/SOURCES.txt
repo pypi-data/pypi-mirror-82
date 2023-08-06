@@ -1,0 +1,16 @@
+README.txt
+setup.py
+electricalpy/__init__.py
+electricalpy/ckt_solver.py
+electricalpy/depev.py
+electricalpy/depi.py
+electricalpy/depii.py
+electricalpy/depiv.py
+electricalpy/file.py
+electricalpy/indi.py
+electricalpy/indiv.py
+electricalpy.egg-info/PKG-INFO
+electricalpy.egg-info/SOURCES.txt
+electricalpy.egg-info/dependency_links.txt
+electricalpy.egg-info/requires.txt
+electricalpy.egg-info/top_level.txt
