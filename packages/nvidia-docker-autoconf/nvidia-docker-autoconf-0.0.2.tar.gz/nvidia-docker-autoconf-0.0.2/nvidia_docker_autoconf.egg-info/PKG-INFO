@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: nvidia-docker-autoconf
+Version: 0.0.2
+Summary: Automatically configure GPU clocks and NVIDIA-GPU node-default-resources.
+Home-page: UNKNOWN
+Author: Kite
+Author-email: naman@kite.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
