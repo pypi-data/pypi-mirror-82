@@ -1,0 +1,8 @@
+pyqcec.cpython-39-x86_64-linux-gnu.so,sha256=AMljdHUoYAW3td8KGOy9b8u3Y99MRz8orOvGBMUb7rY,883136
+jkq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jkq/qcec/__init__.py,sha256=YOymyLwV317ymp4F94YjViYwDf3hPvUFjbIV89Ybves,212
+jkq.qcec-1.5.0b1.dist-info/top_level.txt,sha256=nB1xwAtwXKBSsnrBFmeN1TAtqdvHHkKqLb9XGsogMTs,11
+jkq.qcec-1.5.0b1.dist-info/METADATA,sha256=JGsOMma5Lu2r5bBV2xGrXEPEXKDx4T4XvCWvjf6uO6c,11075
+jkq.qcec-1.5.0b1.dist-info/RECORD,,
+jkq.qcec-1.5.0b1.dist-info/WHEEL,sha256=sPIohpZM7vu5nTTYsKtZn4G53Hmt-aygu-hjwmd96II,111
+jkq.qcec-1.5.0b1.dist-info/LICENSE,sha256=bynXRrbqEV-VO77RanCaESI2DGImLkStBBvE8MiliUY,1087
