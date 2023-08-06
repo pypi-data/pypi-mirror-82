@@ -1,0 +1,12 @@
+pythongram/__init__.py,sha256=8cP3ZG6RK-V01ZGmZwkT8VQzQ_38jDpY5nY_ZP0Rl-g,167
+pythongram/config.py,sha256=kCaHNNRxppQSnTan2T_KCFSnWu_fTLVxC2UJ_1iVGD4,4485
+pythongram/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pythongram/modules/connection.py,sha256=Ecr4HvXDWb0y5i3zpY1eoTE6FqwffR9pIX6ZKLUYP9Q,1543
+pythongram/modules/user.py,sha256=GqE_AQIJdOji3UHKFh0nbxGq6Y7iLF0F0Yr8GMkO14A,2453
+pythongram/pythongram.py,sha256=HCcvrLNk51wzcUBnNQ32I2oW5kqb1d9yJwmKA2E6rSc,248
+pythongram/utils.py,sha256=0aVTOYJ4CTp5QHJk1ZFFHhVbLSwNEsq3eOBIOats1sY,1044
+pythongram/version.py,sha256=xTnuD2zhcC7lNT6xUHYCMFA7dv9SxNNmoE2B1cz_Gn0,116
+pythongram-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pythongram-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pythongram-0.1.0.dist-info/METADATA,sha256=mzovSL8sJDmeNtr06PdqWQjS7jbX99r7Qyv6AVJq8tk,834
+pythongram-0.1.0.dist-info/RECORD,,

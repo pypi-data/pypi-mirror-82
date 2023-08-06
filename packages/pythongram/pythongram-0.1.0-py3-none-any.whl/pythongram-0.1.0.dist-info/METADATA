@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pythongram
+Version: 0.1.0
+Summary: An unofficial Instagram SDK for Python
+Home-page: https://github.com/dyohan9/pythongram
+Author: Daniel Yohan
+Author-email: dyohan9@gmail.com
+Maintainer: Daniel Yohan
+Maintainer-email: dyohan9@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: flake8 (>=3.8.4,<4.0.0)
+Project-URL: Repository, https://github.com/dyohan9/pythongram
+Description-Content-Type: text/markdown
+
+# Python-Instagram
+
+[![Build Status](https://travis-ci.com/dyohan9/python-instagram.svg?branch=main)](https://travis-ci.com/dyohan9/python-instagram)
