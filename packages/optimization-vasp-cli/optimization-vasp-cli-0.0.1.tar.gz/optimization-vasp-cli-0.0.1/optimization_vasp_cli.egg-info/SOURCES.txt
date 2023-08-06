@@ -1,0 +1,13 @@
+README.md
+encut.py
+kpoints.py
+lattice_constant.py
+optimization.py
+parser.py
+setup.py
+optimization_vasp_cli.egg-info/PKG-INFO
+optimization_vasp_cli.egg-info/SOURCES.txt
+optimization_vasp_cli.egg-info/dependency_links.txt
+optimization_vasp_cli.egg-info/entry_points.txt
+optimization_vasp_cli.egg-info/requires.txt
+optimization_vasp_cli.egg-info/top_level.txt
