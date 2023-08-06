@@ -1,0 +1,16 @@
+setup.py
+odoo/addons/email_template_config/README.rst
+odoo/addons/email_template_config/__init__.py
+odoo/addons/email_template_config/__manifest__.py
+odoo/addons/email_template_config/models/__init__.py
+odoo/addons/email_template_config/models/mail_template.py
+odoo/addons/email_template_config/readme/CONTRIBUTORS.rst
+odoo/addons/email_template_config/readme/DESCRIPTION.rst
+odoo/addons/email_template_config/static/description/index.html
+odoo/addons/email_template_config/views/mail_template_views.xml
+odoo12_addon_email_template_config.egg-info/PKG-INFO
+odoo12_addon_email_template_config.egg-info/SOURCES.txt
+odoo12_addon_email_template_config.egg-info/dependency_links.txt
+odoo12_addon_email_template_config.egg-info/not-zip-safe
+odoo12_addon_email_template_config.egg-info/requires.txt
+odoo12_addon_email_template_config.egg-info/top_level.txt
