@@ -1,0 +1,8 @@
+pyafkalib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyafkalib/deserializers.py,sha256=qsb-oWV4_yobzeujdXqs8S0_3ADv9zWUtvFFiFyt_9M,411
+pyafkalib/pyafka.py,sha256=Ed3vbgLAY9eAvQ8nE2bTo1u4JJg2ki7ywNczjRoY5Ls,1288
+pyafka-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyafka-0.2.0.dist-info/METADATA,sha256=mG4qkKYnpTjvVqwiEtlTgN4l7KoJ-C4o2RTvDNSlMJo,1075
+pyafka-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyafka-0.2.0.dist-info/top_level.txt,sha256=5ejCJBQFN_WYFkZKdlKesRE5Ox6b5wQEuASNeLbI8xM,10
+pyafka-0.2.0.dist-info/RECORD,,
