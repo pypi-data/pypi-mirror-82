@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/FMail.egg-info/PKG-INFO
+src/FMail.egg-info/SOURCES.txt
+src/FMail.egg-info/dependency_links.txt
+src/FMail.egg-info/top_level.txt
