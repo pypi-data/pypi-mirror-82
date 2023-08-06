@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "langmanager"
+version = "1.4.1"
+description = "this library allows you to create translations of projects into other languages"
+authors = ["ASVI <aaaaaabbbbbbccscc@gmail.com>"]
+readme = 'README.md'
+repository = "https://github.com/ASVIEST/LangManager"
+homepage = "https://github.com/ASVIEST/LangManager"
+keywords = ['lang', 'langmanager', 'langs', 'translate', 'language', 'languages', 'localization']
+
+[tool.poetry.dependencies]
+python = "^3.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
