@@ -1,0 +1,7 @@
+chainer>=5.1.0
+chainercv
+extendedos
+fcn
+gdown
+matplotlib
+pycocotools
