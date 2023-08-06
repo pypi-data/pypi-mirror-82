@@ -1,0 +1,3 @@
+[console_scripts]
+heatmiser_wifi = heatmiser_wifi.heatmiser_wifi:main
+
