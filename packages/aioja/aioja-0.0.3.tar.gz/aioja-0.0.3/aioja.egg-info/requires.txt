@@ -1,0 +1,8 @@
+jinja2
+aiofiles
+
+[aiocache]
+aiocache
+
+[aioredis]
+aioredis
