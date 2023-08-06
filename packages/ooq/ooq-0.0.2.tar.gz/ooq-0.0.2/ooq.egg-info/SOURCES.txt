@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+ooq.egg-info/PKG-INFO
+ooq.egg-info/SOURCES.txt
+ooq.egg-info/dependency_links.txt
+ooq.egg-info/top_level.txt
