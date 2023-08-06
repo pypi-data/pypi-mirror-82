@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+trashpy/__init__.py
+trashpy/client_id.json
+trashpy/main.py
+trashpy.egg-info/PKG-INFO
+trashpy.egg-info/SOURCES.txt
+trashpy.egg-info/dependency_links.txt
+trashpy.egg-info/entry_points.txt
+trashpy.egg-info/requires.txt
+trashpy.egg-info/top_level.txt
