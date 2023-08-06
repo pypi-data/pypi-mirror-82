@@ -1,0 +1,8 @@
+easy_channels/__init__.py,sha256=LH5mmH4GpqGQSy-If7a7HyZhKBqssDeik24U7kHIu6Q,84
+easy_channels/middleware.py,sha256=Y_uWxsWdzQCZiUGletEgJz60hpE2kYZbBSFUklc1YMM,199
+easy_channels/consumers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_channels/consumers/json.py,sha256=2BbgWY6eSpiElUGNTXTWhxE4bS9f8p_XNnPc91Trs9o,2594
+django_easy_channels-0.0.1.dist-info/METADATA,sha256=-8BSCJwW_lymzqWl-974AH6zN3w1I1rHwsgXeVvp_Uk,4059
+django_easy_channels-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_easy_channels-0.0.1.dist-info/top_level.txt,sha256=XhXHQwgrC4fnuKhNFYmpNv7zOYkAHE2vtluliCsqtUk,14
+django_easy_channels-0.0.1.dist-info/RECORD,,
