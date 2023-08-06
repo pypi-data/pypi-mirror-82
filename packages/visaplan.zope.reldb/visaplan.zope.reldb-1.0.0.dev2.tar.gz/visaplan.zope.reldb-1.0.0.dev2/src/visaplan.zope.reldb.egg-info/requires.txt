@@ -1,0 +1,3 @@
+setuptools
+six
+visaplan.tools>1.3.0
