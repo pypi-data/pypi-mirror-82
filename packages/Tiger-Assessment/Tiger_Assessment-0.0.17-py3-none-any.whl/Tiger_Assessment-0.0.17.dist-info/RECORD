@@ -1,0 +1,14 @@
+Tiger_Assessment/IO_path.py,sha256=6c2-a8ejYWzkm6KY3b-AnvhtcK6aJWYJOeE_Rwt_MlM,333
+Tiger_Assessment/Tiger_Assessment.py,sha256=jcs7btXPCzWfG-r8D3ii-7rxltG5x9ZAcb8JpS8m1Pg,741
+Tiger_Assessment/__init__.py,sha256=RdAMwPpPnypupiohip2leSL4NtIHu-iLWLqhxRe-y54,5159
+Tiger_Assessment/config.py,sha256=hSxaaXPvdhy0U84DgZDUrlXu95fR2rrYlgBPJ09QcBQ,236
+Tiger_Assessment/data_clean.py,sha256=EJRA66HTDuM7Xhww5xaMF2-D8nVF2SnrP4zfgEvvDnU,1430
+Tiger_Assessment/data_process.py,sha256=RjjHdXBtnVWGDWHU976gJGuPNXaC8iKtiz8lsMJ59mA,1747
+Tiger_Assessment/merge.py,sha256=3ONN4SnRFCJ8Q8wZ04JFom30kqZMCsvWgPIhkTiyMr4,450
+Tiger_Assessment/my_functions.py,sha256=YZEG35fNYsJim4AnJV1gXRKD_j0JBmU5kGTw58ZijXo,5026
+Tiger_Assessment/summary_stats.py,sha256=yAn4bWBbTZYGn_4dOI3wm2BzSPKSE9Fa4-EzgQelKJk,1126
+Tiger_Assessment-0.0.17.dist-info/LICENSE.txt,sha256=zLQigZR-NQ99xZCNnDR7Vwn5AEyTLKwwu4SR6E0vKuc,1095
+Tiger_Assessment-0.0.17.dist-info/METADATA,sha256=y0Yok24TioV4R9jjARi-fEX1Jb79vHlP-lRlNkSQ8oQ,6421
+Tiger_Assessment-0.0.17.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+Tiger_Assessment-0.0.17.dist-info/top_level.txt,sha256=NQpw3mZyTELjz8xAuqpaUGMG2wlO7uRe_ZQQpILEcto,17
+Tiger_Assessment-0.0.17.dist-info/RECORD,,
