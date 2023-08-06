@@ -1,0 +1,51 @@
+snakemake!=5.23.*,!=5.24.*
+fluidsim>=0.3.3
+jinja2
+inflection
+
+[:python_version < "3.7"]
+importlib_resources
+
+[dev]
+sphinx
+myst-parser
+myst-nb
+sphinx-copybutton
+sphinx_rtd_theme
+breathe
+setuptools_scm
+pytest
+pytest-cov
+ipython
+phill@ git+https://github.com/exabl/snek5000-phill.git
+click
+colorlog
+pdbpp
+rope
+python-language-server
+fortran-language-server
+pre-commit
+twine
+readme-renderer[md]
+
+[docs]
+sphinx
+myst-parser
+myst-nb
+sphinx-copybutton
+sphinx_rtd_theme
+breathe
+setuptools_scm
+
+[hpc]
+pytest
+pytest-cov
+ipython
+phill@ git+https://github.com/exabl/snek5000-phill.git
+click
+
+[tests]
+pytest
+pytest-cov
+ipython
+phill@ git+https://github.com/exabl/snek5000-phill.git
