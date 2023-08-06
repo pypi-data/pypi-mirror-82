@@ -1,0 +1,4 @@
+[report]
+omit =
+    intake_stac/tests/*
+    setup.py

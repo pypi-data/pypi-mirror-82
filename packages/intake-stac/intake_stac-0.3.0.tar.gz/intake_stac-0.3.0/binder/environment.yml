@@ -1,0 +1,42 @@
+# Intake GUI also requires jupyterlab extensions installed
+# jupyter labextension install @pyviz/jupyterlab_pyviz
+name: intake-stac-gui
+channels:
+  - conda-forge
+dependencies:
+  - aiohttp
+  - boto3
+  - codecov
+  - coverage
+  - dask
+  - datashader
+  - distributed
+  - geopandas
+  - geoviews
+  - hvplot
+  - intake
+  - intake-geopandas
+  - intake-parquet
+  - intake-xarray
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - matplotlib
+  - nbsphinx
+  - netcdf4
+  - nodejs >=10.0.0
+  - numpy
+  - pandoc
+  - panel
+  - pip
+  - python =3.7
+  - pytoml
+  - pyyaml
+  - rasterio
+  - requests
+  - sat-search>=0.3
+  - sat-stac
+  - scikit-image
+  - xarray
+  - pip:
+      - git+https://github.com/intake/intake-stac@master
