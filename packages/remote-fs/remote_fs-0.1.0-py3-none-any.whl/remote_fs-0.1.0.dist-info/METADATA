@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: remote-fs
+Version: 0.1.0
+Author: kintsu
+Author-email: k@kintsu.io
+Requires-Python: ==3.*,>=3.9.0
+Requires-Dist: black==20.*,>=20.8.0.b1; extra == "dev"
+Requires-Dist: click==7.*,>=7.1.2
+Requires-Dist: dephell==0.*,>=0.8.3; extra == "dev"
+Requires-Dist: neovim==0.*,>=0.3.1; extra == "dev"
+Requires-Dist: neovim-remote==2.*,>=2.4.0; extra == "dev"
+Requires-Dist: pathvalidate==2.*,>=2.3.0
+Requires-Dist: pylint==2.*,>=2.6.0; extra == "dev"
+Requires-Dist: pynvim==0.*,>=0.4.2; extra == "dev"
+Requires-Dist: rope==0.*,>=0.18.0; extra == "dev"
+Requires-Dist: setuptools==50.*,>=50.3.0
+Requires-Dist: shell==1.*,>=1.0.1
+Provides-Extra: dev
