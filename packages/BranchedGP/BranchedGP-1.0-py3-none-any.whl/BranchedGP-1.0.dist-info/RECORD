@@ -1,0 +1,13 @@
+BranchedGP/BranchingTree.py,sha256=qnqO77FxjAEihFQaZAAlPLSLfGrNVboEX7yJrpIzHKg,15959
+BranchedGP/FitBranchingModel.py,sha256=iYScxRrtBj7OWFFK2X5XuhcQAaYVBPm-yyzID0NMUDA,9131
+BranchedGP/VBHelperFunctions.py,sha256=sNGXEAftgC0rYRPRO0aXqRsJ5SjSrkVzsJvwpwRU7x4,6368
+BranchedGP/__init__.py,sha256=EsjwkDYfcdTqGSMR7sTJjV4FmDYGCs9xmIFivGFyINw,174
+BranchedGP/assigngp_dense.py,sha256=iXgrFwBYJUdHdHmh2aYiHU1RwYhxQoQqT94dfrwYscQ,9856
+BranchedGP/assigngp_denseSparse.py,sha256=5ijcp2bJ71cLnGw7ExCySUQNWGlqjslrDIF_SZzpyws,4850
+BranchedGP/branch_kernParamGPflow.py,sha256=Hf2mwGRtVAw5ZeUgIc84sB69XjwEUn-KM2-3m31inh4,8640
+BranchedGP/pZ_construction_singleBP.py,sha256=eQ0W-rVFi7-g9MODzoO-D8poltr0d7Io3Fig0JbMWQY,2670
+BranchedGP-1.0.dist-info/LICENSE,sha256=G1McDy6Q8oN3yu99HH0WK9ApzMJUFcbE0kCY1OqNVf4,11348
+BranchedGP-1.0.dist-info/METADATA,sha256=wu2o7m7AVULKYwk0U8mall9i4kLhNjWm14EjfOHFGYQ,527
+BranchedGP-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+BranchedGP-1.0.dist-info/top_level.txt,sha256=xdGV75m2nbIspotlkQQER96cpZsVlCjNCEuurNQspPQ,11
+BranchedGP-1.0.dist-info/RECORD,,
