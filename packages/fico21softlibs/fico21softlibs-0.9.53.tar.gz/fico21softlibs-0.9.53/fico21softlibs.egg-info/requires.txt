@@ -1,0 +1,5 @@
+pyodbc
+selenium
+smtplib
+logging
+webbrowser
