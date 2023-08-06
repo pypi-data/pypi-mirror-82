@@ -1,0 +1,12 @@
+launchable/__init__.py,sha256=quEVxbWwU8nog3nwbT1JuTUFkdEOph2io5Bb79Y_Fqo,97
+launchable/client.py,sha256=I08QnPHjvinqkadE69BQjDqHpckve7HLcRsZsxFLBG8,2218
+launchable/log.py,sha256=ih7vJkDv9kGExeBw4LY1uaXDe894Zc0Xo_5-OU53lO0,202
+launchable/manager.py,sha256=hAPmWEBKGEueOkL0XRHBbTx1OjuQLHlt4rHdnAfC7z4,1716
+launchable/plugin.py,sha256=l3WfCBkHj3iuvD_WgrdmLi8vP7irOvy2M4bxhNMJpWk,2040
+launchable/version.py,sha256=YQY-i8MemQTvHljd9BqOGgeJEu3FrzurE3TEKDwAax4,22
+nose_launchable-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nose_launchable-0.0.8.dist-info/METADATA,sha256=KhSgXOwzj6-7DkKgcqqaMGo6Vq7wgqg7a3MG7_v0Rr4,1455
+nose_launchable-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nose_launchable-0.0.8.dist-info/entry_points.txt,sha256=i3Ey4t5JAuQ187DsS8L9QxdXZnUdeSmrE8z-5VFfTSI,56
+nose_launchable-0.0.8.dist-info/top_level.txt,sha256=-gCm7MM4z5ASDA24B4vAA2m4vY1MoxJggXIm12hAgNs,11
+nose_launchable-0.0.8.dist-info/RECORD,,
