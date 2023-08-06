@@ -1,0 +1,18 @@
+<!-- TEST: Added class 'cm-s-ipython' to give codemirror same style with Jupyter -->
+<div class="vp-option-page pandas cm-s-ipython" id="vp_inputPage">
+    <!-- TEST: CodeMirror style -->
+    <style>
+        #vp-wrapper .vp-option-page .CodeMirror { border: 1px solid silver; }
+        #vp-wrapper .vp-option-page .CodeMirror-empty { outline: 1px solid #c22; }
+        #vp-wrapper .vp-option-page .CodeMirror-empty.CodeMirror-focused { outline: none; }
+        #vp-wrapper .vp-option-page .CodeMirror pre.CodeMirror-placeholder { color: #999; }
+    </style>
+    <h4><span class="vp-multilang" data-caption-id="funcNavi"> Common > <strong>Option</strong></span></h4>
+    <hr/>
+    <form id="vp_optionForm">
+        <label for="vp_userCode">User Code</label>
+        <!-- TEST: CodeMirror -->
+        <textarea id="vp_userCode" name="code" style="display: none;" placeholder="input user code"></textarea>
+    </form>
+    <br/>
+</div>
