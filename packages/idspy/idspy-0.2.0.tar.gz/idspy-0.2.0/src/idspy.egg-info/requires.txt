@@ -1,0 +1,19 @@
+clldutils
+pylexibank>=2.7.2
+
+[:python_version < "3.6"]
+pybtex<0.23
+
+[:python_version > "3.5"]
+pybtex
+
+[dev]
+flake8
+wheel
+twine
+
+[test]
+pytest>=5
+pytest-mock
+pytest-cov
+coverage>=4.2
