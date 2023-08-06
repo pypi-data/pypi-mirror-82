@@ -1,0 +1,19 @@
+Using HanLP as Chinese sentence segmentation backend.
+Loading word vectors...
+Performing PCA...
+100 components can explain 92.81% variance.
+Training SVM...
+=====================================================
+|      Train score of SVM classifier(+aug+PCA)      |
+=====================================================
+|   class    |   recall   | precision  |     F1     |
+|     0      |    0.99    |    0.89    |    0.93    |
+|     1      |    0.99    |    1.00    |    1.00    |
+=====================================================
+=====================================================
+|      Test score of SVM classifier(+aug+PCA)       |
+=====================================================
+|   class    |   recall   | precision  |     F1     |
+|     0      |    0.84    |    0.88    |    0.86    |
+|     1      |    0.99    |    0.99    |    0.99    |
+=====================================================
