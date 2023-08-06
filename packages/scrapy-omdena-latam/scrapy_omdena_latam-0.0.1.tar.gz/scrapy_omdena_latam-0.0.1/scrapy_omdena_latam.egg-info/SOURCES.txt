@@ -1,0 +1,17 @@
+README.md
+setup.py
+scrapy_official_newspapers/__init__.py
+scrapy_official_newspapers/functions.py
+scrapy_official_newspapers/items.py
+scrapy_official_newspapers/middlewares.py
+scrapy_official_newspapers/models.py
+scrapy_official_newspapers/pipelines.py
+scrapy_official_newspapers/spiders/__init__.py
+scrapy_official_newspapers/spiders/elperuano.py
+scrapy_official_newspapers/spiders/leychile_spider.py
+scrapy_official_newspapers/spiders/mexicoDOF.py
+scrapy_omdena_latam.egg-info/PKG-INFO
+scrapy_omdena_latam.egg-info/SOURCES.txt
+scrapy_omdena_latam.egg-info/dependency_links.txt
+scrapy_omdena_latam.egg-info/requires.txt
+scrapy_omdena_latam.egg-info/top_level.txt
