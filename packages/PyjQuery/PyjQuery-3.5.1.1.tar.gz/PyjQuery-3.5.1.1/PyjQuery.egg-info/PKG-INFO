@@ -1,0 +1,197 @@
+Metadata-Version: 2.1
+Name: PyjQuery
+Version: 3.5.1.1
+Summary: The Write Less, Do More, JavaScript Library for DicksonUI
+Home-page: https://github.com/Ksengine/DicksonUI/extentions/jquery
+Author: Kavindu Santhusa
+Author-email: kavindusanthusa@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/Ksengine/DicksonUI/issues
+Project-URL: Source, https://github.com/Ksengine/DicksonUI/extentions/jquery
+Description: ﻿# [jQuery](https://jquery.com/ "jQuery")
+        > jQuery for DicksonUI
+        
+        ##Features
+        
+        ### Lightweight Footprint
+        
+        Only sent around 87kb (minified).
+        python wheel is around 65kb
+        python package is around 35kb(Tar archive - gzip compressed)
+        
+        ### CSS3 Compliant
+        
+        Supports CSS3 selectors to find elements as well as in style property manipulation
+        
+        ### Cross-Browser
+        
+        [Chrome, Edge, Firefox, IE, Safari, Android, iOS, and more](https://jquery.com/browser-support/)
+        
+        ## What is jQuery?
+        
+        jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+        thia is python package of jQuery for DicksonUI
+        
+        ## Other Related Projects
+        
+        > Coming soon(python packages)
+        
+        [jQueryUI](https://jqueryui.com/)
+        [jQuery Mobile](https://jquerymobile.com/)
+        [QUnit](https://qunitjs.com/)
+        [Sizzle](https://sizzlejs.com/)
+        
+        ### Resources
+        
+        -   [jQuery Core API Documentation](https://api.jquery.com/)
+        -   [jQuery Learning Center](https://learn.jquery.com/)
+        -   [jQuery Blog](https://blog.jquery.com/)
+        -   [Contribute to jQuery](https://contribute.jquery.com/)
+        -   [About the jQuery Foundation](https://jquery.org/)
+        -   [Browse or Submit jQuery Bugs](https://github.com/jquery/jquery/issues)
+        
+        ## A Brief Look
+        
+        ### Import
+        ```python
+        import jquery
+        from dicksonui import Application, window
+        
+        app = Application() # make Application
+        
+        jquery.install(app) # install jquery
+        
+        mywindow = window() # make window
+        
+        app.add(mywindow) # add window to app
+        
+        # $ is invalid name for python so S used
+        S=jquery.jQuery(mywindow) # add jquery to window
+        
+        mywindow.show() # show window
+        
+        # think S as $ n jquery
+        ```
+        
+        ### DOM Traversal and Manipulation
+        
+        Get the  `<button>`  element with the class 'continue' and change its HTML to 'Next Step...'
+        
+        ```python
+        S( "button.continue" ).html( "Next Step..." )
+        ```
+        
+        ### Event Handling
+        
+        Show the  `#banner-message`  element that is hidden with  `display:none`  in its CSS when any button in  `#button-container`  is clicked.
+        ```python
+        from dicksonui.builtins import setCall, function
+        hiddenBox = S( "#banner-message" )
+        
+        S( "#button-container button" ).on( "click", function("event")  (
+        
+         setCall(hiddenBox.show)
+        
+        ))
+        ```
+        ### Ajax
+        
+        Call a local script on the server  `/api/getWeather`  with the query parameter  `zipcode=97201`  and replace the element  `#weather-temp`'s html with the returned text.
+        ```python
+        from dicksonui.builtins import setCall, function, code
+        S.ajax({
+            
+             "url": "/api/getWeather",
+            
+             "data": {
+            
+             "zipcode": 97201
+            
+             },
+            
+             success: function( "result" ) (
+            
+             setCall(S( "#weather-temp" ).html)(
+             
+                     code('"<strong>" + result + "</strong> degrees"')
+                )
+                 
+              )
+            
+            });
+        ```
+        
+        -   [Learning Center](https://learn.jquery.com/)
+        -   [Forum](https://forum.jquery.com/)
+        -   [API](https://api.jquery.com/)
+        -   [Twitter](https://twitter.com/jquery)
+        -   [IRC](https://irc.jquery.org/)
+        -   [GitHub](https://github.com/jquery)
+        
+        Copyright 2020  [The jQuery Foundation](https://jquery.org/team/).  [jQuery License](https://jquery.org/license/)[Web hosting by Digital Ocean](https://www.digitalocean.com/)  |  [CDN by StackPath](https://www.stackpath.com/)
+        
+Keywords: fast,small,feature-rich,JavaScript,library,HTML,document,traversal,manipulation,event handling,animation,Ajax,simpler,easy,versatility,extensibility,cross-browser
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS 9
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: MS-DOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 3.1 or Earlier
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8.1
+Classifier: Operating System :: Microsoft :: Windows :: Windows 95/98/2000
+Classifier: Operating System :: Microsoft :: Windows :: Windows CE
+Classifier: Operating System :: Microsoft :: Windows :: Windows NT/2000
+Classifier: Operating System :: Microsoft :: Windows :: Windows Server 2003
+Classifier: Operating System :: Microsoft :: Windows :: Windows Server 2008
+Classifier: Operating System :: Microsoft :: Windows :: Windows Vista
+Classifier: Operating System :: Microsoft :: Windows :: Windows XP
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: AIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: BSD :: BSD/OS
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: POSIX :: BSD :: NetBSD
+Classifier: Operating System :: POSIX :: BSD :: OpenBSD
+Classifier: Operating System :: POSIX :: GNU Hurd
+Classifier: Operating System :: POSIX :: HP-UX
+Classifier: Operating System :: POSIX :: IRIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: Other
+Classifier: Operating System :: POSIX :: SCO
+Classifier: Operating System :: POSIX :: SunOS/Solaris
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.3
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: IronPython
+Classifier: Programming Language :: Python :: Implementation :: Jython
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: Stackless
+Description-Content-Type: text/markdown
