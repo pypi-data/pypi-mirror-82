@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kcache
+Version: 0.0.3
+Summary: Cache Library
+Home-page: https://github.com/krzysbaranski/kcache
+Author: Krzysztof Baranski
+Author-email: baranski5@gmail.com
+License: GNU Lesser General Public License Version 3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: pytest (==6.1.1) ; extra == 'test'
+
+# kcache #
+
+Cache library for Python
+
+It can be used for simple caching or object lifecycle management
+
+- Source code: https://github.com/krzysbaranski/kcache/
+- Python PyPi repository: https://pypi.org/project/kcache/
+
+

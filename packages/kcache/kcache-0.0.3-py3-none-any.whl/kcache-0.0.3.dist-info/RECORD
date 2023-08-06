@@ -1,0 +1,10 @@
+kcache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kcache/basecache.py,sha256=zYbpOIIGjqgtCLim4SKRe__YW77ks_JNh3AXU2NSJYQ,655
+kcache/cache.py,sha256=kCzmG6AVNdZHTVji4GqeZPnrRREizT5upxMGf_nA6Go,837
+kcache/cache_builder.py,sha256=iuh4FSLdOsdKsrGsh1TtlAgXXrS-FYIfYOihJ0wypzY,1181
+kcache/cacheloader.py,sha256=6LcxNuEyM2X4vDTpZKA4TwUyc3EfrE8VeUFgq6AbZ_g,368
+kcache/loading_cache.py,sha256=xTFw2V895lj_c4Nu2RGeX45xCrL7Su7W5pPY1zGdVjg,1742
+kcache-0.0.3.dist-info/METADATA,sha256=ovezAsaKUiC6bYGP-s4A21_S9kqHEJZI9EwSh7qebAg,743
+kcache-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kcache-0.0.3.dist-info/top_level.txt,sha256=AE7lGKpRhYSTwj4Ai-i8MaJy761oPrbnThlasJQVN3Q,7
+kcache-0.0.3.dist-info/RECORD,,
