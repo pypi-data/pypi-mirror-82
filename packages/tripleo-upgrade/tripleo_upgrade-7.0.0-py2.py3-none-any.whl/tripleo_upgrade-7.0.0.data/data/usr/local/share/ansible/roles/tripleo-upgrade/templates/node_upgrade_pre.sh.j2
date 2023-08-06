@@ -1,0 +1,22 @@
+{% if compute_evacuate %}
+source {{ overcloud_rc }}
+## Get exact hostname
+HOST=$(openstack compute service list -f value -c Host | grep {{ node_name }} )
+nova host-evacuate-live ${HOST}
+
+timeout_seconds=120
+elapsed_seconds=0
+while true; do
+    echo "Waiting for ${HOST} to get quiesced ..."
+    INSTANCE_COUNT=$(openstack server list --host ${HOST} -f json | jq -r -c '[.[] | select(.Status | contains("ACTIVE") or contains("PAUSED") or contains("MIGRATING"))] | length')
+    if [ $INSTANCE_COUNT == 0 ]; then
+        break
+    fi
+    sleep 3
+    (( elapsed_seconds += 3 ))
+    if [ $elapsed_seconds -ge $timeout_seconds ]; then
+        echo "FAILURE: Could not quiesce compute node ${HOST}"
+    exit 1
+    fi
+done
+{% endif %}
