@@ -1,0 +1,4 @@
+gspread
+seaborn
+pandas
+matplotlib

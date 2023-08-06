@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+gSheetsTask/__init__.py
+gSheetsTask/code.py
+gSheetsTask.egg-info/PKG-INFO
+gSheetsTask.egg-info/SOURCES.txt
+gSheetsTask.egg-info/dependency_links.txt
+gSheetsTask.egg-info/requires.txt
+gSheetsTask.egg-info/top_level.txt
