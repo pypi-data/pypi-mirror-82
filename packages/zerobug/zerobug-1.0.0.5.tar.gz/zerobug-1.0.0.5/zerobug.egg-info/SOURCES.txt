@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+zerobug/__init__.py
+zerobug/__main__.py
+zerobug/setup.py
+zerobug/z0testlib.py
+zerobug/z0testrc
+zerobug.egg-info/PKG-INFO
+zerobug.egg-info/SOURCES.txt
+zerobug.egg-info/dependency_links.txt
+zerobug.egg-info/not-zip-safe
+zerobug.egg-info/top_level.txt
