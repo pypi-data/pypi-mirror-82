@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+generatorpipeline/__init__.py
+generatorpipeline/_version.py
+generatorpipeline/accumulators.py
+generatorpipeline/generatorpipeline.py
+generatorpipeline/helper.py
+generatorpipeline/streamfunctions.py
+generatorpipeline.egg-info/PKG-INFO
+generatorpipeline.egg-info/SOURCES.txt
+generatorpipeline.egg-info/dependency_links.txt
+generatorpipeline.egg-info/requires.txt
+generatorpipeline.egg-info/top_level.txt
+test/test_generatorpipeline.py

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: generatorpipeline
+Version: 1.0
+Summary: Parallelize your data-processing pipelines with just a decorator.
+Home-page: https://github.com/skuschel/generatorpipeline
+Author: Stephan Kuschel
+Author-email: stephan.kuschel@gmail.com
+License: GPLv3+
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
