@@ -1,0 +1,16 @@
+CHANGELOG.md,sha256=xrZ3xT8DEXG3qnEN9B6WVmzCc0uWaqfSO7rjvXLOE3U,46
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+README.md,sha256=e4LUzy5ddQ3kM24wTap1qLW08vKxWLbFgv8mdnypDLM,8426
+splunk_otel/__init__.py,sha256=f24HrEv5-QYizLaLF4pNbr-H6OobdiK316rjEf72m10,610
+splunk_otel/cmd/bootstrap.py,sha256=OBwyXBkxZ2RlJBA-V63NU1cudqCaabTMwwUnapv9fhI,5556
+splunk_otel/cmd/trace.py,sha256=xLw2e08PDy6tO5bnOhkQPFNNW8WyJGKN1tNQjLfxdL8,1914
+splunk_otel/excludes.py,sha256=AdlOsU-FBTRqW2W2D7m1gkKGOHxFQ4sLeHEzG_6_Q84,42
+splunk_otel/site/sitecustomize.py,sha256=aarxKxAibs8VKoMW1iyTIsayHguPH61VJxlc2ZuEcmM,450
+splunk_otel/symbols.py,sha256=D3v5oGj-VxjxI2h7im1l5_dXU62ayy84UhtJR4pHqQg,113
+splunk_otel/tracing.py,sha256=zISGsfVaz8CFRQ7YBL1dRBEgLVF2Y8RnDzdYcuQK7o8,2921
+splunk_otel/version.py,sha256=_1KWUW6zJLk05Py2-r4QK-lqLqS3YCtnYJNBAQARkB4,1025
+splunk_opentelemetry-0.2.0.dist-info/entry_points.txt,sha256=gFWG0lp7KJbn8SD3KcypvMu8cjGObu9oUPbetuk5R3s,113
+splunk_opentelemetry-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+splunk_opentelemetry-0.2.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+splunk_opentelemetry-0.2.0.dist-info/METADATA,sha256=HJAIfQCs2ei0vwtVJsZqIhKbZE0LBrASp7dVFO3Ty6c,9376
+splunk_opentelemetry-0.2.0.dist-info/RECORD,,
