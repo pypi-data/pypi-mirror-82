@@ -1,0 +1,3 @@
+recursive-include djangocms_algolia *.py *.html *.ts *.js *.css
+include setup.py
+include setup.cfg
