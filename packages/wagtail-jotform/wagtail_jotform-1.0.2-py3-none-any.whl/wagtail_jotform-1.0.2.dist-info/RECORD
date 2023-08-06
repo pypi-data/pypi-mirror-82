@@ -1,0 +1,14 @@
+wagtail_jotform/__init__.py,sha256=E_5NCGnZBfPZcvFc_5E9M5LVIB5DwRC3E6sh_g1Y654,62
+wagtail_jotform/models.py,sha256=n8RNBawkfhhM8S4fGxZj5Cv6fFxmVHDjIuaJFAr6sl4,1539
+wagtail_jotform/settings.py,sha256=ZIzmBLQJgXwsX2LiVwYbLY2XDtC8xf3jv6crFKT4-6M,411
+wagtail_jotform/utils.py,sha256=s5ZA8q8PrGhJVz0Khd2xkea9ICWTbWvTn0clx3ZFCQc,2056
+wagtail_jotform/wagtail_hooks.py,sha256=RdHAQRlEUN1by5uA0bSUUHyxPmEokdQlE1JBYywh0lw,883
+wagtail_jotform/migrations/0001_initial.py,sha256=UnkVjtQYg_l3pOVLBvia8STTpjB-2GjUdJG7GG-vxwE,1115
+wagtail_jotform/migrations/0002_rename_embedded_form_model.py,sha256=9xMpFdVsc7xPafg4iwAp6qxncXIHBOw_T150xWkAk0w,676
+wagtail_jotform/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_jotform/templates/wagtail_jotform/embedded_form_page.html,sha256=BqfUTRw_4_acb90ChG5SFt7fGNpWsjvDjNW11dkQJPw,179
+wagtail_jotform/templates/wagtail_jotform/thank_you.html,sha256=kJMg9RK2U6Aevs6f3w18J1PPfL3DRoibVQ1ZP29k28Y,82
+wagtail_jotform-1.0.2.dist-info/METADATA,sha256=9tdgexfjoF3R6mL4PuSv3hXpmUOUnf1PH7B8HDfhInc,2916
+wagtail_jotform-1.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wagtail_jotform-1.0.2.dist-info/top_level.txt,sha256=xW9qqmHoqxdlqhWSRpvSiY78SGGWA8hyAw6OwHVyRWU,16
+wagtail_jotform-1.0.2.dist-info/RECORD,,
