@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: lazytui
+Version: 0.0.1
+Summary: A terminal UI for the la(z)yperson
+Home-page: https://github.com/kylepollina/lazytui
+Author: Kyle Pollina
+Author-email: kylepollina@pm.me
+License: MIT
+Description: A terminal UI for the la(z)yperson
+        
+        ![](images/lazytui.png)
+        
+        -------
+        ```python
+        import lazytui
+        from lazytui.fmt import fmt
+        
+        class Hello(lazytui.TUI):
+            def setup(self):
+                self.enable_title_bar('hello world', style="underline")
+                self.enable_status_bar('press q to quit', fg="magenta")
+        
+            def draw(self):
+                self.write(2, 0, 'hello world ' + fmt('from lazytui', fg="blue", bg="white", style=["underline", "bold"]))
+        
+            def key_pressed(self, key):
+                if key == 'q':
+                    self.exit()
+        
+        Hello().run()
+        ```
+        
+        ![](images/helloworld.png)
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
