@@ -1,0 +1,16 @@
+basepair/__init__.py,sha256=enMVnP5DKOg30oOPRiRlujPzzitYZ-c2hvo-6goXDzQ,1021
+basepair/api.py,sha256=ywnCTuvTqzRN7RbYwNB2fH2WYgjFWlzZstwlCGvTzOY,63850
+basepair/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+basepair/utils/colors.py,sha256=KN8D_77F68iS3y3eI3GE8agfLodhILMFWDxmEBvx83U,929
+basepair/utils/monitor.py,sha256=xeTlq1n2MDM0kiugvs4gSaOQnc3fDbl2WrRCDEnpgVo,1211
+basepair/utils/s3.py,sha256=l8RYJHhw_UYBWczfLxIbfijrhNs5rOiBI3jXeIirv94,1894
+basepair/utils/sqs.py,sha256=alH5zrCFodvjWsYufBIzsum6RDwJeAXzqOXmR4AAjww,4100
+basepair/utils/swf.py,sha256=lJvh3Y3RJC0g2naUi6VAtIqXvT1EAB77WRrB8Pquz7A,4043
+basepair-1.3.82.data/scripts/basepair,sha256=aqOmQ1pjibxpVBsrW_3tmY7TCnuhQ2ejoYMrtUKGk8A,20384
+basepair-1.3.82.dist-info/LICENSE,sha256=DsCh7uiRJ8N1flBhvdA_8Zosl7LLEUufCqMDNkq9xck,1076
+basepair-1.3.82.dist-info/LICENSE.txt,sha256=M53y8DbWz9wSShFlAdoAtEYh8afA_ffGs-hhMQLghNM,1116
+basepair-1.3.82.dist-info/METADATA,sha256=Efbzy1syq12MhT8mXeG-wdBNXCuRxGM4Ff6Ea2urmzU,1136
+basepair-1.3.82.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+basepair-1.3.82.dist-info/pbr.json,sha256=GKfDR7KSHD5wKPVyKye0aMyYZrkTqP6A9g6-XXcRUfQ,47
+basepair-1.3.82.dist-info/top_level.txt,sha256=E4y1lEODNNNiimnrPw1St88bjLAi7kM4624Mgwo5c5Y,9
+basepair-1.3.82.dist-info/RECORD,,
