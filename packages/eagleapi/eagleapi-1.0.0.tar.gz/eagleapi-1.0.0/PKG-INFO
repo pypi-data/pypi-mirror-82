@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: eagleapi
+Version: 1.0.0
+Summary: official Eagle bot Api
+Home-page: https://eagle-bot.ml/
+Author: Macéo Tuloup | Axel Denis
+Author-email: eagle.discordbot@gmail.com
+License: MIT
+Download-URL: https://github.com/eagle-discordbot/Eagle-Api/archive/master.tar.gz
+Description: UNKNOWN
+Keywords: discord,eagle,api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
