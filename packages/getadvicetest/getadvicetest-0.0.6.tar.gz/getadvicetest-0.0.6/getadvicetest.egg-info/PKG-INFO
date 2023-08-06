@@ -1,0 +1,47 @@
+Metadata-Version: 1.2
+Name: getadvicetest
+Version: 0.0.6
+Summary: This is a fancy `Hello World` to publishing Python library to PyPi.
+Home-page: UNKNOWN
+Author: Rich Leung
+Author-email: kleung.hkg@gmail.com
+Maintainer: Dimitrios Mangonakis
+Maintainer-email: mangonakis@gmail.com
+License: UNKNOWN
+Description: ==========
+        Get Advice
+        ==========
+        
+        
+        Introduction
+        ============
+        
+        This is a fancy `Hello World` to publishing Python library to PyPi.
+        
+        
+        
+        Usage
+        =====
+        
+        .. code-block:: python
+        
+           import getadvice as gadv
+           gadv.advice(<insert_name>)
+        
+        
+        
+        Description
+        ===========
+        
+        1. Input to advice() is a text string
+        2. Retrieve advice via REST-API
+        
+        
+        
+        References
+        ==========
+        
+        * https://www.pythoncheatsheet.org/blog/python-projects-with-poetry-and-vscode-part-1/
+        * https://python-poetry.org/docs/repositories/#adding-a-repository
+Platform: UNKNOWN
+Requires-Python: >=3.8,<4.0

@@ -1,0 +1,9 @@
+README.md
+setup.py
+getadvice/__init__.py
+getadvice/functions.py
+getadvicetest.egg-info/PKG-INFO
+getadvicetest.egg-info/SOURCES.txt
+getadvicetest.egg-info/dependency_links.txt
+getadvicetest.egg-info/requires.txt
+getadvicetest.egg-info/top_level.txt
