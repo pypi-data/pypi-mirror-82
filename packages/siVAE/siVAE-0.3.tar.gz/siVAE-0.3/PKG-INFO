@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: siVAE
+Version: 0.3
+Summary: scalable and interpretable Variational Autoencoder
+Home-page: https://github.com/quon-titative-biology/siVAE
+Author: ['Yongin Choi', 'Gerald Quon']
+Author-email: yonchoi@ucdavis.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
