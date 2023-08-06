@@ -1,0 +1,13 @@
+odoo/addons/email_template_config/README.rst,sha256=WZBfWDtTkxRSrmMyRSxK6itJ-pr5VT5EUmvvYeSwumk,1721
+odoo/addons/email_template_config/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/email_template_config/__manifest__.py,sha256=N7Os7EX2IMqXVlb0sxIF22H_SyR1TpQPyRu2DSdtv_I,644
+odoo/addons/email_template_config/models/__init__.py,sha256=x9vkJvm0f_Y1M70bXmTVtGldFtY7Ihlt3xVJAaQuz00,28
+odoo/addons/email_template_config/models/mail_template.py,sha256=tBUj5ehBbDKtiWDkLXgLcohUIooEUm33nnsyEoJLXA0,605
+odoo/addons/email_template_config/readme/CONTRIBUTORS.rst,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/email_template_config/readme/DESCRIPTION.rst,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo/addons/email_template_config/static/description/index.html,sha256=q_6yE0uR6earzCh8lJR447Cf2W9VOoY5epal0ZVRUX8,10384
+odoo/addons/email_template_config/views/mail_template_views.xml,sha256=sBV9Jm3QYjrvKfM7I1sz1ZNHrrMKz0W-7xntd2wSpFI,488
+odoo12_addon_email_template_config-12.0.1.0.0.99.dev3.dist-info/METADATA,sha256=wypBXlWNh14nRGVvl-nAK8unmu5QmTB48WAJUNmTXJ8,2260
+odoo12_addon_email_template_config-12.0.1.0.0.99.dev3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+odoo12_addon_email_template_config-12.0.1.0.0.99.dev3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_email_template_config-12.0.1.0.0.99.dev3.dist-info/RECORD,,
