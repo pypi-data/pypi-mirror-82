@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: helsingborgalarm
+Version: 1.0
+Summary: Get alarms from Helsingborg Stad
+Home-page: https://github.com/jonasbjork/helsingborgalarm
+Author: Jonas Björk
+Author-email: jonas.bjork@gmail.com
+License: MIT
+Keywords: alarm helsingborg hbg
+Platform: UNKNOWN
+Requires-Python: >=3.4
+
+UNKNOWN
+
+
