@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rlapis
+Version: 0.0.1
+Summary: API for multi/single external RL Gym environments
+Home-page: https://github.com/dskart/rlapis
+Author: Raphael Van Hoffelen
+Author-email: dskart11@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: gym
+
+# RLapis (lazuli)
+
+Reinforcement Learning API built on top of Open AI's gym for multi/single external environments
+
+This repository/package is not working yet and still in development.  
+
