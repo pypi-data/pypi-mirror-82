@@ -1,0 +1,7 @@
+tornado>=6.0
+opentelemetry-instrumentation==0.14b0
+opentelemetry-api==0.14b0
+
+[test]
+tornado>=6.0
+opentelemetry-test==0.14b0
