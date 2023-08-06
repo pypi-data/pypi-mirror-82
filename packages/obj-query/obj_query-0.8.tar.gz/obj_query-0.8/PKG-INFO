@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: obj_query
+Version: 0.8
+Summary: translate JSON and Python objects to Alteryx RecordInfos
+Home-page: https://github.com/tlarsen7572/obj_query
+Author: Thomas Larsen
+Author-email: larsenthomasj@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
