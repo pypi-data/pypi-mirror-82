@@ -1,0 +1,11 @@
+pip
+packaging
+
+[dev]
+wheel
+anaconda-cli
+sphinx
+fastcore
+fastrelease
+twine
+nbdev
