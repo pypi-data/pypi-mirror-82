@@ -1,0 +1,4 @@
+pytest
+marshmallow
+requests
+colorama
