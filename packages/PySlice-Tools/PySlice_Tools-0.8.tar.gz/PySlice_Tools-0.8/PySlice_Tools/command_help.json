@@ -1,0 +1,45 @@
+{
+    "commands":
+    {
+        "addcube": {
+            "desc": "The x, y, z position must be specified and must be of type integer.",
+            "example": "addcube x y z"
+        },
+        "delcube": {
+            "desc": "The x, y, z position must be specified when deleting a cube. If there is not a cube at this position, a warning will be given.",
+            "example": "delcube x y z"
+        },
+        "addcubeset": {
+            "desc": "The x, y, z position of the starting cube must be specified and must be of type integer. Dimensions sx, sy, sz are also integers that represent the dimensions of the cube set. The top corner cube diagonally opposite of the starting cube will have position x + sx, y + sy, z + sz.",
+            "example": "addcubeset x y z sx sy sz"
+        },
+        "delcubeset": {
+            "desc": "The x, y, z position of the starting cube must be specified and must be of type integer. Dimensions sx, sy, sz are also integers that represent the dimensions of the cube set. The top corner cube diagonally opposite of the starting cube will have position x + sx, y + sy, z + sz.",
+            "example": "delcubeset x y z sx sy sz"
+        },
+        "save": {
+            "desc": "Save the currently open file by passing in the filename (without the .slice extension) and optionally the path to the directory where the file is located.",
+            "example": "\nsave filename [path_to_directory]\n\nFor example, the first command below command will save file \"testfile1.slice\" to the current working directory. The second command will save \"testfile2.slice\" to a given directory.\n\nsave testfile1\nsave testfile2 d:\\Users\\my_name\\Documents\\Projects"
+        },
+        "load": {
+            "desc": "Loading a previously saved model with file extension .slice requires the path (relative or absolute) to the file. An optional second argument 'f' or 'false' can be given to not clear the currently loaded model. This can be useful if you want to combine different models.",
+            "example": "load pathtofile [f]"
+        },
+        "clear": {
+            "desc": "Will clear current model from the display.",
+            "example": "clear"
+        },
+        "addmodel": {
+            "desc": "Creates a copy of a model file at a specified position.",
+            "example": "addmodel filename x y z"
+        },
+        "submodel": {
+            "desc": "Subtracts a designfile from the current design at a specified position. Could be used as a configurable eraser.",
+            "example": "submodel filename x y z"
+        },
+        "slice": {
+            "desc": "Generates a .gcode file for the specified designfile. The gcode file can be used to print the model on a 3D printer.",
+            "example": "slice filename"
+        }
+    }
+}
