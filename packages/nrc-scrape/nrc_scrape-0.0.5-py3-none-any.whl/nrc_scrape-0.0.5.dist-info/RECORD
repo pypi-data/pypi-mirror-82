@@ -1,0 +1,9 @@
+nrc_scrape/__init__.py,sha256=dGQ6tOjK-BsxhSVNFMbruaTClXCrInzd7B-A6nKzm_0,255
+nrc_scrape/bulk_downloader.py,sha256=02GfF5p1a9pwPpGWgke-xeBwatEB6JSGxxBioJUqVuo,3780
+nrc_scrape/logs_setup.py,sha256=RvlIYGCbDXdkpEnB8zSSaCJKQDbZ4lMiMGS3k8neYWs,735
+nrc_scrape/main.py,sha256=0i0lThQO318tJmcyHvrFZyNStPgk6NIXtmmT-f9oiqw,1816
+nrc_scrape/url_maker.py,sha256=Vcd_1KvcwFU3obEUlMJeXVKNca_AQeqpj_Ztd4q9R9Q,4418
+nrc_scrape-0.0.5.dist-info/METADATA,sha256=99hM0_5mViRtpGIeLVwJnTXnzw_ckCV9hSJ82Gr3gfk,2003
+nrc_scrape-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nrc_scrape-0.0.5.dist-info/top_level.txt,sha256=QOCXtG4J1ORPiC25ytLFrxJqBlRF9AL1WLr4gGRrAy4,11
+nrc_scrape-0.0.5.dist-info/RECORD,,
