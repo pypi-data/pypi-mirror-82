@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: mds-currency-rate-import-ecb
+Version: 4.8.1
+Summary: Tryton module for periodically importing exchange rates of the EURO from the ECB.
+Home-page: https://www.m-ds.de/
+Author: m-ds
+Author-email: service@m-ds.de
+License: GPL-3
+Keywords: tryton currenc rates ecb import
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Office/Business
+Classifier: Natural Language :: German
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: trytond-currency (<4.9,>=4.8)
+Requires-Dist: trytond (<4.9,>=4.8)
+
+mds-currency-rate-import-ecb
+============================
+Tryton module for periodically importing exchange rates of 
+the EURO from the ECB.
+
+Install
+=======
+
+pip install mds-currency-rate-import-ecb
+
+Requires
+========
+- Tryton 4.8
+
+Changes
+=======
+
+*4.8.1 - 13.10.2020*
+
+- fix: added icon-directory to setup
+
+*4.8.0 - 24.07.2020*
+
+- init
+
+
