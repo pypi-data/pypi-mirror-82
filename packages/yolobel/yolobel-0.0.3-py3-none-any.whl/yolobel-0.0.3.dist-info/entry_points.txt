@@ -1,0 +1,3 @@
+[console_scripts]
+yolobel = yolobel.yolobel:register_window
+
