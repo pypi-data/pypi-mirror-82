@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pycaches
+Version: 0.0.1
+Summary: A bunch of caches
+Home-page: https://github.com/codingjerk/pycaches
+Author: Denis Gruzdev
+Author-email: codingjerk@gmail.com
+License: MIT
+Description: # pycaches
+        
+        A bunch of caches
+        
+        ## Installation
+        
+        `$ pip install pycaches`
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
