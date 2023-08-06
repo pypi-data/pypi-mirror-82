@@ -1,0 +1,14 @@
+numpy
+qtpy
+pyFAI
+scipy
+dill
+scikit-image
+databroker>=1.0.0b1
+astroscrappy
+scikit-beam
+camsaxs
+
+[tests]
+pytest
+coverage
