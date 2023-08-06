@@ -1,0 +1,3 @@
+[pytest11]
+missing-fixtures = pytest_missing_fixtures
+
