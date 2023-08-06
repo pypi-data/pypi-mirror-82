@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ML_tools
+Version: 0.0.2
+Summary: ML tools for small projects
+Home-page: https://github.com/pablonm3/ML_tools
+Author: Pablo N. Marino
+Author-email: pablo-n-m@hotmail.com
+License: UNKNOWN
+Description: Set of ML tools for small projects
+        
+        ## Installation
+        `pip install ML-tools`
+        
+        
+        ## Usage
+        
+        ### Post message to Slack
+        `SlackNotifier(TOKEN).message("testing baby")`
+        
+        
+        ### Post error to Slack
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
