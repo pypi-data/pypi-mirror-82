@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pypodo
+Version: 1.6.0
+Summary: pypodo is a todolist tool which works with a .todo file positionned the root of the home directory : use pypodo to run it.
+Home-page: https://github.com/thib1984/pypodo
+Author: thib1984
+Author-email: thibault.garcon@gmail.com
+License: mit
+Description: UNKNOWN
+Platform: UNKNOWN
