@@ -1,0 +1,4 @@
+biopython==1.72
+configparser==3.5.0
+python-Levenshtein==0.12.0
+regex==2020.10.11
