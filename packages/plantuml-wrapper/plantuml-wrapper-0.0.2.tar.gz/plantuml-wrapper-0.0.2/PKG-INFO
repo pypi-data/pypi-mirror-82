@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: plantuml-wrapper
+Version: 0.0.2
+Summary: os independent wrapper around plantuml.jar
+Home-page: https://github.com/wingechr/plantuml-wrapper
+Author: Christian Winger
+Author-email: c@wingechr.de
+License: UNKNOWN
+Description: os independent wrapper around plantuml.jar
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
