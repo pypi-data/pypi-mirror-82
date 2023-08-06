@@ -1,0 +1,7 @@
+README.md
+setup.py
+pitts/__init__.py
+pitts.egg-info/PKG-INFO
+pitts.egg-info/SOURCES.txt
+pitts.egg-info/dependency_links.txt
+pitts.egg-info/top_level.txt

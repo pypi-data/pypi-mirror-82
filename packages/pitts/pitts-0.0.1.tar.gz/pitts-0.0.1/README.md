@@ -1,0 +1,2 @@
+Long descriptions are for people who want to know what that the thing do, but if I know what the thing do, and people that
+I want knows what the thing do... why do anybody have to do what the thing do?
