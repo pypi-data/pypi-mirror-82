@@ -1,0 +1,13 @@
+---
+# defaults stores the default values of include-beer-core
+base_dir: ~/include-beer
+log_dir: ~/include-beer/logs
+stats_dir: ~/include-beer/stats
+debugging: False
+temperature_scale: f
+
+web:
+  debug: False
+  host: 0.0.0.0
+  port: 8080
+  refresh_rate: 300
