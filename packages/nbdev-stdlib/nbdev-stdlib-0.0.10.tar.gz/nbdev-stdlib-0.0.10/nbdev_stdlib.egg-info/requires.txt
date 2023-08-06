@@ -1,0 +1,9 @@
+pip
+packaging
+
+[dev]
+wheel
+sphinx
+fastcore
+fastrelease
+nbdev
