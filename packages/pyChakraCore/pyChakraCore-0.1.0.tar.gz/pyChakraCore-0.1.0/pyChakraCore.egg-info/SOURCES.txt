@@ -1,0 +1,17 @@
+README.rst
+setup.py
+pyChakraCore/ChakraCommon.py
+pyChakraCore/__init__.py
+pyChakraCore.egg-info/PKG-INFO
+pyChakraCore.egg-info/SOURCES.txt
+pyChakraCore.egg-info/dependency_links.txt
+pyChakraCore.egg-info/top_level.txt
+pyChakraCore/../test.py
+pyChakraCore/linux/__init__.py
+pyChakraCore/linux/libChakraCore.so
+pyChakraCore/osx/__init__.py
+pyChakraCore/osx/libChakraCore.dylib
+pyChakraCore/windowsx64/ChakraCore.dll
+pyChakraCore/windowsx64/__init__.py
+pyChakraCore/windowsx86/ChakraCore.dll
+pyChakraCore/windowsx86/__init__.py
