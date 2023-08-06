@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+
+<System name="Biricoloc System" type="sysType1" useCase="Tracking" >
+    <Tiers>
+        <Tier name="Thing" type="Thing">
+            <Node id="Lyra" type="ThingNode" cardinality="1500"  >
+                <EnergylayerElement name="" >
+                    <EnergyComponent id="LyraPower" componentType="Hardware">
+                        <power>
+                            <input type="battery"></input>
+                        </power>
+                    </EnergyComponent>
+                </EnergylayerElement>
+                <PhysicallayerElement name="LyraHard">
+                    <PhysicalComponent id="LyraSensor" componentType="Hardware">
+                        <cpu manaufacturer="ARM" nbCores="1" busSize="32" >
+                            <frequency>32</frequency>
+                            <version>STM32L152RET6</version>
+                        </cpu>
+                        <ram type="">
+                            <size unit="KB">80</size>
+                        </ram>
+                        <os name="LX OS"></os>
+                        <dimension unit="mm">
+                            <length>16.5</length>
+                            <width>62.5</width>
+                            <height>4</height>
+                        </dimension>
+                        
+                    </PhysicalComponent>
+                    <PhysicalComponent id="CoreSensor" componentType="Hardware">
+                        <geolocatedMethod>GPS</geolocatedMethod>
+                        <Sensor name="LXSensorArray">
+                            <type>Temperature</type>
+                            <type>Light</type>
+                            <type>Motion</type>
+                            <type>Gyroscope</type>
+                            <type>Humidity</type>
+                            <type>Magnetometer</type>
+                            <type>AirPresure</type>
+                        </Sensor>
+                    </PhysicalComponent>
+                </PhysicallayerElement>
+                <NetworklayerElement name="" type="EndPoint">
+                    <NetworkComponent id="LyraBLE" componentType="Hardware">
+                        <type>BLE</type>
+                    </NetworkComponent>
+                </NetworklayerElement>
+                <ConnectivitylayerElement name="" type="EndPoint">
+                    <ConnectivityComponent id="LyraSSL" componentType="Software">
+                        <protocol version="1" name="TLS"></protocol>
+                    </ConnectivityComponent>
+                </ConnectivitylayerElement>
+                <DatalayerElement name="" type="EndPoint">
+                    <DataComponent id="LyraDataCollect" componentType="Software"></DataComponent>
+                </DatalayerElement>
+                <documentation doc="https://lx-group.com.au/iot-cores/#tabllink-2" />
+            </Node>
+        </Tier>
+        <Tier name="Edge" type="Edge">
+            <Node id="Polaris" type="EdgeNode" cardinality="300">
+                <EnergylayerElement name="">
+                    <EnergyComponent id="PolarisEnergy" componentType="Hardware">
+                        <power>
+                            <input type="wired">
+                                <voltage unit="V">12</voltage>
+                                <amperage unit="A">2</amperage>
+                            </input>
+                        </power>
+                    </EnergyComponent>
+                </EnergylayerElement>
+                <PhysicallayerElement name="">
+                    <PhysicalComponent id="PolarisHard" componentType="Hardware">
+                        <cpu manaufacturer="ARM" nbCores="1" busSize="32">
+                            <frequency>80</frequency>
+                            <version>STM32L452VE</version>
+                        </cpu>
+                        <operatingTemp unit="C">
+                            <min>-40</min>
+                            <max>85</max>
+                        </operatingTemp>
+                    </PhysicalComponent>
+                </PhysicallayerElement>
+                <NetworklayerElement name="" type="Hub">
+                    <NetworkComponent id="PolarisBLE" componentType="Hardware">
+                        <type>Bluetooth</type>
+                    </NetworkComponent>
+                    <NetworkComponent id="PolarisLTE-M" componentType="Hardware">
+                        <type>LTE-CatM</type>
+                    </NetworkComponent>
+                </NetworklayerElement>
+                <ConnectivitylayerElement name="" type="Hub">
+                    <ConnectivityComponent id="PolarisSSL" componentType="Software">
+                        <protocol version="1" name="TLS"></protocol>
+                    </ConnectivityComponent>
+                    <ConnectivityComponent id="PolarisTwilio" componentType="Service">
+                        <protocol version="1" name="SSL"></protocol>
+                    </ConnectivityComponent>
+                </ConnectivitylayerElement>
+                <MessaginglayerElement name="" type="EndPoint">
+                    <MessagingComponent pattern="Publisher-Subscriber" id="PolarisBroker" componentType="Software">
+                        <protocol version="1.4">MQTT</protocol>
+                    </MessagingComponent>
+                </MessaginglayerElement>
+                <DatalayerElement name="" type="EndPoint">
+                    <DataComponent id="PolarisProcess" componentType="Software">
+                    </DataComponent>
+                </DatalayerElement>
+                
+                <documentation doc="https://fortebit.tech/docs/manuals/polaris/" />
+            </Node>
+        </Tier>
+        <Tier name="Network" type="WAN">
+            <Node id="Twilio" type="WANNode" cardinality="1">
+                <NetworklayerElement name="SFRHUB" type="Hub">
+                    <NetworkComponent id="SFR_LTE-M" componentType="Hardware">
+                        <type>LTE-CatM</type>
+                    </NetworkComponent>
+                    <NetworkComponent id="SFR-AWS" componentType="Hardware">
+                        <type>Cellular</type>
+                    </NetworkComponent>
+                </NetworklayerElement>
+                <ConnectivitylayerElement name="" type="Hub">
+                    <ConnectivityComponent id="TwillioHub" componentType="Service">
+                        <protocol version="1" name="TLS"></protocol>
+                    </ConnectivityComponent>
+                </ConnectivitylayerElement>
+                
+                <documentation doc="https://www.twilio.com/docs" />
+            </Node>
+        </Tier>
+        <Tier name="Platform" type="Cloud">
+            <Node id="Aws-IoT" type="CloudNode" cardinality="1">
+                <NetworklayerElement name="AWSNetwork" type="Hub">
+                    <NetworkComponentRef idRef="SFR-AWS" id="AWS-Network" />
+                    <NetworkComponent id="AWS-App" componentType="Hardware">
+                        <type>Cellular</type>
+                    </NetworkComponent>
+                </NetworklayerElement>
+                <ConnectivitylayerElement name="" type="Hub">
+                    <ConnectivityComponent id="AWS-IoT-SSL" componentType="Service">
+                        <protocol version="1" name="TLS"></protocol>
+                    </ConnectivityComponent>
+                </ConnectivitylayerElement>
+                <MessaginglayerElement name="" type="Hub">
+                    <MessagingComponent pattern="Publisher-Subscriber" id="IOT-Hub" componentType="Service">
+                        <protocol version="1.4">MQTT</protocol>
+                        <msg type="telemetry" topicName="" />
+                    </MessagingComponent>
+                </MessaginglayerElement>
+                <DatalayerElement name="" type="Hub">
+                    <DataComponent id="LX-Incyt.io" componentType="Service">
+                    </DataComponent>
+                </DatalayerElement>
+                <ServicelayerElement name="">
+                    <ServiceComponent type="Data Visualisation" id="LX-DasboardService" componentType="Service"></ServiceComponent>
+                </ServicelayerElement>
+            </Node>
+        </Tier>
+        <Tier name="Application" type="Application">
+            <Node id="LX-Dashboard" type="ApplicationNode" cardinality="1">
+                <NetworklayerElement name="" type="Hub">
+                    <NetworkComponentRef idRef="AWS-App" id="App-Connection" />
+                </NetworklayerElement>
+                <DatalayerElement name="" type="EndPoint">
+                    <DataComponent id="LX-DashboardAppData" componentType="Software"></DataComponent>
+                </DatalayerElement>
+                <ServicelayerElement name="">
+                    <ServiceComponent type="Data Visualisation" id="LX-DasboardAPPService" componentType="Service"></ServiceComponent>
+                </ServicelayerElement>
+            </Node>
+        </Tier>
+    </Tiers>
+    <Regions>
+        <Region name="Lyon" type="city">
+            <node idRef="Lyra" number="200" />
+            <node idRef="Polaris" number="40" />
+            
+        </Region>
+        <Region name="Marseille" type="city">
+            <node idRef="Lyra" number="200" />
+            <node idRef="Polaris" number="40" />
+            
+        </Region>
+        <Region name="Bordeaux" type="city">
+            <node idRef="Lyra" number="200" />
+            <node idRef="Polaris" number="40" />
+            
+        </Region>
+        <Region name="Toulouse" type="city">
+            <node idRef="Lyra" number="200" />
+            <node idRef="Polaris" number="40" />
+            
+        </Region>
+        <Region name="Nice" type="city">
+            <node idRef="Lyra" number="200" />
+            <node idRef="Polaris" number="40" />
+            
+        </Region>
+        <Region name="Metz" type="city">
+            <node idRef="Lyra" number="200" />
+            <node idRef="Polaris" number="40" />
+            
+        </Region>
+        <Region name="Dijon" type="city">
+            <node idRef="Lyra" number="200" />
+            <node idRef="Polaris" number="40" />
+            
+        </Region>
+        <Region name="Nantes" type="city">
+            <node idRef="Lyra" number="100" />
+            <node idRef="Polaris" number="20" />
+            
+        </Region>
+        <Region name="Paris" type="city">
+            <node idRef="Aws-IoT" number="1" />
+            
+        </Region>
+        <Region name="France" type="region">
+            <node idRef="Twilio" number="1" />
+        </Region>
+        <Region name="Lille" type="city">
+            <node idRef="LX-Dashboard" number="1" />
+        </Region>
+    </Regions>
+    <Links>
+        <Link name="LyraToPolaris" type="physical" layer="Network">
+            <source idRef="Lyra" />
+            <sink idRef="Polaris" />
+        </Link>
+        <Link name="PolarisToSFR" type="physical" layer="Network" >
+            <source idRef="Polaris" />
+            <sink idRef="Twilio" />
+        </Link>
+        <Link name="WANToPlatform" type="physical" layer="Network">
+            <source idRef="Twilio" />
+            <sink idRef="Aws-IoT" />
+        </Link>
+        <Link name="PlatformToApp" type="logical" layer="Network" >
+            <source idRef="Aws-IoT" />
+            <sink idRef="LX-Dashboard" />
+        </Link>
+        <Link name="LyraToPolaris" type="physical" layer="Connectivity" secure="true">
+            <source idRef="Lyra" />
+            <sink idRef="Polaris" />
+        </Link>
+        <Link name="PolarisToTWilio" type="logical" layer="Connectivity" secure="true">
+            <source idRef="Polaris" />
+            <sink idRef="Twilio" />
+        </Link>
+        <Link name="WANToPlatform" type="physical" layer="Connectivity" secure="true">
+            <source idRef="Twilio" />
+            <sink idRef="Aws-IoT" />
+        </Link>
+        <Link name="PolarisToAws" type="logical" layer="Messaging" >
+            <source idRef="Polaris" />
+            <sink idRef="Aws-IoT" />
+        </Link>
+        <Link name="LyraToPolaris" type="physical" layer="Data" >
+            <source idRef="Lyra" />
+            <sink idRef="Polaris" /> 
+        </Link>
+        <Link name="PolarisToAws" type="logical" layer="Data" >
+            <source idRef="Polaris" />
+            <sink idRef="Aws-IoT" /> 
+        </Link>
+       
+       
+        
+        <Link name="AwsToApp" type="logical" layer="Data" >
+            <source idRef="Aws-IoT" />
+            <sink idRef="LX-Dashboard" /> 
+        </Link>
+        
+        <Link name="AwsToApp" type="logical" layer="Service" >
+            <source idRef="Aws-IoT" />
+            <sink idRef="LX-Dashboard" /> 
+        </Link> 
+    </Links>    
+    
+    
+    
+    
+
+ </System>

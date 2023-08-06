@@ -1,0 +1,4 @@
+include *.md
+recursive-include Stackml/templates *
+include Stackml/StackML.schema.json
+recursive-include Examples *

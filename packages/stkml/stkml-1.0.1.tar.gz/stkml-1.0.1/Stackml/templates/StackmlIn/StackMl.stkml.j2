@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--Copyright STACKEO - INRIA 2020 .-->
+<System name="{{Stackml.topology.name}}" type="{{Stackml.topology.type}}" useCase="{{Stackml.topology.usecase}}" >
+    <Tiers>
+  {% for Tier in Stackml.tiers %}
+    <Tier name="{{Tier.name}}" type="{{Tier.type}}">
+    {% for Node in Tier.nodes %}
+      <Node id="{{Node.id_}}" type="{{Node.type}}" cardinality="500">
+         {% for Layer in Node.layers_element %}
+          <{{Layer.type}} name="">
+            {% for component in Layer.components %}
+            <{{Layer.type.replace('layerElement','Component')}} id="{{component.id_}}" componentType="{{component.component_type}}" >
+             </{{Layer.type.replace('layerElement','Component')}}>
+            {% endfor %}
+          </{{Layer.type}} >
+          {% endfor %}
+      </Node>
+    {% endfor %}
+    </Tier>
+    {% endfor %}
+  </Tiers>
+  <Links>
+  {% for Link in Stackml.links %}
+    <Link name="Ting1ToLoRa" type="physical" layer="{{Link.layer}}">
+        <source idRef="{{Link.source}}" />
+        <sink idRef="{{Link.sink}}" />
+    </Link>
+    {% endfor %}
+  </Links>
+</System>
+
