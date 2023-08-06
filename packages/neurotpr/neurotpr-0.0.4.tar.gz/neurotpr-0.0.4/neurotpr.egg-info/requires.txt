@@ -1,0 +1,5 @@
+anaconda
+keras
+tensorflow-hub
+emoji
+nltk
