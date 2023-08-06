@@ -1,0 +1,2 @@
+include services/dsa/templates/*
+include services/common/templates/*
