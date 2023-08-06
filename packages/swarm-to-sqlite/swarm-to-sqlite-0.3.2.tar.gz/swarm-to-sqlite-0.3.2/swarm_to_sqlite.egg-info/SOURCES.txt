@@ -1,0 +1,11 @@
+README.md
+setup.py
+swarm_to_sqlite/__init__.py
+swarm_to_sqlite/cli.py
+swarm_to_sqlite/utils.py
+swarm_to_sqlite.egg-info/PKG-INFO
+swarm_to_sqlite.egg-info/SOURCES.txt
+swarm_to_sqlite.egg-info/dependency_links.txt
+swarm_to_sqlite.egg-info/entry_points.txt
+swarm_to_sqlite.egg-info/requires.txt
+swarm_to_sqlite.egg-info/top_level.txt
