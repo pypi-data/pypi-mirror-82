@@ -1,0 +1,8 @@
+apis/__init__.py,sha256=e6gNUHiMHxdNAMHdtKc8igtVQ4Qi79pdUprpZx3_I-A,45
+apis/apis.py,sha256=qiLoQheV_ORgyBwooIIt276HsodDtgxYWaSKrblzhGY,59
+apis/app.py,sha256=dkOxQJRyq9aUFMt74EGehsmJSojvVvQIrPbIKfjSNwE,2559
+sync_setting-0.0.4.dist-info/METADATA,sha256=_cMzWGjRV8RL8wrFQT97D2pE-WOGGvR6O-yntuLHTKM,185
+sync_setting-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sync_setting-0.0.4.dist-info/entry_points.txt,sha256=LDhnyZ5qkcmMjbPnTDmEyScey14_mPPXnoRleTeOTUU,43
+sync_setting-0.0.4.dist-info/top_level.txt,sha256=7TwsAS30cPSsHYxVNQg9lq-jWjWHfNN4nDMjqsgOY5o,5
+sync_setting-0.0.4.dist-info/RECORD,,
