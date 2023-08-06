@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyafka.egg-info/PKG-INFO
+pyafka.egg-info/SOURCES.txt
+pyafka.egg-info/dependency_links.txt
+pyafka.egg-info/requires.txt
+pyafka.egg-info/top_level.txt
+pyafkalib/__init__.py
+pyafkalib/deserializers.py
+pyafkalib/pyafka.py
