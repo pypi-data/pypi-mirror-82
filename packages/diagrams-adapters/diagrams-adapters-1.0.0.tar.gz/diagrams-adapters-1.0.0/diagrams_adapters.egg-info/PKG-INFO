@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: diagrams-adapters
+Version: 1.0.0
+Summary: Set of adapters to generate architecture diagrams from popular text file formats.
+Home-page: UNKNOWN
+Author: Vladas Tamošaitis
+Author-email: amd.vladas@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

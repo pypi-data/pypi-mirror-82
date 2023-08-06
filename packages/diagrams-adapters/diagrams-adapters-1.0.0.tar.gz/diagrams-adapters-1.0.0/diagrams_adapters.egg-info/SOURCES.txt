@@ -1,0 +1,12 @@
+README.md
+setup.py
+diagrams_adapters/__init__.py
+diagrams_adapters/typings.py
+diagrams_adapters.egg-info/PKG-INFO
+diagrams_adapters.egg-info/SOURCES.txt
+diagrams_adapters.egg-info/dependency_links.txt
+diagrams_adapters.egg-info/requires.txt
+diagrams_adapters.egg-info/top_level.txt
+diagrams_adapters/processors/__init__.py
+diagrams_adapters/processors/base.py
+diagrams_adapters/processors/json.py
