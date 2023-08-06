@@ -1,0 +1,7 @@
+knativekafka/__init__.py,sha256=pl7XusobkblFAYy1x4YnONy1InezobOmBeubgut55SQ,91
+knativekafka/knativeconsumer.py,sha256=B_GHClNR2L_tjGzEXBoxVIgvrR_Mv_vEqpR1DBYBYd8,5069
+knativekafka/knativeproducer.py,sha256=x6vLgy1GFgwGgK5Ae70IVtQ3JK-fhNqpx3rzoWWNy8E,3025
+knativekafka-0.3.0.dist-info/METADATA,sha256=3cvdX3coq79V7oqpjp9fye8M16YcxMpM0uCSVPB5AfQ,5673
+knativekafka-0.3.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+knativekafka-0.3.0.dist-info/top_level.txt,sha256=cPvKRUxqNfjHv01sCzEx_aFEz92jO5kv1FLZHGa9amw,13
+knativekafka-0.3.0.dist-info/RECORD,,
