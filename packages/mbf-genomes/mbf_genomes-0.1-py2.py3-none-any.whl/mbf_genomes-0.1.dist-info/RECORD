@@ -1,0 +1,14 @@
+mbf_genomes/__init__.py,sha256=-EUBW4xoPQ08t402WZCfXMjYKeLedxpWV7yjuZqHCng,582
+mbf_genomes/base.py,sha256=AkHPO28GOZeZgCGD-Dc8nGvxbT1VW2kl_FEUcvXKLtQ,24680
+mbf_genomes/common.py,sha256=HoMPLo6XOVnQCzcoZWlvFHprM9K9x9_EyqQJdg4sCnQ,5353
+mbf_genomes/ensembl.py,sha256=hJaj0QEcX78jfxQzLNbkHSxVhspXKp0L4o-K1S9NDLA,28952
+mbf_genomes/filebased.py,sha256=vBMlWSknLwvtJgtMpJrnY01-60yi1G3lfJff7aQ8k4o,11839
+mbf_genomes/gene.py,sha256=_R1TGflHIMQuQpt9aUt04c1waY3HN0PNsWqJxAvsrMk,8282
+mbf_genomes/testing/__init__.py,sha256=Yqv0c4O0MRsPWyZf9shxVduVpqIOlDJQTCnsULbb_ZI,40
+mbf_genomes/testing/fixtures.py,sha256=jCa7EGtQpSP9FxHiRh3gq_KxN09CxTfFTgdO-tFLFzs,1674
+mbf_genomes-0.1.dist-info/AUTHORS.rst,sha256=cSBy6yEDPSUKe4eVD0ZCiVuxZe5Um9YQYv-SUwSpsh0,95
+mbf_genomes-0.1.dist-info/LICENSE.txt,sha256=c92tQwfZ4VVWjxlw6AERgzrSnzviw9aOVnrLv0eaj0U,1086
+mbf_genomes-0.1.dist-info/METADATA,sha256=yGEqkaY-jLQk9vkIzHVd9CxhY9xETzUZFmMpGKFcnbM,1249
+mbf_genomes-0.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+mbf_genomes-0.1.dist-info/top_level.txt,sha256=LkCgwbvn7HpdiozuZpzzxpIAfcGacYvJpOXQUlUnU4U,12
+mbf_genomes-0.1.dist-info/RECORD,,
