@@ -1,0 +1,5 @@
+setup.py
+automagica.egg-info/PKG-INFO
+automagica.egg-info/SOURCES.txt
+automagica.egg-info/dependency_links.txt
+automagica.egg-info/top_level.txt
