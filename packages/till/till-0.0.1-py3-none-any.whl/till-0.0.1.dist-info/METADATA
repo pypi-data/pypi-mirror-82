@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: till
+Version: 0.0.1
+Summary: Lightweight ML Deployment
+Home-page: https://github.com/till-io/till-python
+Author: Lukas Jan Stroemsdoerfer
+Author-email: ljstroemsdoerfer@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# till - Leightweight ML Deployment [WIP]
+
+
