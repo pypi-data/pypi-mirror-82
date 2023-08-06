@@ -1,0 +1,17 @@
+apecosm/__init__.py,sha256=l9NBUaChsoVGgZbCE0g37CoVaAgGxQIxqvSamuIdph8,1143
+apecosm/conf.py,sha256=BOxdAD5TyYd5H9vd3L49xH4KmFbO7O6o7Rh6ec_d-sc,4649
+apecosm/constants.py,sha256=EHcWJG_V4UvD3UJK1X5sSJetBzzDQ8-_XldoYxs7YPA,154
+apecosm/domains.py,sha256=GLr8b7H_hi6Bm4WxlXcugDEkLcd0gdnWuHewCnMSlIk,4985
+apecosm/extract.py,sha256=jXAHM58XRT6_Gv5p-Yb0dVvfshp32fh2JuJ0hUJkDGM,7967
+apecosm/grid.py,sha256=hncrtwXvx0Nw7j_crUTiNH5VLjKKLS28jatfqQWdNCQ,11458
+apecosm/habitat.py,sha256=sZQBtt_8876oqQNrsZuGTthj8eLwJNkbb2_TFNNZ8yA,6176
+apecosm/misc.py,sha256=670ewRtMcV0WILtZYBZ6rFNFqP0F9tVT6IzEnIOJu0Y,3204
+apecosm/mplot.py,sha256=wtT22Y-YuIOeOvMxbqkOjE35dauGKOs77nVlz4_Ma5w,6234
+apecosm/netcdf.py,sha256=Tz4FAe1uzCf6-1G27wLNAkmTgBgf8lNFDUstiw-3qK4,1505
+apecosm/size_spectra.py,sha256=dScWjb-3aKUcKF4MPe1pFPOiESfyMKOejUk3yRCGHR8,7417
+apecosm/ts.py,sha256=j2a6QskrjmU9WR6mudnELjwlSbDfm_41jYA_-LduTG4,462
+apecosm-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+apecosm-1.0.0.dist-info/METADATA,sha256=Njtr0Gy0-cjc7TQCCZzAn-a12SJpjL_-Q6PE-z6OOfs,2013
+apecosm-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+apecosm-1.0.0.dist-info/top_level.txt,sha256=FmHUrBfbFuWWnya5Uh_IcKeHrhh7L3ghPrPxMuuzkoQ,8
+apecosm-1.0.0.dist-info/RECORD,,

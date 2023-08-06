@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: apecosm
+Version: 1.0.0
+Summary: Python package for the analysis of Apecosm outputs
+Home-page: https://github.com/apecosm/apecosm-python
+Author: Apecosm team
+Author-email: nicolas.barrier@ird.fr
+Maintainer: Nicolas Barrier
+Maintainer-email: nicolas.barrier@ird.fr
+License: UNKNOWN
+Keywords: ocean; grid model; ocean ecosystem; biology; deb
+Platform: linux
+Platform: mac osx
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: xarray (>=0.1)
+Requires-Dist: numpy (>=1.9)
+Requires-Dist: netCDF4 (>=1.1)
+Requires-Dist: matplotlib (>=1.4)
+Requires-Dist: basemap (>=1.0)
+Requires-Dist: pandas
+
+![License](https://img.shields.io/github/license/apecosm/apecosm-python)
+[![PyPI](https://img.shields.io/pypi/v/apecosm)](https://pypi.org/project/apecosm/)
+[![Latest Release](https://img.shields.io/github/release/apecosm/apecosm-python)](https://github.com/apecosm/apecosm-python/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/apecosm/apecosm-python)](https://github.com/apecosm/apecosm-python/issues)
+
+<div align="center">
+    <img src="https://avatars3.githubusercontent.com/u/71690308?s=400&u=fec22b3993d64d6f6def5228bdf0da8a8e2b0286&v=4" width=100>
+</div>
+
+# Ichthyop
+
+Apecosm is a model that aims to represent the spatialized dynamics of open ocean pelagic ecosystems in the global ocean. 
+
+This python package is dedicated to the analysis of Apecosm's outputs. 
+- Plots maps
+- Compute averages (spatial, temporal)
+- Computes size spectra
+
+
