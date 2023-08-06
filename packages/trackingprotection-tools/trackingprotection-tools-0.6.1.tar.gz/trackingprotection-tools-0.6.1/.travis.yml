@@ -1,0 +1,17 @@
+sudo: required
+language: python
+os: linux
+dist: xenial
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+git:
+  depth: 3
+install:
+  - pip install -r requirements.txt
+  - pip install flake8
+before_script:
+  - flake8
+script:
+  - py.test -s -v
