@@ -1,0 +1,13 @@
+video_compressor/__init__.py,sha256=8nP7KI2-n0HUTCNS_YrEzfGu8yJSNLLNKG3YnRio78I,420
+video_compressor/compressor.py,sha256=WbQACS3Hk8SKExHP1BYvyyoDTbt7RnrfKUopB2BeuME,284
+video_compressor/exceptions.py,sha256=7UoAJArg59bTGRE3T_w62a1jOxKsNsHG8bruDndCbwY,178
+video_compressor/skeleton.py,sha256=ykmnoerA-SNGMz42jJGmzdBYPmkn_4AWfdjRy6sEdhM,2827
+video_compressor/video.py,sha256=V10BHa7FTkzfdzReWqoLLyJFlRaxZ_xcRerCmMhcgsw,2566
+video_compressor/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+video_compressor/adapters/ffmpeg.py,sha256=3Htx-bXmiNsIzw5FDJ3I0EjHuVnmJ57P2SDE6Ko-7LQ,4356
+video_compressor-0.0.3.dist-info/AUTHORS.rst,sha256=F10mhXrqCJZuYnUhPAfkeT8UY_61-xsdZ58ISWj5J3c,91
+video_compressor-0.0.3.dist-info/LICENSE.txt,sha256=xIYTVLDuDBWMzV37qgPKvTT0mz8_DyDHM0afdMdjSOk,1083
+video_compressor-0.0.3.dist-info/METADATA,sha256=5zEgkM4fdWObpeJ6m31fzh9JpuFk95JehccjHFRSrVs,564
+video_compressor-0.0.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+video_compressor-0.0.3.dist-info/top_level.txt,sha256=l_WWVu-CpONJCRG69tR5LRff3aRcbG48lcxmxIVfYL8,17
+video_compressor-0.0.3.dist-info/RECORD,,
