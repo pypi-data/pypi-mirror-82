@@ -1,0 +1,10 @@
+pymsgprompt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymsgprompt/handler.py,sha256=tMedQd3b1iPU9bvCpCc1LfoGIpplTtVL7bI6YKa2jds,352
+pymsgprompt/logger.py,sha256=AgLbP5kPX1x-5ft0Fja4peqpMyp05D7YWHsPnDLYQqc,919
+pymsgprompt/prompt.py,sha256=jcZEYa7I2fpmJcG78FTWUbPlLs9dxdVGR0-bX8Mfg14,9111
+pymsgprompt/version.py,sha256=NPEhXKjstdYvsy1_lXpSH2rrs9WqKKXas-oFEx0-RQo,1165
+PyMsgPrompt-1.2.2.dist-info/LICENSE,sha256=t6mpvihzEUyYiKSs39MsgmjTSRizUOHZAEqI_gySzTs,1103
+PyMsgPrompt-1.2.2.dist-info/METADATA,sha256=MzQkaTsdh1KMT4frOWLBJJiJAemCwQKr9frVsw7nnCY,3740
+PyMsgPrompt-1.2.2.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+PyMsgPrompt-1.2.2.dist-info/top_level.txt,sha256=9Afer9YJ-N4QNIrTHLRf2BMKqXwTnkLJdBsMkeoWTZM,12
+PyMsgPrompt-1.2.2.dist-info/RECORD,,
