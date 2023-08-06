@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: worldpops
+Version: 1
+Summary: Get live population, population rank, yearly change, and density of any country.
+Home-page: https://github.com/gadhagod/worldpops
+Author: GadhaGod
+Author-email: gadhaguy13@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+### WorldPop Python SDK
+A python wrapper for the WorldPop API, that can give your population, population rank, population change, and density of countries.
+
+Installation: 
+
+    pip3 install worldpops
+
+Get population:
+    country_info.population('{country name}')
+
+All capabilities:
+    https://github.com/gadhagod/worldpops/blob/master/worldpops
+
+
