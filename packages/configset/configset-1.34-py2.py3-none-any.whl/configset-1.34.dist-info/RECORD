@@ -1,0 +1,12 @@
+configset/__init__.py,sha256=5d7x6GyPcUWIbdZJnNFYqiNac1qICh1D0bZQZsXj9iA,225
+configset/__version__.py,sha256=_4Pb2_A1KmyseMPSyFmUt2dRMnpJb3LQEy4aY91VEHg,14
+configset/configset.py,sha256=tBiFJW2CF1AeXxLRbM-711dsjcHu4JDdp547zf7EGoU,22549
+configset/test.py,sha256=DmJMJixiuMs4E-FhUO6RteGgnC5RPDVo4xqwKxaD4kU,398
+configset-1.34.data/data/LICENSE.rst,sha256=7LVjArDO-V49vczkbiGxDLUVirOEK5XdR6NHZZS8T6M,1891
+configset-1.34.data/data/README.rst,sha256=kXAZvegZi5ihiV0qaiTWgTG1LZC58YVcWmi1lddMWWs,1229
+configset-1.34.data/data/__version__.py,sha256=_4Pb2_A1KmyseMPSyFmUt2dRMnpJb3LQEy4aY91VEHg,14
+configset-1.34.dist-info/LICENSE.rst,sha256=7LVjArDO-V49vczkbiGxDLUVirOEK5XdR6NHZZS8T6M,1891
+configset-1.34.dist-info/METADATA,sha256=L3v1EarxmoPUsn2Ctvq9ZZ0a_RFnaQ_f85XM460KVOE,2321
+configset-1.34.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+configset-1.34.dist-info/top_level.txt,sha256=WshknC4Q22_KDnnbUZOCJGekDEkrdvLur6G_1m82YIY,10
+configset-1.34.dist-info/RECORD,,
