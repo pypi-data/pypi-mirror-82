@@ -1,0 +1,20 @@
+requests
+shapely>=1.6.4
+cloudpickle
+numpy>=1.17.0
+deprecated
+
+[:python_version < "3.5.3"]
+pandas<0.25.0
+
+[:python_version >= "3.5.3"]
+pandas>0.20.0
+
+[dev]
+sphinx
+sphinx-autodoc-annotation
+sphinx-autodoc-typehints
+mock
+requests-mock
+pytest
+flake8
