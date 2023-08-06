@@ -1,0 +1,3 @@
+[console_scripts]
+dsl = django_settings_local.__main__:main
+
