@@ -1,0 +1,14 @@
+iotoolz/__init__.py,sha256=Aj6dc-9i_GLsHwHKWtZoOrz-gQESGolr8n3FyWYtJFo,155
+iotoolz/_abc.py,sha256=z7nGP-9fvTnF2ztsPS-ZdGnkhUUoHbjeGqtQosqoOCA,14420
+iotoolz/file.py,sha256=C4GigjZTQC5ALbqXhWlPJ-3qPF0koR3e2bdDO118vwg,2020
+iotoolz/file_test.py,sha256=Sq27iB90tU736i7fQWr-7uungjEdbGGAZHKiiIK0C6Q,2057
+iotoolz/http.py,sha256=EKfuy9n2dl-MCqpQhYDBfiVUN1RDBflC2ZQWQZnyUkY,1159
+iotoolz/http_test.py,sha256=xHc4SPpBIR2HE1bNh3n5Uw8e8K1Ndnl76BJC6YxCxTM,2288
+iotoolz/streams.py,sha256=Z2-z_qqSGyOWY8XQ8SkeqfwnSdr6uWvXtXbbypxcS64,3902
+iotoolz/temp.py,sha256=7GaxupHZYAbBM9CtwPicsmROL1_SfRT7lexQ_qBlsNw,2467
+iotoolz/temp_test.py,sha256=aP9ZVf0IUC7slWRRVh0IJZmn4t_5HSVdVHhbEky6ADU,2277
+iotoolz/utils.py,sha256=tP1li2Ve3sq934tcBrAsw0VI49Ifpx0Eg6Sm2GgOwB0,1056
+iotoolz-0.1.0rc1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+iotoolz-0.1.0rc1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+iotoolz-0.1.0rc1.dist-info/METADATA,sha256=qX5tItyzj5nv3gaSrsvpsdu_mrTD0TY_2_DNoz2V_Kw,7006
+iotoolz-0.1.0rc1.dist-info/RECORD,,
