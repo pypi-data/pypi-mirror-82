@@ -1,0 +1,3 @@
+[console_scripts]
+customize=naomilapaglia.overrides:admin_override
+
