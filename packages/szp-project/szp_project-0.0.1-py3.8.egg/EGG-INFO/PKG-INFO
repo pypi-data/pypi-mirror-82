@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: szp-project
+Version: 0.0.1
+Summary: Just a test
+Home-page: http://www.fem-nuaa.cn
+Author: szp
+Author-email: zhengpushi@126.com
+License: UNKNOWN
+Description: #szp-project
+        
+        just a test
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

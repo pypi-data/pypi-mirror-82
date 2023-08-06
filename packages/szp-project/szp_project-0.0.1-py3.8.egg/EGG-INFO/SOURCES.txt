@@ -1,0 +1,13 @@
+README.md
+langspeak.py
+setup.py
+javaspeak/__init__.py
+javaspeak/javaspeak.py
+pythonspeak/__init__.py
+pythonspeak/pythonspeak.py
+rustspeak/__init__.py
+rustspeak/rustspeak.py
+szp_project.egg-info/PKG-INFO
+szp_project.egg-info/SOURCES.txt
+szp_project.egg-info/dependency_links.txt
+szp_project.egg-info/top_level.txt
