@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+veerbasiccalculator.egg-info/PKG-INFO
+veerbasiccalculator.egg-info/SOURCES.txt
+veerbasiccalculator.egg-info/dependency_links.txt
+veerbasiccalculator.egg-info/top_level.txt
