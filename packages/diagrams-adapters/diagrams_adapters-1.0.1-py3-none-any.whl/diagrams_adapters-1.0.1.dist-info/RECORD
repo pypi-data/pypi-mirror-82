@@ -1,0 +1,10 @@
+diagrams_adapters/__init__.py,sha256=_fo5VFcEeEU5vIyz3sY7Y-wpudPw1bLC_ycPMEYRI6I,82
+diagrams_adapters/typings.py,sha256=XfgMydImqcyj91s8xAkpaUz7-3OrIC1GJxmujSGFBxs,668
+diagrams_adapters/processors/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+diagrams_adapters/processors/base.py,sha256=PGV-wQ7zNWiKT6RMUYVPP9aYOk3rgVvrcsFufvL8lUo,2309
+diagrams_adapters/processors/json.py,sha256=P_HruRzWijsgnA2mrANfPWO4VL6T1PWrShht0PEPFqg,634
+diagrams_adapters-1.0.1.dist-info/LICENSE,sha256=saCTfG-XCeRHz6_DAY9MYqZ7Yk4I0Igdogh_17Vjl1A,1075
+diagrams_adapters-1.0.1.dist-info/METADATA,sha256=iFBRkks14hrdSyUFZfeqCivgbqDZ7hq3eBlg9zbTiYA,813
+diagrams_adapters-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+diagrams_adapters-1.0.1.dist-info/top_level.txt,sha256=iugyuA0jWPWwHMLiwKM4rI2IB-vgqL-1ebLO-ywpbZ4,18
+diagrams_adapters-1.0.1.dist-info/RECORD,,
