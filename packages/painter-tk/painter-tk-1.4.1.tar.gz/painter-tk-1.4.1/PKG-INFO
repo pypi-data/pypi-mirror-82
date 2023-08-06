@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: painter-tk
+Version: 1.4.1
+Summary: 使用tkinter的Canvas控件制作的画板程序, 支持新建、打开、编辑和保存文档。 A painter that made by tkinter in Python.It supports new, open, edit and save documents.
+Home-page: UNKNOWN
+Author: 七分诚意 qq:3076711200 邮箱:3416445406@qq.com
+Author-email: 3416445406@qq.com
+License: UNKNOWN
+Description: 使用tkinter的Canvas控件制作的画板程序, 支持新建、打开、编辑和保存文档。 A painter that made by tkinter in Python.It supports new, open, edit and save documents. Welcome to install!
+Keywords: simple,text,editor,notepad,tkinter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Multimedia :: Graphics
