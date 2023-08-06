@@ -1,0 +1,97 @@
+action: GLOB, msg: packaging
+cwd: C:\Users\mcnak\Documents\MEGAsync\mcnakhaee\packages\textures
+cmd: 'c:\users\mcnak\appdata\local\continuum\anaconda3\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
+running sdist
+running egg_info
+writing textures.egg-info\PKG-INFO
+writing dependency_links to textures.egg-info\dependency_links.txt
+writing requirements to textures.egg-info\requires.txt
+writing top-level names to textures.egg-info\top_level.txt
+writing manifest file 'textures.egg-info\SOURCES.txt'
+running check
+c:\users\mcnak\appdata\local\continuum\anaconda3\lib\distutils\dist.py:274: UserWarning: Unknown distribution option: 'author_emai'
+  warnings.warn(msg)
+warning: Check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating textures-0.1.5
+creating textures-0.1.5\.idea
+creating textures-0.1.5\.idea\inspectionProfiles
+creating textures-0.1.5\.tox
+creating textures-0.1.5\.tox\log
+creating textures-0.1.5\dist
+creating textures-0.1.5\tests
+creating textures-0.1.5\textures
+creating textures-0.1.5\textures.egg-info
+copying files to textures-0.1.5...
+copying DESCRIPTION.rst -> textures-0.1.5
+copying LICENSE -> textures-0.1.5
+copying README.md -> textures-0.1.5
+copying requirements -> textures-0.1.5
+copying setup.py -> textures-0.1.5
+copying tox.ini -> textures-0.1.5
+copying .idea\.gitignore -> textures-0.1.5\.idea
+copying .idea\misc.xml -> textures-0.1.5\.idea
+copying .idea\modules.xml -> textures-0.1.5\.idea
+copying .idea\textures.iml -> textures-0.1.5\.idea
+copying .idea\vcs.xml -> textures-0.1.5\.idea
+copying .idea\inspectionProfiles\profiles_settings.xml -> textures-0.1.5\.idea\inspectionProfiles
+copying .tox\log\GLOB-0.log -> textures-0.1.5\.tox\log
+copying dist\textures-0.1.4-py3-none-any.whl -> textures-0.1.5\dist
+copying dist\textures-0.1.4.tar.gz -> textures-0.1.5\dist
+copying dist\textures-0.1.5-py3-none-any.whl -> textures-0.1.5\dist
+copying dist\textures-0.1.5.tar.gz -> textures-0.1.5\dist
+copying tests\__init__.py -> textures-0.1.5\tests
+copying tests\test_extract.py -> textures-0.1.5\tests
+copying tests\test_features.py -> textures-0.1.5\tests
+copying textures\__init__.py -> textures-0.1.5\textures
+copying textures\clean_text.py -> textures-0.1.5\textures
+copying textures\features.py -> textures-0.1.5\textures
+copying textures\find.py -> textures-0.1.5\textures
+copying textures.egg-info\PKG-INFO -> textures-0.1.5\textures.egg-info
+copying textures.egg-info\SOURCES.txt -> textures-0.1.5\textures.egg-info
+copying textures.egg-info\dependency_links.txt -> textures-0.1.5\textures.egg-info
+copying textures.egg-info\requires.txt -> textures-0.1.5\textures.egg-info
+copying textures.egg-info\top_level.txt -> textures-0.1.5\textures.egg-info
+Writing textures-0.1.5\setup.cfg
+creating '.tox\dist\textures-0.1.5.zip' and adding 'textures-0.1.5' to it
+adding 'textures-0.1.5'
+adding 'textures-0.1.5\.idea'
+adding 'textures-0.1.5\.tox'
+adding 'textures-0.1.5\dist'
+adding 'textures-0.1.5\tests'
+adding 'textures-0.1.5\textures'
+adding 'textures-0.1.5\textures.egg-info'
+adding 'textures-0.1.5\DESCRIPTION.rst'
+adding 'textures-0.1.5\LICENSE'
+adding 'textures-0.1.5\PKG-INFO'
+adding 'textures-0.1.5\README.md'
+adding 'textures-0.1.5\requirements'
+adding 'textures-0.1.5\setup.cfg'
+adding 'textures-0.1.5\setup.py'
+adding 'textures-0.1.5\tox.ini'
+adding 'textures-0.1.5\.idea\inspectionProfiles'
+adding 'textures-0.1.5\.idea\.gitignore'
+adding 'textures-0.1.5\.idea\misc.xml'
+adding 'textures-0.1.5\.idea\modules.xml'
+adding 'textures-0.1.5\.idea\textures.iml'
+adding 'textures-0.1.5\.idea\vcs.xml'
+adding 'textures-0.1.5\.idea\inspectionProfiles\profiles_settings.xml'
+adding 'textures-0.1.5\.tox\log'
+adding 'textures-0.1.5\.tox\log\GLOB-0.log'
+adding 'textures-0.1.5\dist\textures-0.1.4-py3-none-any.whl'
+adding 'textures-0.1.5\dist\textures-0.1.4.tar.gz'
+adding 'textures-0.1.5\dist\textures-0.1.5-py3-none-any.whl'
+adding 'textures-0.1.5\dist\textures-0.1.5.tar.gz'
+adding 'textures-0.1.5\tests\test_extract.py'
+adding 'textures-0.1.5\tests\test_features.py'
+adding 'textures-0.1.5\tests\__init__.py'
+adding 'textures-0.1.5\textures\clean_text.py'
+adding 'textures-0.1.5\textures\features.py'
+adding 'textures-0.1.5\textures\find.py'
+adding 'textures-0.1.5\textures\__init__.py'
+adding 'textures-0.1.5\textures.egg-info\dependency_links.txt'
+adding 'textures-0.1.5\textures.egg-info\PKG-INFO'
+adding 'textures-0.1.5\textures.egg-info\requires.txt'
+adding 'textures-0.1.5\textures.egg-info\SOURCES.txt'
+adding 'textures-0.1.5\textures.egg-info\top_level.txt'
+removing 'textures-0.1.5' (and everything under it)

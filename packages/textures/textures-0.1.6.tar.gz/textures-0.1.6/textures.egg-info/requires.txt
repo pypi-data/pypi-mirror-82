@@ -1,0 +1,9 @@
+pandas
+spacy
+pyenchant
+textblob
+nltk
+langdetect
+textstat
+pyenchant
+pytest
