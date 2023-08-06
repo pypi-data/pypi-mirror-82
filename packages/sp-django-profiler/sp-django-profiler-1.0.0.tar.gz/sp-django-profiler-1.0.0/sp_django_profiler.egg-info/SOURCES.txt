@@ -1,0 +1,10 @@
+README.md
+setup.py
+django_profiler/__init__.py
+django_profiler/profile.py
+sp_django_profiler.egg-info/PKG-INFO
+sp_django_profiler.egg-info/SOURCES.txt
+sp_django_profiler.egg-info/dependency_links.txt
+sp_django_profiler.egg-info/requires.txt
+sp_django_profiler.egg-info/top_level.txt
+sp_django_profiler.egg-info/zip-safe

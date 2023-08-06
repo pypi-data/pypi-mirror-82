@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: sp-django-profiler
+Version: 1.0.0
+Summary: Tools for profiling of code and Django queries
+Home-page: https://github.com/pozzolana93/django-profiler
+Author: Simone Pozzoli
+Author-email: simonepozzoli1@gmail.com
+License: UNKNOWN
+Description: # django-profiler
+        Useful tool to profile code and Django queries.
+        
+        ### Example
+        ```python
+        from django_profiler.profile import Profiler
+        
+        with Profiler(name='my-profiler'):
+            print("Hello World!")
+        ```
+        #### Output:
+        ```
+        Hello World!
+        
+        Profiler: my-profiler
+         
+        Number of Queries : 0
+        Finished in : 0.00s
+                 2 function calls in 0.000 seconds
+        
+           Ordered by: cumulative time
+        
+           ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+                1    0.000    0.000    0.000    0.000 profiling.py:45(__exit__)
+                1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
