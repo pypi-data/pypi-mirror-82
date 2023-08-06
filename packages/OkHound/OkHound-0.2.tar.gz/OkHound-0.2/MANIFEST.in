@@ -1,0 +1,4 @@
+include PhraseSpotterAPI.h
+include libdir_linux/libPhraseSpotter.a
+include libdir_osx/libPhraseSpotter.a
+include libdir_pi/libPhraseSpotter.a

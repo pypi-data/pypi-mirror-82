@@ -1,0 +1,13 @@
+MANIFEST.in
+PhraseSpotterAPI.h
+README.md
+pyOkHound.cpp
+setup.cfg
+setup.py
+OkHound.egg-info/PKG-INFO
+OkHound.egg-info/SOURCES.txt
+OkHound.egg-info/dependency_links.txt
+OkHound.egg-info/top_level.txt
+libdir_linux/libPhraseSpotter.a
+libdir_osx/libPhraseSpotter.a
+libdir_pi/libPhraseSpotter.a
