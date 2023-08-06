@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+photos/__init__.py
+photos/__main__.py
+photos/check.py
+photos/metadata.py
+photos/organize.py
+photos.egg-info/PKG-INFO
+photos.egg-info/SOURCES.txt
+photos.egg-info/dependency_links.txt
+photos.egg-info/entry_points.txt
+photos.egg-info/requires.txt
+photos.egg-info/top_level.txt
+tests/test_metadata.py
