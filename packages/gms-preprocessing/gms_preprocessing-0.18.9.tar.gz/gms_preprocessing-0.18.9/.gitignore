@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.html
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv python configuration file
+.python-version
+
+
+.idea/
+BAK/
+OLD/
+tests/data/output_mgrs_tiles/
+tests/data/output_scenes/
+tests/data/sampledata/
+tests/data/job_logs/
+gms_preprocessing/database/metadata/
+gms_preprocessing/database/tiling_system/
+gms_preprocessing/database/processed_data/
+gms_preprocessing/database/earth_sun_distance/horizon_web_interface.cgi_files/
+gms_preprocessing/database/earth_sun_distance/horizon_web_interface.cgi.html
+gms_preprocessing/database/earth_sun_distance/README
+gms_preprocessing/database/solar_irradiance/Solar_irradiance_Thuillier_2002.xls
+gms_preprocessing/database/solar_irradiance/Thuillier_2003_solar_irradiance_400_2400.pdf
+gms_preprocessing/database/solar_irradiance/SUNp1fontenla.asc
+gms_preprocessing/database/solar_irradiance/SOLAR.txt
+history.csv
+
+.ipynb_checkpoints/
+sandbox/meta_validation/
+
+

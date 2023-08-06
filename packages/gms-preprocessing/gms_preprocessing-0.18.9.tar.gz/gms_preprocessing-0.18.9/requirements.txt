@@ -1,0 +1,37 @@
+arosics>=1.0.0
+cerberus
+dill
+ephem
+# fmask # not pip installable
+gdal
+geoarray>=0.9.0
+geoalchemy2
+geopandas
+iso8601
+jsmin
+matplotlib
+natsort
+nested_dict
+numpy
+openpyxl  # implicitly needed by pandas to write GMS job summaries as excel files
+pandas
+psycopg2
+# pyhdf # not pip installable
+pyinstrument
+pyorbital
+pyproj
+pyrsr>=0.3.1
+py_tools_ds>=0.12.4
+psutil
+pytz
+redis
+redis-semaphore
+retools
+scikit-learn
+scipy
+shapely
+spectral>=0.16
+spechomo
+sqlalchemy
+timeout_decorator
+tqdm

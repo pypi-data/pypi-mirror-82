@@ -1,0 +1,152 @@
+before_script:
+  - git lfs pull
+
+
+# Advise GitLab that these environment vars should be loaded from the Variables config.
+variables:
+    GMS_DB_HOST: SECURE
+    GMS_INDEX_HOST: SECURE
+    GMS_INDEX_PORT: SECURE
+
+
+stages:
+    - test
+    - deploy
+
+
+test_gms_preprocessing:
+  stage: test
+  script:
+    - source /root/miniconda3/bin/activate ci_env
+    - export GMS_db_host=${GMS_DB_HOST}
+    - export GMS_index_host=${GMS_INDEX_HOST}
+    - export GMS_index_port=${GMS_INDEX_PORT}
+
+    - conda install -c conda-forge cartopy  # TODO remove as soon as docker container is rebuilt
+    - pip install "geoarray>=0.9.0"  # TODO remove as soon as docker container is rebuilt
+    - pip install "arosics>=1.0.0"  # TODO remove as soon as docker container is rebuilt
+
+    # update sicor
+    # - rm -rf context/sicor
+    # - git clone https://gitext.gfz-potsdam.de/EnMAP/sicor.git ./context/sicor
+    # - cd ./context/sicor
+    # - make download-tables
+    # - python setup.py install
+    # - cd ../../
+    # make tests
+    - pip install -U sicor
+    # - python -c 'from sicor.tables import get_tables; get_tables(sensor="s2"); get_tables(sensor="l8"); get_tables(sensor="enmap", optional_downloads=("ch4",))'
+
+    - pip check
+
+    # run tests
+    - make nosetests
+    - make docs
+  artifacts:
+    paths:
+    - htmlcov/
+    - docs/_build/html/
+    - nosetests.html
+    - nosetests.xml
+    when: always
+
+
+test_gms_preprocessing_install:
+  stage: test
+  script:
+    - source /root/miniconda3/bin/activate
+    - conda update conda
+    - conda create -y -q -c conda-forge --name gms_test python=3
+    - conda activate gms_test
+
+    # update conda and python
+    - conda update -n base -c conda-forge conda
+#    - conda update -c conda-forge python
+
+    # avoid package incompatibilities
+    # - conda config --set channel_priority strict  # otherwise gdal or libgdal may be installed from defaults channel
+
+    # install some dependencies that cause trouble when installed via pip
+    - conda install -y -c conda-forge numpy gdal scikit-image pyproj geopandas ipython matplotlib cartopy scikit-learn=0.23.2 shapely pyhdf python-fmask holoviews
+
+    # install not pip-installable deps of arosics
+    - conda install -y -c conda-forge pyfftw pykrige
+
+    # install not pip-installable deps of sicor
+    - conda install -y -q -c conda-forge glymur pygrib cachetools pyhdf h5py pytables llvmlite numba
+
+    # install gms_preprocessing
+    - pip install -e .
+    - pip check
+    - cd ..
+    - pwd
+    - ls
+
+    # test importability
+    - python -c "import gms_preprocessing; print(gms_preprocessing)"
+    - python -c "from gms_preprocessing import ProcessController; print(ProcessController)"
+  only:
+    - master
+    - dev
+
+
+test_styles:
+  stage: test
+  script:
+    - source /root/miniconda3/bin/activate ci_env
+    - make lint
+  artifacts:
+    paths:
+    - tests/linting/flake8.log
+    - tests/linting/pycodestyle.log
+    - tests/linting/pydocstyle.log
+    when: always
+
+
+pages:  # this job must be called 'pages' to advise GitLab to upload content to GitLab Pages
+  stage: deploy
+  dependencies:
+    - test_gms_preprocessing
+  script:
+    # Create the public directory
+    - rm -rf public
+    - mkdir public
+    - mkdir -p public/doc
+    - mkdir -p public/coverage
+    - mkdir -p public/nosetests_reports
+
+    # Copy over the docs
+    - cp -r docs/_build/html/* public/doc/
+
+    # Copy over the coverage reports
+    - cp -r htmlcov/* public/coverage/
+
+    # Copy over the nosetests reports
+    - cp nosetests.* public/nosetests_reports/
+
+    # Check if everything is working great
+    - ls -al public
+    - ls -al public/doc
+    - ls -al public/coverage
+    - ls -al public/nosetests_reports
+  artifacts:
+    paths:
+      - public
+    expire_in: 10 days
+  only:
+    - master
+
+
+deploy_pypi:
+  stage: deploy
+  dependencies:
+    - test_gms_preprocessing
+  script:
+    - source /root/miniconda3/bin/activate ci_env
+    - pip install -U twine
+    - python setup.py sdist
+    - twine upload dist/*  # requires creds as environment variables
+  only:
+    - /^v\d+\.\d+\.\d+([abc]\d*)?$/  # PEP-440 compliant version (tags)
+  except:
+    - dev
