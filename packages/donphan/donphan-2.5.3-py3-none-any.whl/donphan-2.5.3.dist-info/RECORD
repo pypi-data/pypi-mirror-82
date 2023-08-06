@@ -1,0 +1,12 @@
+donphan/__init__.py,sha256=DD-idKXYPVLlQ0daT5l9RS4IfjFH86s_oydu5QwKYAs,308
+donphan/abc.py,sha256=of0C6ouhfWbiWP19BFOC_fY8SFvoTbzs0hAv94ZgKvo,25295
+donphan/column.py,sha256=4QZMVCSXJa24_lYTgBew524gZyBEnAeL7128-i9GhLk,3198
+donphan/connection.py,sha256=BigKOKnibtjdzPh7Wvo-CUPtQGF-3URLKO16oL1cxZA,1722
+donphan/sqltype.py,sha256=xkWsLCdEyAzYX9F3u87seSC_34KCZ5YwugP1_QqriW0,4427
+donphan/table.py,sha256=1yaCtoYZfOqDIGAdzhDl-Oi9Mg-0DQWCyLCURxamz_k,1616
+donphan/view.py,sha256=pDV5xfZchfD_R8Dee7-AeMJIkdSQyPvQQwPzmKK_e_8,1486
+donphan-2.5.3.dist-info/LICENSE,sha256=6TLcRYBDuXHsj1e9jSnplkSIWVmTw8i6iZdofiUsTI0,1062
+donphan-2.5.3.dist-info/METADATA,sha256=LPkRAiL4o4wGWA5oKk8qSpmpuJOhmkII0YdaJPBokwI,1511
+donphan-2.5.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+donphan-2.5.3.dist-info/top_level.txt,sha256=A2iOqnSLOn9pYyv6j1yrz4fN6DfQsWpo4gzNT1GAzBw,8
+donphan-2.5.3.dist-info/RECORD,,
