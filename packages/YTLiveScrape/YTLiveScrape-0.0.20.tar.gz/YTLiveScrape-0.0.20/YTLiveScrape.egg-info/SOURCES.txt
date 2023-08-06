@@ -1,0 +1,10 @@
+README.md
+setup.py
+YTLiveScrape/CommentsParser.py
+YTLiveScrape/RequestJSONGenerator.py
+YTLiveScrape/__init__.py
+YTLiveScrape/live_chat_worker.py
+YTLiveScrape.egg-info/PKG-INFO
+YTLiveScrape.egg-info/SOURCES.txt
+YTLiveScrape.egg-info/dependency_links.txt
+YTLiveScrape.egg-info/top_level.txt
