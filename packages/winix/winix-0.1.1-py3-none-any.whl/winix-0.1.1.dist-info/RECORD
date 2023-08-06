@@ -1,0 +1,10 @@
+winix/__init__.py,sha256=sEk5yXVEfFSi8dC2Cqf577HsjaWC25ndieGBHu8RCgg,97
+winix/auth.py,sha256=_gq27OPtI5ZbZdB2m2RBvuZiSa0Tqx_QyN42E-ancYY,2443
+winix/cmd.py,sha256=hJHXnydjCeQn1FQpZkERBTArRdK3zcKUsFmffVbgCmk,7600
+winix/driver.py,sha256=UUWFBKcHmb7oYcaQeE2vTkMl4Ij008VGHFRhT6HJp00,5336
+winix-0.1.1.dist-info/LICENSE,sha256=ZpLaka5ZR07szgdXoxr7sCp-IJGvNpwUGBSLadlHMC4,1073
+winix-0.1.1.dist-info/METADATA,sha256=5aYaLG8MfKpnClsS6t-8r4hSQbH6xyMjXPg6glPHS10,2380
+winix-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+winix-0.1.1.dist-info/entry_points.txt,sha256=IvjXqQa1KaA1jj1EOpznotTgBxW7-s-NSudkwPHck5w,68
+winix-0.1.1.dist-info/top_level.txt,sha256=b6hCPBpyrGR3cNaGeDLC7famkjYUhvYtpJWj5gv6qMc,6
+winix-0.1.1.dist-info/RECORD,,
