@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mhar
+Version: 0.0.1
+Summary: The MHAR package for polytopes, in pytorch
+Home-page: https://github.com/uumami/mhar
+Author: Mario Vazquez Corte uumami
+Author-email: uumami@sonder.art
+License: UNKNOWN
+Description: # MHAR (Matrix/Mentat Hit and Run)
+        This Branch contains the Pytorch the stable and released implementation of the MHAR algorithm.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
