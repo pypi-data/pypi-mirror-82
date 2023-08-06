@@ -1,0 +1,14 @@
+flore/__init__.py,sha256=qZe2BxMLVBjh4LqHsfVjURgsgmdHtKphH0v0ExztuYM,54
+flore/__version__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+flore/facede.py,sha256=TYdIlhGOAR_w3YDN4o7LE3ey3lJGcj4hjT-WLSpm44g,90
+flore/flore.py,sha256=l1Sin3OprCPHiB1i4bzGY2zCy8AvcSp9-EWhB-AMv3k,616
+flore/libraries/base.py,sha256=Uk0ZTLrAPlkZgHRAUpaV5clzsTdXFb_s-MUmtpA5pF4,324
+flore/libraries/pg.py,sha256=iiqBA6OyN52A8QkvJ87vzD2SOdNaMPuDyerOeMhxAz8,1574
+flore/libraries/yaml.py,sha256=63JJaisSmkVZrJmcEa37G1T8aaXLBbHtXyvwVT7QQgg,802
+flore/parser.py,sha256=IdTQcehRW1C138Sq8G8P3gz_qTctUtMlGElWpFuDUqA,966
+flore/utils.py,sha256=4CoS0XszCQ2bJzMpuamDug0c0gYXmQCt5yARbfLdhjo,110
+flore-0.0.1.dist-info/entry_points.txt,sha256=OxwQK0XiVh6qf00_zCxiReb9IX2vdl2xorF6ZqZ5y9c,41
+flore-0.0.1.dist-info/LICENSE,sha256=iPNeSBBNFCIpn_0s42KrLO123b-wDUZBInPiVkI_9YM,1071
+flore-0.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+flore-0.0.1.dist-info/METADATA,sha256=yNkLEOGCLi7adnMUivmaOkhsUtqz-nF_SQotrvD0Shc,2326
+flore-0.0.1.dist-info/RECORD,,
