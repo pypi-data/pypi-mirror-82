@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: schulich-ignite
+Version: 0.0.3
+Summary: Spark library for Shulich Ignite sessions
+Home-page: https://github.com/Schulich-Ignite/spark
+Author: Schulich Ignite
+Author-email: info@shulichignite.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: ipywidgets
+Requires-Dist: ipycanvas
+Requires-Dist: ipyevents
+
+# spark
+ipython extension used for the sessions
+
+### Testing locally
+Install the library in development mode using the following command from the root directory (the one containing `setup.py`).
+
+```shell
+pip install -e .
+```
+
+Next, you can open JupyterLab and navigate to the test folder, and run any of the ipynb files
+

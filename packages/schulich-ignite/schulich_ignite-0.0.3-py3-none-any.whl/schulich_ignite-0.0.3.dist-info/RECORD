@@ -1,0 +1,9 @@
+spark/__init__.py,sha256=skOdwmVvv2ilQ5DC0nlXOHJqdVHQC2tPlbgqV5bHhYo,1446
+spark/core.py,sha256=xWHK2XpfucHFng2FL7NKOyARpzPLY5bAITGOQ26B0Fk,8586
+spark/functions.py,sha256=bt8xtPCMmtqMbZP_uIYsR01m-TxomMbEy7F0QpWc-wY,18
+spark/wrappers.py,sha256=8LoJeh1_PPkP-HwCKSzgXXcwAb01E5yFUQjD9lVI06o,686
+schulich_ignite-0.0.3.dist-info/LICENSE,sha256=EqihhQobxep8C37flZc-lyXd5ajXOOd7gcZZ2gqCg1U,1072
+schulich_ignite-0.0.3.dist-info/METADATA,sha256=z5Oaidziqngz6pzDVKZJ5zJ9GFDBLlohG4-8pHMjgL0,865
+schulich_ignite-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+schulich_ignite-0.0.3.dist-info/top_level.txt,sha256=tdgrEZlB7g8_wNkO8h3bf7mPo1DKBzkT6oWRtTAtHCg,6
+schulich_ignite-0.0.3.dist-info/RECORD,,
