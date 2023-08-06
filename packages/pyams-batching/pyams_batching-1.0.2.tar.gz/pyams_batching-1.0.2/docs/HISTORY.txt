@@ -1,0 +1,15 @@
+Changelog
+=========
+
+1.0.2
+-----
+ - added string constant in subset module
+ - updated doctests syntax
+
+1.0.1
+-----
+ - updated doctests using ZCA hook
+
+1.0.0
+-----
+ - initial release
