@@ -1,0 +1,3 @@
+[console_scripts]
+simulate = evolutionsimulator.__main__:main
+
