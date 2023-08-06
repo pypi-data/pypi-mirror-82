@@ -1,0 +1,14 @@
+configconfig/__init__.py,sha256=erIrfd9nu5vD9RirSfe9qxFZMuzkWVRWEPuh2v2MSeM,1437
+configconfig/autoconfig.py,sha256=g1RK3j1b0-MO25d74uvkXXZ0c0FsChQ99xNaz1gItNg,6480
+configconfig/configvar.py,sha256=n3nW18PWLE5M76JT8eF7WbR32m0oglIx7p5izspiScA,5766
+configconfig/metaclass.py,sha256=xBsPH_6Ok57h3ex2UP_ws9rawfmMGpUBduhZ2RaauOQ,3201
+configconfig/parser.py,sha256=9pgsDtcn_bd5nd59zlMl0HgfKUNqHR9ZUjW_qR63bwc,3162
+configconfig/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+configconfig/testing.py,sha256=uGzjK4Y88rPifXgoSY16e7b_IvyfWyJFRnPOu9iz0Us,11478
+configconfig/utils.py,sha256=zV2-ncP6-leGIRwIlMcy-mCUQnK7C7NSv_pTF1AHIKw,6440
+configconfig/validator.py,sha256=rt3d6dFCWpoNayZ5maudyz3kH_DSJ1HghM-D8lqop8c,8038
+configconfig-0.2.0.dist-info/LICENSE,sha256=BigaIaJbg4wCjk6MjLC_5kuevxdEotWApzfvN8Y9LMM,1064
+configconfig-0.2.0.dist-info/METADATA,sha256=PM0tprhkcL-HqRfIsCdvkqMdbokXfeE7vyL3TAXQnwI,5742
+configconfig-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+configconfig-0.2.0.dist-info/top_level.txt,sha256=duBaW92dzs1mHv-cdCTOLDDZBa9WR1fjEVWzyHCdf_g,13
+configconfig-0.2.0.dist-info/RECORD,,
