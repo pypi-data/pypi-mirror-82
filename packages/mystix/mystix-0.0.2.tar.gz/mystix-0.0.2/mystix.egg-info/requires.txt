@@ -1,0 +1,7 @@
+numpy
+seaborn
+matplotlib
+pyqtgraph
+pyqt5
+mypy
+requests
