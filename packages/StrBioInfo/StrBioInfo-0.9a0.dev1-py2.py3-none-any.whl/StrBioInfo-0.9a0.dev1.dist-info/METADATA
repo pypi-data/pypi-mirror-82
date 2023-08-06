@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: StrBioInfo
+Version: 0.9a0.dev1
+Summary: The Structura BioInformatics Library
+Home-page: https://github.com/jaumebonet/SBI
+Author: Jaume Bonet
+Author-email: jaume.bonet@gmail.com
+License: MIT
+Project-URL: Documentation, http://jaumebonet.cat/SBI
+Project-URL: Source, https://github.com/jaumebonet/SBI/
+Project-URL: Tracker, https://github.com/jaumebonet/SBI/issues
+Keywords: development
+Platform: UNIX
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: pandas (<1.0.0,>=0.23)
+Requires-Dist: scipy
+Requires-Dist: beautifulsoup4
+Requires-Dist: libconfig (>=0.9)
+Requires-Dist: transforms3d (>0.3)
+Requires-Dist: tqdm
+Requires-Dist: requests
+
+UNKNOWN
+
+
