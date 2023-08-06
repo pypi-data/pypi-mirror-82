@@ -1,0 +1,14 @@
+vhh_stc/Configuration.py,sha256=towQR7mQwlz7K96fSgiPiwoJgYoBIz9T996sjxjLPb8,4825
+vhh_stc/CustomTransforms.py,sha256=RA1Uq1N1JjNnL1l4aq7bdKd_I0acS1iot5CNb9A3HNk,987
+vhh_stc/Datasets.py,sha256=4rL2IXWZRrewQyBfFzMKTNeO6yaht34QeT1-PT3W5CQ,4062
+vhh_stc/Models.py,sha256=OZEWn6K-I7TJQf3i7Ye8B-Zs7RMM_oFvzJx6IM__9YY,5169
+vhh_stc/STC.py,sha256=I8beXPzXMf4lq3mngCoo8-ZLGJmDTHkGXP5nmAUiHK4,11917
+vhh_stc/Shot.py,sha256=HOCHWh12mopqxvbm3KblpqHeKA7xgkxSMEANOfGeQZY,1500
+vhh_stc/Video.py,sha256=zZmJ7WW_Yc_dG1zNEbVCjeF4ba57mRKfWEtNCnmkJdM,3727
+vhh_stc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhh_stc/utils.py,sha256=2ehkE071ibJFBQhaeLxlniDjpszFZrDifBkDqZq6pyM,2473
+vhh_stc-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+vhh_stc-1.0.0.dist-info/METADATA,sha256=K9XedZ7T-byRwUlellqhszsUENCZHPXDypd-k1Uuupo,2979
+vhh_stc-1.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+vhh_stc-1.0.0.dist-info/top_level.txt,sha256=VdqoXrB4A3vu3rXth6A7rJBHJJyirvC6XM7EjipU8GI,8
+vhh_stc-1.0.0.dist-info/RECORD,,
