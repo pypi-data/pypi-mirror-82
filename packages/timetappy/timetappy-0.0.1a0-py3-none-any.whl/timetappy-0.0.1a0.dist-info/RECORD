@@ -1,0 +1,15 @@
+timetappy/__init__.py,sha256=TBQj6VgtBpRSRxz0kJccFByZjrvMXBMwQkOjsHL-1Uc,35
+timetappy/appointments.py,sha256=gtD8qUtPBMNGD-mq6DY4-2pXOQBErXIqUGMyy_fHGBQ,848
+timetappy/auth.py,sha256=T4XjSkAdWWPp38NRxA222GyDoomSjjENw3HMgHlcNP4,1316
+timetappy/calendar.py,sha256=S2AXTySt0JISI-P7zUU9HaSoNDbn9RmBHMarXrkjxH8,1016
+timetappy/client.py,sha256=-eGMgaRP3igV7O2nFVmjlMVe_M-FeCwSg_wwDtm997U,920
+timetappy/clients.py,sha256=k0afcYobVVni4GTXG-t6epTB97Y3cNADjit-izapjLs,897
+timetappy/locations.py,sha256=yyoLCE7J73sebdHTzSjkQM0sov3N0uU4Wzfof_KJSHE,289
+timetappy/services.py,sha256=Y5MlrBR1lPm96gGM3ksrAkbqdCKWrDkJqyfyeZ2PIXE,284
+timetappy/staff.py,sha256=O4Zv-Tej98VchS_RT_z2xI6Vh2jxtxPzH1Gw0spx78k,810
+timetappy/utils.py,sha256=pjVQLTr6XVKmayb9_ljlv9EAjsbyZjdCUgp6E6voeH4,1485
+timetappy-0.0.1a0.dist-info/LICENSE,sha256=D-MK9mnlY3lb3PQuW0nvIzH8mN0gJLOWyIB9mw-4N6s,1094
+timetappy-0.0.1a0.dist-info/METADATA,sha256=fe7vMl4V7lWFNPrtMMm9cuYCTIi4QxzurOKzpzosC1w,787
+timetappy-0.0.1a0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+timetappy-0.0.1a0.dist-info/top_level.txt,sha256=E1PNQj4eY_QwQk-fUzxu3L_EyHP12e7XUu1KVe2BXiw,10
+timetappy-0.0.1a0.dist-info/RECORD,,

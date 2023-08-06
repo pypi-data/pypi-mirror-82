@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: timetappy
+Version: 0.0.1a0
+Summary: Unofficial API client wrapper around the TimeTap API
+Home-page: https://github.com/ak9999/timetappy
+Author: Abdullah 'AJ' Khan
+Author-email: aj@ajkhan.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.23.0)
+
+# timetappy
+
+## What is this repository for?
+
+Unoffical [TimeTap API](https://www.timetap.com/online-scheduling-api.html) client for Python.
+
+API docs available here: https://timetap.atlassian.net/wiki/spaces/TTAPI/overview
+
+This library is far from finished.
+
+## Requirements
+
+* Python 3
+* [Requests](https://pypi.org/project/requests/)
+
+
