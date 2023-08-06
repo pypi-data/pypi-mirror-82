@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: callystio
+Version: 0.0.0
+Summary: Jupyter notebook site generator
+Home-page: https://github.com/andydevs/callystio
+Author: Anshul Kharbanda
+Author-email: akanshul97@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# callystio
+
+Jupyter notebook site generator
+
+
