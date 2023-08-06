@@ -1,0 +1,9 @@
+cuss_inspect/__init__.py,sha256=ag9LQtOc6jCwDN7om15lJLemjtQzyxB1BN7b6vf1vBc,69
+cuss_inspect/cuss_inspect.py,sha256=MK1ntrnKKP6OIjI5uydifhZ4jOePBwKWuEwZ-vr_9oM,666
+cuss_inspect/data/logitclfv3.lgst,sha256=YKGDz7yGtdF9vMgAPvJptGhKt8w_BfEfLQbKOmOfb-E,400861
+cuss_inspect/data/vectorizerv3.lgst,sha256=Sqdg87IZytLacTY-89Qz1VG9GAOLNnam2U91kCIXkHM,191989714
+cuss_inspect-1.0.0b0.dist-info/LICENSE,sha256=2bgv84SwbyEOBbHV6XrAsokbtOwXsiB6AvnV3fqYzXg,1085
+cuss_inspect-1.0.0b0.dist-info/METADATA,sha256=M5sGWrXTtxh5LLvkDH-Mg-C8X6JZY6OstxRa5Tz17MM,2442
+cuss_inspect-1.0.0b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cuss_inspect-1.0.0b0.dist-info/top_level.txt,sha256=4tJIZ_4gfv7ab1rkKrLrafQd84Ckt-IDrwQF21Kk05M,13
+cuss_inspect-1.0.0b0.dist-info/RECORD,,
