@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+openpyxl-stubs/cell/_writer.pyi
+openpyxl-stubs/cell/cell.pyi
+openpyxl-stubs/cell/text.pyi
+openpyxl_stubs.egg-info/PKG-INFO
+openpyxl_stubs.egg-info/SOURCES.txt
+openpyxl_stubs.egg-info/dependency_links.txt
+openpyxl_stubs.egg-info/requires.txt
+openpyxl_stubs.egg-info/top_level.txt
