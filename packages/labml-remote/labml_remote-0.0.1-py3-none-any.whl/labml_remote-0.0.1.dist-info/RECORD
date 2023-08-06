@@ -1,0 +1,8 @@
+labml_remote/__init__.py,sha256=ZhDx4p0uFqpBfEXv8Ge5lmkrkTQ4V3s9EjrmZwbEaik,5325
+labml_remote/cli.py,sha256=PuCazuBhiUSCaqAthYp2STTfqM0GZct-A64mdUYoHeY,4381
+labml_remote/configs.py,sha256=En80X4KC_Sh10txTJk9xr7eCX2V9SxnIE41Gbt_49bU,1408
+labml_remote-0.0.1.dist-info/METADATA,sha256=u-5_d0cTo59PedaDOGvw-vl9EHAHyIajWei7JmLFiTA,2747
+labml_remote-0.0.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+labml_remote-0.0.1.dist-info/entry_points.txt,sha256=ngCXIuKP67pVHC6Yk4UvWqoPx7YaOq8EegefGk-PbsQ,56
+labml_remote-0.0.1.dist-info/top_level.txt,sha256=a-3Qg3oo_9b0Ox6e5AkvTV8b5beo7sXNt9LLhF-pnO4,13
+labml_remote-0.0.1.dist-info/RECORD,,
