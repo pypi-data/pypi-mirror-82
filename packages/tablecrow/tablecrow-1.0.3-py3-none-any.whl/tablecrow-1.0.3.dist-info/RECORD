@@ -1,0 +1,9 @@
+tablecrow/__init__.py,sha256=3T9VvPAMC3IRVdqFM3ycYW9Y_28Oen5ANAOtotJBwCs,36
+tablecrow/postgres.py,sha256=heFmYLXNIVYpcbDsv9H6Hhv4BHcP3rZ0gp5i9z5kM3I,21488
+tablecrow/table.py,sha256=2w_94iCp0wSYDFsu88AC56exIVHlat0Vgg8LGVMsHGo,11813
+tablecrow/utilities.py,sha256=9ewEkSelri5E_C7YNLer2fSMWWTIMpImDN0BRs_prQY,788
+tablecrow-1.0.3.dist-info/LICENSE,sha256=UxR2Ody-Ob-EQYbynslBjdXrL1VJzogDAKkW2LTkxDk,1196
+tablecrow-1.0.3.dist-info/METADATA,sha256=l9r3YtCTZA54rtvk0_NywzYhh-HWX5R054r5p88Tjlw,2366
+tablecrow-1.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tablecrow-1.0.3.dist-info/top_level.txt,sha256=efKpt3x86yWtEHi25YOdYuyoAl8ypCe_NzDfZrvNCoM,10
+tablecrow-1.0.3.dist-info/RECORD,,
