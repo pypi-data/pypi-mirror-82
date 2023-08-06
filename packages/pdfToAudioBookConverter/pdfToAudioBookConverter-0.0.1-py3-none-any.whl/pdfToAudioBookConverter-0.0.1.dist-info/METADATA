@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pdfToAudioBookConverter
+Version: 0.0.1
+Summary: This package converts a pdf file to audiobooks
+Home-page: https://github.com/seigfried1/pdftoaudiobook
+Author: Rahul Mishra
+Author-email: rahulmishra.psy@gmail.com
+License: MIT
+Keywords: Audiobooks,pdf,audiobookconverter
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: gTTS (>=2.1.1)
+Requires-Dist: PyPDF2 (>=1.26.0)
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
