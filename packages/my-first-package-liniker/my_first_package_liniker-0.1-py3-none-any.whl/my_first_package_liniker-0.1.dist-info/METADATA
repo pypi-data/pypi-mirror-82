@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: my-first-package-liniker
+Version: 0.1
+Summary: Get your avatar on GitHub
+Home-page: https://github.com/linikerunk/libpythonpro.git
+Author: Liniker Oliveira
+Author-email: linikerenem@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console 
+Classifier: Intended Audience :: Developers
+Classifier: License :: Aladdin Free Public License (AFPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+
+# libpythonpro
+Módulo para exemplificar construção de projetos Python no curso PyTools
+
+Nesse curso é ensinado como contribuir com projetos de código aberto
+
+Link para o curso [Python Pro](https://www.python.pro.br/)
+
+[![Build Status](https://travis-ci.com/linikerunk/libpythonpro.svg?branch=master)](https://travis-ci.com/linikerunk/libpythonpro)
+
+Suportada versão 3 de Python
+
+Para instalar:
+
+```console
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements-dev.txt
+```
+
+Para conferir qualidade de código:
+
+```console
+flake8
+
+```
+
+Tópicos a serem abordados:
+ 1. Git
+ 2. Virtualenv
+ 3. Pip
+
