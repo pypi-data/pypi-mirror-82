@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: django-settings-local
+Version: 0.1.3
+Summary: Manage Django Local Settings
+Home-page: https://github.com/fasih/django-settings-local
+Author: Fasih Ahmad Fakhri
+Author-email: fasih@email.com
+License: GPL-3.0
+Download-URL: https://github.com/fasih/django-settings-local/archive/0.1.3.tar.gz
+Description: UNKNOWN
+Keywords: django local settings
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Framework :: Django
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
