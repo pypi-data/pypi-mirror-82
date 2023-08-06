@@ -1,0 +1,17 @@
+natsort
+pandas
+pypipegraph
+requests
+
+[doc]
+numpydoc
+sphinx
+sphinx-bootstrap-theme
+
+[testing]
+mbf_align
+mbf_qualitycontrol
+mbf_sampledata
+pytest
+pytest-cov
+requests-mock
