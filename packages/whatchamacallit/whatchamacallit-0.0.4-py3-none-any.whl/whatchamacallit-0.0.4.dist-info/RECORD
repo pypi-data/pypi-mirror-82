@@ -1,0 +1,12 @@
+whatchamacallit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whatchamacallit/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whatchamacallit/examples/fastapi_server.py,sha256=xPMDWq3rzGkjxtXrVMm2-SdTPLFXhWENzJixDfn4ADI,437
+whatchamacallit/examples/flask_server.py,sha256=W7yR8XoPRYhAzdROItJMTRIR0B4qIqfiBkU6bvkd8vg,313
+whatchamacallit/fastapi.py,sha256=ysmvUECHqptdVHzw3Lb0mnSarLbsn_vSsyuDDAy9eBs,1156
+whatchamacallit/flask.py,sha256=zuyZ2pP98qSQcsU4rNGJr3-RREO0iC5MIoF8RW5upBU,764
+whatchamacallit/make.py,sha256=WE-oBETybdGsyl9z-pEU0tyGnZ-6z1CEEbOvpc0irF0,6034
+whatchamacallit/test_make.py,sha256=mO2CRHW4_qLX9puuBaXsfPoF8Y9pVctpMs0kWYziF8g,3379
+whatchamacallit-0.0.4.dist-info/LICENSE,sha256=NAiYmyZ4m6p0SWP-H5IQlsomOzVQ1rYa4QbWDB-CGpg,1092
+whatchamacallit-0.0.4.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+whatchamacallit-0.0.4.dist-info/METADATA,sha256=nM2U_MGtPbJ1M_bpX_4_IZxg28o5A2nvyWq-Gj1dXOs,3334
+whatchamacallit-0.0.4.dist-info/RECORD,,
