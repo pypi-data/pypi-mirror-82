@@ -1,0 +1,9 @@
+pip
+packaging
+
+[dev]
+wheel
+anaconda-cli
+sphinx
+fastcore
+twine
