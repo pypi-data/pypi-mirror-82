@@ -1,0 +1,3 @@
+[console_scripts]
+uncommon = uncommon.__main__:main
+
