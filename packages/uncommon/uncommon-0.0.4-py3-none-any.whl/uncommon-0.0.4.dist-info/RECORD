@@ -1,0 +1,10 @@
+uncommon/__init__.py,sha256=Mmwu8vBqYbMAJx4Ky-YFhIqwQfYJ9p_x04F_lYGonmY,30
+uncommon/__main__.py,sha256=BGKk652bVQcmDPQOH-Kbm0y3vGxPDqUt6mjnDMl_GYc,127
+uncommon/uncommon.py,sha256=Q--eqJ6HZ-3iyelQyHnPx0GQ1LHcFdaI0xkOjfGkK8s,757
+uncommon/data/words.txt,sha256=nYnGpAaetVlYtfy-P_LCYIoA8iXdjIcrJdnoAGIwSkI,53059
+uncommon-0.0.4.dist-info/LICENSE.md,sha256=t51-lnfx4pUU75CJ_RlbLqTZVqAXKA0iVdXjtIv-sGQ,1072
+uncommon-0.0.4.dist-info/METADATA,sha256=Q0sT3AcSqkRDLnXVuQz-d3puakNV7TkrrUOH551VTlI,1933
+uncommon-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+uncommon-0.0.4.dist-info/entry_points.txt,sha256=ck7zmyr8l1GIBPF2jnfbjcImnvdNvRsauVfy4_J1-js,53
+uncommon-0.0.4.dist-info/top_level.txt,sha256=rBcG5K0qGB7V5Sm-1SCLp1BfiKpYFFCWchj4CjoxbLU,9
+uncommon-0.0.4.dist-info/RECORD,,
