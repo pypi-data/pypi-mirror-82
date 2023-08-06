@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: britz
+Version: 0.0.0
+Summary: Easily review dependencies between SQL Transformations
+Home-page: https://github.com/JimFawkes/britz
+License: UNKNOWN
+Author: Moritz Eilfort
+Author-email: britz@jimfawkes.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: pglast==1.13
+Requires-Dist: pytest==6.1.1 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Provides-Extra: test
+
+***Attention, this project is not in any state to be used.***
+
+# britz
+Easily review dependencies between SQL Transformations
+
+
+[![test-action](https://github.com/JimFawkes/britz/workflows/run_tests/badge.svg)](https://github.com/JimFawkes/britz/actions)
+[![codecov](https://codecov.io/gh/JimFawkes/britz/branch/master/graph/badge.svg)](https://codecov.io/gh/JimFawkes/britz)
+![python](https://img.shields.io/badge/python-3.8-blue)
+[![black](https://github.com/JimFawkes/britz/workflows/Lint/badge.svg)](https://github.com/JimFawkes/britz/actions)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](COPYING)
+[![Latest Tag](https://img.shields.io/github/v/tag/jimfawkes/britz)](https://github.com/JimFawkes/britz/releases)
+[![CodeFactor](https://www.codefactor.io/repository/github/jimfawkes/britz/badge)](https://www.codefactor.io/repository/github/jimfawkes/britz)
+[![CodeQL](https://github.com/JimFawkes/britz/workflows/CodeQL/badge.svg)](https://github.com/JimFawkes/britz/actions)
+
+

@@ -1,0 +1,8 @@
+britz/__init__.py,sha256=rnFaj1L7G4KbK02J3COelCZdEo8xrK3JqFzKymgqWtU,564
+britz/__main__.py,sha256=MDgG1t0vVbE86B32tvBQXbCEzQDe5JryeX_p4_ApUwI,196
+britz/cli.py,sha256=ADq3oz8hxUhAd9PFrory9GMeg-UC3sb5_DS3B4xbrL0,1827
+britz-0.0.0.dist-info/entry_points.txt,sha256=PvgPOVQTss2w3EmkBPAWcPQ4HwcqPYgCgP93-nkeH78,39
+britz-0.0.0.dist-info/COPYING,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+britz-0.0.0.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+britz-0.0.0.dist-info/METADATA,sha256=ibGenB4Uf8VYWD5YnZ51jNdoE4jLF3EovxQZBBphgcE,1741
+britz-0.0.0.dist-info/RECORD,,
