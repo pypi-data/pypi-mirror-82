@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: passconfig
+Version: 1.0.0
+Summary: A Simple Username and Password Manager
+Home-page: https://github.com/suqingdong/passconfig
+Author: suqingdong
+Author-email: 1078595229@qq.com
+License: BSD License
+Description: # A Simple Username and Password Manager with ConfigParser
+        
+        ## Installation
+        ```bash
+        pip install passconfig
+        ```
+        
+        ## Basic Usage
+        ```python
+        from passconfig import PassConfig
+        
+        pc = PassConfig()
+        username, password = pc.get()
+        print(username, password)
+        # login or something with username and password
+        # save if right
+        # example:
+        # if login(username, password):
+        #     pc.save()
+        ```
+        
+        
+        ## Example with `imaplib`
+        ```python
+        import imaplib
+        import passconfig
+        
+        pc = passconfig.PassConfig(section='imap4')
+        username, password = pc.get()  # input at the first time
+        
+        mail = imaplib.IMAP4_SSL('imap.exmail.qq.com')
+        
+        res = mail.login(username, password)
+        if res[0] == 'OK':
+            pc.save()
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

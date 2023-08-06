@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+passconfig/__init__.py
+passconfig/cli.py
+passconfig/version.json
+passconfig.egg-info/PKG-INFO
+passconfig.egg-info/SOURCES.txt
+passconfig.egg-info/dependency_links.txt
+passconfig.egg-info/requires.txt
+passconfig.egg-info/top_level.txt
