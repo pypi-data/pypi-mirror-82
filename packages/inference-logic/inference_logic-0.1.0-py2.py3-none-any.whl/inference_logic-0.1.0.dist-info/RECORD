@@ -1,0 +1,10 @@
+inference_logic/__init__.py,sha256=H736aen_IVD15oD-2HSTAPmuB6gDHJk_3SMwsxlaKsY,126
+inference_logic/algorithms.py,sha256=0qOfdRjTvZl8GcrDUXb3GY1p0iEP6A5hJQ1guuTZGDA,3178
+inference_logic/data_structures.py,sha256=rOmV8zIPl6k4oQ6UnoZ2BLYL5Q1OErfMCPeUp3dfVYc,8118
+inference_logic/equality.py,sha256=aVzmfuv9kOK_bPi-HO-FnyVPZMOccrymtYvs_aVuVQo,8493
+inference_logic-0.1.0.dist-info/AUTHORS.rst,sha256=hM68LVLa1OjF43uWrhZVCtK2dYF-e81YqYrnqGqEDNM,164
+inference_logic-0.1.0.dist-info/LICENSE,sha256=_wqpcZiPJzVH2KVVWAptWCw3sMRCnaRDJng6Ti_KC4g,1075
+inference_logic-0.1.0.dist-info/METADATA,sha256=frn9DTwno9BSdpjotHyRsxVd2Mkj9OCr_We2Ih-pSQ8,4089
+inference_logic-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+inference_logic-0.1.0.dist-info/top_level.txt,sha256=743AFT1D8f-97ZWN8eBcHxGccJNpcUhypID6ESQE67w,16
+inference_logic-0.1.0.dist-info/RECORD,,
