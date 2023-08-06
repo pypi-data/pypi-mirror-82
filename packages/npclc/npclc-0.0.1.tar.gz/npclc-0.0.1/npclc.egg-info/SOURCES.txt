@@ -1,0 +1,9 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+setup.py
+npclc/__init__.py
+npclc.egg-info/PKG-INFO
+npclc.egg-info/SOURCES.txt
+npclc.egg-info/dependency_links.txt
+npclc.egg-info/top_level.txt
