@@ -1,0 +1,15 @@
+qsc/__init__.py,sha256=zw1JmKini3Pq9bgZ-Difg41njMKpQgsmcLNfDTFNUyE,157
+qsc/fourier_interpolation.py,sha256=j2cyrJJSD8ZsHq2niXodsSFBTlzcQlQeVvFVGHys7NY,1447
+qsc/qsc.py,sha256=VtjltuHxmlH4wnqFATpw5sXrhszdG6hDQ2mJOYOqcSs,13742
+qsc/spectral_diff_matrix.py,sha256=vAev0vnq6r3Yf1ZKojM7olYPomEmS9ig_JPIJYwT-dE,1122
+qsc/util.py,sha256=trrWaQrp_bAdEMPXg93-RlKzagFnzOz_7yU_RK8X9vE,1372
+qsc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qsc/tests/test_fourier_interpolation.py,sha256=EoG56w25uGMFKfS-q9KiHdPOCuSVd2NxATfbJqaXkTc,2819
+qsc/tests/test_qsc.py,sha256=e81gZguEpWW4aCWHGq-yp2aEyLisIpyC0mgDdSvyVYU,8642
+qsc/tests/test_spectral_diff_matrix.py,sha256=6MK2yF2iBcQDpFXrVtztFpqElOZPLh9D3kLBR40n7es,4006
+qsc/tests/test_util.py,sha256=h1HlAMF9BofPEZrasnEmYDXeIKcCa090Z4L8tm_s47c,712
+qsc-0.0.1.dist-info/LICENSE.txt,sha256=nV1VQS05fETPOqx9fZiRFgwsz1u_Tbq6iKxuvSi9GE4,1272
+qsc-0.0.1.dist-info/METADATA,sha256=maQK_j-Mg5HdqXh1Ww4UWuMSztjPpv-jjbHgq1BPR3o,535
+qsc-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+qsc-0.0.1.dist-info/top_level.txt,sha256=FIKPiS5pFMTxM7e8psTZ3Fk0J1dSiYrV7PQEDlMXi9s,4
+qsc-0.0.1.dist-info/RECORD,,
