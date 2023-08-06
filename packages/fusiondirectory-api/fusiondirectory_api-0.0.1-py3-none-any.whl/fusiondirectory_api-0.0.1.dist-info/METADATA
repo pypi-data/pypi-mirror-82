@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fusiondirectory-api
+Version: 0.0.1
+Summary: A Python client library for the FusionDirectory API
+Home-page: UNKNOWN
+Author: Tobias Balle-Petersen
+Author-email: tobiasbp@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/tobiasbp/fusiondirectory-api/issues
+Project-URL: Release Notes, https://github.com/tobiasbp/fusiondirectory-api/releases/
+Project-URL: Source, https://github.com/tobiasbp/fusiondirectory-api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: <4,>3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.24.0)
+
+# fusiondirectory-api
+A Python3 wrapper for the REST API of LDAP manager FusionDirectory
+
+
