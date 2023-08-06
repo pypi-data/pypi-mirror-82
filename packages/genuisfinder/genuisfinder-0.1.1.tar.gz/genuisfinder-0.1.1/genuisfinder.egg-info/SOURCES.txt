@@ -1,0 +1,9 @@
+README.md
+setup.py
+genuisfinder/__init__.py
+genuisfinder/main.py
+genuisfinder.egg-info/PKG-INFO
+genuisfinder.egg-info/SOURCES.txt
+genuisfinder.egg-info/dependency_links.txt
+genuisfinder.egg-info/requires.txt
+genuisfinder.egg-info/top_level.txt
