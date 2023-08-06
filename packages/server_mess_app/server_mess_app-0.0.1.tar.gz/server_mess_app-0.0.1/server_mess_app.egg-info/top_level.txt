@@ -1,0 +1,4 @@
+common
+logs
+project_unittests
+server
