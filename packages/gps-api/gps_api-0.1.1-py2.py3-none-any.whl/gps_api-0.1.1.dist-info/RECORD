@@ -1,0 +1,11 @@
+gps_api/__init__.py,sha256=hWVzPyAuRjI7fkkYAeE55mIY8xbefYiuk_clp2R5w9U,195
+gps_api/cli.py,sha256=xHHlH_5CAO1k_ybT7a42K9SueU_O03otgoqixq5kcrM,399
+gps_api/gps_api.py,sha256=TSGGK_LB1tbyMSq8HSL8pOoDPO_4lssep9Io6dx2yDQ,2245
+gps_api/position.py,sha256=KWh7gSnXzsB11zq7QJRAliTqgUI3PkDFX9IxlQ5x0IM,889
+gps_api-0.1.1.dist-info/AUTHORS.rst,sha256=7g75BOl2aMeDdiyM2gVNqnj1C1_smykr_WhwXjnKUfg,159
+gps_api-0.1.1.dist-info/LICENSE,sha256=NpEWNci7mhnVp4z-MYPZzOxEOoTcfCI5mPczxSaAr5I,1071
+gps_api-0.1.1.dist-info/METADATA,sha256=CzI_30XY8Y3DeI0S-I9qoKyMT8z5YtMB1Xxtmhe7kSE,1765
+gps_api-0.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+gps_api-0.1.1.dist-info/entry_points.txt,sha256=IDhCX7zY-iGLX7TQHk-MG9tFW3jmLkkiG_-FjNN5eXc,46
+gps_api-0.1.1.dist-info/top_level.txt,sha256=uK7BW40jRDUe7GYmip8KgS6JI5YKmoRSZLdTt4xMYZA,8
+gps_api-0.1.1.dist-info/RECORD,,
