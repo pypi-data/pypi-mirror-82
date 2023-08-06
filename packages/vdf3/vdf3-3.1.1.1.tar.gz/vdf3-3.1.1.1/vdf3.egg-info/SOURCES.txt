@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+vdf/__init__.py
+vdf/_io.c
+vdf/exceptions.py
+vdf/io.py
+vdf/vdf_dict.py
+vdf3.egg-info/PKG-INFO
+vdf3.egg-info/SOURCES.txt
+vdf3.egg-info/dependency_links.txt
+vdf3.egg-info/top_level.txt
