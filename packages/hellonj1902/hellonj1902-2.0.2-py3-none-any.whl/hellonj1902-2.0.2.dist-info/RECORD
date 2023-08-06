@@ -1,0 +1,10 @@
+helloworld/__init__.py,sha256=GAIRmJowMWRtWQeCyC7ifwuM8E1mb_c41kcL-Cp0kAc,21
+helloworld/core.py,sha256=R24rXQGPCB3dEVzCnt8EvfmQVgFYb3nnp8BVIHDaIW8,95
+helloworld/web.py,sha256=6mdLH-r3tXDrcns9pSkE2nGi5R8ue0AoTHH9rKFogeM,238
+helloworld/templates/index.html,sha256=P8joIbSy8-zT2j0J3G3lN3aaiZDDPJxsT0sK-MsYVxo,229
+hellonj1902-2.0.2.dist-info/LICENSE,sha256=abTwXuWo0PYWXFFtjJjAeZNkP9eZP2ozEfXskXrTxOE,1089
+hellonj1902-2.0.2.dist-info/METADATA,sha256=zCiuI3tgueVxD9x8x4Jj_Uu7IfMZYmIBI3sgV3RcG_0,392
+hellonj1902-2.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hellonj1902-2.0.2.dist-info/entry_points.txt,sha256=tJ9Q6LTYbLkgu3rAT10mCvFDs7az3R6HEYK0rb0P89s,96
+hellonj1902-2.0.2.dist-info/top_level.txt,sha256=jNB_Ol_5jyp4z8NmwT-xI-uNKcHKN8ed8ZBCXVueQk0,11
+hellonj1902-2.0.2.dist-info/RECORD,,
