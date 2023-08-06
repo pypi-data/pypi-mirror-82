@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pinnacle_pub
+Version: 0.1
+Summary: Tools to analyze publication metrics from an institution
+Home-page: https://github.com/IATE-CONICET-UNC/pinnacle
+Author: ['Marcelo Lares']
+Author-email: marcelo.lares@unc.edu.ar
+License: MIT
+Description: # pinnacle
+        
+        
+        Run the statistics and create some plots:
+        
+        Create or load an ADS API key, and save it in a environment variable ADS_DEV_KEY 
+        
+        ::
+        
+           import pinnacle
+           # create a config dictionary
+           iate = pinnacle.inst_adsentries(config)
+           iate.load_inst()
+           viz = pub_dataviz(iate)
+           viz.plot_all()
+        
+        
+        The task of this project is to analyze the publication metrics in the IATE.
+         
+        
+        
+        Autor
+        -----
+        
+        Project by Marcelo Lares (IATE, UNC).  Developed in 2020.      
+        
+Keywords: publications
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown

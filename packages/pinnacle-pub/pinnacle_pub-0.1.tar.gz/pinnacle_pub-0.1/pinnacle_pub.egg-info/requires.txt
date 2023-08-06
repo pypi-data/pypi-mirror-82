@@ -1,0 +1,5 @@
+ads
+numpy
+pandas
+pytest
+openpyxl
