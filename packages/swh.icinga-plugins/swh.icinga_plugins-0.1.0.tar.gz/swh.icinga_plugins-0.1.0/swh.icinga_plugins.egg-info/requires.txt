@@ -1,0 +1,10 @@
+psycopg2
+requests
+swh.core[http]>=0.3
+swh.deposit
+swh.storage>=v0.0.162
+
+[testing]
+pytest
+pytest-mock
+requests-mock
