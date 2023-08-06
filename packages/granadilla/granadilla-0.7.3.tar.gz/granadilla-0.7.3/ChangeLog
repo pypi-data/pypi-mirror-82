@@ -1,0 +1,28 @@
+ChangeLog
+---------
+
+0.7.3 (2020-10-13)
+------------------
+
+
+
+
+0.7.2 (2020-10-13)
+------------------
+
+- Ré-utilisation de la lib `django-ldapdb` au lieu de la lib temporaire de remplacement `polyconseil-django-ldapdb`.
+
+
+0.7.1 (2020-10-07)
+------------------
+
+- Passage à Django 3
+
+
+0.7.0 (2018-12-14)
+------------------
+
+
+
+
+.. vim:set ft=rst:
