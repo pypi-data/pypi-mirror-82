@@ -1,0 +1,17 @@
+pypubtrack/VERSION,sha256=kR_AxIywxwYB21d1qb7xt0DcTMn5tGOJufBWP-frlNc,5
+pypubtrack/__init__.py,sha256=av-JUGG5kV9h9AgiDutottsKEQQdMzY9SOWiDVaMFV0,174
+pypubtrack/authentication.py,sha256=aGoUBgnWeNhB-Ek7Lg0pJ6m7mjJxzE8p2MkfV5HkxuI,4173
+pypubtrack/cli.py,sha256=SI9uk-CEO2P-1H0H1SWRb67YInWmGeTzIXE5g_JjUE8,16178
+pypubtrack/config.py,sha256=qt8-ehaxzNgegXCEQu2YBr4EKz8vJxH8Kz3KkTZgRyk,3550
+pypubtrack/endpoint.py,sha256=K6ylwbHniBZoaZVZWkyuscdn3ZLECKwgM-cYcwIzCyc,19057
+pypubtrack/pypubtrack.py,sha256=Np-rF9-J4PiFr6S75CzDUsImsZ6yxEKuXcOwa_I_ITY,2927
+pypubtrack/util.py,sha256=7UmFj3qjWzVSfdNPIQAAfRG38WyJknRV_Cn9Xnvv4Q8,3309
+pypubtrack/templates/config.toml,sha256=qWjexXwK3ucgcm0lwhIPEd8gIn8gwEJNMKTeo7RF0gM,1150
+pypubtrack/templates/publication.j2,sha256=4aRLn1QGuG7pm0LC3trB7sJJIZ13XFRgIkqEyOSKtJw,547
+pypubtrack-0.3.0.dist-info/AUTHORS.rst,sha256=UG-5-pJSCq574wdnU6uiTjzV-ahht9puw4YZFcgRLqw,158
+pypubtrack-0.3.0.dist-info/LICENSE,sha256=EU4e3jBntuhUd60oWckyydlvf7a6cJ71z_vcsXO5yTs,1071
+pypubtrack-0.3.0.dist-info/METADATA,sha256=_fAQwR3mAHYj8A0sQ5_W5P97wiKS4UPszmFXP0rCek0,5390
+pypubtrack-0.3.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pypubtrack-0.3.0.dist-info/entry_points.txt,sha256=U1lLzFZ5e4Mwgy_Hsp9goqSa5c_pxVxVTsiaK4fAmeA,51
+pypubtrack-0.3.0.dist-info/top_level.txt,sha256=5Vf9DWrOxsZdbmDR2iGaGhWOB8I9_pFdaVwWqpWOzsA,11
+pypubtrack-0.3.0.dist-info/RECORD,,
