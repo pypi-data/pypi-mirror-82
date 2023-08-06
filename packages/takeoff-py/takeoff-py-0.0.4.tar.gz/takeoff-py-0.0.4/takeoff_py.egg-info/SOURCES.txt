@@ -1,0 +1,9 @@
+README.md
+setup.py
+takeoff-generate
+takeoff/__init__.py
+takeoff/generator.py
+takeoff_py.egg-info/PKG-INFO
+takeoff_py.egg-info/SOURCES.txt
+takeoff_py.egg-info/dependency_links.txt
+takeoff_py.egg-info/top_level.txt
