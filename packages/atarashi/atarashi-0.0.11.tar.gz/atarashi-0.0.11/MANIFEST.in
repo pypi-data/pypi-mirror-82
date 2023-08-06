@@ -1,0 +1,18 @@
+# Manifest syntax https://docs.python.org/2/distutils/sourcedist.html
+graft wheelhouse
+
+recursive-exclude __pycache__  *.pyc *.pyo *.orig
+
+exclude *.git*
+exclude *.sh
+exclude *imtihaan.py
+
+include requirements*.*
+include pyproject.toml
+include atarashi/data/licenses/processedLicenses.csv
+include atarashi/data/Ngram_keywords.json
+
+prune .git
+prune venv
+prune test*
+
