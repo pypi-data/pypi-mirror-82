@@ -1,0 +1,11 @@
+topex/__init__.py,sha256=b8Tfyn46wV92NWm_uziWVxCW3zTxPV8EyFKcI9HhXcA,23
+topex/_nbdev.py,sha256=soaDliQ5ZxYWpy-xcI2qfgnJNndDYlBD4MJRt7gBqUs,2451
+topex/core.py,sha256=wtGp1E0BBvqD0igtplyorz38uzBivAucNl0AlXI1DYs,22817
+topex/internal.py,sha256=w8600BVUloVBLS9Rsu49Z4bY5S-Yp4jYo7Qtqa6_ceI,12348
+topex/preprocessing.py,sha256=d8l4Ni9N0Ln0Bnv-NG6FCyEAkKZRZSGWvqbowNO0yt0,2564
+topex-0.0.5.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+topex-0.0.5.dist-info/METADATA,sha256=LB8eXfCF94GpV5QrDAvAAQFqayJzQ2v7swqK7jCZBCU,6828
+topex-0.0.5.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+topex-0.0.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+topex-0.0.5.dist-info/top_level.txt,sha256=diP6iJALbT9vsZB3H_dtViTvJ81j29byZYRcM4O9hrs,6
+topex-0.0.5.dist-info/RECORD,,
