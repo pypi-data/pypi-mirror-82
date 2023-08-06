@@ -1,0 +1,11 @@
+aiokef/__init__.py,sha256=NpyDpVoDaLaWNwJPg2iYKMl6FRB5IdIeZUHrH28hSTM,231
+aiokef/_static_version.py,sha256=qlk0jX3AsBo-eu13NW7JI2FbGNuIXM6oSPPjjCCuhZ4,61
+aiokef/_version.py,sha256=8GUPhu-8kgVXwkcujhREOG9T-L2oBTvzKLTA9Ruhyew,6457
+aiokef/aiokef.py,sha256=HvfG-AvelODD8_XbK7l-c03y0lAxLfi-gfUeAZYdzcs,26039
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_aiokef.py,sha256=V9gJLTiA0xZxVwuYjwuz-iqm6VRTTBscaNGVrucYRJ0,78
+aiokef-0.2.16.dist-info/LICENSE,sha256=Ymf5uMpjUshygbhiNqK1r1Z9cMj4OFSqOww63D5LCfM,1094
+aiokef-0.2.16.dist-info/METADATA,sha256=0HThB_t0GBehYg8aoI30aQdyAry-Um-ULuuLA7k8jOQ,3000
+aiokef-0.2.16.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiokef-0.2.16.dist-info/top_level.txt,sha256=R4dNkGkZICGm9i-NbAF_Kw7l18pWDTFgkOHxaDmhXBY,13
+aiokef-0.2.16.dist-info/RECORD,,
