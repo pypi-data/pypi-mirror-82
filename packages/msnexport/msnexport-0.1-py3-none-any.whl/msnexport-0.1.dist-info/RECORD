@@ -1,0 +1,10 @@
+msnexport/MSNParser.py,sha256=J00V5zic2QrVnuI7b6VXlBKSv8CwlxrJ03HnZxIks8A,695
+msnexport/PDFExporter.py,sha256=pHHli5w_SVNnX_E0FSZE3nwvhwmek8QgpSJ95gTvmBk,899
+msnexport/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msnexport/cli.py,sha256=Yort4XZ8VAmSog3USCV0ZiRNXeWWV5onoWcIPP96Y04,380
+msnexport-0.1.dist-info/LICENSE,sha256=p4iUyG-RugGv76tmhBFHydx2kKjaaznPOco0x6dCi4k,1072
+msnexport-0.1.dist-info/METADATA,sha256=85v87tQBspENqLLQaevMQL_yhgfnIE53OLghU8lpFTs,1305
+msnexport-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+msnexport-0.1.dist-info/entry_points.txt,sha256=BU-Lpb6swpKpw4SEpPECChfT_yoEC9lzyiHQcmecEwM,70
+msnexport-0.1.dist-info/top_level.txt,sha256=qB4UW5-FnbTNsPTIeh3N4YC7FpEdt49SjcjS0ZxBfkQ,10
+msnexport-0.1.dist-info/RECORD,,
