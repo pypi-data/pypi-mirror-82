@@ -1,0 +1,12 @@
+setup.py
+mof/__init__.py
+mof/mof.py
+mof.egg-info/PKG-INFO
+mof.egg-info/SOURCES.txt
+mof.egg-info/dependency_links.txt
+mof.egg-info/entry_points.txt
+mof.egg-info/requires.txt
+mof.egg-info/top_level.txt
+mof/data/clusters.tar.gz
+mof/data/downloads.tsv
+mof/data/trees.tar.gz

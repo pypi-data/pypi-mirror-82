@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: mof
+Version: 0.1.0
+Summary: mof
+Home-page: https://github.com/karel-brinda/mof
+Author: Karel Brinda
+Author-email: karel.brinda@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5, <4
