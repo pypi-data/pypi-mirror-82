@@ -1,0 +1,7 @@
+wiz_dingtalk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wiz_dingtalk/ding_talk_bot.py,sha256=FoyuUuB57kShQtOuyeYNQLjYSStfprNxNY26sh9yajo,1546
+wiz_dingtalk/message.py,sha256=OdYS_WNBRBibEhCJH6SDHlH9WPrHDDzRhcEq2oa-RcM,1433
+wiz_dingtalk-1.0.1.dist-info/METADATA,sha256=Hu-ON-9oq0i0UQmvfhDrb82EuwsA1jKXY6yZcRm3GaY,1091
+wiz_dingtalk-1.0.1.dist-info/RECORD,,
+wiz_dingtalk-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+wiz_dingtalk-1.0.1.dist-info/top_level.txt,sha256=bwnqY3kBTtYh6Tsj5wJ0MVrgVwGD6Pm4wUfJ3YyGJBw,13
