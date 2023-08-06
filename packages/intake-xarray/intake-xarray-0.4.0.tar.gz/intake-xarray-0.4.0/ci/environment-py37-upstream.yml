@@ -1,0 +1,18 @@
+name: test_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - aiohttp
+  - netcdf4
+  - pip
+  - pydap
+  - pytest
+  - rasterio
+  - scikit-image
+  - xarray
+  - zarr
+  - pip:
+       - git+https://github.com/intake/filesystem_spec.git
+       - git+https://github.com/intake/intake.git
+       - rangehttpserver
