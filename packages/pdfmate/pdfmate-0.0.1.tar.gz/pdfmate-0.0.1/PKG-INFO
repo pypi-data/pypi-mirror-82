@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pdfmate
+Version: 0.0.1
+Summary: Pyppeteer-based async python wrapper to convert html to pdf
+Home-page: https://github.com/terminalkitten
+License: MIT
+Author: TK
+Author-email: dk@terminalkitten.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Topic :: Utilities
+Requires-Dist: PyPDF2 (>=1.26.0,<2.0.0)
+Requires-Dist: pyppeteer (>=0.2.2,<0.3.0)
+Requires-Dist: syncasync (>=20180812,<20180813)
+Description-Content-Type: text/markdown
+
+# PDFMate: HTML to PDF wrapper
+
+W.I.P.
+
