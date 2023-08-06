@@ -1,0 +1,9 @@
+cloudssh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudssh/__main__.py,sha256=XuEPbSH8K6X5lGHCiTPcsT6tlir002x4WhMAYMF6lO8,72
+cloudssh/cloudssh.py,sha256=yhct41OLMWpoaVhKnqQXCSe4k9L1uuo3GepAQnKCkqc,15237
+cloudssh-1.4.dist-info/LICENSE,sha256=tEAWFqqzgWqneH-cGAgXQvxIE7FPBDb-Vtz09iCgcWI,1073
+cloudssh-1.4.dist-info/METADATA,sha256=efDVqEVlvcH6rTTBdQTng3riHW15fnlsZ76m_Nrn6ww,2993
+cloudssh-1.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cloudssh-1.4.dist-info/entry_points.txt,sha256=DJq5cMT4WSi6h2iKPrqj6YVHagGqBP9osBx6q8qHv5E,83
+cloudssh-1.4.dist-info/top_level.txt,sha256=i1T5B5wkgXx8S1XsYDZEkTibJHa8duQi5zKI5fC8rN0,9
+cloudssh-1.4.dist-info/RECORD,,
