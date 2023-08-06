@@ -1,0 +1,5 @@
+requests
+markdownify
+bs4
+unidecode
+fake_useragent
