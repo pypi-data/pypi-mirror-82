@@ -1,0 +1,9 @@
+README.md
+setup.py
+Jinja_Recurse.egg-info/PKG-INFO
+Jinja_Recurse.egg-info/SOURCES.txt
+Jinja_Recurse.egg-info/dependency_links.txt
+Jinja_Recurse.egg-info/entry_points.txt
+Jinja_Recurse.egg-info/requires.txt
+Jinja_Recurse.egg-info/top_level.txt
+jinjarecurse/main.py
