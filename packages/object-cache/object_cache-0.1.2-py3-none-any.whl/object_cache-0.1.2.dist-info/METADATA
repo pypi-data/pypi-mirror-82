@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: object-cache
+Version: 0.1.2
+Summary: 
+Author: u-masao
+Author-email: 4973920+u-masao@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: black (>=20.8b1,<21.0)
+Requires-Dist: cloudpickle (>=1.6.0,<2.0.0)
+Requires-Dist: flake8 (>=3.8.4,<4.0.0)
