@@ -1,0 +1,7 @@
+pyyaml
+markdown
+pygame
+pymunk
+numpy
+opencv-contrib-python
+scikit-image
