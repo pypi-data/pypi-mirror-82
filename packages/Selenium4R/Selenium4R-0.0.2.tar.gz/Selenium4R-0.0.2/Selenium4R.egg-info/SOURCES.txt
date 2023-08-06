@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Selenium4R/WebDriver.py
+Selenium4R/WebElement.py
+Selenium4R/__init__.py
+Selenium4R.egg-info/PKG-INFO
+Selenium4R.egg-info/SOURCES.txt
+Selenium4R.egg-info/dependency_links.txt
+Selenium4R.egg-info/requires.txt
+Selenium4R.egg-info/top_level.txt
