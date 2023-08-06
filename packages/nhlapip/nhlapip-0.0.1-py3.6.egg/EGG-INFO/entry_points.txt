@@ -1,0 +1,3 @@
+[console_scripts]
+nhlapip = nhlapip.__main__:main
+
