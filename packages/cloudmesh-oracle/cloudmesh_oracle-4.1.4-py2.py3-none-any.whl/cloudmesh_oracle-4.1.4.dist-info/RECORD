@@ -1,0 +1,15 @@
+cloudmesh_oracle-4.1.4-nspkg.pth,sha256=K4lDZyHlKS0TcVsgEjQjgNPYnsZp6PXCSyRIy68BhkI,554
+cloudmesh/oracle/__init__.py,sha256=IkOm9kUWkmddTSYLAV1fuR7dYTOg6qyotixTZhR8NmE,22
+cloudmesh/oracle/__version__.py,sha256=VwaopEhiLNWXUKp63HcYbbWUyZEm4juKfpFM6lyu4GI,18
+cloudmesh/oracle/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/oracle/command/oracle.py,sha256=jddozsdDvTJKPt4fEMjMc7ktxYobGKebm0oBx710Wxg,889
+cloudmesh/oracle/compute/Provider.py,sha256=jQmpNABchGNucI_IKsAzSDgh0xbn-K-FA4qQQumXfjo,45752
+cloudmesh/oracle/compute/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/oracle/storage/Provider.py,sha256=nTdXFeVPKZcHWKuZv0GFa7f5iNQOoC1OviE9t8eq2I0,16056
+cloudmesh/oracle/storage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh_oracle-4.1.4.dist-info/LICENSE,sha256=w7U4P4ljhJjniTEMxSyhAcEbWHDk2Ng1FqsOG6aEgs0,769
+cloudmesh_oracle-4.1.4.dist-info/METADATA,sha256=nZRd6aw0FzQgng6BN-oZLl20wSivXl3RrH_Y7T8Pe-I,3275
+cloudmesh_oracle-4.1.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cloudmesh_oracle-4.1.4.dist-info/namespace_packages.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_oracle-4.1.4.dist-info/top_level.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_oracle-4.1.4.dist-info/RECORD,,
