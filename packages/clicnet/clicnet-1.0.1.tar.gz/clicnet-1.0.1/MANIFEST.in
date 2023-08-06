@@ -1,0 +1,6 @@
+include clicnet/cdata/msk.pickle
+include clicnet/cdata/mut_profiles.pickle
+include clicnet/cdata/tcga.pickle
+include clicnet/cdata/msktmb.pickle
+include clicnet/cdata/liu.pickle
+include clicnet/cdata/riaz.pickle
