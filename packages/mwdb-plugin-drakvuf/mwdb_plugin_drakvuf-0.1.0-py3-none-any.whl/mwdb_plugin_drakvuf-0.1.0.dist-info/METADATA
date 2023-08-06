@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mwdb-plugin-drakvuf
+Version: 0.1.0
+Summary: MWDB Drakvuf Sandbox plugin
+Home-page: UNKNOWN
+Author: CERT Polska
+Author-email: info@cert.pl
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mwdb-core
+Requires-Dist: requests
+
+UNKNOWN
+
+
