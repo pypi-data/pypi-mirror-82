@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: easy_celery
+Version: 1.0.1
+Summary: Make multi-computer distributed tasks easier
+Home-page: https://github.com/kzl_knight/easy_celery
+Author: kzl_knight
+Author-email: 164645621@qq.com
+License: MIT Licence
+Description: Based on Redis, support task scheduling between master and slave
+Keywords: celery,redis,easy,job
+Platform: any
