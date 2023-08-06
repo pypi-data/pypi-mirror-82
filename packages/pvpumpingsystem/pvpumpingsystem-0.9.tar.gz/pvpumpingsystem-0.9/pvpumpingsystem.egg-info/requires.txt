@@ -1,0 +1,7 @@
+pvlib
+fluids
+numpy-financial
+matplotlib
+pytest
+sklearn
+tqdm
