@@ -1,0 +1,3 @@
+[console_scripts]
+dkn = deepkingnet.main:cli
+
