@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: classifiction-f-20
+Version: 0.0.1
+Summary: Used to predict the properties of f_20
+Home-page: https://github.com/pypa/sampleproject
+Author: karen
+Author-email: 962388544@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.6
+Description-Content-Type: text/markdown
+
+# classification_f_20
+
+The human oral bioavailability. For any drug administrated by the oral route, oral bioavailability is undoubtedly one of the most important pharmacokinetic parameters because it is the indicator of the eﬃciency of the drug delivery to the systemic circulation.  The range of bioavailability value is 0-100. Two thresholds (20% and 30%) were applied to split all the compounds into positive and negative compounds.[25] If the threshold is 20%.
+
