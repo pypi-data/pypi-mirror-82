@@ -1,0 +1,17 @@
+radioactivedecay/__init__.py,sha256=JBvP4EPXUtn6_StdSBXLxOLOmkAGNeqlaQ7iSR7hFzs,377
+radioactivedecay/decaydata.py,sha256=ZVaT4p0WadLhw2h8LxQzCjwyx9qnXPf5yYcqfNNkq_Q,7744
+radioactivedecay/decayfunctions.py,sha256=4knQ9Ac64k_RYg2YnJXw9KgQ_8IBZzo4s1V4zAOgERU,13987
+radioactivedecay/utils.py,sha256=pUTHQPOQTjXNqA8GAfzJaoJUsPjtrlZ8kOT4Xac_Qe8,7372
+radioactivedecay/icrp107/__init__.py,sha256=-JIt3g1eBf4bVQNNQd4JBeQNA7o0LK0W9tYKKX_r5s8,22
+radioactivedecay/icrp107/c.npz,sha256=xyD8euRmQqAQRXsE40i35W-qeWKjuEjP0lIst5duq3Y,36493
+radioactivedecay/icrp107/cinverse.npz,sha256=nXymx-PekwXD2exE-mjbv4VV5t97tG56MnVMmBeyHpA,33851
+radioactivedecay/icrp107/decay_data.npz,sha256=Lcrej_SyfrAC6FI1f5irMDHk-XXtKH1vpu-17hiw4K4,44194
+tests/__init__.py,sha256=-JIt3g1eBf4bVQNNQd4JBeQNA7o0LK0W9tYKKX_r5s8,22
+tests/test_decaydata.py,sha256=PrOgmIv1I4gvEqSmMtMNnlG3Rfhl-fTPxNTA_P-IICU,4086
+tests/test_decayfunctions.py,sha256=Ar24E9B6ZaG9omdY7cW8YKJ0uD68N8hL6eOFKuFWBmw,9837
+tests/test_utils.py,sha256=ObYkAD7lauHMmCqKnIcqJ4Y656AJsUaZuZmzFzK1gP0,11426
+radioactivedecay-0.0.8.dist-info/LICENSE,sha256=K0xXMuistYu_9ViBiK2beCFrPT1NoRnQFFjRgeFd2F0,2653
+radioactivedecay-0.0.8.dist-info/METADATA,sha256=Tc1p8EFlTA8-K0LTXJiQcu7DZHVkCaibXMFQRnN1q6k,6760
+radioactivedecay-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+radioactivedecay-0.0.8.dist-info/top_level.txt,sha256=zOoMH3nb97r1OHUcmtvzP2dbg9olk9MDaFdY-m8fZps,23
+radioactivedecay-0.0.8.dist-info/RECORD,,
