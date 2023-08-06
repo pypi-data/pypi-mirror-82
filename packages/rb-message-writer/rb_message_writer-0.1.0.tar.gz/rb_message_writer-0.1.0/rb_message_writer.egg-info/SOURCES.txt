@@ -1,0 +1,12 @@
+README.md
+setup.py
+rb_message_writer/__init__.py
+rb_message_writer/bigquery_writer.py
+rb_message_writer/message_writer.py
+rb_message_writer/multi_writer.py
+rb_message_writer/sql_writer.py
+rb_message_writer.egg-info/PKG-INFO
+rb_message_writer.egg-info/SOURCES.txt
+rb_message_writer.egg-info/dependency_links.txt
+rb_message_writer.egg-info/requires.txt
+rb_message_writer.egg-info/top_level.txt

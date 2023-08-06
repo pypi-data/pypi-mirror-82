@@ -1,0 +1,4 @@
+
+[bigquery]
+google-cloud-bigquery
+apache-airflow
