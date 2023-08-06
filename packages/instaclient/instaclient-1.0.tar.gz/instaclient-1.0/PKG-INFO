@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: instaclient
+Version: 1.0
+Summary: Instagram client built with Python 3.8 and the Selenium package.
+Home-page: https://github.com/wickerdevs/py-instaclient
+Author: David Wicker
+Author-email: davidwickerhf@gmail.com
+License: MIT
+Download-URL: https://github.com/wickerdevs/py-instaclient/archive/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: INSTAGRAM,BOT,INSTAGRAM BOT,INSTAGRAM CLIENT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
