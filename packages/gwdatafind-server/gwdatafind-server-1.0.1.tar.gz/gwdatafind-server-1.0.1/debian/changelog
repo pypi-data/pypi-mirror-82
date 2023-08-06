@@ -1,0 +1,17 @@
+gwdatafind-server (1.0.1-1) stable; urgency=low
+
+  * Updated version numbers
+
+ -- Duncan Meacher <duncan.meacher@ligo.org>  Thur, 15 Oct 2020 00:00:00 +0100
+
+gwdatafind-server (1.0.0-1) stable; urgency=low
+
+  * Added X.509 certifiacate authentication
+
+ -- Duncan Meacher <duncan.meacher@ligo.org>  Fri, 24 Jul 2020 00:00:00 +0100
+
+gwdatafind-server (0.1.0-1) unstable; urgency=low
+
+  * first release of new server
+
+ -- Duncan Macleod <duncan.macleod@ligo.org>  Mon, 10 Aug 2018 00:00:00 +0100
