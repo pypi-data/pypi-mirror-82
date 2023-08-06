@@ -1,0 +1,7 @@
+README.md
+setup.py
+detech_ai_db.egg-info/PKG-INFO
+detech_ai_db.egg-info/SOURCES.txt
+detech_ai_db.egg-info/dependency_links.txt
+detech_ai_db.egg-info/top_level.txt
+test/test_pkg.py
