@@ -1,0 +1,9 @@
+txcan/__init__.py,sha256=JeUyAHsTAjMeRMWHE8DECOLOLzQsNTMvhCLxoWHMvdA,129
+txcan/_version.py,sha256=BSAr9BdrSibL6LHOQWh1PQRNmYIogK_0kcS6FfyJp4c,499
+txcan/cli.py,sha256=SPtJ70sDl0F8QWy1JIC4gVqrwQtIwI856WK7Iq2PubI,2222
+txcan/core.py,sha256=BHxo8gSqwKV55YEkqiBnxk6UheuRq7H42m8Y8Lc_y9E,2329
+txcan-2020.10.dist-info/METADATA,sha256=KZKfNQZZNhBbJRtk8L6FqqNHUcrEoprqXUs3soYI-Mk,2352
+txcan-2020.10.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+txcan-2020.10.dist-info/entry_points.txt,sha256=ZrRtfuEL_-5XLu9cQS8fvtYZeDDEb4uCDjrrXTP5CDA,48
+txcan-2020.10.dist-info/top_level.txt,sha256=owdmbQskzSJRom7cDUVYmW_sfd5mlR0fKVx9IeqwJcI,6
+txcan-2020.10.dist-info/RECORD,,
