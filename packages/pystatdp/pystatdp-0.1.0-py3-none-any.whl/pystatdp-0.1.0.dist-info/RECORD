@@ -1,0 +1,13 @@
+pystatdp/__init__.py,sha256=yMpwhs7Pm8dkuXuM7JGRkJPvXgcLMMQWpwxydxvvrRw,9332
+pystatdp/_hypergeom.py,sha256=mSO5IzEBqG1KpIGtiIkAjp9Yf6u8_Rnj09lclS-ELoc,5543
+pystatdp/algorithms.py,sha256=F4c4PIvn0JfqwFtGz_1PzSJNl8_R_qrYjCEBTdxOlic,2728
+pystatdp/core.py,sha256=aLvp85gZHvYC0QGgqjEAekZoc_oiumc08ttfn95Byfs,8420
+pystatdp/generators.py,sha256=rib0j94_Yz3NeKKKV9Jik5X1L29kQpn-93OopDmWso8,4023
+pystatdp/hypotest.py,sha256=l8jkTy9udMD-ClMrgDwISSgiXTx7Sdr1NMg7Yyw1RJo,4131
+pystatdp/selectors.py,sha256=u2KPzir4WVQVQhHa9wGIMGhYawYPpxyYgRKCNITBEXA,3797
+pystatdp-0.1.0.dist-info/LICENSE,sha256=h2MD_AzzkAITcqp6cbbHHK6TCWayAerltAWAgowmJXs,1094
+pystatdp-0.1.0.dist-info/METADATA,sha256=kb6R4wB3JNUbLWYOrhAeweC7n0htAjKCcl0E3ifwORs,6717
+pystatdp-0.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pystatdp-0.1.0.dist-info/entry_points.txt,sha256=xb79-6vCH_tk6l1Ns9kyCYnao_e5uxf_j4xdHhcSy2s,53
+pystatdp-0.1.0.dist-info/top_level.txt,sha256=9u8-TiElzmOcKzPNEmCvVBLkOcEjTddDVb6OOCCwRi0,9
+pystatdp-0.1.0.dist-info/RECORD,,
