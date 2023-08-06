@@ -1,0 +1,14 @@
+labml_remote/__init__.py,sha256=ZhDx4p0uFqpBfEXv8Ge5lmkrkTQ4V3s9EjrmZwbEaik,5325
+labml_remote/cli.py,sha256=PuCazuBhiUSCaqAthYp2STTfqM0GZct-A64mdUYoHeY,4381
+labml_remote/configs.py,sha256=En80X4KC_Sh10txTJk9xr7eCX2V9SxnIE41Gbt_49bU,1408
+labml_remote/__pycache__/__init__.cpython-37.pyc,sha256=LD4ylh61O_Q_0XaISh7_r7Fv5FlmV_O1wZ6KsLD2hvU,4938
+labml_remote/__pycache__/cli.cpython-37.pyc,sha256=ReZzNTODFzeKcsG3cXEuB0IAxNkTYU8HysuDVXS9ngE,3693
+labml_remote/__pycache__/configs.cpython-37.pyc,sha256=2GIYAiIwA1cgaKdYA2Yw9Yp8VI7Ipf2gDLinCgDLUBg,1549
+labml_remote/scripts/run.sh,sha256=wm9RL9JTLOg--DP-d7ibm323LeosuOqjkGYTS5lylNI,830
+labml_remote/scripts/setup.sh,sha256=uTWs2l7Q8gYwVSRBd0QKgd2oJNWlzSMbIY7OLOGoMH4,1990
+labml_remote/scripts/update.sh,sha256=C2zxDfNJuZf9mLARFlR09QXJxu_oBoqNEnH0b4hXiLY,1300
+labml_remote-0.0.2.dist-info/METADATA,sha256=DByxlxjTgg-8_cE3yfYTaxI7V9YTK6iZvFSS5CeVI40,2822
+labml_remote-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+labml_remote-0.0.2.dist-info/entry_points.txt,sha256=ngCXIuKP67pVHC6Yk4UvWqoPx7YaOq8EegefGk-PbsQ,56
+labml_remote-0.0.2.dist-info/top_level.txt,sha256=a-3Qg3oo_9b0Ox6e5AkvTV8b5beo7sXNt9LLhF-pnO4,13
+labml_remote-0.0.2.dist-info/RECORD,,
