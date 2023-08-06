@@ -1,0 +1,17 @@
+pymatriz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymatriz/client.py,sha256=eIXPMWsFUV09VjZkZucH0E28gJWYQT3qfhtg-pYesz8,3380
+pymatriz/client_interface.py,sha256=u6R8p-mLSN5YnHK4Pk-zz0pXIkKlx9CsaZ5u66RHfa0,8503
+pymatriz/enums.py,sha256=1fzHYk-PZm5jOctk5T8HszCQgaaorB5gHDMyz7Z2c-Y,2111
+pymatriz/exceptions.py,sha256=ulVt-9bm4gx2bzQ6ko40DTK8C8F41KRAi5tEy_KhY1E,488
+pymatriz/globals.py,sha256=Xx8vVnhnZcB8xNmjdOQV8pIXmKX4SQWYzTv7oYuGGL8,865
+pymatriz/messages.py,sha256=5tSbZAqG1MEnfvfiTFzXi0qdr_mZvnMZm8IqmAZQ5To,448
+pymatriz/parser.py,sha256=wkpQQPdomfxa_lV953XTNKcqFV350yS1DWiXprv4w1A,3188
+pymatriz/rest_client.py,sha256=FyLhu4X61-Qiyn3cXWgV2tKnlwnXLLeWCflPNoefaoU,10891
+pymatriz/urls.py,sha256=30OoWKx-4ur7gUPNpPHdUtB6OZ4QD-oanZpCUMn2WqE,834
+pymatriz/utils.py,sha256=iTQsLN4LN20LTPuz-C9YFvk4zhyTF1Lo2rZz62JOuEM,559
+pymatriz/websocket_client.py,sha256=VKCZpjDZZI25uqpJTXYpFDMwkq5Q_W7Y8p4W-c08pn0,5113
+pymatriz-0.1.1.dist-info/LICENSE,sha256=qCn-c4LZ1YkwddOSy2xewv09se6S2WCctrPsN5dRwYo,1109
+pymatriz-0.1.1.dist-info/METADATA,sha256=827GO68Yrcm6waCuk0FDe-R4rAptxG5WKMQE7IGl3qo,916
+pymatriz-0.1.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pymatriz-0.1.1.dist-info/top_level.txt,sha256=OvN8ar8SIwQB7vNg1yVxy9VeoUXM1LPT68IIY1wmBtA,9
+pymatriz-0.1.1.dist-info/RECORD,,
