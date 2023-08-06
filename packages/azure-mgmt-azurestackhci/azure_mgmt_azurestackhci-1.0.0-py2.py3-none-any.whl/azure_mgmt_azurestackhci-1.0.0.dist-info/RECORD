@@ -1,0 +1,16 @@
+azure/mgmt/azurestackhci/__init__.py,sha256=9SorBmvl5RbcPqYQUgnVrAIYE6XCiXIkGrEkwANi39Y,716
+azure/mgmt/azurestackhci/_azure_stack_hci_client.py,sha256=dzCabZpkEW6unkvRJgzvirEVOQjEWP_Lf1F1QVNZ3x8,2201
+azure/mgmt/azurestackhci/_configuration.py,sha256=hDxzA5kwRTDaQoBNJHRP5W5OQA39-pwZICd_4hwEZ78,1861
+azure/mgmt/azurestackhci/version.py,sha256=JBlxA00VD176MhzqKAmqq3EB3Jx-pmcIWQ-GzItq9fo,493
+azure/mgmt/azurestackhci/models/__init__.py,sha256=bqPIzwXXrdaIH7Islfnt8arM96BxOGcy6RZBE5un-Gc,2313
+azure/mgmt/azurestackhci/models/_azure_stack_hci_client_enums.py,sha256=A7EJROojRbLQyp3BIAfh0CuRnXkkQx2CQtI30NBT7w0,894
+azure/mgmt/azurestackhci/models/_models.py,sha256=rcLhEDqbIKULAEQ5D_10rzZRTFzLUdwP_u6Nsc6xbKs,20304
+azure/mgmt/azurestackhci/models/_models_py3.py,sha256=JycpaVEJwxu96eBiOXKHgoUz8_D5ApF7KmCPfIaL3AA,20457
+azure/mgmt/azurestackhci/models/_paged_models.py,sha256=pysTWWbeqtmSnZrzzhpjgryFZxrOkkyfypyGPRFY6e8,921
+azure/mgmt/azurestackhci/operations/__init__.py,sha256=uxXvG_KYdVFvimZdCncFu5v_LuI-BnoBUUpAZOGbMdM,622
+azure/mgmt/azurestackhci/operations/_clusters_operations.py,sha256=5iqiNoC_xDOoxDan8Oj2FEDH8coo5AgrJhH3QBxS4M0,19829
+azure/mgmt/azurestackhci/operations/_operations.py,sha256=2236DGVTlFTBe-7TktmdHcHC9Mu2urYUNmjhBteYvkI,3562
+azure_mgmt_azurestackhci-1.0.0.dist-info/METADATA,sha256=D7QW0mAdXl98vzir-KXw66SrvCp5Im_8vLvLT3q5v90,2167
+azure_mgmt_azurestackhci-1.0.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+azure_mgmt_azurestackhci-1.0.0.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_mgmt_azurestackhci-1.0.0.dist-info/RECORD,,
