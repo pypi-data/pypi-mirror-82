@@ -1,0 +1,16 @@
+koolstof/__init__.py,sha256=zvC_PBHj7jWrWQI6K4x5BrLYC0zcgVHFEHOD9b6JjYE,889
+koolstof/crm.py,sha256=wNumF6MtfKI_MkmJ2Njvk__1a5hb5qf4_era1TOB75Y,3372
+koolstof/molar.py,sha256=zZbVlB8zifa9Xq4Vb0YfH1DGKu-7u8aqnig1hRpVxB4,884
+koolstof/spectro.py,sha256=p37Kod7rPnRluxJdR75QL4DjigmNKgu8MZNEAvxn_jg,600
+koolstof/infrared/__init__.py,sha256=TqxywXXzIYs68kWvfLjUw1Hm6Jl5GYprznlr4s2Zpxc,60
+koolstof/infrared/baseline.py,sha256=WrnpO2m2HnawwydzIlEsrLf4aBvDcRsPdJ79emP8Lzk,548
+koolstof/infrared/io.py,sha256=Zj0xXnk8u6ugSxZRHmWnZ6K5uBJ5JMZ8adtxhELat2s,3733
+koolstof/vindta/__init__.py,sha256=piTY8ebmJl9wGsWvMGli28FgwcvRmB2yeudFenmSFFc,149
+koolstof/vindta/io.py,sha256=UAMHcEen4MpgcIppxF-2dHGBZwHsj5NiOfrxZJRdAsg,5795
+koolstof/vindta/plot.py,sha256=98lVnYbGTjpbpfjixdT4DxHpigWGCmXIY4LQ9mGu5wk,5043
+koolstof/vindta/process.py,sha256=dfTitbSIOa_cyrxxiw0jUdroMCXXkCAqxQZ5KYhTKWo,4667
+koolstof-0.0.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+koolstof-0.0.4.dist-info/METADATA,sha256=X27rAh7IqueWiMZhhkxda3wPv1i2dRAolMYEwBmFSzA,5100
+koolstof-0.0.4.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+koolstof-0.0.4.dist-info/top_level.txt,sha256=oJrl7B95QMrbEmEU0OLqAzBrfHGA4l_fihG1cG4ZYiI,9
+koolstof-0.0.4.dist-info/RECORD,,
