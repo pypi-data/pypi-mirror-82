@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: insecure-but-secure-enough
+Version: 0.1.1
+Summary: Lightweight tools for signing and encrypting cookies, urls and stuff. This package isn't really secure, but it is secure enough for most needs.
+Home-page: https://github.com/jvanasco/insecure_but_secure_enough
+Author: Jonathan Vanasco
+Author-email: jonathan@findmeon.com
+License: MIT
+Description: ![Python package](https://github.com/jvanasco/insecure_but_secure_enough/workflows/Python%20package/badge.svg)
+        
+Keywords: web pylons pyramid
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: testing
