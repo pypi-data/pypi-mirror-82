@@ -1,0 +1,12 @@
+CHANGES.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+sqlalchemy_zipkin.py
+SQLAlchemy_Zipkin.egg-info/PKG-INFO
+SQLAlchemy_Zipkin.egg-info/SOURCES.txt
+SQLAlchemy_Zipkin.egg-info/dependency_links.txt
+SQLAlchemy_Zipkin.egg-info/requires.txt
+SQLAlchemy_Zipkin.egg-info/top_level.txt
