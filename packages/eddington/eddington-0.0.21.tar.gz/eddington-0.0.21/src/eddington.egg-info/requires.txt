@@ -1,0 +1,9 @@
+click>=7.1.2
+prettytable>=1.0.1
+scipy>=1.5.3
+numpy>=1.19.2
+openpyxl>=3.0.5
+matplotlib>=3.3.2
+
+[:python_version == "3.6"]
+dataclasses>=0.7
