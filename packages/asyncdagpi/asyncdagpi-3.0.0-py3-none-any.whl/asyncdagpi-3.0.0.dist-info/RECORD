@@ -1,0 +1,14 @@
+asyncdagpi/__init__.py,sha256=Osh04xrQbeXwZiAX82cbPNydD8st-Z0yYTEEClPpEl0,747
+asyncdagpi/client.py,sha256=-8_8tTjBZWhCN4Wl5TrKcAWwm_KWVG00xthW5ymv0eU,4020
+asyncdagpi/errors.py,sha256=Wf1dh2zpeOf8-cA4KCe9KcgJYlGb9hD4y6nPcRoGzyI,1433
+asyncdagpi/http.py,sha256=krZ74mEAp-4gKwElcqnHf9hJ6XB4tM9Ttq7J9E2AEV8,5801
+asyncdagpi/Image.py,sha256=qjBrvuZrQtcaTK9puOdW5Ct4GQpKXPggymY3pWN9FE4,1639
+asyncdagpi/image_features.py,sha256=HrSsDAybnKyEEpDlpl7NagOHRWa6vKKgc6p6R7v75G8,5750
+asyncdagpi/objects/__init__.py,sha256=7OX72v5QsB6K_iFpx8i3Y4YFUEt4wYowNuYXU3a5Z_k,82
+asyncdagpi/objects/logo.py,sha256=u4n6o1VrSYgV952OoLezV1ygzN_cAhw2jGoo-JUg6tc,632
+asyncdagpi/objects/pickupline.py,sha256=YvWmPpIj6rXEN1EdfKAKPOVm1eWFTw6P9Tu3Sbc8qYw,786
+asyncdagpi/objects/wtp.py,sha256=cn_8hYlhoznaqZGHm_q81VJ_di0I2K5qsfH2Kj7XX70,775
+asyncdagpi-3.0.0.dist-info/LICENSE,sha256=-_xG7g1xrHmflB-fvZ4CLSxsFiqXBY6exzS0cJFO0LA,1095
+asyncdagpi-3.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+asyncdagpi-3.0.0.dist-info/METADATA,sha256=GyZdKTNzBtWt2mHVjIDgjovdL6FqOTMz9TMfRtCijVw,2977
+asyncdagpi-3.0.0.dist-info/RECORD,,
