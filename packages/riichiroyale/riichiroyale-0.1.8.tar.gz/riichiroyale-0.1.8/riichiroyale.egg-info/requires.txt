@@ -1,0 +1,2 @@
+pygame-gui==0.5.7
+pygame==2.0.0.dev14
