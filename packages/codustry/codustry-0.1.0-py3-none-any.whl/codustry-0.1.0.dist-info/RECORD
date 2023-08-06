@@ -1,0 +1,14 @@
+codustry/__init__.py,sha256=B_CD5OCmiU-KtoBELcJTuoa0UxZOr9QX99FRNL4cm04,1357
+codustry/codustry.py,sha256=OBHXkBwH82eNp1Zh4iUgoLfem0w5GJg5wcIchmyPUCs,290
+codustry/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codustry/models/client.py,sha256=yS-FnS4uED4xQ-TyuPeDpBpSX-YSZZvB_LH3lGiwbnA,35
+codustry/models/craftsman.py,sha256=oKmu59bHOdzluRhWGqRvQi9mkamuNbvhedLekKHXAW0,1058
+codustry/models/project.py,sha256=jmDYL8qcLzPmVEpIpPX0W3bPSzyYB7h_R_U7n6YoQVI,124
+codustry/models/team.py,sha256=DWxmfNRdUGaAqxDLraUxNKSrvMZYuxJjcbsgB8kqkJw,216
+codustry/protocals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codustry/protocals/inactive.py,sha256=fmialPY_4SJ0FdpSbd9lam_QoZrCV7JYrTiaBy1GIiE,194
+codustry/rules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codustry/rules/etiquette/communication.py,sha256=QrfAZ1ssXh5GKEiARQfCniw4o9SVYLa9biuCnypIaR4,640
+codustry-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+codustry-0.1.0.dist-info/METADATA,sha256=YHq_qWWxtg1h7dJaDRGkaEIdDXxuBqseDdfd6dqNj04,1255
+codustry-0.1.0.dist-info/RECORD,,
