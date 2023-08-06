@@ -1,0 +1,16 @@
+pandas
+sklearn>=0.23.0
+numpy
+seaborn
+matplotlib
+joypy
+astropy>=4.0
+photutils
+scipy
+datetime
+requests
+imblearn
+rfpimp
+Pillow
+pyvo
+astroquery
