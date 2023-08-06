@@ -1,0 +1,12 @@
+README.rst
+setup.py
+./__init__.py
+./__main__.py
+./dvcs.py
+dvcs.egg-info/PKG-INFO
+dvcs.egg-info/SOURCES.txt
+dvcs.egg-info/dependency_links.txt
+dvcs.egg-info/entry_points.txt
+dvcs.egg-info/namespace_packages.txt
+dvcs.egg-info/requires.txt
+dvcs.egg-info/top_level.txt

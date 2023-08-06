@@ -1,0 +1,3 @@
+[console_scripts]
+dvcs = dvcs.__main__:main
+
