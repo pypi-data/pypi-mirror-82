@@ -1,0 +1,12 @@
+README.md
+setup.py
+uncommon/__init__.py
+uncommon/__main__.py
+uncommon/uncommon.py
+uncommon.egg-info/PKG-INFO
+uncommon.egg-info/SOURCES.txt
+uncommon.egg-info/dependency_links.txt
+uncommon.egg-info/entry_points.txt
+uncommon.egg-info/requires.txt
+uncommon.egg-info/top_level.txt
+uncommon/data/words.txt
