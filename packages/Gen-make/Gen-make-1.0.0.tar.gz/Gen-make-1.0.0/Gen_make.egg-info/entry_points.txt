@@ -1,0 +1,3 @@
+[console_scripts]
+gen-make = gen_make.script:main
+
