@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+rstatic/__init__.py
+rstatic/application.py
+rstatic.egg-info/PKG-INFO
+rstatic.egg-info/SOURCES.txt
+rstatic.egg-info/dependency_links.txt
+rstatic.egg-info/not-zip-safe
+rstatic.egg-info/requires.txt
+rstatic.egg-info/top_level.txt
