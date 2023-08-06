@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+sysmon/__init__.py
+sysmon/__main__.py
+sysmon/gather_data.py
+sysmon/sysmon.py
+sysmon.egg-info/PKG-INFO
+sysmon.egg-info/SOURCES.txt
+sysmon.egg-info/dependency_links.txt
+sysmon.egg-info/entry_points.txt
+sysmon.egg-info/requires.txt
+sysmon.egg-info/top_level.txt
