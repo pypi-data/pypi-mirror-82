@@ -1,0 +1,14 @@
+numpy
+scipy
+easydict
+opencv-python
+opencv-contrib-python
+PyYAML
+labelme
+decord
+torch
+torchvision
+pandas
+pycocotools
+tensorboard
+PyQtWebEngine
