@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.cfg
+setup.py
+pony_wtf/README.md
+pony_wtf/README.rst
+pony_wtf/__init__.py
+pony_wtf/_compact.py
+pony_wtf/converter.py
+pony_wtf/orm.py
+pony_wtf/requirements.txt
+pony_wtf/utils.py
+pony_wtf.egg-info/PKG-INFO
+pony_wtf.egg-info/SOURCES.txt
+pony_wtf.egg-info/dependency_links.txt
+pony_wtf.egg-info/not-zip-safe
+pony_wtf.egg-info/requires.txt
+pony_wtf.egg-info/top_level.txt
