@@ -1,0 +1,9 @@
+README.md
+setup.py
+hypmaps/__init__.py
+hypmaps/poincare.py
+hypmaps.egg-info/PKG-INFO
+hypmaps.egg-info/SOURCES.txt
+hypmaps.egg-info/dependency_links.txt
+hypmaps.egg-info/requires.txt
+hypmaps.egg-info/top_level.txt
