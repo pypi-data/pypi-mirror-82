@@ -1,0 +1,16 @@
+diskchef/__init__.py,sha256=0mR0Lph_rQMuUoiV5cPlG8AI06yRIpvu02RnmzXcp4E,87
+diskchef/chemistry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diskchef/chemistry/abundances.py,sha256=UIXZR3fppSEzpZnMMh9-MQLHHb-zzzn_GcqTHYwH_EY,734
+diskchef/chemistry/base.py,sha256=p7fcEsVTqpV1l_50OBX7jrS-Uz9apMt-bkHA4S5W7KE,1003
+diskchef/engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diskchef/engine/ctable.py,sha256=P4hlbBHASNPT_m50l2gLbBWf0gYPXWpC7PhPuTCfAE0,386
+diskchef/engine/exceptions.py,sha256=zEKynbQ_jJ_RObmdsNY4iJ4kfV-eJdW1uCJFV7iz65s,106
+diskchef/engine/logger.py,sha256=xY3lBk-2l-HbWvEXtACc3oRpE9lI-a3gN84iKJsjWFQ,70
+diskchef/physics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diskchef/physics/base.py,sha256=KCJLkZU7jRAXNRXgDPoTch_DGrGl56rGzJDuq5STCEA,3095
+diskchef/physics/parametrized.py,sha256=Ffy1myTx9q8tt4OSmAACGUgRJDRVzF3E8W0LiPOA5K4,3739
+diskchef-0.1.dist-info/LICENSE,sha256=cnIEaHjLY6MX-dI1aCcsHDa6Er70Hqf1jIKnu7vIK0o,599
+diskchef-0.1.dist-info/METADATA,sha256=5gVTnL8Wncv4sEtzY3TkNy6kXL9XXT30o6ausmtSUm0,302
+diskchef-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+diskchef-0.1.dist-info/top_level.txt,sha256=MevW0TCelfq_7shgc-sKNWYC2QTkdsKy-2qlO5TD33s,9
+diskchef-0.1.dist-info/RECORD,,
