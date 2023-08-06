@@ -1,0 +1,13 @@
+doex/__init__.py,sha256=qJbe21X3CH-tr_pU67DZ2n6txFTRUqQ4LQ3hkCYpi90,306
+doex/_version.py,sha256=26YbYwnASEZbvyphnMHzyr6NhDnePIEDCXY-JoTmNu8,18
+doex/covariance.py,sha256=n1jhGSN_Is254Jp8Zt7PLO2WT4Uurs2aO0zWSchBnHk,1163
+doex/crd.py,sha256=FfNQcfsy5nOBDHkt6vwn4vhZkgc_nJsk5cr7pwELW5k,1831
+doex/graeco_latin_square.py,sha256=ZIea4jZWl9OKe2VaB6JAlC6sOm81Und2hRCQG9t9AwA,6198
+doex/latin_square.py,sha256=szcTYmrFoGBRGG-B2cjrnrVOjJAv6qBcEI4P2wudd08,4519
+doex/rcbd.py,sha256=7NcoixohibWL-yv-6qbpOvLdllmX5dQIpoS_tcu21a8,2631
+doex/utils.py,sha256=5BMNpWtg1Ef0b7Kbi2_zXmPTYMcQgtQUCk4UrhWpAqE,622
+doex-0.0.4.dist-info/LICENSE,sha256=eQxolI0u5q9paj4lZ7vVEpbfOqeDgWMxlCGwgi1-JYA,1517
+doex-0.0.4.dist-info/METADATA,sha256=UymYJBitVDtpbNJVobRCIgVhWqIcwy7QGll0JI2Czb4,5620
+doex-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+doex-0.0.4.dist-info/top_level.txt,sha256=ZatUusHblakZRSuQggCebB9cANF5G-xES4e2tfZTSY8,5
+doex-0.0.4.dist-info/RECORD,,
