@@ -1,0 +1,16 @@
+CHANGELOG.md,sha256=8ZDn86E-ttQ0y3lz4SPYqgKzyIJ2t8D1mNpf7-XDTmk,524
+LICENSE,sha256=Z6S_wKAKWKEQ6KS0Ud0SOXKBlrXGTkskljqnL6tKFhI,34887
+dropship/__init__.py,sha256=FFkF26WerOWrPo0lYMd4s5xdPy_NUIPzRR0b2XbYsdY,457
+dropship/constant.py,sha256=au-94SGDl_Zn3ugHZ1465JO1HCAkQuHsbsOAQ4a49NM,133
+dropship/dropship.py,sha256=fauq9ab84Kl_Q8oXTpJmhnRRB3l4LZpSbZp4z6d884Y,5450
+dropship/transfer.py,sha256=diJ_HeWIco2vb2u2tCG2C7Rkjqsb9k7CwKJFaQhFIwo,982
+dropship/ui/dropship.css,sha256=xZF1h6wUVCSO7Dr7J_ChSDMxVokuY8Dew94RfBn7YvU,114
+dropship/ui/dropship.ui,sha256=8I4X-hVt32z3OUTW-sxd2jE5kFYmyj2sNtuN52Cd-xI,8185
+dropship/ui/pendingTransferRow.ui,sha256=Sk-3NeUGe2Z42dM6Qv-tS9NU0WCJHOlcMCJPc6XGjn8,10711
+dropship/ui_templates.py,sha256=4ivueRSj_3huba826rV-WGwqR-hd-HlNuhluzioNMlM,1891
+dropship/wormhole.py,sha256=KG2KIAZvkd1Svbn_4zKvDoWjbCkpvcgltwjQ8k-SXbY,1559
+dropship-0.0.5.dist-info/entry_points.txt,sha256=ScVPYSUZgiOpJYBJ6UVTp65fvHfHbjomU_G2rQ900lU,42
+dropship-0.0.5.dist-info/LICENSE,sha256=Z6S_wKAKWKEQ6KS0Ud0SOXKBlrXGTkskljqnL6tKFhI,34887
+dropship-0.0.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+dropship-0.0.5.dist-info/METADATA,sha256=3H9TLWtebG3chAmwPRfR_gx4YSX4xq2oafwKMNEOuco,2577
+dropship-0.0.5.dist-info/RECORD,,

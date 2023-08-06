@@ -1,0 +1,3 @@
+[console_scripts]
+dropship=dropship:main
+
