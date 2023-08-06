@@ -1,0 +1,17 @@
+nuqql_based/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nuqql_based/account.py,sha256=qIuqMn6hxLODC4LMS8mKCz91s1HERUz6BrWAikPOKp4,9547
+nuqql_based/based.py,sha256=WTne8RsJcvv3tBMryslAN6CmIyyJ5K0TGUvqpIdPQqM,1940
+nuqql_based/buddy.py,sha256=135gHjnFFhRvyWCS-tQx5AVisKez1iGfd7X0-z-_jy4,313
+nuqql_based/callback.py,sha256=0gZaTDFMQbspCTSnWjsXCyerAHcmqJ9zAsYm6L9-82k,1805
+nuqql_based/config.py,sha256=PQX2-Xenm2XD490WOFoI-53BdZEuC_zjlaNr3bd0x_g,7669
+nuqql_based/logger.py,sha256=VqD7Q5fvd5DWzlbeaMcToB1ZJ61RpngnkU2BGdXVuFM,1385
+nuqql_based/main.py,sha256=bycV0Y2gmGz8RXB4VUBbTEPCUFw4COZRC63jvKnzESo,1739
+nuqql_based/message.py,sha256=KSX4HvU27C5y0ZXxdp4jc7QvS4hLHfC21BHmaSRb5Sk,5791
+nuqql_based/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nuqql_based/server.py,sha256=dLj_47SsgItUS-9FLESkkvLUb6ZwgJ8OSJ5dSOlGyMY,17975
+nuqql_based-0.2.0.dist-info/LICENSE,sha256=me_8EPVOyoudFhDLZ5qUm0qk1RGjmXn4dKnJfZd8ZzE,1062
+nuqql_based-0.2.0.dist-info/METADATA,sha256=qRDzCltGx0lcmKsb7voUBISziK5Sxr4au7ibhoco64M,3967
+nuqql_based-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nuqql_based-0.2.0.dist-info/entry_points.txt,sha256=rslWBoTAGlJc4hobo-FY1X7PCaIjOmn6kA6mbHft0r4,55
+nuqql_based-0.2.0.dist-info/top_level.txt,sha256=eP2aj8s5U17Ri-GZ2pAcmK3dJtfPl8hdnxyO6gzswj8,12
+nuqql_based-0.2.0.dist-info/RECORD,,
