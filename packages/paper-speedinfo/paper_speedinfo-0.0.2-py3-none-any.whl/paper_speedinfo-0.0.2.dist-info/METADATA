@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: paper-speedinfo
+Version: 0.0.2
+Summary: A django app that provides suggestions while you type into the field.
+Home-page: https://github.com/dldevinc/paper-speedinfo
+Author: Mihail Mishakin
+Author-email: x896321475@gmail.com
+License: BSD
+Keywords: django,speedinfo
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django
+Description-Content-Type: text/markdown
+Requires-Dist: django
+Requires-Dist: django-speedinfo (>1.4)
+
+
+# paper-speedinfo
+
+Патч библиотеки [django-speedinfo](https://github.com/catcombo/django-speedinfo) для [paper-admin](https://github.com/dldevinc/paper-admin)
+
+## Requirements
+* Python >= 3.6
+* Django >= 2.1
+
+## Installation
+Add `paper_speedinfo` before `speedinfo` to your INSTALLED_APPS setting.
+```python
+INSTALLED_APPS = [
+    # ...
+    'paper_speedinfo',
+    'speedinfo',
+    # ...
+]
+
+MIDDLEWARE = [
+    # ...
+    'speedinfo.middleware.ProfilerMiddleware',
+    # ...
+]
+
+CACHES = {
+    'default': {
+        'BACKEND': 'speedinfo.backends.proxy_cache',
+        'CACHE_BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    }
+}
+
+SPEEDINFO_STORAGE = "speedinfo.storage.cache.storage.CacheStorage"
+SPEEDINFO_EXCLUDE_URLS = [
+    r'/admin/',
+]
+```
+
+
+
+
