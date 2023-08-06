@@ -1,0 +1,9 @@
+image: debian/sid
+packages:
+  - tox
+sources:
+  - https://git.sr.ht/~cnx/offre
+tasks:
+  - test: |
+      cd offre
+      tox

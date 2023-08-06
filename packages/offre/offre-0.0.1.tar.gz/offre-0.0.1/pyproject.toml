@@ -1,0 +1,25 @@
+[build-system]
+requires = ['flit_core >=2,<3']
+build-backend = 'flit_core.buildapi'
+
+[tool.flit.metadata]
+module = 'offre'
+author = 'Nguyễn Gia Phong'
+author-email = 'mcsinyx@disroot.org'
+home-page = 'https://sr.ht/~cnx/offre'
+requires = []
+description-file = 'README.md'
+classifiers = [
+    'Development Status :: 1 - Planning',
+    'Environment :: Console',
+    'Intended Audience :: Developers',
+    'Intended Audience :: End Users/Desktop',
+    'License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3 :: Only',
+    'Topic :: Utilities',
+    'Typing :: Typed']
+requires-python = '>=3.6'
+keywords = 'python,download,distribution'
+license = 'AGPLv3+'
