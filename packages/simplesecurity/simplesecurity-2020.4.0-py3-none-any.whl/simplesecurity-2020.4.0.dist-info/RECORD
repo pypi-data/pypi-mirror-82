@@ -1,0 +1,13 @@
+simplesecurity/__init__.py,sha256=3i7-J173Xd8DfK3rDVUwsWrg3k8Qpug-HWIuscHVqW4,4284
+simplesecurity/__main__.py,sha256=1thgzmlXbigmDsyrIVubGhOlV62kY4SztgTEjmrVM3s,78
+simplesecurity/filter.py,sha256=LovClTeCMJOTCso56CSxQ-7VPzurKtUlcfZYjM3toxQ,2672
+simplesecurity/formatter.py,sha256=wLjj6OFxsvDlofwhWhLRjY3wNAkHBtifYrG_8W-joyo,5922
+simplesecurity/level.py,sha256=1Mt26IttrNQx8wIHWgJLmEY6ovySaavCNeJmX-pBZMo,581
+simplesecurity/plugins.py,sha256=gldz2ToPlHmWvbK7GiAm5ODtU04S-I2A1XeR3p7isIo,9565
+simplesecurity/semgrep_sec.yaml,sha256=5YGBN8VKmW1x1xafGfR1YjilRSOsxkvsG4Gc73z8cCg,165318
+simplesecurity/types.py,sha256=EiUaDeDOuWsnfKdYH_3jA93NB0Djo4_LP5KgH16np6M,654
+simplesecurity-2020.4.0.dist-info/entry_points.txt,sha256=LxeDGd6o0-smDJF22Hk1L-XWIA6JVMPMvus1Fxv5vkM,53
+simplesecurity-2020.4.0.dist-info/LICENSE.md,sha256=lGO6M75mU76sNMossy9lWH15u3cMpzo3I4IfMUH-ITA,1100
+simplesecurity-2020.4.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+simplesecurity-2020.4.0.dist-info/METADATA,sha256=hS7GNyI5pn8-btjaXkQgFG2kLFNeK5thhJz6ni2-1u8,8134
+simplesecurity-2020.4.0.dist-info/RECORD,,
