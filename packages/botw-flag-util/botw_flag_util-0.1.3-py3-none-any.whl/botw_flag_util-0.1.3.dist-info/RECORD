@@ -1,0 +1,12 @@
+botw_flag_util/__init__.py,sha256=pUG8vEfSegynPxjdHQ8cukstlXlISoiEp2d_jCMsCNY,861
+botw_flag_util/__main__.py,sha256=jiMj0AuwYgAAn1RyVkpqUFWnDqhAffrRW7nCkJAl-mg,3638
+botw_flag_util/finder.py,sha256=T610khzj5yGTsBUhTSaU8uEZDiCKSnf0vv7RbSrY8BI,1706
+botw_flag_util/generator.py,sha256=Vekb986waIzgfGCfCUPRhAHhkov0VItQbVvKAYoIQNg,15303
+botw_flag_util/util.py,sha256=Kx_x9mmvdErTj33q1lcZ3wzhf-dEArWn2yljWCJlIgA,12946
+botw_flag_util/data/vanilla_hash.json,sha256=dDWnbCJXWqj5cnMTzDdNM53FrNDsa-W4YYgfTMl_bns,73792
+botw_flag_util-0.1.3.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+botw_flag_util-0.1.3.dist-info/METADATA,sha256=fXCrTzWBCkclkZ1sJBP8y0xMFjU-WKpzLeoTgasTqM8,3855
+botw_flag_util-0.1.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+botw_flag_util-0.1.3.dist-info/entry_points.txt,sha256=uxGJV00TcrykEDZaYiwxZIoY9reaRt9-xOMJ4DLeQuQ,65
+botw_flag_util-0.1.3.dist-info/top_level.txt,sha256=_a-ZBConWzWhDISNwL-q6C_T_4D_APtvPwcqJSkYSLI,15
+botw_flag_util-0.1.3.dist-info/RECORD,,
