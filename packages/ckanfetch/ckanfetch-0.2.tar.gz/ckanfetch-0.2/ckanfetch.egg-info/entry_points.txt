@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ckanfetch=ckanfetch.cli:retrieve_dataset
+    
