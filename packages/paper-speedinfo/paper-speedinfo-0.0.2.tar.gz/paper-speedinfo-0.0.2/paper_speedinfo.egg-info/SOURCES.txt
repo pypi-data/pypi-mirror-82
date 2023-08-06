@@ -1,0 +1,9 @@
+README.md
+setup.py
+paper_speedinfo/__init__.py
+paper_speedinfo/apps.py
+paper_speedinfo.egg-info/PKG-INFO
+paper_speedinfo.egg-info/SOURCES.txt
+paper_speedinfo.egg-info/dependency_links.txt
+paper_speedinfo.egg-info/requires.txt
+paper_speedinfo.egg-info/top_level.txt
