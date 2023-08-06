@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ConsoleCanvas
+Version: 0.0.2
+Summary: 终端画布
+Home-page: UNKNOWN
+Author: 1019157263@qq.com
+Author-email: 1019157263@qq.com
+License: MIT
+Description: 
+        # ConsoleCanvas用法：
+        1.先初始化对象：
+        
+        ```python
+        A=consoleCanvas()
+        ```
+        2.生成画布：
+        ```python
+        A.ProduceCanvas(80,80)#创建画布
+        ```
+        3.绘制像素点：
+        ```python
+        A.reviseCanvas([x,y],1)
+        #[x,y]是坐标，1是代表绘制黑色点，0是绘制白色点
+        ```
+        4.显示画布：
+        ```python
+        A.show() #显示画布
+        ```
+        5.清空画布：
+        ```python
+        A.ProduceCanvas(80,80)#也就是重新创建画布
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
