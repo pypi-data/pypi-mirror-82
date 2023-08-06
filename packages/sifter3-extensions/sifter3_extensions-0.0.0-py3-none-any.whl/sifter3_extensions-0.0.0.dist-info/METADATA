@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: sifter3-extensions
+Version: 0.0.0
+Summary: Unofficial extensions for Sifter 3
+Home-page: https://github.com/python-sifter/sifter3-extensions
+Author: Manfred Kaiser
+Author-email: python-sifter@logfile.at
+License: BSD
+Project-URL: Source, https://github.com/python-sifter/sifter3-extensions
+Project-URL: Tracker, https://github.com/python-sifter/sifter3-extensions/issues
+Keywords: sieve email filter parser
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Email :: Filters
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: sifter3
+
+# Sifter3 Extensions
+
+Unofficial extensions for Sifter 3
+
+
