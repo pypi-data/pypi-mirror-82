@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: niceprint
+Version: 1.1.0
+Summary: A simple module for print.
+Home-page: UNKNOWN
+Author: AstralDev
+Author-email: ekureedem480@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: color
+
+UNKNOWN
+
+
