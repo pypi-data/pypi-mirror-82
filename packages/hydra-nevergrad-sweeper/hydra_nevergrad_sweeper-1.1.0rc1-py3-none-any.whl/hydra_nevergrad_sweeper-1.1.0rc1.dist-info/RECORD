@@ -1,0 +1,8 @@
+hydra_plugins/hydra_nevergrad_sweeper/__init__.py,sha256=nlNcRa8JrCTvjVYxoVH3f-uv5yqSrWv-stlB8MSlTjU,71
+hydra_plugins/hydra_nevergrad_sweeper/_impl.py,sha256=Dj-WcWl4OlJsi4c9G2PPCuR-CHD_x5_4DpHRCcXgE18,6715
+hydra_plugins/hydra_nevergrad_sweeper/config.py,sha256=C-jND78nuM_ro9GLDZMzfTDa4Xz-pn1FAByVDfxKcPU,2579
+hydra_plugins/hydra_nevergrad_sweeper/nevergrad_sweeper.py,sha256=zH1w_oD5bsb09vXzy1aPItyzuwN-6oYk-F9RlyOpagI,893
+hydra_nevergrad_sweeper-1.1.0rc1.dist-info/METADATA,sha256=plRwawZDPC77TjJyzQPVEWqG9UdNM8DqL1oXlKmcgDA,1010
+hydra_nevergrad_sweeper-1.1.0rc1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hydra_nevergrad_sweeper-1.1.0rc1.dist-info/top_level.txt,sha256=0-LcYpEmzatUy2K5F7jmqcMfBL2RdB7k9nM_8zGFzhI,14
+hydra_nevergrad_sweeper-1.1.0rc1.dist-info/RECORD,,
