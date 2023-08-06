@@ -1,0 +1,8 @@
+README.md
+setup.py
+falcon_middlewares/TimingMiddleware.py
+falcon_middlewares/__init__.py
+falcon_middlewares.egg-info/PKG-INFO
+falcon_middlewares.egg-info/SOURCES.txt
+falcon_middlewares.egg-info/dependency_links.txt
+falcon_middlewares.egg-info/top_level.txt
