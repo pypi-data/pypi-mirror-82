@@ -1,0 +1,14 @@
+pipenv>=2020.6.2
+click>=7.1.2
+click-log
+jsonschema[format_nongpl]==3.2
+ruamel.yaml>=0.16.8
+ansible==2.9.14
+GitPython
+
+[:(python_version<'3')]
+pyrsistent==0.15.7
+enum34
+
+[:(python_version<'3.8')]
+importlib-metadata
