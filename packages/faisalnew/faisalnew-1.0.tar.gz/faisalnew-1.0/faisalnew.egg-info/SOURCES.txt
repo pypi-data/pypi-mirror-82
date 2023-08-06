@@ -1,0 +1,6 @@
+README.md
+setup.py
+faisalnew.egg-info/PKG-INFO
+faisalnew.egg-info/SOURCES.txt
+faisalnew.egg-info/dependency_links.txt
+faisalnew.egg-info/top_level.txt
