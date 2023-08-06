@@ -1,0 +1,3 @@
+[console_scripts]
+hello = hi2020.cli:hello
+
