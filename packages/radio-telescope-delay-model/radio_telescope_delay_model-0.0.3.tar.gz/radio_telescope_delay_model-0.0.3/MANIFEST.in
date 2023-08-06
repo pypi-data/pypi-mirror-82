@@ -1,0 +1,5 @@
+recursive-include calc11/src *.c *.h *.f *.f90 *.i
+recursive-include calc11/data *
+include calc11/lib/*
+
+
