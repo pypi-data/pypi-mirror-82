@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: fieldanimation
+Version: 0.1.3a0
+Summary: FieldAnimation: animate 2D vector fields
+Home-page: https://bitbucket.org/bvidmar/fieldanimation
+Author: Nicola Creati, Roberto Vidmar
+Author-email: ncreati@inogs.it
+License: MIT
+Download-URL: https://bitbucket.org/bvidmar/fieldanimation
+Description: # FIELDANIMATION #
+        FIELDANIMATION a Python package to animate 2D vector fields.
+        
+        ### What is it? ###
+        Field Animation is a Python package for the visualization of 2D vector fields
+        that exploits the capabilities of modern graphic cards. Vector fields are
+        represented through particles that move along the flow lines of the field at
+        a speed and color proportional to its modulus in an OpenGL window.
+        
+        Interactive control of speed, color and number of animated particles is
+        possible as the whole rendering process happens in the GPU in real time.
+        A background image can be shown to add information for the interpretation of
+        the results.
+        
+        Highlights:
+        
+        * Animation parameters can be changed in real time
+        
+        * The OpenGL window can be embedded in any Python application.
+        
+        Field Animation was published on
+        [SoftwareX, Volume 9, January–June 2019, Pages 211-216](
+        https://www.sciencedirect.com/science/article/pii/S235271101830205X).
+        
+        ### Where is the documentation? ###
+        
+        [Here!](https://bvidmar.bitbucket.io/fieldanimation/)
+        
+        ### How can I see it in action? ###
+        Field Animation comes with an example application. Run it with:
+        
+            python3 -m fieldanimation.examples.app -g
+        
+        [//]: # (fieldanimation/examples/app.gif)
+        [//]: # (app.gif)
+        
+        ![](fieldanimation/examples/app.gif)
+        ![](https://bytebucket.org/bvidmar/fieldanimation/raw/0403e6a5caeb8e2626c5912038c2c7da36fd2406/app.gif)
+        
+        ## NOTE: ##
+        This application example uses  **Pillow**, **imgui** and **glfw**
+        so please install these packages to run it:
+        
+            pip3 install pillow imgui glfw
+        
+        ### Who do I talk to? ###
+        
+        * [Nicola Creati](mailto:ncreati@inogs.it)
+        
+        * [Roberto Vidmar](mailto:rvidmar@inogs.it)
+        
+Keywords: fieldanimation,OpenGL,Widget,Vector field
+Platform: POSIX
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

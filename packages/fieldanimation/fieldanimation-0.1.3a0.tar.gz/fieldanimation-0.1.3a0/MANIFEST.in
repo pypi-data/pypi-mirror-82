@@ -1,0 +1,2 @@
+include fieldanimation/glsl/*
+include fieldanimation/examples/*.npy",                                      
