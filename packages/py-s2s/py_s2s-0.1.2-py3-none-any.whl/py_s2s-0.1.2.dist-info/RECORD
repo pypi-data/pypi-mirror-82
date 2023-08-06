@@ -1,0 +1,8 @@
+py_s2s/__init__.py,sha256=mdp2CftfqYbdKtP-eWv1z7rAUycYv6X1ntXSMUf8Kss,22
+py_s2s/s2s.py,sha256=YLmPp3mCqEscpYG8JjzttFfDf6TbgVPc3zdd1FUWr5c,1620
+py_s2s/s2s_client.py,sha256=Y5f7Cc8_Wx1ap5NAiHwp_ZG-x4xQGYuhQjFw0y6JUzc,6004
+py_s2s/s2s_connection_config.py,sha256=Gn-JMLzNa_NraQfevl6P9bwTkSQfHigYNDPtXZ6oOug,341
+py_s2s-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py_s2s-0.1.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+py_s2s-0.1.2.dist-info/METADATA,sha256=2STpyEtBE2BTpt9aadBnBno_RTJGR7WF3m1zDa0Tyw0,1596
+py_s2s-0.1.2.dist-info/RECORD,,
