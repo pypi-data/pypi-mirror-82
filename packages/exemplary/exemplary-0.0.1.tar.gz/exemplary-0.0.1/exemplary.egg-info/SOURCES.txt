@@ -1,0 +1,8 @@
+README.md
+exemplary.py
+setup.py
+exemplary.egg-info/PKG-INFO
+exemplary.egg-info/SOURCES.txt
+exemplary.egg-info/dependency_links.txt
+exemplary.egg-info/requires.txt
+exemplary.egg-info/top_level.txt
