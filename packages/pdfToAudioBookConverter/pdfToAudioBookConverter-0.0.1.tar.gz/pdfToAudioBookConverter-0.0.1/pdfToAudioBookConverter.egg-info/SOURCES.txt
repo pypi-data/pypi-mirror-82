@@ -1,0 +1,9 @@
+README.md
+setup.py
+pdfToAudioBookConverter.egg-info/PKG-INFO
+pdfToAudioBookConverter.egg-info/SOURCES.txt
+pdfToAudioBookConverter.egg-info/dependency_links.txt
+pdfToAudioBookConverter.egg-info/requires.txt
+pdfToAudioBookConverter.egg-info/top_level.txt
+pdftoAudiobook/__init__.py
+pdftoAudiobook/pdftoAudiobook.py
