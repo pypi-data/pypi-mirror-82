@@ -1,0 +1,16 @@
+detectr/__init__.py,sha256=wMBLDS_x4Xr5fiAErl-y3FaVVXq2-pes22nTUKcbDOg,125
+detectr/cli.py,sha256=7RBP_v9yGJB1uggXp0ltSaRetN6S4vpPpqJ7OAY4gyo,4531
+detectr/detectr.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+detectr/mlmodel.py,sha256=brTlCrpThCtdUKgLqnv-FxD43LI9I2V6wGju6INf4mk,1338
+detectr/mvcmodel.py,sha256=omnILnF4CaCnNrCnlRORE2GMWp_7o6wj8Y6zO49v_WI,16507
+detectr/mvcview.py,sha256=UYXjzB04B7SivttrOXo3i3aTz0z_Zv-9Cmzh0J0K2t4,4243
+detectr/parser.py,sha256=2lGV4-MhJMW2JBAxS49agGeqMV8ackwpLYsXL_NIf_Q,1740
+detectr/piddetails.py,sha256=QalHkwsb2_jYWIguG1xdnDVrXn6nVu_mHfS1UPJDvHQ,4263
+detectr/tracealert.py,sha256=zJhMKVWY-Zcgzo7dthDZD3Kz8iPRv5Yy8XwZOdXJueM,3771
+detectr-0.0.1.dist-info/AUTHORS.rst,sha256=CzD4bicg1f4lijjZjMkX69EdXmArybi8N2S17K9pbwg,156
+detectr-0.0.1.dist-info/LICENSE,sha256=em6ASCXonChW3xPLMGDeGDPB2EbvXwQ8mKI8ouzpXDE,1072
+detectr-0.0.1.dist-info/METADATA,sha256=h08-1-LMMCMjb9O4Ap05pVKfZafx3Flsw1lY31NwxIE,1667
+detectr-0.0.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+detectr-0.0.1.dist-info/entry_points.txt,sha256=3UPM6FCXUOtGX5dFG_wvE3niaYoQ7uCv6LXR84TKvew,46
+detectr-0.0.1.dist-info/top_level.txt,sha256=tUABf7txk1CJvAcAqkKQqnPcb7HXJ8EuCpmzY0nPJGo,8
+detectr-0.0.1.dist-info/RECORD,,
