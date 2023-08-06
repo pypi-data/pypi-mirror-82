@@ -1,0 +1,7 @@
+setup.py
+cutebb/__init__.py
+cutebb.egg-info/PKG-INFO
+cutebb.egg-info/SOURCES.txt
+cutebb.egg-info/dependency_links.txt
+cutebb.egg-info/entry_points.txt
+cutebb.egg-info/top_level.txt
