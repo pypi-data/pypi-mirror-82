@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: outcome-peewee-validates
+Version: 0.2.0
+Summary: Fork of Peewee-validates
+Home-page: https://github.com/outcome-co/peewee-validates-py
+Author: Outcome Engineering
+Author-email: engineering@outcome.co
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: peewee (>=3.13.3,<4.0.0)
+Requires-Dist: python-dateutil (>=2.5.0,<3.0.0)
+Project-URL: Documentation, https://github.com/outcome-co/peewee-validates-py#README
+Project-URL: Repository, https://github.com/outcome-co/peewee-validates-py
+Description-Content-Type: text/markdown
+
+# peewee-validates-py
+![ci-badge](https://github.com/outcome-co/peewee-validates-py/workflows/Checks/badge.svg?branch=v0.2.0) ![version-badge](https://img.shields.io/badge/version-0.2.0-brightgreen)
+
+Description TBD
+
+## Usage
+
+```sh
+poetry add outcome-peewee-validates
+```
+
+## Development
+
+Remember to run `./pre-commit.sh` when you clone the repository.
+
