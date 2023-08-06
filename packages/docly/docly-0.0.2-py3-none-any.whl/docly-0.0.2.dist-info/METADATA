@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: docly
+Version: 0.0.2
+Summary: Generate docstrings for your python functions. Automatically!
+Home-page: https://github.com/autosoft-dev/docly
+Author: CodistAI
+Author-email: shubhadeep@codist-ai.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: torch
+Requires-Dist: pyfiglet
+Requires-Dist: clint
+Requires-Dist: dpu-utils
+Requires-Dist: numpy
+Requires-Dist: PrettyTable
+Requires-Dist: nltk
+Requires-Dist: transformers
+
+# docly
+
+[![parser: tree-hugger](https://img.shields.io/badge/parser-tree--hugger-lightgrey)](https://github.com/autosoft-dev/tree-hugger/)
+
+Automatically generate docstrings for your python functions
+
+
+## Installing
+
+Requires python 3.6+
+
+```
+pip install docly
+```
+
+## Using
+
+To generate comments - 
+
+```
+docly-gen /path/to/fil_or_folder_with_python_files
+```
+
+If you want to revert the changes we applied then use
+
+```
+docly-restore
+```
+
+
