@@ -1,0 +1,10 @@
+noteproxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noteproxy/core.py,sha256=iejP2LsC3ms71ZIRJNWTkLmdsmfM0Xm5Afio8bpnSkc,1765
+noteproxy/database.py,sha256=ZsyOSNhw3ghfSHft5wPV7RAkFi2mE_PlwnkeB5u4JLQ,2322
+noteproxy/job.py,sha256=M1oC5F3vjwjJn6SrFVc18VDWMdL3Mf8SD9EeEMu4u00,13775
+noteproxy/run.py,sha256=HijA1JOPOItUTFqvgjIQaTnK_0oBrHJ8HM6ynA8at2U,72
+noteproxy-0.0.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+noteproxy-0.0.3.dist-info/METADATA,sha256=7FwWyOgTrXg5YVuzwI1gcL5dPXuWk6qMhUuzEl1d4Ew,211
+noteproxy-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+noteproxy-0.0.3.dist-info/top_level.txt,sha256=ZsqpcSH-zOoe1s4jAUPTNebuCzCa5KjeNiDlsr1u7EM,10
+noteproxy-0.0.3.dist-info/RECORD,,
