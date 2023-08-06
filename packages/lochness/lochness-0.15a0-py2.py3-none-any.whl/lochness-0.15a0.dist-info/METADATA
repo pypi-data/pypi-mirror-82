@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: lochness
+Version: 0.15a0
+Summary: Data aggregator
+Home-page: https://github.com/harvard-nrg/lochness
+Author: Neuroinformatics Research Group
+Author-email: info@neuroinfo.org
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dropbox
+Requires-Dist: mano
+Requires-Dist: paramiko
+Requires-Dist: pytz
+Requires-Dist: pyyaml
+Requires-Dist: six
+Requires-Dist: yaxil
+
+UNKNOWN
+
+
