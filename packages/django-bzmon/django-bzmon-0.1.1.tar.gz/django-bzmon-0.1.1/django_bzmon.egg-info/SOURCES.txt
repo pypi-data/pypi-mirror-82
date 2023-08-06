@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+bzmon/__init__.py
+bzmon/admin.py
+bzmon/apps.py
+bzmon/models.py
+bzmon/tests.py
+bzmon/urls.py
+bzmon/views.py
+bzmon/migrations/__init__.py
+django_bzmon.egg-info/PKG-INFO
+django_bzmon.egg-info/SOURCES.txt
+django_bzmon.egg-info/dependency_links.txt
+django_bzmon.egg-info/top_level.txt
