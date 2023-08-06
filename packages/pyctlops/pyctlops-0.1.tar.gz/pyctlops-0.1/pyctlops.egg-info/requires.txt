@@ -1,0 +1,4 @@
+pyct
+pylops
+numpy
+scipy
