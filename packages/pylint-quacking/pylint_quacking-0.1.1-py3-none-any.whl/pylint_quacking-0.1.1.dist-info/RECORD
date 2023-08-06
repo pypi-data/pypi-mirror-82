@@ -1,0 +1,6 @@
+pylint_quacking/__init__.py,sha256=_X5UAvS5WDbKVmWPUsdTXwBNKC8y6LKpeCFktNjgXZQ,115
+pylint_quacking/quacking.py,sha256=1fTTHkRGxgbtYsWUB82Iga22_fRW34dPdFWAOrnPVeA,2959
+pylint_quacking/test_quacking.py,sha256=omMRJqH5YVyRyynAo9NaQ3rM3FxNVXqIpyVtN48DleM,3113
+pylint_quacking-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pylint_quacking-0.1.1.dist-info/METADATA,sha256=CoHhLrR_n-QtN3Nphh04yG80RJzPpRnTqaI0TthmxYM,748
+pylint_quacking-0.1.1.dist-info/RECORD,,
