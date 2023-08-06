@@ -1,0 +1,14 @@
+databuilder/__init__.py,sha256=0YgZ7mT5ZjklRqBGdfsa-GmQhO7_ZiwZpcW-GWXne8s,260
+databuilder/databuilder.py,sha256=pJUR7dQ8aZZyn-oYd6EYDstE1pTne5QjM8tfrU1JoAw,1476
+databuilder/fields/__init__.py,sha256=kmdO4T4KjmcMD2wT7qWzuDSBY-X93y0oKIIwyd9MMd8,163
+databuilder/fields/fields.py,sha256=Z_UKGHP0S21DQH-FqlyW5CVAJC9fPqlnI41BZr-rMpQ,15041
+databuilder/options/__init__.py,sha256=vvc1-zxgH00nhAlOdSqq7Vzu1CGelIX48qboQ7P89sM,59
+databuilder/options/options.py,sha256=Q_xeaJQbMF1WfJLvd5dhEcztOerQYk1tACpHHgsGPxw,3896
+test/__init__.py,sha256=pClyA8gwYWiuK4p4I1jO28cQIHi4fcz9mJgJfQD_ZN4,21
+test/test_stuff.py,sha256=SxLMp8mp0zxfIhQwlhAIUbBxoYDFgUNR5biiyo06R4M,188
+tests/__init__.py,sha256=pClyA8gwYWiuK4p4I1jO28cQIHi4fcz9mJgJfQD_ZN4,21
+tests/test_stuff.py,sha256=SxLMp8mp0zxfIhQwlhAIUbBxoYDFgUNR5biiyo06R4M,188
+databuilder-0.0.2.dist-info/METADATA,sha256=Y5EHc0GA1m1ozyYanENw5e79ilMLY9i6_RGNq6fWRw8,1781
+databuilder-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+databuilder-0.0.2.dist-info/top_level.txt,sha256=ydzZnOVuaaXV1lZJiCFKhDIJszzWvOpUElDTDY4yonA,18
+databuilder-0.0.2.dist-info/RECORD,,
