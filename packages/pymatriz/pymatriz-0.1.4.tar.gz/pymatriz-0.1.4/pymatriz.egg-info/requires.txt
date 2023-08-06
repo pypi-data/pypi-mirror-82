@@ -1,0 +1,5 @@
+requests
+simplejson
+websocket-client
+pandas
+lxml
