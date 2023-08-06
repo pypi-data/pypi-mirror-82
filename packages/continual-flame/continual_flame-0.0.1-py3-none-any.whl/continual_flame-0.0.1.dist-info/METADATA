@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: continual-flame
+Version: 0.0.1
+Summary: A continual learning PyTorch package
+Home-page: https://github.com/andrew-r96/ContinualFlame
+Author: Andrea Rosasco
+Author-email: andrearosasco.ar@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+[![Build Status](https://travis-ci.com/andrew-r96/ContinualFlame.svg?branch=main)](https://travis-ci.com/andrew-r96/ContinualFlame)
+# ContinualFlame
+Small package for Continual Learning in PyTorch
+
+
