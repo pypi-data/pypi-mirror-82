@@ -1,0 +1,11 @@
+langspeak.py,sha256=zHyYIhpMc0BaSFgqTGtrCSSQ_MqOUuvWmQIr4K0McBI,125
+javaspeak/__init__.py,sha256=uHkP9neamU7EmJEg8eE-c3l0MJhyDH90R5O_g4HgJ9w,100
+javaspeak/javaspeak.py,sha256=WQ0JzjFl5CgRHJG9HjU8gU1pl-Ze8T8ZGebB5d6oTeA,127
+pythonspeak/__init__.py,sha256=uHkP9neamU7EmJEg8eE-c3l0MJhyDH90R5O_g4HgJ9w,100
+pythonspeak/pythonspeak.py,sha256=N_v7ceT1ALe9AtRyTovItqYgsN0MWABoaqUVaJxfimg,127
+rustspeak/__init__.py,sha256=uHkP9neamU7EmJEg8eE-c3l0MJhyDH90R5O_g4HgJ9w,100
+rustspeak/rustspeak.py,sha256=knEpG38nRGNRW37tgS8JeTEgx_CaSI3XKH7XHB4bknw,121
+szp_project-0.0.1.dist-info/METADATA,sha256=JwH7Zc81q5mAqh5pQJfGzeXS9Zas1leUxU6t4m7vsnI,404
+szp_project-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+szp_project-0.0.1.dist-info/top_level.txt,sha256=f361k8mDsrvmr70TbaTw_KNx_bQszGB1F5tgrVdjyI0,42
+szp_project-0.0.1.dist-info/RECORD,,
