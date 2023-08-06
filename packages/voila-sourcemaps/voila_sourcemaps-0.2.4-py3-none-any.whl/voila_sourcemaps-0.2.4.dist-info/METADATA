@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: voila-sourcemaps
+Version: 0.2.4
+Summary: Source maps for Voila
+Home-page: https://github.com/voila-dashboards/voila
+Author: Voilà Development team
+Author-email: jupyter@googlegroups.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: voila (==0.2.4)
+
+UNKNOWN
+
+
