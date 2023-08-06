@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+djangorestframework_word_filter.egg-info/PKG-INFO
+djangorestframework_word_filter.egg-info/SOURCES.txt
+djangorestframework_word_filter.egg-info/dependency_links.txt
+djangorestframework_word_filter.egg-info/not-zip-safe
+djangorestframework_word_filter.egg-info/requires.txt
+djangorestframework_word_filter.egg-info/top_level.txt
+rest_framework_word_filter/__init__.py
+rest_framework_word_filter/apps.py
+rest_framework_word_filter/filter.py
+rest_framework_word_filter/models.py
+rest_framework_word_filter/tests.py
