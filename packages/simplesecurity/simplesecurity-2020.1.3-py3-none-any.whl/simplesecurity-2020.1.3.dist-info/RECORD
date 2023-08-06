@@ -1,0 +1,11 @@
+simplesecurity/__init__.py,sha256=2l5h9Q2kEOPwXUp057Gysvi6LR2pnBtmt6tWn27wFAk,1849
+simplesecurity/__main__.py,sha256=1thgzmlXbigmDsyrIVubGhOlV62kY4SztgTEjmrVM3s,78
+simplesecurity/formatter.py,sha256=1UYOJF2MTrzQsPCQSVFWwvkJrza3mIm2ZGly7jj2bYY,5363
+simplesecurity/level.py,sha256=1Mt26IttrNQx8wIHWgJLmEY6ovySaavCNeJmX-pBZMo,581
+simplesecurity/plugins.py,sha256=4xRxxdg_di73SWHErAO9Nfcyab6tORvBjxsKQsJlzcE,6165
+simplesecurity/types.py,sha256=ZSlH5PvHh8wzKJ9mUiIZxqIKjwYBHaR9fMb4ETOergc,644
+simplesecurity-2020.1.3.dist-info/entry_points.txt,sha256=LxeDGd6o0-smDJF22Hk1L-XWIA6JVMPMvus1Fxv5vkM,53
+simplesecurity-2020.1.3.dist-info/LICENSE.md,sha256=lGO6M75mU76sNMossy9lWH15u3cMpzo3I4IfMUH-ITA,1100
+simplesecurity-2020.1.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+simplesecurity-2020.1.3.dist-info/METADATA,sha256=zwruSBYSVQ1YCDRi8LXhu8wvEbXvH_Bqp4Aadwpx0HY,7252
+simplesecurity-2020.1.3.dist-info/RECORD,,
