@@ -1,0 +1,193 @@
+{% load i18n static %}<!DOCTYPE html>
+{% get_current_language as LANGUAGE_CODE %}{% get_current_language_bidi as LANGUAGE_BIDI %}
+<html lang="{{ LANGUAGE_CODE|default:"en-us" }}" {% if LANGUAGE_BIDI %}dir="rtl"{% endif %}>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% block stylesheet %}{% static "admin/css/base.css" %}{% endblock %}">
+
+    <script src="{% static 'admin/js/bootstrap.min.js' %}"></script>
+    {% if not is_popup and is_nav_sidebar_enabled %}
+        <link rel="stylesheet" type="text/css" href="{% static "admin/css/nav_sidebar.css" %}">
+        <script src="{% static 'admin/js/nav_sidebar.js' %}" defer></script>
+    {% endif %}
+    {% block extrastyle %}{% endblock %}
+    {% if LANGUAGE_BIDI %}
+        <link rel="stylesheet" type="text/css"
+              href="{% block stylesheet_rtl %}{% static "admin/css/rtl.css" %}{% endblock %}">{% endif %}
+    {% block extrahead %}{% endblock %}
+    {% block responsive %}
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{% static "admin/css/responsive.css" %}">
+        {% if LANGUAGE_BIDI %}
+            <link rel="stylesheet" type="text/css" href="{% static 'admin/css/responsive_rtl.css' %}">{% endif %}
+    {% endblock %}
+    {% block blockbots %}
+        <meta name="robots" content="NONE,NOARCHIVE">{% endblock %}
+</head>
+{% load i18n %}
+
+
+<body class="{% if is_popup %}popup {% endif %}{% block bodyclass %}{% endblock %}"
+      data-admin-utc-offset="{% now "Z" %}">
+
+
+<!-- Container -->
+
+<div id="container">
+    <style>
+        #login-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+        }
+    </style>
+
+    {% if not is_popup %}
+        <!-- Header -->
+        <div id="header" style="">
+            <div id="branding" style="display: flex; padding-left: 110px;">
+                {% block branding %}{% endblock %}
+            </div>
+            {% if not has_permission %}
+                <div id="nav-panel" style="display: flex; margin-right: 150px; justify-content: space-around">
+
+                    <div class="site" style="display: flex; align-items: center">
+                        <div class="img-site" style="margin-right: 5px;">
+                            <img src="{% static 'admin/img/divier/earth.png' %}" alt="web">
+                        </div>
+                        <p style="color: #ffffff; display: flex; justify-content: center">www.divier.ru</p>
+                    </div>
+
+                    <div class="email" style="display: flex; margin-right: 20px; margin-left:20px; align-items: center">
+                        <div class="img-email" style="margin-right: 5px">
+                            <img src="{% static 'admin/img/divier/mail.png' %}" alt="mail">
+                        </div>
+                        <p style="color: #ffffff">viksne@divier.ru</p>
+                    </div>
+
+                    <div class="numbers" style="display: flex; align-items: center">
+                        <div class="img-numbers" style="margin-right: 5px">
+                            <img src="{% static 'admin/img/divier/phone.png' %}" alt="phone">
+                        </div>
+                        <div class="numbers">
+                            <p style="color: #ffffff">8 (499) 110-62-64</p>
+                            <p style="color: #ffffff">8 (905) 546-39-88</p>
+                        </div>
+                    </div>
+
+                </div>
+            {% endif %}
+            {% block usertools %}
+                {% if has_permission %}
+                    <div id="user-tools" style="color: #cfdae4; letter-spacing: 2px; padding-bottom: 10px; margin-left: 205px; font-weight: 200; display: flex;margin-right: 66px;">
+                        {% block welcome-msg %}
+                            {% translate 'Welcome,' %}
+                            <span style="color: #d9223e; margin-right: 50px">{% firstof user.get_short_name user.get_username %}</span>
+                        {% endblock %}
+                        <div class="links">
+                            {% block userlinks %}
+                                {% if site_url %}
+                                    <a href="{{ site_url }}">{% translate 'View site' %}</a> /
+                                {% endif %}
+                                {% if user.is_active and user.is_staff %}
+                                    {% url 'django-admindocs-docroot' as docsroot %}
+                                    {% if docsroot %}
+                                        <a href="{{ docsroot }}">{% translate 'Documentation' %}</a> /
+                                    {% endif %}
+                                {% endif %}
+                                {% if user.has_usable_password %}
+                                    <a href="{% url 'admin:password_change' %}">{% translate 'Change password' %}</a> /
+                                {% endif %}
+                                <a href="{% url 'admin:logout' %}">{% translate 'Log out' %}</a>
+                            {% endblock %}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endblock %}
+            {% block nav-global %}{% endblock %}
+        </div>
+        <!-- END Header -->
+        {% block breadcrumbs %}
+            <div class="breadcrumbs">
+                <a href="{% url 'admin:index' %}">{% translate 'Home' %}</a>
+                {% if title %} &rsaquo; {{ title }}{% endif %}
+            </div>
+        {% endblock %}
+    {% endif %}
+
+    <div class="main shifted" id="main">
+        {% if not is_popup and is_nav_sidebar_enabled %}
+            {% block nav-sidebar %}
+                {% include "admin/nav_sidebar.html" %}
+            {% endblock %}
+        {% endif %}
+        <div class="content">
+            {% block messages %}
+                {% if messages %}
+                    <ul class="messagelist">{% for message in messages %}
+                        <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message|capfirst }}</li>
+                    {% endfor %}</ul>
+                {% endif %}
+            {% endblock messages %}
+            <!-- Content -->
+
+            <div id="content" class="{% block coltype %}colM{% endblock %}" style="display: flex; margin: 0;
+            justify-content: space-around; flex-direction: column; width: auto;">
+
+                {% if app_list %}
+
+                        <div class="row" style="margin: 40px 0 0 0;  ">
+                            <h1 style="text-transform: uppercase; color: #ffffff;margin-left: 220px;font-size: 38px; font-weight: 100;letter-spacing: 0.44px;">Администрация сайта</h1>
+                        </div>
+
+                {% endif %}
+
+                {% block pretitle %}{% endblock %}
+
+                <div class="menu-contenr" style="display: flex; margin-top: 11px">
+
+                        <div class="l-col"
+                             style="width:{% if not has_permission %} 100%{% endif %}{% if  has_permission %}67%{% endif %};padding-right: 0; margin-left: 220px;">
+                            {% block content %}
+                                {% block object-tools %}{% endblock %}
+                                {{ content }}
+                            {% endblock %}
+                        </div>
+                        {% if has_permission %}
+                            <div class="r-col" style="width: 40%;">
+                                {% block sidebar %}{% endblock %}
+                            </div>
+                        {% endif %}
+
+                    <br class="clear">
+                </div>
+            </div>
+            <!-- END Content -->
+        </div>
+    </div>
+
+    {% block footer %}
+        <footer role="contentinfo">
+        <div class="container" style="margin-left:220px">
+                            <p style="color: #838b9b; text-align: left">Разработка сайта <a href="https://www.divier.ru/"
+                                                               style="color: #d9223e;">ДиВиЕР</a> |
+                    ©2007–2020</p>
+        </div>
+
+        </footer>
+    {% endblock %}
+</div>
+<!-- END Container -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="{% static 'admin/js/bootstrap.min.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'PF-Din-Display-Pro';
+    src: url('../fonts/divier/pfdindisplaypro-bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF-Din-Display-Pro';
+    src: url('../fonts/divier/pfdindisplaypro-med.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF-Din-Display-Pro';
+    src: url('../fonts/divier/pfdindisplaypro-reg.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+font-family: 'PF-Din-Display-Pro';
+src: url('../fonts/divier/pfdindisplaypro-lightd.ttf');
+font-weight: 200;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'PF-Din-Display-Pro';
+    src: url('../fonts/divier/pfdindisplaypro-thin.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
