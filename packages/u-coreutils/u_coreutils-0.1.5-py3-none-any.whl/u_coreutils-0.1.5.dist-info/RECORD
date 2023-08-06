@@ -1,0 +1,10 @@
+u_coreutils/__init__.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+u_coreutils/cat/__init__.py,sha256=N983sImpyJJUDFtOVHqMd2sXBC0wBeDY-cuaiHbYA-4,1619
+u_coreutils/cat/__main__.py,sha256=0bNpCjtD3ZeIrWRkcNYHD2BR2Ah7nJW3s0C6XgpQJx8,60
+u_coreutils/cat/pipeline.py,sha256=kiUhMsGQ3XSi-zRIAjDaQ-kYNKOWx2EryHNC_vYOCkk,2195
+u_coreutils/echo/__init__.py,sha256=Z2tQ-Esz8Q-0e2mMbC7qRWBhlVFjqL5fSTdPtAtIqV4,2497
+u_coreutils/echo/__main__.py,sha256=BdMWn5Q-G4GYUf-llLGCK-nqLcqsUxUeJ_vAZUqSQRA,56
+u_coreutils-0.1.5.dist-info/entry_points.txt,sha256=J1yCoYYB3i1E52MtnUntzfeZPynyZIkABN6TIOutGn0,73
+u_coreutils-0.1.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+u_coreutils-0.1.5.dist-info/METADATA,sha256=I8j4VxsFlMh3dZctJ-EjtmIMiGm49Bud1vbrgWTplvY,899
+u_coreutils-0.1.5.dist-info/RECORD,,
