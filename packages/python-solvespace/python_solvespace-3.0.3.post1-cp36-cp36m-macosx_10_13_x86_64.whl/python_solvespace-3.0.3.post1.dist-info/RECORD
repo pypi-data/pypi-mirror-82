@@ -1,0 +1,10 @@
+python_solvespace/__init__.pxd,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+python_solvespace/__init__.py,sha256=8QclxdQ1F7wG-nHMIERYcAUR23Jecb-NXMlhNBrNJp4,1787
+python_solvespace/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_solvespace/slvs.cpython-36m-darwin.so,sha256=MmmYoisjJ7DybtBsVHLgTDAiy_JbAZ-JxtSNDnNUqcM,936068
+python_solvespace/slvs.pxd,sha256=uDu8oNg59FgVvrVPuWiXruOUUjbXVq8r19-NBRm0VNY,9833
+python_solvespace/slvs.pyi,sha256=64zEt0C0zGQo4_FPZdgSO4iSBAxj7gI_NpJb24qR2Q0,5581
+python_solvespace-3.0.3.post1.dist-info/METADATA,sha256=5U-afBA4vOz3JQlZhJRm9u7P5PYzCGshIpwswgINsxU,1782
+python_solvespace-3.0.3.post1.dist-info/WHEEL,sha256=wCGfctdUoGz0hrHVT-CWguqOt2D7OFUQLGSd0j34P4I,111
+python_solvespace-3.0.3.post1.dist-info/top_level.txt,sha256=KyM1VjJlIaxzqi6e0M7zVNRdjdtAn_oxSETI064wJZA,18
+python_solvespace-3.0.3.post1.dist-info/RECORD,,
