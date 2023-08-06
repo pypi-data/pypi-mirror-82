@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cnn-raccoon
+Version: 0.9
+Summary: CNN Raccoon: Analise Convolutional Neural Network with ease! (Tensorflow and PyTorch supported)
+Home-page: https://github.com/lucko515/cnn-raccoon
+Author: Luka Anicin
+Author-email: luka.anicin@gmail.com
+License: MIT
+Description: # CNN Raccoon v0.9
+        
+        
+        ## Contact
+        
+        Add me on [LinkedIn](https://www.linkedin.com/in/luka-anicin/).
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3
+Description-Content-Type: text/markdown
