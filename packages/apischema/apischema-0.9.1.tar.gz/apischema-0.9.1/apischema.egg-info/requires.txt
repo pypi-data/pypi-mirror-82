@@ -1,0 +1,10 @@
+
+[:python_version < "3.7"]
+dataclasses==0.7
+
+[test]
+typing_extensions
+tox
+pytest
+sqlalchemy
+pydantic
