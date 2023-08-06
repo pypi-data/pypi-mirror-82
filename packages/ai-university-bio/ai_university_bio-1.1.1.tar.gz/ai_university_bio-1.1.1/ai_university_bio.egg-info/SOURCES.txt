@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ai_university_bio/__init__.py
+ai_university_bio/lab.py
+ai_university_bio/weights.py
+ai_university_bio.egg-info/PKG-INFO
+ai_university_bio.egg-info/SOURCES.txt
+ai_university_bio.egg-info/dependency_links.txt
+ai_university_bio.egg-info/top_level.txt
