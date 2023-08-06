@@ -1,0 +1,12 @@
+amazon_web_services_helpers/__init__.py,sha256=g3c9evjgWa5tZyiN5n1HF-Rmjpa2hmZcRk3SRv2gwE8,455
+amazon_web_services_helpers/aws_helper.py,sha256=tPfsRlmUYqnmmOQ30qwW6y6EdqeGYcZTt7hkFQaSwZU,722
+amazon_web_services_helpers/document_store.py,sha256=tnLQx_fEbCr8ra-pgRlp7wIhxG_GptCHMmK5YhcDRwo,5131
+amazon_web_services_helpers/dynamo_db_helper.py,sha256=gkGsnNtDAG2ejTSQzov03oLlmFyHAgldXTvpr8bar9o,1423
+amazon_web_services_helpers/file_helper.py,sha256=6D_NmvKISp5a4tjUahfN5Ezky5x_kUlqifbMaUfR-Pc,2164
+amazon_web_services_helpers/s3_helper.py,sha256=kH1Qc5yiOwvL7QkuDmgFhnJCJWqATYla7XtA6bV6tTg,2975
+amazon_web_services_helpers-1.0.5.dist-info/METADATA,sha256=kcFzmFXUXMPnxdLbGJCoO_wwA7VWUDK0OPzuTpZOEks,317
+amazon_web_services_helpers-1.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+amazon_web_services_helpers-1.0.5.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+amazon_web_services_helpers-1.0.5.dist-info/top_level.txt,sha256=ltGTvmg7qhhVNPc7mchG41tjrs4kDlw83TQOa5vMdP0,28
+amazon_web_services_helpers-1.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+amazon_web_services_helpers-1.0.5.dist-info/RECORD,,
