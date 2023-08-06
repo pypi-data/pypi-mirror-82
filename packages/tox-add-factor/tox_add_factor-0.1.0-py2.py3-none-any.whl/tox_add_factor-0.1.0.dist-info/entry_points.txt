@@ -1,0 +1,3 @@
+[tox]
+addfactor = tox_add_factor.hooks
+
