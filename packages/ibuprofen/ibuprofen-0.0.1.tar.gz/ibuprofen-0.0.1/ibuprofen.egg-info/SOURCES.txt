@@ -1,0 +1,6 @@
+README.md
+setup.py
+ibuprofen.egg-info/PKG-INFO
+ibuprofen.egg-info/SOURCES.txt
+ibuprofen.egg-info/dependency_links.txt
+ibuprofen.egg-info/top_level.txt
