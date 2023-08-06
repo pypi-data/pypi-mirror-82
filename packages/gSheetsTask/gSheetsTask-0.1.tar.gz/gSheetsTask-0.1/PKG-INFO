@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: gSheetsTask
+Version: 0.1
+Summary: this package allows the user to select a google sheet from their Google drive and plot a chart with the values on the sheet. The user is given an option to select the column for the x-axis and the y-axis.
+Home-page: https://github.com/akanksha-devp/Googlesheets
+Author: akanksha
+Author-email: akankshahi94@gmail.com
+License: MIT
+Download-URL: https://github.com/akanksha-devp/Googlesheets/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: tag1,tag2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
