@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ghdl
+Version: 0.2.3
+Summary: Package manager for Github Release binaries
+Home-page: UNKNOWN
+Author: Imran Khan
+Author-email: imrankhan@teknik.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8,<4.0
