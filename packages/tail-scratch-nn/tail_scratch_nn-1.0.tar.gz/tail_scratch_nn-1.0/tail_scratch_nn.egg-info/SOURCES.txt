@@ -1,0 +1,9 @@
+setup.py
+tail_scratch_nn/__init__.py
+tail_scratch_nn/activation_functions.py
+tail_scratch_nn/neural_network.py
+tail_scratch_nn.egg-info/PKG-INFO
+tail_scratch_nn.egg-info/SOURCES.txt
+tail_scratch_nn.egg-info/dependency_links.txt
+tail_scratch_nn.egg-info/not-zip-safe
+tail_scratch_nn.egg-info/top_level.txt
