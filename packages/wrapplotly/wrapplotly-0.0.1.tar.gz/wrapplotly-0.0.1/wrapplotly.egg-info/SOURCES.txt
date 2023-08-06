@@ -1,0 +1,8 @@
+README.md
+setup.py
+wrapplotly.egg-info/PKG-INFO
+wrapplotly.egg-info/SOURCES.txt
+wrapplotly.egg-info/dependency_links.txt
+wrapplotly.egg-info/top_level.txt
+wrapplotly_pkg/__init__.py
+wrapplotly_pkg/graphics.py
