@@ -1,0 +1,12 @@
+server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server/decorators.py,sha256=wEJCqYMTAjbph_ddImG2in8-UiNdnrLgxIVUyyhM-Nw,619
+server/metaclasses.py,sha256=1cj00RonIbgNASb6R_PkX_wgL-28SEv1TLtDocV14Rs,2019
+server/server.py,sha256=KGJTZ8Y-4bGrWCYV5UhWvKxoZ-wmX92rD-KwmOOW2k0,4211
+server/server_database.py,sha256=xeyRG4Z6UW0xBPViaafxhigmxrVsmaiTG193MM7bDQg,7602
+server/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server/common/utils.py,sha256=4KnlJ3S58l1ZoVZoyC8s5Eqw_gYbG4q9ZheMcX1-cZU,649
+server/common/variables.py,sha256=m8CVuFW93cyRfhL2MO2_nmwujyZ3-JSXRsMcrb8NybQ,812
+mess_server_eTcilopp-0.5.2.dist-info/METADATA,sha256=P7ocWO3z1i4dyqhd5IHsKGSM6HVMD_vCwItTHYnxxBA,319
+mess_server_eTcilopp-0.5.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+mess_server_eTcilopp-0.5.2.dist-info/top_level.txt,sha256=StKOSmRhvWS5IPcvhsDRbtxUTEofJgYFGOu5AAJdSWo,7
+mess_server_eTcilopp-0.5.2.dist-info/RECORD,,
