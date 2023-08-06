@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "hypermodern-python-cdavis"
+version = "1.0.3"
+description = "The hypermodern Python project"
+authors = ["Colin Davis <cvdavis3@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/cvdavis3/hypermodern-python-cdavis"
+repository = "https://github.com/cvdavis3/hypermodern-python-cdavis"
+documentation = "https://hypermodern-python-cdavis.readthedocs.io"
+keywords = ["hypermodern"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+requests = "^2.24.0"
+desert = "^2020.1.6"
+marshmallow = "^3.8.0"
+importlib-metadata = {version = "^2.0.0", python = "<3.8"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.1"
+coverage = {extras = ["toml"], version = "^5.3"}
+pytest-cov = "^2.10.1"
+pytest-mock = "^3.3.1"
+black = "^20.8b1"
+flake8 = "^3.8.4"
+flake8-bandit = "^2.1.2"
+flake8-black = "^0.2.1"
+flake8-bugbear = "^20.1.4"
+flake8-import-order = "^0.18.1"
+safety = "^1.9.0"
+mypy = "^0.790"
+pytype = {version = "^2020.10.8", python = "3.7"}
+typeguard = "^2.9.1"
+flake8-annotations = "^2.4.1"
+flake8-docstrings = "^1.5.0"
+darglint = "^1.5.5"
+xdoctest = "^0.15.0"
+Sphinx = "^3.2.1"
+sphinx-autodoc-typehints = "^1.11.0"
+codecov = "^2.1.10"
+
+[tool.poetry.scripts]
+hypermodern-python-cdavis = "hypermodern_python_cdavis.console:main"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["hypermodern_python_cdavis"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 100
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
