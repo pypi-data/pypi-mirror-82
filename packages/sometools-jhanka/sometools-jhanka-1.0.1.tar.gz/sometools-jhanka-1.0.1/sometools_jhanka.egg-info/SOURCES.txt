@@ -1,0 +1,8 @@
+README.md
+setup.py
+sometools_jhanka.egg-info/PKG-INFO
+sometools_jhanka.egg-info/SOURCES.txt
+sometools_jhanka.egg-info/dependency_links.txt
+sometools_jhanka.egg-info/top_level.txt
+test_package/__init__.py
+test_package/sometools.py
