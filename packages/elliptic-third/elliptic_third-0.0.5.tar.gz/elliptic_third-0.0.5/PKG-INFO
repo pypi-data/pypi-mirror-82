@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: elliptic_third
+Version: 0.0.5
+Summary: Elliptic function of third kind
+Home-page: https://gitlab.bjarnessen.no/math/elliptic_third
+Author: Bjarne Rørnes
+Author-email: bjarne@bjarnessen.no
+License: UNKNOWN
+Description: Wrapper to C++ implementation of the Elliptic function of third kind, currently only for real numbers
+Platform: UNKNOWN
