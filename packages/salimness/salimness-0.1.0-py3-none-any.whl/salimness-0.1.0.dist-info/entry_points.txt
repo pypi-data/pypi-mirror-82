@@ -1,0 +1,3 @@
+[console_scripts]
+salimness=salimness.__main__:app
+
