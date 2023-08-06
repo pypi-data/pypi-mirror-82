@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: chx-gh
+Version: 0.0.1
+Summary: Github 命令行工具
+Home-page: https://github.com/chenxizhan1995/gh.git
+Author: Xizhan Chen
+Author-email: chenxizhan1995@163.com
+License: UNKNOWN
+Description: # 创建、查看、删除github仓库的脚本
+        不打开网页，直接建立仓库。
+        使用[GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
