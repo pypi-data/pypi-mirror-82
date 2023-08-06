@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/git-owners
+src/git_owners.egg-info/PKG-INFO
+src/git_owners.egg-info/SOURCES.txt
+src/git_owners.egg-info/dependency_links.txt
+src/git_owners.egg-info/top_level.txt
