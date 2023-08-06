@@ -1,0 +1,8 @@
+iprpc/__init__.py,sha256=GYYhOM3yOAquUn9pLvfNeRnyDYWcOVFBPfZ89dtFAQU,662
+iprpc/aioapp.py,sha256=qQyzVETnzJX6DjCtVj45TBD_vFrfnfvqxuZ8lKZ5Kgg,2074
+iprpc/aiohttp.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iprpc/executor.py,sha256=6KDkxGe33moXm2o3uzq6vV4f2DhX3E8cMb9RZFtekUY,11464
+iprpc/jsonrpc.py,sha256=BQIhaPnEZCWsXZf8g1519BZd3QxNlC_whbrYDsY3doc,4916
+iprpc-0.2.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+iprpc-0.2.3.dist-info/METADATA,sha256=6I7O8ciDKtnGTTteA0p617ZKHJNt33cObHPxQDEkMto,6720
+iprpc-0.2.3.dist-info/RECORD,,
