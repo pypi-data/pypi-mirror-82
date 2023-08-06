@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hass-brightsky-client
+Version: 0.1.2
+Summary: Wrapping the API-specific parts of the brightsky component for Home-Assistant
+License: MIT
+Author: Martin Weinelt
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.24.0,<3.0.0)
