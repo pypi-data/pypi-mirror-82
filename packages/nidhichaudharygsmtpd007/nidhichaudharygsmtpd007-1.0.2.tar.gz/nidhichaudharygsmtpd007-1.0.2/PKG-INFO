@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: nidhichaudharygsmtpd007
+Version: 1.0.2
+Summary: A library to convert the google sheets into pandas df and plot the graphs accordingly
+Home-page: UNKNOWN
+Author: Nidhi Chaudhary
+Author-email: nidhichaudhary1097@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: GoogleSheets,Plotting
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
