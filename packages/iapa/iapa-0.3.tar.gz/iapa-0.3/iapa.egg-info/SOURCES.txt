@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+iapa/__init__.py
+iapa/classification.py
+iapa/classify.py
+iapa/preML.py
+iapa.egg-info/PKG-INFO
+iapa.egg-info/SOURCES.txt
+iapa.egg-info/dependency_links.txt
+iapa.egg-info/requires.txt
+iapa.egg-info/top_level.txt
