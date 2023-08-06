@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: neodigit-dyndns
+Version: 0.2.1
+Summary: A dynamic DNS client using Neodigit's API
+Author: Eduardo Collado
+Author-email: edu@tecnocratica.net
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.24.0,<3.0.0)
