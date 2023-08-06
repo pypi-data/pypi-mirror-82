@@ -1,0 +1,16 @@
+botw_flag_util/__init__.py,sha256=yBkC3V9ex_aQHsYz1dou_feu5KNQD1R2hj5NJQ7AuJE,1124
+botw_flag_util/__main__.py,sha256=vnEoq7n7ggal9wa1bx5zQeckLk7JWBFx1xJzPJdQ5io,2377
+botw_flag_util/finder.py,sha256=vl2JxnA4Ws32n_SJ99ImiEdC17Ftp4aX42xTRcDbDPA,2532
+botw_flag_util/flag.py,sha256=tfpl_qXEHHJAM4iFvuihS6Q3XCqJa1oPXkLIrTBm_b4,34863
+botw_flag_util/generator.py,sha256=PAcMQNL6stm2WEd3Mf945mxgfrYY0DbxSrkjvwNV86U,16332
+botw_flag_util/store.py,sha256=A-As9SjxFJATyNpg5QwFo2GhV8BoMs2VpIqKbLtqi2c,6681
+botw_flag_util/util.py,sha256=nqIle135xneIRNam30d-BirlpzyaNYlLaZ_xajeBH20,8401
+botw_flag_util/data/vanilla_actors.json,sha256=ag-m_9UVV3Km8jFPMQ9BEi7GR64vjEWjs4V9O92nPlE,298979
+botw_flag_util/data/vanilla_hash.json,sha256=dDWnbCJXWqj5cnMTzDdNM53FrNDsa-W4YYgfTMl_bns,73792
+botw_flag_util/data/vanilla_shrines.json,sha256=nqx4_cCtvvZfbsEVBZl3nxTuis3-wNZbUQvNgzADWMs,17070
+botw_flag_util-0.2.3.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+botw_flag_util-0.2.3.dist-info/METADATA,sha256=5kONy1OCLofVjvKdyQLaQd8RO7qExyLc9VLRMJ3ZiSc,3855
+botw_flag_util-0.2.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+botw_flag_util-0.2.3.dist-info/entry_points.txt,sha256=uxGJV00TcrykEDZaYiwxZIoY9reaRt9-xOMJ4DLeQuQ,65
+botw_flag_util-0.2.3.dist-info/top_level.txt,sha256=_a-ZBConWzWhDISNwL-q6C_T_4D_APtvPwcqJSkYSLI,15
+botw_flag_util-0.2.3.dist-info/RECORD,,
