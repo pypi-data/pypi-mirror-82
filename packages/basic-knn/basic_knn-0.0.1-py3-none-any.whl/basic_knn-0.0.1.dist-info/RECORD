@@ -1,0 +1,10 @@
+basic_knn/__init__.py,sha256=7cy06KUe3hWoeG6-tD4xHb7V07nODuFZHYpIZvFfT2A,68
+basic_knn/classes.py,sha256=3-YfxwuugWNNkQhWwP21fuMvyDGxnwIiN-uAsYPoFZs,663
+basic_knn/functions.py,sha256=GgU_4fi4a_CaYH3InFHl5crQRx6c4PQruh-mQVNHa2k,805
+basic_knn/knn.py,sha256=MWJZUwkkyKz1yunCFIGznHKkFPn93RLxbe0X8fIemPM,941
+basic_knn/utils.py,sha256=oJROMEjWa9nkhd6QbQx41ZiuAhw2sZDJYTILmigptto,690
+basic_knn-0.0.1.dist-info/LICENSE,sha256=labrbyLsOyG7G36gHbPtF1Sl14kzfgMvbS_4gbCPX7w,1088
+basic_knn-0.0.1.dist-info/METADATA,sha256=W5oLUwkGUmf4qvWbT5Rmk5pU6W1zBgwdNe2mnbuOYgc,1831
+basic_knn-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+basic_knn-0.0.1.dist-info/top_level.txt,sha256=gJyt29qT_7wP8133UJ192ajtXqhsOHufdPOwTxQ_l_0,10
+basic_knn-0.0.1.dist-info/RECORD,,
