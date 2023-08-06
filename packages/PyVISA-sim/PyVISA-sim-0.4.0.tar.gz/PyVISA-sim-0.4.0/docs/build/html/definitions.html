@@ -1,0 +1,379 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Building your own simulated instruments &mdash; PyVISA-sim 0.4.dev26+gaf4ba31.d20201007 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="PyVISA-sim: Simulator backend for PyVISA" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> PyVISA-sim
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.4.dev26+gaf4ba31.d20201007
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Building your own simulated instruments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#devices">devices</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#eom">eom</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#error">error</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dialogues">dialogues</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#properties">properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#resources">resources</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PyVISA-sim</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Building your own simulated instruments</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/definitions.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="building-your-own-simulated-instruments">
+<span id="definitions"></span><h1>Building your own simulated instruments<a class="headerlink" href="#building-your-own-simulated-instruments" title="Permalink to this headline">¶</a></h1>
+<p>PyVISA-sim provides some simulated instruments but the real cool thing is that
+it allows you to write your own in simple <a class="reference external" href="http://en.wikipedia.org/wiki/YAML">YAML</a> files.</p>
+<p>Here we will go through the structure of such a file, using the <a class="reference external" href="https://github.com/pyvisa/pyvisa-sim/blob/master/pyvisa-sim/default.yaml">one provided
+with pyvisa-sim</a> as an example. The first line you will find is the specification version:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">spec</span><span class="p">:</span> <span class="s">&quot;1.1&quot;</span>
+</pre></div>
+</div>
+<p>This allow us to introduce changes to the specification without breaking user’s code
+and definition files. Hopefully we will not need to do that, but we like to be prepared.
+So, do not worry about this but make sure you include it.</p>
+<p>The rest of the file can be divided in two sections: devices and resources. We will guide
+you through describing the <a class="reference external" href="https://lantz.readthedocs.org/en/0.3/tutorial/building.html">Lantz Example Driver</a></p>
+<div class="section" id="devices">
+<h2>devices<a class="headerlink" href="#devices" title="Permalink to this headline">¶</a></h2>
+<p>It is a dictionary that defines each device, its dialogues and properties. The keys of this
+dictionary are the device names which must be unique within this file. For example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">devices</span><span class="p">:</span>
+    <span class="nt">HP33120A</span><span class="p">:</span>
+        <span class="l l-Scalar l-Scalar-Plain">&lt;here goes the device definition&gt;</span>
+    <span class="nt">SR830</span><span class="p">:</span>
+        <span class="l l-Scalar l-Scalar-Plain">&lt;here goes the device definition&gt;</span>
+</pre></div>
+</div>
+<p>The device definition is a dictionary with the following keys:</p>
+<div class="section" id="eom">
+<h3>eom<a class="headerlink" href="#eom" title="Permalink to this headline">¶</a></h3>
+<p>Specifies the end-of-message for each instrument type and resource class pair.
+For example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">eom</span><span class="p">:</span>
+  <span class="nt">ASRL INSTR</span><span class="p">:</span>
+    <span class="nt">q</span><span class="p">:</span> <span class="s">&quot;\r\n&quot;</span>
+    <span class="nt">r</span><span class="p">:</span> <span class="s">&quot;\n&quot;</span>
+</pre></div>
+</div>
+<p>means that <strong>ASRL INSTR</strong> resource queries are expected to end in <strong>rn</strong> and
+responses end in <strong>n</strong>. The <strong>q</strong>, <strong>r</strong> pair is a common structure that will
+repeat in dialogues, getters and setters.</p>
+<p>You can specify the eom for as many types as you like. The correct one will be
+selected when a device is assigned to a resource, as we will see later.</p>
+</div>
+<div class="section" id="error">
+<h3>error<a class="headerlink" href="#error" title="Permalink to this headline">¶</a></h3>
+<p>The error key specifies the default message to be given when a message is not understood
+or the user tries to set a property outside the right range. For example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">error</span><span class="p">:</span> <span class="n">ERROR</span>
+</pre></div>
+</div>
+<p>This means that the word <strong>ERROR</strong> is returned.</p>
+<p>If you want to further customize how your device handles errors, you can split the
+error types in two: <strong>command_error</strong> which is returned when fed an invalid command
+or an out of range command, or <strong>query_error</strong> which is returned when trying to
+read an empty buffer.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">error</span><span class="p">:</span>
+  <span class="nt">response</span><span class="p">:</span>
+    <span class="nt">command_error</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">null_response</span>
+  <span class="nt">status_register</span><span class="p">:</span>
+    <span class="p p-Indicator">-</span> <span class="nt">q</span><span class="p">:</span> <span class="s">&quot;*ESR?&quot;</span>
+      <span class="nt">command_error</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">32</span>
+      <span class="nt">query_error</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">4</span>
+</pre></div>
+</div>
+<p>In addition to customizing how responses are generated you can specify a status
+register in which errors are tracked. Each element in the list specifies a
+single register so in the example above, if both a <strong>command_error</strong> and
+<strong>query_error</strong> are raised, then querying <cite>‘*ESR?’</cite> will return <cite>‘36’</cite>.</p>
+</div>
+<div class="section" id="dialogues">
+<h3>dialogues<a class="headerlink" href="#dialogues" title="Permalink to this headline">¶</a></h3>
+<p>This is one of the main concepts of PyVISA-sim. A dialogue is a query which may be followed
+by a response. The dialogues item is a list of elements, normally <strong>q</strong>, <strong>r</strong> pairs. Fore example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">code</span><span class="o">-</span><span class="n">block</span><span class="p">::</span> <span class="n">yaml</span>
+</pre></div>
+</div>
+<blockquote>
+<div><dl class="simple">
+<dt>dialogues:</dt><dd><ul class="simple">
+<li><p>q: “?IDN”
+r: “LSG Serial #1234”</p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+<p>If the response (<strong>r</strong>) is not provided, no response will be given by the device.
+Conversely, if <strong>null_response</strong> is provided for response (<strong>r</strong>), then no response
+will be given by the device as well.</p>
+<p>You can have as many items as you want.</p>
+</div>
+<div class="section" id="properties">
+<h3>properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h3>
+<p>This is the other important part of the device. Consider it as a dialogue with some memory. It is
+a dictionary. The key is the name of the property and the value is the property definition.
+For example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">properties</span><span class="p">:</span>
+  <span class="nt">frequency</span><span class="p">:</span>
+    <span class="nt">default</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">100.0</span>
+    <span class="nt">getter</span><span class="p">:</span>
+      <span class="nt">q</span><span class="p">:</span> <span class="s">&quot;?FREQ&quot;</span>
+      <span class="nt">r</span><span class="p">:</span> <span class="s">&quot;{:.2f}&quot;</span>
+    <span class="nt">setter</span><span class="p">:</span>
+      <span class="nt">q</span><span class="p">:</span> <span class="s">&quot;!FREQ</span><span class="nv"> </span><span class="s">{:.2f}&quot;</span>
+      <span class="nt">r</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">OK</span>
+    <span class="nt">specs</span><span class="p">:</span>
+      <span class="nt">min</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+      <span class="nt">max</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">100000</span>
+      <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">float</span>
+</pre></div>
+</div>
+<p>This says that there is a property called <strong>frequency</strong> with a default value of <strong>100.0</strong>.</p>
+<p>To get the current frequency value you need to send <strong>?FREQ</strong> and the response will be
+formatted as <strong>{:.2f}</strong>. This is the <a class="reference external" href="https://www.python.org/dev/peps/pep-3101/">PEP3101</a> formatting specification.</p>
+<p>To set the frequency value you need to send <strong>!FREQ</strong> followed by a number formatted as
+<strong>{:.2f}</strong>. Again this is the <a class="reference external" href="https://www.python.org/dev/peps/pep-3101/">PEP3101</a> formatting specification but used for parsing.
+If you want know more about it, take a look at the <a class="reference external" href="https://github.com/hgrecco/stringparser">stringparser</a> library.
+If setting the property was successful, the response will be <strong>OK</strong>.
+If there was an error, the response will be <strong>ERROR</strong> (the default). You can specify
+an error-specific error message for this setter as:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">e</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">Some other error message.</span>
+</pre></div>
+</div>
+<p>Finally you can specify the specs of the property:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">specs</span><span class="p">:</span>
+  <span class="nt">min</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+  <span class="nt">max</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">100000</span>
+  <span class="nt">type</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">float</span>
+</pre></div>
+</div>
+<p>You can define the minimum (min) and maximum (max) values, and the type of the value
+(float, int, str).
+You can also specify the valid values, for example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">specs</span><span class="p">:</span>
+  <span class="nt">valid</span><span class="p">:</span> <span class="p p-Indicator">[</span><span class="nv">1</span><span class="p p-Indicator">,</span> <span class="nv">3</span><span class="p p-Indicator">,</span> <span class="nv">5</span><span class="p p-Indicator">]</span>
+</pre></div>
+</div>
+<p>Notice that even if the type is a float, the communication is done with strings.</p>
+</div>
+</div>
+<div class="section" id="resources">
+<h2>resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h2>
+<p>It is a dictionary that binds resource names to device types. The keys of this
+dictionary are the resource names which must be unique within this file. For example:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">resources</span><span class="p">:</span>
+    <span class="l l-Scalar l-Scalar-Plain">ASRL1::INSTR</span><span class="p p-Indicator">:</span>
+        <span class="nt">device</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">device 1</span>
+    <span class="l l-Scalar l-Scalar-Plain">USB::0x1111::0x2222::0x1234::INSTR</span><span class="p p-Indicator">:</span>
+        <span class="nt">device</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">device 1</span>
+</pre></div>
+</div>
+<p>Within each resource, the type is specified under the <strong>device</strong> key. The associated value
+(e.g <strong>device 1</strong>) must corresponds to one of the keys in the <strong>devices</strong> dictionary that
+is explained above. Notice that the same device type can be bound to different resource names,
+creating two different objects of the same type.</p>
+<p>You can also bind a resource name to device defined in another file. Simply do:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">ASRL3::INSTR</span><span class="p p-Indicator">:</span>
+    <span class="nt">device</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">device 1</span>
+    <span class="nt">filename</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">myfile.yaml</span>
+</pre></div>
+</div>
+<p>The path can specified in relation with the current file or in an absolute way.</p>
+<p>If you want to use a file which is bundled with PyVISA-sim, just write:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">ASRL3::INSTR</span><span class="p p-Indicator">:</span>
+    <span class="nt">device</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">device 1</span>
+    <span class="nt">filename</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">default.yaml</span>
+    <span class="nt">bundled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="PyVISA-sim: Simulator backend for PyVISA" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, PyVISA-sim Authors
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
