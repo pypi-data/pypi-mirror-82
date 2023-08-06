@@ -1,0 +1,3 @@
+[console_scripts]
+hypermodern-python-cdavis=hypermodern_python_cdavis.console:main
+
