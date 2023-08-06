@@ -1,0 +1,3 @@
+[console_scripts]
+iss = iss_tracker:start
+

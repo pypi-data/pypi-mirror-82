@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: iss-tracker
+Version: 2.0.0
+Summary: A simple Tkinter GUI for tracking the International Space Station
+Home-page: http://github.com/bsoyka/iss-tracker
+Author: Ben Soyka
+Author-email: bensoyka@icloud.com
+License: MIT
+Description: # ISS Tracker
+        
+        **A simple interface to track the International Space Station live**
+        
+        Install using `pip`:
+        
+        ```sh
+        $ pip install iss-tracker
+        ```
+        
+        Run with one command:
+        
+        ```sh
+        $ iss
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
