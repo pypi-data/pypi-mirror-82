@@ -1,0 +1,9 @@
+README.md
+setup.py
+ansh997.egg-info/PKG-INFO
+ansh997.egg-info/SOURCES.txt
+ansh997.egg-info/dependency_links.txt
+ansh997.egg-info/requires.txt
+ansh997.egg-info/top_level.txt
+spreadg/__init__.py
+spreadg/allfun.py
