@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: doggy
+Version: 1.0.2
+Summary: A python package that helps you set shortcuts for your project folders or file editors(its still in development)
+Home-page: https://github.com/orangeappleak/PYTHON-CLI
+Author: A.Karthik A.K.A REDMANGOAPPLE
+Author-email: redmaniac0510@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: colorama
+
+# PYTHON-CLI
+
+This is basically your doggy, it helps you to make your programming life easier with profiles that you can manage and shortcuts you can add to certain files or wrokspaces.The profiles consist of various project folder and file extensions that can help you open you workspaces with just on command.
+

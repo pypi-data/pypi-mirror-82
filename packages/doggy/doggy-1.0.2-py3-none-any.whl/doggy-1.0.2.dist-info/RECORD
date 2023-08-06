@@ -1,0 +1,11 @@
+doggy.py,sha256=msSXN6jFjjW56f1ozHq3zahxWr08VMtMgNYyUUXva70,2386
+doggy/__init__.py,sha256=iSsK5ljA5CR9fgSFJyAyxx8yhcu5E3SF3UTagNBpFr0,2964
+doggy/doggy.py,sha256=okVORxm2Xil5LCRz-B_zgZOztGut-r4Siw_ff3V0XiU,2368
+doggy/file_operations.py,sha256=PSudYhwTHkFtqMJSnWMcQo1AfFtlLt5uNkZ0jpJwPSU,5661
+doggy/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doggy/commands/uc.py,sha256=aU9rBxZDo4VCxHGrRSjrVVOyCG3MRb2IMlXAT4njJI8,2014
+doggy-1.0.2.dist-info/METADATA,sha256=z1ThzbzK7CIU9CSrvUfzcjWEzEKMq5nZMdLWGESRVpg,696
+doggy-1.0.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+doggy-1.0.2.dist-info/entry_points.txt,sha256=z2xi04wycd7R-kHdquhnDdbFM2SzxDz1lUVWutnupmI,47
+doggy-1.0.2.dist-info/top_level.txt,sha256=NB3WRdf2oFuAKMK7rcm15BPqzjOizlNyF-MMXrKHnEQ,6
+doggy-1.0.2.dist-info/RECORD,,
