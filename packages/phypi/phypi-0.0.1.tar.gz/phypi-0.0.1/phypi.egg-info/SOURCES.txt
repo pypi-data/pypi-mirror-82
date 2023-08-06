@@ -1,0 +1,7 @@
+setup.py
+phypi.egg-info/PKG-INFO
+phypi.egg-info/SOURCES.txt
+phypi.egg-info/dependency_links.txt
+phypi.egg-info/requires.txt
+phypi.egg-info/top_level.txt
+test/test.py
