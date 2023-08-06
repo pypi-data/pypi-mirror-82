@@ -1,0 +1,51 @@
+[1mgenerate sizeof_char.cc[0m
+generate(<artefact sizeof_char.cc-2454ee44c70>)
+[1mmsvc.makedep sizeof_char.d[0m
+makedep(<scan sizeof_char.d-2454ee352b0>, <artefact sizeof_char.cc-2454ee44c70>, cppflags=['/I"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\include" /I"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\shared" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\winrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\cppwinrt"'])
+The filename, directory name, or volume label syntax is incorrect.
+
+...skipped msvc-16.6.5\x86_64\sizeof_char.obj for lack of msvc-16.6.5\x86_64\sizeof_char.d...
+...skipped msvc-16.6.5\x86_64\sizeof_char.exe for lack of msvc-16.6.5\x86_64\sizeof_char.obj...
+...skipped sizeof_char for lack of msvc-16.6.5\x86_64\sizeof_char.exe...
+[1mgenerate has_cxx14.cc[0m
+generate(<artefact has_cxx14.cc-2454f02e400>)
+[1mmsvc.makedep has_cxx14.d[0m
+makedep(<scan has_cxx14.d-2454f027670>, <artefact has_cxx14.cc-2454f02e400>, cppflags=['/I"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\include" /I"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\shared" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\winrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\cppwinrt"'])
+The filename, directory name, or volume label syntax is incorrect.
+
+...skipped msvc-16.6.5\x86_64\has_cxx14.obj for lack of msvc-16.6.5\x86_64\has_cxx14.d...
+...skipped has_cxx14 for lack of msvc-16.6.5\x86_64\has_cxx14.obj...
+[1mgenerate sizeof_long.cc[0m
+generate(<artefact sizeof_long.cc-2454edbba60>)
+[1mmsvc.makedep sizeof_long.d[0m
+makedep(<scan sizeof_long.d-2454ed22e50>, <artefact sizeof_long.cc-2454edbba60>, cppflags=['/I"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\include" /I"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\shared" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\winrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\cppwinrt"'])
+The filename, directory name, or volume label syntax is incorrect.
+
+...skipped msvc-16.6.5\x86_64\sizeof_long.obj for lack of msvc-16.6.5\x86_64\sizeof_long.d...
+...skipped msvc-16.6.5\x86_64\sizeof_long.exe for lack of msvc-16.6.5\x86_64\sizeof_long.obj...
+...skipped sizeof_long for lack of msvc-16.6.5\x86_64\sizeof_long.exe...
+[1mgenerate has_cxx17.cc[0m
+generate(<artefact has_cxx17.cc-2454f033d90>)
+[1mmsvc.makedep has_cxx17.d[0m
+makedep(<scan has_cxx17.d-2454f027f70>, <artefact has_cxx17.cc-2454f033d90>, cppflags=['/I"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\include" /I"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\shared" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\winrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\cppwinrt"'])
+The filename, directory name, or volume label syntax is incorrect.
+
+...skipped msvc-16.6.5\x86_64\has_cxx17.obj for lack of msvc-16.6.5\x86_64\has_cxx17.d...
+...skipped has_cxx17 for lack of msvc-16.6.5\x86_64\has_cxx17.obj...
+[1mgenerate pytest.cc[0m
+generate(<artefact pytest.cc-2454ef15220>)
+[1mmsvc.makedep pytest.d[0m
+makedep(<scan pytest.d-2454ed22cd0>, <artefact pytest.cc-2454ef15220>, cppflags=['/I"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\include" /I"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\shared" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\winrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\cppwinrt"'])
+The filename, directory name, or volume label syntax is incorrect.
+
+...skipped msvc-16.6.5\x86_64\pytest.obj for lack of msvc-16.6.5\x86_64\pytest.d...
+...skipped msvc-16.6.5\x86_64\pytest.exe for lack of msvc-16.6.5\x86_64\pytest.obj...
+...skipped pytest for lack of msvc-16.6.5\x86_64\pytest.exe...
+[1mgenerate has_cxx11.cc[0m
+generate(<artefact has_cxx11.cc-2454f0279a0>)
+[1mmsvc.makedep has_cxx11.d[0m
+makedep(<scan has_cxx11.d-2454f02e250>, <artefact has_cxx11.cc-2454f0279a0>, cppflags=['/I"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.26.28801\\include" /I"C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\ucrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\shared" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\um" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\winrt" /I"C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.18362.0\\cppwinrt"'])
+The filename, directory name, or volume label syntax is incorrect.
+
+...skipped msvc-16.6.5\x86_64\has_cxx11.obj for lack of msvc-16.6.5\x86_64\has_cxx11.d...
+...skipped has_cxx11 for lack of msvc-16.6.5\x86_64\has_cxx11.obj...
