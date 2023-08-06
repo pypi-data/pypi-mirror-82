@@ -1,0 +1,11 @@
+README.md
+setup.py
+HCSC/HSCS.py
+HCSC/__init__.py
+HCSC/config.py
+HCSC/my_functions.py
+HCSC.egg-info/PKG-INFO
+HCSC.egg-info/SOURCES.txt
+HCSC.egg-info/dependency_links.txt
+HCSC.egg-info/requires.txt
+HCSC.egg-info/top_level.txt
