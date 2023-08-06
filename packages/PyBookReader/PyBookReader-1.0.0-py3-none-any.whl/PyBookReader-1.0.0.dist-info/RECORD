@@ -1,0 +1,12 @@
+pybookreader/__init__.py,sha256=lyYrvXoUD07yT_ys_q_5yCOoffVm5BFSFGZh83i99Qw,2627
+pybookreader/book_actions.py,sha256=bAeL0w6JLTT7UTAIbfhXd5JR3lBMP_GspAswfYq_exs,4929
+pybookreader/settings.py,sha256=VDcuIWtSM_71X4A3usJ54KwZaUibcdUc98GpbDwHXYo,290
+pybookreader/utils.py,sha256=EggMjNi91sWfkL71QRMysw0FzM1afYZOv9zOakigrIQ,118
+pybookreader/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybookreader/models/base.py,sha256=I5eeEq1yNJ_SGpmvSgFKM2wRakRRhQ0md2dH8TMmh14,757
+pybookreader/models/book.py,sha256=RcEuTyYNeMUKB4jdo24_nNjpijanKpk01ZlI-fFRJmU,422
+PyBookReader-1.0.0.dist-info/METADATA,sha256=6TqW9idAXt6Gh8Bdy9F4BqHhTGbd_MBPzXOzQ93uYvg,3084
+PyBookReader-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+PyBookReader-1.0.0.dist-info/entry_points.txt,sha256=jtnksSGHBGeR83U16_oVQtqktJE_tQBhvIx8UkijmTU,77
+PyBookReader-1.0.0.dist-info/top_level.txt,sha256=nq2-dbJDMp8gQgCY4yb8BwLI5-TvpNLFWrq11fPpzeQ,13
+PyBookReader-1.0.0.dist-info/RECORD,,
