@@ -1,0 +1,14 @@
+demo_fastapi/__init__.py,sha256=BBEaRaKJZFaF3X9ujNWGssyjUlcfWZanfjqc_9x3_vU,68
+demo_fastapi/app.py,sha256=43IX4n8upOX4utB7EZ0RaV6kOo961KuYeVpuprdGouI,771
+demo_fastapi/logging/__init__.py,sha256=ZkjN8cGaG3ABh38wEre2D6-2memr1XMoU3bW9l4HfM4,161
+demo_fastapi/logging/handlers.py,sha256=aL0NjnsWLIP8J8Ufh_GXnLJIcqrrK4vqwUxCpr58i6o,1254
+demo_fastapi/logging/settings.py,sha256=YNftaVruXiTdAaW1kXaTVE7E4QsQX8MRxcBTPh6iHYA,1647
+demo_fastapi/logging/setup.py,sha256=jnk7uwHPzi8pT03eunxo2PSzbl03V69my1qakLCmmHE,3666
+demo_fastapi/routes.py,sha256=OC-x8JKCEOb8lEVCoW03fTdLBFCe5nFkHmNPmdlfNFg,926
+demo_fastapi/tracing/__init__.py,sha256=UmDqbKf3CFHleEAviF0mmnnEM4U788IErUMEYciF4Pc,176
+demo_fastapi/tracing/middleware.py,sha256=eWXLQQvYyvHulCoQ31ixpSwjfAh35gNQ8CqYRVmVpYY,3096
+demo_fastapi/tracing/settings.py,sha256=HHlyU9xI53fbeZ53DEG-YNw5lp711iTwZiozeU7Pwwo,1046
+demo_fastapi/tracing/setup.py,sha256=d9jyqtSg3jcmpiGzcCvmOIVEkadt5YST8wbuzCZztJc,2485
+demo_fastapi-0.5.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+demo_fastapi-0.5.0.dist-info/METADATA,sha256=Aho377u4nKZiRL_sVNOKMn8w-8O_jUSD2YoBYGuESt4,665
+demo_fastapi-0.5.0.dist-info/RECORD,,
