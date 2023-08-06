@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: ExoplanetPy
+Version: 0.0.3
+Summary: Package for Multiple exoplanet system modelling
+Home-page: https://github.com/ExoplanetPy/ExoplanetPy
+Author: Arnav Das & Devansh Jain
+Author-email: arnav257@gmail.com
+License: UNKNOWN
+Description: # ExoplanetPy 
+        
+        ExoplanetPy is a python package for modelling the transit light curves of systems with multiple exoplanets orbiting around their host stars.
+        To obtain transit curves, set up the Keplerian orbital elements for each planet in the system.
+        ![](https://raw.githubusercontent.com/ExoplanetPy/ExoplanetPy/master/images/logo_400.png "ExoplanetPy logo")
+        
+        The `Planet()` class handles each planet's orbital elements, and the `System()` class can be used to plot the final transit curves.
+        
+        The following orbital elements are set up:
+        - **e**: eccentricity 
+        - **a**: semi-major axis 
+        - **omega**: argument of periapsis (ω) 
+        - **Omega**: longitude of ascending node (Ω) 
+        - **i**: orbital inclination 
+        - **r_p**: planet:star radius 
+        
+        Each `Planet()` can have different initial true anomaly (ν) values, varied by the `first_periastron` time argument.
+        
+        ## Installation
+        Installation is recommended via pip for Python 3.
+        ```python
+        pip install exoplanetpy
+        ```
+        The package can then be imported using:
+        ```python
+        import ExoplanetPy
+        ```
+        
+        ## Usage
+        Access the modules using the following statements.
+        ```python
+        from ExoplanetPy import Planet
+        from ExoplanetPy import System
+        ```
+        
+        Define a single `Planet()` and input as `planet_list` argument in `System()`.  
+        Limb darkening models are chosen in the `plot()` method.
+        ```python
+        p1 = Planet(e=0.0, a=8, omega=0, Omega=0, i=89.9, r_p=0.1, first_periastron=0.0)
+        sys = System(star_prop={'Mass': 4}, planet_list=[p1], sort=True)
+        sys.plot(model='Quadratic', normalise=True)
+        ```
+        ![](https://raw.githubusercontent.com/ExoplanetPy/ExoplanetPy/master/ExoplanetPy/test_plots/test_plot_1.png "Test Plot 1")
+        
+        Additional `Planet()` objects are inputted as `planet_list` argument in `System()`.
+        ```python
+        p1 = Planet(e=0.0, a=8, omega=0, Omega=0, i=89.9, r_p=0.1, first_periastron=0.0)
+        p2 = Planet(e=0.0, a=2, omega=0, Omega=0, i=89.9, r_p=0.05, first_periastron=0.0)
+        sys = System(star_prop={'Mass': 4}, planet_list=[p1,p2], sort=True)
+        sys.plot(model='Quadratic', normalise=True)
+        ```
+        ![](https://raw.githubusercontent.com/ExoplanetPy/ExoplanetPy/master/ExoplanetPy/test_plots/testv0_plot.png "Test Plot 2")
+        
+        ## Dependencies
+        ExoplanetPy has the following dependencies:
+        * [NumPy](https://numpy.org/)
+        * [SciPy](https://www.scipy.org/)
+        * [Matplotlib](https://matplotlib.org/)  (produce plots)
+        * [Seaborn](https://seaborn.pydata.org/) (stylize plots)
+        
+        ## License 
+        MIT License  
+        © 2020 ExoplanetPy
+        
+Keywords: exoplanets,orbits,visualize,astronomy
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
