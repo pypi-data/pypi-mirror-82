@@ -1,0 +1,9 @@
+README.md
+setup.py
+steamscordbot/__init__.py
+steamscordbot/__main__.py
+steamscordbot.egg-info/PKG-INFO
+steamscordbot.egg-info/SOURCES.txt
+steamscordbot.egg-info/dependency_links.txt
+steamscordbot.egg-info/requires.txt
+steamscordbot.egg-info/top_level.txt
