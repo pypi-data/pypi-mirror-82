@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+cult/__init__.py
+cult/util.py
+cult.egg-info/PKG-INFO
+cult.egg-info/SOURCES.txt
+cult.egg-info/dependency_links.txt
+cult.egg-info/top_level.txt
+cult/sources/__init__.py
+cult/sources/bible.py
+cult/sources/king_james_bible.py
+cult/sources/quaran.py
