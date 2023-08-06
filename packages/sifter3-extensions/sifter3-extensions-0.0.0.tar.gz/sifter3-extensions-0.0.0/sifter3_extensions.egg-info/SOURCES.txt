@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+sifter3_extensions.egg-info/PKG-INFO
+sifter3_extensions.egg-info/SOURCES.txt
+sifter3_extensions.egg-info/dependency_links.txt
+sifter3_extensions.egg-info/requires.txt
+sifter3_extensions.egg-info/top_level.txt
+sifter_extensions/__init__.py
