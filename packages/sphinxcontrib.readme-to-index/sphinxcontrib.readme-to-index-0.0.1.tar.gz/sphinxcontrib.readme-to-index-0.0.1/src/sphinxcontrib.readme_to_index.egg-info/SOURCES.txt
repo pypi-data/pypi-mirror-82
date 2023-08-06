@@ -1,0 +1,10 @@
+README.rst
+setup.py
+src/sphinxcontrib/__init__.py
+src/sphinxcontrib.readme_to_index.egg-info/PKG-INFO
+src/sphinxcontrib.readme_to_index.egg-info/SOURCES.txt
+src/sphinxcontrib.readme_to_index.egg-info/dependency_links.txt
+src/sphinxcontrib.readme_to_index.egg-info/namespace_packages.txt
+src/sphinxcontrib.readme_to_index.egg-info/top_level.txt
+src/sphinxcontrib/readme-to-index/__init__.py
+src/sphinxcontrib/readme-to-index/implementation.py
