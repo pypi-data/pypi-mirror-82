@@ -1,0 +1,10 @@
+tfinance/__init__.py,sha256=y5XUcI7qzvy4GbPMxvWcaZkD1Df56uzzQSpWf15pJRE,225
+tfinance/market.py,sha256=EA1GKwFpFGml99T4TVTlrtsvDPCES7yhMWEFnZRL840,2222
+tfinance/ticker.py,sha256=Qj5aVD9NGK1GUbDeBq4m7LeA15-d3353rs3Tyx1A3mo,1005
+tfinance/tse.py,sha256=lz2UI6dM5zWZ3nJkLN1zbc1XYbjU4C9OsxSKGZ8uN2o,3476
+tfinance/tse_scrapper.py,sha256=aJZj0dXAZWO-4F4eCgje1Laf3G7jSySnId1NU3SdKCg,12317
+tfinance-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tfinance-0.1.3.dist-info/METADATA,sha256=MQazhbV7hIhnTyKmgMKU7tcrOrtiiHRXh1Y24q3UKck,3326
+tfinance-0.1.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tfinance-0.1.3.dist-info/top_level.txt,sha256=nZm6rgJQMTCD750pi21HVDdPJjau4p3hGH_nBR5cDYs,9
+tfinance-0.1.3.dist-info/RECORD,,
