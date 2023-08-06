@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: busie-db-helper
+Version: 1.0.0
+Summary: A helper for flask sqlalchemy dbs
+Home-page: UNKNOWN
+Author: Brady Perry
+Author-email: brady@getbusie.com
+License: UNKNOWN
+Description: # Busie Flask DB Helper
+        
+        A package to help with initializing db instances within a flask application. Helpful for use with the application factory pattern.
+        Allows for modularization of initialization code, such that factories are not cluttered with db initialization
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
