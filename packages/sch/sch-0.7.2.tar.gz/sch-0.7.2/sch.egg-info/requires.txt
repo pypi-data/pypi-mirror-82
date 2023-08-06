@@ -1,0 +1,6 @@
+arrow
+click>=7.0
+configparser
+python-crontab
+requests
+tzlocal
