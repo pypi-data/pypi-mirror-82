@@ -1,0 +1,19 @@
+future
+jsonschema
+numpy
+PyTango>=9.2.2
+pathlib
+pyyaml
+
+[:python_version < "3"]
+futures
+pyrsistent==0.16.0
+
+[:python_version >= "3"]
+pyrsistent
+
+[docs]
+sphinx-pypi-upload
+numpydoc
+Sphinx
+mock
