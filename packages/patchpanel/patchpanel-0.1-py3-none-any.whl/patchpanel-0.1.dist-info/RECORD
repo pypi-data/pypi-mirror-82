@@ -1,0 +1,10 @@
+patchpanel/__init__.py,sha256=hyjZU8zn_OlkMooIjRtGP2-BHIp90xHR5R2RI90ZDGU,602
+patchpanel/connectivity.py,sha256=nO0KXEf4KXFYtmV-ufpSqtcULkaemUV2t09a5kqmvDA,5455
+patchpanel/matrix.py,sha256=LU5X-mUZrwMfXFGKO43-xcrQOm7m0aD4HY0BXiGOpi8,7129
+patchpanel/problem.py,sha256=-huJXveQjY2oymwmn-WyxWmXYx8iMqcnUUPbsifsZAs,7216
+patchpanel-0.1.data/data/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+patchpanel-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+patchpanel-0.1.dist-info/METADATA,sha256=Lka2EYCe7w0hamJpAg56LTf960iVg56PizdSo0Kj1UM,1580
+patchpanel-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+patchpanel-0.1.dist-info/top_level.txt,sha256=Kh9G7TdJe5hfkTE9kPbGc_JsPf3aPrjcNXz67zCg8Lc,11
+patchpanel-0.1.dist-info/RECORD,,
