@@ -1,0 +1,12 @@
+gltf/__init__.py,sha256=yDElPUGhLte0g1BE3pHEJpb3ItiQm9Bp5RBtpJRfhVU,1408
+gltf/cli.py,sha256=ITA1qX96rIC_QJJNP-ty1vNZQurtvXCGWi0lyqe4wRs,2230
+gltf/converter.py,sha256=u3xkGsVQTA34VHMEMnpZX02jSTcSGh1iZHERtyCx234,73046
+gltf/loader.py,sha256=obz8DQmM4Ao-8Rpaco4XIzGpUwszUPiGDYhrDY0uIBE,535
+gltf/version.py,sha256=eq5-E_AGXQWzrp-PHIiCuhVzXWktPhr1JbGnNDufsCQ,21
+gltf/viewer.py,sha256=OeakyZWYUlgLbqW1TwtRe0mCk6s5BZJrD3VCo4RsQXQ,3534
+panda3d_gltf-0.11.dist-info/LICENSE.txt,sha256=IP4eZ3VLODdKz-ZzoSnmBM_z4wdDWxbV-VBE3p8xgd0,1515
+panda3d_gltf-0.11.dist-info/METADATA,sha256=_pCOj0q0bmQdMr_Br6QIq6iEQ7XhcwcpPGVp7cAsZmc,3697
+panda3d_gltf-0.11.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+panda3d_gltf-0.11.dist-info/entry_points.txt,sha256=mXHKPAUyYU9EBYXPyny2Jyl46LCah91VPlr_EOAQkBA,168
+panda3d_gltf-0.11.dist-info/top_level.txt,sha256=5SdftPAVwgiPp585NcUNJ2oKG6IZfApMchxkwhe1uBA,5
+panda3d_gltf-0.11.dist-info/RECORD,,
