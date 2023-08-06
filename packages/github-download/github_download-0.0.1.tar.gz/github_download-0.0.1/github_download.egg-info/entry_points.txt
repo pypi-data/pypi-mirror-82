@@ -1,0 +1,3 @@
+[console_scripts]
+git_down = Github_download.Git_down:main
+

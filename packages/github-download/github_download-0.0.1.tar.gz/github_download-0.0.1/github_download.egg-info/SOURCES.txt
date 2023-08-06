@@ -1,0 +1,11 @@
+setup.py
+Github_download/Git_down.py
+Github_download/__init__.py
+Github_download/__main__.py
+github_download.egg-info/PKG-INFO
+github_download.egg-info/SOURCES.txt
+github_download.egg-info/dependency_links.txt
+github_download.egg-info/entry_points.txt
+github_download.egg-info/requires.txt
+github_download.egg-info/top_level.txt
+github_download.egg-info/zip-safe
