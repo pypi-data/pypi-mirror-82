@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: numeracy
+Version: 0.0.1
+Summary: A numerical algorithm package in Python
+Home-page: https://github.com/140378476/Numeracy
+Author: Example Author
+Author-email: 1403718476@qq.com
+License: UNKNOWN
+Description: # 悉数 (Numeracy)
+        基于 Python 的数值分析算法程序包，包含“数值分析”课程中所学习到的算法的实现。
+         
+        # Numeracy
+        A numerical algorithm package in Python, which implements various algorithms 
+        introduced in the course of numerical analysis. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
