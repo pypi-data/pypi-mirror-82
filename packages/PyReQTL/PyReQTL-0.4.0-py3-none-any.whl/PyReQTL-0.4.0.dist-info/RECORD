@@ -1,0 +1,12 @@
+PyReQTL/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyReQTL/annotate.py,sha256=gr7M740DXLQ5VNX8CnwCT3NGgshompVE9aBuNY3TkmU,8283
+PyReQTL/common.py,sha256=hsiFLAzV5dYdh9gtd--kxHFpwL47lHCg0qv_vHyqIDY,2787
+PyReQTL/gene_matrix.py,sha256=xJ6WWaV-EfM92lA-_EY9JRGhhO35HZhxs9mKaVPkDaI,9543
+PyReQTL/harmonize_matrices.py,sha256=Ogv-KrQML8RAIwnGycDYvDDobVeeXa9_7Uzu-dcC84g,6421
+PyReQTL/run_matrix_ReQTL.py,sha256=Uo4iBwfgsw1sq4l3wFEtF56sSBEv-KcrGTV7J2MPCsU,12088
+PyReQTL/vaf_matrix.py,sha256=UTkDzL94fyod14mzvDniPGpcT5NLMPCrKQ69DGK5III,8590
+PyReQTL-0.4.0.dist-info/LICENSE,sha256=YihD2Mo-6qa19SBDoPPqf91ms38spuC92dQ0qdWFUKA,1070
+PyReQTL-0.4.0.dist-info/METADATA,sha256=jH2lKrcwk5tF827DHVPQob2X9bGKkMqRnAy3BvMK6ew,13650
+PyReQTL-0.4.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+PyReQTL-0.4.0.dist-info/top_level.txt,sha256=527ZE_CVoDy7tf_T8I7hfY3O6RtOHBpm_OndO05vfdU,8
+PyReQTL-0.4.0.dist-info/RECORD,,
