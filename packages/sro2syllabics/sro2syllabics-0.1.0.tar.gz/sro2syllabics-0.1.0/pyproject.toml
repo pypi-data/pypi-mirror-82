@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sro2syllabics"
+version = "0.1.0"
+description = ""
+authors = ["Eddie Antonio Santos <easantos@ualberta.ca>"]
+
+[tool.poetry.scripts]
+sro2syllabics = 'sro2syllabics:sro2syllabics_main'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cree-sro-syllabics = "^2020.6.23"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
