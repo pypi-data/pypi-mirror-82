@@ -1,0 +1,10 @@
+CHANGES
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_postgresql_dag/models.py
+django_postgresql_dag.egg-info/PKG-INFO
+django_postgresql_dag.egg-info/SOURCES.txt
+django_postgresql_dag.egg-info/dependency_links.txt
+django_postgresql_dag.egg-info/top_level.txt
