@@ -1,0 +1,16 @@
+fake-useragent
+fuzzywuzzy
+html5lib
+lxml
+numpy
+openpyxl
+pandas
+psycopg2
+python-rapidjson
+requests
+sqlalchemy
+sqlalchemy-utils
+tqdm
+xlrd
+xlwt
+XlsxWriter
