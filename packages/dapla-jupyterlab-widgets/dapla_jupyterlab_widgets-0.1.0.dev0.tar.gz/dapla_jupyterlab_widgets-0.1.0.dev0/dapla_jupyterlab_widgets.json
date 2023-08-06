@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "dapla_jupyterlab_widgets/extension": true
+  }
+}
