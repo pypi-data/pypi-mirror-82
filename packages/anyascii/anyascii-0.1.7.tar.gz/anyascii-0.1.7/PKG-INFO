@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: anyascii
+Version: 0.1.7
+Summary: Unicode to ASCII transliteration
+Home-page: https://github.com/anyascii/anyascii
+Author: Hunter WB
+Author-email: hunter@hunterwb.com
