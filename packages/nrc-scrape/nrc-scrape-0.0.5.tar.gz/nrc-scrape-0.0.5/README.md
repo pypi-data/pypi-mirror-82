@@ -1,0 +1,54 @@
+Set of modules to scrape Event Reports from the NRC.gov website. 
+
+# Tests 
+
+```bash
+pytest 
+```
+
+# Usage
+
+Download all event reports into yearly csv files at .\data\ :
+
+```bash 
+
+python bulk_downloader --start_year 2004 --end_year 2020 --threads 16
+
+```
+Or go one by one:
+
+```python
+    # import a Session that has correct properties to keep a connnection
+    from nrc_scrape import session
+    
+    # generate single event notification report event
+    url3 = 'https://www.nrc.gov/reading-rm/doc-collections/event-status/event/2019/20190612en.html'
+
+    h = EventNotificationReport.from_url(url3, session)
+
+    # get event notification urls from 2019 to 2020
+    er_urls = generate_nrc_event_report_urls(2019, 2020)
+    
+    from random import sample
+    urls = sample(list(extract_nested_values(er_urls)), 10)
+
+    sl = logging.getLogger('success_log')
+    el = logging.getLogger('error_log')
+    fl = logging.getLogger('fof_log')
+
+    # get a subsample of the urls, and log attempts to request 
+    enrs, errors, fofs = fetch_enrs(urls, session)
+
+    # convert an event to dataframe
+    df = enrs[0].events[0].to_dataframe()
+    
+    # event notification report to dataframe
+    enr_df = enrs[1].to_dataframe()
+    
+    # event notification reports to dataframe
+    enrs_df = pd.concat([enr.to_dataframe() for enr in enrs])
+
+    #dump to csv
+    enrs_df.to_csv('enrs.csv')
+
+```

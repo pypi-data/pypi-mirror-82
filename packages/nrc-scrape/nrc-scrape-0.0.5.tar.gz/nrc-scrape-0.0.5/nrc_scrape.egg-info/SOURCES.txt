@@ -1,0 +1,12 @@
+README.md
+setup.py
+nrc_scrape/__init__.py
+nrc_scrape/bulk_downloader.py
+nrc_scrape/logs_setup.py
+nrc_scrape/main.py
+nrc_scrape/url_maker.py
+nrc_scrape.egg-info/PKG-INFO
+nrc_scrape.egg-info/SOURCES.txt
+nrc_scrape.egg-info/dependency_links.txt
+nrc_scrape.egg-info/requires.txt
+nrc_scrape.egg-info/top_level.txt
