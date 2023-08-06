@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: genuisfinder
+Version: 0.1.1
+Summary: Lyrics finder from Genuis
+Home-page: https://github.com/FicheeSS/genuisfinder
+Author: Fichee_SS
+Author-email: UNKNOWN
+License: ACSL
+Download-URL: https://github.com/FicheeSS/genuisfinder/archive/0.1.1.tar.gz
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
+
