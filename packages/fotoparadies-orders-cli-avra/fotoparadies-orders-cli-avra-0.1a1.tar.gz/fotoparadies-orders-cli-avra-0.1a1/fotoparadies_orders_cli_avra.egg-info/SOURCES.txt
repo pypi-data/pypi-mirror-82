@@ -1,0 +1,10 @@
+README.md
+setup.py
+./scripts/fotoparadies
+fotoparadies/__init__.py
+fotoparadies/__main__.py
+fotoparadies/api.py
+fotoparadies_orders_cli_avra.egg-info/PKG-INFO
+fotoparadies_orders_cli_avra.egg-info/SOURCES.txt
+fotoparadies_orders_cli_avra.egg-info/dependency_links.txt
+fotoparadies_orders_cli_avra.egg-info/top_level.txt
