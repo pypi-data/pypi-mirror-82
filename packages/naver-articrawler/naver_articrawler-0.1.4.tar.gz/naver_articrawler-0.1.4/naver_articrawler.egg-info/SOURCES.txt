@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+naver_articrawler/__init__.py
+naver_articrawler/newsCrawler.py
+naver_articrawler.egg-info/PKG-INFO
+naver_articrawler.egg-info/SOURCES.txt
+naver_articrawler.egg-info/dependency_links.txt
+naver_articrawler.egg-info/not-zip-safe
+naver_articrawler.egg-info/requires.txt
+naver_articrawler.egg-info/top_level.txt

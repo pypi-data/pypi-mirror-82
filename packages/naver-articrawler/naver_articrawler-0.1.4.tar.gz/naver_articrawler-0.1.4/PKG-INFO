@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: naver_articrawler
+Version: 0.1.4
+Summary: news crawler from naver
+Home-page: https://github.com/johnnyapu15/naver_articrawler
+Author: johnnyapu15
+Author-email: johnnyapu15@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/johnnyapu15/naver_articrawler/archive/master.zip
+Description: UNKNOWN
+Keywords: news crawler naver article
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
