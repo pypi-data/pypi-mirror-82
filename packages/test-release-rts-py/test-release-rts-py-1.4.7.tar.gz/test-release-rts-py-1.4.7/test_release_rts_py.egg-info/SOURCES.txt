@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+test-release-rts-py/__init__.py
+test-release-rts-py/client.py
+test_release_rts_py.egg-info/PKG-INFO
+test_release_rts_py.egg-info/SOURCES.txt
+test_release_rts_py.egg-info/dependency_links.txt
+test_release_rts_py.egg-info/requires.txt
+test_release_rts_py.egg-info/top_level.txt
