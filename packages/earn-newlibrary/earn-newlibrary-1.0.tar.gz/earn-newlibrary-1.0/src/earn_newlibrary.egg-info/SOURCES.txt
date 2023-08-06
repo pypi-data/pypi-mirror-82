@@ -1,0 +1,9 @@
+MANIFEST.in
+README.txt
+setup.py
+src/HelloWorld/HelloWorldKeywords.py
+src/HelloWorld/__init__.py
+src/earn_newlibrary.egg-info/PKG-INFO
+src/earn_newlibrary.egg-info/SOURCES.txt
+src/earn_newlibrary.egg-info/dependency_links.txt
+src/earn_newlibrary.egg-info/top_level.txt
