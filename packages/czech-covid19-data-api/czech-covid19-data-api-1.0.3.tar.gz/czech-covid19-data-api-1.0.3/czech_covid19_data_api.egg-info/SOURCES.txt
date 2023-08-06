@@ -1,0 +1,11 @@
+README.md
+setup.py
+covid19_api/__init__.py
+covid19_api/src/__init__.py
+covid19_api/src/api.py
+czech_covid19_data_api.egg-info/PKG-INFO
+czech_covid19_data_api.egg-info/SOURCES.txt
+czech_covid19_data_api.egg-info/dependency_links.txt
+czech_covid19_data_api.egg-info/requires.txt
+czech_covid19_data_api.egg-info/top_level.txt
+test/test_functional.py
