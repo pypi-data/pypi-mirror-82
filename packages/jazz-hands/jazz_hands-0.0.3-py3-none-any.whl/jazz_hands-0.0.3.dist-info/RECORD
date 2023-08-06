@@ -1,0 +1,17 @@
+jazzhands/__init__.py,sha256=gyjGIWVC__rMjgV7I2XWfsptdy4Yw0a5sNNMzsDxK5g,574
+jazzhands/conftest.py,sha256=eKZW1Ge7bYdfeG5sDHSWI1Ul1Cexdad6lJeKkw0ZVXc,1957
+jazzhands/utils.py,sha256=SBNXKq65_gWUe9PXm7eFMRKbDURFJOyA9bupgGrtQwc,1445
+jazzhands/version.py,sha256=bzzqB-uZxarscjM25ZlqU8Tlq0y-r92XwWFCRjH4pA0,337
+jazzhands/wavelets.py,sha256=btomPk7KSTY_aUWNLg-ycHV0hVTCK-x9V670SG99FEs,20795
+jazzhands/data/README.rst,sha256=7RU7-Tnvn3evkEtPNZTDBmohRUPE4SQS-TF3E1KeZvA,245
+jazzhands/data/benchmarking.ipynb,sha256=KG0QKtsroSj-PaVn55BUtkPcXUDJjMuOPi7OMDBNkUw,235610
+jazzhands/extern/__init__.py,sha256=ow-WDDswax-CAmE9yLbpNQN03felXjZb-heuAd42iOc,220
+jazzhands/tests/__init__.py,sha256=1D-l3TVbwIZHY78A-sB7kc4ldldX8ZaEq-Ntph51WVw,108
+jazzhands/tests/test_utils.py,sha256=6XOfCPRVO4VOSlSQlsWqL6AVj5bEE8VHcdtozPA_Zkk,950
+jazzhands/tests/test_wavelets.py,sha256=RXS1zk39dd4kngNu71-K0psH08gN2DFU6oHe_u82MwI,3895
+jazz_hands-0.0.3.dist-info/LICENSE.rst,sha256=ZwcpXRlGv4xG-8rD37dtbdduG9QIWRRu2aXOc7cmwNI,1490
+jazz_hands-0.0.3.dist-info/METADATA,sha256=6At1RQX2WAwUDRTaKJozOuD7XE_9dEPCz4buK8ifR-Q,4510
+jazz_hands-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+jazz_hands-0.0.3.dist-info/entry_points.txt,sha256=CoFJ61t_m_9lca1ix8rdyqN0b0yGCGX82PKOe2S8VgY,83
+jazz_hands-0.0.3.dist-info/top_level.txt,sha256=AIbW2X-PU3_wS_KmR6Xc-RJ6cthLvMpSpf1BGVjjek8,10
+jazz_hands-0.0.3.dist-info/RECORD,,
