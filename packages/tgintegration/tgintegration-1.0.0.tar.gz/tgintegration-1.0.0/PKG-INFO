@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tgintegration
+Version: 1.0.0
+Summary: An Integration Test Library for Telegram Messenger Bots on top of Pyrogram.
+License: MIT
+Author: Joscha Götzer
+Author-email: joscha.goetzer@gmail.com
+Requires-Python: >=3.7,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pyrogram (>=1.0.7,<2.0.0)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0)
