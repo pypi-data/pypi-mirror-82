@@ -1,0 +1,16 @@
+scikit-learn
+matplotlib
+pandas
+seaborn
+requests
+tables
+numpy-stl
+vtk
+pyevtk
+pathos
+pillow
+scikit-image
+pynrrd
+anytree
+trimesh
+PyAstronomy
