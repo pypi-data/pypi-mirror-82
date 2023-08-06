@@ -1,0 +1,12 @@
+dagpipy/__init__.py,sha256=bQvVuVNpIxnHmoajuA9WVYIo5ZKR_RcZb1AEeCWpceM,226
+dagpipy/client.py,sha256=dGfr_4kyzGRVMLYZL3gRTTaSyG6MiHAS63LxcwmZUnI,1864
+dagpipy/enums.py,sha256=ZTj0R4rL6O37Af_zyltdkuXPIEhyS6wK93uuGK9GbrM,1622
+dagpipy/exceptions.py,sha256=UcekkE8l0YQuc_bph8dgkLDRpUstYfn3wjdQnprDPSw,953
+dagpipy/models/__init__.py,sha256=5qM0iTK1MVZcaAo5fdmsVVDUuWf4rZxMt60XDEREjI4,52
+dagpipy/models/games.py,sha256=NPwi80NiVLB8Dn4_HR71OcuTS1QoTT-Ezlbyu7ehqUc,4160
+dagpipy/models/imageurl.py,sha256=x1m5sPTLqfIQZkz5_z1tnXP9mMEpxVXnNqU0gX4LKC0,673
+dagpipy-1.1.1.dist-info/LICENSE,sha256=x3InXRsCXNTJGSrr8424_iocGD54-pUe1bJEhjNRYjg,1065
+dagpipy-1.1.1.dist-info/METADATA,sha256=6VlaqegBfffv9NDF0SpkQ2PcRKtM-qAjoZ6c28nTX0M,4727
+dagpipy-1.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dagpipy-1.1.1.dist-info/top_level.txt,sha256=ukDWB7stpjnPXVUUcC3CAcAk99HZSUvKT2ENLSeqLiM,8
+dagpipy-1.1.1.dist-info/RECORD,,
