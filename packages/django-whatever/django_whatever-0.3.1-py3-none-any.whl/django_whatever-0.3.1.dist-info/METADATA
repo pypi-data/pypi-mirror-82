@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: django-whatever
+Version: 0.3.1
+Summary: Unobtrusive test models creation for django.
+Home-page: http://github.com/ivelum/django-whatever
+Author: Sergey Fursov
+Author-email: geyser85@gmail.com
+License: MIT License
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Topic :: Software Development :: Testing :: Mocking
+
+UNKNOWN
+
+

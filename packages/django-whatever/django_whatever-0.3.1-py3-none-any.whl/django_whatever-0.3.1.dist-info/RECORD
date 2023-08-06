@@ -1,0 +1,15 @@
+django_any/__init__.py,sha256=aO9W-Y4FlmhRJDuVLYzsPgLeD6h22u5ASda3yrjF9Ww,210
+django_any/forms.py,sha256=mCcde5J6kGjjKnfs4t8vMgvWX2IF2QVZLhdlkKb4WeQ,13276
+django_any/functions.py,sha256=VQxXh2pF3d2J3T4TUkDuYKO13qH0jOzoLH_vEJrLmQQ,2465
+django_any/models.py,sha256=yh1aOpTIWLy8poBQTKZ-aU6J-HAaWKvOBz9yjlxvEZ0,17497
+django_any/test.py,sha256=KO58B7FdMBz-MxonCEWrGzlOS9WX9HAbWLCB9nsVekM,4701
+django_any/xunit.py,sha256=PS8ekGwhtu27nrf462atU3eEptC4jZGF3TtbyPIeupw,4737
+django_any/contrib/__init__.py,sha256=7BYi0vhf__UkZ4-va2GicjTSrGdEjw0m1uU98iMbJZQ,112
+django_any/contrib/auth.py,sha256=zjFczjQip7w-u-kdySukbHBaXAojslHyWr_lEv_qU2A,1148
+django_any/contrib/default.py,sha256=CCJ_6jqYZ0IAbqSyqo_YnPVjpO9XJih9UVvxhkREr9A,889
+django_whatever-0.3.1.dist-info/AUTHORS,sha256=11jZNHmCZV_B2ZxqVrJ7V7vgaMHoqfsDUBgDg1d1LVI,288
+django_whatever-0.3.1.dist-info/LICENSE,sha256=xc1r7IvU2bwHFdl9oMp_wcAM62m2YdJxjFpgq9tElRQ,2290
+django_whatever-0.3.1.dist-info/METADATA,sha256=NXg6rajeOTwkBRloi60uBQx8EPCoCeZogMntrerblNQ,954
+django_whatever-0.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_whatever-0.3.1.dist-info/top_level.txt,sha256=9gFWIkVMLwETKhwB0kOmvQ0i01mQu5d4WMX_SweLMDg,11
+django_whatever-0.3.1.dist-info/RECORD,,
