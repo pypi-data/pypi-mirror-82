@@ -1,0 +1,11 @@
+README.md
+setup.py
+among_us_parser/__init__.py
+among_us_parser/live_capture.py
+among_us_parser/network_parser.py
+among_us_parser/util.py
+among_us_parser.egg-info/PKG-INFO
+among_us_parser.egg-info/SOURCES.txt
+among_us_parser.egg-info/dependency_links.txt
+among_us_parser.egg-info/requires.txt
+among_us_parser.egg-info/top_level.txt
