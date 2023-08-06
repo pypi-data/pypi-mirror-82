@@ -1,0 +1,11 @@
+README.txt
+setup.py
+src/Get_Synonyms.py
+src/Import_corpus.py
+src/Organize_Names.py
+src/SpellCorrect.py
+src/__init__.py
+standard_naming.egg-info/PKG-INFO
+standard_naming.egg-info/SOURCES.txt
+standard_naming.egg-info/dependency_links.txt
+standard_naming.egg-info/top_level.txt
