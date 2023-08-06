@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+PythonProject_KC.egg-info/PKG-INFO
+PythonProject_KC.egg-info/SOURCES.txt
+PythonProject_KC.egg-info/dependency_links.txt
+PythonProject_KC.egg-info/entry_points.txt
+PythonProject_KC.egg-info/requires.txt
+PythonProject_KC.egg-info/top_level.txt
+bin/pythonproject
+pythonproject/__init__.py
+pythonproject/__main__.py
+pythonproject/settings.py

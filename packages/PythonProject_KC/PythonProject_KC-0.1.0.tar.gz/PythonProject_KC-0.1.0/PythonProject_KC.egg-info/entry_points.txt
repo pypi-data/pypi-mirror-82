@@ -1,0 +1,3 @@
+[console_scripts]
+pythonproject = pythonproject.__main__:main
+
