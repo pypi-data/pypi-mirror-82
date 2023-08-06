@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: py_perceptabat_cv
+Version: 1.2.2
+Summary: Python wrapper and API for ACD/Percepta Batch with parallel processing support
+Home-page: https://github.com/Lifearc/py_perceptabat_cv
+Author: Aretas Gaspariunas
+Author-email: aretasgasp@gmail.com, aretas.gaspariunas@lifearc.org
+License: BSD
+Description: See https://github.com/Lifearc/py_perceptabat_cv for a detailed description.
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=3.7.2

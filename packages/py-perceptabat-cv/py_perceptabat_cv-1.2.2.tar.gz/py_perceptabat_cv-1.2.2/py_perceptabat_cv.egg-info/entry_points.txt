@@ -1,0 +1,3 @@
+[console_scripts]
+py_perceptabat_cv = py_perceptabat_cv:main
+
