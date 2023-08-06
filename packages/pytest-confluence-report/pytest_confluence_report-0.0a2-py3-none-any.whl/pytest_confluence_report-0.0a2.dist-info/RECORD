@@ -1,0 +1,13 @@
+report/__init__.py,sha256=UdtenE0cS9BHWz7241GWDfK-Vi-H0GVfLSjmzin0Ypo,1701
+report/__main__.py,sha256=DiGI7uWtKKXr8xr_Tm8o6aX13ErDYY0NG6wZBFirgDk,665
+report/confluence.py,sha256=excDQNGfpqzl0-5h2t9KOxPro5gQIswDmPsy6hIeq_A,4554
+report/plugin.py,sha256=KRe76ai9NWFiU6Dhd8tJ6hKa0dCZRJU4OC2FIIX7Jyk,1667
+report/settings.py,sha256=EpmHXsfeHugeBGfIZs4E-5Z2YjpyjoM7usA7tvjUgKY,5253
+report/xml.py,sha256=iRz1OaWv5uzgcSsJgv56fwS1TUPILw2i8eBPCKLlE00,6236
+pytest_confluence_report-0.0a2.dist-info/AUTHORS.md,sha256=Ev8HITj0xQ6p_E43SdEZP5jXFtRRRzk9faydiN3oWVY,123
+pytest_confluence_report-0.0a2.dist-info/LICENSE.md,sha256=KgaoDqVjojZxEWeZs-NUWRn9bC1RRcGrJiTMn3O5QW0,1075
+pytest_confluence_report-0.0a2.dist-info/METADATA,sha256=XjzS9u-joNozejTQs0U6t23QcHeZAFORP6BXO9sSPhw,5731
+pytest_confluence_report-0.0a2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pytest_confluence_report-0.0a2.dist-info/entry_points.txt,sha256=RcYfCEhoQO_xcG4r5TDSiatsWQ8dZ3CPgCZwZ0hyTlo,36
+pytest_confluence_report-0.0a2.dist-info/top_level.txt,sha256=Mx0m1tj4YuRrqQCBG-inoeTbqiKbFMmb7P1eUVFJDZU,7
+pytest_confluence_report-0.0a2.dist-info/RECORD,,
