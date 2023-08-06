@@ -1,0 +1,17 @@
+README.md
+setup.py
+oscli/__init__.py
+oscli/auth.py
+oscli/config.py
+oscli/constants.py
+oscli/download.py
+oscli/find.py
+oscli/main.py
+oscli/metadata.py
+oscli/utils.py
+oscli.egg-info/PKG-INFO
+oscli.egg-info/SOURCES.txt
+oscli.egg-info/dependency_links.txt
+oscli.egg-info/entry_points.txt
+oscli.egg-info/requires.txt
+oscli.egg-info/top_level.txt
