@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: HMongo
+Version: 0.1
+Summary: Library to easy work with NoSQL database MongoDB
+Home-page: https://github.com/dominon12/HMongo
+Author: Dominon12
+Author-email: youneedmax@gmail.com
+License: cc0-1.0
+Download-URL: https://github.com/dominon12/HMongo/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: database,mongo,mongodb,easy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
