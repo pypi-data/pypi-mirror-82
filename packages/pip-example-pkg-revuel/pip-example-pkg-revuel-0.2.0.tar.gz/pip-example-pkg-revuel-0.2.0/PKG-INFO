@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pip-example-pkg-revuel
+Version: 0.2.0
+Summary: Tutorial to distribute a pip package
+Home-page: https://github.com/revuel/pip-example-pkg-revule
+Author: revuel
+Author-email: revuel22@hotmail.com
+License: UNKNOWN
+Description: # Pip example package
+        
+        [Tutorial about how to distribute pip packages](https://packaging.python.org/tutorials/packaging-projects/)
+        
+        **Dependencies**
+        
+        `pip install --upgrade setuptools wheel`
+        
+        `pip install --upgrade twine`
+        
+        **Build**
+        
+        `python setup.py sdist bdist_wheel`
+        
+        **Upload**
+        
+        `twine upload  dist/*`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
