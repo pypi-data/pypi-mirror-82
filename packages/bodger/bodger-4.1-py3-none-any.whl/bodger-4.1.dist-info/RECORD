@@ -1,0 +1,11 @@
+bodger/conf.py,sha256=x3RnKd9vtZgqqNH5ExWfk60zUTUjKCHLIHlKzYbgfnk,462
+bodger/scripts.py,sha256=hPXN1HXrv-5qoQP9aJLU_6k2ggnKaWe0cQNwakYcB6E,168
+bodger/version.py,sha256=xCdyg2iyp7QBR0fWWsqoi9NLQpgMAAhhxh56X4CTN9g,40
+bodger/bodger/cmdmod.py,sha256=OaX5Pi9fiaTdNkVGvRg_Po5-mK6i4VYs8OvIdmQNJGw,1893
+bodger/bodger/init.py,sha256=0hfwROwA0UsdrIigfHicYujW7PZ0gCo1X0y4GcCP0AY,1276
+bodger-4.1.dist-info/LICENSE,sha256=pZUC-Jz_OkbURD3ZSsQBh6u1Giu7OTkbeNF8oUembIY,11348
+bodger-4.1.dist-info/METADATA,sha256=hDDz_fFOtJhorlnTX9x8zslZmWwhODWxDu5-O6ZHafE,1848
+bodger-4.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bodger-4.1.dist-info/entry_points.txt,sha256=qoL1gBlARKhcsnJQmj3VcQcN_OEYSfldLRcjF0TJI4E,49
+bodger-4.1.dist-info/top_level.txt,sha256=zA4iqjyjfq-xp2NqpAnVqXosjM1jElDuVYkZDXebgsQ,7
+bodger-4.1.dist-info/RECORD,,
