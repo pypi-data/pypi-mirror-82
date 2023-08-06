@@ -1,0 +1,8 @@
+deferpy/__init__.py,sha256=CzHx3kj2wBR7OZDjXhlqiZn9FqaIoglY4MR1iijQGVc,32
+deferpy/defer.py,sha256=Lx-dwNIwyfUGYrqhCph4koN_94kZHj916TS9AuY40VY,935
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_defer.py,sha256=Lj9Dq-879autyhwdM9cMKHKgYlIHxJJZYu99VhT3dXA,2216
+deferpy-1.0.1.dist-info/METADATA,sha256=U5Lq1bJjZY31w65sy1vytNZ0ejt8uB5bM1UQlJ8s87k,1115
+deferpy-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+deferpy-1.0.1.dist-info/top_level.txt,sha256=q_yqeXUEaCptm-a_F_w-PbXCMDJRZWCuSslNNMmitak,14
+deferpy-1.0.1.dist-info/RECORD,,
