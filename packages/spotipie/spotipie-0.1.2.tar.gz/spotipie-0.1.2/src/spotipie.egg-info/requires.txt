@@ -1,0 +1,9 @@
+oauthlib
+urllib3
+requests
+requests_oauthlib
+cachecontrol
+attrs
+
+[auth-app]
+flask

@@ -1,0 +1,21 @@
+include AUTHORS.rst
+include CHANGELOG.rst
+include CONTRIBUTING.rst
+include LICENSE
+include README.rst
+
+include .bumpversion.cfg
+include .coveragerc
+include .cookiecutterrc
+include .editorconfig
+
+include Makefile
+
+graft src
+graft tests
+graft scripts
+
+graft docs
+prune docs/_build
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib
