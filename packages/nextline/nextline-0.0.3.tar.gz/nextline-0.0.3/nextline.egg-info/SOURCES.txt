@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+nextline/__init__.py
+nextline/_version.py
+nextline.egg-info/PKG-INFO
+nextline.egg-info/SOURCES.txt
+nextline.egg-info/dependency_links.txt
+nextline.egg-info/requires.txt
+nextline.egg-info/top_level.txt
