@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: igit
+Version: 2020.10.19
+Summary: Interactive git and more
+Home-page: https://github.com/kobibarhanin/igit
+Author: kobibarhanin
+Author-email: 
+License: UNKNOWN
+Description: [![Build Status](https://travis-ci.com/kobibarhanin/gitenv.svg?branch=master)](https://travis-ci.com/kobibarhanin/igit)
+        
+        # Igit - Interactive Git
+        
+        Igit is an interactive supplementary CLI to git for better git experience.
+        
+        
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
