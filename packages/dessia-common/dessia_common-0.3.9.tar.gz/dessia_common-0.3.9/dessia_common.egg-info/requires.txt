@@ -1,0 +1,8 @@
+typeguard
+networkx
+numpy
+pandas
+jinja2==2.11.1
+mypy_extensions
+scipy
+pyDOE
