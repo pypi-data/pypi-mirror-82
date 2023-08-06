@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+teachable_pi_websocket/command_line.py
+teachable_pi_websocket.egg-info/PKG-INFO
+teachable_pi_websocket.egg-info/SOURCES.txt
+teachable_pi_websocket.egg-info/dependency_links.txt
+teachable_pi_websocket.egg-info/entry_points.txt
+teachable_pi_websocket.egg-info/requires.txt
+teachable_pi_websocket.egg-info/top_level.txt

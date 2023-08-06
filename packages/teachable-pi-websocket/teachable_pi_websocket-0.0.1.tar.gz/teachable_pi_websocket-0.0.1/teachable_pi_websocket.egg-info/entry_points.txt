@@ -1,0 +1,3 @@
+[console_scripts]
+teachable-pi-websocket = teachable_pi_websocket.command_line:main
+
