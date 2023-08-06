@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pvpumpingsystem
+Version: 0.9
+Summary: Module for simulating off-grid photovoltaic powered pumping station
+Home-page: https://github.com/tylunel/pvpumpingsystem
+Author: Tanguy LUNEL
+Author-email: tanguy.lunel.1@ens.etsmtl.ca
+License: GPL3
+Platform: UNKNOWN
+Requires-Dist: pvlib
+Requires-Dist: fluids
+Requires-Dist: numpy-financial
+Requires-Dist: matplotlib
+Requires-Dist: pytest
+Requires-Dist: sklearn
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
