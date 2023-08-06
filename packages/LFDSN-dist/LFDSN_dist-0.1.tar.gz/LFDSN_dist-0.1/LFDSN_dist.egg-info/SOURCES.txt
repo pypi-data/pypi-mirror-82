@@ -1,0 +1,10 @@
+setup.py
+LFDSN_dist/Binomialdistribution.py
+LFDSN_dist/Gaussiandistribution.py
+LFDSN_dist/Generaldistribution.py
+LFDSN_dist/__init__.py
+LFDSN_dist.egg-info/PKG-INFO
+LFDSN_dist.egg-info/SOURCES.txt
+LFDSN_dist.egg-info/dependency_links.txt
+LFDSN_dist.egg-info/not-zip-safe
+LFDSN_dist.egg-info/top_level.txt
