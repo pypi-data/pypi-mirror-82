@@ -1,0 +1,11 @@
+setup.py
+CyclicGAN/__init__.py
+CyclicGAN/config.py
+CyclicGAN/cyclicGAN.py
+CyclicGAN/discriminator.py
+CyclicGAN/generator.py
+CyclicGAN/loss.py
+cyclicgan.egg-info/PKG-INFO
+cyclicgan.egg-info/SOURCES.txt
+cyclicgan.egg-info/dependency_links.txt
+cyclicgan.egg-info/top_level.txt
