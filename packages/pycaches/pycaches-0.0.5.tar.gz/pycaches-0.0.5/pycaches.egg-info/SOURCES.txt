@@ -1,0 +1,6 @@
+README.md
+setup.py
+pycaches.egg-info/PKG-INFO
+pycaches.egg-info/SOURCES.txt
+pycaches.egg-info/dependency_links.txt
+pycaches.egg-info/top_level.txt
