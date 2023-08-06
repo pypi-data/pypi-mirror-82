@@ -1,0 +1,10 @@
+README.md
+Shouko.py
+Shouko/__init__.py
+Shouko/test1.py
+Shouko.egg-info/PKG-INFO
+Shouko.egg-info/SOURCES.txt
+Shouko.egg-info/dependency_links.txt
+Shouko.egg-info/entry_points.txt
+Shouko.egg-info/requires.txt
+Shouko.egg-info/top_level.txt
