@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+genMD_badges/__init__.py
+genMD_badges/__version__.py
+genMD_badges/core.py
+genMD_badges.egg-info/PKG-INFO
+genMD_badges.egg-info/SOURCES.txt
+genMD_badges.egg-info/dependency_links.txt
+genMD_badges.egg-info/top_level.txt
