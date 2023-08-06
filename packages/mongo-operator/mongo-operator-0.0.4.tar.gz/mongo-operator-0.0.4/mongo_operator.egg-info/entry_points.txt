@@ -1,0 +1,3 @@
+[console_scripts]
+mongo-operator = mongo_operator:CliOperator.main
+

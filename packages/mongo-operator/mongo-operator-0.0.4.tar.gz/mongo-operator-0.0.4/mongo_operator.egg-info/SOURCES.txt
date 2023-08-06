@@ -1,0 +1,12 @@
+README.md
+setup.py
+mongo_operator/__init__.py
+mongo_operator/backup_operator.py
+mongo_operator/cleanup_operator.py
+mongo_operator/command_line.py
+mongo_operator/migrate_operator.py
+mongo_operator.egg-info/PKG-INFO
+mongo_operator.egg-info/SOURCES.txt
+mongo_operator.egg-info/dependency_links.txt
+mongo_operator.egg-info/entry_points.txt
+mongo_operator.egg-info/top_level.txt
