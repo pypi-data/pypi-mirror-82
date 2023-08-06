@@ -1,0 +1,50 @@
+{% extends "admin/change_list.html" %}
+{% load i18n %}
+
+
+{% block header_buttons %}
+  <li class="nav-item d-sm-none">
+    <a href="{% url "admin:speedinfo-profiler-switch" %}" class="btn btn-sm {{ profiler_is_on|yesno:"btn-danger,btn-success" }}">{% spaceless %}
+      {% if profiler_is_on %}
+        <i class="fa fa-fw fa-power-off"></i>
+        <span>{% trans 'Turn off' %}</span>
+      {% else %}
+        <i class="fa fa-fw fa-rocket"></i>
+        <span>{% trans 'Turn on' %}</span>
+      {% endif %}
+    {% endspaceless %}</a>
+  </li>
+
+  <li class="nav-item d-sm-none">
+    <a href="{% url "admin:speedinfo-profiler-reset" %}" class="btn btn-sm btn-outline-danger">
+      <i class="fa fa-fw fa-refresh"></i>
+      <span>{% trans 'Reset' %}</span>
+    </a>
+  </li>
+{% endblock %}
+
+
+{% block object-tools %}
+  <a href="{% url "admin:speedinfo-profiler-switch" %}" class="btn {{ profiler_is_on|yesno:"btn-danger,btn-success" }}">
+     {% if profiler_is_on %}
+       <i class="fa fa-fw fa-power-off"></i>
+       <span>{% trans 'Turn off' %}</span>
+     {% else %}
+       <i class="fa fa-fw fa-rocket"></i>
+       <span>{% trans 'Turn on' %}</span>
+     {% endif %}
+  </a>
+
+  <a href="{% url "admin:speedinfo-profiler-export" %}" class="btn btn-info">
+    <i class="fa fa-fw fa-download"></i>
+    <span>{% trans 'Export CSV' %}</span>
+  </a>
+
+  <a href="{% url "admin:speedinfo-profiler-reset" %}" class="btn btn-outline-danger" onclick="return confirm('Are you sure?')">
+    <i class="fa fa-fw fa-refresh"></i>
+    <span>{% trans 'Reset' %}</span>
+  </a>
+{% endblock %}
+
+
+{% block toolbar %}{% endblock %}
