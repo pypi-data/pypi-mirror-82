@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+php_var_dump/__init__.py
+php_var_dump.egg-info/PKG-INFO
+php_var_dump.egg-info/SOURCES.txt
+php_var_dump.egg-info/dependency_links.txt
+php_var_dump.egg-info/not-zip-safe
+php_var_dump.egg-info/requires.txt
+php_var_dump.egg-info/top_level.txt

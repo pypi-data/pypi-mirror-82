@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: php_var_dump
+Version: 0.3
+Summary: a port of the var_dump function of php to python.
+Home-page: http://github.com/jvanasco/php_var_dump
+Author: Jonathan Vanasco
+Author-email: jonathan@findmeon.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: PHP
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: testing
