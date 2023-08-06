@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: ashlang
+Version: 0.0.1
+Summary: A simple language transpiling to Python
+Home-page: https://xitog.github.io/dgx/informatique/ash_guide.html
+Author: Damien Gouteux
+Author-email: damien.gouteux@gmail.com
+Maintainer: Damien Gouteux
+Maintainer-email: damien.gouteux@gmail.com
+License: MIT
+Keywords: ash,ashlang,programming language,script,scripting,transpiler
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Software Development :: Interpreters
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Ash
+
+A simple language transpiling to Python. Its default implementation is written in Python 3.
+
+## Comments
+
+``-- This is a comment``
+
+## Variables
+
+Declare and assign a variable:
+``a = 5``
+
+Declare, assign and restrict a variable to a type:
+``a : int = 5``
+
+## Types and operators
+
+* ``int`` for integer
+* ``flt`` for float
+* ``bool`` for boolean
+* ``"..."`` or ``'...'`` for strings
+* ``[a, b]`` for list
+* ``[a = 5, b = 34]`` for hash
+
+## Functions and procedures
+
+Todo
+
+## Class
+
+Todo
+
+## Modules
+
+Todo
+
+## Exception
+
+Todo
+
+## Links
+
+Todo
+
+Damien Gouteux 2020
+
