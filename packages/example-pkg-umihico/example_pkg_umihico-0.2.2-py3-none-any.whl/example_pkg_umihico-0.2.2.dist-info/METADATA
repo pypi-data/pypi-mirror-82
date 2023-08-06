@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: example-pkg-umihico
+Version: 0.2.2
+Summary: personal pypi package deploy env
+Home-page: https://github.com/umihico/pypienv
+Author: umihico
+Author-email: umihico@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: boto3
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+
