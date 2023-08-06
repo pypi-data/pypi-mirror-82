@@ -1,0 +1,11 @@
+README.md
+setup.py
+resattention/DESCRIPTION.rst
+resattention/__init__.py
+resattention/blocks.py
+resattention/models.py
+resattention.egg-info/PKG-INFO
+resattention.egg-info/SOURCES.txt
+resattention.egg-info/dependency_links.txt
+resattention.egg-info/requires.txt
+resattention.egg-info/top_level.txt
