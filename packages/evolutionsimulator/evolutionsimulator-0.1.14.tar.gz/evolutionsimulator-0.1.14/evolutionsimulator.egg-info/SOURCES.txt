@@ -1,0 +1,17 @@
+README.md
+setup.py
+evolutionsimulator/__init__.py
+evolutionsimulator/__main__.py
+evolutionsimulator/animals.py
+evolutionsimulator/automatic_testing.py
+evolutionsimulator/data_analyzer.py
+evolutionsimulator/data_grouper.py
+evolutionsimulator/environment.py
+evolutionsimulator/interactive.py
+evolutionsimulator/interactive_graphics.py
+evolutionsimulator.egg-info/PKG-INFO
+evolutionsimulator.egg-info/SOURCES.txt
+evolutionsimulator.egg-info/dependency_links.txt
+evolutionsimulator.egg-info/entry_points.txt
+evolutionsimulator.egg-info/requires.txt
+evolutionsimulator.egg-info/top_level.txt
