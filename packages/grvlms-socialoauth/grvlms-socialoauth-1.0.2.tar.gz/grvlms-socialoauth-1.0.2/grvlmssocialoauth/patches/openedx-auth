@@ -1,0 +1,4 @@
+"SOCIAL_AUTH_OAUTH_SECRETS": {
+  {% if SOCIALOAUTH_ACTIVATE_AZURE %}"azuread-oauth2": "{{ SOCIALOAUTH_AZURE_SECRET_KEY }}"{% endif %}{% if SOCIALOAUTH_ACTIVATE_GOOGLE %},{% endif %}
+  {% if SOCIALOAUTH_ACTIVATE_GOOGLE %}"google-oauth2": "{{ SOCIALOAUTH_GOOGLE_SECRET_KEY }}"{% endif %}
+}
