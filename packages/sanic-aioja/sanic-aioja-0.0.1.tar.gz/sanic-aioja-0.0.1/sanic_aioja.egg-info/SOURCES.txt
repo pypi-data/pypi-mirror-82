@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+sanic_aioja/__init__.py
+sanic_aioja/defaultglobals.py
+sanic_aioja/undefined.py
+sanic_aioja.egg-info/PKG-INFO
+sanic_aioja.egg-info/SOURCES.txt
+sanic_aioja.egg-info/dependency_links.txt
+sanic_aioja.egg-info/not-zip-safe
+sanic_aioja.egg-info/requires.txt
+sanic_aioja.egg-info/top_level.txt
