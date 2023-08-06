@@ -1,0 +1,16 @@
+formchen/.gitignore,sha256=jFFwSml8NmBKkq1peQlv8psGjeOhX2asX6MuPnxf6IQ,25
+formchen/.npmignore,sha256=BCpryJOOO7qdQXWOkqgW0dg5m2qOiznQojuxwQ6kFR8,35
+formchen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formchen/formchen-internal.d.ts,sha256=fJ8kVRsuvyzgpm8d84Z5JLcMcExTeDpUbryoFnK8Lgo,1422
+formchen/formchen.d.ts,sha256=Zxko1bVE4xhhmep5nrfVDUVJJcFb5A6W25asaqz5zz4,326
+formchen/index.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formchen/package.json,sha256=MrdZfoU0KUZ2hbNW_6nKUarhVKqUj9lLSWmn15vLT28,588
+formchen/tests/test_empty_object.js,sha256=5I8q4ZUBpIgBpulBF_2n1Bu9jaysBzKFTmY3K_hFgKc,7397
+formchen/tests/test_Formchen.js,sha256=EOyrv6TA7Jkp5O1_StnTUY2xwDX8C4gYaLCu_O_rAlY,4880
+formchen/tests/test_master_detail.js,sha256=O6TXwicosFP7nIpdynH3keU0cvElO9XFY1YO_I3Ou3Q,4594
+formchen/tests/test_proxynode.js,sha256=sIL97hY1NGLUI_j5OPtM5LiMMxXvH5uTBWZ824X1tho,1606
+formchen/webcomponent.js,sha256=EKC9YYCiLwwXYd92dJU-pYeXlN-9SkDO_7EeTET3Hb4,23339
+formchen-0.1.5.dist-info/LICENSE,sha256=OGB3h63o4CnsYBlogzP_I7Hx5OPp1EeMhmL8sSeLJHE,1092
+formchen-0.1.5.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+formchen-0.1.5.dist-info/METADATA,sha256=Ii2LEMxVoCV81OMhGeBHruBDWCtNNGwbB40SDm-2lGs,6590
+formchen-0.1.5.dist-info/RECORD,,
