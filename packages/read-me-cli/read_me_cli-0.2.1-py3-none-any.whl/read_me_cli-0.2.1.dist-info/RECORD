@@ -1,0 +1,12 @@
+readme_cli/__init__.py,sha256=2sVVwcKAQc6IjwbsZtyK2pY3iGhM49ZfTeQeg0n7FDY,185
+readme_cli/__main__.py,sha256=JvVE8ym7pRG3bLSWEq8CYdHs0idkoLsrdLYi0vUl7gA,82
+readme_cli/main.py,sha256=Hm9N8kSCCR5jXcVuelRWK_KnaKNtgACT8Ta5U7l-vSw,827
+readme_cli/readme_cli.py,sha256=9WjaO0qlOy1yjj5RGVn9oEe-PnWyUa3qAX8usVGaMKg,4309
+readme_cli/scroll.py,sha256=uEtBikCl0Pzodb0X2sKeXVoq1vFfBWCA7om5BXPodI0,12169
+readme_cli/utilities.py,sha256=FZ0duucijZh6JXdnE9eLBZlJgPHHKPc2kzwQLM9LZP4,12170
+read_me_cli-0.2.1.dist-info/LICENSE,sha256=-BwQ_NzC6PbB_KQEJ1tvp9NTq9KiuglMZybZIfjKOIE,1079
+read_me_cli-0.2.1.dist-info/METADATA,sha256=CTyaX8jFgbtTt1O39IzRNlHS0VMgIzttsK3ix1gjCkI,1767
+read_me_cli-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+read_me_cli-0.2.1.dist-info/entry_points.txt,sha256=8nuo627wripahwOHKgi4qi9Uc4sBbwQapKQjb6RNYlA,53
+read_me_cli-0.2.1.dist-info/top_level.txt,sha256=9c1NyKiqk9yp-Hxg5b2WR1yGPGXcEPtU7_im6-AyL_U,11
+read_me_cli-0.2.1.dist-info/RECORD,,

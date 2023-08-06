@@ -1,0 +1,3 @@
+[console_scripts]
+readme_cli = readme_cli.main:main
+
