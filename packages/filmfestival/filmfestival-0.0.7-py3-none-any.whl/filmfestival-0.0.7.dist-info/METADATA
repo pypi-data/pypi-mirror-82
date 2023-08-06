@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: filmfestival
+Version: 0.0.7
+Summary: An demonstration of how to create, document, and publish to the cheese shop a5 pypi.org.
+Home-page: https://gitlab.com/LetiziaMangano97/1assignment_provca/
+Author: Letizia Mangano
+Author-email: l.mangano1@campus.unimib.it
+License: BSD
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Requires-Dist: flask (==1.1.2)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: google-cloud-firestore (==1.9.0)
+Requires-Dist: pytest
+
+a
+
+
