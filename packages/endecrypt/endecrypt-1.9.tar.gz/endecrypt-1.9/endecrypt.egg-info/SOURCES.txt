@@ -1,0 +1,7 @@
+README.md
+endecrypt.py
+setup.py
+endecrypt.egg-info/PKG-INFO
+endecrypt.egg-info/SOURCES.txt
+endecrypt.egg-info/dependency_links.txt
+endecrypt.egg-info/top_level.txt
