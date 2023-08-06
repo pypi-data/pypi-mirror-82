@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+jaxboard/__init__.py
+jaxboard/jaxboard.py
+jaxboard.egg-info/PKG-INFO
+jaxboard.egg-info/SOURCES.txt
+jaxboard.egg-info/dependency_links.txt
+jaxboard.egg-info/requires.txt
+jaxboard.egg-info/top_level.txt

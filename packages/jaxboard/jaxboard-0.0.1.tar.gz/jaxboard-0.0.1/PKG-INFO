@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: jaxboard
+Version: 0.0.1
+Summary: A tensorboard logger for jax
+Home-page: https://github.com/epignatelli/jaxboard
+Author: Eduardo Pignatelli
+Author-email: edu.pignatelli@gmail.com
+License: UNKNOWN
+Description: # [WIP] jaxboard
+        
+        This is a standalone, modified version of the [trax jaxboard](https://github.com/google/trax/blob/master/trax/jaxboard.py)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.7
