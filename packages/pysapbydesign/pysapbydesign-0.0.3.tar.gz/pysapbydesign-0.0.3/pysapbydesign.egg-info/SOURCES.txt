@@ -1,0 +1,10 @@
+README.md
+setup.py
+pysapbydesign/Sapbydesign.py
+pysapbydesign/__init__.py
+pysapbydesign/auth.py
+pysapbydesign.egg-info/PKG-INFO
+pysapbydesign.egg-info/SOURCES.txt
+pysapbydesign.egg-info/dependency_links.txt
+pysapbydesign.egg-info/requires.txt
+pysapbydesign.egg-info/top_level.txt
