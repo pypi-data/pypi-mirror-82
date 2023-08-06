@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+clidesc.egg-info/PKG-INFO
+clidesc.egg-info/SOURCES.txt
+clidesc.egg-info/dependency_links.txt
+clidesc.egg-info/requires.txt
+clidesc.egg-info/top_level.txt
