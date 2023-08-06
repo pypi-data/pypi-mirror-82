@@ -1,0 +1,12 @@
+fompy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fompy/constants.py,sha256=-_PXuZNpg5Ka327xIfGW9OrJMtvtlGbCfuCc6ZeF0Eg,1694
+fompy/materials.py,sha256=zsNCFAe0en-B07uYrnLtHQwAMuj5KMX8JnZVZ9rhoDo,3377
+fompy/phys.py,sha256=BXru0ARVfupdRI8gnkmBLVAB8J2v-B10HnjTJ6nuU4Q,1886
+fompy/units.py,sha256=nk4J6J91BvG7gT_QZKdi7ld9dig6R3QDHATvo7VDyPc,3623
+fompy/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fompy/util/parser.py,sha256=fg2muL6GJW8JS579gIOnuf2rZ08_2w2ZjbZ5M0Rm4-U,1055
+fti_fompy-0.0.1.dist-info/LICENSE.md,sha256=zdxrk3lpuEDsrLEeJyf7a6g1zJRYcPV_eFrqmM59WlM,1072
+fti_fompy-0.0.1.dist-info/METADATA,sha256=c6lFUGX7uPVVjeNooNJjIF07gy66yQmmzHBCT1PdKm8,5861
+fti_fompy-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fti_fompy-0.0.1.dist-info/top_level.txt,sha256=vhzX_1iDqTAxF_32MzvWyIdMEvqIlDuKUHCnd0JKZww,6
+fti_fompy-0.0.1.dist-info/RECORD,,
