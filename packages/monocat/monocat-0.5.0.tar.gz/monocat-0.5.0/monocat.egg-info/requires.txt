@@ -1,0 +1,6 @@
+pydantic>=1.4
+uritemplate>=3
+urllib3
+
+[:python_version < "3.7"]
+dataclasses
