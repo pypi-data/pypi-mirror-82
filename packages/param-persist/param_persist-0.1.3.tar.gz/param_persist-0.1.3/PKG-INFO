@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: param_persist
+Version: 0.1.3
+Summary: The param_persist provides functionality to persist param classes.
+Home-page: https://github.com/tethysplatform/param_persist
+Author: gagelarsen
+Author-email: glarsen@aquaveo.com
+License: BSD 2-Clause License
+Description: ![Main-CI Workflow](https://github.com/tethysplatform/param_persist/workflows/Main-CI/badge.svg)
+        
+        Param Persist
+        =============
+        
+        This library will be used to persist param instance to databases, files or other persistent stores.
+        
+        The current supported persist methods are:
+        
+        - sqlalchemy database
+        
+        This library so far requires the dev version of param. That can be installed by running the following:
+        
+        ```bash
+        python -m pip install git+https://github.com/holoviz/param.git
+        ```
+        
+        An jupyter notebook example of how to use the library can be found in the `examples` folder. 
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
