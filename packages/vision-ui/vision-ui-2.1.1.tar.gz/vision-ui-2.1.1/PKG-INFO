@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: vision-ui
+Version: 2.1.1
+Summary: A line-oriented image diff algorithm.
+Home-page: https://github.com/Meituan-Dianping/vision-ui
+Author: tech@meituan.com
+Author-email:  tech@meituan.com
+License: MIT
+Description: # Vision UI
+        
+        ![GitHub](https://img.shields.io/badge/Python-3.6-blue)
+        ![GitHub](https://img.shields.io/github/license/Meituan-Dianping/vision-diff)
+        
+        > 移动端UI处理算法
+        
+        ## 目录
+        
+        * [图像对比算法](resources/vision_diff_en.md)
+        
+        * [图像文本识别](resources/vision_text.md)
+        
+        * [活动弹窗识别](https://github.com/Meituan-Dianping/vision)
+        
+        
+        ## 快速开始
+        
+        * [启动服务](resources/container_service.md)
+        
+        
+        <img width="600" src="./image/image_6.png"/>
+        
+        <img width="600" src="./image/vision_text_1.png"/>
+        
+        
+        ## License
+        
+        This project is licensed under the [MIT](./LICENSE) 
+        
+        
+        
+Keywords: A line-oriented image diff algorithm
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+Description-Content-Type: text/markdown
