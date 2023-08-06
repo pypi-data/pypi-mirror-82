@@ -1,0 +1,9 @@
+aws_role_switcher/__init__.py,sha256=toedIkI2x1BTqB179g10HJDZlXZUnktpJN3k1SILXXc,22
+aws_role_switcher/main.py,sha256=2yZwT9Zo7M7d0CoWJ4ele0fZDBTe2Yw7xH3Bomz9H6A,2628
+aws_role_switcher-1.2.0.data/scripts/aws-role-switcher,sha256=DvoI87XdUtQdYO8uCWWwga9YRrGtFj0BWWby8YBq634,174
+aws_role_switcher-1.2.0.data/scripts/aws-role-switcher.sh,sha256=-X15SM1GyrNgFbboM_dQ8uNiaUBa72edL0oK2klJ81o,42
+aws_role_switcher-1.2.0.dist-info/LICENSE.txt,sha256=cSpZwK4oMtbl5tIV0DhtZ3qlgMVNAJm7UV11Qd4NkmE,1070
+aws_role_switcher-1.2.0.dist-info/METADATA,sha256=am__ybAy7g2m1wDp8wVIO5HGKw7oKy_A_0J1EuTYqWs,3331
+aws_role_switcher-1.2.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+aws_role_switcher-1.2.0.dist-info/top_level.txt,sha256=B4lkPop4-_rtlfW7ynroQOtNb_i-ACWYNhh4IVbclac,36
+aws_role_switcher-1.2.0.dist-info/RECORD,,
