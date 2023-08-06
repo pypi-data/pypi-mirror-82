@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/airobots/__init__.py
+src/airobots/__main__.py
+src/airobots.egg-info/PKG-INFO
+src/airobots.egg-info/SOURCES.txt
+src/airobots.egg-info/dependency_links.txt
+src/airobots.egg-info/entry_points.txt
+src/airobots.egg-info/requires.txt
+src/airobots.egg-info/top_level.txt
