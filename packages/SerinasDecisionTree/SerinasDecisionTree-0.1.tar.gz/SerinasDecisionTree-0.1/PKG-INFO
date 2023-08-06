@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: SerinasDecisionTree
+Version: 0.1
+Summary: A Python package for decision-tree based classification of data
+Home-page: https://github.com/serinamarie/SerinasDecisionTree
+Author: Serina Grill
+Author-email: serinagrill@gmail.com
+License: MIT
+Download-URL: https://github.com/serinamarie/SerinasDecisionTree/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: python,decision tree,classifier
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
