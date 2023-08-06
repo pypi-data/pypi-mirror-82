@@ -1,0 +1,17 @@
+techynotes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+techynotes/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+techynotes/apps.py,sha256=9Irg2iS7qmh-t1Fmzzf2gaLillP1LCOMO3mVUyzRIlI,95
+techynotes/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+techynotes/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+techynotes/urls.py,sha256=N9XLFJZBmXI68hYuC_63F9iNUUvm-QqHQSC_RhVxKuo,470
+techynotes/views.py,sha256=f_L0U6kAUxSXlPDT4s3M_CfPnlc7SJDLvO-oUB29lbk,5566
+techynotes/static/css/mainscreen.css,sha256=i4YeGfQHzs2Vux-WBI880Vibl7c0yeJV4ngD1rswhZs,4852
+techynotes/static/images/clone.gif,sha256=2yr9r97N8gwk3uWl_DaVRnYL1ZnVlorQKE0lSxsXk2I,83449
+techynotes/static/images/login_pg.png,sha256=PVaBZN4lriq48e8uVeepJb8KSa8f2FgXxRE_zqhwV1A,7110
+techynotes/static/images/repos_loading.gif,sha256=dXFsCcdiBXmSaf2yTY1nphuz8w_q23YCECxVY1tE4ZM,62748
+techynotes/static/js/mainscreen.js,sha256=Ew0AaLA2ySELfJe0Jw8W6KExu709YODGeJwgYfvCEQo,10236
+techynotes/templates/homepage.html,sha256=yJztorAR2nFXhXnzgJXsE5wddQ-rJVOGuRtggVzC5kI,7824
+techynotes-1.0.0.dist-info/METADATA,sha256=OkIMogjNVuQVeQn2zo2_9wp8s0jj8kOh_9iMseE5mxU,351
+techynotes-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+techynotes-1.0.0.dist-info/top_level.txt,sha256=nMWDBIYSFUX8c4Ko79Hu-rP1TGkOZ0NRFXJT3mPbQpE,11
+techynotes-1.0.0.dist-info/RECORD,,

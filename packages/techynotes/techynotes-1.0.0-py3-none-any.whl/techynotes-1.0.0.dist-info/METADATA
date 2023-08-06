@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: techynotes
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/kom3/techynotes.git
+Author: KOM
+Author-email: komsitsolutions@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: GitPython (==3.1.1)
+Requires-Dist: PyGithub (==1.47)
+Requires-Dist: gcg (==0.2.0)
+
+this app helps to maintain notes on github
+
+
