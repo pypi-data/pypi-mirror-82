@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mbf_nested_intervals.egg-info/PKG-INFO
+mbf_nested_intervals.egg-info/SOURCES.txt
+mbf_nested_intervals.egg-info/dependency_links.txt
+mbf_nested_intervals.egg-info/not-zip-safe
+mbf_nested_intervals.egg-info/requires.txt
+mbf_nested_intervals.egg-info/top_level.txt
