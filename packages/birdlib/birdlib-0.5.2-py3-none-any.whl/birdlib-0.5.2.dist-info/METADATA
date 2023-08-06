@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: birdlib
+Version: 0.5.2
+Summary: the library for bird-browser
+Home-page: https://github.com/ULUdev/bird-browser
+Author: ULUdev
+Author-email: UNKNOWN
+License: GNU GPL 3.0
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: PyQtWebEngine
+Requires-Dist: requests
+
+UNKNOWN
+
+
