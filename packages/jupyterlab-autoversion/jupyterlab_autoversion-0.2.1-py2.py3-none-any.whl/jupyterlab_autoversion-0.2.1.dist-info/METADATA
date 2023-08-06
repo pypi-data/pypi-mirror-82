@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: jupyterlab-autoversion
+Version: 0.2.1
+Summary: Automatically version jupyter notebooks on save
+Home-page: https://github.com/timkpaine/jupyterlab_autoversion
+Author: Tim Paine
+Author-email: t.paine154@gmail.com
+License: Apache 2.0
+Requires-Dist: GitPython (>=2.1.11)
+Requires-Dist: jupyterlab (>=2.0.0)
+Provides-Extra: dev
+Requires-Dist: GitPython (>=2.1.11) ; extra == 'dev'
+Requires-Dist: jupyterlab (>=2.0.0) ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+
+# jupyterlab_autoversion
+
+
