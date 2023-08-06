@@ -1,0 +1,10 @@
+README.md
+setup.py
+botwinick_sci/__init__.py
+botwinick_sci/chem.py
+botwinick_sci/safety.py
+botwinick_sci.egg-info/PKG-INFO
+botwinick_sci.egg-info/SOURCES.txt
+botwinick_sci.egg-info/dependency_links.txt
+botwinick_sci.egg-info/requires.txt
+botwinick_sci.egg-info/top_level.txt
