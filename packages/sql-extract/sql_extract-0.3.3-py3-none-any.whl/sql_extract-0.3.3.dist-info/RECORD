@@ -1,0 +1,8 @@
+sql_extract/__init__.py,sha256=M9-z4aIxWcNe8XvGfSBH24REEyw5tP1KKJjiYcrjSDQ,13846
+sql_extract-0.3.3.data/scripts/csv2xlsx,sha256=RM8imdMHqiTVARCKioOk_cqyu2Qy7N0pSDZ2G0tgfEQ,53
+sql_extract-0.3.3.data/scripts/sql-extract,sha256=TNrj5sRLpaIqMjf4Q57M78KkR2_gNobbVelvsXa85Ww,45
+sql_extract-0.3.3.dist-info/LICENSE,sha256=1Ta2JMo5CCSvviL-4gMxl45yTbdDUZLYIa1IYPTHuyU,1055
+sql_extract-0.3.3.dist-info/METADATA,sha256=KMeMmO0QLcOhIrrABUt50GgW0CzKTS9Z_MS6JEcgj3Y,2989
+sql_extract-0.3.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+sql_extract-0.3.3.dist-info/top_level.txt,sha256=dQzg-1SWAXGvC1iehpiA73RUdhWnEDfik-H1-8ubpfI,12
+sql_extract-0.3.3.dist-info/RECORD,,
