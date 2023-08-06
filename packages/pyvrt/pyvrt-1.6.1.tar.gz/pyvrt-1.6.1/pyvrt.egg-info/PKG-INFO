@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pyvrt
+Version: 1.6.1
+Summary: Python library to interact with VRT public APIs
+Home-page: https://github.com/thibmaek/pyvrt
+Author: thibmaek
+Author-email: thibault.maekelbergh@icloud.com
+License: UNKNOWN
+Description: # pyvrt
+        
+        🐍 Python library to interact with VRT public APIs (weather, traffic…)
+        
+        ## Usage
+        
+        ```python
+        from pyvrt.traffic import traffic
+        from pyvrt.weather import weather
+        
+        weather.summary()
+        weather.forecast(region='BE', zone='kust')
+        
+        traffic.trafficJam(km=True)
+        ```
+        
+        ## Development
+        
+        ```shell
+        $ make install
+        $ make build
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
