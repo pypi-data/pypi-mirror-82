@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>django-whatever &#8212; django-whatever 0.3 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="installation.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             accesskey="N">next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">django-whatever 0.3 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="django-whatever">
+<h1>django-whatever<a class="headerlink" href="#django-whatever" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>django-whatever is a friendly fork of <code class="docutils literal notranslate"><span class="pre">django-any</span></code> package written by Mikhail Podgurskiy (kmmbvnr)
+The purpose of the fork is to fix most annoying bugs and add <a class="reference internal" href="changelog.html#changelog"><span class="std std-ref">some features</span></a>.
+To remain compatible with original package <code class="docutils literal notranslate"><span class="pre">django-whatever</span></code> retains same namespace: <code class="docutils literal notranslate"><span class="pre">django_any</span></code>.</p>
+</div>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">django-whatever</span></code> is explicit replacement for old-style, big and error-prone
+implicit fixture files.</p>
+<p><code class="docutils literal notranslate"><span class="pre">django-whatever</span></code> allows you to specify only fields important for tests
+and fills the rest randomly with acceptable values.</p>
+<p>It makes tests clean and easy to understand, without reading fixture files.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">django_any</span> <span class="kn">import</span> <span class="n">any_model</span>
+
+<span class="k">class</span> <span class="nc">TestMyShop</span><span class="p">(</span><span class="n">TestCase</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">test_order_updates_user_account</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="n">account</span> <span class="o">=</span> <span class="n">any_model</span><span class="p">(</span><span class="n">Account</span><span class="p">,</span> <span class="n">amount</span><span class="o">=</span><span class="mi">25</span><span class="p">,</span> <span class="n">user__is_active</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="n">order</span> <span class="o">=</span> <span class="n">any_model</span><span class="p">(</span><span class="n">Order</span><span class="p">,</span> <span class="n">user</span><span class="o">=</span><span class="n">account</span><span class="o">.</span><span class="n">user</span><span class="p">,</span> <span class="n">amount</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+        <span class="n">order</span><span class="o">.</span><span class="n">proceed</span><span class="p">()</span>
+
+        <span class="n">account</span> <span class="o">=</span> <span class="n">Account</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">pk</span><span class="o">=</span><span class="n">account</span><span class="o">.</span><span class="n">pk</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">assertEquals</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="n">account</span><span class="o">.</span><span class="n">amount</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Models creation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="forms.html">Forms creation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contrib.html">Additional features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debugging.html">Debugging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="xunit.html">Xunit reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="development">
+<h2>Development<a class="headerlink" href="#development" title="Permalink to this headline">¶</a></h2>
+<p>You can grab latest code on <a class="reference external" href="https://github.com/coagulant/django-whatever">Github</a>.</p>
+<p>Feel free to submit <a class="reference external" href="https://github.com/coagulant/django-whatever/issues">issues</a>, pull requests are also welcome.</p>
+</div>
+<div class="section" id="authors-contributors">
+<h2>Authors &amp; contributors<a class="headerlink" href="#authors-contributors" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/kmmbvnr">kmmbvnr</a> (<code class="docutils literal notranslate"><span class="pre">django-any</span></code> author)</p></li>
+<li><p><a class="reference external" href="https://github.com/Vitaa">Vitaa</a></p></li>
+<li><p><a class="reference external" href="https://github.com/coagulant">Coagulant</a> (<code class="docutils literal notranslate"><span class="pre">django-whatever</span></code> maintainer)</p></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">django-whatever</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#contents">Contents</a></li>
+<li><a class="reference internal" href="#development">Development</a></li>
+<li><a class="reference internal" href="#authors-contributors">Authors &amp; contributors</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Next topic</h4>
+  <p class="topless"><a href="installation.html"
+                        title="next chapter">Installation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             >next</a> |</li>
+        <li class="nav-item nav-item-0"><a href="#">django-whatever 0.3 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2011, coagulant.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.1.
+    </div>
+  </body>
+</html>

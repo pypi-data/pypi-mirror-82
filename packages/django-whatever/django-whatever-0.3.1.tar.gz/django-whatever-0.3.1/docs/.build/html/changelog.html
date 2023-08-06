@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Changelog &#8212; django-whatever 0.3 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Xunit reference" href="xunit.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="xunit.html" title="Xunit reference"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">django-whatever 0.3 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="changelog">
+<span id="id1"></span><h1>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="dev">
+<h2>dev<a class="headerlink" href="#dev" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>automated tests in Travis CI</p></li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h2>0.3.0<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>dropped Django 1.1, 2.0, 2.2 and Python 2.7, 3.4 support</p></li>
+<li><p>added Django 3.0 and Python 3.8 suport</p></li>
+<li><p>added automated codestyle checks</p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>0.2.4<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>A bunch of maintenance updates that happened during the “unmaintained” mode.</p></li>
+<li><p>The last version with Django 1.11, 2.0, and 2.1 support</p></li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h2>0.2.3<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Values for custom fields are created with their parent generator if the field is not registered (#22)</p></li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h2>0.2.2<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed pip installation</p></li>
+<li><p>Added ability to login_as arbitrary user</p></li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h2>0.2.1<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Added xunit reference docs</p></li>
+<li><p>Fixed <code class="docutils literal notranslate"><span class="pre">any_text_field</span></code> return value</p></li>
+<li><p>Updated setup.py to use versiontools</p></li>
+<li><p>Minor updates and bugfixes in docs and LICENCE</p></li>
+</ul>
+</div>
+<div class="section" id="id7">
+<h2>0.2.0<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Fixed <code class="docutils literal notranslate"><span class="pre">ImportError:</span> <span class="pre">cannot</span> <span class="pre">import</span> <span class="pre">name</span> <span class="pre">_strclass</span></code> for python 2.7</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">any_model_with_defaults</span></code> function to generate models with default values where acceptible</p></li>
+<li><p>Fixed tests for django 1.4 compatibility</p></li>
+<li><p>Added support for GenericIPAddressField in both model and forms (django 1.4 and above)</p></li>
+<li><p>Multiple minor updates and bugfixes in docs</p></li>
+</ul>
+</div>
+<div class="section" id="id8">
+<h2>0.1.0<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Forked django-any and renamed to django-whatever</p></li>
+<li><p>Created complete documentation for package</p></li>
+<li><p>Models with <code class="docutils literal notranslate"><span class="pre">GenericForeignKey</span></code> can be created with <code class="docutils literal notranslate"><span class="pre">any_model(MyModel,</span> <span class="pre">content_object=object)</span></code></p></li>
+<li><p>Self-referencing models no longer produce <code class="docutils literal notranslate"><span class="pre">&quot;RuntimeError:</span> <span class="pre">maximum</span> <span class="pre">recursion</span> <span class="pre">depth</span> <span class="pre">exceeded&quot;</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ImageField</span></code> and naive callable <code class="docutils literal notranslate"><span class="pre">upload_to</span></code> support.</p></li>
+</ul>
+</div>
+<div class="section" id="django-any-changelog">
+<h2>django-any changelog<a class="headerlink" href="#django-any-changelog" title="Permalink to this headline">¶</a></h2>
+<p>Not maintained</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Changelog</a><ul>
+<li><a class="reference internal" href="#dev">dev</a></li>
+<li><a class="reference internal" href="#id2">0.3.0</a></li>
+<li><a class="reference internal" href="#id3">0.2.4</a></li>
+<li><a class="reference internal" href="#id4">0.2.3</a></li>
+<li><a class="reference internal" href="#id5">0.2.2</a></li>
+<li><a class="reference internal" href="#id6">0.2.1</a></li>
+<li><a class="reference internal" href="#id7">0.2.0</a></li>
+<li><a class="reference internal" href="#id8">0.1.0</a></li>
+<li><a class="reference internal" href="#django-any-changelog">django-any changelog</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="xunit.html"
+                        title="previous chapter">Xunit reference</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/changelog.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="xunit.html" title="Xunit reference"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">django-whatever 0.3 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2011, coagulant.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.1.
+    </div>
+  </body>
+</html>

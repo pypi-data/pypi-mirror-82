@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Additional features &#8212; django-whatever 0.3 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Debugging" href="debugging.html" />
+    <link rel="prev" title="Forms creation" href="forms.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="debugging.html" title="Debugging"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="forms.html" title="Forms creation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">django-whatever 0.3 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="additional-features">
+<h1>Additional features<a class="headerlink" href="#additional-features" title="Permalink to this headline">¶</a></h1>
+<p>django-any provides clean API for creating users and authenticating as users.</p>
+<div class="section" id="creating-users">
+<h2>Creating users<a class="headerlink" href="#creating-users" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="django_any.contrib.any_user">
+<code class="sig-prename descclassname">django_any.contrib.</code><code class="sig-name descname">any_user</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">password</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">permissions</span><span class="o">=</span><span class="default_value">[]</span></em>, <em class="sig-param"><span class="n">groups</span><span class="o">=</span><span class="default_value">[]</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#django_any.contrib.any_user" title="Permalink to this definition">¶</a></dt>
+<dd><p>Without arguments it creates non-superuser and non-staff active user.
+Function can simultaneusly grant permissions to user and assign him to specified groups
+(groups and permissons are not created and should exist prior to function call).
+You can also provide any key-valued arguments, which <code class="docutils literal notranslate"><span class="pre">User</span></code> model takes.</p>
+<div class="highlight-django notranslate"><div class="highlight"><pre><span></span><span class="x">from django_any.contrib import any_user</span>
+<span class="x"># create random user</span>
+<span class="x">foo = any_user()</span>
+
+<span class="x"># create inactive superuser</span>
+<span class="x">any_user(is_superuser=True, is_active=False, is_staff=True)</span>
+
+<span class="x"># create user with permissions &#39;can_add&#39; and &#39;can_delete&#39; in app books</span>
+<span class="x">any_user(permissions=[&#39;books.can_add&#39;, &#39;books.can_delete&#39;])</span>
+
+<span class="x"># create user in group &#39;Special users&#39;</span>
+<span class="x">any_user(groups=[&#39;Special users&#39;])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="custom-test-client">
+<h2>Custom test client<a class="headerlink" href="#custom-test-client" title="Permalink to this headline">¶</a></h2>
+<p>Django-whatever has custom test clent, that extends default django client.
+It provides two useful methods for authorization and forms posting.</p>
+<dl class="py function">
+<dt>
+<code class="sig-name descname">login_as(self, **kwargs):</code></dt>
+<dd><p>Log into site as random user. Key-valued arguments are the same as for <code class="docutils literal notranslate"><span class="pre">any_user</span></code> function.
+To log in as specific user, provide argument <code class="docutils literal notranslate"><span class="pre">user</span></code> (note, that user password will be reset).</p>
+<div class="highlight-django notranslate"><div class="highlight"><pre><span></span><span class="x">from django_any.test import Client</span>
+<span class="x">self.client = Client()</span>
+<span class="x"># log in as admin</span>
+<span class="x">self.client.login_as(is_superuser=True)</span>
+
+<span class="x"># log in as specific user</span>
+<span class="x">user = User.objects.create_user(&#39;john&#39;, &#39;lennon@thebeatles.com&#39;, &#39;johnpassword&#39;)</span>
+<span class="x">self.client.login_as(user=user)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<span class="target" id="post-any-data"></span><dl class="py function">
+<dt>
+<code class="sig-name descname">post_any_data(self, url, extra=None, context_forms=_request_context_forms, **kwargs):</code></dt>
+<dd><p>Posts random froms data to <code class="docutils literal notranslate"><span class="pre">url</span></code>. Additional data can be passed in dictionary format to <code class="docutils literal notranslate"><span class="pre">extra</span></code> argument.
+By default, it’s assumed that forms are rendered by same url, their names and default values are taken
+from context and can be overriden by <code class="docutils literal notranslate"><span class="pre">context_forms</span></code> argument.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="creating-models-with-default-values">
+<h2>Creating models with default values<a class="headerlink" href="#creating-models-with-default-values" title="Permalink to this headline">¶</a></h2>
+<p>Basic <code class="docutils literal notranslate"><span class="pre">any_model</span></code> provides totally random values that pass validation and meet requiremnts of creation,
+but sometimes it’s useful to keep defaults. In those cases it’s recommended to use <code class="docutils literal notranslate"><span class="pre">any_model_with_defaults</span></code>.</p>
+<dl class="py function">
+<dt>
+<code class="sig-name descname">any_model_with_defaults(modelClass, **kwargs):</code></dt>
+<dd><div class="highlight-django notranslate"><div class="highlight"><pre><span></span><span class="x">from django_any.contrib import any_model_with_defaults</span>
+
+<span class="x">#models.py</span>
+<span class="x">class Poll(models.Model):</span>
+<span class="x">    question = models.CharField(max_length=200)</span>
+<span class="x">    pub_date = models.DateTimeField(&#39;date published&#39;, defalut=datetime.datetime(2000, 12, 10))</span>
+
+<span class="x">#tests.py</span>
+<span class="x">poll = any_model_with_defaults(Poll)</span>
+</pre></div>
+</div>
+<p>Note, that <code class="docutils literal notranslate"><span class="pre">question</span></code> value is random, but <code class="docutils literal notranslate"><span class="pre">pub_date</span></code> is taken from <code class="docutils literal notranslate"><span class="pre">default</span></code> attribute:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s1">&#39;question&#39;</span><span class="p">:</span> <span class="s1">&#39;HJ:34KW&lt;DGdfSgfL67KVRD:&#39;</span>
+<span class="s1">&#39;pub_date&#39;</span><span class="p">:</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="p">(</span><span class="mi">2000</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Additional features</a><ul>
+<li><a class="reference internal" href="#creating-users">Creating users</a></li>
+<li><a class="reference internal" href="#custom-test-client">Custom test client</a></li>
+<li><a class="reference internal" href="#creating-models-with-default-values">Creating models with default values</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="forms.html"
+                        title="previous chapter">Forms creation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="debugging.html"
+                        title="next chapter">Debugging</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/contrib.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="debugging.html" title="Debugging"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="forms.html" title="Forms creation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">django-whatever 0.3 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2011, coagulant.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.1.
+    </div>
+  </body>
+</html>
