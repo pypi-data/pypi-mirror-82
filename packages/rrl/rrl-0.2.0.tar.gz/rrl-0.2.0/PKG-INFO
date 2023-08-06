@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rrl
+Version: 0.2.0
+Summary: 
+License: MIT
+Author: James Turk
+Author-email: dev@jamesturk.net
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: redis (>=3.5.3,<4.0.0)
