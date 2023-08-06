@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: tenda
+Version: 0.0.6
+Summary: Unofficial Tenda Model N301 API
+Home-page: https://github.com/talhabalaj/tenda-n301-api-python
+Author: Talha Balaj
+Author-email: talhabalaj@gmail.com
+License: UNKNOWN
+Description: # tenda-n301-api
+        Unofficial Tenda Model N301 API
+        
+        Install it using:
+        ```s
+        $ pip install tenda-n301-python-api
+        ```
+        
+        These are the function currently available.
+        
+        ```python
+        import tendan301api
+        
+        manager = tendan301api.TendaManager('<ip_address>', '<your_password>')
+        
+        # Get QOS
+        online_devices = manager.get_online_devices()
+        blocked_devices = manager.get_black_list()
+        
+        # Set QOS
+        manager.block_device('<some_mac_address>')
+        
+        # Reboot 
+        manager.reboot()
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
