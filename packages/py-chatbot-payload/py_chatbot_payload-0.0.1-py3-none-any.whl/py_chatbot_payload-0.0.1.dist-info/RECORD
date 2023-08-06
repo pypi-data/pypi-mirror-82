@@ -1,0 +1,10 @@
+chatbot_payload/__init__.py,sha256=3GFzqoR8Cinur_iuN4NSHQN4RSRta3m4U6o07UES-kY,125
+chatbot_payload/facebook_chat.py,sha256=NGcyjOaw9JncgCiiFBfNOu-RLvmQkS-0OSDgrg7Fj8o,1742
+chatbot_payload/helpers.py,sha256=C2BDDjxjxs5Qc2URdxdsfznmZZ3tgzkiJ9scTj7MiSw,1207
+chatbot_payload/line_chat.py,sha256=4FjMm9dQHmBqh_ER9paRbiwGVtU6CPR7D_HlQmt336U,1280
+chatbot_payload/payloads.py,sha256=we0oUZYXVwAI1_aA6fve5fuO-nn-GT7fANlqEJzmghY,9334
+py_chatbot_payload-0.0.1.dist-info/LICENSE,sha256=DKmkNvvU1iuEX8O60--fOWH8LVZSpaKjsL6DNzwxa3w,1063
+py_chatbot_payload-0.0.1.dist-info/METADATA,sha256=VDGDfGSY_yGLgKxmrmLZELwnZNWJEEVzL8ECR8t2BQc,507
+py_chatbot_payload-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+py_chatbot_payload-0.0.1.dist-info/top_level.txt,sha256=lfOwLBUuQT-lKDXOJRvDM79Bi4CD7rEiSgFHYJgEK4Y,16
+py_chatbot_payload-0.0.1.dist-info/RECORD,,
