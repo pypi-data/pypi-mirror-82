@@ -1,0 +1,10 @@
+lime_uow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lime_uow/exceptions.py,sha256=kSomQB6sXyHw9sL4iyXQBLIkQ3d-jBeItfvxPRF0RvM,2563
+lime_uow/lu.py,sha256=kRjb5Yyx7L8tuboB3yr33tFp3A7qrvV5FebsaYcLJXE,187
+lime_uow/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lime_uow/resources.py,sha256=42GvXEkoTJ7sydGF7nnZyM2Qn4KXTLAlYoiqNarmeIk,10772
+lime_uow/shared_resource_manager.py,sha256=h4slVSAZbxnejsiFciS4K4V_N7joHERN-B6RBUheSUU,2482
+lime_uow/unit_of_work.py,sha256=I6gjwUABqXfLMuFOhmJ5owOMZUNjVrOo-xdso4UQoKQ,3928
+lime_uow-0.1.31.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+lime_uow-0.1.31.dist-info/METADATA,sha256=rcutMPxbxQYVdURoeda4mMVt7n7TCu3XjcvixXs5kmk,529
+lime_uow-0.1.31.dist-info/RECORD,,
