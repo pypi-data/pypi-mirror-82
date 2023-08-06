@@ -1,0 +1,9 @@
+monitaur/__init__.py,sha256=Hjsc9XQ3AkqXm-5cdlX-H8iKjURzi1FQeWNi2xx34Uo,23
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/conftest.py,sha256=b9n4Bh06BFzccqBv_5fv_U-wbdUYCKH2rAeZ2y7uAuQ,314
+tests/unit/test_client.py,sha256=PNdcuDRfTrvAPuN-mVBxDaUgu5afpyLaOgE3qrLTHBo,36379
+tests/unit/test_utils.py,sha256=po6sIZcjMbeQgpbIBb5O2GW9mIBTqUq5_T3keh6HrR4,7999
+monitaur-0.27.0.dist-info/METADATA,sha256=cRYlMge6kB5-mm2TLbGkxCXD6s2V9AI7tSDoVyKORQQ,800
+monitaur-0.27.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+monitaur-0.27.0.dist-info/top_level.txt,sha256=gQ2FbyLNajcYQ2k2DqFdu4VAlQXDCER8q4NT5yxV3GE,15
+monitaur-0.27.0.dist-info/RECORD,,
