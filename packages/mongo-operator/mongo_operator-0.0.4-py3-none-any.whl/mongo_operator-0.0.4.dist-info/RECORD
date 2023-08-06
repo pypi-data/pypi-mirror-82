@@ -1,0 +1,10 @@
+mongo_operator/__init__.py,sha256=lXx-Me6C7mNyao9zddpbYT3tEUq9llp697DOLeu7wT8,667
+mongo_operator/backup_operator.py,sha256=SSIoQwYTpBYVcTvrc3o4q--YI7fH1RXbdoenSbMRL9U,3723
+mongo_operator/cleanup_operator.py,sha256=YSVm3tzal96DNM790ZNQaAIMk64OLQM38MLElqvT7lY,2509
+mongo_operator/command_line.py,sha256=uGIrZWr2kaYJo3Xfp1lBtXYxX3-bhQCiUYc8tleVNaY,1765
+mongo_operator/migrate_operator.py,sha256=Oxe53tlQiWWEcjaZhMzITZEhOtg1QMJ_T1iSqg5N--o,5132
+mongo_operator-0.0.4.dist-info/METADATA,sha256=YLTjLbGAdFkCHtLUoRztiL2wJQ0LHHb4fzjTH7LlNOw,3231
+mongo_operator-0.0.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mongo_operator-0.0.4.dist-info/entry_points.txt,sha256=w8I0WVKCBsb7w9wTQoQ9teP_4JrxSfW9H-7Na-3ebmY,68
+mongo_operator-0.0.4.dist-info/top_level.txt,sha256=plp7lJ5Hj_8fIKKcv2yj_4AbfKeZLcAoshf0wulvqLo,15
+mongo_operator-0.0.4.dist-info/RECORD,,
