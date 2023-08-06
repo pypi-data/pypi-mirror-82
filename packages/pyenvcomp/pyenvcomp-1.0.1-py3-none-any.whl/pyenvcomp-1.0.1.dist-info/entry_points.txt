@@ -1,0 +1,3 @@
+[console_scripts]
+compare = pyenvcomp.main:main
+
