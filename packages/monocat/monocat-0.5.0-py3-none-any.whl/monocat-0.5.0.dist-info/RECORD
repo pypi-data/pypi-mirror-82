@@ -1,0 +1,12 @@
+monocat/__init__.py,sha256=Jn9vZ873II_NN4MB-U81EfZMjcoa5YRgpvGfe2PhK0o,2180
+monocat/__metadata__.py,sha256=1y7WzeuVbMeLnTecLVrPqLcknaay47xJwqWfjWi0WCw,235
+monocat/_http.py,sha256=yx1rlToB8RNpo88AM0rybRpxoWW9QuKHsSlSlnoHY1g,3211
+monocat/actions.py,sha256=aWFfFB8gKmVQZb3GXVNevyLa_7b_NY_ZFX3VN75hRS0,3290
+monocat/cli.py,sha256=CNw4V2s_9YPHvPZUdSJDWvt0O5suQXtrM_U1VgjjuJs,6081
+monocat/github.py,sha256=-YQ3TEwX8DseNQVNm1cHP-m5bWfQfzn3H0dkp_TzPfw,9995
+monocat-0.5.0.dist-info/LICENSE,sha256=C0CkqRVdgJIFkKAfHP7l4Man68nZ51KjP17eF1TFH8E,1459
+monocat-0.5.0.dist-info/METADATA,sha256=Ax_KU6gxicFgguHk-isEoj8Er96DSd9yS-bRVaU9hjE,2801
+monocat-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+monocat-0.5.0.dist-info/entry_points.txt,sha256=Id5nybsBlmb7QYuRmJCaB09Dm9TGBAS_TSFBg4JeaZE,46
+monocat-0.5.0.dist-info/top_level.txt,sha256=RjunHu2NP7L4MbRyg1jQB0t8HA8iecqb2caHzPLcFOI,8
+monocat-0.5.0.dist-info/RECORD,,
