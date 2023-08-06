@@ -1,0 +1,16 @@
+django_itelegram/__init__.py,sha256=S7xkqMfoKj6EugxgRY1_OxGsOsNtGMLWcOz2DJg9pn4,208
+django_itelegram/admin.py,sha256=TjUG_gblpab7YVQVNLEsBgg6STol3vu2uNpHrGnYjAw,607
+django_itelegram/apps.py,sha256=iX02xLwRTtJNEr8Yt9Hu1oXZZPwoUwUNJJGZznYOBKs,13386
+django_itelegram/bot.py,sha256=n7umcWn6HeU9Nm6TS_OIBJyAqQT_0_AJs7zkcKV9sbw,683
+django_itelegram/decorators.py,sha256=xVKf-qAtFTWbwg0qugG6nRRm41-pxjQRs51Is9oztlw,1241
+django_itelegram/models.py,sha256=GuWyeX4u_X0GpjKxcZXynrhZ-eU1xUwAy9E5uG53z1E,2860
+django_itelegram/mqbot.py,sha256=4uxChU3U7edWJ5pix__6RZtddgX40vMjy8XOrT6Z87I,1080
+django_itelegram/services.py,sha256=ii07l0o5-3SMlRmBRBX_KJvoVMmtdcrSogZV-gzSsqo,3196
+django_itelegram/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_itelegram/urls.py,sha256=hkPHTEuZRX5x6pml92kEsICGKyQ45qKWtf-Q7WN8LjQ,488
+django_itelegram/views.py,sha256=gkpjBwBLK5PQHjFhDECP-aQnE-U6Sk0B3XiZHGR_6PE,2199
+django_itelegram-1.0.0.dist-info/LICENSE,sha256=NZukGNUBWBcLjYxEWUsrrwRZK4uYIbAmfzAFIq5LhbI,1071
+django_itelegram-1.0.0.dist-info/METADATA,sha256=Emm5Ag4msWCIHrVgNuGRifrQe0iPCBGo5HBmC7vtWMk,1794
+django_itelegram-1.0.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+django_itelegram-1.0.0.dist-info/top_level.txt,sha256=stPzw_3mZfCFnuoTh1nQv0_InZ9N35FUcNxQ4rH3leA,17
+django_itelegram-1.0.0.dist-info/RECORD,,
