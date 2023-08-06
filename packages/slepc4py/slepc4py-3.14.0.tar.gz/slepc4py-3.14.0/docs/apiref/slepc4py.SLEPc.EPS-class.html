@@ -1,0 +1,4877 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>slepc4py.SLEPc.EPS</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="slepc4py-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://gitlab.com/slepc/slepc4py">SLEPc for Python</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="slepc4py-module.html">Package&nbsp;slepc4py</a> ::
+        <a href="slepc4py.SLEPc-module.html">Module&nbsp;SLEPc</a> ::
+        Class&nbsp;EPS
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="slepc4py.SLEPc.EPS-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class EPS</h1><p class="nomargin-top"></p>
+<center>
+<center>  <map id="class_hierarchy_for_eps" name="class_hierarchy_for_eps">
+<area shape="rect" id="node1" href="javascript:void(0);" title="petsc4py.PETSc.Object" alt="" coords="5,5,173,31"/>
+<area shape="rect" id="node2" href="slepc4py.SLEPc.EPS-class.html" title="EPS" alt="" coords="66,60,113,85"/>
+</map>
+  <img src="class_hierarchy_for_eps.png" alt='' usemap="#class_hierarchy_for_eps" ismap="ismap" class="graph-without-title" />
+</center>
+</center>
+<hr />
+<pre class="literalblock">
+
+EPS
+
+</pre>
+
+<!-- ==================== NESTED CLASSES ==================== -->
+<a name="section-NestedClasses"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Nested Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-NestedClasses"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.Balance-class.html" class="summary-name">Balance</a><br />
+      EPS type of balancing used for non-Hermitian problems
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.Conv-class.html" class="summary-name">Conv</a><br />
+      EPS convergence test
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.ConvergedReason-class.html" class="summary-name">ConvergedReason</a><br />
+      EPS convergence reasons
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.ErrorType-class.html" class="summary-name">ErrorType</a><br />
+      EPS error type to assess accuracy of computed solutions
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.Extraction-class.html" class="summary-name">Extraction</a><br />
+      EPS extraction technique
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.LanczosReorthogType-class.html" class="summary-name">LanczosReorthogType</a><br />
+      EPS Lanczos reorthogonalization type
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.PowerShiftType-class.html" class="summary-name">PowerShiftType</a><br />
+      EPS Power shift type.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.ProblemType-class.html" class="summary-name">ProblemType</a><br />
+      EPS problem type
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.Type-class.html" class="summary-name">Type</a><br />
+      EPS type
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="slepc4py.SLEPc.EPS.Which-class.html" class="summary-name">Which</a><br />
+      EPS desired piece of spectrum
+    </td>
+  </tr>
+</table>
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type"><pre class="literalblock">
+a new object with type S, a subtype of T
+
+</pre></span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#__new__" class="summary-sig-name">__new__</a>(<span class="summary-sig-arg">S</span>,
+        <span class="summary-sig-arg">...</span>)</span></td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#appendOptionsPrefix" class="summary-sig-name">appendOptionsPrefix</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">prefix</span>)</span><br />
+      Appends to the prefix used for searching for all EPS options
+in the database.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="cancelMonitor"></a><span class="summary-sig-name">cancelMonitor</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Clears all monitors for an EPS object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#computeError" class="summary-sig-name">computeError</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">int i</span>,
+        <span class="summary-sig-arg">etype</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Computes the error (based on the residual norm) associated with the i-th
+computed eigenpair.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#create" class="summary-sig-name">create</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">comm</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Creates the EPS object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#destroy" class="summary-sig-name">destroy</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Destroys the EPS object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#errorView" class="summary-sig-name">errorView</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">etype</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">Viewer viewer</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Displays the errors associated with the computed solution
+(as well as the eigenvalues).</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getArnoldiDelayed" class="summary-sig-name">getArnoldiDelayed</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the type of reorthogonalization used during the Arnoldi
+iteration.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getBV" class="summary-sig-name">getBV</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Obtain the basis vector objects associated to the eigensolver.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getBalance" class="summary-sig-name">getBalance</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the balancing type used by the EPS object,
+and the associated parameters.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getConverged" class="summary-sig-name">getConverged</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the number of converged eigenpairs.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getConvergedReason" class="summary-sig-name">getConvergedReason</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the reason why the `solve()` iteration was stopped.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getConvergenceTest" class="summary-sig-name">getConvergenceTest</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Return the method used to compute the error estimate 
+used in the convergence test.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getDS" class="summary-sig-name">getDS</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Obtain the direct solver associated to the eigensolver.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getDimensions" class="summary-sig-name">getDimensions</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the number of eigenvalues to compute and the dimension of
+the subspace.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getEigenpair" class="summary-sig-name">getEigenpair</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">int i</span>,
+        <span class="summary-sig-arg">Vec Vr</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">Vec Vi</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Gets the i-th solution of the eigenproblem as computed by
+`solve()`.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getEigenvalue" class="summary-sig-name">getEigenvalue</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">int i</span>)</span><br />
+      Gets the i-th eigenvalue as computed by `solve()`.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getEigenvector" class="summary-sig-name">getEigenvector</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">int i</span>,
+        <span class="summary-sig-arg">Vec Vr</span>,
+        <span class="summary-sig-arg">Vec Vi</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Gets the i-th eigenvector as computed by `solve()`.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getErrorEstimate" class="summary-sig-name">getErrorEstimate</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">int i</span>)</span><br />
+      Returns the error estimate associated to the i-th computed
+eigenpair.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getExtraction" class="summary-sig-name">getExtraction</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the extraction type used by the EPS object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getInterval" class="summary-sig-name">getInterval</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the computational interval for spectrum slicing.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getInvariantSubspace" class="summary-sig-name">getInvariantSubspace</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets an orthonormal basis of the computed invariant subspace.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getIterationNumber" class="summary-sig-name">getIterationNumber</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the current iteration number.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getKrylovSchurDetectZeros" class="summary-sig-name">getKrylovSchurDetectZeros</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the flag that enforces zero detection in spectrum slicing.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getKrylovSchurDimensions" class="summary-sig-name">getKrylovSchurDimensions</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the dimensions used for each subsolve step in case of doing
+spectrum slicing for a computational interval.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getKrylovSchurLocking" class="summary-sig-name">getKrylovSchurLocking</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the locking flag used in the Krylov-Schur method.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getKrylovSchurPartitions" class="summary-sig-name">getKrylovSchurPartitions</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the number of partitions of the communicator in case of
+spectrum slicing.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getKrylovSchurRestart" class="summary-sig-name">getKrylovSchurRestart</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the restart parameter used in the Krylov-Schur method.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getKrylovSchurSubcommInfo" class="summary-sig-name">getKrylovSchurSubcommInfo</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets information related to the case of doing spectrum slicing
+for a computational interval with multiple communicators.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getKrylovSchurSubcommMats" class="summary-sig-name">getKrylovSchurSubcommMats</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the eigenproblem matrices stored internally in the subcommunicator
+to which the calling process belongs.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getKrylovSchurSubcommPairs" class="summary-sig-name">getKrylovSchurSubcommPairs</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">int i</span>,
+        <span class="summary-sig-arg">Vec V</span>)</span><br />
+      Gets the i-th eigenpair stored internally in the multi-communicator
+to which the calling process belongs.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getLanczosReorthogType" class="summary-sig-name">getLanczosReorthogType</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the type of reorthogonalization used during the Lanczos
+iteration.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getLeftEigenvector" class="summary-sig-name">getLeftEigenvector</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">int i</span>,
+        <span class="summary-sig-arg">Vec Wr</span>,
+        <span class="summary-sig-arg">Vec Wi</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Gets the i-th left eigenvector as computed by `solve()`.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="getMonitor"></a><span class="summary-sig-name">getMonitor</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the list of monitor functions.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getOperators" class="summary-sig-name">getOperators</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the matrices associated with the eigenvalue problem.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getOptionsPrefix" class="summary-sig-name">getOptionsPrefix</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the prefix used for searching for all EPS options in the
+database.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getPowerShiftType" class="summary-sig-name">getPowerShiftType</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the type of shifts used during the power iteration.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getProblemType" class="summary-sig-name">getProblemType</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the problem type from the EPS object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getRG" class="summary-sig-name">getRG</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Obtain the region object associated to the eigensolver.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getRQCGReset" class="summary-sig-name">getRQCGReset</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the reset parameter used in the RQCG method.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getST" class="summary-sig-name">getST</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Obtain the spectral transformation (`ST`) object associated to
+the eigensolver object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getTarget" class="summary-sig-name">getTarget</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the value of the target.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getTolerances" class="summary-sig-name">getTolerances</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the tolerance and maximum iteration count used by the
+default EPS convergence tests.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getTrackAll" class="summary-sig-name">getTrackAll</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the flag indicating whether all residual norms must be
+computed or not.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getTrueResidual" class="summary-sig-name">getTrueResidual</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the flag indicating whether true residual must be
+computed explicitly or not.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getTwoSided" class="summary-sig-name">getTwoSided</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the flag indicating whether a two-sided variant
+of the algorithm is being used or not.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getType" class="summary-sig-name">getType</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Gets the EPS type of this object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#getWhichEigenpairs" class="summary-sig-name">getWhichEigenpairs</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns which portion of the spectrum is to be sought.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#isGeneralized" class="summary-sig-name">isGeneralized</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Tells whether the EPS object corresponds to a generalized
+eigenvalue problem.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#isHermitian" class="summary-sig-name">isHermitian</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Tells whether the EPS object corresponds to a Hermitian
+eigenvalue problem.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#isPositive" class="summary-sig-name">isPositive</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Tells whether the EPS object corresponds to an eigenvalue problem
+type that requires a positive (semi-) definite matrix B.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="reset"></a><span class="summary-sig-name">reset</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Resets the EPS object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setArnoldiDelayed" class="summary-sig-name">setArnoldiDelayed</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">delayed</span>)</span><br />
+      Activates or deactivates delayed reorthogonalization in the
+Arnoldi iteration.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setBV" class="summary-sig-name">setBV</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">BV bv</span>)</span><br />
+      Associates a basis vectors object to the eigensolver.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setBalance" class="summary-sig-name">setBalance</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">balance</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">iterations</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">cutoff</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Specifies the balancing technique to be employed by the
+eigensolver, and some parameters associated to it.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setConvergenceTest" class="summary-sig-name">setConvergenceTest</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">conv</span>)</span><br />
+      Specifies how to compute the error estimate 
+used in the convergence test.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setDS" class="summary-sig-name">setDS</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">DS ds</span>)</span><br />
+      Associates a direct solver object to the eigensolver.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setDeflationSpace" class="summary-sig-name">setDeflationSpace</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">space</span>)</span><br />
+      Add vectors to the basis of the deflation space.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setDimensions" class="summary-sig-name">setDimensions</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">nev</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">ncv</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">mpd</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Sets the number of eigenvalues to compute and the dimension of
+the subspace.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setExtraction" class="summary-sig-name">setExtraction</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">extraction</span>)</span><br />
+      Sets the extraction type used by the EPS object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setFromOptions" class="summary-sig-name">setFromOptions</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Sets EPS options from the options database.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setInitialSpace" class="summary-sig-name">setInitialSpace</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">space</span>)</span><br />
+      Sets the initial space from which the eigensolver starts to
+iterate.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setInterval" class="summary-sig-name">setInterval</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">inta</span>,
+        <span class="summary-sig-arg">intb</span>)</span><br />
+      Defines the computational interval for spectrum slicing.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setKrylovSchurDetectZeros" class="summary-sig-name">setKrylovSchurDetectZeros</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">detect</span>)</span><br />
+      Sets a flag to enforce detection of zeros during the factorizations
+throughout the spectrum slicing computation.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setKrylovSchurDimensions" class="summary-sig-name">setKrylovSchurDimensions</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">nev</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">ncv</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">mpd</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Sets the dimensions used for each subsolve step in case of doing
+spectrum slicing for a computational interval.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setKrylovSchurLocking" class="summary-sig-name">setKrylovSchurLocking</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">lock</span>)</span><br />
+      Choose between locking and non-locking variants of the
+Krylov-Schur method.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setKrylovSchurPartitions" class="summary-sig-name">setKrylovSchurPartitions</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">npart</span>)</span><br />
+      Sets the number of partitions for the case of doing spectrum
+slicing for a computational interval with the communicator split
+in several sub-communicators.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setKrylovSchurRestart" class="summary-sig-name">setKrylovSchurRestart</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">keep</span>)</span><br />
+      Sets the restart parameter for the Krylov-Schur method, in
+particular the proportion of basis vectors that must be kept
+after restart.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setKrylovSchurSubintervals" class="summary-sig-name">setKrylovSchurSubintervals</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">subint</span>)</span><br />
+      Sets the subinterval boundaries for spectrum slicing with a computational interval.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setLanczosReorthogType" class="summary-sig-name">setLanczosReorthogType</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">reorthog</span>)</span><br />
+      Sets the type of reorthogonalization used during the Lanczos
+iteration.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="setMonitor"></a><span class="summary-sig-name">setMonitor</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">monitor</span>,
+        <span class="summary-sig-arg">args</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">kargs</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Appends a monitor function to the list of monitors.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setOperators" class="summary-sig-name">setOperators</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">Mat A</span>,
+        <span class="summary-sig-arg">Mat B</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Sets the matrices associated with the eigenvalue problem.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setOptionsPrefix" class="summary-sig-name">setOptionsPrefix</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">prefix</span>)</span><br />
+      Sets the prefix used for searching for all EPS options in the
+database.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setPowerShiftType" class="summary-sig-name">setPowerShiftType</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">shift</span>)</span><br />
+      Sets the type of shifts used during the power iteration.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setProblemType" class="summary-sig-name">setProblemType</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">problem_type</span>)</span><br />
+      Specifies the type of the eigenvalue problem.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setRG" class="summary-sig-name">setRG</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">RG rg</span>)</span><br />
+      Associates a region object to the eigensolver.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setRQCGReset" class="summary-sig-name">setRQCGReset</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">nrest</span>)</span><br />
+      Sets the reset parameter of the RQCG iteration.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setST" class="summary-sig-name">setST</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">ST st</span>)</span><br />
+      Associates a spectral transformation object to the
+eigensolver.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="setStoppingTest"></a><span class="summary-sig-name">setStoppingTest</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">stopping</span>,
+        <span class="summary-sig-arg">args</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">kargs</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Sets a function to decide when to stop the outer iteration of the eigensolver.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setTarget" class="summary-sig-name">setTarget</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">target</span>)</span><br />
+      Sets the value of the target.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setTolerances" class="summary-sig-name">setTolerances</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">tol</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">max_it</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Sets the tolerance and maximum iteration count used by the
+default EPS convergence tests.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setTrackAll" class="summary-sig-name">setTrackAll</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">trackall</span>)</span><br />
+      Specifies if the solver must compute the residual of all
+approximate eigenpairs or not.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setTrueResidual" class="summary-sig-name">setTrueResidual</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">trueres</span>)</span><br />
+      Specifies if the solver must compute the true residual 
+explicitly or not.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setTwoSided" class="summary-sig-name">setTwoSided</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">twosided</span>)</span><br />
+      Sets the solver to use a two-sided variant so that left
+eigenvectors are also computed.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setType" class="summary-sig-name">setType</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">eps_type</span>)</span><br />
+      Selects the particular solver to be used in the EPS object.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setUp" class="summary-sig-name">setUp</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Sets up all the internal data structures necessary for the
+execution of the eigensolver.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#setWhichEigenpairs" class="summary-sig-name">setWhichEigenpairs</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">which</span>)</span><br />
+      Specifies which portion of the spectrum is to be sought.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="solve"></a><span class="summary-sig-name">solve</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Solves the eigensystem.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#updateKrylovSchurSubcommMats" class="summary-sig-name">updateKrylovSchurSubcommMats</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">s</span>=<span class="summary-sig-default">1.0</span>,
+        <span class="summary-sig-arg">a</span>=<span class="summary-sig-default">1.0</span>,
+        <span class="summary-sig-arg">Mat Au</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">t</span>=<span class="summary-sig-default">1.0</span>,
+        <span class="summary-sig-arg">b</span>=<span class="summary-sig-default">1.0</span>,
+        <span class="summary-sig-arg">Mat Bu</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">structure</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">globalup</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Update the eigenproblem matrices stored internally in the
+subcommunicator to which the calling process belongs.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="slepc4py.SLEPc.EPS-class.html#view" class="summary-sig-name">view</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">Viewer viewer</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Prints the EPS data structure.</td>
+          <td align="right" valign="top">
+            
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>petsc4py.PETSc.Object</code></b>:
+      <code>__copy__</code>,
+      <code>__deepcopy__</code>,
+      <code>__eq__</code>,
+      <code>__ge__</code>,
+      <code>__gt__</code>,
+      <code>__le__</code>,
+      <code>__lt__</code>,
+      <code>__ne__</code>,
+      <code>__nonzero__</code>,
+      <code>compose</code>,
+      <code>decRef</code>,
+      <code>getAttr</code>,
+      <code>getClassId</code>,
+      <code>getClassName</code>,
+      <code>getComm</code>,
+      <code>getDict</code>,
+      <code>getName</code>,
+      <code>getRefCount</code>,
+      <code>getTabLevel</code>,
+      <code>incRef</code>,
+      <code>incrementTabLevel</code>,
+      <code>query</code>,
+      <code>setAttr</code>,
+      <code>setName</code>,
+      <code>setTabLevel</code>,
+      <code>stateIncrease</code>,
+      <code>viewFromOptions</code>
+      </p>
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__getattribute__</code>,
+      <code>__hash__</code>,
+      <code>__init__</code>,
+      <code>__reduce__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__repr__</code>,
+      <code>__setattr__</code>,
+      <code>__sizeof__</code>,
+      <code>__str__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="bv"></a><span class="summary-name">bv</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="extraction"></a><span class="summary-name">extraction</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="max_it"></a><span class="summary-name">max_it</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="problem_type"></a><span class="summary-name">problem_type</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="st"></a><span class="summary-name">st</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="target"></a><span class="summary-name">target</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="tol"></a><span class="summary-name">tol</span>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="which"></a><span class="summary-name">which</span>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>petsc4py.PETSc.Object</code></b>:
+      <code>classid</code>,
+      <code>comm</code>,
+      <code>fortran</code>,
+      <code>handle</code>,
+      <code>klass</code>,
+      <code>name</code>,
+      <code>prefix</code>,
+      <code>refcount</code>,
+      <code>type</code>
+      </p>
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__new__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__new__</span>(<span class="sig-arg">S</span>,
+        <span class="sig-arg">...</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+
+</pre>
+  <dl class="fields">
+    <dt>Returns: <pre class="literalblock">
+a new object with type S, a subtype of T
+
+</pre></dt>
+    <dt>Overrides:
+        object.__new__
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="appendOptionsPrefix"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">appendOptionsPrefix</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">prefix</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Appends to the prefix used for searching for all EPS options
+in the database.
+
+Parameters
+----------
+prefix: string
+        The prefix string to prepend to all EPS option requests.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="computeError"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">computeError</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">int i</span>,
+        <span class="sig-arg">etype</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Computes the error (based on the residual norm) associated with the i-th
+computed eigenpair.
+
+Parameters
+----------
+i: int
+   Index of the solution to be considered.
+etype: `EPS.ErrorType` enumerate
+   The error type to compute.
+
+Returns
+-------
+e: real
+   The error bound, computed in various ways from the residual norm
+   ``||Ax-kBx||_2`` where ``k`` is the eigenvalue and
+   ``x`` is the eigenvector.
+
+Notes
+-----
+The index ``i`` should be a value between ``0`` and
+``nconv-1`` (see `getConverged()`).
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="create"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">create</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">comm</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Creates the EPS object.
+
+Parameters
+----------
+comm: MPI_Comm, optional
+      MPI communicator; if not provided, it defaults to all
+      processes.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="destroy"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">destroy</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Destroys the EPS object.
+
+</pre>
+  <dl class="fields">
+    <dt>Overrides:
+        petsc4py.PETSc.Object.destroy
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="errorView"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">errorView</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">etype</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">Viewer viewer</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Displays the errors associated with the computed solution
+(as well as the eigenvalues).
+
+Parameters
+----------
+etype: `EPS.ErrorType` enumerate, optional
+   The error type to compute.
+viewer: Viewer, optional.
+        Visualization context; if not provided, the standard
+        output is used.
+
+Notes
+-----
+By default, this function checks the error of all eigenpairs and prints
+the eigenvalues if all of them are below the requested tolerance.
+If the viewer has format ``ASCII_INFO_DETAIL`` then a table with
+eigenvalues and corresponding errors is printed.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getArnoldiDelayed"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getArnoldiDelayed</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the type of reorthogonalization used during the Arnoldi
+iteration.
+
+Returns
+-------
+delayed: boolean
+         True if delayed reorthogonalization is to be used.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getBV"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getBV</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Obtain the basis vector objects associated to the eigensolver.
+
+Returns
+-------
+bv: BV
+    The basis vectors context.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getBalance"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getBalance</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the balancing type used by the EPS object,
+and the associated parameters.
+
+Returns
+-------
+balance: `EPS.Balance` enumerate
+         The balancing method
+iterations: integer
+            Number of iterations of the balancing algorithm
+cutoff: real
+        Cutoff value
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getConverged"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getConverged</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the number of converged eigenpairs.
+
+Returns
+-------
+nconv: int
+       Number of converged eigenpairs.
+
+Notes
+-----
+This function should be called after `solve()` has finished.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getConvergedReason"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getConvergedReason</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the reason why the `solve()` iteration was stopped.
+
+Returns
+-------
+reason: `EPS.ConvergedReason` enumerate
+        Negative value indicates diverged, positive value
+        converged.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getConvergenceTest"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getConvergenceTest</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Return the method used to compute the error estimate 
+used in the convergence test. 
+
+Returns
+-------
+conv: EPS.Conv
+    The method used to compute the error estimate 
+    used in the convergence test. 
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getDS"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getDS</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Obtain the direct solver associated to the eigensolver.
+
+Returns
+-------
+ds: DS
+    The direct solver context.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getDimensions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getDimensions</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the number of eigenvalues to compute and the dimension of
+the subspace.
+
+Returns
+-------
+nev: int
+     Number of eigenvalues to compute.
+ncv: int
+     Maximum dimension of the subspace to be used by the
+     solver.
+mpd: int
+     Maximum dimension allowed for the projected problem.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getEigenpair"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getEigenpair</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">int i</span>,
+        <span class="sig-arg">Vec Vr</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">Vec Vi</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the i-th solution of the eigenproblem as computed by
+`solve()`.  The solution consists of both the eigenvalue and
+the eigenvector.
+
+Parameters
+----------
+i: int
+   Index of the solution to be obtained.
+Vr: Vec
+    Placeholder for the returned eigenvector (real part).
+Vi: Vec
+    Placeholder for the returned eigenvector (imaginary part).
+
+Returns
+-------
+e: scalar (possibly complex)
+   The computed eigenvalue.
+
+Notes
+-----
+The index ``i`` should be a value between ``0`` and
+``nconv-1`` (see `getConverged()`). Eigenpairs are indexed
+according to the ordering criterion established with
+`setWhichEigenpairs()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getEigenvalue"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getEigenvalue</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">int i</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the i-th eigenvalue as computed by `solve()`.
+
+Parameters
+----------
+i: int
+   Index of the solution to be obtained.
+
+Returns
+-------
+e: scalar (possibly complex)
+   The computed eigenvalue.
+
+Notes
+-----
+The index ``i`` should be a value between ``0`` and
+``nconv-1`` (see `getConverged()`). Eigenpairs are indexed
+according to the ordering criterion established with
+`setWhichEigenpairs()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getEigenvector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getEigenvector</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">int i</span>,
+        <span class="sig-arg">Vec Vr</span>,
+        <span class="sig-arg">Vec Vi</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the i-th eigenvector as computed by `solve()`.
+
+Parameters
+----------
+i: int
+   Index of the solution to be obtained.
+Vr: Vec
+    Placeholder for the returned eigenvector (real part).
+Vi: Vec, optional
+    Placeholder for the returned eigenvector (imaginary part).
+
+Notes
+-----
+The index ``i`` should be a value between ``0`` and
+``nconv-1`` (see `getConverged()`). Eigenpairs are indexed
+according to the ordering criterion established with
+`setWhichEigenpairs()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getErrorEstimate"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getErrorEstimate</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">int i</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Returns the error estimate associated to the i-th computed
+eigenpair.
+
+Parameters
+----------
+i: int
+   Index of the solution to be considered.
+
+Returns
+-------
+e: real
+   Error estimate.
+
+Notes
+-----
+This is the error estimate used internally by the
+eigensolver. The actual error bound can be computed with
+`computeError()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getExtraction"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getExtraction</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the extraction type used by the EPS object.
+
+Returns
+-------
+extraction: `EPS.Extraction` enumerate
+            The method of extraction.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getInterval"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getInterval</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the computational interval for spectrum slicing.
+
+Returns
+-------
+inta: float
+        The left end of the interval.
+intb: float
+        The right end of the interval.
+
+Notes
+-----
+If the interval was not set by the user, then zeros are returned.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getInvariantSubspace"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getInvariantSubspace</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets an orthonormal basis of the computed invariant subspace.
+
+Returns
+-------
+subspace: list of Vec
+   Basis of the invariant subspace.
+
+Notes
+-----
+This function should be called after `solve()` has finished.
+
+The returned vectors span an invariant subspace associated
+with the computed eigenvalues. An invariant subspace ``X`` of
+``A` satisfies ``A x`` in ``X`` for all ``x`` in ``X`` (a
+similar definition applies for generalized eigenproblems).
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getIterationNumber"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getIterationNumber</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the current iteration number. If the call to `solve()` is
+complete, then it returns the number of iterations carried out
+by the solution method.
+
+Returns
+-------
+its: int
+     Iteration number.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getKrylovSchurDetectZeros"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getKrylovSchurDetectZeros</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the flag that enforces zero detection in spectrum slicing.
+
+Returns
+-------
+detect: bool
+      The zero detection flag.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getKrylovSchurDimensions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getKrylovSchurDimensions</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the dimensions used for each subsolve step in case of doing
+spectrum slicing for a computational interval.
+
+Returns
+-------
+nev: int
+     Number of eigenvalues to compute.
+ncv: int
+     Maximum dimension of the subspace to be used by the solver.
+mpd: int
+     Maximum dimension allowed for the projected problem.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getKrylovSchurLocking"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getKrylovSchurLocking</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the locking flag used in the Krylov-Schur method.
+
+Returns
+-------
+lock: bool
+      The locking flag.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getKrylovSchurPartitions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getKrylovSchurPartitions</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the number of partitions of the communicator in case of
+spectrum slicing.
+
+Returns
+-------
+npart: int
+      The number of partitions.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getKrylovSchurRestart"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getKrylovSchurRestart</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the restart parameter used in the Krylov-Schur method.
+
+Returns
+-------
+keep: float
+      The number of vectors to be kept at restart.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getKrylovSchurSubcommInfo"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getKrylovSchurSubcommInfo</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets information related to the case of doing spectrum slicing
+for a computational interval with multiple communicators.
+
+Returns
+-------
+k: int
+     Number of the subinterval for the calling process.
+n: int
+     Number of eigenvalues found in the k-th subinterval.
+v: Vec
+     A vector owned by processes in the subcommunicator with dimensions
+     compatible for locally computed eigenvectors.
+
+Notes
+-----
+This function is only available for spectrum slicing runs.
+
+The returned Vec should be destroyed by the user.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getKrylovSchurSubcommMats"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getKrylovSchurSubcommMats</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the eigenproblem matrices stored internally in the subcommunicator
+to which the calling process belongs.
+
+Returns
+-------
+A: Mat
+   The matrix associated with the eigensystem.
+B: Mat
+   The second matrix in the case of generalized eigenproblems.
+
+Notes
+-----
+This is the analog of `getOperators()`, but returns the matrices distributed
+differently (in the subcommunicator rather than in the parent communicator).
+
+These matrices should not be modified by the user.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getKrylovSchurSubcommPairs"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getKrylovSchurSubcommPairs</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">int i</span>,
+        <span class="sig-arg">Vec V</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the i-th eigenpair stored internally in the multi-communicator
+to which the calling process belongs.
+
+Parameters
+----------
+i: int
+   Index of the solution to be obtained.
+V: Vec
+   Placeholder for the returned eigenvector.
+
+Returns
+-------
+e: scalar
+   The computed eigenvalue.
+
+Notes
+-----
+The index ``i`` should be a value between ``0`` and ``n-1``,
+where ``n`` is the number of vectors in the local subinterval,
+see `getKrylovSchurSubcommInfo()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getLanczosReorthogType"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getLanczosReorthogType</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the type of reorthogonalization used during the Lanczos
+iteration.
+
+Returns
+-------
+reorthog: `EPS.LanczosReorthogType` enumerate
+          The type of reorthogonalization.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getLeftEigenvector"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getLeftEigenvector</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">int i</span>,
+        <span class="sig-arg">Vec Wr</span>,
+        <span class="sig-arg">Vec Wi</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the i-th left eigenvector as computed by `solve()`.
+
+Parameters
+----------
+i: int
+   Index of the solution to be obtained.
+Wr: Vec
+    Placeholder for the returned eigenvector (real part).
+Wi: Vec, optional
+    Placeholder for the returned eigenvector (imaginary part).
+
+Notes
+-----
+The index ``i`` should be a value between ``0`` and
+``nconv-1`` (see `getConverged()`). Eigensolutions are indexed
+according to the ordering criterion established with
+`setWhichEigenpairs()`.
+
+Left eigenvectors are available only if the twosided flag was set
+with `setTwoSided()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getOperators"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getOperators</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the matrices associated with the eigenvalue problem.
+
+Returns
+-------
+A: Mat
+   The matrix associated with the eigensystem.
+B: Mat
+   The second matrix in the case of generalized eigenproblems.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getOptionsPrefix"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getOptionsPrefix</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the prefix used for searching for all EPS options in the
+database.
+
+Returns
+-------
+prefix: string
+        The prefix string set for this EPS object.
+
+</pre>
+  <dl class="fields">
+    <dt>Overrides:
+        petsc4py.PETSc.Object.getOptionsPrefix
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getPowerShiftType"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getPowerShiftType</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the type of shifts used during the power iteration.
+
+Returns
+-------
+shift: `EPS.PowerShiftType` enumerate
+       The type of shift.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getProblemType"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getProblemType</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the problem type from the EPS object.
+
+Returns
+-------
+problem_type: `EPS.ProblemType` enumerate
+              The problem type that was previously set.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getRG"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getRG</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Obtain the region object associated to the eigensolver.
+
+Returns
+-------
+rg: RG
+    The region context.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getRQCGReset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getRQCGReset</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the reset parameter used in the RQCG method.
+
+Returns
+-------
+nrest: integer
+       The number of iterations between resets.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getST"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getST</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Obtain the spectral transformation (`ST`) object associated to
+the eigensolver object.
+
+Returns
+-------
+st: ST
+    The spectral transformation.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getTarget"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getTarget</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the value of the target.
+
+Returns
+-------
+target: float (real or complex)
+        The value of the target.
+
+Notes
+-----
+If the target was not set by the user, then zero is returned.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getTolerances"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getTolerances</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the tolerance and maximum iteration count used by the
+default EPS convergence tests.
+
+Returns
+-------
+tol: float
+     The convergence tolerance.
+max_it: int
+     The maximum number of iterations
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getTrackAll"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getTrackAll</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Returns the flag indicating whether all residual norms must be
+computed or not.
+
+Returns
+-------
+trackall: bool
+    Whether the solver compute all residuals or not.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getTrueResidual"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getTrueResidual</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Returns the flag indicating whether true residual must be
+computed explicitly or not.
+
+Returns
+-------
+trueres: bool
+    Whether the solver compute all residuals or not.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getTwoSided"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getTwoSided</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Returns the flag indicating whether a two-sided variant
+of the algorithm is being used or not.
+
+Returns
+-------
+twosided: bool
+    Whether the two-sided variant is to be used or not.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="getType"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getType</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Gets the EPS type of this object.
+
+Returns
+-------
+type: `EPS.Type` enumerate
+      The solver currently being used.
+
+</pre>
+  <dl class="fields">
+    <dt>Overrides:
+        petsc4py.PETSc.Object.getType
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="getWhichEigenpairs"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">getWhichEigenpairs</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Returns which portion of the spectrum is to be sought.
+
+Returns
+-------
+which: `EPS.Which` enumerate
+       The portion of the spectrum to be sought by the solver.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="isGeneralized"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">isGeneralized</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Tells whether the EPS object corresponds to a generalized
+eigenvalue problem.
+
+Returns
+-------
+flag: boolean
+      True if two matrices were set with `setOperators()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="isHermitian"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">isHermitian</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Tells whether the EPS object corresponds to a Hermitian
+eigenvalue problem.
+
+Returns
+-------
+flag: boolean
+      True if the problem type set with `setProblemType()` was
+      Hermitian.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="isPositive"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">isPositive</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Tells whether the EPS object corresponds to an eigenvalue problem
+type that requires a positive (semi-) definite matrix B.
+
+Returns
+-------
+flag: boolean
+      True if the problem type set with `setProblemType()` was
+      positive.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setArnoldiDelayed"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setArnoldiDelayed</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">delayed</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Activates or deactivates delayed reorthogonalization in the
+Arnoldi iteration.
+
+Parameters
+----------
+delayed: boolean
+         True if delayed reorthogonalization is to be used.
+
+Notes
+-----
+This call is only relevant if the type was set to
+`EPS.Type.ARNOLDI` with `setType()`.
+
+Delayed reorthogonalization is an aggressive optimization for
+the Arnoldi eigensolver than may provide better scalability,
+but sometimes makes the solver converge less than the default
+algorithm.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setBV"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setBV</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">BV bv</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Associates a basis vectors object to the eigensolver.
+
+Parameters
+----------
+bv: BV
+    The basis vectors context.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setBalance"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setBalance</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">balance</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">iterations</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">cutoff</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Specifies the balancing technique to be employed by the
+eigensolver, and some parameters associated to it.
+
+Parameters
+----------
+balance: `EPS.Balance` enumerate
+         The balancing method
+iterations: integer
+            Number of iterations of the balancing algorithm
+cutoff: real
+        Cutoff value
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setConvergenceTest"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setConvergenceTest</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">conv</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Specifies how to compute the error estimate 
+used in the convergence test. 
+
+Parameters
+----------
+conv: EPS.Conv
+    The method used to compute the error estimate 
+    used in the convergence test.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setDS"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setDS</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">DS ds</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Associates a direct solver object to the eigensolver.
+
+Parameters
+----------
+ds: DS
+    The direct solver context.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setDeflationSpace"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setDeflationSpace</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">space</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Add vectors to the basis of the deflation space.
+
+Parameters
+----------
+space: a Vec or an array of Vec
+       Set of basis vectors to be added to the deflation
+       space.
+
+Notes
+-----
+When a deflation space is given, the eigensolver seeks the
+eigensolution in the restriction of the problem to the
+orthogonal complement of this space. This can be used for
+instance in the case that an invariant subspace is known
+beforehand (such as the nullspace of the matrix).
+
+The vectors do not need to be mutually orthonormal, since they
+are explicitly orthonormalized internally.
+
+These vectors do not persist from one `solve()` call to the other,
+so the deflation space should be set every time.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setDimensions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setDimensions</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">nev</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">ncv</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">mpd</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the number of eigenvalues to compute and the dimension of
+the subspace.
+
+Parameters
+----------
+nev: int, optional
+     Number of eigenvalues to compute.
+ncv: int, optional
+     Maximum dimension of the subspace to be used by the
+     solver.
+mpd: int, optional
+     Maximum dimension allowed for the projected problem.
+
+Notes
+-----
+Use `DECIDE` for `ncv` and `mpd` to assign a reasonably good
+value, which is dependent on the solution method.
+
+The parameters `ncv` and `mpd` are intimately related, so that
+the user is advised to set one of them at most. Normal usage
+is the following:
+
++ In cases where `nev` is small, the user sets `ncv`
+  (a reasonable default is 2 * `nev`).
+
++ In cases where `nev` is large, the user sets `mpd`.
+
+The value of `ncv` should always be between `nev` and (`nev` +
+`mpd`), typically `ncv` = `nev` + `mpd`. If `nev` is not too
+large, `mpd` = `nev` is a reasonable choice, otherwise a
+smaller value should be used.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setExtraction"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setExtraction</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">extraction</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the extraction type used by the EPS object.
+
+Parameters
+----------
+extraction: `EPS.Extraction` enumerate
+            The extraction method to be used by the solver.
+
+Notes
+-----
+Not all eigensolvers support all types of extraction. See the
+SLEPc documentation for details.
+
+By default, a standard Rayleigh-Ritz extraction is used. Other
+extractions may be useful when computing interior eigenvalues.
+
+Harmonic-type extractions are used in combination with a
+*target*. See `setTarget()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setFromOptions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setFromOptions</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets EPS options from the options database. This routine must
+be called before `setUp()` if the user is to be allowed to set
+the solver type.
+
+Notes
+-----
+To see all options, run your program with the ``-help``
+option.
+
+</pre>
+  <dl class="fields">
+    <dt>Overrides:
+        petsc4py.PETSc.Object.setFromOptions
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="setInitialSpace"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setInitialSpace</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">space</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the initial space from which the eigensolver starts to
+iterate.
+
+Parameters
+----------
+space: Vec or sequence of Vec
+   The initial space
+
+Notes
+-----
+Some solvers start to iterate on a single vector (initial vector).
+In that case, the other vectors are ignored.
+
+In contrast to `setDeflationSpace()`, these vectors do not persist
+from one `solve()` call to the other, so the initial space should be
+set every time.
+
+The vectors do not need to be mutually orthonormal, since they are
+explicitly orthonormalized internally.
+
+Common usage of this function is when the user can provide a rough
+approximation of the wanted eigenspace. Then, convergence may be faster.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setInterval"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setInterval</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">inta</span>,
+        <span class="sig-arg">intb</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Defines the computational interval for spectrum slicing.
+
+Parameters
+----------
+inta: float
+        The left end of the interval.
+intb: float
+        The right end of the interval.
+
+Notes
+-----
+Spectrum slicing is a technique employed for computing all
+eigenvalues of symmetric eigenproblems in a given interval.
+This function provides the interval to be considered. It must
+be used in combination with `EPS.Which.ALL`, see
+`setWhichEigenpairs()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setKrylovSchurDetectZeros"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setKrylovSchurDetectZeros</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">detect</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets a flag to enforce detection of zeros during the factorizations
+throughout the spectrum slicing computation.
+
+Parameters
+----------
+detect: bool
+      True if zeros must checked for.
+
+Notes
+-----
+A zero in the factorization indicates that a shift coincides with
+an eigenvalue.
+
+This flag is turned off by default, and may be necessary in some cases,
+especially when several partitions are being used. This feature currently
+requires an external package for factorizations with support for zero
+detection, e.g. MUMPS.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setKrylovSchurDimensions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setKrylovSchurDimensions</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">nev</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">ncv</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">mpd</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the dimensions used for each subsolve step in case of doing
+spectrum slicing for a computational interval. The meaning of the
+parameters is the same as in `setDimensions()`.
+
+Parameters
+----------
+nev: int, optional
+     Number of eigenvalues to compute.
+ncv: int, optional
+     Maximum dimension of the subspace to be used by the solver.
+mpd: int, optional
+     Maximum dimension allowed for the projected problem.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setKrylovSchurLocking"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setKrylovSchurLocking</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">lock</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Choose between locking and non-locking variants of the
+Krylov-Schur method.
+
+Parameters
+----------
+lock: bool
+      True if the locking variant must be selected.
+
+Notes
+-----
+The default is to lock converged eigenpairs when the method restarts.
+This behaviour can be changed so that all directions are kept in the
+working subspace even if already converged to working accuracy (the
+non-locking variant).
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setKrylovSchurPartitions"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setKrylovSchurPartitions</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">npart</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the number of partitions for the case of doing spectrum
+slicing for a computational interval with the communicator split
+in several sub-communicators.
+
+Parameters
+----------
+npart: int
+      The number of partitions.
+
+Notes
+-----
+By default, npart=1 so all processes in the communicator participate in
+the processing of the whole interval. If npart&gt;1 then the interval is
+divided into npart subintervals, each of them being processed by a
+subset of processes.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setKrylovSchurRestart"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setKrylovSchurRestart</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">keep</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the restart parameter for the Krylov-Schur method, in
+particular the proportion of basis vectors that must be kept
+after restart.
+
+Parameters
+----------
+keep: float
+      The number of vectors to be kept at restart.
+
+Notes
+-----
+Allowed values are in the range [0.1,0.9]. The default is 0.5.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setKrylovSchurSubintervals"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setKrylovSchurSubintervals</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">subint</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the subinterval boundaries for spectrum slicing with a computational interval.
+
+Parameters
+----------
+subint: list of real values specifying subintervals
+
+Notes
+-----
+Logically Collective on EPS
+This function must be called after setKrylovSchurPartitions(). 
+For npart partitions, the argument subint must contain npart+1 
+real values sorted in ascending order: 
+subint_0, subint_1, ..., subint_npart, 
+where the first and last values must coincide with the interval 
+endpoints set with EPSSetInterval().
+The subintervals are then defined by two consecutive points: 
+[subint_0,subint_1], [subint_1,subint_2], and so on.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setLanczosReorthogType"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setLanczosReorthogType</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">reorthog</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the type of reorthogonalization used during the Lanczos
+iteration.
+
+Parameters
+----------
+reorthog: `EPS.LanczosReorthogType` enumerate
+          The type of reorthogonalization.
+
+Notes
+-----
+This call is only relevant if the type was set to
+`EPS.Type.LANCZOS` with `setType()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setOperators"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setOperators</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">Mat A</span>,
+        <span class="sig-arg">Mat B</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the matrices associated with the eigenvalue problem.
+
+Parameters
+----------
+A: Mat
+   The matrix associated with the eigensystem.
+B: Mat, optional
+   The second matrix in the case of generalized eigenproblems;
+   if not provided, a standard eigenproblem is assumed.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setOptionsPrefix"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setOptionsPrefix</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">prefix</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the prefix used for searching for all EPS options in the
+database.
+
+Parameters
+----------
+prefix: string
+        The prefix string to prepend to all EPS option
+        requests.
+
+Notes
+-----
+A hyphen (-) must NOT be given at the beginning of the prefix
+name.  The first character of all runtime options is
+AUTOMATICALLY the hyphen.
+
+For example, to distinguish between the runtime options for
+two different EPS contexts, one could call::
+
+    E1.setOptionsPrefix(&quot;eig1_&quot;)
+    E2.setOptionsPrefix(&quot;eig2_&quot;)
+
+</pre>
+  <dl class="fields">
+    <dt>Overrides:
+        petsc4py.PETSc.Object.setOptionsPrefix
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="setPowerShiftType"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setPowerShiftType</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">shift</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the type of shifts used during the power iteration. This
+can be used to emulate the Rayleigh Quotient Iteration (RQI)
+method.
+
+Parameters
+----------
+shift: `EPS.PowerShiftType` enumerate
+       The type of shift.
+
+Notes
+-----
+This call is only relevant if the type was set to
+`EPS.Type.POWER` with `setType()`.
+
+By default, shifts are constant
+(`EPS.PowerShiftType.CONSTANT`) and the iteration is the
+simple power method (or inverse iteration if a
+shift-and-invert transformation is being used).
+
+A variable shift can be specified
+(`EPS.PowerShiftType.RAYLEIGH` or
+`EPS.PowerShiftType.WILKINSON`). In this case, the iteration
+behaves rather like a cubic converging method as RQI.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setProblemType"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setProblemType</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">problem_type</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Specifies the type of the eigenvalue problem.
+
+Parameters
+----------
+problem_type: `EPS.ProblemType` enumerate
+       The problem type to be set.
+
+Notes
+-----
+Allowed values are: Hermitian (HEP), non-Hermitian (NHEP),
+generalized Hermitian (GHEP), generalized non-Hermitian
+(GNHEP), and generalized non-Hermitian with positive
+semi-definite B (PGNHEP).
+
+This function must be used to instruct SLEPc to exploit
+symmetry. If no problem type is specified, by default a
+non-Hermitian problem is assumed (either standard or
+generalized). If the user knows that the problem is Hermitian
+(i.e. ``A=A^H``) or generalized Hermitian (i.e. ``A=A^H``,
+``B=B^H``, and ``B`` positive definite) then it is recommended
+to set the problem type so that eigensolver can exploit these
+properties.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setRG"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setRG</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">RG rg</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Associates a region object to the eigensolver.
+
+Parameters
+----------
+rg: RG
+    The region context.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setRQCGReset"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setRQCGReset</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">nrest</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the reset parameter of the RQCG iteration. Every nrest iterations,
+the solver performs a Rayleigh-Ritz projection step.
+
+Parameters
+----------
+nrest: integer
+       The number of iterations between resets.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setST"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setST</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">ST st</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Associates a spectral transformation object to the
+eigensolver.
+
+Parameters
+----------
+st: ST
+    The spectral transformation.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setTarget"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setTarget</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">target</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the value of the target.
+
+Parameters
+----------
+target: float (real or complex)
+        The value of the target.
+
+Notes
+-----
+The target is a scalar value used to determine the portion of
+the spectrum of interest. It is used in combination with
+`setWhichEigenpairs()`.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setTolerances"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setTolerances</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">tol</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">max_it</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the tolerance and maximum iteration count used by the
+default EPS convergence tests.
+
+Parameters
+----------
+tol: float, optional
+     The convergence tolerance.
+max_it: int, optional
+     The maximum number of iterations
+
+Notes
+-----
+Use `DECIDE` for maxits to assign a reasonably good value,
+which is dependent on the solution method.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setTrackAll"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setTrackAll</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">trackall</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Specifies if the solver must compute the residual of all
+approximate eigenpairs or not.
+
+Parameters
+----------
+trackall: bool
+    Whether compute all residuals or not.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setTrueResidual"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setTrueResidual</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">trueres</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Specifies if the solver must compute the true residual 
+explicitly or not.
+
+Parameters
+----------
+trueres: bool
+    Whether compute the true residual or not.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setTwoSided"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setTwoSided</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">twosided</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets the solver to use a two-sided variant so that left
+eigenvectors are also computed.
+
+Parameters
+----------
+twosided: bool
+    Whether the two-sided variant is to be used or not.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setType"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setType</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">eps_type</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Selects the particular solver to be used in the EPS object.
+
+Parameters
+----------
+eps_type: `EPS.Type` enumerate
+          The solver to be used.
+
+Notes
+-----
+See `EPS.Type` for available methods. The default is
+`EPS.Type.KRYLOVSCHUR`.  Normally, it is best to use
+`setFromOptions()` and then set the EPS type from the options
+database rather than by using this routine.  Using the options
+database provides the user with maximum flexibility in
+evaluating the different available methods.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setUp"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setUp</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Sets up all the internal data structures necessary for the
+execution of the eigensolver.
+
+Notes
+-----
+This function need not be called explicitly in most cases,
+since `solve()` calls it. It can be useful when one wants to
+measure the set-up time separately from the solve time.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="setWhichEigenpairs"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setWhichEigenpairs</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">which</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Specifies which portion of the spectrum is to be sought.
+
+Parameters
+----------
+which: `EPS.Which` enumerate
+       The portion of the spectrum to be sought by the solver.
+
+Notes
+-----
+Not all eigensolvers implemented in EPS account for all the
+possible values. Also, some values make sense only for certain
+types of problems. If SLEPc is compiled for real numbers
+`EPS.Which.LARGEST_IMAGINARY` and
+`EPS.Which.SMALLEST_IMAGINARY` use the absolute value of the
+imaginary part for eigenvalue selection.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="updateKrylovSchurSubcommMats"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">updateKrylovSchurSubcommMats</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">s</span>=<span class="sig-default">1.0</span>,
+        <span class="sig-arg">a</span>=<span class="sig-default">1.0</span>,
+        <span class="sig-arg">Mat Au</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">t</span>=<span class="sig-default">1.0</span>,
+        <span class="sig-arg">b</span>=<span class="sig-default">1.0</span>,
+        <span class="sig-arg">Mat Bu</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">structure</span>=<span class="sig-default">None</span>,
+        <span class="sig-arg">globalup</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Update the eigenproblem matrices stored internally in the
+subcommunicator to which the calling process belongs.
+
+Parameters
+----------
+s: float (real or complex)
+   Scalar that multiplies the existing A matrix.
+a: float (real or complex)
+   Scalar used in the axpy operation on A.
+Au: Mat, optional
+   The matrix used in the axpy operation on A.
+t: float (real or complex)
+   Scalar that multiplies the existing B matrix.
+b: float (real or complex)
+   Scalar used in the axpy operation on B.
+Bu: Mat, optional
+   The matrix used in the axpy operation on B.
+structure: `PETSc.Mat.Structure` enumerate
+   Either same, different, or a subset of the non-zero sparsity pattern.
+globalup: bool
+   Whether global matrices must be updated or not.
+
+Notes
+-----
+This function modifies the eigenproblem matrices at
+subcommunicator level, and optionally updates the global
+matrices in the parent communicator.  The updates are
+expressed as ``A &lt;-- s*A + a*Au``, ``B &lt;-- t*B + b*Bu``.
+
+It is possible to update one of the matrices, or both.
+
+The matrices `Au` and `Bu` must be equal in all subcommunicators.
+
+The `structure` flag is passed to the `PETSc.Mat.axpy()` operations
+to perform the updates.
+
+If `globalup` is True, communication is carried out to
+reconstruct the updated matrices in the parent communicator.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="view"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">view</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">Viewer viewer</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    >&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Prints the EPS data structure.
+
+Parameters
+----------
+viewer: Viewer, optional.
+        Visualization context; if not provided, the standard
+        output is used.
+
+</pre>
+  <dl class="fields">
+    <dt>Overrides:
+        petsc4py.PETSc.Object.view
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="slepc4py-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="https://gitlab.com/slepc/slepc4py">SLEPc for Python</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Wed Oct 14 09:49:44 2020
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
