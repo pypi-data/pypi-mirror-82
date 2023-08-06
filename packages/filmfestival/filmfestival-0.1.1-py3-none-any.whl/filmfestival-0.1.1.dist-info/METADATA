@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: filmfestival
+Version: 0.1.1
+Summary: An demonstration of how to create, document, and publish to the cheese shop a5 pypi.org.
+Home-page: https://gitlab.com/LetiziaMangano97/1assignment_provca/
+Author: Letizia Mangano
+Author-email: l.mangano1@campus.unimib.it
+License: BSD
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Requires-Dist: Flask (==1.1.2)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: google-cloud-firestore (==1.9.0)
+Requires-Dist: prospector (==1.3.0)
+Requires-Dist: bandit (==1.6.2)
+
+# 1st assignment - FilmFestival
+## WebServices
+L’applicazione creata è un web service scritto in Python3 per la ricerca di informazioni relative a film.  
+Il web service utilizza *Flask* come framework ed interagisce con un servizio open chiamato Omdb per reperire le informazioni relative ai film tramite chiamate REST.  
+Queste informazioni vengono in seguito salvate all’interno di documenti Firestore, un database noSQL a servizio che fa parte di un progetto Google Cloud.  
+E’ presente un’unica collection chiamata “FILM” che contiene solamente le seguenti informazioni di un film:
+- Titolo
+- Durata
+- Anno in cui è uscito il film
+- Genere
+- Una breve descrizione
+- Linguaggio
+- Nazione che l’ha prodotto
+- Regista
+- Premi
+
+Gli endpoints che il web service espone sono i seguenti:
+- */search/film*
+- */delete/title*
+- */query/title*  
+
+L’applicazione finale è rilasciata su una Virtual Machine in Google Compute Engine.
+
+## Pipeline
+Per fare in modo che l’applicazione venga automaticamente verificata è stata creata una pipeline CICD in modo che, a partire dal sorgente presente sul repository GitLab, vengano eseguiti i diversi step descritti di seguito:
+- Build
+- Verify
+- Unit Test
+- Integration Test
+- Package 
+- Release
+- Deploy
+
+Essendo l’applicazione sviluppata in Python, è stata aggiunto uno step *before_script* per poter creare ed attivare un virtual environment che, successivamente, verrà messo in cache per non scaricare ad ogni step tutti i pacchetti richiesti.
+
+#### Build
+La fase di build è composta dal download di tutti i pacchetti delle librerie richieste dall’applicazione.  
+Viene quindi effettuata l’installazione con PIP all’interno del virtual environment di tutte le librerie indicate all’interno del file *requirements.txt*.  
+Per ogni libreria, inoltre, è indicato un numero di versione uguale o maggiore uguale da garantire la compatibilità di quest’ultima.  
+Lo step di build avrà successo qualora tutte le librerie indicate all’interno del file dei requirements vengano scaricate ed installate correttamente.
+
+### Verify
+Il secondo step è quello della verifica del codice dell’applicazione.  
+Viene inizialmente effettuata una analisi statica del codice, utilizzando *prospector*; quest’ultimo effettua sul codice delle verifiche sintattiche, controllando la presenza di codice duplicato o di eventuali errori e sulla sua complessità.  
+
+Successivamente, a seguito dell’analisi statica, viene effettuata una verifica su potenziali vulnerabilità del codice.  
+Questa operazione viene effettuata utilizzando *bandit*; questo tool effettua le seguenti operazioni di verifica sul codice:
+- Individua eventuali password scritte in chiaro nel codice;
+- Verifica la possibilità di effettuare attacchi di tipo SQL Injection e Shell Injection che possono compromettere l’integrità dei dati e potenzialmente della macchina da parte dell’attaccante.
+
+### Unit Test
+Per quanto riguarda l’automatizzazione degli unit test vi è uno step dedicato della pipeline, in cui vengono testate le funzioni utili al funzionamento del web service.  
+In particolare vengono effettuati test ai seguenti metodi:
+- *format_title(title)*  
+Il metodo prende in oggetto un titolo formattato nel modo non corretto.  
+Il metodo prende il titolo ed elimina gli spazi a destra e a sinistra e, successivamente, inserisce un “+” negli spazi presenti tra le parole.
+- *compose_url(title)*  
+Il metodo prende in oggetto un titolo formattato nel modo corretto.  
+Il metodo prende il titolo e la appkey e, successivamente, formatta l’url nel modo corretto.  
+Es. url = "http://www.omdbapi.com/?apikey="+appkey+"&t="+title
+
+I test case sono presenti nel file *test_unit.py* del package tests che utilizza la libreria *pytest*.  
+L’esecuzione dei soli unit test avviene utilizzando il comando *py.test tests/test_unit.py* che previene l’esecuzione degli integration test, presenti nello stesso package.
+
+### Integration Test
+Per quanto riguarda l’automatizzazione degli integration test vi è uno step dedicato della pipeline in cui vengono testate le funzionalità del web service che si integrano con il database Firestore ed il servizio esterno tramite chiamate API.  
+In particolare, i test effettuati sono:
+- Richiamare l’API tramite il metodo *search_film(test)* e verificare che quest’ultima ritorni un contenuto atteso;
+- Richiamare il metodo *query_firestore(title, year)* e verificare che il metodo ritorni il contenuto atteso; più precisamente, il regista del film;
+- Richiamare il metodo *query_firestore_len(title)* e verificare che il metodo ritorni il contenuto atteso; più precisamente, il lingua con cui è stato prodotto il film;
+- Richiamare il metodo *save_film(film)*, passandogli come oggetto il contenuto di un file .json e verificare che venga salvato nel modo corretto nel database;
+- Richiamare il metodo *delete_content(title)*, passandogli come oggetto il titolo di un film e verificare che venga eliminato correttamente dal database.
+
+I test case sono presenti nel file test_integration.py del package test che utilizza la libreria *pytest*.  
+L’esecuzione dei soli integration test avviene utilizzando il comando *py.test tests/test_integration.py* che previene l’esecuzione degli unit test, presenti nello stesso package.
+
+### Package
+Una volta superati i test si procederà con la pacchettizzazione dell’applicazione.  
+Questa viene effettuata da *setuptool*, un tool in cui tramite codice python vengono dichiarate tutte le caratteristiche del pacchetto che verrà creato.  
+A questo processo sono state applicate due funzioni, in modo tale da non dover intervenire più volte su questo file.  
+Per fare in modo che i requirements vengano sempre tenuti aggiornati, è stata aggiunta la funzione *_get_install_requires* che legge il file *requirements.txt* ed utilizza il suo contenuto per indicare i requirement durante il setup.  
+E’ stata inoltre creata la funzione *_get_version* in modo tale da leggere il numero di versione da applicare al pacchetto da rilasciare, leggendola da un file esterno chiamato *VERSION* posto all’interno del repository.  
+Il comando utilizzato per effettuare la pacchettizzazione è *python setup.py sdist bdist_wheel* e questo fa si che venga prodotto un file in formato whl (wheel) pronto per essere rilasciato.  
+La cartella dist in cui viene creato questo file viene tenuta in cache, in modo tale da poter accedere al file anche nello step successivo di rilascio.
+
+### Release
+Una volta che l’applicazione è stata pacchettizzata in formato wheel, questa verrà rilasciata pubblicamente sul repository dei pacchetti per Python chiamato pypi.  
+Questa distribuzione permette agli utenti di poterla scaricare utilizzando il gestore dei pacchetti pip.  
+Lo strumento utilizzato per effettuare questa operazione è *twine*, il quale permette di effettuare l’upload sulla piattaforma.  
+Come nello step precedente, per fare in modo da gestire in maniera automatica il numero di versione, questa viene utilizzata come variabile d’ambiente che riporta il contenuto del file *VERSION*.  
+Questo per fare in modo che il pacchetto da rilasciare ed il comando per effettuare il rilascio siano sempre allineati ad uno stesso valore condiviso.  
+
+### Deploy
+Il deploy avviene su una macchina virtuale Google Cloud Compute Engine tramite SSH.  
+Per questo step le operazioni che sono state effettuate sono le seguenti:
+- Attivazione della chiave SSH all’interno del container che esegue la pipeline.
+Tale chiave SSH è stata precedentemente abilitata all’accesso sulla macchina virtuale.  
+E’ stata in seguito caricata all’interno di una variabile d’ambiente per l’utilizzo durante la pipeline.
+- Caricamento sulla VM di uno script che scarica l’ultima versione del pacchetto filmfestival utilizzando pip ed inseguito effettua il riavvio del web service con il codice aggiornato.  
+Il caricamento di questo file avviene tramite SCP.
+- Connessione alla VM tramite SSH per l’esecuzione dello script.
+
+
+
+
