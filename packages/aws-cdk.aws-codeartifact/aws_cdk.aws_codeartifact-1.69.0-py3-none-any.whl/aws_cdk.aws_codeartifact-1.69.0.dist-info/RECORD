@@ -1,0 +1,8 @@
+aws_cdk/aws_codeartifact/__init__.py,sha256=Aa0qL7Pn7ALeG-hEPff26ViJe3GURjgklcKc-PJMMHo,19052
+aws_cdk/aws_codeartifact/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_codeartifact/_jsii/__init__.py,sha256=NYzfDvbJ_2D8C9lsY-MbVEG-8cMdHNHZHb6Tlhhe1GQ,370
+aws_cdk/aws_codeartifact/_jsii/aws-codeartifact@1.69.0.jsii.tgz,sha256=elT0koo3xXT-M8FOTxOwKg8C7_NZs-OPuBmLJuW3isM,18677
+aws_cdk.aws_codeartifact-1.69.0.dist-info/METADATA,sha256=enMkqObLH3wXoXY7E2M-J8h_d-5pHkRZ8japVX5fSTU,1629
+aws_cdk.aws_codeartifact-1.69.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_codeartifact-1.69.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_codeartifact-1.69.0.dist-info/RECORD,,
