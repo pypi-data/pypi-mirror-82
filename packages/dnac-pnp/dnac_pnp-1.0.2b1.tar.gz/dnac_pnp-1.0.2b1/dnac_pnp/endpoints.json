@@ -1,0 +1,96 @@
+{
+    "generate-token": {
+        "method": "POST",
+        "protocol": "https",
+        "api": "/dna/system/api/v1/auth/token",
+        "parameters":{}
+    },
+    "import-device": {
+        "method": "POST",
+        "protocol": "https",
+        "api": "/dna/intent/api/v1/onboarding/pnp-device/import",
+        "parameters": {}
+    },
+    "add-site": {
+        "method": "POST",
+        "protocol": "https",
+        "api": "/dna/intent/api/v1/site",
+        "parameters": {}
+    },
+    "claim-device": {
+        "method": "POST",
+        "protocol": "https",
+        "api": "/api/v1/onboarding/pnp-device/site-claim",
+        "parameters": {}
+    },
+    "get-pnp-device-info": {
+        "method": "GET",
+        "protocol": "https",
+        "api": "/dna/intent/api/v1/onboarding/pnp-device",
+        "parameters": {}
+    },
+    "get-pnp-device-count": {
+        "method": "GET",
+        "protocol": "https",
+        "api": "/dna/intent/api/v1/onboarding/pnp-device/count",
+        "parameters": {}
+    },
+    "get-inventory-device-info": {
+        "method": "GET",
+        "protocol": "https",
+        "api": "/dna/intent/api/v1/network-device",
+        "parameters": {
+            "serialNumber": ""
+        }
+    },
+    "get-all-sites": {
+        "method": "GET",
+        "protocol": "https",
+        "api": "/api/v1/group",
+        "parameters": {
+            "groupType": "SITE"
+        }
+    },
+    "get-site-info": {
+        "method": "GET",
+        "protocol": "https",
+        "api": "/dna/intent/api/v1/site",
+        "parameters": {
+            "name": ""
+        }
+    },
+    "get-template-id": {
+        "method": "GET",
+        "protocol": "https",
+        "api": "/dna/intent/api/v1/template-programmer/template",
+        "parameters": {}
+    },
+    "get-template-parameters": {
+        "method": "GET",
+        "protocol": "https",
+        "api": "/dna/intent/api/v1/template-programmer/template/",
+        "parameters": {}
+    },
+    "get-image-info": {
+        "method": "GET",
+        "protocol": "https",
+        "api": "/dna/intent/api/v1/image/importation",
+        "parameters": {
+            "name": ""
+        }
+    },
+    "remove-device-pnp": {
+        "method": "DELETE",
+        "protocol": "https",
+        "api": "/api/v1/onboarding/pnp-device/",
+        "parameters": {}
+    },
+    "remove-device-inventory": {
+        "method": "DELETE",
+        "protocol": "https",
+        "api": "/api/v1/network-device/",
+        "parameters": {
+            "cleanConfig": "false"
+        }
+    }
+}

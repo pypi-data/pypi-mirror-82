@@ -1,0 +1,4 @@
+[console_scripts]
+dnac_pnp = dnac_pnp.app:mission_control
+ios_reset = ios_reset.ios:mission_control
+
