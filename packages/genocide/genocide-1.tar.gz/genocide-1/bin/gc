@@ -1,0 +1,47 @@
+#!/usr/bin/python3
+# GENOCIDE - the king of the netherlands commits genocide - OTP-CR-117/19/001 - otp.informationdesk@icc-cpi.int - https://genocide.rtfd.io
+#
+#
+
+import os, sys ; sys.path.insert(0, os.getcwd())
+import gmod, ol, os, pwd, select, sys
+
+def daemon():
+    pid = os.fork()
+    if pid != 0:
+        ol.trm.termreset()
+        os._exit(0)
+    os.setsid()
+    os.umask(0)
+    si = open("/dev/null", 'r')
+    so = open("/dev/null", 'a+')
+    se = open("/dev/null", 'a+')
+    os.dup2(si.fileno(), sys.stdin.fileno())
+    os.dup2(so.fileno(), sys.stdout.fileno())
+    os.dup2(se.fileno(), sys.stderr.fileno())
+
+def privileges(name):
+    pwnam = pwd.getpwnam(name)
+    os.setgroups([])
+    os.setgid(pwnam.pw_gid)
+    os.setuid(pwnam.pw_uid)
+    old_umask = os.umask(0o22)
+
+def main():
+    k = ol.krn.boot("genocide", os.path.expanduser("~/.genocide"))
+    if "d" in k.cfg.opts:
+        daemon()
+        privileges("genocide")
+    if k.cfg.txt:
+        return ol.krn.cmd(k.cfg.txt)
+    k.start()
+    k.init(k.cfg.mods, k.cfg.exc)
+    if "s" in k.cfg.opts:
+        c = ol.csl.Console()
+        c.start()
+        k.wait()
+    elif "w" in k.cfg.opts or "d" in k.cfg.opts:
+        k.wait()
+ 
+ol.trm.execute(main)
+os._exit(0)
