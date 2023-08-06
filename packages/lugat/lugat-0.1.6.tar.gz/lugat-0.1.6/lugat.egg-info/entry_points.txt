@@ -1,0 +1,3 @@
+[console_scripts]
+lugat = lugat.__main__:main
+
