@@ -1,0 +1,12 @@
+bird-browser/__main__.py,sha256=0gg3aKem49AAkmmZegpZxjruodttVlg7bhxXnkD7mL0,6606
+bird-browser/setup.py,sha256=V2w3MLonmzshmbzux_2bZ-zJwhAExFeoWmZCJ9oJSuY,342
+src/__main__.py,sha256=u76MbQSBD6rxs283uKp9Eo2oJHJ0YRLArL-HIogEGu8,6646
+src/birdlib/adblock.py,sha256=RUz9Ad3Dtmu6nM4sxf-eCkwKIaZYAXsWL5TqXTYYlSg,1294
+src/birdlib/bookmarks.py,sha256=L9bOUtcGhyBif48WdnU8BBr1CZRWixvyrZEaphP1rV4,1341
+src/birdlib/crypt.py,sha256=XEv2pbb9uFoHjHlJIWO2_L40Rda4tQPFSYFKZaekn9k,538
+src/birdlib/easylist.txt,sha256=OcNXjHmoAXSyhBCKIYY5E0WMzJabeI-cpWckXKDGZ_g,1652506
+bird_browser-0.5.7.dist-info/LICENSE,sha256=6_vlDNe_ZvRfCeLsjkb_OFvumJ9bQD7mvsAZ9SAKeDE,35081
+bird_browser-0.5.7.dist-info/METADATA,sha256=_rK5aGL6HG6QqRacQ-VGYHx-r0IXLkUMqX5rVtrcd6A,1096
+bird_browser-0.5.7.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bird_browser-0.5.7.dist-info/top_level.txt,sha256=aVvaN0HuAu07f-ebUMNtgpDsqASgKPT6ca2pmKNpc70,13
+bird_browser-0.5.7.dist-info/RECORD,,
