@@ -1,0 +1,7 @@
+README.md
+mt5.py
+setup.py
+mt5.egg-info/PKG-INFO
+mt5.egg-info/SOURCES.txt
+mt5.egg-info/dependency_links.txt
+mt5.egg-info/top_level.txt
