@@ -1,0 +1,7 @@
+README.md
+setup.py
+pylor/__init__.py
+pylor.egg-info/PKG-INFO
+pylor.egg-info/SOURCES.txt
+pylor.egg-info/dependency_links.txt
+pylor.egg-info/top_level.txt
