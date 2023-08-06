@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: vk-spammer
+Version: 1.2
+Summary: UNKNOWN
+Home-page: https://github.com/fgRuslan/vk-spammer
+Author: fgRuslan
+Author-email: ubijca16@gmail.com
+License: UNKNOWN
+Description: 
+        # Vk-spammer
+        Просто спаммер...
+        Установка спаммера:
+        
+        ```
+        pip install vk-spammer
+        ```
+        
+        ### Запуск
+        
+        ```
+        vk-spammer
+        ```
+        
+        В скрипте укажите id пользователя, которого вы хотите заспамить.
+        Атака началась.
+        
+        ### Изменение сообщений
+        
+        Чтобы изменить сообщения, которые спамер будет отправлять, найдите в коде массив foo и добавляйте/изменяйте элементы в нём.
+        
+        Удачи.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
