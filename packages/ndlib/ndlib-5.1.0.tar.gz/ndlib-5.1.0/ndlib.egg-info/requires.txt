@@ -1,0 +1,8 @@
+netdispatch
+python-igraph
+numpy
+networkx
+dynetx
+scipy
+bokeh
+future
