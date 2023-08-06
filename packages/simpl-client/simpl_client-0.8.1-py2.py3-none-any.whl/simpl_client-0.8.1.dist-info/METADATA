@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: simpl-client
+Version: 0.8.1
+Summary: Python clients for accessing simpl-games-api
+Home-page: https://github.com/simplworld/simpl-client
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Description-Content-Type: text/markdown
+Requires-Dist: genericclient-aiohttp (<1.5,>=1.4.2)
+Requires-Dist: genericclient (<1.5,>=1.4.2)
+
+GamesAPIClient
+==============
+
+.. image:: https://travis-ci.com/simplworld/simpl-client.svg?token=cyqpBgqLC1o8qUptfcpE&branch=master
+    :target: https://travis-ci.com/simplworld/simpl-client
+
+
+Python clients for accessing simpl-games-api either asynchronously or synchronously
+
+Usage
+-----
+
+
+To asynchronously access simpl-games-api use::
+
+    from simpl_client.asyn import GamesAPIClient
+    asyn_games_client = GamesAPIClient(url=SIMPL_GAMES_URL, auth=SIMPL_GAMES_AUTH)
+
+for backwards compatibility, the default is asynchronous access::
+
+    from simpl_client import GamesAPIClient
+    asyn_games_client = GamesAPIClient(url=SIMPL_GAMES_URL, auth=SIMPL_GAMES_AUTH)
+
+See simpl_client/async/games_client.py for asynchronous endpoints
+
+To synchronously access simpl-games-api use::
+
+    from simpl_client.syn import GamesAPIClient
+    syn_games_client = GamesAPIClient(url=SIMPL_GAMES_URL, auth=SIMPL_GAMES_AUTH)
+
+See simpl_client/syn/games_client.py for synchronous endpoints
+
+Installation
+------------
+::
+
+    pip install simpl-client
+
+
+
+
+Setup development environment
+-----------------------------
+::
+
+    git clone git@github.com:simplworld/simpl-client.git
+    cd simpl-client
+    mkvirtualenv simpl-client
+    pip install -e .
+
+Testing
+-------
+::
+
+    python setup.py test
+
+Running the tests requires having ``libmagic`` installed.
+
+On OS X, simply run ``brew install libmagic``.
+
+License
+-------
+
+Copyright © 2018 The Wharton School,  The University of Pennsylvania 
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+
