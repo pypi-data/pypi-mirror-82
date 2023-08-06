@@ -1,0 +1,4 @@
+twine<4,>=3
+requests<3,>=2.21
+wheel
+toml~=0.10.0
