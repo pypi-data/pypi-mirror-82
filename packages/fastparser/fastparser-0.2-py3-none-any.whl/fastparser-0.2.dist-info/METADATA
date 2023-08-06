@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fastparser
+Version: 0.2
+Summary: A HTML Parser with some handy Utilities
+Home-page: https://github.com/Thewildweb/fastparser/tree/0.2
+Author: Erik Meijer
+Author-email: erik@thewildweb.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.8
+Requires-Dist: fuzzywuzzy[speedups]
+Requires-Dist: selectolax
+
+todo: create readme ;)
+
+
