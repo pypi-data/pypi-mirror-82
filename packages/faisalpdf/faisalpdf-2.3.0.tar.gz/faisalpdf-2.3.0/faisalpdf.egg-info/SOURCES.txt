@@ -1,0 +1,6 @@
+README.md
+setup.py
+faisalpdf.egg-info/PKG-INFO
+faisalpdf.egg-info/SOURCES.txt
+faisalpdf.egg-info/dependency_links.txt
+faisalpdf.egg-info/top_level.txt
