@@ -1,0 +1,17 @@
+[metadata]
+name = 'download_assemblies'
+version = '0.0.1'
+description = ''
+author = 'Edward Davis'
+author_email = 'ed@cgrb.oregonstate.edu'
+license = 'MIT/Apache-2.0'
+url = 'https://github.com/davised/download_assemblies'
+
+[requires]
+python_version = ['3.7']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'

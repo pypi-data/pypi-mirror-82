@@ -1,0 +1,14 @@
+LICENSE-APACHE
+LICENSE-MIT
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+get_assemblies/__init__.py
+get_assemblies/__main__.py
+get_assemblies/__version__.py
+get_assemblies.egg-info/PKG-INFO
+get_assemblies.egg-info/SOURCES.txt
+get_assemblies.egg-info/dependency_links.txt
+get_assemblies.egg-info/entry_points.txt
+get_assemblies.egg-info/top_level.txt

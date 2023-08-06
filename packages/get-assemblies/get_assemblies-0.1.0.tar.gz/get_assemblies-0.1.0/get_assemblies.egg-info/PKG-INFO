@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: get-assemblies
+Version: 0.1.0
+Summary: NCBI E-utilities wrapper for assembly downloads
+Home-page: https://github.com/davised/get_assemblies
+Author: Edward Davis
+Author-email: ed@cgrb.oregonstate.edu
+Maintainer: Edward Davis
+Maintainer-email: ed@cgrb.oregonstate.edu
+License: Custom
+Description: get_assemblies
+        ==============
+        
+        .. contents:: **Table of Contents**
+            :backlinks: none
+        
+        Installation
+        ------------
+        
+        get_assemblies is distributed on `PyPI <https://pypi.org>`_ as a universal
+        wheel and is available on Linux/macOS and Windows and supports Python 3.7+.
+        
+        .. code-block:: bash
+        
+            $ pip install -U get_assemblies
+        
+        License
+        -------
+        
+        download_assemblies is distributed under the terms of both
+        
+        - `MIT License <https://choosealicense.com/licenses/mit>`_
+        - `Apache License, Version 2.0 <https://choosealicense.com/licenses/apache-2.0>`_
+        
+        at your option.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/x-rst
