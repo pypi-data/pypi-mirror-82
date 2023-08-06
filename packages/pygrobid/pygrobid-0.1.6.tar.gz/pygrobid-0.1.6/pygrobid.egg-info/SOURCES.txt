@@ -1,0 +1,9 @@
+README.md
+setup.py
+grobid/__init__.py
+grobid/client.py
+pygrobid.egg-info/PKG-INFO
+pygrobid.egg-info/SOURCES.txt
+pygrobid.egg-info/dependency_links.txt
+pygrobid.egg-info/requires.txt
+pygrobid.egg-info/top_level.txt
