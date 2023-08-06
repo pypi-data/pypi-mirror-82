@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: UCTB
+Version: 0.3.0
+Summary: Urban Computing ToolBox
+Home-page: https://github.com/uctb/UCTB
+Author: UCTB group
+Author-email: chenliyue2019@gmail.com
+License: UNKNOWN
+Description: # UCTB
+        
+        ## Project HomePage
+        
+        [HomePage](https://uctb.github.io/UCTB/)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
