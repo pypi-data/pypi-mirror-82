@@ -1,0 +1,47 @@
+name: $(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.rr)
+
+resources:
+  repositories:
+  - repository: OpenAstronomy
+    type: github
+    endpoint: Cadair
+    name: OpenAstronomy/azure-pipelines-templates
+    ref: master
+
+trigger:
+  branches:
+    include:
+    - '*'
+    exclude:
+    - '*backport*'
+  tags:
+    include:
+    - 'v*'
+    exclude:
+    - '*dev*'
+
+jobs:
+- template: run-tox-env.yml@OpenAstronomy
+  parameters:
+    envs:
+      - linux: py36
+        name: Linux_py36
+      - linux: py37
+        name: Linux_py37
+      - linux: py38
+        name: Linux_py38
+
+- ${{ if ne(variables['Build.Reason'], 'PullRequest') }}:
+  - template: publish.yml@OpenAstronomy
+    parameters:
+      ${{ if startsWith(variables['Build.SourceBranch'], 'refs/tags/') }}:
+        pypi_connection_name: 'PyPI'
+      test_extras: test
+      test_command: pytest --pyargs oemthermostat
+      targets:
+        - sdist
+        - wheels_universal
+      dependsOn:
+        - Linux_py36
+        - Linux_py37
+        - Linux_py38

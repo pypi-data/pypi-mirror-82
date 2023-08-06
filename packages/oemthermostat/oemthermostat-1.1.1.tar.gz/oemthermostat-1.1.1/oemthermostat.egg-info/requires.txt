@@ -1,0 +1,11 @@
+requests
+
+[docs]
+sphinx
+sphinxcontrib-httpdomain
+sphinx-automodapi
+sphinx_rtd_theme
+
+[test]
+pytest
+pytest-cov
