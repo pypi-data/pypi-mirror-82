@@ -1,0 +1,9 @@
+datasette
+
+[test]
+pytest
+pytest-asyncio
+httpx
+sqlite_utils
+coverage==5.3
+pytest-coverage
