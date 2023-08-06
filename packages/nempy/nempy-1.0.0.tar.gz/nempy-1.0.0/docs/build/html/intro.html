@@ -1,0 +1,327 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Introduction &mdash; nempy 0.0.1 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="installation.html" />
+    <link rel="prev" title="Welcome to nempy’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> nempy
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#features">Features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#flexibility">Flexibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#accuracy">Accuracy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#run-time">Run-time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#documentation">Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#support">Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ongoing-work">Ongoing work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markets.html">markets module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical.html">historical_inputs modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="time_sequential.html">time_sequential modules</a></li>
+<li class="toctree-l1"><a class="reference internal" href="publications.html">Publications</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">nempy</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Introduction</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/intro.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>Nempy is an open-source python package that can be used to model the dispatch procedure of the Australian National
+Electricity Market (NEM). We believe nempy will be a valuable tool for academic researchers and industry analysts
+exploring a wide variety of questions. The dispatch process is at the core of many market modelling projects. As the
+NEM evolves, constraints and ancillary service markets are becoming increasingly important in shaping dispatch outcomes.
+Significant changes to the dispatch process are also likely to occur soon. Nempy allows users to easily configure a
+dispatch model to fit the relevant research question. Furthermore, if extra functionality is needed, the python
+implementation, open-source licencing and planned ongoing support from developers make it possible to adapt nempy
+to your needs. The publication of this technical brief coincides with the release of nempy version 1.0.0. Version 1 will
+be a stable release and ongoing minor updates or patches will remain backwards compatible. However, we are interested in
+receiving feedback to inform the ongoing maintenance, development and any future major updates.</p>
+<p>Nempy is feature rich, flexible, can recreate historical dispatch with a high degree of accuracy, runs fast, has detailed
+documentation and has planned support up until mid-2023.</p>
+<p>Find nempy and more information at <a class="reference external" href="https://github.com/UNSW-CEEM/nempy">https://github.com/UNSW-CEEM/nempy</a>.</p>
+<div class="section" id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Energy bids</strong>: between one and ten price quantity bid pairs can be provided for each generator or load bidding in the energy market</p></li>
+<li><p><strong>Loss factors</strong>: loss factors can be provided for each generator and load</p></li>
+<li><p><strong>FCAS bids</strong>: between one and ten price quantity bid pairs can be provided for each generator or load bidding in each of the eight FCAS markets</p></li>
+<li><p><strong>Ramp rates</strong>: unit ramp rates can be set</p></li>
+<li><p><strong>FCAS trapezium constraints</strong>: a set of trapezium constraints can be provided for each FCAS bid, these ensure FCAS is co-optimised with energy dispatch and would be technically deliverable</p></li>
+<li><p><strong>Fast start dispatch inflexibility profiles</strong>: dispatch inflexibility profiles can be provided  for unit commitment of fast-start plants</p></li>
+<li><p><strong>Interconnectors and losses</strong>: interconnectors between each market region can be defined, non-linear loss functions and interpolation breakpoints for their linearisation can be provided</p></li>
+<li><p><strong>Generic constraints</strong>: generic constraints that link across unit output, FCAS enablement and interconnector flows can be defined</p></li>
+<li><p><strong>Elastic constraints</strong>: constraints can be made elastic, i.e. a violation cost can be set for constraints</p></li>
+<li><p><strong>Tie-break constraints</strong>: constraints that minimise the difference in dispatch between energy bids for the same price can be enabled</p></li>
+<li><p><strong>Market clearing prices</strong>: market prices are returned for both energy and FCAS markets, based on market constraint shadow prices</p></li>
+<li><p><strong>Historical inputs</strong>: tools for downloading dispatch inputs from AEMO’s NEMWeb portal and preprocessing them for compatibility with the nempy SpotMarket class are available</p></li>
+<li><p><strong>Input validation</strong>: optionally check user inputs and raise descriptive errors when they do not meet the expected criteria</p></li>
+<li><p><strong>Adjustable dispatch interval</strong>: a dispatch interval of any length can be used</p></li>
+</ul>
+</div>
+<div class="section" id="flexibility">
+<h2>Flexibility<a class="headerlink" href="#flexibility" title="Permalink to this headline">¶</a></h2>
+<p>Nempy is designed to have a high degree of flexibility, it can be used to implement very simple merit order dispatch models,
+highly detailed models that seek to re-create the real world dispatch procedure, or a model at the many levels of intermediate
+complexity. A set of examples demonstrating this flexibility are available on the package’s documentation
+<a class="reference external" href="https://nempy.readthedocs.io/en/latest/examples.html">readthedocs page</a>. Most inputs are passed to nempy as pandas DataFrame
+objects, which means nempy can easily source inputs from other python code, SQL databases, CSVs and other formats supported by
+the pandas’ interface.</p>
+</div>
+<div class="section" id="accuracy">
+<h2>Accuracy<a class="headerlink" href="#accuracy" title="Permalink to this headline">¶</a></h2>
+<p>The accuracy with which nempy represents the NEM’s dispatch process can be measured by re-creating historical dispatch results.
+This is done for a given dispatch interval by downloading the relevant historical inputs such as unit initial operating levels,
+bids and generic constraints, processing these inputs so they are compatible with the nempy SpotMarket class, and finally
+dispatching the spot market. The results can then be compared to historical results to gauge the model’s accuracy.
+Figure 1 shows the results of this process for 1000 randomly selected dispatch intervals in 2019, comparing the modelled
+NSW energy price with historical prices. Here the model is configured to maximally reflect the NEM’s dispatch procedure.
+The code to produce the results shown in this figure is available <a class="reference external" href="https://nempy.readthedocs.io/en/latest/publications.html#source-code-for-figure-1">here</a>.
+Figure 2 shows a similar comparison, but without FCAS markets or generic constraints. The code to produce the results
+shown in Figure 2 is available <a class="reference external" href="https://nempy.readthedocs.io/en/latest/publications.html#source-code-for-figure-2">here</a>.
+The simpler model produces a similar number of medianly priced intervals, however, outcomes for extreme ends of the price
+duration curve differ significantly from historical values.</p>
+<a class="reference internal image-reference" href="_images/nempy_vs_historical.svg"><img alt="_images/nempy_vs_historical.svg" src="_images/nempy_vs_historical.svg" width="600" /></a>
+<p><em>Figure 1: A comparison of the historical NSW reference node price, prior to scaling or capping, with the price calculated using nempy.
+The nempy model was configured to maximally replicated the NEM dispatch process and 1000 randomly selected intervals were used.</em></p>
+<a class="reference internal image-reference" href="_images/nempy_vs_historical_simple.svg"><img alt="_images/nempy_vs_historical_simple.svg" src="_images/nempy_vs_historical_simple.svg" width="600" /></a>
+<p><em>Figure 2: A comparison of the historical NSW reference node price, prior to scaling or capping, with the price calculated
+using nempy. The nempy model was configured without FCAS markets or generic constraints and 1000 randomly selected intervals were used.</em></p>
+</div>
+<div class="section" id="run-time">
+<h2>Run-time<a class="headerlink" href="#run-time" title="Permalink to this headline">¶</a></h2>
+<p>The run-time for nempy to calculate dispatch depends on several factors, the complexity of the model implemented, time
+taken to load inputs, the mixed-integer linear solver used and of course the hardware. Run-times reported here used an
+Intel® Xeon(R) W-2145 CPU &#64; 3.70 GHz. For the model results shown in Figure 1, including time taken to load inputs from
+the disk and using the open-source solver CBC, the average run-time per dispatch interval was 2.54 s. When the proprietary
+solver Gurobi was used, a run-time of 1.84 s was achieved. For the results shown in Figure 2, the run-times with CBC and
+Gurobi were 1.02 s and 0.98 s respectively, indicating that for simpler models the solver used has a smaller impact on
+run-time. For the simpler model, the time to load inputs is increased significantly by the loading of historical NEMDE
+input/output XML files which takes approximately 0.4 s. Importantly, this means it will be possible to speed up simpler
+models by sourcing inputs from different data storage formats.</p>
+</div>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>Nempy has a detailed set of documentation, mainly comprising of two types: examples and reference documentation. The
+examples aim to show how nempy can be used and how it works in a practical manner. A number of simple examples focus on
+demonstrating the use of subsets of the package’s features in isolation in order to make them easier to understand. The
+more complex examples show how features can be combined to build models more suitable for analysis. The reference
+documentation aims to cover all the package’s public APIs (the classes, methods and functions accessible to the user),
+describing their use, inputs, outputs and any side effects. Find the documentation on our
+<a class="reference external" href="https://nempy.readthedocs.io/en/latest/examples.html">readthedocs page</a>.</p>
+</div>
+<div class="section" id="support">
+<h2>Support<a class="headerlink" href="#support" title="Permalink to this headline">¶</a></h2>
+<p>Nempy’s development is being led by Nick Gorman as part of his PhD candidature at the Collaboration on Energy and Environmental
+Markets at the University of New South Wales’ School of Photovoltaics and Renewable Energy Engineering. As part of this
+project we plan to engage with and support software users, this can be facilitated through the PhD until mid-2023. If
+nempy is used sufficiently broadly we would look to continue support beyond this timeframe.</p>
+</div>
+<div class="section" id="ongoing-work">
+<h2>Ongoing work<a class="headerlink" href="#ongoing-work" title="Permalink to this headline">¶</a></h2>
+<p>Ongoing work is likely to focus on greater support for time-sequential and dynamic models through the creation of tools
+that dynamically create inputs for the dispatch process. This would likely include tools for dynamically generating
+participant bids and regional FCAS requirements. Additionally, many historical dispatch generic constraints are potentially
+unsuitable for dynamic modelling as their right-hand sides contain line flow values and unit operating statuses
+that would be expected to change under many scenarios in a dynamic model. Thus, another avenue for future work is the
+addition of tools for creating constraint inputs appropriate for dynamic modelling.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to nempy’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Nick Gorman
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
