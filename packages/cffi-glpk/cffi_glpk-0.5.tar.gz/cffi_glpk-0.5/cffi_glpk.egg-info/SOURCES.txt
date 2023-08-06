@@ -1,0 +1,9 @@
+README.md
+setup.py
+cffi_glpk/__init__.py
+cffi_glpk/cffi_glpk_build.py
+cffi_glpk.egg-info/PKG-INFO
+cffi_glpk.egg-info/SOURCES.txt
+cffi_glpk.egg-info/dependency_links.txt
+cffi_glpk.egg-info/requires.txt
+cffi_glpk.egg-info/top_level.txt
