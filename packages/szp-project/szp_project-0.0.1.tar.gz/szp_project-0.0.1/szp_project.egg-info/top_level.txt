@@ -1,0 +1,4 @@
+javaspeak
+langspeak
+pythonspeak
+rustspeak
