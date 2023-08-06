@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: pony_wtf
+Version: 0.0.1.post1
+Summary: Create WTF-Form from your pony database entity
+Home-page: https://github.com/tabebqena/Pony-WTF
+Author: Ahmad Yahia
+Author-email: qenadev@gmail.com
+License: MIT
+Description: # Pony-WTF
+        
+        Pony-WTF is an integration library for Ponyorm and WTF-Forms.
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+        
+        ```bash
+        pip install foobar
+        ```
+        
+        ## Usage
+        
+        
+        ```
+        # soon 
+        ```
+        
+        ## Contributing
+        Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+        
+        Please make sure to update tests as appropriate.
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+Keywords: pony ponyorm wtf wtf-form
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
