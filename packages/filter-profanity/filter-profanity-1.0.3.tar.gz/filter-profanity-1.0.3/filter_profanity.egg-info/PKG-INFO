@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: filter-profanity
+Version: 1.0.3
+Summary: The fastest python module to filter and censor obscene language from strings!
+Home-page: https://github.com/TrustedMercury/better-profanity
+Author: TrustedMercury
+License: UNKNOWN
+Description: # filter-profanity
+        The fastest python module to filter and censor obscene language from strings!
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
