@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: sphinx_inline_tabs
+Version: 2020.10.14b0
+Summary: Add inline tabbed content to your Sphinx documentation.
+Home-page: https://github.com/pradyunsg/sphinx-inline-tabs
+License: UNKNOWN
+Author: Pradyun Gedam
+Author-email: mail@pradyunsg.me
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: sphinx >= 3 ; extra == "doc"
+Requires-Dist: myst-parser ; extra == "doc"
+Requires-Dist: furo ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: pytest-xdist ; extra == "test"
+Provides-Extra: doc
+Provides-Extra: test
+
+# Sphinx Inline Tabs
+
+Add inline tabbed content to your Sphinx documentation.
+
+## Installation
+
+This project is available on PyPI, and can be installed using pip:
+
+```
+pip install sphinx-inline-tabs
+```
+
+## Features
+
+- **Elegant design**: Small footprint in the markup and generated website, while looking good.
+- **Configurable**: All the colors can be configured using CSS variables.
+- **Synchronisation**: Tabs with the same label all switch with a single click.
+- **Works without JavaScript**: JavaScript is not required for the basics, only for synchronisation.
+
