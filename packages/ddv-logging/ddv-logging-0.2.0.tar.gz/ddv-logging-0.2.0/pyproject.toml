@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ddv-logging"
+version = "0.2.0"
+description = "Python logging formatters, filters, and convenience methods"
+authors = ["Davide Vitelaru <davide@vitelaru.com>"]
+maintainers = ["Davide Vitelaru <davide@vitelaru.com>"]
+packages = [
+  { include = "ddv", from="src"}
+]
+license = "Unlicense"
+readme = "README.md"
+keywords = ["ddv", "logging", "colour", "color", "indent", "indentation", "verbose", "verbosity"]
+repository = "https://gitlab.com/davidevi/ddv-logging"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
