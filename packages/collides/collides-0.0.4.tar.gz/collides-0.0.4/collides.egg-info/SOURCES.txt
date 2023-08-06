@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+requirements.txt
+setup.py
+upload to pipy steps.txt
+collides/__init__.py
+collides/coll.py
+collides.egg-info/PKG-INFO
+collides.egg-info/SOURCES.txt
+collides.egg-info/dependency_links.txt
+collides.egg-info/requires.txt
+collides.egg-info/top_level.txt
