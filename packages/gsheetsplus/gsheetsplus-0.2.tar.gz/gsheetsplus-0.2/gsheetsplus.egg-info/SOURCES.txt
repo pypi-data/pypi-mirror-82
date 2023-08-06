@@ -1,0 +1,7 @@
+README.md
+setup.py
+gsheetsplus.egg-info/PKG-INFO
+gsheetsplus.egg-info/SOURCES.txt
+gsheetsplus.egg-info/dependency_links.txt
+gsheetsplus.egg-info/requires.txt
+gsheetsplus.egg-info/top_level.txt
