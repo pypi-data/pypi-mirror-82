@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: siVAE
+Version: 0.3
+Summary: scalable and interpretable Variational Autoencoder
+Home-page: https://github.com/quon-titative-biology/siVAE
+Author: ['Yongin Choi', 'Gerald Quon']
+Author-email: yonchoi@ucdavis.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: tensorflow (==1.15)
+Requires-Dist: tensorflow-probability (==0.8.0)
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: scanpy
+Requires-Dist: gseapy
+
+UNKNOWN
+
+
