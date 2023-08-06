@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Yolov4-kl-demo
+Version: 0.0.2
+Summary: Yolov4 with kl loss integrated
+Home-page: UNKNOWN
+Author: cleverhans
+Author-email: xx@xx.com
+License: UNKNOWN
+Description: Yolov4 model with kl loss for bounding box uncertainty estimation.
+        See https://arxiv.org/abs/1809.08545
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
