@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: monitapi
+Version: 0.3.0
+Summary: monitapi is something to monitor API(URL) by a serverless.
+Home-page: https://github.com/fealone/monitapi
+Author: fealone
+Author-email: fealone@lonesec.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: agraffe (==0.2.0)
+Requires-Dist: aiodns (==2.0.0)
+Requires-Dist: aiohttp (==3.6.3)
+Requires-Dist: async-timeout (==3.0.1)
+Requires-Dist: attrs (==20.2.0)
+Requires-Dist: brotlipy (==0.7.0)
+Requires-Dist: cchardet (==2.1.6)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: cffi (==1.14.3)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: fastapi (==0.61.1)
+Requires-Dist: gitdb (==4.0.5)
+Requires-Dist: gitpython (==3.1.9)
+Requires-Dist: h11 (==0.11.0)
+Requires-Dist: idna (==2.10)
+Requires-Dist: multidict (==4.7.6)
+Requires-Dist: pycares (==3.1.1)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pydantic (==1.6.1)
+Requires-Dist: pyyaml (==5.3.1)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: smmap (==3.0.4)
+Requires-Dist: starlette (==0.13.6)
+Requires-Dist: typing-extensions (==3.7.4.3)
+Requires-Dist: urllib3 (==1.25.10)
+Requires-Dist: uvicorn (==0.12.1)
+Requires-Dist: yarl (==1.5.1)
+
+# monitapi
+monitapi is something to monitor API(URL) by a serverless.
+
+
