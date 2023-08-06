@@ -1,0 +1,7 @@
+README.md
+selectpdf.py
+setup.py
+selectpdf.egg-info/PKG-INFO
+selectpdf.egg-info/SOURCES.txt
+selectpdf.egg-info/dependency_links.txt
+selectpdf.egg-info/top_level.txt
