@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyctlops
+Version: 0.1
+Summary: Thin PyLops wrapper for PyCurvelab
+Home-page: https://github.com/cako/PyCurvelabLops
+Author: Carlos Alberto da Costa Filho
+Author-email: c.dacostaf@gmail.com
+License: MIT
+Keywords: curvelet curvelab
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: pyct
+Requires-Dist: pylops
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+PyCurvelabLops
+==============
+
+Thin PyLops wrapper for PyCurvelab
+
+
