@@ -1,0 +1,16 @@
+mbf_externals
+numpy
+pandas
+pyBigWig
+
+[doc]
+numpydoc
+sphinx
+sphinx-bootstrap-theme
+
+[testing]
+pytest
+pytest-cov
+pytest-icdiff
+requests-mock
+tomlkit
