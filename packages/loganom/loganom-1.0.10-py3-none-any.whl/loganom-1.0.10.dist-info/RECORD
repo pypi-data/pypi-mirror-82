@@ -1,0 +1,17 @@
+loganom/__init__.py,sha256=3bMo7T_5AJMR3DO7y9LI0rPghEJXAnTEynfnSBTQPms,75
+loganom/config.py,sha256=Ujl9b4l49n7P0CocS-T2eo4o6PgpYnOWM020arBtuic,7087
+loganom/exec_cmd.py,sha256=e5GBUo0cvAVUN5dIt8YTsgLKaJnX6KVVmlaK-vI9NHY,887
+loganom/ipinfo.py,sha256=iZo2gmJLazGc88ObVV5_ZBqMGnp5Qn_CkFdGEqSxYuw,540
+loganom/main.py,sha256=zMTmyT83i4L3Jq7YwK8TMc61P3FvzB1a1xdW3sa_3dA,2439
+loganom/process_mail.py,sha256=z99fvEqGj_OVvBxBobAGBGnN36IVvzptrHXEsErHoTk,2514
+loganom/processor.py,sha256=uaPN8TEvV0TZgqnfjRC-c7rAUIZPr6XaI4wranElHPs,4140
+loganom/report.py,sha256=TvcOg5yFLJB7wCraxXC1Fm4VD5LlsVHaBtv5mCm46mU,3329
+loganom/report_mail.py,sha256=XaTUcuiedkNWxhebE6w6-FHSio9asfAx0v16jZXsDi8,1055
+loganom/report_mm.py,sha256=Anx8hJtmfTbI0WscT1RSTQ-4hy3FmoPkn5gjsUQRB3A,1014
+loganom/utils.py,sha256=7DhxX-qp02NIf6RtkeKMGvpAs-koGRUHUAHlFj_nETY,3971
+loganom-1.0.10.dist-info/LICENSE,sha256=oUmhb_s5OSj9LHDCOuxt6v02Mh3B3qQiQvGeBy01hh0,1266
+loganom-1.0.10.dist-info/METADATA,sha256=a7pyzalLFc-pS5TfPLvVLFjUDbG3_apqqqwXqu2wP2s,1829
+loganom-1.0.10.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+loganom-1.0.10.dist-info/entry_points.txt,sha256=bcPCo0zRLu2TtqG-7ERUHol6-9Lhf79807qzqTwvuOA,47
+loganom-1.0.10.dist-info/top_level.txt,sha256=eOpwJ3d5ouSEGKXYyiBHFCW5oWiR8nI5fzE9s9UuPxI,8
+loganom-1.0.10.dist-info/RECORD,,
