@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+cppstd/__init__.py
+cppstd/hints.py
+cppstd/set.py
+cppstd/vector.py
+cppstd.egg-info/PKG-INFO
+cppstd.egg-info/SOURCES.txt
+cppstd.egg-info/dependency_links.txt
+cppstd.egg-info/not-zip-safe
+cppstd.egg-info/requires.txt
+cppstd.egg-info/top_level.txt
+cppstd/core/__init__.py
+cppstd/core/tokenization.py
+src/main.cpp
