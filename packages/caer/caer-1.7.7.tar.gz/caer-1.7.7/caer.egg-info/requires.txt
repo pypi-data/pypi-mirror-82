@@ -1,0 +1,7 @@
+numpy
+opencv-contrib-python
+requests
+asgiref
+
+[canaro]
+canaro>=1.0.3
