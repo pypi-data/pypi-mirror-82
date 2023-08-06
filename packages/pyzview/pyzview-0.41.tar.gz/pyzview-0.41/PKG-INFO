@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pyzview
+Version: 0.41
+Summary: zview python inferface
+Home-page: https://github.com/ohadmen/pyzview
+Author: Ohad Menashe
+Author-email: ohad.men@gmail.com
+License: UNKNOWN
+Description: # pyzview
+        python interface for zview 3d viewer.
+        ## Installation
+        * Download and install zview https://github.com/ohadmen/zview/releases/latest
+        * `pip install pyzview`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
