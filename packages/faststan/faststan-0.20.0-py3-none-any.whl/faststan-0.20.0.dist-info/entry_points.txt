@@ -1,0 +1,4 @@
+[console_scripts]
+nats=faststan.cli.nats:app
+stan=faststan.cli.stan:app
+
