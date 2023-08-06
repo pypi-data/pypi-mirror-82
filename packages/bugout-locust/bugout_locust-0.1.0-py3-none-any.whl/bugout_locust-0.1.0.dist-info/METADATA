@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: bugout-locust
+Version: 0.1.0
+Summary: Locust: Track changes to Python code across git refs
+Home-page: https://github.com/simiotics/locust
+Author: Neeraj Kashyap
+Author-email: neeraj@bugout.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: lxml
+Requires-Dist: pygit2
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: distribute
+Requires-Dist: twine ; extra == 'distribute'
+
+# locust
+
+Track changes to Python source code across git refs.
+
+## Dependencies
+
+### pygit2
+
+Follow `pygit2` installation instructions: https://www.pygit2.org/install.html
+
+
