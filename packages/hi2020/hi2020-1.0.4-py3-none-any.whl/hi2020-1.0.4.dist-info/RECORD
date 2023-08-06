@@ -1,0 +1,12 @@
+hi2020/__init__.py,sha256=CSXsRK6lY-mfePV0r-Hfok6gZ2XADBj2Bem87OTyW1g,171
+hi2020/calculate.py,sha256=WQ5pI6bQVI5rm33hRHhNg8L_D5is6zRX2tbcAv3_Ilw,1022
+hi2020/say.py,sha256=66nMz_kLv77MMK_QaTZIQQtaEjHJHE_klgMqCmB5cPY,358
+hi2020/bin/__init__.py,sha256=bOGrb5OoBJMwAlRt3nm9A7TpmtQ0FzoId2MTSSlJtRs,171
+hi2020/bin/cli.py,sha256=1lWkCC0Cdde6a63EZ8jSTHg8GeVYJReo5CGaXaJjD9w,1775
+hi2020/static/hi.js,sha256=Aw_uiBuj5k_i4IZusvEtNWM0v5IxeWE4BkL8eOXSXss,21
+hi2020-1.0.4.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+hi2020-1.0.4.dist-info/METADATA,sha256=F2gj2dXc_ejSC7IO83HrrCefoVEyX3LfFzC-_cpB9OY,1670
+hi2020-1.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hi2020-1.0.4.dist-info/entry_points.txt,sha256=qm9QGbLz419BDyw5sAgBDD2nr3w7tWVI9u7u-oJdyEY,43
+hi2020-1.0.4.dist-info/top_level.txt,sha256=jjpApEO6LDYpWb7Q0GVKWMoimmI5amxQUoh4a9Xr3iI,7
+hi2020-1.0.4.dist-info/RECORD,,
