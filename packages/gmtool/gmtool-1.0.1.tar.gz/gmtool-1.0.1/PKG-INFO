@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: gmtool
+Version: 1.0.1
+Summary: A powerful generation tool
+Home-page: https://www.python.org/
+Author: Gmwang
+Author-email: 550146647@qq.com
+License: MIT
+Project-URL: Documentation, https://www.apple.com.cn/
+Project-URL: Funding, https://www.apple.com.cn/
+Project-URL: Source, https://www.apple.com.cn/
+Project-URL: Tracker, https://www.apple.com.cn/
+Description: UNKNOWN
+Keywords: generation
+Platform: UNKNOWN
+Requires-Python: >=3
