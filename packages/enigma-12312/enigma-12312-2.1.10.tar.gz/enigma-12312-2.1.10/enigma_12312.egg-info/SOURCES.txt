@@ -1,0 +1,9 @@
+README.md
+setup.py
+enigma_12312.egg-info/PKG-INFO
+enigma_12312.egg-info/SOURCES.txt
+enigma_12312.egg-info/dependency_links.txt
+enigma_12312.egg-info/requires.txt
+enigma_12312.egg-info/top_level.txt
+equities/__init__.py
+equities/data/__init__.py
