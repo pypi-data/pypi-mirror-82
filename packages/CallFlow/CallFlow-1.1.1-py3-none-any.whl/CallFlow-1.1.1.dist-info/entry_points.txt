@@ -1,0 +1,3 @@
+[console_scripts]
+callflow_server = server.callflow_server:main
+
