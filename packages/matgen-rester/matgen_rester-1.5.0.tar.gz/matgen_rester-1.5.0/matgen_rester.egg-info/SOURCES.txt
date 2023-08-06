@@ -1,0 +1,12 @@
+README.md
+setup.py
+matgen_rester/MatgenError.py
+matgen_rester/__init__.py
+matgen_rester/args.py
+matgen_rester/matdata.py
+matgen_rester/matgenrester.py
+matgen_rester.egg-info/PKG-INFO
+matgen_rester.egg-info/SOURCES.txt
+matgen_rester.egg-info/dependency_links.txt
+matgen_rester.egg-info/requires.txt
+matgen_rester.egg-info/top_level.txt
