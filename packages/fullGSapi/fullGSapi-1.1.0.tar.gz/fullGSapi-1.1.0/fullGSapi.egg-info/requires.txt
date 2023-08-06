@@ -1,0 +1,10 @@
+cryptography
+beautifulsoup4
+py-mini-racer
+requests
+pyyaml
+getpass
+
+[cli]
+click
+tqdm
