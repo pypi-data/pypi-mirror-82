@@ -1,0 +1,60 @@
+Metadata-Version: 1.2
+Name: django-settings-local
+Version: 0.1.7
+Summary: Manage Django Local Settings
+Home-page: https://github.com/fasih/django-settings-local
+Author: Fasih Ahmad Fakhri
+Author-email: fasih@email.com
+License: GPL-3.0
+Download-URL: https://github.com/fasih/django-settings-local/archive/0.1.7.tar.gz
+Description: .. role:: python(code)
+           :language: python
+        
+        ####################################################
+        django-settings-local - Manage Django Local Settings
+        ####################################################
+        
+        .. image:: https://badge.fury.io/py/django-settings-local.svg
+                :target: http://badge.fury.io/py/django-settings-local
+        
+        *****
+        Usage
+        *****
+        
+        0. Installation
+        ===============
+        
+        The preferred instalation method is directly from pypi:
+        
+        .. code:: console
+        
+           pip install -U django-settings-local
+        
+        
+        1. Quickstart
+        =============
+        
+        In your Django project app directory:
+        
+        .. code:: console
+        
+           dsl
+           
+        2. Quickhelp
+        =============
+        
+        Quick help from simple console script:
+        
+        .. code:: console
+        
+           dsl -h
+        
+Keywords: django,local,settings
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
