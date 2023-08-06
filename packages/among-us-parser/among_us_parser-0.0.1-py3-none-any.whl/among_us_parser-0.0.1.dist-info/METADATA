@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: among-us-parser
+Version: 0.0.1
+Summary: A parser for the game among us, that the games network packets
+Home-page: https://github.com/RedstoneMedia/among-us-parser-python
+Author: RedstoneMedia
+License: GNU General Public License v3.0
+Keywords: parser network packets among-us AmongUs
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: python-pcapng (>=1.0)
+
+# Among us python packet parser
+
+This module should parse network packets from the game among us
+
+### Notice
+
+Not many packet types are parsed yet.
+
+If you wan't to contribute. You can fork this and then make a pull request.
+
+I will gladly accept any pull request if they makes sense and don't completely change the structure of this codebase, for no reason.
+
