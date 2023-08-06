@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+fusiondirectory_api/__init__.py
+fusiondirectory_api/fusiondirectory_api.py
+fusiondirectory_api.egg-info/PKG-INFO
+fusiondirectory_api.egg-info/SOURCES.txt
+fusiondirectory_api.egg-info/dependency_links.txt
+fusiondirectory_api.egg-info/requires.txt
+fusiondirectory_api.egg-info/top_level.txt
