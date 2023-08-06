@@ -1,0 +1,4 @@
+pyserial<4,>=3.4
+
+[:platform_system == "Windows"]
+beautifultable==1.0.0colorama
