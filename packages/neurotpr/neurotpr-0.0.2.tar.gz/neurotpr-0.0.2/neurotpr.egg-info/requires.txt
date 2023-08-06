@@ -1,0 +1,5 @@
+tensorflow
+keras
+tensorflow-hub
+emoji
+nltk
