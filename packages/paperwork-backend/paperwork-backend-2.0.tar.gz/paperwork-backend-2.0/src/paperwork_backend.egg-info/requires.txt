@@ -1,0 +1,9 @@
+Pillow
+Whoosh
+distro
+openpaperwork-core
+pycountry
+pyocr
+pypillowfight>=0.3.0
+python-Levenshtein
+simplebayes
