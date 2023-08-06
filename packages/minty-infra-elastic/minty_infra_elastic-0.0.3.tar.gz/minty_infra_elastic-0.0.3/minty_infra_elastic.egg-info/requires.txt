@@ -1,0 +1,2 @@
+minty~=1.6
+elasticsearch<8.0.0,>=7.0.0
