@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "zia"
+version = "0.1.3"
+description = "Zscaler Internet Access CLI"
+readme = "README.md"
+authors = ["omitroom13"]
+homepage = "https://github.com/omitroom13"
+repository = "https://github.com/omitroom13/zia"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.24.0"
+PyYAML = "^5.3.1"
+fire = "^0.3.1"
+
+[tool.poetry.scripts]
+zia = "zia.__main__:main"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
