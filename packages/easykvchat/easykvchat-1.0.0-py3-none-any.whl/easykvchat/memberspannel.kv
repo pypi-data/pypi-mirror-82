@@ -1,0 +1,35 @@
+#:kivy 2.0.0
+
+#:import MemberName easykvchat.memberspannel.MemberName
+#:import MembersPannel easykvchat.memberspannel.MembersPannel
+
+<MemberName>:
+    size_hint: (1, None)
+    height: mm(8)
+    text_size: self.size
+    halign: "left"
+    color: (.8, .8, .8, 1)
+
+<MembersPannel>:
+    orientation: "vertical"
+    list: list
+    canvas.before:
+        Color:
+            rgb: .1, .1, .1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Label:
+        size_hint: (1, None)
+        height: mm(10)
+        text_size: self.size
+        halign: "left"
+        padding: (mm(3), 0)
+        bold: True
+        font_size: mm(6.5)
+        color: (.8, .8, .8, 1)
+        text: "Membres :"
+    StackLayout:
+        id: list
+        padding: [mm(8), 0, 0, 0]
+        spacing_vertical: mm(1)

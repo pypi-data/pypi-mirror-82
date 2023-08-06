@@ -1,0 +1,17 @@
+easykvchat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easykvchat/main.py,sha256=kCJM_IL6xwK7YL2oOGczaqii44aksNk8F1SGCX_c8aw,898
+easykvchat/memberspannel.kv,sha256=OhSmblB6ALLP77BOtqaD5K1fWBswcHhBFX3ri-Swwso,803
+easykvchat/memberspannel.py,sha256=m4JBjXJGeeDeNUf9qBcNuTpEH0OIFNAKfn4QnP4QZrs,195
+easykvchat/roomlogs.kv,sha256=9tBero7X2IXiEUMs12IRTB-s5shZDMQlDQscRhHGUkA,695
+easykvchat/roomlogs.py,sha256=D_SUM_XmSbPYKhI2s8c5Vq66YjSwvZ4UBASFeMbqczc,286
+easykvchat/client/app.py,sha256=lQALhAk-lc3UdNJfvAL2x1pWVZNqRRn8OgZXoGY3lbM,6246
+easykvchat/client/client.kv,sha256=fiUlsigcM0z9ZnFimQ03FBLgxT9j4m3BEVm0Si_juP8,2901
+easykvchat/client/network.py,sha256=BbLcGJx-e3lyrGc0Qz8MR0w7HATL2hJdCY6G_1rCYDE,3931
+easykvchat/server/app.py,sha256=b2oPWlfvzqtsvcV8bXWoEkpaIgRy4TWYDCrPOTz987k,1751
+easykvchat/server/network.py,sha256=IP7SUEDveuzuZo6BlKuDW5AxiuGyi8R0vUbUSxvnh1o,3435
+easykvchat/server/server.kv,sha256=pZBDwtquO73kE48WOHLZoP6PfJZ75aym9YEWCzDptD4,277
+easykvchat-1.0.0.dist-info/LICENSE,sha256=5PkBom0F_Ba8-iMURzfLFiLtmMItVK9ZqdFuQKqMR58,1051
+easykvchat-1.0.0.dist-info/METADATA,sha256=uJl0JY7FiMcCMZbHlcKOz_F_oLIhzIBPX_xcLI6ESAg,1047
+easykvchat-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+easykvchat-1.0.0.dist-info/top_level.txt,sha256=HC3vmBPkElJVA0KyViud9r46KCgVM2asgZmBl3tJ-zM,11
+easykvchat-1.0.0.dist-info/RECORD,,
