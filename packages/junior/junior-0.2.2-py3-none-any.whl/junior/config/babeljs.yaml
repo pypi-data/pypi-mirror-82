@@ -1,0 +1,11 @@
+comments: false
+
+plugins:
+  - '@babel/plugin-transform-runtime'
+
+presets:
+  -
+    - '@babel/env'
+  -
+    - minify
+    - mangle: false
