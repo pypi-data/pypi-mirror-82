@@ -1,0 +1,10 @@
+copybook/__init__.py,sha256=PojSDD4r9BLhKhZ4VzPWCVFuKkr8s2WialFb633di3U,131
+copybook/copybook.py,sha256=Kw1J5HvJqhTFuMkOWdsiyeH64lp7ifG0LydOEhkm03E,1195
+copybook/field.py,sha256=05WP2Zq7PisejMG1C-eb1_FrXCO9Afca-04DGKXP35E,2070
+copybook/field_group.py,sha256=IRNEFuYa5Z3Qvh_DuuzcZGVAMfooT9-qaasVPa5zHiQ,443
+copybook/parser.py,sha256=iiLpqbBesMFVZIbULbftVTd8ye0Rd7WyXvpRt5rxoGM,2497
+copybook-1.0.1.dist-info/LICENSE.txt,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+copybook-1.0.1.dist-info/METADATA,sha256=bEjwBXHfdst1f6pAAF55zNMY1v0b7NQZRqtKDknPpu0,1683
+copybook-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+copybook-1.0.1.dist-info/top_level.txt,sha256=M4CPy3H9xXsdKIcSpecUfk3eXDUnXJ8m25H7A8xGofI,9
+copybook-1.0.1.dist-info/RECORD,,
