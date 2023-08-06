@@ -1,0 +1,13 @@
+_kiwipiepy.cp35-win32.pyd,sha256=UDYSUa6tLeQsjZBalh3FwGJVe6XRCz3re7nHHhhhVdk,619008
+kiwipiepy/__init__.py,sha256=es0uf99sJ5CRxFSuFSSnBLuEeN_4OtZqlF5coUfFcq0,1830
+kiwipiepy/__main__.py,sha256=z-l3Ori5zJqDOeOfSOnpYzBJsT2XPMWpu2OqAlI5t5I,188
+kiwipiepy/default.dict,sha256=IMOVRVtCtNiKq74R2VEcQS7giONaYxcM2viWi1VX3KQ,2595730
+kiwipiepy/documentation.rst,sha256=vaDfvIQeSInlUcpNX13wBlBfac34SxVhePWEqZ4lw78,17523
+kiwipiepy/extract.mdl,sha256=oMkv_AUeQ65JeEXNuNTIueLzWYk8tVxnJ5x20dUx7hc,17370
+kiwipiepy/sj.lang,sha256=2yFKTQXBT8HGoEdylqjRxPVWPw4Kix8L01sxK3-e0gU,61994077
+kiwipiepy/sj.morph,sha256=mz2sNX49yPo3q0efEYbLiQJrsi90KCq_ipiaP-Xrm3I,2777420
+kiwipiepy-0.8.2.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kiwipiepy-0.8.2.dist-info/METADATA,sha256=0Nw4AW7NIilS3JPRDZ0eKhLwi5fZ24ahkKWUWUNfeS0,886
+kiwipiepy-0.8.2.dist-info/WHEEL,sha256=-rTg6LWut4ntqX_CQuQ69jO8szxa_5x3QK4tByU6RZo,102
+kiwipiepy-0.8.2.dist-info/top_level.txt,sha256=2K_Miiwb0zKgJI99sA9LkDdzftl4hunBQbpA20gfeU8,21
+kiwipiepy-0.8.2.dist-info/RECORD,,
