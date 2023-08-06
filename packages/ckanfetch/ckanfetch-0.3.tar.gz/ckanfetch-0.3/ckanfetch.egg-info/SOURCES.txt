@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+ckanfetch/__init__.py
+ckanfetch/cli.py
+ckanfetch.egg-info/PKG-INFO
+ckanfetch.egg-info/SOURCES.txt
+ckanfetch.egg-info/dependency_links.txt
+ckanfetch.egg-info/entry_points.txt
+ckanfetch.egg-info/namespace_packages.txt
+ckanfetch.egg-info/requires.txt
+ckanfetch.egg-info/top_level.txt
