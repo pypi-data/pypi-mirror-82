@@ -1,0 +1,2 @@
+genericclient-aiohttp<1.5,>=1.4.2
+genericclient<1.5,>=1.4.2
