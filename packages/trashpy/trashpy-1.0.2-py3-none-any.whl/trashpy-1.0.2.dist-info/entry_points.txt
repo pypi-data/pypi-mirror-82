@@ -1,0 +1,3 @@
+[console_scripts]
+trashpy=trashpy.main:main
+
