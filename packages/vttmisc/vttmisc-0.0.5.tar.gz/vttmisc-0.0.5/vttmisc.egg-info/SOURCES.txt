@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+vttmisc/__init__.py
+vttmisc/__main__.py
+vttmisc/tsi1.py
+vttmisc/tsic.py
+vttmisc.egg-info/PKG-INFO
+vttmisc.egg-info/SOURCES.txt
+vttmisc.egg-info/dependency_links.txt
+vttmisc.egg-info/requires.txt
+vttmisc.egg-info/top_level.txt
