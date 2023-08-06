@@ -1,0 +1,48 @@
+Debug info:
+* implement file entry data stream interface
+** add extents overflow support
+** handle file records without a data fork
+* add support for resource fork data stream
+* add support for file_mode
+** implement permissions
+* get_file_entry_by_path determine unicode form
+* Retrieve the volume name from the root directory entry
+* split HFS and HFS+ documentation?
+
+Format support:
+* implement HFS support
+* implement support for file information
+* implement support for extended file information
+* implement support for folder information
+* implement support for extended folder information
+* debug print text encoding hint
+* implement LZVN compression support
+
+20160605
+* see `git log' for more recent change log
+* worked on format support
+
+20160604
+* worked on format support
+
+20160603
+* worked on format support
+
+20160228
+* worked on format support
+
+20160227
+* worked on format support
+
+20160226
+* worked on format support
+
+20160220
+* worked on format support
+
+20160217
+* 2016 update
+
+20090212
+* Initial version
+
