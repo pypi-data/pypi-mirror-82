@@ -1,0 +1,17 @@
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+statistically/__init__.py
+statistically/output.py
+statistically/stat.py
+statistically/statistically.py
+statistically.egg-info/PKG-INFO
+statistically.egg-info/SOURCES.txt
+statistically.egg-info/dependency_links.txt
+statistically.egg-info/entry_points.txt
+statistically.egg-info/top_level.txt
+statistically.egg-info/zip-safe
