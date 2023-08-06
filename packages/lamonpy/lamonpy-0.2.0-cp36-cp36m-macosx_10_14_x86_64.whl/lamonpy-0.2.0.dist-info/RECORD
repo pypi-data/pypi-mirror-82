@@ -1,0 +1,11 @@
+_lamonpy.cpython-36m-darwin.so,sha256=lN90vX4aLINDd3R5OoAOAUqU9TebqIHtjsQ5-phM0Vg,388972
+_lamonpy_avx.cpython-36m-darwin.so,sha256=BGt2fjN9YVbyT_2NFwYwaiwSi18rvOl0sjYniPaXU4E,395108
+_lamonpy_avx2.cpython-36m-darwin.so,sha256=i3I96SEwpXsW6l85AJptvZ-5Nh0UCQ6hgmSoDTHpIxE,395116
+lamonpy/__init__.py,sha256=7lKRqi6yE6MCKQrMRSuxKzmfiG2G0vqIOuUM01TDgdo,1163
+lamonpy/dict.bin,sha256=yNaofu8XCrAqy6WRAtaT7rIzUGj3diP6bol2vONP3GM,30832786
+lamonpy/tagger.bin,sha256=8sf4kDOH3ARCcvRfq2yk0bwVDhKzIeJ-3z3_nMucTbQ,34177920
+lamonpy-0.2.0.dist-info/LICENSE,sha256=nUEy7XUeSX5_06dlShf16SYFo6S_X7FXwU7EGaIpv5k,1056
+lamonpy-0.2.0.dist-info/METADATA,sha256=EgGFR3vnZIaHl0iu-Ftd2bKf51y41t9of7aQCHubkMI,8279
+lamonpy-0.2.0.dist-info/WHEEL,sha256=qB0lnwHqdZMoyqmBZPGqIfTX22K2Cfuos1TEfkfdqqI,111
+lamonpy-0.2.0.dist-info/top_level.txt,sha256=2tmvpj7UFIO5Po6O1SiZMXV_yRHbQn8SA4guLmQf84w,44
+lamonpy-0.2.0.dist-info/RECORD,,
