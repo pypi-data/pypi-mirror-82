@@ -1,0 +1,14 @@
+neurotpr/ELMo.py,sha256=Uip4aBgtQJpZk4IBD0FtbZq1rxLeYlvIFtCPJ5TZUco,1353
+neurotpr/NeuroTPR.py,sha256=vYAOSghqREXf7ETjF5J9HUFBBCub0vGVnPkgpLPy0nE,2536
+neurotpr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neurotpr/add_lin_features.py,sha256=amcKD3KJxaOx9qVKvvsjKQFGu4RBmr6ja3hd0EHHkcE,3056
+neurotpr/geoparse.py,sha256=MfAzWCec7K_LU7RdUBtgWWXmMkqY2SLlPzrfaurrVA4,7797
+neurotpr/geoparse_dataset.py,sha256=laM0yH81BVFvUwzrcvPeTh4ygPiSsM1JZQ3dBnKm4T0,3952
+neurotpr/prediction_pre.py,sha256=bnW4ynjL-Gbb6IpbUOd1HtYYTDGtSDjGFR7R4nwLUb8,4209
+neurotpr/preprocess.py,sha256=XciA9XeIzhcg0NtyFIHDFC2H1FTsgJnnXHxLS2Wfu8E,4148
+neurotpr/train.py,sha256=msIeyDI76SE1yLVeRam8rtSdeogBmfQBdTbwX80M1eQ,7172
+neurotpr-0.0.3.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+neurotpr-0.0.3.dist-info/METADATA,sha256=_JedDP5jUJomixvmSO_ddxhfUpnOfRWfeBa3kOAddC0,5642
+neurotpr-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+neurotpr-0.0.3.dist-info/top_level.txt,sha256=15sa-XQJe0EhvfJKZaIvfa26lJUHfZt1FPj4r-O9jaw,9
+neurotpr-0.0.3.dist-info/RECORD,,
