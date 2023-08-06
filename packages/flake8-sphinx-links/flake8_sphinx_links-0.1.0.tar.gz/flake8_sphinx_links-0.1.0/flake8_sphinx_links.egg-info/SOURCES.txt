@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+__pkginfo__.py
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+flake8_sphinx_links/__init__.py
+flake8_sphinx_links/py.typed
+flake8_sphinx_links.egg-info/PKG-INFO
+flake8_sphinx_links.egg-info/SOURCES.txt
+flake8_sphinx_links.egg-info/dependency_links.txt
+flake8_sphinx_links.egg-info/entry_points.txt
+flake8_sphinx_links.egg-info/not-zip-safe
+flake8_sphinx_links.egg-info/requires.txt
+flake8_sphinx_links.egg-info/top_level.txt
