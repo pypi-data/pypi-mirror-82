@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+area_code_nanp/__init__.py
+area_code_nanp/data/nanp.json
+py_area_code_nanp.egg-info/PKG-INFO
+py_area_code_nanp.egg-info/SOURCES.txt
+py_area_code_nanp.egg-info/dependency_links.txt
+py_area_code_nanp.egg-info/top_level.txt
