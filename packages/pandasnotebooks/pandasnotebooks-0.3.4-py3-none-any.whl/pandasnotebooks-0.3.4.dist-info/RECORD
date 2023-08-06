@@ -1,0 +1,8 @@
+pandasnotebooks/__init__.py,sha256=b5LjZldBOgERDCSQXCasW9DWOg1OAkzEJLQeBLbpa3s,190
+pandasnotebooks/_filter.py,sha256=S1gpKTyqlnYIBS91YnDC1YTe_8mMu-GT9_-F_QuvtcY,3436
+pandasnotebooks/_latex.py,sha256=se1zlwKNm03_N2r13aF-uYHiUEYNrwFeBll6lM_59tc,10092
+pandasnotebooks/_loader.py,sha256=WkxB8eNs2WW066iWBTz5I6yQXaWALlZdeGHLPCIaalk,3195
+pandasnotebooks/_plot.py,sha256=3eTar24jbII2ufX5-8VF5C6sAaWHO_rU6LIyl0Mcesw,5634
+pandasnotebooks-0.3.4.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+pandasnotebooks-0.3.4.dist-info/METADATA,sha256=zoM1Ja1d1LQ6GhtwY5VmMpsmBuG9_iSZWmdq_4MyIiE,601
+pandasnotebooks-0.3.4.dist-info/RECORD,,
