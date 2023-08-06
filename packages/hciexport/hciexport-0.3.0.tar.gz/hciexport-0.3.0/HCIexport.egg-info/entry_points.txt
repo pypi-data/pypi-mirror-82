@@ -1,0 +1,3 @@
+[console_scripts]
+hciexport = hci.__main__:main
+
