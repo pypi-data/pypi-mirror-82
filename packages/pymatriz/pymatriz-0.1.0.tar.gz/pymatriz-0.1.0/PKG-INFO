@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pymatriz
+Version: 0.1.0
+Summary: Python connector for Primary DMA (Matriz) Rest and Websocket APIs.
+Home-page: UNKNOWN
+Author: Guillermo Gallo
+Author-email: ggallohernandez@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Software Development
