@@ -1,0 +1,91 @@
+stages:
+  - prepare
+  - test
+  - build
+  - publish
+
+variables:
+  CI_DOCKER_IMAGE: "{{ cookiecutter.docker_namespace }}/{{ cookiecutter.ci_image_name }}"
+
+## Prepare ##
+build-ci-image:
+  image: docker:latest
+  services: &docker-service
+    - name: docker:dind
+      command: ["--experimental"]
+  stage: prepare
+  before_script:
+    - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USER" --password-stdin
+  after_script:
+    - docker logout
+  script:
+    - >
+      docker build
+      --cache-from "$CI_DOCKER_IMAGE:ci-$CI_COMMIT_REF_SLUG"
+      -t "$CI_DOCKER_IMAGE:ci-$CI_COMMIT_REF_SLUG"
+      -f ci/Dockerfile
+      .
+    - docker push "$CI_DOCKER_IMAGE:ci-$CI_COMMIT_REF_SLUG"
+
+## Test ##
+lint-code: &test-stage-job
+  image: &ci-image
+    name: "$CI_DOCKER_IMAGE:ci-$CI_COMMIT_REF_SLUG"
+    entrypoint: [""]
+  stage: test
+  before_script:
+    - poetry install
+  script:
+    - pydev lint
+
+test-code:
+  <<: *test-stage-job
+  script:
+    - pydev test
+  artifacts:
+    paths:
+      - docs/coverage-report/
+
+## Build ##
+build-package: &build-job
+  image: *ci-image
+  stage: build
+  before_script:
+    - poetry install
+  script:
+    - pydev build --no-docs
+  artifacts:
+    paths:
+      - dist/
+
+build-docs:
+  image: *ci-image
+  stage: build
+  before_script:
+    - poetry install
+    - poetry add --dev pydev-cli@latest -E docs
+  script:
+    - pydev build --no-package
+  artifacts:
+    paths:
+      - dist/docs/
+
+## Publish ##
+publish-package:
+  image: *ci-image
+  stage: publish
+  before_script:
+    - poetry config pypi-token.pypi "$PYPI_TOKEN"
+  script:
+    - poetry publish
+  when: manual
+
+pages:
+  image: alpine:latest
+  stage: publish
+  script:
+    - mv dist/docs/ public/
+  artifacts:
+    paths:
+      - public/
+  when: manual
