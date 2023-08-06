@@ -1,0 +1,14 @@
+Django>=2.2
+djangorestframework>=3.12.1
+django-filter>=2.4.0
+
+[dev]
+pytest
+pytest-black
+pytest-isort
+pytest-django
+pytest-cov
+pytest-flake8
+sphinx
+sphinx-rtd-theme
+factory-boy
