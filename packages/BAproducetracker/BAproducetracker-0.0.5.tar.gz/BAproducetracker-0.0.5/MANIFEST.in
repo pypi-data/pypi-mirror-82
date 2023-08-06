@@ -1,0 +1,8 @@
+include *.py
+include *.txt
+include *.md
+include *.kv
+include *.db
+include *.png
+include android_app/*
+include pytesseract/*
