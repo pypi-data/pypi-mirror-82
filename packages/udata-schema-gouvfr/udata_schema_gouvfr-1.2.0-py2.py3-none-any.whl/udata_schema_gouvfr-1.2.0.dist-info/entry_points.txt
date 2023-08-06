@@ -1,0 +1,6 @@
+[udata.tasks]
+schema-gouvfr = udata_schema_gouvfr.tasks
+
+[udata.views]
+schema-gouvfr = udata_schema_gouvfr.views
+
