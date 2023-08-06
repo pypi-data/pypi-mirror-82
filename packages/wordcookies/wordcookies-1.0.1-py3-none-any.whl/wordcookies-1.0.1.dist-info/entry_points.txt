@@ -1,0 +1,3 @@
+[console_scripts]
+wordcookies = wordcookies.__main__:main
+
