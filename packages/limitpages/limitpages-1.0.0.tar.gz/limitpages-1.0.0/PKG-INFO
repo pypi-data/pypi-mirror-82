@@ -1,0 +1,45 @@
+Metadata-Version: 1.2
+Name: limitpages
+Version: 1.0.0
+Summary: Papermerge App to limit number of uploaded documents
+Home-page: https://papermerge.com/
+Author: Eugen Ciur
+Author-email: eugen@papermerge.com
+License: Apache 2.0 License
+Description: Papermerge LimitPages Plugin/App
+        =================================
+        
+        App/Plugin for [Papermerge DMS](https://github.com/ciur/papermerge).
+        Designed as Django reusable app. When used, will limit number of pages of uploaded documents to
+        values specified by settings.LIMITPAGES_MAX_PAGES (15 by default).
+        
+        ## Requirements
+        
+        Depends on:
+        
+            * papermerge.core
+        
+        
+        ## Installation
+        
+        Install it using pip::
+            
+            pip install limitpages
+        
+        Add app to INSTALLED_APPS in settings.py:
+        
+            INSTALLED_APP = (
+            ...
+            'limitpages',
+            ...
+            )
+        
+        Add in settings.py:
+        
+            LIMITPAGES_MAX_PAGES = 13
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
