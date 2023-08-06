@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mbf_genomics
+Version: 0.3
+Summary: All about intervals on genomic data
+Home-page: https://github.com/TyberiusPrime/mbf_genomics
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Description: # mbf_genomics
+        
+        Genomic interval handling on steroids.
+        
+        
+        Part of the mbf_* suite from https://github.com/IMTMarburg
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Provides-Extra: testing
