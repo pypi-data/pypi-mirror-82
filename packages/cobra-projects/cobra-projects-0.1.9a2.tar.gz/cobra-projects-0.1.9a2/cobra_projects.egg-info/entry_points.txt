@@ -1,0 +1,3 @@
+[console_scripts]
+cobra = src.cobra.controller:entry_point
+
