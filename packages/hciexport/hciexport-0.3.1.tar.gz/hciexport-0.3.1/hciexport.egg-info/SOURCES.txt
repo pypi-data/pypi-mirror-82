@@ -1,0 +1,11 @@
+CHANGELOG.rst
+DESCRIPTION.rst
+MANIFEST.in
+README.rst
+setup.py
+hciexport.egg-info/PKG-INFO
+hciexport.egg-info/SOURCES.txt
+hciexport.egg-info/dependency_links.txt
+hciexport.egg-info/entry_points.txt
+hciexport.egg-info/requires.txt
+hciexport.egg-info/top_level.txt
