@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: arbaz
+Version: 1.1.1
+Summary: Analysis between Sales vs Time by accessing google sheet from google drive
+Home-page: https://github.com/ArbazKhan7/Greendeck-Task2
+Author: Arbaz Khan
+Author-email: arbazkhanak7777@gmail.com
+License: MIT
+Description: Understand and implement the Gsheets Library to read a sheet.
+        Create graph between Average_sales Vs TimeStamp.
+        Bundling the python Library in packages and host on Pypi.
+        
+        
+        - Greendeck Assisgnmnet 
+        - Task 2
+        
+        
+        gsheets is a small wrapper around the Google Sheets API (v4) to provide more convenient access to Google Sheets from Python scripts.
+        
+        Turn on the API, download an OAuth client ID as JSON file, and create a Sheets object from it. Use its index access (sheet.get_all_records()) to retrieve SpreadSheet objects by their id, or use .get() with a sheet URL. Iterate over the Sheets object for all spreadsheets, or fetch spreadsheets by title with the .find() and .findall() methods.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8

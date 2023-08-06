@@ -1,0 +1,8 @@
+
+- Greendeck Assisgnmnet 
+- Task 2
+
+
+gsheets is a small wrapper around the Google Sheets API (v4) to provide more convenient access to Google Sheets from Python scripts.
+
+Turn on the API, download an OAuth client ID as JSON file, and create a Sheets object from it. Use its index access (sheet.get_all_records()) to retrieve SpreadSheet objects by their id, or use .get() with a sheet URL. Iterate over the Sheets object for all spreadsheets, or fetch spreadsheets by title with the .find() and .findall() methods.

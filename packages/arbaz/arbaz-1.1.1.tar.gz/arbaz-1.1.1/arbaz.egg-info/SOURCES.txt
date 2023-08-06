@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+arbaz/main.py
+arbaz.egg-info/PKG-INFO
+arbaz.egg-info/SOURCES.txt
+arbaz.egg-info/dependency_links.txt
+arbaz.egg-info/top_level.txt
