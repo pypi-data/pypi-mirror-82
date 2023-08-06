@@ -1,0 +1,11 @@
+android_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+android_app/app.py,sha256=VkqeJYBYWVnZ-r9azI3G6sZExf-f-9mSrgXT-JkxAKI,7749
+android_app/database.py,sha256=2OyqkKMRE9ti_IKjWz6d3OUMQ7ZQhwX9lvQ0ZDz7Qhs,18771
+android_app/scraper.py,sha256=kcQWOa6lbDr9pKOzTQaRvt925edzAwTiAbX3JSyLd04,3634
+android_app/test_database.py,sha256=3SkFfxoEqcYm2SgTu9tVLP7T5aK6Ii9a02YQu6TDmbA,1921
+android_app/utilities.py,sha256=d1cYQhPquoz2O0eHghef6yWo8QX8-ZD9Uclqd16egkc,2155
+pytesseract/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BAproducetracker-0.0.5.dist-info/METADATA,sha256=dc8wY2T2fBE4Uude6qCOq-Y6PoiHV3tulFH9nr-Me0E,1486
+BAproducetracker-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+BAproducetracker-0.0.5.dist-info/top_level.txt,sha256=oBsSzvFhBPLpnmbRckB9qHsE57Ba7nrBjBhgmIQ-05M,24
+BAproducetracker-0.0.5.dist-info/RECORD,,
