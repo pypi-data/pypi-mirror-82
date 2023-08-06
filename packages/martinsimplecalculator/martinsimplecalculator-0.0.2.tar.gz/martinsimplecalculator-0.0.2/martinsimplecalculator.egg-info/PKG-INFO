@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: martinsimplecalculator
+Version: 0.0.2
+Summary: a basic calculator
+Home-page: UNKNOWN
+Author: Martin Husby
+Author-email: martin.husby.dev@gmail.com
+License: MIT
+Description: This is a verry simple calculator.
+        
+        This is the difrent things you can do: (thiese commands are examples and after 'returns' there is what comes out after doing that command)
+        
+        add_num(1,1)  
+        returns 2
+        
+        subtract_num(2,1)
+        returns 1
+        
+        multiply_num(5,2)
+        returns 10
+        
+        divide_num(10,2)
+        returns 5
+        
+        exponent_num(2,10)
+        returns 1024
+        
+        Change Log
+        ==========
+        
+        0.0.2 (19/10/2020)
+        ------------------
+        -Added some more stuff to README
+        
+        0.0.1 (19/10/2020)
+        -------------------
+        - First Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/plain

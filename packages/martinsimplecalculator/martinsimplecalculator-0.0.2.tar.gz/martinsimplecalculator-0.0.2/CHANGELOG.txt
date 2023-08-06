@@ -1,0 +1,10 @@
+Change Log
+==========
+
+0.0.2 (19/10/2020)
+------------------
+-Added some more stuff to README
+
+0.0.1 (19/10/2020)
+-------------------
+- First Release
