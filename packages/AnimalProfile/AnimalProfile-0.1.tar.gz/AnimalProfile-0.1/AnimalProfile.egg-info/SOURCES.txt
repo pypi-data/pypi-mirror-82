@@ -1,0 +1,14 @@
+README.md
+setup.py
+AnimalProfile/File.py
+AnimalProfile/Profile.py
+AnimalProfile/Root.py
+AnimalProfile/__init__.py
+AnimalProfile.egg-info/PKG-INFO
+AnimalProfile.egg-info/SOURCES.txt
+AnimalProfile.egg-info/dependency_links.txt
+AnimalProfile.egg-info/requires.txt
+AnimalProfile.egg-info/top_level.txt
+AnimalProfile/session/__init__.py
+AnimalProfile/session/batchAnimals.py
+AnimalProfile/session/singleAnimal.py
