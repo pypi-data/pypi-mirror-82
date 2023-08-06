@@ -1,0 +1,17 @@
+cli2gui/__init__.py,sha256=xobAICPEmN6WZh2TAuVvtKNhsgCpkKYLoqRxtY1CFvA,34
+cli2gui/application/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli2gui/application/application.py,sha256=m8Rt8v6h51Snc6pTF9jada67-KlWuSPcEOZZTegyzWc,10569
+cli2gui/application/pysimplegui2args.py,sha256=Eq-PsptHPFLtHEQREwzYeA_u9GcnJn8_WIxX0x4j7xE,2097
+cli2gui/application/widgets.py,sha256=TGcenAwMFHHT86w2U-7ZdKN09AzKp8uVtBejt1BeGhU,6174
+cli2gui/c2gtypes.py,sha256=D9Eui4Seah4lfEI03ppzS1KQqyJM36xGEkDEEDk-ckU,1607
+cli2gui/decorators.py,sha256=UXrqx1g-7VMBDvKSbju6umaQ-0RiUT75mcyK7q2z3ak,9989
+cli2gui/tojson/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli2gui/tojson/argparse2json.py,sha256=hEpwnFYBKzeYf7J4GeQJD6J3UnAPgshgGpJ-vbGjFnA,6042
+cli2gui/tojson/click2json.py,sha256=YbjBNNgz9acBbx62usewpliuzDOwMZD5vFp7VLDaIoU,1988
+cli2gui/tojson/docopt2json.py,sha256=KNUNxcE3bPaBRJ7Jw_O-GJo-1otAUK5r1OnLbXKacQM,3652
+cli2gui/tojson/getopt2json.py,sha256=j7Bo14Zb1MSsX-Zg2sD6qIFDUgTf3XGcd8uaiNruy94,1898
+cli2gui/tojson/optparse2json.py,sha256=9cBJdhmRhO1AGTt4HvwZ_5A1gZ8uSnYMCuY8Rn7VQhY,2606
+cli2gui-2020.9.0.dist-info/LICENSE.md,sha256=QwDVAZXeUHp-Puna2W-YWo_vnnKy61R7IA6vLvPcCtI,1131
+cli2gui-2020.9.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+cli2gui-2020.9.0.dist-info/METADATA,sha256=nzZYajV81IZN73HF0LuY2HTFpF-Zf16wVONYn-dBSqI,14238
+cli2gui-2020.9.0.dist-info/RECORD,,
