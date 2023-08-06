@@ -1,0 +1,8 @@
+numpy
+sympy
+protobuf
+ipykernel
+pyzmq
+tornado
+sklearn
+ortools
