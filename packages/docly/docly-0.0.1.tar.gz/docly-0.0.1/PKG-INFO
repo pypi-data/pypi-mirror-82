@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: docly
+Version: 0.0.1
+Summary: Generate docstrings for your python functions. Automatically!
+Home-page: https://github.com/autosoft-dev/docly
+Author: CodistAI
+Author-email: shubhadeep@codist-ai.com
+License: MIT
+Description: # docly
+        
+        [![parser: tree-hugger](https://img.shields.io/badge/parser-tree--hugger-lightgrey)](https://github.com/autosoft-dev/tree-hugger/)
+        
+        Automatically generate docstrings for your python functions
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
