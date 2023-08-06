@@ -1,0 +1,8 @@
+pegasusapp/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pegasusapp/main.py,sha256=S-J9zV1BRbVaawOgOXpch6S52NhUGN14M6DXkMy45lo,1531
+pegasusapp/train.py,sha256=unHb2jFbVonpx488lFc9Hv2oZ6BrsVUUY3spheKttVE,1876
+pegasusapp/utils.py,sha256=hrLc7vQGXlnTrZvdu8nhnnVpTYlUydRLQdeto1NqaA4,575
+pegasusapp-0.1.9.dist-info/entry_points.txt,sha256=EAOfETFxTa5PLyKmgzYc8wXwAy-MN3HjsUxR3AsAjPU,47
+pegasusapp-0.1.9.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pegasusapp-0.1.9.dist-info/METADATA,sha256=UUNdKYduqvOseHWBUCGgUtW2P-99jPFyZlxNdvDcXCU,558
+pegasusapp-0.1.9.dist-info/RECORD,,
