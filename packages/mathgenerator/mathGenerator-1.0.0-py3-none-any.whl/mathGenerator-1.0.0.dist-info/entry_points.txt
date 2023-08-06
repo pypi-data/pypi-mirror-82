@@ -1,0 +1,3 @@
+[console_scripts]
+mathGenerator = mathGenerator.mainGen:main
+
