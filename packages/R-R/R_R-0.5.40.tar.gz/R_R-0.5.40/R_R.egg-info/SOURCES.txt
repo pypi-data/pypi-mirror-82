@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+R_R/__init__.py
+R_R.egg-info/PKG-INFO
+R_R.egg-info/SOURCES.txt
+R_R.egg-info/dependency_links.txt
+R_R.egg-info/not-zip-safe
+R_R.egg-info/top_level.txt
