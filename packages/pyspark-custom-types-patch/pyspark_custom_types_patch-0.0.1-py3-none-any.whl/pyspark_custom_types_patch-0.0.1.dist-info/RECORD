@@ -1,0 +1,8 @@
+patches/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+patches/dataframe.py,sha256=vzZc1-Ijh2AOsHxYCTppeGV7EdMsPXEbCAbghsGBtO0,90958
+patches/types.py,sha256=K1LuWnftEGRAVq4Trcc-D7kawwpQ-CWuVkYbd_NsO9o,65996
+pyspark_custom_types_patch-0.0.1.dist-info/LICENSE,sha256=KOen6Uijm7Pssg0LV0kLmiGzHTTw6qE1quGbxNQWmLc,13452
+pyspark_custom_types_patch-0.0.1.dist-info/METADATA,sha256=_QB22TaCESbkAL5jgszVznAiuFZEWewNQzePXmYvYLs,2560
+pyspark_custom_types_patch-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyspark_custom_types_patch-0.0.1.dist-info/top_level.txt,sha256=w20__lHZChF42HRBsswx235XtqhhmLwbZTo_qPEonW8,8
+pyspark_custom_types_patch-0.0.1.dist-info/RECORD,,
