@@ -1,0 +1,12 @@
+src/animals.py,sha256=KpYvDml5Ih8is2ib6vBq_FdZgkLhaONmdbZDnjBQGrQ,9615
+src/automatic_testing.py,sha256=vcjnFbjNJo4dq84LO87zL9U5MR3MEwsI8piuaBJ1q6A,9537
+src/data_analyzer.py,sha256=kVLdDpuLxwpjrnXz5AWzRdGwoqQL8stnRpJR61N0m3A,1460
+src/data_grouper.py,sha256=wtNHK8WN0oX7WElfKYafe-OtM1liCZnprNVT1S_vdkE,2620
+src/environment.py,sha256=ITUf8RKLRaMzc753oDC5CC3E2jwpiAXV-JQxwsDyiTg,9913
+src/interactive.py,sha256=8e4QtKDed2v_3QIY_jl_KuCBBSp4H_ti9fM3DkrWSu8,2044
+src/interactive_graphics.py,sha256=u3MgZOWfS2McEzio_hMqbbGrocVpfm-duiTY5Xk-wZ4,856
+evolution_simulator-0.1.dist-info/METADATA,sha256=0Phc-zSE_LulK60XUdNy_j49eXwR8NlM_rQ6pNGvTVY,3421
+evolution_simulator-0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+evolution_simulator-0.1.dist-info/entry_points.txt,sha256=Q1foJibklqn5g2XgktJHOuEJSc3VabxgmebYYJukcAQ,44
+evolution_simulator-0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+evolution_simulator-0.1.dist-info/RECORD,,
