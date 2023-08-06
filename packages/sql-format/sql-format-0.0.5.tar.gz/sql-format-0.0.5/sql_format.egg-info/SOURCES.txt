@@ -1,0 +1,9 @@
+README.md
+setup.py
+sql_format/__init__.py
+sql_format/__main__.py
+sql_format.egg-info/PKG-INFO
+sql_format.egg-info/SOURCES.txt
+sql_format.egg-info/dependency_links.txt
+sql_format.egg-info/entry_points.txt
+sql_format.egg-info/top_level.txt
