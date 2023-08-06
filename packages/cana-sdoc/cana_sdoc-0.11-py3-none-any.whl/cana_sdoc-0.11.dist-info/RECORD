@@ -1,0 +1,8 @@
+sdoc/__init__.py,sha256=gQ6trXUpZqsjZDta14p7CEeScHUdoXI509Nb-V8WjXA,23
+sdoc/core.py,sha256=2iazy-TshQbeQd0feVrtX0gCwdwDnLxk1tOFXe12Xjo,9733
+sdoc/data/sdoc.h5,sha256=uKYArEMsR8yO93Npbw80BpRl_jvR4EhpdYmGLLMdn7E,360752
+cana_sdoc-0.11.dist-info/LICENSE,sha256=ecHoPfP-3bhYWgvtlEm2lr-rsP85ToSIRFHZkv-JZ5E,1069
+cana_sdoc-0.11.dist-info/METADATA,sha256=7tTGFGF4Mqguw4i72mPoSI8BDqSd0xaXgTGow7FzTew,390
+cana_sdoc-0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cana_sdoc-0.11.dist-info/top_level.txt,sha256=l02Wdt-LDb_xwSF0q98FPnNaBsfqekJXFKN_MhPBaH8,5
+cana_sdoc-0.11.dist-info/RECORD,,
