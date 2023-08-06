@@ -1,0 +1,6 @@
+README.md
+whalebuilder.egg-info/PKG-INFO
+whalebuilder.egg-info/SOURCES.txt
+whalebuilder.egg-info/dependency_links.txt
+whalebuilder.egg-info/requires.txt
+whalebuilder.egg-info/top_level.txt
