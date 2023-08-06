@@ -1,0 +1,4 @@
+
+      [console_scripts]
+      isttomark = todoist_to_markdown.main:cli
+    
