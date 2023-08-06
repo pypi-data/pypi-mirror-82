@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+pygame_colliders/__init__.py
+pygame_colliders/base.py
+pygame_colliders/concave.py
+pygame_colliders/convex.py
+pygame_colliders/rect.py
+pygame_colliders/vector.py
+pygame_colliders.egg-info/PKG-INFO
+pygame_colliders.egg-info/SOURCES.txt
+pygame_colliders.egg-info/dependency_links.txt
+pygame_colliders.egg-info/not-zip-safe
+pygame_colliders.egg-info/top_level.txt
