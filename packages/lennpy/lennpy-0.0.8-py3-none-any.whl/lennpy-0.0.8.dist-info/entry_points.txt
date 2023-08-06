@@ -1,0 +1,3 @@
+[console_scripts]
+lennpy = lennpy.command_line:main
+
