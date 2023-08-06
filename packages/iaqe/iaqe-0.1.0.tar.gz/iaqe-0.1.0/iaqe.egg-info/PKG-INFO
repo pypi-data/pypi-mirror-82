@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: iaqe
+Version: 0.1.0
+Summary: Initate Alpha Quantiative Engine
+Home-page: UNKNOWN
+Author: Initiate Alpha
+Author-email: operations@initiatealpha.io
+License: © Initaite Alpha Corporation (IA). All Rights Reserved
+Description: 
+        IQAE - Initiate Alpha Quantitative Engine
+        =======
+        
+        Python based unified quantitative equity research engine
+        
+        For installation and getting started see iqae documentation in the doc folder
+        
+        Scrips
+        --------
+        A set of executables for running various functionality of "iqae" are at '\scripts\'. This includes, e.g. prepping the backtester by loading
+        historical calendar dates, calculating research universe, etc.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown

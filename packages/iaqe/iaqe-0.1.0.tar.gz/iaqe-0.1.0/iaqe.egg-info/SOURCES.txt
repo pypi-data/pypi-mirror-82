@@ -1,0 +1,8 @@
+README.md
+setup.py
+iaqe.egg-info/PKG-INFO
+iaqe.egg-info/SOURCES.txt
+iaqe.egg-info/dependency_links.txt
+iaqe.egg-info/entry_points.txt
+iaqe.egg-info/requires.txt
+iaqe.egg-info/top_level.txt
