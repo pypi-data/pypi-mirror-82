@@ -1,0 +1,10 @@
+pyserial
+colorama
+pyyaml
+psutil
+babel
+pillow
+tkfilebrowser
+
+[:sys_platform == "win32"]
+pywin32>=1.0
