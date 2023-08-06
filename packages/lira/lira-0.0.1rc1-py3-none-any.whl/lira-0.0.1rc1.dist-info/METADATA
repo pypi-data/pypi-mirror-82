@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: lira
+Version: 0.0.1rc1
+Summary: Tutorial interactivo de Python en tu terminal
+Home-page: UNKNOWN
+Author: Python Ecuador
+Author-email: ecuadorpython@gmail.com
+License: UNKNOWN
+Project-URL: Homepage, https://github.com/pythonecuador/pylearn/
+Project-URL: Source Code, https://github.com/pythonecuador/pylearn/
+Project-URL: Issue Tracker, https://github.com/pythonecuador/pylearn/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# lira
+
+Tutorial interactivo de Python en tu terminal.
+
+_Learn, Imagine, Repeat, Analize_
+
+## Características
+
+- Tutorial de línea de comandos (100% texto)
+- Multiplataforma
+- Fácil de instalar
+- Contenido para todos los niveles
+- Autocompletado (argumentos del programa)
+- Fácil de agregar nuevos tutoriales
+- Multi-idiomas, enfocado al español
+- Edita el código con tu editor de preferencia
+- Guardado de avance
+
+## No-Características
+
+- No es un tutorial de web
+- No tiene soporte para móvil
+- No tiene soporte para multiusuario
+- No es un editor o IDE para Python
+- No soporta otros lenguajes
+- No es un remplazo de Jupyter Notebook
+- No es un libro o documento de referencia
+
+## Ideas random a futuro
+
+- Compartir el score
+- Expandirse a otro tipo de tutoriales (física, matemática, estadística)
+- Modo contra reloj
+- Modo quiz
+
+
