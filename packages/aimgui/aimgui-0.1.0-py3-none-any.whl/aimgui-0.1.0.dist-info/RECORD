@@ -1,0 +1,15 @@
+aimgui/__init__.py,sha256=HL3wQ9qwvKwEldOi-dWzJbDWRsffQiE0d6RApwhwidk,19839
+aimgui/extra.py,sha256=2DIpmCD8tIfJLdauc739zXw6MeOo40TKUfPYj_sZ3Wk,3459
+aimgui/renderers/__init__.py,sha256=GSr3AjXrC7HeRxmApEkP_P9NBQ631jAkphDw68O9Qjg,404
+aimgui/renderers/arcade.py,sha256=XxBXVY9T_ytMsnslsMWkI1s2VZH4ZvLpho-3EKEbI0s,10177
+aimgui/renderers/base.py,sha256=pdMqmC8dN2JaiHS7R3qitU7UWD0cnhM2QdA6yC1TvvI,838
+aimgui/renderers/cocos2d.py,sha256=sER2H8JTUPbP3y1-PB__sE2sGi_gGVGueNfOtBPDV1Q,715
+aimgui/renderers/glfw.py,sha256=mshr98Nu1KQ-CKyb3BzhIKjvRC3wmdQjqrSvUYRRwls,4290
+aimgui/renderers/glumpy.py,sha256=6LeSyc8ZgZeMZs3nNFXE_0NhklvQUnggFRIeKLIPcgg,13282
+aimgui/renderers/opengl.py,sha256=LXitlyB-Er5jUvuf0-ndpZ4Lh5T6dGG0KbFvTAemG1Q,16272
+aimgui/renderers/pygame.py,sha256=cY1N6e31Iq_ZxD7Cx7sw_FKot8A2OHU8a1KuUK5UlBg,3686
+aimgui/renderers/pyglet.py,sha256=QhVDJf8MjJ9wAGLJVHV6TACWISkc3EEp9bgrwFyF29s,6843
+aimgui/renderers/sdl2.py,sha256=2A0RL84nsJ24DNDVEubYUnzKJIVvKy-YjjXPi-Zw9dk,4641
+aimgui-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+aimgui-0.1.0.dist-info/METADATA,sha256=k_AuqOiMuIt5Oo6PvGYpqG38FiGDfwiBDco8pAinD1c,295
+aimgui-0.1.0.dist-info/RECORD,,
