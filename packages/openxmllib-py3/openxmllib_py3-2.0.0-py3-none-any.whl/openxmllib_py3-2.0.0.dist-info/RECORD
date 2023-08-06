@@ -1,0 +1,15 @@
+openxmllib/__init__.py,sha256=kjQL8Nu_a97BV9SnkbkBY2soRAvzZzecQjnYkVaH_hA,2864
+openxmllib/contenttypes.py,sha256=FPetocpOHsW1f5nuUgjDj51gklnc0adIny_u4jV5W7o,5683
+openxmllib/document.py,sha256=fTFBlKhB8qKzXycEP9W_ZBsmpHyIotnCkhbFkAhF1Qo,9220
+openxmllib/namespaces.py,sha256=LA7dXrac5N-S_BLcflOJoH69NtHb6YQapFaE9ACiVpQ,1403
+openxmllib/presentation.py,sha256=1JOQa9wYevzlRCOxVrUYoJLJlb1Pj_h6qs8NhUOYQGM,1176
+openxmllib/shell.py,sha256=XXq8O6caMVKBMTRg2ZInrlJ953LV11whB5yzQRKFjoE,4887
+openxmllib/spreadsheet.py,sha256=9QVplRkIeMX1-ZmHDZtCT5HWL-U9tpKEjjAObrdfFZw,1133
+openxmllib/utils.py,sha256=pZTqkn35tgO1pPdCkDq3F1zJuDWhvlr-JWPY1ofVNTM,2241
+openxmllib/wordprocessing.py,sha256=qX4Ii1ONzoCxphWSWCLGMStViUbu-vFNp2QTvqOnl3U,1273
+openxmllib_py3-2.0.0.dist-info/COPYING,sha256=SdFcUdwOYuMo4zBoQ3TDZwrv7jN7gqeJXjcLWNZy-jY,15147
+openxmllib_py3-2.0.0.dist-info/METADATA,sha256=F34GfW7GwZwb1ppSoFs_PrKGOH-HQow5BdImzK-QFN4,9075
+openxmllib_py3-2.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+openxmllib_py3-2.0.0.dist-info/entry_points.txt,sha256=ICUMZGjO_p9OGW5qTKk3dkRoN4BnszRca0c4PL7knlw,62
+openxmllib_py3-2.0.0.dist-info/top_level.txt,sha256=xoJ2j665tj5IYwHUctRmXxXZgiqD-1YP5hQEXXkA2_U,11
+openxmllib_py3-2.0.0.dist-info/RECORD,,
