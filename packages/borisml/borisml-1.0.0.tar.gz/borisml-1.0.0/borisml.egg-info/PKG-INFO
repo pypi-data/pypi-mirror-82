@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: borisml
+Version: 1.0.0
+Summary: This package has been deprecated, please install lightly.
+Home-page: UNKNOWN
+Author: Philipp Wirth & Igor Susmelj
+Author-email: philipp@lightly.ai
+License: MIT
+Project-URL: Python Package, https://pypi.org/project/lightly/
+Project-URL: Documentation, https://lightly.readthedocs.io
+Project-URL: Lightly, https://www.lightly.ai
+Description: # borisml
+        
+        The `borisml` Python package has been renamed to `lightly` and is since deprecated.
+        
+        Please check out `lightly`:
+        * [PIP package](https://pypi.org/project/lightly/)
+        * [Documentation](https://lightly.readthedocs.io/en/latest/)
+        * [Github](https://github.com/lightly-ai/lightly)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
