@@ -1,0 +1,2 @@
+recursive-include customtimsort *.so *.h *.c.h *.d *.py
+recursive-include fold *.so *.h *.c.h *.d *.py
