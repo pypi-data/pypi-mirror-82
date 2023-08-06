@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+amazon_connect_decryption_lib/__init__.py
+amazon_connect_decryption_lib/core.py
+amazon_connect_decryption_lib/shortcut.py
+amazon_connect_decryption_lib.egg-info/PKG-INFO
+amazon_connect_decryption_lib.egg-info/SOURCES.txt
+amazon_connect_decryption_lib.egg-info/dependency_links.txt
+amazon_connect_decryption_lib.egg-info/requires.txt
+amazon_connect_decryption_lib.egg-info/top_level.txt
+tests/__init__.py
+tests/test_unit.py
