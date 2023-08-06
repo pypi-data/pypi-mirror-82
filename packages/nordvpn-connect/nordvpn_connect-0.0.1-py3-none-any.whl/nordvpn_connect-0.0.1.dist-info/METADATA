@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: nordvpn-connect
+Version: 0.0.1
+Summary: A Python library to connect to NordVPN, works on WIndows and Linux
+Home-page: https://github.com/sorasful/NordVPN-switcher
+Author: Sorasful
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: psutil (==5.7.2)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: loguru (==0.5.3)
+
+# NordVPN-connect
+
+This repo has been forked from https://github.com/kboghe/NordVPN-switcher by Kristof Boghe.  
+Thank you for your work.   
+
+## Description
+This lib allows you to connect to a NordVPN server. Works on Windows and Linux. 
+
+## Install 
+
+TODO : Put on Pypi
+
+
