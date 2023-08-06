@@ -1,0 +1,6 @@
+numpy
+imageio
+
+[dev]
+pytest>=3.7
+check-manifest

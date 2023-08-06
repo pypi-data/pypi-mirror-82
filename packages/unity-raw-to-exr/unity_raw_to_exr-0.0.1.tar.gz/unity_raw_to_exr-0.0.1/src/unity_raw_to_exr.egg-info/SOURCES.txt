@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/unity_raw_to_exr.py
+src/unity_raw_to_exr.egg-info/PKG-INFO
+src/unity_raw_to_exr.egg-info/SOURCES.txt
+src/unity_raw_to_exr.egg-info/dependency_links.txt
+src/unity_raw_to_exr.egg-info/requires.txt
+src/unity_raw_to_exr.egg-info/top_level.txt
