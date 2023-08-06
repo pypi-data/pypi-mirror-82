@@ -1,0 +1,3 @@
+[console_scripts]
+chart = sunidhi.__main__:main
+
