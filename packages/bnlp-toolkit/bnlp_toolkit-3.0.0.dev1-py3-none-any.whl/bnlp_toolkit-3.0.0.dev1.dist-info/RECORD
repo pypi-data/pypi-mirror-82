@@ -1,0 +1,10 @@
+bnlp/__init__.py,sha256=vhQ1EV15xC4mUz-ziAdW2E53oR8eZaEVfpGW5jP35bM,362
+bnlp/ner.py,sha256=sw7-2Y-Sqh2qItDzXn6R05mJJds51N7rYy-PtK-1NCA,3295
+bnlp/pos.py,sha256=MH53bXv8Ism7-vqzkQlf8_xX4Hne6U0s5pn3ZcePogg,3145
+bnlp/corpus/__init__.py,sha256=cPRPS4lrJy1l1GEXXmfs_aPnp3oyTSbQpx16gausYmU,459
+bnlp/corpus/util.py,sha256=Bo57DHAoHis3tlW--4Z1NURtjQysaNVS-ue4n80b02Q,7102
+bnlp_toolkit-3.0.0.dev1.dist-info/LICENSE,sha256=pDd0lDRkK-giWX6pTSp8f6QT-VrnQR6mM_JNKCrAlwQ,1090
+bnlp_toolkit-3.0.0.dev1.dist-info/METADATA,sha256=p4DjPlrzKXD-UMY1H4_JsO2Y7-AbKipM9vSsmEMU9Z8,9087
+bnlp_toolkit-3.0.0.dev1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bnlp_toolkit-3.0.0.dev1.dist-info/top_level.txt,sha256=3NG-gAdgmq2YHZf0mJi1fWIVMFcDVrot5m3g16szA64,5
+bnlp_toolkit-3.0.0.dev1.dist-info/RECORD,,
