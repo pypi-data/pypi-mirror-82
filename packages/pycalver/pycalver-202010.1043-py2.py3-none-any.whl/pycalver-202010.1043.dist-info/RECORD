@@ -1,0 +1,17 @@
+pycalver/__init__.py,sha256=OaNe6cJQxdb37fURZdOJYVvoLPIoJtOFduuEFN-3tqQ,433
+pycalver/__main__.py,sha256=dnVKyIQ40QlIpcHkdPRAuNnsSXOXuz8Aa_H_iv7QZzw,538
+pycalver/cli.py,sha256=VyiYcvUIh8dTHNIuwGYDQLHauTFChzlPa4qmN28uRqE,11862
+pycalver/config.py,sha256=09AM7LkrbKwiYcDUXeOr04_Bg9qPGteJauasqgyh7pU,13244
+pycalver/lex_id.py,sha256=f0ElE9JVAtJAPc-qhe97ECOLus5KkZo7iHalYI7SvRI,4310
+pycalver/parse.py,sha256=x7jt3vBfKgr7RbFhzae67bgdIsHtxpq46nLqhSy_jzA,1681
+pycalver/patterns.py,sha256=nl-IPIZMzBPllSUDrD4bHVl7OqLtco4VUm9fsaOtFPc,5265
+pycalver/rewrite.py,sha256=G3oAq3e74WOFpdLUsNmbPV_1vxJ6o5CnA-xGX6tuHtk,7844
+pycalver/vcs.py,sha256=A3r-FiWaIqa6ZpaErViIc17Vz1qpKS_kdB_L6xZb3Rs,5385
+pycalver/version.py,sha256=HyROTjYBhwbHMkpvxWMk-yiUvBdXNz53WerK8GIQ3l8,13992
+pycalver-202010.1043.dist-info/LICENSE,sha256=Zr7SZydIfcCTi_pQ_YwQ17Jyavs92j3nvHcl1d2NfyA,1122
+pycalver-202010.1043.dist-info/METADATA,sha256=f6Fu-SV4Q2ry0-QBkwwplJQOOoTuZLDMBwCuVHAPnoA,36007
+pycalver-202010.1043.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pycalver-202010.1043.dist-info/entry_points.txt,sha256=ooQE5KXuh6XP8AhS8ZFWfhcMCkoeQ_gxy02ChnwN45o,65
+pycalver-202010.1043.dist-info/top_level.txt,sha256=bWGHw0Ovq18zJkv3QdyBkouRzM1z2cmRulBvqYJDmYg,9
+pycalver-202010.1043.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pycalver-202010.1043.dist-info/RECORD,,
