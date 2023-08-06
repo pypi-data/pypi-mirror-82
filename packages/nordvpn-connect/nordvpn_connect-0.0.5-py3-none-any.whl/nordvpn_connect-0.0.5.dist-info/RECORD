@@ -1,0 +1,9 @@
+nordvpn_connect/__init__.py,sha256=HNELAwGg6cCyDBItoAE4wn96XBV0UEsk4fIWyw-fsjY,34
+nordvpn_connect/nordvpn_connect.py,sha256=9VgmrAeat3jC1aFKacfWLSTu-EjiGp4Rrnbn6bOnPQM,8765
+nordvpn_connect/NordVPN_options/countrylist.txt,sha256=eRU6fx5l_JviP2i_IUBMThNbfZPCoXzASE-K1Tu4weg,1022
+nordvpn_connect/NordVPN_options/options_linux.txt,sha256=lKvopR7FIG_x8s0RwgyoX6wbKnkufnphSuIrvBSgimM,1057
+nordvpn_connect-0.0.5.dist-info/LICENSE,sha256=ZmjkCC2KyYJZYkjTBJ1bC8lkykBJe3DO0HbGWckj99M,1084
+nordvpn_connect-0.0.5.dist-info/METADATA,sha256=9qqu_BhyfkOzl-724mvmiHgkZjGOGwDy7PDAXsMQKnA,666
+nordvpn_connect-0.0.5.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+nordvpn_connect-0.0.5.dist-info/top_level.txt,sha256=Y5crS2lqsSK6Jhzu-EzkHl7qysyUanH87cW7Wv816uk,16
+nordvpn_connect-0.0.5.dist-info/RECORD,,
