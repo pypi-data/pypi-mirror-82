@@ -1,0 +1,3 @@
+[console_scripts]
+sro2syllabics=sro2syllabics:sro2syllabics_main
+

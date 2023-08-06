@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sro2syllabics
+Version: 0.1.0
+Summary: 
+Author: Eddie Antonio Santos
+Author-email: easantos@ualberta.ca
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cree-sro-syllabics (>=2020.6.23,<2021.0.0)
