@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+elliptic_third.egg-info/PKG-INFO
+elliptic_third.egg-info/SOURCES.txt
+elliptic_third.egg-info/dependency_links.txt
+elliptic_third.egg-info/not-zip-safe
+elliptic_third.egg-info/top_level.txt
+src/main.cpp
