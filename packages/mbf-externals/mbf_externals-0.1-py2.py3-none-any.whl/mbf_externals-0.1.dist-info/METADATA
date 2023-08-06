@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: mbf-externals
+Version: 0.1
+Summary: wrappers for external algorithms
+Home-page: https://github.com/TyberiusPrime/mbf_externals
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: natsort
+Requires-Dist: pandas
+Requires-Dist: pypipegraph
+Requires-Dist: requests
+Provides-Extra: doc
+Requires-Dist: numpydoc ; extra == 'doc'
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-bootstrap-theme ; extra == 'doc'
+Provides-Extra: testing
+Requires-Dist: mbf-align ; extra == 'testing'
+Requires-Dist: mbf-qualitycontrol ; extra == 'testing'
+Requires-Dist: mbf-sampledata ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: requests-mock ; extra == 'testing'
+
+# mbf_externals
+
+Support for external algorithms in pypipegraphs
+
+
+Part of the mbf_* suite from https://github.com/IMTMarburg
+
+
