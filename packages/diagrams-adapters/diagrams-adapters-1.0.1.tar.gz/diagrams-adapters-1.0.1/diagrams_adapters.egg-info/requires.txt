@@ -1,0 +1,4 @@
+diagrams
+
+[:python_version < "3.8.0"]
+typing-extensions
