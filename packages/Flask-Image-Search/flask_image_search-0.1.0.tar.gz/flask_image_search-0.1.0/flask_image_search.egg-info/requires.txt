@@ -1,0 +1,6 @@
+flask
+flask-sqlalchemy
+tensorflow
+keras
+pillow
+sqlalchemy_utils
