@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pytalises
+Version: 0.1.1
+Summary: 
+      TALISES (This Ain't a LInear Schrödinger Equation Solver) is an easy-to-use Python implementation
+      of the Split-Step Fourier Method, for numeric calculation of a wave function's time-propagation
+      under the Schrödinger equation.
+Home-page: http://github.com/savowe/pytalises
+Author: Sascha Vowe
+Author-email: sascha.vowe@posteo.de
+License: GPL v3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: numba
+Requires-Dist: pyfftw
+Requires-Dist: numexpr
+
+UNKNOWN
+
+
