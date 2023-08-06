@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bouncer-insight
+Version: 0.0.1
+Summary: Thin Python library for interacting with Bouncer Insight
+Home-page: https://getbouncer.com
+Author: Bouncer Inc.
+Author-email: support@getbouncer.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Requires-Dist: requests (>=1.0.0)
+
+# insight-client-python
+Python client for Bouncer Insight
+
+
