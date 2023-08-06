@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: PyDoser
+Version: 0.2
+Summary: Python 3 app for testing security side of your web apps. HTTP DoS tool.
+Home-page: https://github.com/dominon12/PyDoser
+Author: Dominon12
+Author-email: youneedmax@gmail.com
+License: MIT
+Download-URL: https://github.com/dominon12/PyDoser/archive/v_02.tar.gz
+Description: UNKNOWN
+Keywords: DoS,DDoS,security,education
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
