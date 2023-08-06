@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: magix_client
+Version: 0.4
+Summary: Python client implementation for Waltz-Controls Magix
+Home-page: https://github.com/waltz-controls/magix-python-client
+Author: Ingvord
+Author-email: mail@ingvord.ru
+License: MIT
+Description: UNKNOWN
+Keywords: WALTZ,WALTZ-CONTROLS,MAGIX,SSE,HTTP
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
