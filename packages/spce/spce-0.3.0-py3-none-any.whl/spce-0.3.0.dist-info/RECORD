@@ -1,0 +1,9 @@
+spce/__init__.py,sha256=-Zh73_GYU-lLsvHJQXyTcob8BZOGCnhlVeZAi-K9_BU,703
+spce/avro.py,sha256=uXa0nWC1IDtzF3avMNUr2Ebtbjw499VgBy_naHimAvw,3807
+spce/cloudevents.py,sha256=rY6lZ41zHCzoyCwAdZMv8TeRmfAt2MnpfEFuo3tMuwU,3452
+spce/json.py,sha256=WyuqWg-X26lzRC7yuq6vRCMbTIFBdUbhE0vCsZVOZyg,2273
+spce-0.3.0.dist-info/LICENSE,sha256=RV8yLyv6y3kmj_ReIH6_bgJlSpjAss8LA-RsmDV2YjU,11356
+spce-0.3.0.dist-info/METADATA,sha256=MmNUtxVj0KHDhxhXi3gHxQzu0KpyV2FlHDnVWBnLOA0,6878
+spce-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+spce-0.3.0.dist-info/top_level.txt,sha256=oG078Z-QvItXIwCpDwkC5SOzmgoeUDDJREbkVM88zlk,5
+spce-0.3.0.dist-info/RECORD,,
