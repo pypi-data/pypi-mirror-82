@@ -1,0 +1,10 @@
+_lamonpy.cp37-win32.pyd,sha256=ByydT7ptMG5EOhJWPOBHHcoQALWkFIY8XKrWXIsGj8s,582144
+_lamonpy_sse2.cp37-win32.pyd,sha256=8N9IhPj4T2HwKMIH8ILCbxo27QjJJxdLf9JRf9jpE2M,582144
+lamonpy/__init__.py,sha256=azR8FbghNrS52Vw3RkoSze-z2AC2M9pnrMsjxysUGCY,1195
+lamonpy/dict.bin,sha256=yNaofu8XCrAqy6WRAtaT7rIzUGj3diP6bol2vONP3GM,30832786
+lamonpy/tagger.bin,sha256=8sf4kDOH3ARCcvRfq2yk0bwVDhKzIeJ-3z3_nMucTbQ,34177920
+lamonpy-0.2.0.dist-info/LICENSE,sha256=jrd9-BVQoozvmbY8e4A995PRARBSf1rkCxPpdJmG28w,1076
+lamonpy-0.2.0.dist-info/METADATA,sha256=EgGFR3vnZIaHl0iu-Ftd2bKf51y41t9of7aQCHubkMI,8279
+lamonpy-0.2.0.dist-info/WHEEL,sha256=SYKICiw7EPrpyOeCIuAJswXTZAWXbJBHvAYcpuUpX1M,102
+lamonpy-0.2.0.dist-info/top_level.txt,sha256=4GPYlD4qROpht5sC0Euh36U_6AlceNvsOQIJUYzo-ec,31
+lamonpy-0.2.0.dist-info/RECORD,,
