@@ -1,0 +1,8 @@
+minilop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minilop/amqp/__init__.py,sha256=VoKyYgKDRNxsVREJso33mdXiSVUstRod3IdfpZpIm4A,239
+minilop/amqp/components.py,sha256=DVjWxLwb245n4ub4JOIAHcy5lANejae91vgbscC9VKk,1282
+minilop/amqp/connections.py,sha256=bMcpEbw4GZANNNvqfBOOHIe5pAwJLaKZAi2pJIXbzEA,6881
+minilop/amqp/exceptions.py,sha256=f_3bzKVHLbqJJET32iUhs6uKmRbzoPnYa6CiHRTSsjI,75
+minilop-0.1.6.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+minilop-0.1.6.dist-info/METADATA,sha256=y3JWGT1_9O08--xmgiwITJrJbQ450EIyXd-S3v5YrE8,422
+minilop-0.1.6.dist-info/RECORD,,
