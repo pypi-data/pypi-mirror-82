@@ -1,0 +1,14 @@
+bitarray/_util.c,sha256=bt-8BAhQwPMOv725K0XouSvyMi4swzuoCJYrTVKdLAo,11607
+bitarray/__init__.py,sha256=hn9djmhUkBMtl_oSrxYGzLUzN7BticZfROg46wWHGuI,2213
+bitarray/_bitarray.cpython-37m-x86_64-linux-gnu.so,sha256=3MCPHw3eEeMwrL5-tq6IdVje0usyo2Xv6PBImW9wEHs,405472
+bitarray/test_util.py,sha256=Atk-_hdMNA_YQd1tV1doKbK_q2hIw_3pCM9iQVD5wIQ,31303
+bitarray/util.py,sha256=8M416ZnahFxRg3M0Hl77ZQVY3ZLsFObTG7noxufhmcg,9448
+bitarray/_bitarray.c,sha256=PSo425lHFnu0d9r33sw44Q5RGhKWhZY7slqS_nuoEag,100452
+bitarray/_util.cpython-37m-x86_64-linux-gnu.so,sha256=STQZLV6EFqXTt6slola8oneUPxLPdo3ANAAvjR2sqJ8,56880
+bitarray/test_bitarray.py,sha256=CIML4DCEIp1_mnerF345TmC1Tz7CMw2UIOorrMvQpkw,91948
+bitarray_hardbyte-1.6.1.dist-info/WHEEL,sha256=Qs6QNtdSkcAOpbp1HsiWMXMmEoke2l_SfE6ZKek5Jmk,112
+bitarray_hardbyte-1.6.1.dist-info/AUTHORS,sha256=_amKkgZtL9mvQ-efLhwunZJgexq6qYh6QXqdiTqvuFI,616
+bitarray_hardbyte-1.6.1.dist-info/METADATA,sha256=9w-MvJhNqnKW5JaJ9VFApf7WCjFUYc2LoXyZr90dwDo,25770
+bitarray_hardbyte-1.6.1.dist-info/top_level.txt,sha256=cLdoeIHotTwh4eHSe8qy8umF7zzyxUM90I8zFb2_xhg,9
+bitarray_hardbyte-1.6.1.dist-info/RECORD,,
+bitarray_hardbyte-1.6.1.dist-info/LICENSE,sha256=twjLPMDWLuMyjN12UALNnM2lfFoAyzMTskV7CCppQkM,2412
