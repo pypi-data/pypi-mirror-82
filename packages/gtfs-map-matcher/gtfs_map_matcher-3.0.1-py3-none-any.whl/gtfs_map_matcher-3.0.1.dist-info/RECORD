@@ -1,0 +1,7 @@
+gtfs_map_matcher/__init__.py,sha256=O6jNOHXaI3BS7lzFgWE985Um0CNGIDmsySw16XRCHm8,68
+gtfs_map_matcher/data/auckland_gtfs_sample.zip,sha256=i8YpKfMdAQo-qBDbzXfh5gwab8PY-IlBea1e9r-lic0,1445410
+gtfs_map_matcher/main.py,sha256=CV6OvZdCV1fjUNQ4M_8MrjrQHRBCieMwNEaXM5r_A0Y,18449
+gtfs_map_matcher/matchers.py,sha256=j5sx3O2O-axf1ZyNwBDlpZryLrdKnXqwyyFFYjOpAxw,6813
+gtfs_map_matcher-3.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+gtfs_map_matcher-3.0.1.dist-info/METADATA,sha256=YZVd23rf2YEyrbdXdM-qZGJEQIK6q7-GDVZMvFjXpb0,592
+gtfs_map_matcher-3.0.1.dist-info/RECORD,,
