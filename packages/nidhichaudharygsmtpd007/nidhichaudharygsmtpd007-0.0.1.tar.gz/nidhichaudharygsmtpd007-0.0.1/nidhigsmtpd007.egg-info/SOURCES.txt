@@ -1,0 +1,15 @@
+CHANGELOG.txt
+Licence.txt
+MANIFEST.in
+README.txt
+setup.py
+Spreadsheet1234/__init__.py
+gsmtpd.egg-info/SOURCES.txt
+gsmtpd.egg-info/dependency_links.txt
+gsmtpd.egg-info/requires.txt
+gsmtpd.egg-info/top_level.txt
+nidhigsmtpd007.egg-info/PKG-INFO
+nidhigsmtpd007.egg-info/SOURCES.txt
+nidhigsmtpd007.egg-info/dependency_links.txt
+nidhigsmtpd007.egg-info/requires.txt
+nidhigsmtpd007.egg-info/top_level.txt
