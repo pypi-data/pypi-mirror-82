@@ -1,0 +1,3 @@
+[console_scripts]
+pier = pier_cli.cli.run:cli
+

@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: pier-cli
+Version: 0.0.3
+Summary: pier-cli is a development tool that provides an easy way to deploy your local images to Kubernetes
+Home-page: UNKNOWN
+Author: Marten Sies
+License: UNKNOWN
+Description: # pier-cli
+        pier-cli is a development tool that provides an easy way to deploy your local images to Kubernetes. No need to write any YAML. Just build your image and deploy. 
+        
+        ## Prerequisites
+        The following resources need to be installed and running:
+        * Docker
+        * Kubernetes
+        
+        ## Installation
+        Installation using pip(3):
+        ```bash
+        pip install --user pier-cli
+        ```
+        
+        ## Commands
+        
+        ### Images
+        
+        ##### Create image
+        Create an image based on the Dockfile in the current folder
+        ```bash
+        ➜ pier create image {IMAGE_TAG}
+        ```
+        
+        ##### Pull image
+        Pull an existing image
+        ```bash
+        ➜ pier pull image {IMAGE_TAG}
+        ```
+        
+        ##### Search images
+        Search for images on Docker Hub
+        ```bash
+        ➜ pier saerch image {SEARCH_TERM}
+        ```
+        
+        ##### List images
+        List available images
+        ```bash
+        ➜ pier get images
+        ```
+        
+        ##### Delete image
+        Delete your images once they are not needed anymore
+        ```bash
+        ➜ pier delete image
+        Select image:
+         [0] - your_image:0.1
+         [1] - another_image:latest
+        ➜ 0
+        ```
+        
+        ### Deployments
+        
+        ##### Create deployment
+        Deploy an image to your Kubernetes cluster
+        ```bash
+        ➜ pier create deployment {DEPLOYMENT_NAME}
+        Select image:
+         [0] - your_image:0.1
+         [1] - another_image:latest
+        ➜ 0
+        ```
+        
+        ##### List deployments
+        List current deployments
+        ```bash
+        ➜ pier get deployments
+        ```
+        
+        ##### Delete deployment
+        Delete your deployments once they are not needed anymore
+        ```bash
+        ➜ pier delete deployment
+        Select deployment:
+         [0] - your-application
+         [1] - another-application
+        ➜ 1
+        ```
+        
+        ### To do
+        - [ ] Create k8s loadbalancer to expose docker ports
+        - [ ] Command to create configmaps
+        - [ ] Possibility to edit deployments
+        - [ ] ...
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Provides: pier
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
