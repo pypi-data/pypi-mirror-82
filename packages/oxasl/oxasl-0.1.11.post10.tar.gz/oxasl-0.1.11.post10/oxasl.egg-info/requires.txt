@@ -1,0 +1,8 @@
+fslpy>=1.13
+nibabel
+numpy
+pandas
+pyaml
+pyfab
+scikit-image
+six
