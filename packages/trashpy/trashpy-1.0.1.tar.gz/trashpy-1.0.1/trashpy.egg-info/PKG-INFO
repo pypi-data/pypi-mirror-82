@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: trashpy
+Version: 1.0.1
+Summary: Download your Google Drive Trash folder
+Home-page: https://github.com/pizzapanther/pydrive-trash-backup
+Author: Paul Bailey
+Author-email: paul.m.bailey@gmail.com
+License: UNKNOWN
+Description: # TrashPy
+        
+        Download your google drive trash folder
+        
+        ## Install
+        
+        *Make sure to use Python 3*
+        
+        ```
+        sudo pip3 install trashpy
+        ```
+        
+        ## Usage
+        
+        ```
+        trashpy
+        ```
+        
+        It will ask you to authenicate then it will download all your trash to: `gtrash`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
