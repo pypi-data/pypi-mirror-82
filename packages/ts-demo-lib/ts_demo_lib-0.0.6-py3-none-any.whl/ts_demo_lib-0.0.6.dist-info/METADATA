@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ts-demo-lib
+Version: 0.0.6
+Summary: T science demo libary
+Home-page: https://github.com/nkhuyu-msft/ts_demo
+Author: YH
+Author-email: yuhu@microsoft.com
+License: Apache Software License 2.0
+Keywords: Demo
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Ts demo for nbdev
+
+T science demo library
+
+## Install
+
+```
+pip install ts-demo-lib
+```
+
+## Call the function
+```
+from ts_demo_lib.ts_demo import *
+say_hello1("Tscience")
+```
+
