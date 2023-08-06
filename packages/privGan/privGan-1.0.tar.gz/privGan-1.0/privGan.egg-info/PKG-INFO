@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: privGan
+Version: 1.0
+Summary: Privacy protected GAN for image data
+Home-page: https://github.com/microsoft/privGAN
+Author: Sumit Mukherjee, Nabajyoti Patowary
+Author-email: privgan@microsoft.com
+License: MIT
+Description: This repository contains the source code for PrivGan - a novel approach     for deterring membership inference attacks on GAN generated synthetic medical data.Currently,     the repository contains the jupyter notebooks for various datasets. We will be converting     the code into a library in the future. Please visit our paper     "PrivGAN: Protecting GANs from membership inference attacks at low cost" [ArXiv Link](https://arxiv.org/abs/2001.00071) submitted at PETS 2021.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: tf

@@ -1,0 +1,17 @@
+README.md
+setup.py
+classifier/__init__.py
+classifier/cnn_classifier.py
+privGan.egg-info/PKG-INFO
+privGan.egg-info/SOURCES.txt
+privGan.egg-info/dependency_links.txt
+privGan.egg-info/requires.txt
+privGan.egg-info/top_level.txt
+privacygan/__init__.py
+privacygan/privacy_gan.py
+privacygan/cifar/__init__.py
+privacygan/cifar/cifar_gan.py
+privacygan/lfw/__init__.py
+privacygan/lfw/lfw_gan.py
+privacygan/mnist/__init__.py
+privacygan/mnist/mnist_gan.py
