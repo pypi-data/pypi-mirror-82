@@ -1,0 +1,15 @@
+vhh_sbd/Configuration.py,sha256=FBnJWYkXmtSp8vs4QVSiMtlbll0DTgDTSsOuugz4pGk,4716
+vhh_sbd/DeepSBD.py,sha256=ZEeMKOo966fPusHrTaSgu4-F6NhjHnMXBq1Qh-_wWCM,17828
+vhh_sbd/Evaluation.py,sha256=5yEOOE_KrnbEyyo3xI0xHW6qm21n6Sxcy6gTu1opZ5w,23926
+vhh_sbd/Model.py,sha256=YeVpnWvXT_dQp1xrdoI_SpThnk9KZLuU3lwlcZNa5zE,2690
+vhh_sbd/PreProcessing.py,sha256=8W7fnqKCMDjJ6b6rrZ-FAOG3l5JncFxV1GbKt9Bpk5w,5071
+vhh_sbd/SBD.py,sha256=WyeU-4V7W-Gf5-hPdhOp4y98GOTD22gpW9K4w4uxCJg,19719
+vhh_sbd/Shot.py,sha256=vHiD9ZehLPT26lFQU6Gsn8-I-f7C6g0jdPuqeNnG3DI,1439
+vhh_sbd/Video.py,sha256=4plAYq0tCP9ttTEMlU5iIPtFYuFtPhwPIi5-JOjK1HQ,6812
+vhh_sbd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vhh_sbd/utils.py,sha256=vcHkvD5phlrZy7IreVUUizbkSiHKmWLdJs9Y6_j9TWA,1099
+vhh_sbd-1.1.0.dist-info/LICENSE,sha256=arh263oEGWWClozhXFCeC_ogRaknnj21si7K_7jkhLk,1064
+vhh_sbd-1.1.0.dist-info/METADATA,sha256=tXXoX4vjG2IHjdtSla7N6BhMlCIG-vdW9qVNACv6Y_o,3653
+vhh_sbd-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+vhh_sbd-1.1.0.dist-info/top_level.txt,sha256=dvaocLExCD62ZMtfg1xF0HycDpbL9HQeGRNqwZr8i3w,8
+vhh_sbd-1.1.0.dist-info/RECORD,,
