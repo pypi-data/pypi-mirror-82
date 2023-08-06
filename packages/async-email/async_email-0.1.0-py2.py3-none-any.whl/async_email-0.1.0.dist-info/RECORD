@@ -1,0 +1,16 @@
+LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+async_email/__init__.py,sha256=wDHeAngZwHtnES1kuAbdqTkUOmTjfoGb_GgviRCfGEw,811
+async_email/apps.py,sha256=Mdus9txl2_KSuBVmgW0xBNGiKmtzYwk64MwN0Kp4FhE,139
+async_email/conf.py,sha256=6_ckJd6YT4UxqrcR5-HuUYCBJCNPiliFY75nB1k64rQ,241
+async_email/email/__init__.py,sha256=PzisqGPnKPNGzT92euLpQovqfhYoeCg3UYRdFxS75Y8,1056
+async_email/email/exceptions.py,sha256=lVkOok9M2fxlV3oAKRLEfHWQM909kcII6cZygFStqBY,96
+async_email/email/template.py,sha256=bFGO_0QstrIoowVO1BKvMrfgNJ68xupgzWT91EENOHw,3780
+async_email/email/utils.py,sha256=LE4wRfXAL-gio6FK-gBYPTNUl2uQv2-Fcj0LpvtzQl8,1084
+async_email/exceptions.py,sha256=hlXAebb1JKMe4yQkvAaBBymIYeSUsUcydnkGs8b8Vqc,51
+async_email/models.py,sha256=OTjGe34TrGSWasg0NTvVGT85G2uKuYPY6SCcLeEX3m0,44
+async_email/task.py,sha256=Ukp5n_jMBU8xfuF0oqKIQ3HCeusGtXguh8_TgUFzt0M,1248
+async_email/tasks.py,sha256=0nv4052v_8CVGafgRoem-YjUdtPn7yVAqN_8excPIqs,1876
+async_email-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+async_email-0.1.0.dist-info/WHEEL,sha256=2SyTS6-hWVbCVhxpPo1j5f9gwaWw-hVIJs0s_cC8MXM,87
+async_email-0.1.0.dist-info/METADATA,sha256=F85I8LhsQVbzTLl800fE44Kkb01dD0pmwnelPFQdXlg,2589
+async_email-0.1.0.dist-info/RECORD,,
