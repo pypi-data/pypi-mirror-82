@@ -1,0 +1,54 @@
+Metadata-Version: 1.2
+Name: forest-gis
+Version: 0.0.2
+Summary: A set of python modules for machine learning and data mining
+Home-page: http://scikit-learn.org
+Maintainer: Tao Li
+Maintainer-email: lp1559345469@gmail.com
+License: new BSD
+Download-URL: https://pypi.org/project/scikit-learn/#files
+Project-URL: Bug Tracker, https://github.com/scikit-learn/scikit-learn/issues
+Project-URL: Documentation, https://scikit-learn.org/stable/documentation.html
+Project-URL: Source Code, https://github.com/scikit-learn/scikit-learn
+Description: Installation
+        ------------
+        
+        Dependencies
+        ~~~~~~~~~~~~
+        
+        scikit-learn requires:
+        
+        - Python (>= 3.6)
+        - NumPy (>= 1.15.0)
+        - SciPy (>= 0.19.1)
+        - joblib (>= 0.14)
+        - threadpoolctl (>= 2.0.0)
+        
+        
+        If you already have a working installation of numpy and scipy,
+        the easiest way to install scikit-learn is using ``pip``   ::
+        
+            pip install -U forest-gis
+        
+        or ``conda``::
+        
+            conda install -c conda-forge forest-gis
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
