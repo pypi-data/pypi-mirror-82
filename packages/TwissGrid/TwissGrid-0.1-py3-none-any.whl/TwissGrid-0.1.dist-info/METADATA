@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: TwissGrid
+Version: 0.1
+Summary: Visualize Twiss parameters for one- or two-dimensional grid scan of lattice parameters.
+Home-page: https://gitlab.com/Dominik1123/twissgrid
+Author: Dominik Vilsmeier
+Author-email: d.vilsmeier@gsi.de
+License: MIT
+Keywords: MADX,lattice,Twiss,parameter scan,visualization
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cpymad
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+# TwissGrid
+
+This application performs one- or two-dimensional grid scans of lattice parameters
+and visualizes their effect on selected optics functions.
+
+## Installation
+
+The application can be installed from the Python Package Index (PyPI):
+
+```
+pip install twissgrid
+```
+
+## Usage
+
+The application can be used from the command line in the following way:
+
+```
+python -m twissgrid /path/to/script.madx a_param
+```
+
+It expects at least two arguments:
+
+1. The file path to a MADX script.
+2. The name of a lattice parameter. It needs to be given as `label->attr` where the `->attr` part is optional (it will be inferred from the element type). The corresponding element must be accessible in MADX via the provided `label` (internally the parameter will be updated as `label->attr = value;` so that must be an effective statement).
+
+This example will create a 2D-plot of the beta functions in dependence on that parameter:
+
+![Example1D](./example1d.png)
+
+### 3D Plots
+
+A second parameter can be provided, following the first one, in order to perform a two-dimensional parameter scan
+and create a corresponding 3D-plot:
+
+```
+python -m twissgrid /path/to/script.madx a_param b_param
+```
+
+![Example2D](./example2d.png)
+
+### Customization
+
+The application supports various other arguments for customizing the parameter scan or the resulting plots.
+The full set of available parameters can be found via `--help`:
+
+```
+$ python -m twissgrid --help
+usage: python -m twissgrid [-h] [--p1lb P1LB] [--p1ub P1UB] [--p2lb P2LB]
+                           [--p2ub P2UB] [--margin MARGIN] [--n1 N1] [--n2 N2]
+                           [--funcs FUNCS [FUNCS ...]] [--target TARGET]
+                           [--beta0 BETA0]
+                           [--threshold [THRESHOLD [THRESHOLD ...]]]
+                           [--figsize FIGSIZE FIGSIZE]
+                           script p1 [p2]
+
+positional arguments:
+  script                File path to MADX script
+  p1                    Lattice parameter 1 (format: "label->attribute")
+  p2                    Lattice parameter 2 (format: "label->attribute")
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --p1lb P1LB           Parameter 1, lower boundary (defaults to --margin)
+  --p1ub P1UB           Parameter 1, upper boundary (defaults to --margin)
+  --p2lb P2LB           Parameter 2, lower boundary (defaults to --margin)
+  --p2ub P2UB           Parameter 2, upper boundary (defaults to --margin)
+  --margin MARGIN       Fraction of the current value to be used as a margin
+                        if a boundary is missing
+  --n1 N1               Number of grid points for parameter 1
+  --n2 N2               Number of grid points for parameter 2
+  --funcs FUNCS [FUNCS ...]
+                        Optics functions to plot
+  --target TARGET       Label of the target element where optics functions are
+                        observed
+  --beta0 BETA0         Label of BETA0 command (this must be part of the MADX
+                        script)
+  --threshold [THRESHOLD [THRESHOLD ...]]
+                        Plot threshold line on each optics plot
+  --figsize FIGSIZE FIGSIZE
+                        Figure size in inches
+```
+
+
