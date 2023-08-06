@@ -1,0 +1,12 @@
+scipy
+numpy
+MCEq[mkl]
+
+[plotting]
+matplotlib
+
+[resources]
+pythia8
+matplotlib
+argparse
+pandas
