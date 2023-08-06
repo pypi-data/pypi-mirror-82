@@ -1,0 +1,6 @@
+assert_json_schema/__init__.py,sha256=kCH6lPOyBMXmdQosLJWnffepgzjyk6_hEKxxp87LR28,41
+assert_json_schema/assert_schema.py,sha256=c0OJ3bcA7JAccPb_R9VOM2Qj_F5-cNoYmVLj9AWlcIM,2325
+assert_json_schema-0.1.0.dist-info/LICENSE,sha256=aQB7qPkmA0VCyoZfM5nie5DRc_lDnqKZe_4vRWHIRnE,1082
+assert_json_schema-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+assert_json_schema-0.1.0.dist-info/METADATA,sha256=Pfr2kNOwBvj9vm6qC7-v2UIsVg22oinZv-k-qwlABzE,777
+assert_json_schema-0.1.0.dist-info/RECORD,,
