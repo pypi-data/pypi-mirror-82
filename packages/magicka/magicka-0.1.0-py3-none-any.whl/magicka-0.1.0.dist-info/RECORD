@@ -1,0 +1,11 @@
+magicka/__init__.py,sha256=beusmS48K2Ve4OZmZQEe7EXtywJylEP1OiP5-lQ0xSo,164
+magicka/_core/errors.py,sha256=falG57TaYjYppFaWHFzB3KEOsPgfWHw0ZXC8-jBBcW4,171
+magicka/_core/lexer.py,sha256=GA5cBlFiqMzgzQNndYTcT2nn-t683eXd7kx2KIl1BqM,372
+magicka/_core/rules.py,sha256=X-SAIbAZ1lsF1Jr3OQ8_lozWYA7UYOtT2oI0OJtSUIA,764
+magicka/_core/tokens.py,sha256=7S5NsP8Y8jMLcQ4yggQeheqg70DcsTv-KgCHX0ETqic,186
+magicka/_test/__init__.py,sha256=blAMRMaz04kE3AgbTJGhexGgtjttiEIq6Jm3liQoPCk,81
+magicka/_test/lexer.py,sha256=nZX9gpGf9wvjDQZS7mKTpgnNLoNZT2J8ziqn_7qV5aY,480
+magicka-0.1.0.dist-info/LICENSE.md,sha256=x4uQmNxP4HOxEqpYJ418PeKZ4HyxQcmdR3Dgdp3Jiic,7265
+magicka-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+magicka-0.1.0.dist-info/METADATA,sha256=PHxN7j3YXYecT0NrZqhrmITblZzbzJ4Da1DSL69_TuM,450
+magicka-0.1.0.dist-info/RECORD,,
