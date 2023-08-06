@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renku Python Library, CLI and Service &#8212; Renku 0.11.3.dev10+dirty documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="installation.html" />
+    <link rel="prev" title="Renku Python Library, CLI and Service" href="index.html" />
+  
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,300italic,400italic" rel="stylesheet" type="text/css">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  </head><body>
+  <div class="git-ribbon">
+    <a href="http://github.com/SwissDataScienceCenter" rel="me">Join us on GitHub</a>
+  </div>
+  
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="renku-python-library-cli-and-service">
+<h1>Renku Python Library, CLI and Service<a class="headerlink" href="#renku-python-library-cli-and-service" title="Permalink to this headline">¶</a></h1>
+<a class="reference external image-reference" href="https://github.com/SwissDataScienceCenter/renku-python/actions?query=workflow%3A%22Test%2C+Integration+Tests+and+Deploy%22+branch%3Amaster"><img alt="https://github.com/SwissDataScienceCenter/renku-python/workflows/Test,%20Integration%20Tests%20and%20Deploy/badge.svg" src="https://github.com/SwissDataScienceCenter/renku-python/workflows/Test,%20Integration%20Tests%20and%20Deploy/badge.svg" /></a>
+<a class="reference external image-reference" href="https://coveralls.io/r/SwissDataScienceCenter/renku-python"><img alt="https://img.shields.io/coveralls/SwissDataScienceCenter/renku-python.svg" src="https://img.shields.io/coveralls/SwissDataScienceCenter/renku-python.svg" /></a>
+<a class="reference external image-reference" href="https://github.com/SwissDataScienceCenter/renku-python/releases"><img alt="https://img.shields.io/github/tag/SwissDataScienceCenter/renku-python.svg" src="https://img.shields.io/github/tag/SwissDataScienceCenter/renku-python.svg" /></a>
+<a class="reference external image-reference" href="https://pypi.python.org/pypi/renku"><img alt="https://img.shields.io/pypi/dm/renku.svg" src="https://img.shields.io/pypi/dm/renku.svg" /></a>
+<a class="reference external image-reference" href="http://renku-python.readthedocs.io/en/latest/?badge=latest"><img alt="Documentation Status" src="http://readthedocs.org/projects/renku-python/badge/?version=latest" /></a>
+<a class="reference external image-reference" href="https://github.com/SwissDataScienceCenter/renku-python/blob/master/LICENSE"><img alt="https://img.shields.io/github/license/SwissDataScienceCenter/renku-python.svg" src="https://img.shields.io/github/license/SwissDataScienceCenter/renku-python.svg" /></a>
+<a class="reference external image-reference" href="https://pullreminders.com?ref=badge"><img alt="Pull reminders" src="https://pullreminders.com/badge.svg" /></a>
+<p>A Python library for the <a class="reference external" href="https://github.com/SwissDataScienceCenter/renku">Renku collaborative data science platform</a>. It includes a CLI and SDK
+for end-users as well as a service backend. It provides functionality for the
+creation and management of projects and datasets, and simple utilities to
+capture data provenance while performing analysis tasks.</p>
+<dl class="simple">
+<dt><strong>NOTE</strong>:</dt><dd><p><code class="docutils literal notranslate"><span class="pre">renku-python</span></code> is the python library and core service for Renku - it <em>does
+not</em> start the Renku platform itself - for that, refer to the Renku docs on
+<a class="reference external" href="https://renku.readthedocs.io/en/latest/developer/setup.html">running the platform</a>.</p>
+</dd>
+</dl>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#pipx"><code class="docutils literal notranslate"><span class="pre">pipx</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#pip"><code class="docutils literal notranslate"><span class="pre">pip</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#docker">Docker</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparison.html">How does this compare …</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="comparison.html#to-makefile">… to <code class="docutils literal notranslate"><span class="pre">Makefile</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="commands.html">Renku Command Line</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#renku-base-command"><code class="docutils literal notranslate"><span class="pre">renku</span></code> (base command)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#configuration-files">Configuration files</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.init"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">init</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#start-a-renku-project">Start a Renku project</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#use-a-different-template">Use a different template</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#update-an-existing-project">Update an existing project</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.config"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">config</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#set-values">Set values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#remove-values">Remove values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#query-values">Query values</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#available-configuration-values">Available configuration values</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.dataset"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">dataset</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#manipulating-datasets">Manipulating datasets</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#working-with-data">Working with data</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.run"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">run</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#capture-command-line-execution">Capture command line execution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#detecting-input-paths">Detecting input paths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#detecting-output-paths">Detecting output paths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#detecting-standard-streams">Detecting standard streams</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#specifying-inputs-and-outputs-programmatically">Specifying inputs and outputs programmatically</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#exit-codes">Exit codes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#circular-dependencies">Circular Dependencies</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.log"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">log</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#file-provenance">File provenance</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="commands.html#provenance-examples">Provenance examples</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#output-formats">Output formats</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#output-validation">Output validation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.status"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">status</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#inspecting-a-repository">Inspecting a repository</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.update"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">update</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#recreating-outdated-files">Recreating outdated files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#pre-update-checks">Pre-update checks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#update-siblings">Update siblings</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.rerun"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">rerun</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#recreating-files">Recreating files</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.remove"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">rm</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.move"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">mv</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.workflow"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">workflow</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#reference-tools-and-workflows">Reference tools and workflows</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.save"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">save</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.show"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">show</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#siblings">Siblings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#input-and-output-files">Input and output files</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.storage"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">storage</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#pulling-files-from-git-lfs">Pulling files from git LFS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#removing-local-content-of-files-stored-in-git-lfs">Removing local content of files stored in git LFS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.doctor"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">doctor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.migrate"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">migrate</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.githooks"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">githooks</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#prevent-modifications-of-output-files">Prevent modifications of output files</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html#module-renku.cli.exception_handler">Error Tracking</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#github">GitHub</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commands.html#sentry">Sentry</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="models/index.html">Models</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="models/projects.html">Projects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="models/datasets.html">Datasets</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="models/datasets.html#dataset-object">Dataset object</a></li>
+<li class="toctree-l3"><a class="reference internal" href="models/datasets.html#dataset-file">Dataset file</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="models/provenance.html">Provenance</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="models/provenance.html#module-renku.core.models.provenance.activities">Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="models/provenance.html#module-renku.core.models.entities">Entities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="models/provenance.html#module-renku.core.models.provenance.agents">Agents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="models/provenance.html#module-renku.core.models.provenance.qualified">Relations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="models/workflow.html">Renku Workflow</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="models/workflow.html#module-renku.core.models.workflow.run">Run</a></li>
+<li class="toctree-l3"><a class="reference internal" href="models/workflow.html#module-renku.core.models.workflow.parameters">Parameters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="models/workflow.html#module-renku.core.models.workflow.converters">Renku Workflow Conversion</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="models/workflow.html#module-renku.core.models.workflow.converters.cwl">CWL</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="models/cwl.html">Tools and Workflows</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="models/cwl.html#module-renku.core.models.cwl.command_line_tool">Command-line tool</a></li>
+<li class="toctree-l3"><a class="reference internal" href="models/cwl.html#module-renku.core.models.cwl.annotation">Annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="models/cwl.html#module-renku.core.models.cwl.parameter">Parameter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="models/cwl.html#module-renku.core.models.cwl.types">Types</a></li>
+<li class="toctree-l3"><a class="reference internal" href="models/cwl.html#module-renku.core.models.cwl.workflow">Workflow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="models/refs.html">File References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="management.html">Low-level API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="management.html#module-renku.core.management.datasets">Datasets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="management.html#module-renku.core.management.repository">Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="management.html#module-renku.core.management.git">Git Internals</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plugins.html">Plugin Support</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#module-renku.core.plugins.run"><code class="docutils literal notranslate"><span class="pre">renku</span> <span class="pre">run</span></code> hooks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="changes.html">Changes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id1">0.11.2 (2020-09-24)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#bug-fixes">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#features">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id2">0.11.1 (2020-08-18)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id3">Bug Fixes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id4">0.11.0 (2020-08-14)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id5">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id6">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id7">0.10.5 (2020-07-16)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id8">Bug Fixes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id9">0.10.4 (2020-05-18)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id10">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id11">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id12">0.10.3 (2020-04-22)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id13">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id14">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id15">0.10.1 (2020-03-31)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id16">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id17">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id18">0.10.0 (2020-03-25)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id19">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id20">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id21">0.9.1 (2020-02-24)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id22">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id23">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#section-1">0.9.0 (2020-02-07)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id25">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id26">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id27">0.8.0 (2019-11-21)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id28">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id29">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id30">0.7.0 (2019-10-15)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id31">Bug Fixes</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id32">0.6.1 (2019-10-10)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id33">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id34">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id51">0.6.0 (2019-09-18)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id52">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id53">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id54">0.5.2 (2019-07-26)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id55">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id56">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id57">0.5.1 (2019-07-12)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id58">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id59">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#id60">0.5.0 (2019-03-28)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id61">Bug Fixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="changes.html#id62">Features</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#v0-4-0"><code class="docutils literal notranslate"><span class="pre">v0.4.0</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#v0-3-3"><code class="docutils literal notranslate"><span class="pre">v0.3.3</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#v0-3-2"><code class="docutils literal notranslate"><span class="pre">v0.3.2</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#v0-3-1"><code class="docutils literal notranslate"><span class="pre">v0.3.1</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#v0-3-0"><code class="docutils literal notranslate"><span class="pre">v0.3.0</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#v0-2-0"><code class="docutils literal notranslate"><span class="pre">v0.2.0</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#v0-1-0"><code class="docutils literal notranslate"><span class="pre">v0.1.0</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#types-of-contributions">Types of Contributions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="contributing.html#report-issues-contacting-developers">Report issues / contacting developers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contributing.html#fix-bugs">Fix Bugs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contributing.html#implement-features">Implement Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contributing.html#improvement-requests">Improvement requests</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contributing.html#write-documentation">Write Documentation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contributing.html#submit-feedback">Submit Feedback</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#get-started">Get Started!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#code-comment-guidelines">Code comment guidelines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#commit-message-guidelines">Commit message guidelines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html#pull-request-guidelines">Pull Request Guidelines</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html#authors">Authors</a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo">
+  <a href="index.html">
+    <h1 class="logo logo-name">
+      Renku
+      <span class="renku">連句</span>
+    </h1>
+  </a>
+</p>
+
+
+<p class="blurb">A software platform and tools for reproducible and collaborative data analysis.</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://renku.readthedocs.io/en/latest/introduction/index.html">About Renku</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://renku.readthedocs.io/en/latest/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://renku.readthedocs.io/en/latest/user/index.html">Using Renku</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://renku.readthedocs.io/en/latest/platform.html">Renku Platform</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Renku Python CLI and Service</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gettingstarted.html">Getting Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="comparison.html">How does this compare …</a></li>
+<li class="toctree-l2"><a class="reference internal" href="commands.html">Renku Command Line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="models/index.html">Models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="management.html">Low-level API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html">Plugin Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html">Changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="glossary.html">Glossary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l2"><a class="reference internal" href="license.html#authors">Authors</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://renku.readthedocs.io/en/latest/get_in_touch.html">Get in touch</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://renku.readthedocs.io/en/latest/release_notes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://www.apache.org/licenses/LICENSE-2.0">License</a></li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="https://github.com/SwissDataScienceCenter/renku-python">renku-python@GitHub</a></li>
+    
+    <li class="toctree-l1"><a href="https://pypi.python.org/pypi/renku/">renku-python@PyPI</a></li>
+    
+    <li class="toctree-l1"><a href="https://github.com/SwissDataScienceCenter/renku">renku@GitHub</a></li>
+    
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Renku Python Library, CLI and Service</a></li>
+      <li>Next: <a href="installation.html" title="next chapter">Installation</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017-2020, Swiss Data Science Center.
+      
+      |
+      <a href="_sources/introduction.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
