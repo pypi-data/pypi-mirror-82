@@ -1,0 +1,7 @@
+setup.py
+long_log/__init__.py
+long_log/log.py
+long_log.egg-info/PKG-INFO
+long_log.egg-info/SOURCES.txt
+long_log.egg-info/dependency_links.txt
+long_log.egg-info/top_level.txt
