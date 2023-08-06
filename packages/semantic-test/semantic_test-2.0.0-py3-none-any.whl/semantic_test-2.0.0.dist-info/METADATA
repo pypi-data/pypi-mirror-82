@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: semantic-test
+Version: 2.0.0
+Summary: Test python project
+Home-page: http://github.com/mathieuboudreau/semantic_test
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: twine (<4,>=3)
+Requires-Dist: requests (<3,>=2.21)
+Requires-Dist: wheel
+Requires-Dist: toml (~=0.10.0)
+
+UNKNOWN
+
+
