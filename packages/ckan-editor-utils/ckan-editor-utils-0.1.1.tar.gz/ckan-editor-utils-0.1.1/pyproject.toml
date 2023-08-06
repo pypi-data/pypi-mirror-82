@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ckan-editor-utils"
+version = "0.1.1"
+description = "Utilities for editors using the CKAN API."
+authors = ["Eric McCowan <eric.mccowan@servian.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+boto3 = "^1.15.1"
+requests = "^2.24.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
