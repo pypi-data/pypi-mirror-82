@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: iapa
+Version: 0.4
+Summary: Predictive Analytics Library
+Home-page: UNKNOWN
+Author: Sng Hao Jun
+Author-email: snghaojun@outlook.sg
+License: MIT
+Description: Predictive Analytics Library with Machine Learning Algorithms run on CLEANED datasets
+        
+        Change Log
+        ==========
+        
+        0.0.1 (15/10/2020)
+        ------------------
+        - First Release
+Keywords: predict
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
