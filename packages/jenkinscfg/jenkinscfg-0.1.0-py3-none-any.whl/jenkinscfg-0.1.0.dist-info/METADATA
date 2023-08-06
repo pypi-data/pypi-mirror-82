@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: jenkinscfg
+Version: 0.1.0
+Summary: Declarative Jenkins Jobs Configuration
+Home-page: https://github.com/timaa2k/jenkinscfg
+Author: Tim Weidner
+Author-email: timaa2k@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+Requires-Dist: click (==7.1.2)
+Requires-Dist: python-jenkins (==1.7.0)
+Provides-Extra: dev
+Requires-Dist: docker (==4.3.1) ; extra == 'dev'
+Requires-Dist: flake8 (==3.8.4) ; extra == 'dev'
+Requires-Dist: mypy (==0.790) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.7.1) ; extra == 'dev'
+Requires-Dist: pytest (==6.1.1) ; extra == 'dev'
+Requires-Dist: requests (==2.24.0) ; extra == 'dev'
+Requires-Dist: setuptools (==50.3.2) ; extra == 'dev'
+Requires-Dist: wheel (==0.35.1) ; extra == 'dev'
+
+jenkinscfg
+==========
+
+Update Jenkins jobs configuration declaratively from a Git repository.
+
+Example
+-------
+
+.. code-block:: bash
+
+   $ export JENKINS_HOST=http://localhost:8080
+
+.. code-block:: bash
+
+   $ tree jobs
+   jobs
+   └── HelloWorldJobFolder
+      ├── config.xml
+      └── HelloWorldJob
+         └── config.xml
+
+.. code-block:: bash
+
+   $ jenkinscfg update jobs
+   Creating HelloWorldJobFolder
+   Creating HelloWorldJobFolder/HelloWorldJob
+
+.. code-block:: bash
+
+   $ mv jobs/HelloWorldJobFolder jobs/NewJobFolder
+
+.. code-block:: bash
+
+   $ jenkinscfg diff jobs
+   Removed   HelloWorldJobFolder
+   Removed   HelloWorldJobFolder/HelloWorldJob
+   Added     NewJobFolder
+   Added     NewJobFolder/HelloWorldJob
+
+.. code-block:: bash
+
+   $ jenkinscfg update jobs
+   Deleting HelloWorldJobFolder/HelloWorldJob
+   Deleting HelloWorldJobFolder
+   Creating NewJobFolder
+   Creating NewJobFolder/HelloWorldJob
+
+.. code-block:: bash
+
+   $ sed -i 's/false/true/' jobs/NewJobFolder/HelloWorldJob/config.xml
+
+.. code-block:: bash
+
+   $ jenkinscfg diff jobs
+   Changed   NewJobFolder/HelloWorldJob
+   ---
+   +++
+   @@ -1,12 +1,12 @@
+    <?xml version="1.0" encoding="UTF-8"?><project>
+   -  <keepDependencies>false</keepDependencies>
+   +  <keepDependencies>true</keepDependencies>
+      <properties/>
+      <scm class="jenkins.scm.NullSCM"/>
+      <canRoam>true</canRoam>
+   -  <disabled>false</disabled>
+   -  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+   +  <disabled>true</disabled>
+   +  <blockBuildWhenUpstreamBuilding>true</blockBuildWhenUpstreamBuilding>
+      <triggers class="vector"/>
+   -  <concurrentBuild>false</concurrentBuild>
+   +  <concurrentBuild>true</concurrentBuild>
+      <builders/>
+      <publishers/>
+      <buildWrappers/>
+
+   Unchanged NewJobFolder
+
+.. code-block:: bash
+
+   $ jenkinscfg update jobs
+   Updating NewJobFolder/HelloWorldJob
+
+
