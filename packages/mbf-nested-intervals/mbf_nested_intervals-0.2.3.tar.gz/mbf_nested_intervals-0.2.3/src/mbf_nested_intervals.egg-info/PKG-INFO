@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mbf-nested-intervals
+Version: 0.2.3
+Summary: wrapper around https://crates.io/crates/nested_intervals
+Home-page: https://github.com/TyberiusPrime/mbf_nested_intervals
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Description: # mbf_nested_intervals
+        
+        A python wrapper around https://crates.io/crates/nested_intervals
+        which also generalizes to pandas Dataframes with genomic data
+        (ie. those with [chr, start, stop]...)
+        
+        Part of the mbf_* suite from https://github.com/IMTMarburg
+        
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Provides-Extra: testing
