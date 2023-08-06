@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: remote-fs
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: kintsu
+Author-email: k@kintsu.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ==3.*,>=3.9.0
+Provides-Extra: dev
