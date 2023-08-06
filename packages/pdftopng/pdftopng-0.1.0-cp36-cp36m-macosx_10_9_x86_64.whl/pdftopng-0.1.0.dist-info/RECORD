@@ -1,0 +1,15 @@
+pdftopng/pdftopng.cpython-36m-darwin.so,sha256=XR2k_QBL1Q2qzZmAnbv5y7XEhOTVZpgFXgrr62ZNzRs,128632
+pdftopng/__init__.py,sha256=904RRKd7gwYjHgIRFIDN0RLPRR3q_JCNqO8dy_zZYZg,62
+pdftopng/__version__.py,sha256=fk4e51KdwCYUFzl05kjM7gJT0in0GLroztUZc_YMP5U,708
+pdftopng/pdftopng.cpp,sha256=ReFondDXSkoaPZnFJqO5DxtMlnCmMECcVByBxUJrLSA,27254
+pdftopng/.dylibs/libpng16.16.dylib,sha256=L6YskWkWdm-PAV0RHX8uPJQK831tuTZF4Xs6fEcrAQA,177352
+pdftopng/.dylibs/libfreetype.6.dylib,sha256=MTpYEKNkvES4wgGBSztARS89djIAPufV4YVdCuxftJc,618360
+pdftopng/.dylibs/libjpeg.9.dylib,sha256=DYpl4ouZbQ-vtZuC_wYEwcyxGNxQE4s4-mNizxuD0Xc,219172
+pdftopng/.dylibs/libfontconfig.1.dylib,sha256=yNfyhzFfBT_w2_BgsgZKxdja4flOevr5pEeizML6Nj0,247812
+pdftopng/.dylibs/libtiff.5.dylib,sha256=FbSqfEqdP-7KXvE-7DD6reg-0UkICnuewIUMNvpPaik,443436
+pdftopng/.dylibs/libpoppler.103.0.0.dylib,sha256=lRSLD_xawNYtmgdq422EX1_i2saQpmtdxs_jUjOtsG0,3960716
+pdftopng-0.1.0.dist-info/RECORD,,
+pdftopng-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+pdftopng-0.1.0.dist-info/WHEEL,sha256=qDU9vkT0HYrDFbbK1y5h1LOv2WPLB5v9Y7007MOuefg,110
+pdftopng-0.1.0.dist-info/top_level.txt,sha256=OyG62gzN9Vs9doC2b6x4UU48KxPWGNdWUwvs0jNGM-Q,9
+pdftopng-0.1.0.dist-info/METADATA,sha256=1BdSpU79x6UNW7GIqvGG8oGjL3-r7emwk0Zp15YP6YE,1182
