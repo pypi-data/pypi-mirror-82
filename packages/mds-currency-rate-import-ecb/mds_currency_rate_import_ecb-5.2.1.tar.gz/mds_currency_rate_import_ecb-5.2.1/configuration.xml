@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <!-- form view -->
+        <record model="ir.ui.view" id="config_view_form">
+            <field name="model">currency_rate_import_ecb.config</field>
+            <field name="type">form</field>
+            <field name="name">config_form</field>
+        </record>
+
+        <!-- action view for config -->
+        <record model="ir.action.act_window" id="act_configuration_view">
+            <field name="name">Import Settings</field>
+            <field name="res_model">currency_rate_import_ecb.config</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_configuration_view_form1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="config_view_form"/>
+            <field name="act_window" ref="act_configuration_view"/>
+        </record>
+        <menuitem parent="currency.menu_currency" action="act_configuration_view"
+                id="menu_configuration" icon="mds-settings-icon" sequence="10"/>
+
+        <!-- permissions -->
+        <record model="ir.model.access" id="access_configuration_anon">
+            <field name="model" search="[('model', '=', 'currency_rate_import_ecb.config')]"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="access_configuration_admin">
+            <field name="model" search="[('model', '=', 'currency_rate_import_ecb.config')]"/>
+            <field name="group" ref="res.group_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+    </data>
+</tryton>
