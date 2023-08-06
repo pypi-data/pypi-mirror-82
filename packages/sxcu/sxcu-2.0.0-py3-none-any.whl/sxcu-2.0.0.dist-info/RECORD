@@ -1,0 +1,10 @@
+sxcu/__client__.py,sha256=seif8pflAHfmlw4lWoP-Arejwq4x2wVuH5qR3t9o8Ac,2717
+sxcu/__init__.py,sha256=ZFByeGXTVmKQx3co1KrG3GovEl1j3iLEXYCUEfK3d_A,563
+sxcu/__logger__.py,sha256=J6gIIAb35JOnQsR1mvvBmAcfenceQ7WUkwSQhnKAB9Y,376
+sxcu/__version__.py,sha256=GXx_a43eS6CmS-LobeKqd-uPWDKtvs7U__RZsrQ_M9I,309
+sxcu/constants.py,sha256=bz8vJ6btCfKqpjQWtvxa-OTkfeiEs2yNsCPKd1boA-A,2973
+sxcu/sxcu.py,sha256=PjJQE3Ie_qfzc9KG9GcHrKqTUNy14DhSC1S4kIUGGsE,14716
+sxcu-2.0.0.dist-info/LICENSE,sha256=WJwz2hitqfuUTR6Oni-Wp36xsdCYEkRLKTvRQGTZ_G8,11340
+sxcu-2.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+sxcu-2.0.0.dist-info/METADATA,sha256=T9Cy31WqRnIzV1FX1yM0G4CwPtgbFzJ6PVhvoLZsp-U,2538
+sxcu-2.0.0.dist-info/RECORD,,
