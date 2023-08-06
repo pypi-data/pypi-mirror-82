@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: homlib
+Version: 0.0.0a1
+Summary: A Python package including a variety of homography solvers
+Home-page: https://github.com/marcusvaltonen/python-homlib
+Author: Marcus Valtonen Ornhag
+Author-email: marcusvaltonen@gmail.com
+License: MIT
+Description: # python-homlib
+        Python homography library. Classic and state-of-the-art methods for homography estimation.
+        
+        Wrapps the C++/Eigen library HomLib.
+        
+        ## Solvers available
+        List will be updated.
+        
+        ## Development
+        The Python wrapper uses eigency, which can be downloaded using pip. The requirements.txt
+        file in the `python` subdirectory also installs the necessary dependencies (numpy and cython)
+        ```bash
+            $ pip install -r requirements.txt
+        ```
+        In order to compile and wrap the C++ code
+        ```bash
+            $ python setup.py bdist_wheel
+        ```
+        To install the local changes use
+        ```bash
+            $ pip install -e .[dev]
+        ```
+        
+Keywords: computer vision homography
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Provides-Extra: dev
