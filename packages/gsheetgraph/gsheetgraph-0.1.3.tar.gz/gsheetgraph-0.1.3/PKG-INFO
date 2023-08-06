@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: gsheetgraph
+Version: 0.1.3
+Summary: this is gsheetgraph package
+Home-page: UNKNOWN
+Author: Neeraj Kumar
+Author-email: neeraj.neerajkumar11@gmail.com
+License: MIT
+Description: # Project Description
+        
+        `gsheetgraph` is a small wrapper around the *Google Sheet* which provide the facility of ploting of graph by selecting the X-axes and Y-axes.
+        
+        The data of the sheet can also be manipulated using this package.
+        ***
+        ## Installation 
+        >pip install gsheetgraph
+        ***
+        ## How to use it?
+        Import the package into the program. _gsheetgraph_ contain a module *gsheet_api* which contain the methods for ploting the graph as well as manipulating the data of the sheet.
+        
+        Once the module is imported it will ask to share the *Google Sheet* with the provided address. In the backend the user file will be linked with the *Google spread sheet api*.
+        Once the file will succesfully shared the connection will be established to perform the task. 
+        
+        ---
+        
+        Create the object for the connection:
+        ```python
+        >>> from gsheetgraph import gsheet_api as ap
+        >>> con= ap.gsheetconnection()
+        ```
+        >Note: Once the object will be created it will ask to share google sheet with the provided address and also ask for the sheet name.
+        
+        Get all the data from sheet
+        ```python
+        >>> con.getAllData()
+        ```
+        Get the data of a specified row and col 
+        ```python
+        # Accept the row number or col as an argument 
+        
+        >>> con.getRowValues(2)
+        >>> con.getColValues(4)
+        ```
+        Get the cell values 
+        ```python
+        # Accept the cell index as an argumet 
+        
+        >>> con.getCellValues(2,3)
+        ```
+        Insert the data into the sheet
+        ```python
+        # Accept row number and list of data to be inserted.
+        
+        >>> con.insertRow(3,[1,"abc"]) 
+        ```
+        Delete the Rows
+        ```python
+        # Accepts start and end index to be deleted
+        
+        >>> con.deleteRow(2,4)
+        ```
+        Plot the Graph 
+        ```python
+        # Choose X-axes and y-axes 
+        >>> con.plotGraph()
+        
+        # After selecting the X-axesa and Y-axes choose the type of the graph  
+        
+        ```
+        
+        ***
+        ## Methods Description 
+        
+        | Method | Description |
+        |---     |---          |
+        | getAllData()     | print all the data present in sheet.
+        | getRowValues()   | print the row data of specified row.
+        | getColValues()   | print the data of specified column.
+        | getCellValues()  | print the data of specified cell. It accept row index and column index of cell.
+        | insertRow()      | Inserted the data into the sheet. It accept two argument row number and list of data to be inserted.
+        | deleteRow()      | Delete the rows. It accept the starting and end index of the sheet which need to be deleted.
+        | updateCell()     | Updates the cell value. It accept three argument row number, col number and value which need to be changed.
+        | plotGraph()      | Ask user to select the X-axes and Y-axes.
+        | plotLineChart()  | Once the X-axes and Y-axes will selected by selecting the type of the graph the function will be triggered.
+        | plotScatterPlot()|Once the X-axes and Y-axes will selected by selecting the type of the graph the function will be triggered.
+        | ploltHistogram() |Once the X-axes and Y-axes will selected by selecting the type of the graph the function will be triggered.
+        | plotBarChart()   |Once the X-axes and Y-axes will selected by selecting the type of the graph the function will be triggered.
+        
+        ***
+        License
+        Â© 2020 Neeraj Kumar
+        
+        This package is distributed under the [MIT license](https://opensource.org/licenses/MIT).
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
