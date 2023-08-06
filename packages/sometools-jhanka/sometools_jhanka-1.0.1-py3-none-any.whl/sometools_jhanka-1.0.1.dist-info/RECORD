@@ -1,0 +1,7 @@
+test_package/__init__.py,sha256=WEgiIDtFR8Culf1MRm99CT1wxD26KM8cIojbrjd3iXU,60
+test_package/sometools.py,sha256=q-1fAfQHmTu76dU2y93bclaQyVq16vqnWdQPGm_DoGk,89
+sometools_jhanka-1.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+sometools_jhanka-1.0.1.dist-info/METADATA,sha256=eSsoK0wYX1St7dHxoK3uxPHDOEOKmx7iL8BhybKjMI8,514
+sometools_jhanka-1.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+sometools_jhanka-1.0.1.dist-info/top_level.txt,sha256=GeXTEKqyjBx-5S0TKnJMkgF1M3Cpjq6YSWM7P4c9-lg,13
+sometools_jhanka-1.0.1.dist-info/RECORD,,
