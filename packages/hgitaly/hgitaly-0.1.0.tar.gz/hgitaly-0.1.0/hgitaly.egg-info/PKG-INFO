@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: hgitaly
+Version: 0.1.0
+Summary: Server-side implementation of Gitaly protocol for Mercurial
+Home-page: https://foss.heptapod.net/heptapod/hgitaly
+Author: Georges Racinet
+Author-email: georges.racinet@octobus.net
+License: GPLv2+
+Description: # HGitaly
+        
+        HGitaly is Gitaly server for Mercurial.
+        
+        
+Keywords: hg mercurial heptapod gitlab
+Platform: UNKNOWN
