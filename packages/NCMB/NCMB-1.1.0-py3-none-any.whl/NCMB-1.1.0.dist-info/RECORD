@@ -1,0 +1,11 @@
+NCMB/Client.py,sha256=wUbWf7qIRo8pp5zbCcR2j5c5QwCAnN2mHtuJbbJoxQo,1884
+NCMB/NCMBObject.py,sha256=AlkC0bgdxo8HRMvydCg5ncc_w_2yh-NRKqY-f0vK0mI,708
+NCMB/NCMBQuery.py,sha256=LAgvXV7clD7ClPsOdS8FsX2kSpZ8l9_PWy9TN_yoECE,3971
+NCMB/NCMBRequest.py,sha256=tbi-MG5cVisXy5Q5Z89FP4HFBadu-3yR_-FXmn77CCE,1912
+NCMB/NCMBSignature.py,sha256=oFZCVGcNEyk2sYz64fwB0xIj_VfreJzwUpJzhUvu0xs,1023
+NCMB/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NCMB-1.1.0.dist-info/LICENSE,sha256=E-FS5OPdohHN1Wd_GxCUxLnRxAXXr5q_JHn0dcUI9Tk,1092
+NCMB-1.1.0.dist-info/METADATA,sha256=Xd2orvCekuBh_3r_BCP4SlX2Tz_Snk-V5tk8A5ZQKMs,536
+NCMB-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+NCMB-1.1.0.dist-info/top_level.txt,sha256=62Kj2q21IcFvl6IwjilZGCmkanuuB_V5wLP0vOygLhs,5
+NCMB-1.1.0.dist-info/RECORD,,
