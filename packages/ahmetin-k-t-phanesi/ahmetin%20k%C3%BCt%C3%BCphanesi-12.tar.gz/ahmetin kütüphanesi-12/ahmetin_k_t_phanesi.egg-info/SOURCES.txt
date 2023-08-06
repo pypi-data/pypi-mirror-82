@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+ahmetin_k_t_phanesi.egg-info/PKG-INFO
+ahmetin_k_t_phanesi.egg-info/SOURCES.txt
+ahmetin_k_t_phanesi.egg-info/dependency_links.txt
+ahmetin_k_t_phanesi.egg-info/top_level.txt
+joshbasiccalculator/__init__.py
