@@ -1,0 +1,15 @@
+README.md
+setup.py
+blobfile/__init__.py
+blobfile/azure.py
+blobfile/common.py
+blobfile/google.py
+blobfile/ops.py
+blobfile/ops_test.py
+blobfile/py.typed
+blobfile_gdb_fork.egg-info/PKG-INFO
+blobfile_gdb_fork.egg-info/SOURCES.txt
+blobfile_gdb_fork.egg-info/dependency_links.txt
+blobfile_gdb_fork.egg-info/not-zip-safe
+blobfile_gdb_fork.egg-info/requires.txt
+blobfile_gdb_fork.egg-info/top_level.txt
