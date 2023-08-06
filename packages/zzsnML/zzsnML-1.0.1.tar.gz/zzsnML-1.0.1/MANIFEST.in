@@ -1,0 +1,16 @@
+include LICENSE
+include *.in
+include *.ini
+include *.rst
+include *.txt
+include ./zzsnML/data/*.txt
+include ./zzsnML/catl/data/*.txt
+include ./zzsnML/julei/data/*.txt
+include ./zzsnML/ner/data/*.txt
+include ./zzsnML/ner/data/*.xlsx
+include ./zzsnML/ner/data/filter/*.txt
+include ./zzsnML/ner/data/pattern/*.txt
+include ./zzsnML/sentiment_analysis/SVM/results/*.txt
+include ./zzsnML/relation_extraction/user_data/*.txt
+include ./zzsnML/relation_extraction/user_data/*.xlsx
+include ./zzsnML/relation_extraction/user_data/*.xls

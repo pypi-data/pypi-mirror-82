@@ -1,0 +1,129 @@
+Using HanLP as Chinese sentence segmentation backend.
+Loading word vectors...
+Performing PCA...
+100 components can explain 90.87% variance.
+Training SVM...
+# Tuning hyper-parameters for precision
+
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/hongjp/.local/lib/python3.6/site-packages/sklearn/metrics/classification.py:1113: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Best parameters set found on development set:
+
+{'C': 1, 'class_weight': None, 'gamma': 0.001, 'kernel': 'sigmoid', 'probability': True}
+
+Grid scores on development set:
+
+0.755 (+/-0.019) for {'C': 1, 'class_weight': 'balanced', 'kernel': 'linear', 'probability': True}
+0.914 (+/-0.027) for {'C': 1, 'class_weight': None, 'kernel': 'linear', 'probability': True}
+0.760 (+/-0.028) for {'C': 10, 'class_weight': 'balanced', 'kernel': 'linear', 'probability': True}
+0.917 (+/-0.039) for {'C': 10, 'class_weight': None, 'kernel': 'linear', 'probability': True}
+0.762 (+/-0.024) for {'C': 100, 'class_weight': 'balanced', 'kernel': 'linear', 'probability': True}
+0.914 (+/-0.032) for {'C': 100, 'class_weight': None, 'kernel': 'linear', 'probability': True}
+0.762 (+/-0.024) for {'C': 1000, 'class_weight': 'balanced', 'kernel': 'linear', 'probability': True}
+0.915 (+/-0.037) for {'C': 1000, 'class_weight': None, 'kernel': 'linear', 'probability': True}
+0.723 (+/-0.016) for {'C': 1, 'class_weight': 'balanced', 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+0.657 (+/-0.018) for {'C': 1, 'class_weight': 'balanced', 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True}
+0.812 (+/-0.013) for {'C': 1, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'rbf', 'probability': True}
+0.967 (+/-0.022) for {'C': 1, 'class_weight': None, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+0.480 (+/-0.000) for {'C': 1, 'class_weight': None, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True}
+0.954 (+/-0.029) for {'C': 1, 'class_weight': None, 'gamma': 'auto', 'kernel': 'rbf', 'probability': True}
+0.760 (+/-0.022) for {'C': 10, 'class_weight': 'balanced', 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+0.720 (+/-0.013) for {'C': 10, 'class_weight': 'balanced', 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True}
+0.904 (+/-0.024) for {'C': 10, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'rbf', 'probability': True}
+0.942 (+/-0.030) for {'C': 10, 'class_weight': None, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+0.960 (+/-0.019) for {'C': 10, 'class_weight': None, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True}
+0.952 (+/-0.033) for {'C': 10, 'class_weight': None, 'gamma': 'auto', 'kernel': 'rbf', 'probability': True}
+0.817 (+/-0.022) for {'C': 100, 'class_weight': 'balanced', 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+0.748 (+/-0.029) for {'C': 100, 'class_weight': 'balanced', 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True}
+0.927 (+/-0.019) for {'C': 100, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'rbf', 'probability': True}
+0.938 (+/-0.015) for {'C': 100, 'class_weight': None, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+0.932 (+/-0.030) for {'C': 100, 'class_weight': None, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True}
+0.932 (+/-0.008) for {'C': 100, 'class_weight': None, 'gamma': 'auto', 'kernel': 'rbf', 'probability': True}
+0.891 (+/-0.035) for {'C': 1000, 'class_weight': 'balanced', 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+0.769 (+/-0.028) for {'C': 1000, 'class_weight': 'balanced', 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True}
+0.923 (+/-0.012) for {'C': 1000, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'rbf', 'probability': True}
+0.932 (+/-0.021) for {'C': 1000, 'class_weight': None, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+0.936 (+/-0.029) for {'C': 1000, 'class_weight': None, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True}
+0.923 (+/-0.009) for {'C': 1000, 'class_weight': None, 'gamma': 'auto', 'kernel': 'rbf', 'probability': True}
+0.705 (+/-0.010) for {'C': 1, 'class_weight': 'balanced', 'gamma': 0.001, 'kernel': 'sigmoid', 'probability': True}
+0.630 (+/-0.015) for {'C': 1, 'class_weight': 'balanced', 'gamma': 0.0001, 'kernel': 'sigmoid', 'probability': True}
+0.703 (+/-0.012) for {'C': 1, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True}
+0.981 (+/-0.000) for {'C': 1, 'class_weight': None, 'gamma': 0.001, 'kernel': 'sigmoid', 'probability': True}
+0.480 (+/-0.000) for {'C': 1, 'class_weight': None, 'gamma': 0.0001, 'kernel': 'sigmoid', 'probability': True}
+0.893 (+/-0.020) for {'C': 1, 'class_weight': None, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True}
+0.740 (+/-0.020) for {'C': 10, 'class_weight': 'balanced', 'gamma': 0.001, 'kernel': 'sigmoid', 'probability': True}
+0.705 (+/-0.010) for {'C': 10, 'class_weight': 'balanced', 'gamma': 0.0001, 'kernel': 'sigmoid', 'probability': True}
+0.680 (+/-0.023) for {'C': 10, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True}
+0.929 (+/-0.037) for {'C': 10, 'class_weight': None, 'gamma': 0.001, 'kernel': 'sigmoid', 'probability': True}
+0.981 (+/-0.000) for {'C': 10, 'class_weight': None, 'gamma': 0.0001, 'kernel': 'sigmoid', 'probability': True}
+0.804 (+/-0.028) for {'C': 10, 'class_weight': None, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True}
+0.754 (+/-0.031) for {'C': 100, 'class_weight': 'balanced', 'gamma': 0.001, 'kernel': 'sigmoid', 'probability': True}
+0.741 (+/-0.022) for {'C': 100, 'class_weight': 'balanced', 'gamma': 0.0001, 'kernel': 'sigmoid', 'probability': True}
+0.672 (+/-0.015) for {'C': 100, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True}
+0.929 (+/-0.037) for {'C': 100, 'class_weight': None, 'gamma': 0.001, 'kernel': 'sigmoid', 'probability': True}
+0.929 (+/-0.037) for {'C': 100, 'class_weight': None, 'gamma': 0.0001, 'kernel': 'sigmoid', 'probability': True}
+0.783 (+/-0.021) for {'C': 100, 'class_weight': None, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True}
+0.753 (+/-0.013) for {'C': 1000, 'class_weight': 'balanced', 'gamma': 0.001, 'kernel': 'sigmoid', 'probability': True}
+0.755 (+/-0.032) for {'C': 1000, 'class_weight': 'balanced', 'gamma': 0.0001, 'kernel': 'sigmoid', 'probability': True}
+0.667 (+/-0.016) for {'C': 1000, 'class_weight': 'balanced', 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True}
+0.918 (+/-0.024) for {'C': 1000, 'class_weight': None, 'gamma': 0.001, 'kernel': 'sigmoid', 'probability': True}
+0.929 (+/-0.037) for {'C': 1000, 'class_weight': None, 'gamma': 0.0001, 'kernel': 'sigmoid', 'probability': True}
+0.781 (+/-0.027) for {'C': 1000, 'class_weight': None, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True}
+0.807 (+/-0.026) for {'C': 1, 'class_weight': 'balanced', 'degree': 2, 'kernel': 'poly', 'probability': True}
+0.790 (+/-0.008) for {'C': 1, 'class_weight': 'balanced', 'degree': 3, 'kernel': 'poly', 'probability': True}
+0.822 (+/-0.034) for {'C': 1, 'class_weight': 'balanced', 'degree': 4, 'kernel': 'poly', 'probability': True}
+0.966 (+/-0.022) for {'C': 1, 'class_weight': None, 'degree': 2, 'kernel': 'poly', 'probability': True}
+0.965 (+/-0.022) for {'C': 1, 'class_weight': None, 'degree': 3, 'kernel': 'poly', 'probability': True}
+0.961 (+/-0.080) for {'C': 1, 'class_weight': None, 'degree': 4, 'kernel': 'poly', 'probability': True}
+0.865 (+/-0.050) for {'C': 10, 'class_weight': 'balanced', 'degree': 2, 'kernel': 'poly', 'probability': True}
+0.843 (+/-0.014) for {'C': 10, 'class_weight': 'balanced', 'degree': 3, 'kernel': 'poly', 'probability': True}
+0.850 (+/-0.037) for {'C': 10, 'class_weight': 'balanced', 'degree': 4, 'kernel': 'poly', 'probability': True}
+0.956 (+/-0.038) for {'C': 10, 'class_weight': None, 'degree': 2, 'kernel': 'poly', 'probability': True}
+0.958 (+/-0.032) for {'C': 10, 'class_weight': None, 'degree': 3, 'kernel': 'poly', 'probability': True}
+0.965 (+/-0.020) for {'C': 10, 'class_weight': None, 'degree': 4, 'kernel': 'poly', 'probability': True}
+0.910 (+/-0.013) for {'C': 100, 'class_weight': 'balanced', 'degree': 2, 'kernel': 'poly', 'probability': True}
+0.917 (+/-0.018) for {'C': 100, 'class_weight': 'balanced', 'degree': 3, 'kernel': 'poly', 'probability': True}
+0.899 (+/-0.028) for {'C': 100, 'class_weight': 'balanced', 'degree': 4, 'kernel': 'poly', 'probability': True}
+0.943 (+/-0.032) for {'C': 100, 'class_weight': None, 'degree': 2, 'kernel': 'poly', 'probability': True}
+0.941 (+/-0.042) for {'C': 100, 'class_weight': None, 'degree': 3, 'kernel': 'poly', 'probability': True}
+0.949 (+/-0.030) for {'C': 100, 'class_weight': None, 'degree': 4, 'kernel': 'poly', 'probability': True}
+0.916 (+/-0.016) for {'C': 1000, 'class_weight': 'balanced', 'degree': 2, 'kernel': 'poly', 'probability': True}
+0.922 (+/-0.038) for {'C': 1000, 'class_weight': 'balanced', 'degree': 3, 'kernel': 'poly', 'probability': True}
+0.919 (+/-0.040) for {'C': 1000, 'class_weight': 'balanced', 'degree': 4, 'kernel': 'poly', 'probability': True}
+0.916 (+/-0.024) for {'C': 1000, 'class_weight': None, 'degree': 2, 'kernel': 'poly', 'probability': True}
+0.921 (+/-0.031) for {'C': 1000, 'class_weight': None, 'degree': 3, 'kernel': 'poly', 'probability': True}
+0.921 (+/-0.033) for {'C': 1000, 'class_weight': None, 'degree': 4, 'kernel': 'poly', 'probability': True}
+
+Detailed classification report:
+
+The model is trained on the full development set.
+The scores are computed on the full evaluation set.
+
+             precision    recall  f1-score   support
+
+          0       0.85      0.08      0.14       139
+          1       0.96      1.00      0.98      3084
+
+avg / total       0.96      0.96      0.94      3223
+
+
+# Tuning hyper-parameters for recall
+
