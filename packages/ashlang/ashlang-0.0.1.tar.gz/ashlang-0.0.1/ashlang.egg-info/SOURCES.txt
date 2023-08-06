@@ -1,0 +1,8 @@
+README.txt
+setup.py
+ashlang/__init__.py
+ashlang/ash.py
+ashlang.egg-info/PKG-INFO
+ashlang.egg-info/SOURCES.txt
+ashlang.egg-info/dependency_links.txt
+ashlang.egg-info/top_level.txt
