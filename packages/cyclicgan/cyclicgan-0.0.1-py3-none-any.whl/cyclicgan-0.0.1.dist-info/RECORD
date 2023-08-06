@@ -1,0 +1,11 @@
+CyclicGAN/__init__.py,sha256=2lTvWNnpCXbJuDVHVnBgMjgVKYjqb36aBRelkXICxqo,153
+CyclicGAN/config.py,sha256=cGCcQZU1l1URG1Gnm66lE0ZB_5Dh1FiaNM7QZVN827k,138
+CyclicGAN/cyclicGAN.py,sha256=nhpXtTfLJNeLFuXGe0OB6onqy-Jgjl-PoyU8Sotihus,4086
+CyclicGAN/discriminator.py,sha256=Wh8KKXPsYy6ktbDWhx0Zp1nTdAs6_Skfp9SrE3AE4Y8,1620
+CyclicGAN/generator.py,sha256=ME6Jk8CgxdrltAKboS2Ey6EqXj5LFGpyt3Dbq39sG1s,2889
+CyclicGAN/loss.py,sha256=Ns6pXHbYaCIAK8sBq8ttYhS3RZB3VqPKtQP4KYprOzw,840
+cyclicgan-0.0.1.dist-info/LICENSE,sha256=itCShO7O99A4Wu6ANCIipzSos_U9MqnZ8IpoELI1Rjs,1097
+cyclicgan-0.0.1.dist-info/METADATA,sha256=npzOWIVbY7JkbgSngVAuuyLwmZM1bDy18q_DjlPnEWk,1360
+cyclicgan-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+cyclicgan-0.0.1.dist-info/top_level.txt,sha256=QNMCf-mZmtlymBnEyi0_M_0sA07lL1lfV2jxXUbmlzU,10
+cyclicgan-0.0.1.dist-info/RECORD,,
