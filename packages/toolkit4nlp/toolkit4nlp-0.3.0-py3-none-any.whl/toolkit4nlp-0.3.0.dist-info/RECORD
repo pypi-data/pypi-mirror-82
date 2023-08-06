@@ -1,0 +1,13 @@
+toolkit4nlp/__init__.py,sha256=fyE2iPqJhOyJ-Yu5PbiZn7Zy03t4iaTW-laWgfDHFXU,159
+toolkit4nlp/backend.py,sha256=hepaEB6whfbe1P9ZFtlmkXLsXFJs9OEwLYUijj88WTY,4710
+toolkit4nlp/evaluation.py,sha256=Zyr1w1quVy5HPEINM-R0N6hM7ziSRi8_hHpr9QkNigE,6344
+toolkit4nlp/initializers.py,sha256=ez8YjasJ7IP-1M7e4OzKC2b7FvRYQYKyxqzadoVlXGg,1086
+toolkit4nlp/layers.py,sha256=Sck6KmH5CbZlf-WuVeGuzwGN8l0wFpufG9KCrNPCeNQ,27230
+toolkit4nlp/models.py,sha256=2whmKedu-yt-if2xfnE_Fq92ZBtyHC3gIUQGXzSVnfE,30077
+toolkit4nlp/optimizers.py,sha256=xz7dRTY1qoFulozo_Zgt-fEAAQjebqFk7HkW8lE8KOI,15098
+toolkit4nlp/tokenizers.py,sha256=IPjNl9u-n4ykqvhFWk1uq30BhoTqy47hM5tixa8qgno,15124
+toolkit4nlp/utils.py,sha256=e4CTHnyqYuZiK4g1heF8acWp4RLnuQw9uximHdLKmVg,14517
+toolkit4nlp-0.3.0.dist-info/METADATA,sha256=xpuoYbQwlFiZS1_sZB7G5Bb17jC86kqfwtA_lhGSRSg,322
+toolkit4nlp-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+toolkit4nlp-0.3.0.dist-info/top_level.txt,sha256=9LLL7LAdZEuRUVKL082cKzkfLWqAsp9IEEmjXLBqXOU,12
+toolkit4nlp-0.3.0.dist-info/RECORD,,
