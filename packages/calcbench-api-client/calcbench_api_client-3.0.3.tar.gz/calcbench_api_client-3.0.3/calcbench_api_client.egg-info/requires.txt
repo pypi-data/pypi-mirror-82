@@ -1,0 +1,10 @@
+requests
+
+[Backoff]
+backoff
+
+[Listener]
+azure-servicebus==7.0.0b5
+
+[Pandas]
+Pandas
