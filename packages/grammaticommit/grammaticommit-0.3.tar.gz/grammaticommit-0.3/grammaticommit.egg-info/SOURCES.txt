@@ -1,0 +1,11 @@
+README.rst
+setup.py
+grammaticommit/__init__.py
+grammaticommit/commit-msg
+grammaticommit/grammaticommit.py
+grammaticommit.egg-info/PKG-INFO
+grammaticommit.egg-info/SOURCES.txt
+grammaticommit.egg-info/dependency_links.txt
+grammaticommit.egg-info/requires.txt
+grammaticommit.egg-info/top_level.txt
+script/grammaticommit
