@@ -1,0 +1,11 @@
+mcubes/__init__.py,sha256=bG-HOZ_bfwquO_fprjBo_ioQBJ3J2zqEND0Ml7TbDkU,145
+mcubes/_mcubes.cp37-win32.pyd,sha256=T9QMDEB9M0TdfApZgc7fFiRHLZBAhgRnH3S2OjWxNxQ,86528
+mcubes/exporter.py,sha256=zgMlrIe7b4OkrabdAbbd4NrogBklMxG-7pOVgUXZ8J0,1760
+mcubes/numpy_smoothing.py,sha256=fr6duEcViOIkUasAxgL_9jb52--I7qnzQAE_PYjcIAM,2677
+mcubes/smoothing.py,sha256=NAa8Wr4VJsnqEK6R5wHUIx8J9tgt95y92-k3Xh1-Iuw,10037
+mcubes/version.py,sha256=66uAxPJbCOiw3Ms9S8mb9E5757H6nYS0ni0FyYfGNFw,78
+PyMCubes-0.1.2.dist-info/LICENSE,sha256=Eb0IOxXGpZtF4XEMwClhygQ0tr5qjiy5SgVnrASm4Z0,1521
+PyMCubes-0.1.2.dist-info/METADATA,sha256=DkmiYwj4bSgRJQPMNPgiaTI_bADSAX4TpfXjiE9SJnA,860
+PyMCubes-0.1.2.dist-info/WHEEL,sha256=SYKICiw7EPrpyOeCIuAJswXTZAWXbJBHvAYcpuUpX1M,102
+PyMCubes-0.1.2.dist-info/top_level.txt,sha256=vsHgGZkH95lEw83wCzaAaa3D1x8y5XQ92bE7BnlK5J0,7
+PyMCubes-0.1.2.dist-info/RECORD,,
