@@ -1,0 +1,7 @@
+README.md
+setup.py
+helsingborgalarm/__init__.py
+helsingborgalarm.egg-info/PKG-INFO
+helsingborgalarm.egg-info/SOURCES.txt
+helsingborgalarm.egg-info/dependency_links.txt
+helsingborgalarm.egg-info/top_level.txt
