@@ -1,0 +1,3 @@
+[console_scripts]
+oldfolder = oldfolder.oldfolder:main
+

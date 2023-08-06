@@ -1,0 +1,9 @@
+README.rst
+setup.py
+oldfolder/__init__.py
+oldfolder/oldfolder.py
+oldfolder.egg-info/PKG-INFO
+oldfolder.egg-info/SOURCES.txt
+oldfolder.egg-info/dependency_links.txt
+oldfolder.egg-info/entry_points.txt
+oldfolder.egg-info/top_level.txt
