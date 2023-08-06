@@ -1,0 +1,10 @@
+Changelog.txt
+LICENSE.txt
+MANIFEST.in
+MultiDownloader.py
+setup.py
+MultiDownloader.egg-info/PKG-INFO
+MultiDownloader.egg-info/SOURCES.txt
+MultiDownloader.egg-info/dependency_links.txt
+MultiDownloader.egg-info/requires.txt
+MultiDownloader.egg-info/top_level.txt
