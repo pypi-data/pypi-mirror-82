@@ -1,0 +1,7 @@
+README.md
+setup.py
+example_pkg_cnuebred.egg-info/PKG-INFO
+example_pkg_cnuebred.egg-info/SOURCES.txt
+example_pkg_cnuebred.egg-info/dependency_links.txt
+example_pkg_cnuebred.egg-info/top_level.txt
+pkg/__init__.py
