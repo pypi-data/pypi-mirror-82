@@ -1,0 +1,10 @@
+grump/__init__.py,sha256=ooUeXUWxgRHBNPVdDbc4_KMRVrW4QePmn8vTJQqhVtY,750
+grump/grump.py,sha256=_ZkJ0yOFSy5olde-YzgvHXishryOwgEFBpQauVJ0ano,5256
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_grump.py,sha256=aL-4lhRHcV8MIJmaGPu4214UiDd9NQtnajClrLwsBEk,2671
+grump-0.0.11.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+grump-0.0.11.dist-info/METADATA,sha256=zHnWNxI_uwV8kBkSDiOBZ0M2uAIcd6sV5H9MlTjmkP0,3662
+grump-0.0.11.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+grump-0.0.11.dist-info/entry_points.txt,sha256=ELWheeJbyYpDbuYfmG9rlqD1UEv551X--7znhUb_S-4,44
+grump-0.0.11.dist-info/top_level.txt,sha256=i1BreStaEjFXwNpEJfRNFCgc6lLqEAVFTqMqROkSx5E,12
+grump-0.0.11.dist-info/RECORD,,
