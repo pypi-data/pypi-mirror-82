@@ -1,0 +1,12 @@
+git_sign_off/Git.py,sha256=3pUUPBbLItLQjc2CZQ70F5Jlh4bRBtDYZph_locrcD4,642
+git_sign_off/Process.py,sha256=L2j3UnxvI65wPFMNCCgXGWI7S_I8VS4UIqvVgWCwlRY,1916
+git_sign_off/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_sign_off/__main__.py,sha256=RZrzmgSw4dmge_7o7vBAFoO0K4v1_1QHRzawH3ZKvYA,1036
+git_sign_off/exceptions.py,sha256=mYZBRYyJT3w5qIs5pBse-4xy1CzgX1bfpRI_Ez8cipk,154
+git_sign_off/sign_off.py,sha256=NfNNp9MYRqogG8ozviXj_udTkvY1Q4ynDVXt7i0iGy8,3622
+git_sign_off/utils.py,sha256=A0osjmxbpWHhOUmvFHbVkyyoxdvmYWbfLdb_BS0eC2U,154
+git_sign_off-0.0.0.dist-info/METADATA,sha256=b4bESekc-yygNfSkhlfJ61JJnWMOf33kUVXcsney2YA,1780
+git_sign_off-0.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+git_sign_off-0.0.0.dist-info/entry_points.txt,sha256=w9eFSW8tstOEv2Nm9l6dkOBKEZK9O8p0ii1F_RNtDik,120
+git_sign_off-0.0.0.dist-info/top_level.txt,sha256=p8tbWCmclmURhMzgazOWDDPYDawhdvYgKltcc23xC0c,13
+git_sign_off-0.0.0.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+[console_scripts]
+git-sign-off = git_sign_off.__main__:main_sign
+git-sign-off-check = git_sign_off.__main__:main_check
+
