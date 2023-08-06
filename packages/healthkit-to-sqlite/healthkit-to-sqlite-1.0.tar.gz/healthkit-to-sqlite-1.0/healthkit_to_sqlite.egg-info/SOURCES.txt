@@ -1,0 +1,11 @@
+README.md
+setup.py
+healthkit_to_sqlite/__init__.py
+healthkit_to_sqlite/cli.py
+healthkit_to_sqlite/utils.py
+healthkit_to_sqlite.egg-info/PKG-INFO
+healthkit_to_sqlite.egg-info/SOURCES.txt
+healthkit_to_sqlite.egg-info/dependency_links.txt
+healthkit_to_sqlite.egg-info/entry_points.txt
+healthkit_to_sqlite.egg-info/requires.txt
+healthkit_to_sqlite.egg-info/top_level.txt

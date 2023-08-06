@@ -1,0 +1,4 @@
+sqlite-utils>=2.4.4
+
+[test]
+pytest
