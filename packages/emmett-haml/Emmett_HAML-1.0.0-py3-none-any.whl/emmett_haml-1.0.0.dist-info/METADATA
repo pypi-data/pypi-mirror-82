@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: emmett-haml
+Version: 1.0.0
+Summary: HAML syntax for Emmett templates
+Home-page: https://github.com/gi0baro/emmett-haml
+License: BSD-3-Clause
+Keywords: web,templates,haml,emmett
+Author: Giovanni Barillari
+Author-email: gi0baro@d4net.org
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Dist: emmett (>=2,<3)
+Requires-Dist: renoir-haml (>=1.0,<2.0)
+Project-URL: Repository, https://github.com/gi0baro/emmett-haml
+Description-Content-Type: text/markdown
+
+# Emmett-HAML
+
+Emmett-HAML is an [Emmett framework](https://github.com/emmett-framework/emmett) extension providing an HAML like syntax for templates. This is not a template engine but a compiler which converts HAML files to HTML Renoir templates.
+
+[![pip version](https://img.shields.io/pypi/v/emmett-haml.svg?style=flat)](https://pypi.python.org/pypi/emmett-haml)
+
+## Installation
+
+You can install Emmett-HAML using pip:
+
+    pip install emmett-haml
+
+And add it to your Emmett application:
+
+```python
+from emmett_haml import Haml
+
+app.use_extension(Haml)
+```
+
+## License
+
+Emmett-HAML is released under BSD license. Check the LICENSE file for more details.
+
