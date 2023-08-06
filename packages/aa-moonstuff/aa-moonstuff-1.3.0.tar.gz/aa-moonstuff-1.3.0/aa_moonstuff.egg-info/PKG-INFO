@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: aa-moonstuff
+Version: 1.3.0
+Summary: An app to deal with moooon!
+Home-page: https://gitlab.com/colcrunch/aa-moonstuff
+Author: Col Crunch
+Author-email: it-team@serin.space
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: ~=3.6
+Provides-Extra: testing
