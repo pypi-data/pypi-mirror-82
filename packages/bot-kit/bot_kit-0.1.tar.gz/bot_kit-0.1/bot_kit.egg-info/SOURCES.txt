@@ -1,0 +1,11 @@
+setup.py
+bot_kit/__init__.py
+bot_kit/__main__.py
+bot_kit/common.py
+bot_kit/db.py
+bot_kit/kit.py
+bot_kit.egg-info/PKG-INFO
+bot_kit.egg-info/SOURCES.txt
+bot_kit.egg-info/dependency_links.txt
+bot_kit.egg-info/requires.txt
+bot_kit.egg-info/top_level.txt
