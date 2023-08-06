@@ -1,0 +1,9 @@
+pycaches/__init__.py,sha256=1OmB8wVOxHzB8PRGU6pH0loVf4F9ixgTAhgqKZXvDek,172
+pycaches/cache.py,sha256=F5fOp0gj_zj2gZPosfyVpeYQMvtfDmtKkNZ423k6IYI,3380
+pycaches/decorators.py,sha256=5-gNh6Adobtvf_Ik2vGMb9jDK6CCFKUSF7OeML3Dw50,928
+pycaches/nohashmap.py,sha256=DcFNP8eUfg5mMQtF4-ae40VPSz1Kfii5xf7ZExabwag,3662
+pycaches/policies.py,sha256=4Gviq_z4A3WPU_jQsnF6RGo4nKLg0UhkEfoYjlCU068,2050
+pycaches-0.0.7.dist-info/LICENSE.md,sha256=o9Wp_hp3XWwgq1GsqfwFpvKDOpqhMZNnxvteQa6Rhkc,1070
+pycaches-0.0.7.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pycaches-0.0.7.dist-info/METADATA,sha256=7mGVOD-QTcsMCZpiq2RH_HFxFSHgKuoBALQ6jxPFLDQ,4297
+pycaches-0.0.7.dist-info/RECORD,,
