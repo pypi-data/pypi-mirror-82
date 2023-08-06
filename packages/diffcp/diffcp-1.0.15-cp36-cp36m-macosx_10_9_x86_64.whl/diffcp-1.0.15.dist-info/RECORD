@@ -1,0 +1,10 @@
+_diffcp.cpython-36m-darwin.so,sha256=GBjxwFMqjigAzM_8peByezA8Avx4K3_R0NOzY8dEVgA,813952
+diffcp/__init__.py,sha256=tKmEjme41VQCi-eSBNfj_qu6Lj8vSDnoRxSV6kYwNOE,236
+diffcp/cone_program.py,sha256=LdwSJXm0MbnRXHOqMnQXaqC14T1a-T-pI1wmau1uXi0,16526
+diffcp/cones.py,sha256=svV0TgXYFie3ZlBsAErHhMeFifZ87TtODd5t6oPMQ0k,4194
+diffcp/utils.py,sha256=IZV3DE5i--F3xLVL2_fP5RKHHLIlJS8LLU1bYySNRjw,1286
+diffcp-1.0.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+diffcp-1.0.15.dist-info/METADATA,sha256=Cvdy5t9AMwcWtCBASKNh6xVOVsgvodW-3bxNWvTiwPo,7362
+diffcp-1.0.15.dist-info/WHEEL,sha256=lSU0w45QqfDJHTuhFZouPsIyI-GSJHfRV-2E-9aUKe4,110
+diffcp-1.0.15.dist-info/top_level.txt,sha256=yoLBiubP-CzUoaoevKjNY36O8oQFxqA0akmNrsyGImc,15
+diffcp-1.0.15.dist-info/RECORD,,
