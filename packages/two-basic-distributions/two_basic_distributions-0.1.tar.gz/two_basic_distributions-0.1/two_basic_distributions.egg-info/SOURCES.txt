@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+two_basic_distributions/Binomialdistribution.py
+two_basic_distributions/Gaussiandistribution.py
+two_basic_distributions/Generaldistribution.py
+two_basic_distributions/__init__.py
+two_basic_distributions.egg-info/PKG-INFO
+two_basic_distributions.egg-info/SOURCES.txt
+two_basic_distributions.egg-info/dependency_links.txt
+two_basic_distributions.egg-info/not-zip-safe
+two_basic_distributions.egg-info/top_level.txt
