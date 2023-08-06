@@ -1,0 +1,10 @@
+nangram/__init__.py,sha256=d5PrX3__IfAqwVGGgr3rgNzb1WENcLI6MCtUTGgYEl4,95
+nangram/element.py,sha256=NTvAm4QPJL9J7kfzx8v62g8FzLbDepaY2tW-u2Giwxg,8768
+nangram/grammar.py,sha256=sqMgEjvS-Vsv9PN9yKTK55HFAZsovPEzxxefcGZcw0M,7266
+nangram/node.py,sha256=AEyuLp4je81bOTE7nrGu_W_1SHojtkBcEImMfKHzY_4,2450
+nangram/util.py,sha256=10R0QJGEAOxntolCuuaimJJvyfecPDQHl6JV-Jqm7DI,3917
+nangram-0.0.6.dist-info/LICENSE,sha256=GhC-gIF77lxjap2sYg_w-0smqyjqei3t8EoFoG7N8UY,1099
+nangram-0.0.6.dist-info/METADATA,sha256=jjWu1lh-4wrFOzmy3q8_Y5TIDYaq0axiiSKHGngtoV0,2145
+nangram-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nangram-0.0.6.dist-info/top_level.txt,sha256=tiUewwocJXRACtLD002gOMkkLrRGiUPcGW7u4yZDOIM,8
+nangram-0.0.6.dist-info/RECORD,,
