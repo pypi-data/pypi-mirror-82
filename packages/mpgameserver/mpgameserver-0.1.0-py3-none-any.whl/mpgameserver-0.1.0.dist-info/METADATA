@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mpgameserver
+Version: 0.1.0
+Summary: Python Multiplayer Game Server
+Home-page: https://github.com/nsetzer/mpgameserver
+Author: Nick Setzer
+Author-email: nsetzer@users.noreply.github.com
+License: UNKNOWN
+Download-URL: https://github.com/nsetzer/mpgameserver/archive/0.1.0.tar.gz
+Keywords: PYGAME,MULTIPLAYER,UDP,SERVER
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cryptography (>=3.0)
+Requires-Dist: pygame (>=2.0.0.dev10)
+Requires-Dist: pillow (>=7.2.0)
+Requires-Dist: twisted (>=20.3.0)
+
+A Python 3.8+ UDP Client and Server for building multiplayer games with a focus on security and ease of use.
+
+
