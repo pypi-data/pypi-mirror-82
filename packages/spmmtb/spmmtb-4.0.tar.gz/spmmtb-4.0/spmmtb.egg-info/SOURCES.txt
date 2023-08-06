@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+spmmtb/__init__.py
+spmmtb.egg-info/PKG-INFO
+spmmtb.egg-info/SOURCES.txt
+spmmtb.egg-info/dependency_links.txt
+spmmtb.egg-info/not-zip-safe
+spmmtb.egg-info/top_level.txt
