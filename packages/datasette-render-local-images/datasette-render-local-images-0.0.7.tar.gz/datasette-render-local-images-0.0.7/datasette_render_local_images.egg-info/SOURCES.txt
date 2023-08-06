@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+sample.png
+setup.py
+datasette_render_local_images/__init__.py
+datasette_render_local_images.egg-info/PKG-INFO
+datasette_render_local_images.egg-info/SOURCES.txt
+datasette_render_local_images.egg-info/dependency_links.txt
+datasette_render_local_images.egg-info/entry_points.txt
+datasette_render_local_images.egg-info/requires.txt
+datasette_render_local_images.egg-info/top_level.txt
