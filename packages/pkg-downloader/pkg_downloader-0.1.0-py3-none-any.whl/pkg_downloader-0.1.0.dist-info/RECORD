@@ -1,0 +1,10 @@
+pkgdownloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pkgdownloader/downloader.py,sha256=FDaw6Awvba--B3WuBJab2xHyusW77Etw9-KN2PHg38E,1571
+pkgdownloader/pkgdownloader.py,sha256=Ns_q7pIK3pE29Vd7HWbmuUsMugZeGCLptSlUlnnZHHs,1705
+pkgdownloader/templates/DOCKERFILE-deb.jinja,sha256=Nf0G3Ntn0p0MRHFKyCX9GQ4IU9Q7LCh_rzGs-A9FS7g,662
+pkgdownloader/templates/DOCKERFILE-rpm.jinja,sha256=Zifmxr6CobnNWRTH0ZUS-FR-eS-4EtzgF3loy4TGp4Y,463
+pkgdownloader/templates.py,sha256=hjabQdKxMg89CP5cXoMj_EFAQWZOwbVxxB56CdQF8EE,1949
+pkg_downloader-0.1.0.dist-info/entry_points.txt,sha256=_i6_3mUnsaYqc5awBcXDdIaf6-nxtlphSuXGfsBZjyo,66
+pkg_downloader-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pkg_downloader-0.1.0.dist-info/METADATA,sha256=pk3x8KzgnT7w1eQ8c8771Bw0GMhswgWRTmcwg-8ylC0,613
+pkg_downloader-0.1.0.dist-info/RECORD,,
