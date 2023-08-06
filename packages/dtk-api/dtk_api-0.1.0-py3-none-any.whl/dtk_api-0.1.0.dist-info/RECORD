@@ -1,0 +1,7 @@
+dtk_api/__init__.py,sha256=I607OGqN8JdqwNFE3n8bA192RBG-aaxilKr7-VUMPX4,70
+dtk_api/base.py,sha256=hkcZrwcCtjt8WQYM_Bk6Csuu3CBTeHTdAm1H6CzR5O4,937
+dtk_api/gen.py,sha256=MRgHeUZPriJR27HPc92zL47d1N7wDuLN91nH3BeyH-Q,65710
+dtk_api/test_dtk.py,sha256=VdAxloV0t22_295faT6b7Wg_ppvNZvnHvxAZuJ-8RrI,908
+dtk_api-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+dtk_api-0.1.0.dist-info/METADATA,sha256=6OHwH7-R65tLh_7iMp9kh-pDqT2b05UgDjs6wio-qeQ,358
+dtk_api-0.1.0.dist-info/RECORD,,

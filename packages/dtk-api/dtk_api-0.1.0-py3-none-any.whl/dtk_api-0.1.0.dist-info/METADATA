@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dtk-api
+Version: 0.1.0
+Summary: 大淘客接口
+Author: dev
+Author-email: dev@qiyutech.tech
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6,<3.7)
+Requires-Dist: pydantic (>=1.6,<1.7)
+Requires-Dist: requests (>=2.24,<2.25)
