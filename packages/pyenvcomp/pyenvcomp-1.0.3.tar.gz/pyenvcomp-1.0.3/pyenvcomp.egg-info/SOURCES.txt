@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyenvcomp/__init__.py
+pyenvcomp/main.py
+pyenvcomp.egg-info/PKG-INFO
+pyenvcomp.egg-info/SOURCES.txt
+pyenvcomp.egg-info/dependency_links.txt
+pyenvcomp.egg-info/entry_points.txt
+pyenvcomp.egg-info/requires.txt
+pyenvcomp.egg-info/top_level.txt
