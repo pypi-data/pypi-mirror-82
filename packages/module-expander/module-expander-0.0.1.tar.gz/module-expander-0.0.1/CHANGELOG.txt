@@ -1,0 +1,6 @@
+Change Log
+===========
+
+0.0.1 (10/13/2020)
+-------------------
+first release, a TON more features to come
