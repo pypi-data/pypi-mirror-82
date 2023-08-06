@@ -1,0 +1,4 @@
+Python>=3.0
+Pandas
+Matplotlib
+google_drive_downloader
