@@ -1,0 +1,49 @@
+Library: nidhichaudharygsmtpd007
+
+This library helps in taking the google sheets and can even convert the sheets into the pandas dataframe and then it can use this dataframe to plot it into 3 different forms of graphs:
+1. Bar plot
+2. Line Plot with markers and dotted line
+3. Scatter Plot with the mean line and the color.
+
+** Details of each functions are described below
+
+1. To call the google spreadsheet:
+    - Use createcredentials() for this purpose:
+            
+            createcredentials('your api json filename', 'spreadsheet to be called')
+        Put the full path for the api json filename
+    - It returns the list of the dictionary from the called spreadsheet.
+
+2. To convert the list of dictionary returned from the createcredentials() to dataframe:
+    - Use createDF() for this purpose:
+            
+            createDF(d) 
+                - d: the returned list of dictionary
+    - Returns the dataframe that can be used for plotting.
+
+3. To plot the graphs of your choice:
+    - Currently the library provides you to plot 3 graphs: Bar Plot, Line Plot, Scatter Plot.
+   
+    - For Barlplot you need to call:
+          
+            plotBar(dataframe, 'column name for the x axis', 'column name for the y axis')
+        - The function automatically plots the graph for you.
+    
+    - For Lineplot you need to call:
+            
+            plotLine(dataframe, 'column name for the x axis', 'column name for the y axis')
+         - The function plots the graph which is represented by the dotted line and the points are marked by the '>' symbol.
+
+    - For Scatterplot you need to call:
+            
+            plotScatter(dataframe, 'column name for the x axis', 'column name for the y axis', colors)
+            colors: Array for designing the colorbar.
+        - The function returns the Scatterplot which is represented by the green color and along with it there shall be a color bar which describes the  variation of color throughout the plotting of graph. Along with that mean is also plotted with that.
+
+    Note: All figures can be easily saved.
+
+    Pre-Requisites:
+    1. Google API for spreadsheets
+
+    For creating this library I have used gspread for calling the google spreadsheet api.
+    

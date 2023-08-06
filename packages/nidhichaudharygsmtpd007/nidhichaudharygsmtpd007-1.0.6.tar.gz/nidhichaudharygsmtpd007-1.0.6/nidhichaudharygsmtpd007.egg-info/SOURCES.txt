@@ -1,0 +1,10 @@
+CHANGELOG.txt
+Licence.txt
+MANIFEST.in
+README.md
+setup.py
+Spreadsheet1234/__init__.py
+nidhichaudharygsmtpd007.egg-info/PKG-INFO
+nidhichaudharygsmtpd007.egg-info/SOURCES.txt
+nidhichaudharygsmtpd007.egg-info/dependency_links.txt
+nidhichaudharygsmtpd007.egg-info/top_level.txt
