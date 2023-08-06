@@ -1,0 +1,16 @@
+six
+jinja2
+bash
+psutil
+netifaces
+simpleeval>=0.9.10
+inotify_simple
+
+[:python_version < "3.0"]
+inotify_simple==1.2.1
+
+[:python_version >= "3.0"]
+inotify_simple
+
+[:python_version >= "3.6"]
+rich>=1.1.3
