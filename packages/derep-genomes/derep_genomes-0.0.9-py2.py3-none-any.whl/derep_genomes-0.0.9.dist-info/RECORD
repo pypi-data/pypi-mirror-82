@@ -1,0 +1,12 @@
+derep_genomes/__init__.py,sha256=t9KZdp_DIvv91kyAlbqfXkrky_63qicYujvE-nd8xlM,93
+derep_genomes/__main__.py,sha256=yHdx5oYSjWWAB3K5mRjRQCY3aA2HfS6-HhCbbeulcjw,20246
+derep_genomes/_version.py,sha256=KqNcY-QowhB_8ySG7ezIPd8UXGrlxEDUSbhywh55FlU,498
+derep_genomes/dbops.py,sha256=ieqMWQjsmcaryyc9QSie2xbvZy1PrHX8VApA1ctNweM,9913
+derep_genomes/general.py,sha256=XF-xxE5iDr-hmKyCyc37OylSqndNnMK7l1oo0ATyvq8,10029
+derep_genomes/graph.py,sha256=31CLJ-PKrP84FwcP6WkRNRgX8cJxe9Bh4NQFNwKMvxs,17802
+derep_genomes-0.0.9.dist-info/LICENSE,sha256=FhLv2iFNLLOs8rCjlC7lHr1-pZ4UvS7cETEr1hQ5q-0,1575
+derep_genomes-0.0.9.dist-info/METADATA,sha256=MEgSVrJ9_Ck5ZiKH0H8ET9JlOoK-bNxhPGg1s89nNEY,731
+derep_genomes-0.0.9.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+derep_genomes-0.0.9.dist-info/entry_points.txt,sha256=PDA6F9pG8HuB9jGF2IT0sG19Asvk0SpxQpzzRdjxD-M,56
+derep_genomes-0.0.9.dist-info/top_level.txt,sha256=p8aPUpj2hy0erGeGFxZ8qNdTWtMf3oi5ZtFbG9DXTzI,14
+derep_genomes-0.0.9.dist-info/RECORD,,
