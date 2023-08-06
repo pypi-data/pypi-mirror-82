@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: kiki
+Version: 1.0.1
+Summary: pdf text-to-speech
+Home-page: https://github.com/VijayStroup/Kiki
+Author: Vijay Stroup
+Author-email: vijay@vijaystroup.com
+License: UNKNOWN
+Description: # Kiki
+        
+        Named after the Google voice actress Kiki Baessell.  
+        Kiki will transform your PDFs into audio files for you to listen to.
+        
+        ## Installation
+        ### Dependencies
+        - Python 3
+        - Python 3 pip
+        
+        ```bash
+        $ pip install kiki
+        ```
+        
+        ## Usage
+        ```bash
+        $ kiki
+        Usage: kiki [OPTIONS] COMMAND [ARGS]...
+        
+        Options:
+          --help  Show this message and exit.
+        
+        Commands:
+          get     get audio from pdf
+          github  open github repo for Kiki
+        ```
+        
+        ```bash
+        $ kiki get --help
+        Usage: kiki get [OPTIONS] PDF
+        
+          get audio from pdf
+        
+        Arguments:
+          PDF  url or file of pdf  [required]
+        
+        Options:
+          --filename TEXT  name of output file without extension  [default: kiki]
+          --help           Show this message and exit.
+        
+        
+        $ kiki get http://www.africau.edu/images/default/sample.pdf
+        Downloading  [####################################]  100%          
+        Your audio file is now available at kiki.mp3
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
