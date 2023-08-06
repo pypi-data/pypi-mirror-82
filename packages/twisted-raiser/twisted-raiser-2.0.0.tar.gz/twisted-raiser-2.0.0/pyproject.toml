@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "twisted_raiser"
+dist-name = "twisted-raiser"
+author = "Thomas Grainger"
+author-email = "twisted-raiser@graingert.co.uk"
+home-page = "https://github.com/twisted/cython-test-exception-raiser"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = ["cython-test-exception-raiser"]

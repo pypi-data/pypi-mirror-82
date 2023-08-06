@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: twisted-raiser
+Version: 2.0.0
+Summary: Deprecated in favour of cython-test-exception-raiser
+Home-page: https://github.com/twisted/cython-test-exception-raiser
+Author: Thomas Grainger
+Author-email: twisted-raiser@graingert.co.uk
