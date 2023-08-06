@@ -1,0 +1,1 @@
+(self.webpackChunkquirkshop_jlab3_react=self.webpackChunkquirkshop_jlab3_react||[]).push([[568],{568:(a,t,e)=>{"use strict";e.r(t),e.d(t,{default:()=>s});const s={id:"quirkshop-jlab3-react",autoStart:!0,activate:a=>{console.log("JupyterLab extension quirkshop-jlab5-react is activated!")}}}}]);
