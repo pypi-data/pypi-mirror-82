@@ -1,0 +1,9 @@
+bot_kit/__init__.py,sha256=QdkgCWmbmTAY7m4LRje5Vuhw7l0PPGlThtD5J2XWAyM,54
+bot_kit/__main__.py,sha256=1_KnCSxtmFswPk4xTKHHqP4E3xgYFDPleizCJ8iX88o,1063
+bot_kit/common.py,sha256=WjuuJtqaMlB1GhQcKGwtsXEMiuvWI9mH1T80UfZL41I,5918
+bot_kit/db.py,sha256=EWa4hp_DlJdW57sX1kE11xB57Cnh9DHor4fxMFEElIM,2134
+bot_kit/kit.py,sha256=PVbuBPRaLqCUaaurwpx_ZYqNx9FDgJskCFlpKg49AtY,12684
+bot_kit-0.1.dist-info/METADATA,sha256=22oKP2jG6bX8rXs5vOEv3XA8-pXe1NhjxC72h7cK9eg,6150
+bot_kit-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bot_kit-0.1.dist-info/top_level.txt,sha256=iMEcgqk5_XGnX875qtllVdkGUVNBO7WNmtaIMpE4yUg,8
+bot_kit-0.1.dist-info/RECORD,,
