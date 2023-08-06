@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mfutil
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/metwork-framework/mfutil
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: six
+Requires-Dist: jinja2
+Requires-Dist: bash
+Requires-Dist: psutil
+Requires-Dist: netifaces
+Requires-Dist: simpleeval (>=0.9.10)
+Requires-Dist: inotify-simple
+Requires-Dist: inotify-simple (==1.2.1) ; python_version < "3.0"
+Requires-Dist: inotify-simple ; python_version >= "3.0"
+Requires-Dist: rich (>=1.1.3) ; python_version >= "3.6"
+
+UNKNOWN
+
+
