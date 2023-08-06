@@ -1,0 +1,4 @@
+[console_scripts]
+pip-box = pip_box:main
+pip-upgrade = pip_box:main
+
