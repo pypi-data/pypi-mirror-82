@@ -1,0 +1,15 @@
+CHANGELOG.txt
+Licence.txt
+MANIFEST.in
+README.txt
+setup.py
+Spreadsheet1234/example.py
+Spreadsheet1234.egg-info/SOURCES.txt
+Spreadsheet1234.egg-info/dependency_links.txt
+Spreadsheet1234.egg-info/requires.txt
+Spreadsheet1234.egg-info/top_level.txt
+blehblehbleh.egg-info/PKG-INFO
+blehblehbleh.egg-info/SOURCES.txt
+blehblehbleh.egg-info/dependency_links.txt
+blehblehbleh.egg-info/requires.txt
+blehblehbleh.egg-info/top_level.txt

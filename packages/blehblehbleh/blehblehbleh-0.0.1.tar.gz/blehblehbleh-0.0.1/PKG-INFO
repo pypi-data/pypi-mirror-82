@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: blehblehbleh
+Version: 0.0.1
+Summary: An app to convert the google sheets into pandas df
+Home-page: UNKNOWN
+Author: Nidhi Chaudhary
+Author-email: nidhichaudhary1097@gmail.com
+License: UNKNOWN
+Description: This is my first ever python library.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (15/10/2020)
+        ------------------
+        
+        First Release
+Keywords: google sheets in python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
