@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ig_api
+Version: 0.11
+Summary: API for using ig.com trading; also a set of tools for local simulation.
+Home-page: https://github.com/ikamensh/ig_api
+Author: Ilya Kamenshchikov
+License: MIT
+Description: # ig_api
+        
+        This package provides both an APIs to interact either with ig.com (demo or real account) OR simulation using historical data.
+        
+        Develop your bot, find it's performance on historical data, ship it into production!
+Keywords: trading,api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
