@@ -1,0 +1,12 @@
+pypigeonhole_build/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypigeonhole_build/app_setup.py,sha256=6boMcXFKkwufg2Mt7HX3lRGCGE9HBfqI9ktgyu79RBQ,1715
+pypigeonhole_build/app_version_control.py,sha256=DYAu85S5br69iOwNCYnhShYyLBvo_x6yTkEMnwHqupY,2081
+pypigeonhole_build/conda_translator.py,sha256=A4SKg87Vfvx3zRGCoA4M2qF6NoeOq-ZTFr7Yd9rant4,1012
+pypigeonhole_build/dep_setup.py,sha256=kuepW7BqvgwiAyz_WjSx6CoG4wRtJtI9tQFvzinuDVA,2619
+pypigeonhole_build/dependency.py,sha256=DNSJRRIyWU7iFqgUtQYvys8483Jk_i_eLkAyByBpjdk,503
+pypigeonhole_build/pip_translator.py,sha256=MBhnRxPS2_NI0kM0PJudo8ihxuF3WF7UhgM0RvX3ndQ,1281
+pypigeonhole_build-0.3.8.dist-info/LICENSE.md,sha256=RIYkfcvBKccxcERsizELzy673lMvMkNXYmOAXsfL5Rg,1068
+pypigeonhole_build-0.3.8.dist-info/METADATA,sha256=fI-qBFg0y_xPDWnHFZ1YcXnVAQd8at3sVhv8BhoToZ8,8421
+pypigeonhole_build-0.3.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pypigeonhole_build-0.3.8.dist-info/top_level.txt,sha256=yO_07JsT6GbO71MG4xs9k5D_0T5ny3W1dWnM1qqnfLc,19
+pypigeonhole_build-0.3.8.dist-info/RECORD,,
