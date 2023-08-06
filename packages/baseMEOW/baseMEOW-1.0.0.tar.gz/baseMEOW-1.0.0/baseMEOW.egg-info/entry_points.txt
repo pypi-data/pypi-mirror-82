@@ -1,0 +1,3 @@
+[console_scripts]
+baseMEOW = baseMEOW:main
+

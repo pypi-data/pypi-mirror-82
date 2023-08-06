@@ -1,0 +1,8 @@
+README.md
+setup.py
+baseMEOW/__init__.py
+baseMEOW.egg-info/PKG-INFO
+baseMEOW.egg-info/SOURCES.txt
+baseMEOW.egg-info/dependency_links.txt
+baseMEOW.egg-info/entry_points.txt
+baseMEOW.egg-info/top_level.txt
