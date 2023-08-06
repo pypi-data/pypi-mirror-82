@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: django-esteid
+Version: 2.3.0
+Summary: Django-esteid is a package that provides Esteid based authentication for your Django applications.
+Home-page: https://github.com/thorgate/django-esteid
+Author: Thorgate
+Author-email: jyrno@thorgate.eu
+License: BSD
+Description: # django-esteid
+        
+        [![pypi Status](https://badge.fury.io/py/django-esteid.png)](https://badge.fury.io/py/django-esteid)
+        [![Build Status](https://travis-ci.org/thorgate/django-esteid.svg?branch=master)](https://travis-ci.org/thorgate/django-esteid)
+        
+        Django-esteid is a package that provides Esteid based authentication for your Django applications.
+        
+        ## Quickstart
+        
+        Install Django esteid:
+        
+            pip install django-esteid
+        
+        Add django-esteid to installed apps:
+        
+            INSTALLED_APPS = [
+                # ...
+                'esteid',
+                # ...
+            ]
+        
+        Then use it in a project:
+        
+            import esteid
+        
+        ## SmartID
+        
+        Detailed docs are [here](esteid/smartid/README.md).
+        
+        **Note:***
+        
+        Currently containers with a SmartID-generated signature are not compatible with MobiilID/ID-Card.
+        This means, such a signature is valid, but adding another signature to the same container
+        by means of MobiilID/ID-Card DigiDoc Service API will fail. 
+        
+        This is the limitation of DigiDoc Service (which uses old versions of 
+        respective libraries) and can not be resolved except by moving to the new REST API for MobiilID. 
+        
+        Adding a SmartID signature to a container with a previously generated SmartID signature, 
+        as well as a MobiilID/ID-Card generated one, works without restrictions.
+        
+        (Same note is included in the [SmartID readme](esteid/smartid/README.md).)
+        
+Keywords: esteid django
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
