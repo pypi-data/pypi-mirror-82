@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ltp305/__init__.py
+ltp305/font.py
+ltp305.egg-info/PKG-INFO
+ltp305.egg-info/SOURCES.txt
+ltp305.egg-info/dependency_links.txt
+ltp305.egg-info/requires.txt
+ltp305.egg-info/top_level.txt
