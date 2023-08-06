@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pivToolbox
+Version: 0.1
+Summary: Growing collection of tools to process particle image velocimetry data
+Home-page: https://github.com/Fishified/pivToolbox
+Author: Jason Duguay
+Author-email: duguay.jason@gmail.com
+License: MIT
+Download-URL: https://github.com/Fishified/pivToolbox/archive/0.1.zip
+Description: UNKNOWN
+Keywords: python,particle image velocimetry
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
