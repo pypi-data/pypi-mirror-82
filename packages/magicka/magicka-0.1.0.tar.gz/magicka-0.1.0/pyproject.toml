@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "magicka"
+version = "0.1.0"
+description = "Web automation, made magical"
+authors = ["IgnisDa <ignisda2002@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+ply = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.4"
+autopep8 = "^1.5.4"
+mkdocs = "^1.1.2"
+mkdocs-material = "^6.0.2"
+pytest-cov = "^2.10.1"
+pytest-flake8 = "^1.0.6"
+tox = "^3.20.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
