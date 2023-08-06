@@ -1,0 +1,11 @@
+README.md
+setup.py
+DiscordGame.egg-info/PKG-INFO
+DiscordGame.egg-info/SOURCES.txt
+DiscordGame.egg-info/dependency_links.txt
+DiscordGame.egg-info/requires.txt
+DiscordGame.egg-info/top_level.txt
+discordgame/__init__.py
+discordgame/errors.py
+discordgame/gamehosts.py
+discordgame/games.py
