@@ -1,0 +1,17 @@
+torchmd_cg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchmd_cg/nnp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchmd_cg/nnp/model.py,sha256=20wnAa5KTc1QSq0ZZrlO4bwHuO1uu-OwokkYbcUj4N4,2036
+torchmd_cg/nnp/npdataset.py,sha256=Etmhqg_OAtfMegqL5nk2xAcJ_Glw3Qv9KcBF6wz5o4Y,3907
+torchmd_cg/nnp/schnet_dataset.py,sha256=ba02Ybl3wiYrrVFmGvtEwNEo_YWhCFOb188KkvFZN2c,3436
+torchmd_cg/nnp/utils.py,sha256=dpA4XyxNvih9LUStCy1HxkwreWZBgL5x-yGRG9UdyAg,4394
+torchmd_cg/nnp/calculators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchmd_cg/nnp/calculators/torchmdcalc.py,sha256=dqHBjf_86VgAff3XZfVFib_Mg1uJoaWRxwH0u6AvsTI,3147
+torchmd_cg/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchmd_cg/utils/make_deltaforces.py,sha256=ibuAAaSV3xmCpuO3tV1qq4oIFUZSlwbmoMUdrVtM8cA,2648
+torchmd_cg/utils/mappings.py,sha256=sh231AUBwZXylLg5FSz2fKBwTyuEBkgFRrVUiKaXHeA,1556
+torchmd_cg/utils/psfwriter.py,sha256=e7FMdqHn0F9gNg6cwWiMWZ3c_BTVwbvLzCqU4cViZ8k,3034
+torchmd_cg-0.0.1.dist-info/LICENSE,sha256=WgIuZSDmcEcde5365UwC__sS0JmHQcMa7AaEJ35DMtY,1072
+torchmd_cg-0.0.1.dist-info/METADATA,sha256=ZyeNBCLNV4fVBiaW4K5Buf5LELixp6F1pC8Iq7N9G4s,826
+torchmd_cg-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+torchmd_cg-0.0.1.dist-info/top_level.txt,sha256=Q-eDDdKl-YooVJ6D78e2VK6vwInNZZDb_4pfvu_fcjs,11
+torchmd_cg-0.0.1.dist-info/RECORD,,
