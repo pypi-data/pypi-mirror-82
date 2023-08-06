@@ -1,0 +1,5 @@
+pg_es_fdw/__init__.py,sha256=G4C29SQT0vR3glAaAjVGLOSEGHUsd7pKIK969d0xXKA,10655
+pg_es_fdw-0.10.0.dist-info/LICENSE,sha256=Xg2n1zjyBeMopgGC7VSlJWBkAEKHucjIs5SSn7ppI7M,1115
+pg_es_fdw-0.10.0.dist-info/WHEEL,sha256=2SyTS6-hWVbCVhxpPo1j5f9gwaWw-hVIJs0s_cC8MXM,87
+pg_es_fdw-0.10.0.dist-info/METADATA,sha256=wUk_ZqWbvCqy1Ilm_QjT3OTVdcVWnCklMr_lK4jq7dc,15422
+pg_es_fdw-0.10.0.dist-info/RECORD,,
