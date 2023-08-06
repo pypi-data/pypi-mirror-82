@@ -1,0 +1,11 @@
+numpy
+scipy
+networkx
+numexpr
+matplotlib
+opt_einsum
+kahypar
+cma
+jax
+jaxlib
+tqdm
