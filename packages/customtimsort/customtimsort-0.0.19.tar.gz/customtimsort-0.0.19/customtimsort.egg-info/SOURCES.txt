@@ -1,0 +1,9 @@
+README.md
+setup.py
+customtimsort/TimSort.so
+customtimsort/__init__.py
+customtimsort/sorting_func.py
+customtimsort.egg-info/PKG-INFO
+customtimsort.egg-info/SOURCES.txt
+customtimsort.egg-info/dependency_links.txt
+customtimsort.egg-info/top_level.txt
