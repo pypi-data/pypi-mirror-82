@@ -1,0 +1,7 @@
+setup.py
+chimelems1/chimelems1.py
+chimelems1.egg-info/PKG-INFO
+chimelems1.egg-info/SOURCES.txt
+chimelems1.egg-info/dependency_links.txt
+chimelems1.egg-info/not-zip-safe
+chimelems1.egg-info/top_level.txt
