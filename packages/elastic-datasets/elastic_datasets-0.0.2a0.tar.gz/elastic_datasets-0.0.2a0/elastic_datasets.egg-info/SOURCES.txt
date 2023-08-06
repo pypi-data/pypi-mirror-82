@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+elastic_datasets/__init__.py
+elastic_datasets.egg-info/PKG-INFO
+elastic_datasets.egg-info/SOURCES.txt
+elastic_datasets.egg-info/dependency_links.txt
+elastic_datasets.egg-info/requires.txt
+elastic_datasets.egg-info/top_level.txt
