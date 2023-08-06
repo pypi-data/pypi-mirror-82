@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: britz
+Version: 0.0.0
+Summary: Easily review dependencies between SQL Transformations
+Home-page: https://github.com/JimFawkes/britz
+Author: Moritz Eilfort
+Author-email: britz@jimfawkes.com
