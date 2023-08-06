@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+msnexport/MSNParser.py
+msnexport/PDFExporter.py
+msnexport/__init__.py
+msnexport/cli.py
+msnexport.egg-info/PKG-INFO
+msnexport.egg-info/SOURCES.txt
+msnexport.egg-info/dependency_links.txt
+msnexport.egg-info/entry_points.txt
+msnexport.egg-info/requires.txt
+msnexport.egg-info/top_level.txt
