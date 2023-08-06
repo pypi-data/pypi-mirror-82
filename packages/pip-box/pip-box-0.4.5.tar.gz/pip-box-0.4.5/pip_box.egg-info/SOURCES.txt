@@ -1,0 +1,14 @@
+README.md
+setup.py
+pip_box/__init__.py
+pip_box/dependencies_base.py
+pip_box/main.py
+pip_box/tool.py
+pip_box/utils.py
+pip_box/version_checker.py
+pip_box.egg-info/PKG-INFO
+pip_box.egg-info/SOURCES.txt
+pip_box.egg-info/dependency_links.txt
+pip_box.egg-info/entry_points.txt
+pip_box.egg-info/requires.txt
+pip_box.egg-info/top_level.txt
