@@ -1,0 +1,14 @@
+README.md
+setup.py
+numeracy/Util.py
+numeracy/__init__.py
+numeracy.egg-info/PKG-INFO
+numeracy.egg-info/SOURCES.txt
+numeracy.egg-info/dependency_links.txt
+numeracy.egg-info/requires.txt
+numeracy.egg-info/top_level.txt
+numeracy/linear/DirectMethod.py
+numeracy/linear/IterativeMethod.py
+numeracy/linear/Matrix.py
+numeracy/linear/Vector.py
+numeracy/linear/__init__.py
