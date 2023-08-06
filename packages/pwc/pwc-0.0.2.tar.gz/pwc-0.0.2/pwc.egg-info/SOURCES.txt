@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pwc/__init__.py
+pwc/version.py
+pwc.egg-info/PKG-INFO
+pwc.egg-info/SOURCES.txt
+pwc.egg-info/dependency_links.txt
+pwc.egg-info/top_level.txt
