@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: split_df_ml
+Version: 0.0.1
+Summary: splits dataset into train and test data 
+Home-page: UNKNOWN
+Author: adil aziz
+Author-email: adilaziz2013@gmail.com
+License: MIT
+Description: this library splits the given dataset into train and test data on account of the split size given by the user
+        
+        Change Log
+        ==========
+        
+        0.0.1 (14/10/2020)
+        -------------------
+        - First Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

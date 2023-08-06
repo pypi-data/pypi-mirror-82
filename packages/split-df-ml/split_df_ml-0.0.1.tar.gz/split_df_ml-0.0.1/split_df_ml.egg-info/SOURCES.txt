@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+split_df_ml/__init__.py
+split_df_ml.egg-info/PKG-INFO
+split_df_ml.egg-info/SOURCES.txt
+split_df_ml.egg-info/dependency_links.txt
+split_df_ml.egg-info/top_level.txt
