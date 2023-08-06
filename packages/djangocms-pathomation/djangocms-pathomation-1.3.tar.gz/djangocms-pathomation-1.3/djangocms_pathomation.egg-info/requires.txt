@@ -1,0 +1,5 @@
+wheel
+requests
+requests-toolbelt
+pandas
+pma-python
