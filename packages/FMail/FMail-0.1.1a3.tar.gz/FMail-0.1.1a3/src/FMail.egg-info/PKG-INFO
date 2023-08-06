@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: FMail
+Version: 0.1.1a3
+Summary: A small mail library
+Home-page: https://bitbucket.org/Atero645/fmail/src/master/
+Author: Atero645
+Author-email: 
+License: MIT
+Project-URL: Documentation, https://fmail.readthedocs.io/
+Project-URL: Code, https://bitbucket.org/Atero645/fmail/src/master/
+Description: ## FMail ##
+        ![PyPI](https://img.shields.io/pypi/v/fmail.svg)
+        ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fmail.svg)
+        [![Documentation Status](https://readthedocs.org/projects/fmail/badge/?version=latest)](https://fmail.readthedocs.io/en/latest/?badge=latest)
+        
+        FMail is a small library build on top of smtplib.
+        Main goal is to allow send mails with attachments easily.
+        
+        ### TO DO ###
+        
+        - Html mails
+        - Error handling
+        - Flask integration tests
+        - Celery integration
+        - Examples and docs
+        - tests
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dotenv
