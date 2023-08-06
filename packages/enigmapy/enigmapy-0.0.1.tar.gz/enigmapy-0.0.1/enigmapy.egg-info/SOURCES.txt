@@ -1,0 +1,9 @@
+README.md
+setup.py
+enigmapy.egg-info/PKG-INFO
+enigmapy.egg-info/SOURCES.txt
+enigmapy.egg-info/dependency_links.txt
+enigmapy.egg-info/requires.txt
+enigmapy.egg-info/top_level.txt
+equities/__init__.py
+equities/data/__init__.py
