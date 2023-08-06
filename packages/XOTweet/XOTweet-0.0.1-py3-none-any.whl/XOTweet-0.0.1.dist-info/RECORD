@@ -1,0 +1,17 @@
+XOTweet/__init__.py,sha256=oSMcsVZkQ7VpYqi3-sDBMfv1i4LIB7vf1JP6PPJX7qc,222
+XOTweet/__version__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+XOTweet/input.py,sha256=xpM4mlspTWckMuopcwkEroyr_v4o-aWJyQL5kUvSkqQ,1833
+XOTweet/xo_tweet.py,sha256=qoMJ66Bjr7nwtLMpb5CaYCecZUqIKLS4ToCqOiDFKuo,1226
+XOTweet/core/__init__.py,sha256=oSMcsVZkQ7VpYqi3-sDBMfv1i4LIB7vf1JP6PPJX7qc,222
+XOTweet/core/exceptions.py,sha256=qbyLDTYiAIVzuZXZedkJBPR2hQs5wKfxgCO2XLvdeS4,116
+XOTweet/core/parser.py,sha256=GwsD8TPpx9Guy7aI17KcLuiJNSsCOO6KaHzc_ivemNI,706
+XOTweet/core/scrap.py,sha256=6R_x8uiqw_pQgql7xr2BhyqyNLTJCAmCVmNwfB1qH6A,2816
+XOTweet/core/settings.py,sha256=1HQ30-MPAZSWODwpRZtrDNsqOEM4T0eG-80lqJ2PGOU,933
+XOTweet/core/user_agents.py,sha256=GlW_ttIo2nJQNI-dAAMj5SUmerxeJEAqFQmDad_seZk,100561
+XOTweet/core/utils.py,sha256=OUssNyc8Qqt2-DzQV6GUGqtjbLl-dK80Fvk_4xYjTMU,1575
+XOTweet/core/workers.py,sha256=ZyznD02-akxIomgNsAxcQWQUzXcbuDynyzT3z-mXKxY,674
+XOTweet-0.0.1.dist-info/METADATA,sha256=ZUxHSieTEXRk1CvwIb7xDdhEooHxNef_FSbgn5nXsxA,275
+XOTweet-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+XOTweet-0.0.1.dist-info/entry_points.txt,sha256=5YCc1zCva9s-sQmCTAZvIrEfnJOeeyMFMRHfXGfvAgw,52
+XOTweet-0.0.1.dist-info/top_level.txt,sha256=2_nMwegg3H6SKYFRZyUD09BplU7i8Mr1NPJc5VWpKIA,8
+XOTweet-0.0.1.dist-info/RECORD,,
