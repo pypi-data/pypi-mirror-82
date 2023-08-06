@@ -1,0 +1,12 @@
+mocr/__init__.py,sha256=3eFEoB5eEknHRnuS-iyxDfpW7gvXarcsWg_j5D2tcHo,620
+mocr/__main__.py,sha256=pIFR01xsU181BTzFeOejZjcOgf5Db9RPYzo_ChldAOw,2899
+mocr/face_detection.py,sha256=L46RwPDAImeHfj2cydV7FYqJlcIfXLarbbd--CGzjqY,3038
+mocr/text_recognition.py,sha256=HqagwPFvj0T9OKS3BJux9vLxunkU94D4G7K85skEILY,11150
+mocr/haarcascades/haarcascade_frontalface_default.xml,sha256=D31FJ4ROtRTUpJSOgi2pD7sWo0oLu7xq3GSYdHpar7A,930127
+mocr-0.4.0.dist-info/COPYING,sha256=7o7ktcBkyxUQJ1hQpSyTJIau-Qib4gnFKMx90MfEc-w,1064
+mocr-0.4.0.dist-info/LICENSE,sha256=7o7ktcBkyxUQJ1hQpSyTJIau-Qib4gnFKMx90MfEc-w,1064
+mocr-0.4.0.dist-info/METADATA,sha256=phWkWh01Rq7U6CYMPE58Fr7vI_jQWRRI0qWe2DiKcaI,5513
+mocr-0.4.0.dist-info/NOTICE,sha256=0WFMrzhtkhpQEjDsaJBnQNX3hScTIJNegXGrxRYvl0M,84
+mocr-0.4.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+mocr-0.4.0.dist-info/top_level.txt,sha256=iA1QMbWppEbiebEfMt-RCAsT4o82ejnIIGg2iR8k_bM,5
+mocr-0.4.0.dist-info/RECORD,,
