@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: constrained_types
+Version: 0.2.0
+Summary: Extensions for primitives to add validation constraints
+Home-page: https://github.com/meadsteve/constrained_types/
+Author: meadsteve
+Author-email: meadsteve@gmail.com
