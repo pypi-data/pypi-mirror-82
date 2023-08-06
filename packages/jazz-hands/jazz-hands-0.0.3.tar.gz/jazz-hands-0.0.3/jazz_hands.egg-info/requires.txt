@@ -1,0 +1,12 @@
+extension_helpers>=0.1
+numpy>=1.19.1
+scipy>=1.5.2
+astropy
+tqdm
+matplotlib
+
+[docs]
+sphinx-astropy
+
+[test]
+pytest-astropy
