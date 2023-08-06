@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: 1zlab-emp-ide
+Version: 0.0.3
+Summary: EasyMicroPython IDE online hosted DjangoApp.
+Home-page: http://1zlab.com/ide
+Author: singein
+Author-email: singein@outlook.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Django
+
+emp_ide
+
+
+
