@@ -1,0 +1,5 @@
+setup.py
+nicktest.egg-info/PKG-INFO
+nicktest.egg-info/SOURCES.txt
+nicktest.egg-info/dependency_links.txt
+nicktest.egg-info/top_level.txt
