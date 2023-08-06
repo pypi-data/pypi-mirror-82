@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+PyScenes.egg-info/PKG-INFO
+PyScenes.egg-info/SOURCES.txt
+PyScenes.egg-info/dependency_links.txt
+PyScenes.egg-info/not-zip-safe
+PyScenes.egg-info/top_level.txt
+pyscenes/__init__.py
+pyscenes/base_scene.py
+pyscenes/future_features.py
+pyscenes/main.py
+pyscenes/pyscenes.py
