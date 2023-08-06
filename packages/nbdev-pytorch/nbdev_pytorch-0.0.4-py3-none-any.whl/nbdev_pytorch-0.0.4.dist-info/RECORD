@@ -1,0 +1,10 @@
+nbdev_pytorch/__init__.py,sha256=RSIy5eSoT--hvrIUyYd_yAC3jFSod95RidBVWThAaHA,54
+nbdev_pytorch/_modidx.py,sha256=ucb0fPoREu8qOFggONymmqGrCRe5efHVa27-J8Qa9ZA,303730
+nbdev_pytorch/_nbdev.py,sha256=pszp1XJPRn4aqhJXSv8qChB-gCXbFSm8_jPIpak5IP8,308
+nbdev_pytorch/module_idx.py,sha256=Nx_5YVrwSFt4o91f_M9Mw1weKUEfSRGqaLLGgVJePLM,278736
+nbdev_pytorch-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nbdev_pytorch-0.0.4.dist-info/METADATA,sha256=We3-2naXI9kee_eQ9zdnWTpQjDczYQZy_JprZaxqNlk,900
+nbdev_pytorch-0.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nbdev_pytorch-0.0.4.dist-info/entry_points.txt,sha256=Uak-50d7QGPX1bdYHxWz-gdlL_JJqI2SWK3gQb1qLPs,38
+nbdev_pytorch-0.0.4.dist-info/top_level.txt,sha256=n0joXyL2rJVaevNQCfz-EPrISbaH52gShAiqXRagFRY,14
+nbdev_pytorch-0.0.4.dist-info/RECORD,,
