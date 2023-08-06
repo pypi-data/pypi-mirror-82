@@ -1,0 +1,8 @@
+azurefunctionhelpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azurefunctionhelpers/observability/__init__.py,sha256=JlfRKBluS5QUQ626E1FlNDW2bl0sOK-DUieRmU8q5mQ,25
+azurefunctionhelpers/observability/elastic_apm.py,sha256=IfEfJcSbXBY5EVGLZixRLByEFfAmxC6kjigr9K_Zks0,2612
+azurefunctionhelpers/observability/generic.py,sha256=bogJhdfGEwhZ5n8qweYu693JiGdZePWSGxC26qx85i8,2003
+azurefunctionhelpers-0.1.8.dist-info/METADATA,sha256=tZzrBs78VQMVHIn3WZ-2IbSKMNe6KbsSAndeaRFByTg,337
+azurefunctionhelpers-0.1.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+azurefunctionhelpers-0.1.8.dist-info/top_level.txt,sha256=igb4-0LRGApNU3mHjfQymFY1xJuqZ6iWKpA0qItxwiU,21
+azurefunctionhelpers-0.1.8.dist-info/RECORD,,
