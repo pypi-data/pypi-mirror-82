@@ -1,0 +1,10 @@
+pkg/__init__.py,sha256=lxtLrcPMFMApqYXe1RMkiBiCrSTpv4_hZbUE_6xyVwQ,134
+pkg/sense_hat_adapter.py,sha256=KzvLss57EXjFL0MJ5j5ZOOWhIG205k80u8SVYVPq_S8,1957
+pkg/sense_hat_device.py,sha256=FprHHg4586ZRBr1526JioxB9WK2xKdV3hCgD8FHRHYU,5360
+pkg/sense_hat_imu_device.py,sha256=OOhZ3rSeoUDWjjtMEaBMnTmLJC5COW7sq-I9YD9ASBw,5747
+pkg/sense_hat_light_device.py,sha256=kDYtH1eHPBUUWUz-y4nsmQrFaDN2NJqEe1bN-QFORRU,6679
+sense_hat_webthing-0.0.8.dist-info/LICENSE,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+sense_hat_webthing-0.0.8.dist-info/METADATA,sha256=TQqUbFa_nhuUKhEfrA7EB5lgFD9aMqQgS5ongNJziUE,6325
+sense_hat_webthing-0.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sense_hat_webthing-0.0.8.dist-info/top_level.txt,sha256=8jjfKuFvlaNGG7JiuNtS31gIuwOm8thUcUQoNbsxxls,4
+sense_hat_webthing-0.0.8.dist-info/RECORD,,
