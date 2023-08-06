@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gsheetsplus
+Version: 0.1
+Summary: Extend gsheets for added functionalities
+Home-page: UNKNOWN
+Author: Tanmay Pandey
+Author-email: tanmaypandey1998@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
