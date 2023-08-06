@@ -1,0 +1,11 @@
+fastrelease/__init__.py,sha256=HTtaF-LyabTl_uPIflKT3Ag7QocpLnXG7pljbtvtV-4,45
+fastrelease/_nbdev.py,sha256=xiy-7QbxOAykCXUQjnu5VSmnBjqTKu1mtYeEHBKXvC4,792
+fastrelease/conda.py,sha256=O9oNtVzvLosqqMoVKeVU5LxfN33tDF6MGDVmkOtUmF4,4839
+fastrelease/core.py,sha256=_ynUyCJqD0MAiZkYDV7vZJWZrNaPSaGF9M9u4Rbjj_A,6026
+fastrelease/fastscript.py,sha256=iU9Q8Pj8Vr65aonVIpUxGoQZobqcjg9fTRW7esS9IoM,2807
+fastrelease-0.0.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastrelease-0.0.15.dist-info/METADATA,sha256=nnS75XZdwR_q6sxv2WZ1qou6mj_QEQYxLqMM3q4U8xk,5134
+fastrelease-0.0.15.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fastrelease-0.0.15.dist-info/entry_points.txt,sha256=ayGb88uNiUIaJUghzEAvkQn1sXIOLYlYiFH-9llnP8o,241
+fastrelease-0.0.15.dist-info/top_level.txt,sha256=vfOf0ckrIZPV7Jl-9cz44Mp-lb1aszQ8bndgnbBsoAc,12
+fastrelease-0.0.15.dist-info/RECORD,,
