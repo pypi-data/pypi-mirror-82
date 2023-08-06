@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: Plascad
+Version: 1.17
+Summary: Plasmid classfication, ARGs annotation, Visualization
+Home-page: https://github.com/pianpianyouche/plascad
+Author: You CHE
+Author-email: cheyou@hku.hk
+License: MIT
+Description: UNKNOWN
+Keywords: Plasmids,antibiotic resistance,mobilization
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3

@@ -1,0 +1,3 @@
+[console_scripts]
+Plascad = plas_cad.__main__:main
+
