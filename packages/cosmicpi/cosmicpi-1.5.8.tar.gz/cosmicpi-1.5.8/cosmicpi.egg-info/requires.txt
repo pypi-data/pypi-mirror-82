@@ -1,0 +1,7 @@
+configparser
+flask
+flask_cors
+flask_restful
+matplotlib
+numpy
+pyserial
