@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: hesystem
+Version: 0.3.7.0
+Summary: A data marketplace system for computation over sensitive data
+Home-page: https://github.com/NicoSerranoP/HEsystem
+Author: Nicolas Serrano
+Author-email: nnicosp@hotmail.com
+License: MIT
+Download-URL: https://github.com/NicoSerranoP/HEsystem/archive/3.7.tar.gz
+Description: UNKNOWN
+Keywords: Homomorphic Encryption,Decentralized,Data Science
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
