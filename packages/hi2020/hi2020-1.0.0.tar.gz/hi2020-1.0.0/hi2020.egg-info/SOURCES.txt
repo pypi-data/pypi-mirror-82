@@ -1,0 +1,9 @@
+README.md
+setup.py
+hi2020/__init__.py
+hi2020/hi.py
+hi2020.egg-info/PKG-INFO
+hi2020.egg-info/SOURCES.txt
+hi2020.egg-info/dependency_links.txt
+hi2020.egg-info/requires.txt
+hi2020.egg-info/top_level.txt
