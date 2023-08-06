@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="{{url_for('static', filename='pixi.js')}}"></script>
+    <script src="{{url_for('static', filename='jquery-3.5.1.js')}}" ></script>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    {{ JSGlue.include() }}
+</head>
+<body>
+<div style="height: 600px; max-height:600px">
+    <div id="gameContainer" style="height: 100%; display: inline-block;">
+        <div id="overlay" style="display: flex; justify-content: space-between; align-items: center;
+        border-style: solid;
+        border-bottom-style: none; height: 10%;">
+            <span></span>
+            <span id="wordClue"></span>
+            <span id="time" style="margin: 1%; font-size:130%"></span>
+        </div>
+        <div style="display: inline-block; vertical-align:top; min-width: 200px; height:100%;
+         border-style: solid; border-right-style: none;">
+            <div class="playerBox" style="text-align: center;"><b>Joueuses et joueurs</b></div>
+            <div id="playerList" ></div>
+        </div><!-- this is a comment to remove text node
+    --><div style="display: inline-block;">
+            <script type="text/javascript" src="{{url_for('static', filename='socket.io.js')}}" ></script>
+            <script type="text/javascript" src="{{url_for('static', filename='graphics.js')}}" ></script>
+            <script type="text/javascript" src="{{url_for('static', filename='player.js')}}" ></script>
+            <script type="text/javascript" src="{{url_for('static', filename='discussion.js')}}" ></script>
+            <script type="text/javascript" src="{{url_for('static', filename='widgets.js')}}" ></script>
+            <script type="text/javascript" src="{{url_for('static', filename='pictionnary.js')}}" ></script>
+            <script type="text/javascript">
+                console.log('{{roomName}}');
+                initPictionnary('{{roomName}}', '{{playerName}}');
+                $( document ).ready(function() {
+                    $("#messages").css("max-height", $("#gameContainer").outerHeight() - $("#discussionForm").height());
+                });
+            </script>
+        </div>
+    </div>
+    <div style="display: inline-block; max-width: 20%;">
+        <div id="messages" style="overflow-y: auto;"></div>
+        <form id="discussionForm" stlye="min-width: 100%;">
+                <input id="msgInput" type="text" />
+                <input id="msgSend" type="submit" value="Envoyer"/>
+        </form>
+    </div>
+    </div>
+</div>
+</body>
+</html>

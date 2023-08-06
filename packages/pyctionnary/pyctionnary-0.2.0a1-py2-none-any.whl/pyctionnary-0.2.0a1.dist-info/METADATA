@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyctionnary
+Version: 0.2.0a1
+Summary: Online pyctionnary
+Home-page: UNKNOWN
+Author: Theo CEVAER
+License: GPL
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: Flask-JSGlue
+Requires-Dist: eventlet
+Requires-Dist: flask
+Requires-Dist: flask-socketio
+Requires-Dist: flask-wtf
+
+UNKNOWN
+
+
