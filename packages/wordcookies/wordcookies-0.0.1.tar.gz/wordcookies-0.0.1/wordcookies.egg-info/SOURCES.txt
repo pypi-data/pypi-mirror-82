@@ -1,0 +1,13 @@
+README.md
+setup.py
+wordcookies/__init__.py
+wordcookies/__main__.py
+wordcookies/cli.py
+wordcookies/game.py
+wordcookies/generator.py
+wordcookies.egg-info/PKG-INFO
+wordcookies.egg-info/SOURCES.txt
+wordcookies.egg-info/dependency_links.txt
+wordcookies.egg-info/entry_points.txt
+wordcookies.egg-info/requires.txt
+wordcookies.egg-info/top_level.txt
