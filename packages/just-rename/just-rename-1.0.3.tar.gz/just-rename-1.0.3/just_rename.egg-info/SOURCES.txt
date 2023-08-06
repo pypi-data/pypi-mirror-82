@@ -1,0 +1,10 @@
+README.md
+setup.py
+just_rename.egg-info/PKG-INFO
+just_rename.egg-info/SOURCES.txt
+just_rename.egg-info/dependency_links.txt
+just_rename.egg-info/entry_points.txt
+just_rename.egg-info/top_level.txt
+just_rename.egg-info/zip-safe
+lhnrenamer/__init__.py
+lhnrenamer/rename.py

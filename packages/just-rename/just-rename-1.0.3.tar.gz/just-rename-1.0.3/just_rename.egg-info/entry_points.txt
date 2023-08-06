@@ -1,0 +1,3 @@
+[console_scripts]
+just-rename = lhnrenamer.rename:main
+
