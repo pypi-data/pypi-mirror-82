@@ -1,0 +1,8 @@
+vit_pytorch/__init__.py,sha256=aVuw0IwUrewGbDZ1IOiemQiNgE0bC2GY1ciOrQVzGPA,40
+vit_pytorch/efficient.py,sha256=pC6_3xmOVydcrAgx0cEpeGBC7tel4ckYdeVQlwjrBQM,1348
+vit_pytorch/vit_pytorch.py,sha256=x-KAp3b0rerNhRM2s4i61znTgt9rkBgM2oZTM_JyqMA,4250
+vit_pytorch-0.2.4.dist-info/LICENSE,sha256=As9u198X-U-vph5noInuUfqsAG2zX_oXPHDmdjwlPPY,1066
+vit_pytorch-0.2.4.dist-info/METADATA,sha256=xWNG4m3s6yIXI57nDJzh56PRxyWK_l_VXkgYlllGSr8,637
+vit_pytorch-0.2.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+vit_pytorch-0.2.4.dist-info/top_level.txt,sha256=YAgrveNSwHnDWWw2xGjBzY1l6IZy6tVHPdlLlfRMpsE,12
+vit_pytorch-0.2.4.dist-info/RECORD,,
