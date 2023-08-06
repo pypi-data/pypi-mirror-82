@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: liso
+Version: 0.3.1
+Summary: Python API for Linac Simulation and Optimization
+Home-page: https://github.com/zhujun98/liso
+Author: Jun Zhu
+Author-email: zhujun981661@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/zhujun98/liso
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: pandas (>=1.1)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: h5py (>=2.10)
+Requires-Dist: matplotlib
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+
+liso is a Python API for linac simulation andoptimization using one or a combination ofdifferent beam dynamics codes.
+
+
