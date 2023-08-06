@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: robot-lockable
+Version: 0.1.0
+Summary: Robot Framework plugin for lockable resources
+Home-page: https://github.com/jupe/robot-lockable
+Author: Jussi Vatjus-Anttila
+Author-email: jussiva@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/jupe/robot-lockable
+Project-URL: Source, https://github.com/jupe/robot-lockable/
+Description: # robot-lockable
+        
+        Resource locking module. Provide remote keywords and local keywords.
+        
+        # Usage
+        Library import
+        ```
+        Library     RobotLockable       lock_folder=.   resource_list_file=example/resource.json    (hostname=hostname)
+        ```
+        
+        Available Keywords
+        
+        | keyword | arguments | note | 
+        |---------|----|----|
+        | `lock` | `<requirements>` (`<timeout_s>`)   | Allocate resource using giving requirements |
+        | `unlock` | `<resource>` | Release resource |
+        
+        See more details using Remote library CLI to generate documentation:
+        `python3 RobotLockable/Remote.py --doc`
+        
+        
+Keywords: robot-framework lockable framework resource
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Testing
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Testing
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
