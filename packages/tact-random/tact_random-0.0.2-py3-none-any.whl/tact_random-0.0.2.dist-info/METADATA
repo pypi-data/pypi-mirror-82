@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tact-random
+Version: 0.0.2
+Summary: Simple package for Random Utils, Datasets and so on
+Home-page: https://github.com/tactlabs/tact-random
+Author: TactLabs
+Author-email: rcharles.samuel99@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# Tact-Random
+
+Random Utils, Datasets and so on
+
