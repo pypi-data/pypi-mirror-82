@@ -1,0 +1,2 @@
+include parfis/cmodule/lib/parfis.dll
+include parfis/data/config/api_1.ini

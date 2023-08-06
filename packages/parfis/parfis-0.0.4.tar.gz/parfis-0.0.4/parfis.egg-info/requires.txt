@@ -1,0 +1,9 @@
+
+[data]
+numpy
+
+[plotting]
+matplotlib
+
+[testing]
+unittest

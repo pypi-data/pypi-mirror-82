@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: parfis
+Version: 0.0.4
+Summary: Particles and field simulator
+Home-page: https://github.com/GinkoBalboa/parfis
+Author: Ginko Balboa
+Author-email: ginkobalboa3@gmail.com
+License: UNKNOWN
+Description: # PARFIS
+        
+        PARticles and FIeld Simulator
+        
+        Wiki: http://www.parfis.com
+        
+        ## Testing
+        
+        We have two types of tests, googletest for the c++ code and python scripts as an examples and testing of the python interface.
+        
+        ### Python unittest
+        
+        We use `unittest` module for testing python functionality. To run all tests:
+        
+        ```python
+        import parfis.tests
+        parfis.tests.run_all_tests()
+        ```
+        
+Platform: Windows 10 x64
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: C++
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: plotting
+Provides-Extra: data
+Provides-Extra: testing
