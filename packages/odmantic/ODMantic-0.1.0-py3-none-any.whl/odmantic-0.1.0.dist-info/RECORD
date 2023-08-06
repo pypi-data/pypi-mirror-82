@@ -1,0 +1,16 @@
+LICENSE,sha256=8OBfvl1WJ-hU2Kh0az_AFW61cVwKMRE0bGCqYnLZoG0,745
+README.md,sha256=srvMv4MlhI_HibXMxLV0HIlMH0OO6gg9JvkHWPlSWGY,10369
+odmantic/__init__.py,sha256=qvkZKyO9LdQqdgDYVrZXIFyRfb1r1qHc-PSimanP23A,585
+odmantic/bson.py,sha256=okG92PPDdfvLoLcjKcMLa9pmYfH-Pz8YCRI_prmTylc,5926
+odmantic/engine.py,sha256=RaFjMAUI-UOnKEG5UTvCdTo3h4kSV1sQ30t2AWIkTE0,12225
+odmantic/exceptions.py,sha256=Fd7sxHEJVkWl6yq0v1QKkFPyKaWUHVhO9Hrw4cO-16Q,841
+odmantic/fastapi.py,sha256=-TEuxQnljJJCM8AMWdvDJBDUGkw3JeP7iJpSudd0RfQ,1317
+odmantic/field.py,sha256=APAWpXYt2GDuLnqwEm1iVOSl6vrDiptFEuL86w1V8jg,10191
+odmantic/model.py,sha256=7waZBC1wyhvZj7SiFa2lOZaUfiN0Tdv5FGVOFqoMs8I,20875
+odmantic/query.py,sha256=zSMCPHWandX0HEUlX_s7Bx9T56kZqql7m6SafV9v_Kw,3965
+odmantic/reference.py,sha256=Y0kKHeAYhJyW4tsJMzf2UTwPKmr2phItInlU1EIzEwI,485
+odmantic/typing.py,sha256=_zy5jO5Hjok8aToU-NZissu4JuDoNdxrBMmxIdJK0Kg,308
+odmantic-0.1.0.dist-info/LICENSE,sha256=8OBfvl1WJ-hU2Kh0az_AFW61cVwKMRE0bGCqYnLZoG0,745
+odmantic-0.1.0.dist-info/WHEEL,sha256=1Wv1-j00YAJKW7-71pMbcybYgVOmSGd4AVtGoeL4spQ,86
+odmantic-0.1.0.dist-info/METADATA,sha256=8be8_9MwfU_dxzDNSxkXDZC8gYDYMnFanYdd9MTpzmg,12303
+odmantic-0.1.0.dist-info/RECORD,,
