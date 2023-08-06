@@ -1,0 +1,12 @@
+.gitignore
+README.rst
+setup.cfg
+setup.py
+updt/__init__.py
+updt/__main__.py
+updt.egg-info/PKG-INFO
+updt.egg-info/SOURCES.txt
+updt.egg-info/dependency_links.txt
+updt.egg-info/entry_points.txt
+updt.egg-info/requires.txt
+updt.egg-info/top_level.txt
