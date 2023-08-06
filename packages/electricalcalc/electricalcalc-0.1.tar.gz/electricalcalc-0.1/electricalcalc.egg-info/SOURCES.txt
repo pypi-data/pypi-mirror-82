@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+electricalcalc/__init__.py
+electricalcalc/lic.py
+electricalcalc.egg-info/PKG-INFO
+electricalcalc.egg-info/SOURCES.txt
+electricalcalc.egg-info/dependency_links.txt
+electricalcalc.egg-info/requires.txt
+electricalcalc.egg-info/top_level.txt
