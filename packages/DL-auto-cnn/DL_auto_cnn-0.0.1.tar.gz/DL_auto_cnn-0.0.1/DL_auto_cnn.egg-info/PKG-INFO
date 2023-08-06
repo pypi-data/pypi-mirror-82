@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: DL-auto-cnn
+Version: 0.0.1
+Summary: creates a cnn architecture using user inputs
+Home-page: UNKNOWN
+Author: adil aziz
+Author-email: adilaziz2013@gmail.com
+License: MIT
+Description: This library creates a cnn architecture for deep learning using user defined hyperparameters 
+        
+        Usage:
+        
+        from DL_auto_cnn import create_model
+        '''create a model'''
+        model=create_model()
+        #Print model summary
+        
+        model.summary()
+        
+        model.fit(xxxxx)
+        
+        
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (19/10/2020)
+        -------------------
+        - First Release
+Keywords: Deep Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
