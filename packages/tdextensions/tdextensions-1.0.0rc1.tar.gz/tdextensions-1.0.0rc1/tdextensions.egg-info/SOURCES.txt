@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+tdextensions/__init__.py
+tdextensions.egg-info/PKG-INFO
+tdextensions.egg-info/SOURCES.txt
+tdextensions.egg-info/dependency_links.txt
+tdextensions.egg-info/requires.txt
+tdextensions.egg-info/top_level.txt
+tdextensions/distributed/__init__.py
+tdextensions/distributed/distdataframe.py
+tdextensions/distributed/wrappers/sto.j2
