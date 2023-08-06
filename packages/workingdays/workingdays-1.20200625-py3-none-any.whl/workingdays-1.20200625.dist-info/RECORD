@@ -1,0 +1,14 @@
+workingdays/__init__.py,sha256=D0rWZCQWiKIqZ3jdJx9oKxixMcAd460jpiCJE3ybiD0,761
+workingdays/_version.py,sha256=OsNy49vC2p5gFuSc6nWv_SjDcZWSyclhz-HFC4-1AGQ,24
+workingdays/date_utilities.py,sha256=lod6ancxugK4J7p_Fkv7vU3Eew05Jbp2Axu1iFAJkk4,24391
+workingdays/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+workingdays/tests/_test_setup.py,sha256=FvQl-nMpF-SwmEDd4iSbDH8rboSnKEStmF8KGp3ep0U,502
+workingdays/tests/test_workingdays.py,sha256=gUdlwppPlMikggCSS0F8JROmsDsIzhZ5A-E_PeIA9tU,8405
+workingdays/tests/__pycache__/__init__.cpython-37.pyc,sha256=0IdlecyU1-bi8rstn6xw4L9d5a3uFZS_3c9zyqOd8oo,131
+workingdays/tests/__pycache__/_test_setup.cpython-37.pyc,sha256=zSm9J7Rn652S7ikHwNbKc16UK89cTwwPlJZ_2SZ-Z-4,531
+workingdays/tests/__pycache__/testSetup.cpython-37.pyc,sha256=yjogQOWpHVmqvLJJL8O6rYeWFv7GM1RMMPZd8piGtMw,529
+workingdays-1.20200625.dist-info/COPYING,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+workingdays-1.20200625.dist-info/METADATA,sha256=UGaeucVRTb8fbdHv6h8qIbTwAIu_nzHy1Sz8Sd8DCmY,477
+workingdays-1.20200625.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+workingdays-1.20200625.dist-info/top_level.txt,sha256=pXypXst4drgtq8Z_LI7EA7axcVsVZT9mFXcxh0IEkp4,12
+workingdays-1.20200625.dist-info/RECORD,,
