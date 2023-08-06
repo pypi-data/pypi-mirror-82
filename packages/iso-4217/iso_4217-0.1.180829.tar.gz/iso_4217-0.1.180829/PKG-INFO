@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: iso-4217
+Version: 0.1.180829
+Summary: ISO 4217 currency code library
+Author: Igor Kozyrenko
+Author-email: igor@ikseek.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
