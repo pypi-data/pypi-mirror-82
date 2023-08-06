@@ -1,0 +1,20 @@
+#####################
+# Sensors
+
+rgb:
+  resolution: 128
+  range: 600
+  fov: 180
+
+grey:
+  resolution: 128
+  range: 600
+  fov: 180
+
+topdown:
+  resolution: 128
+  range: 100
+  fov: 180
+
+
+
