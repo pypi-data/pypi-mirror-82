@@ -1,0 +1,8 @@
+README.md
+setup.py
+graph_snapshot/__init__.py
+graph_snapshot/graph_snapshot.py
+graph_snapshot.egg-info/PKG-INFO
+graph_snapshot.egg-info/SOURCES.txt
+graph_snapshot.egg-info/dependency_links.txt
+graph_snapshot.egg-info/top_level.txt
