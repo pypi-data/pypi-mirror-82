@@ -1,0 +1,3 @@
+[console_scripts]
+pip-box = pip_box:main
+
