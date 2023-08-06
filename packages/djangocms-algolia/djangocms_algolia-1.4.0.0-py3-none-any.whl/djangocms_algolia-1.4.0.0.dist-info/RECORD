@@ -1,0 +1,13 @@
+djangocms_algolia/__init__.py,sha256=4VX5YhzOiPUGc_7LCf0sekKjfkj0eWuUJrfz6Zdq8Io,86
+djangocms_algolia/apps.py,sha256=B8okRoHBsvDLbAeaDv3LxpNN9UL9l9_pxAphNzPz_fA,177
+djangocms_algolia/cms_apps.py,sha256=81SvWNg_aRUk7cCaZuGaS3bdNWVcN2FdN7ffuseEmm8,376
+djangocms_algolia/index.py,sha256=YS9R_ZNhIwIt5Zd21YALAo1XF2HUiTn0Zb0MD44pn9c,4817
+djangocms_algolia/signals.py,sha256=vk1C2PveEx8GtYWs06Na12foOefgMi39Jvdt6YpomoI,417
+djangocms_algolia/urls.py,sha256=Qy_fWvcC7UlYw3pGit3QrtLOUEk0y1P1Sfpx-3vpeGg,175
+djangocms_algolia/utils.py,sha256=9fUaU7tKO2xpnX5BdYoTrjcPCB4QIygpP_Qr3SGKAfw,1293
+djangocms_algolia/views.py,sha256=Je-dJXNd9mtVVXnzuqJztcUEDUF3YBomOo-MVH924x0,139
+djangocms_algolia-1.4.0.0.dist-info/LICENSE,sha256=4IsePAd-1xchiNMe3XkaOo_8DHS3mR4W-c5UrAOkyPs,1071
+djangocms_algolia-1.4.0.0.dist-info/METADATA,sha256=chu41EYDy1C2g4NRWcFhmMmB-r51zCTzCZqcpyjaGPg,1649
+djangocms_algolia-1.4.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+djangocms_algolia-1.4.0.0.dist-info/top_level.txt,sha256=ybSPtYKlDrAciqDParxDUDbmy8NEuBz_9HyWXJfep6A,18
+djangocms_algolia-1.4.0.0.dist-info/RECORD,,
