@@ -1,0 +1,4 @@
+pandas
+matplotlib
+oauth2client
+gspread
