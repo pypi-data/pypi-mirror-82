@@ -1,0 +1,13 @@
+snapwell/__init__.py,sha256=Uy6swbF5fpjerhsmDR8yWPXd2Qo5l5C3Gm0n0R9gz_U,2240
+snapwell/snap_utils.py,sha256=nyHsJeqPcd2A7FuKwPAzrzYuoy0ZxBzqA1aiNy9VikU,4455
+snapwell/snapconfig.py,sha256=pCFFOM478l3WA7xgEG7t5vLvHRTNFKFQBzqzqhwj-X4,14768
+snapwell/snapecl.py,sha256=KSzNIPjyrjvPRI99AerxFvQU3FRruhHTVE67kycrxGQ,13395
+snapwell/snapwell_main.py,sha256=yfyEwFwMljl40NPUEmobWewBGz2PrakAPuX6_Jr3mp0,8942
+snapwell/version.py,sha256=JqQXfZ9uV8ZLE4TntPt8CTLs2PB12S-9sk8UPNPiLVg,116
+snapwell/wellpath.py,sha256=Eyh9LjdaLc4D2Sh3ABwzK8OtEJN6UpCFVogA0safL5o,12707
+snapwell-1.0.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+snapwell-1.0.0.dist-info/METADATA,sha256=vqcv4ge0loDcrRH7D3s6GMBbb2i037KS1Bj62Y8H7V8,6503
+snapwell-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+snapwell-1.0.0.dist-info/entry_points.txt,sha256=iOfdFvfDlMvEOiRQHmVpem3tuZb6M13iLjeYnc5b2kI,58
+snapwell-1.0.0.dist-info/top_level.txt,sha256=hgapgpMN9E3HYAhm72LnvpYiETkwL_T0PUok5sU7LT8,9
+snapwell-1.0.0.dist-info/RECORD,,
