@@ -1,0 +1,3 @@
+[console_scripts]
+bomist_cli=bomist_utils:cli
+
