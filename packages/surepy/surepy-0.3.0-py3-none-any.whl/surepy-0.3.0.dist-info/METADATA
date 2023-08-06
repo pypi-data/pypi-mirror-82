@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: surepy
+Version: 0.3.0
+Summary: Library to interact with the flaps & doors from Sure Petcare.
+Home-page: https://github.com/benleb/surepy
+License: MIT
+Keywords: cat,surepetcare,home-assistant
+Author: Ben Lebherz
+Author-email: git@benleb.de
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3.6.3,<4.0.0)
+Requires-Dist: async-timeout (>=3.0.1,<4.0.0)
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
+Project-URL: Documentation, https://github.com/benleb/surepy
+Project-URL: Repository, https://github.com/benleb/surepy
+Description-Content-Type: text/markdown
+
+# surepy
+
+Library to interact with the flaps & doors from Sure Petcare
+
