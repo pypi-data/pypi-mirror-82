@@ -1,0 +1,7 @@
+django==3.1
+django-fsm
+djangorestframework
+django-environ
+channels-redis
+channels
+daphne
