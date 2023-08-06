@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: genepy3d_gpl
+Version: 0.2.1
+Summary: GeNePy3D functions under GPL-like license
+Home-page: https://gitlab.com/genepy3d/genepy3d-gpl
+Author: genepy3d-team
+License: GPL
+Description: # genepy3d-gpl
+        
+        Genepy3d functions using packages under GPL-like license.
+        
+        Further details can be found on https://genepy3d.gitlab.io/.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

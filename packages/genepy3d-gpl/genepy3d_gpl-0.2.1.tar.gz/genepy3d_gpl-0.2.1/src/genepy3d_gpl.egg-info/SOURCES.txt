@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/genepy3d_gpl/__init__.py
+src/genepy3d_gpl.egg-info/PKG-INFO
+src/genepy3d_gpl.egg-info/SOURCES.txt
+src/genepy3d_gpl.egg-info/dependency_links.txt
+src/genepy3d_gpl.egg-info/requires.txt
+src/genepy3d_gpl.egg-info/top_level.txt
+src/genepy3d_gpl/interact/__init__.py
+src/genepy3d_gpl/interact/curvesurface.py
+src/genepy3d_gpl/interact/pointsurface.py
+src/genepy3d_gpl/obj/__init__.py
+src/genepy3d_gpl/obj/curves.py
+src/genepy3d_gpl/obj/points.py
+src/genepy3d_gpl/obj/surfaces.py
