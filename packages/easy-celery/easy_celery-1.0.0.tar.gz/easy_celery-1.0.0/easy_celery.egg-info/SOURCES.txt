@@ -1,0 +1,6 @@
+setup.py
+easy_celery.egg-info/PKG-INFO
+easy_celery.egg-info/SOURCES.txt
+easy_celery.egg-info/dependency_links.txt
+easy_celery.egg-info/requires.txt
+easy_celery.egg-info/top_level.txt
