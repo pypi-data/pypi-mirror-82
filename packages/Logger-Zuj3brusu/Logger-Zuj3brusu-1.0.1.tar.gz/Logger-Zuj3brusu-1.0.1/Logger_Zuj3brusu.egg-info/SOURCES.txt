@@ -1,0 +1,11 @@
+README.md
+setup.py
+Logger/__init__.py
+Logger/discord.py
+Logger/fileLogger.py
+Logger/logger.py
+Logger/telegram.py
+Logger_Zuj3brusu.egg-info/PKG-INFO
+Logger_Zuj3brusu.egg-info/SOURCES.txt
+Logger_Zuj3brusu.egg-info/dependency_links.txt
+Logger_Zuj3brusu.egg-info/top_level.txt
