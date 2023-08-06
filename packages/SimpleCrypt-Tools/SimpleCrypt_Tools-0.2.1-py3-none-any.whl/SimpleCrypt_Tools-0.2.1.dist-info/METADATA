@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: SimpleCrypt-Tools
+Version: 0.2.1
+Summary: A RSA utility class
+Home-page: https://github.com/TalZiv/simplecrypt-tools
+Author: Tal Ziv
+Author-email: tal.ziv.w@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+SimpleCrypt-tools provides easy methods to generate RSA key pairs,
+And encrypt/decrypt data with RSA key pair, Examples are the the class_unit_test.py
+
+SimpleCrypt-tools uses pycryptodome
+
+
+
+
