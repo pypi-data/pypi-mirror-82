@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pylint-quacking
+Version: 0.1.1
+Summary: Ban annotations. Ducks rule!
+License: MIT
+Author: Pete Wildsmith
+Author-email: pete@weargoggles.co.uk
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pylint (>=2.6.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# pylint-quacking
+
+this is a pylint plugin that forbids the use of PEP-3107 and PEP-0526 function and variable annotations.
+
+## usage
+
+```
+pip install pylint-quacking
+pylint --load-plugins pylint_quacking $sourcecode
+```
