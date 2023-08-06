@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: who
+Version: 0.6
+Summary: who
+Home-page: UNKNOWN
+Author: zhongyujian purviszhang
+Author-email: ceshide2@126.com
+License: Apache License, Version 2.0
+Description: Who are you?
+        
+        Author: zhongyujian purviszhang
+        
+        
+        ## start
+        
+        ```python
+        from who import get_region
+        from who import validity_check
+        
+        
+        result = get_region(320)
+        print(result)
+        
+        
+        id="440304199010104562"
+        result = validity_check(id)
+        print(result)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
