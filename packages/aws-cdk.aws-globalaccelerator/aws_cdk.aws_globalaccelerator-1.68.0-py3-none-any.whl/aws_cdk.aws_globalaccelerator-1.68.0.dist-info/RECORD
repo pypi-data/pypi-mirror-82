@@ -1,0 +1,8 @@
+aws_cdk/aws_globalaccelerator/__init__.py,sha256=k8PtFqDxWlKYv0pAeJnT4yobjnTuVainp0fhZbGgCJo,97640
+aws_cdk/aws_globalaccelerator/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_globalaccelerator/_jsii/__init__.py,sha256=p8voNBfI_EX_0uuiWvvcNpiWNkY8K6yR8T7093Y-FFU,471
+aws_cdk/aws_globalaccelerator/_jsii/aws-globalaccelerator@1.68.0.jsii.tgz,sha256=-HXyLD5VFlsPu7cRf6VcG5tXly1jI7efsTTbYujByzY,46588
+aws_cdk.aws_globalaccelerator-1.68.0.dist-info/METADATA,sha256=i4vtf6hZKvVwOP6cP5OcaPDU5SF2iwz5xQ7bamZKAhY,7445
+aws_cdk.aws_globalaccelerator-1.68.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cdk.aws_globalaccelerator-1.68.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_globalaccelerator-1.68.0.dist-info/RECORD,,
