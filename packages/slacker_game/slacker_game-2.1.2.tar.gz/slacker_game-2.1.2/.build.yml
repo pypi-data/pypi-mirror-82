@@ -1,0 +1,9 @@
+image: debian/sid
+packages:
+  - tox
+sources:
+  - https://git.sr.ht/~cnx/slacker-game
+tasks:
+  - test: |
+      cd slacker-game
+      tox
