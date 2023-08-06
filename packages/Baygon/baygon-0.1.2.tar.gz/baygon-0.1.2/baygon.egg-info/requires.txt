@@ -1,0 +1,4 @@
+click
+colorama
+pyaml
+voluptuous
