@@ -1,0 +1,11 @@
+pdat/__init__.py,sha256=VQunyt7cb7X4EDxk3x3iGSRmobllzbPL3dXBYtJ-V-A,336
+pdat/pdat.py,sha256=1B5QV5_NTyplNK8tiqRMlDarfeRiYrP2DK_GEetpVq4,33166
+pdat/pypsrfits.py,sha256=Owk5cdSrO-V6YKX0P5loZLtCNDrmFAq7-6ixsD56qIM,7278
+pdat/templates/search_scratch.fits,sha256=gW63gaEXzQF-rz__Nao6D8q8eygCaxEa6EsXc_u907c,5302080
+pdat/templates/search_template.fits,sha256=gW63gaEXzQF-rz__Nao6D8q8eygCaxEa6EsXc_u907c,5302080
+pdat-0.2.1.dist-info/AUTHORS.rst,sha256=VSkHMkfRFHCf2HQwhkGlDHh4dzrYCM-XJmTMRNy2iYY,168
+pdat-0.2.1.dist-info/LICENSE,sha256=pjlRlDyvx-knXdlkLoIKzUegyJN4YpaP-Lez5T_-ulo,1076
+pdat-0.2.1.dist-info/METADATA,sha256=lAC2I6VC_wSQmzIxFBiexjNvLtfx1ZhiXRi_mSsqIMs,2407
+pdat-0.2.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pdat-0.2.1.dist-info/top_level.txt,sha256=avSkfaihsxNvuHRo8SPLz32wcaF1M3lwxI7MGr9SDFw,5
+pdat-0.2.1.dist-info/RECORD,,
