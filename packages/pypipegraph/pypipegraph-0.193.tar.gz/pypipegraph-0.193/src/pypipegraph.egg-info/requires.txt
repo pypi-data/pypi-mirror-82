@@ -1,0 +1,14 @@
+
+[doc]
+sphinx
+
+[testing]
+cython
+dppd-plotnine
+flake8
+jupyter
+pytest
+pytest-cov
+pytest-icdiff
+pytest-random-order
+runipy
