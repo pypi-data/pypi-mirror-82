@@ -1,0 +1,6 @@
+README.md
+setup.py
+litre_demo.egg-info/PKG-INFO
+litre_demo.egg-info/SOURCES.txt
+litre_demo.egg-info/dependency_links.txt
+litre_demo.egg-info/top_level.txt
