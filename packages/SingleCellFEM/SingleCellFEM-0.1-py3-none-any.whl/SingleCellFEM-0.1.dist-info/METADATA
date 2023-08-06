@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: SingleCellFEM
+Version: 0.1
+Summary: a single cell gene expression data analysis tool
+Home-page: https://github.com/qingyunpkdd/pylib
+Author: qingyun891
+Author-email: qingyun891@126.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pyqt5 (==5.15.1)
+Requires-Dist: scipy (==1.5.2)
+Requires-Dist: numpy (==1.19.1)
+Requires-Dist: pandas (==1.1.1)
+Requires-Dist: tqdm (==4.49.0)
+
+...
+
+
