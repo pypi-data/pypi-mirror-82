@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pyxel-physics
+Version: 0.1.0
+Summary: Physics module that merges Pymunk with Pyxel.
+Home-page: https://github.com/fisjogos-fga/pyxel-physics
+Author: Fábio Macêdo Mendes
+Author-email: fabiomacedomendes@gmail.com
