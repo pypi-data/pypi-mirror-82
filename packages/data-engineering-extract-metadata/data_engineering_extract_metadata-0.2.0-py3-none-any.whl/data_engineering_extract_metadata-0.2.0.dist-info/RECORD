@@ -1,0 +1,9 @@
+data_engineering_extract_metadata/README.md,sha256=nk-YGWcz_eu5FLP-FqkSlCuc8qKFmYTd2UwwZ7Z2PqQ,452
+data_engineering_extract_metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_engineering_extract_metadata/connect.py,sha256=73VBXVnylVJWieoNrJkhiZbYYTjb7x7Q970HbiCaPsA,1299
+data_engineering_extract_metadata/metadata.py,sha256=km2UWX8GB55rETKa2sKeUSihTDy1_MwjbQ98M-p7-vU,18217
+data_engineering_extract_metadata/table_list.py,sha256=OjBFHuLCpsIkTPFFEFNkzDi8Pqs2zHzTkxrh845TgSs,3114
+data_engineering_extract_metadata/utils.py,sha256=LwFsRthbnPbdCCd11jOXWEqGDdIlhJJwphRkuTLGOIo,782
+data_engineering_extract_metadata-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+data_engineering_extract_metadata-0.2.0.dist-info/METADATA,sha256=ZoNN8dYT3k2HSJMGmu-GD07pmSYDEvg9EP42FXcA1gU,13046
+data_engineering_extract_metadata-0.2.0.dist-info/RECORD,,
