@@ -1,0 +1,6 @@
+argparse
+configparser
+configset
+make_colors>=3.12
+pydebugger
+sendgrowl
