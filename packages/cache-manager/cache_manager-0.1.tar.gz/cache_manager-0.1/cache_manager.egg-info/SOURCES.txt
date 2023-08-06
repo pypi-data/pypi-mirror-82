@@ -1,0 +1,11 @@
+setup.py
+cache_manager/__init__.py
+cache_manager/base.py
+cache_manager/etcd.py
+cache_manager/memcached.py
+cache_manager/pickle.py
+cache_manager/redis.py
+cache_manager.egg-info/PKG-INFO
+cache_manager.egg-info/SOURCES.txt
+cache_manager.egg-info/dependency_links.txt
+cache_manager.egg-info/top_level.txt
