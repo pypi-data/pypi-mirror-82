@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+birdlib/adblock.py
+birdlib/bookmarks.py
+birdlib/crypt.py
+birdlib.egg-info/PKG-INFO
+birdlib.egg-info/SOURCES.txt
+birdlib.egg-info/dependency_links.txt
+birdlib.egg-info/requires.txt
+birdlib.egg-info/top_level.txt
