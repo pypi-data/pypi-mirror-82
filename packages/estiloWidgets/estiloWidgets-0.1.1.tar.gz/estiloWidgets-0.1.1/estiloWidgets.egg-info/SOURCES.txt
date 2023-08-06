@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+estiloWidgets/__init__.py
+estiloWidgets/autcomplety.py
+estiloWidgets/buttonStyle.py
+estiloWidgets/entryPlaceHolder.py
+estiloWidgets/gradienteFrame.py
+estiloWidgets/labelStyle.py
+estiloWidgets.egg-info/PKG-INFO
+estiloWidgets.egg-info/SOURCES.txt
+estiloWidgets.egg-info/dependency_links.txt
+estiloWidgets.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: estiloWidgets
+Version: 0.1.1
+Summary: Modulo que adiciona recursos extras ao tkinter
+Home-page: https://github.com/rafael-rfzorzi/estiloWidgets
+Author: Rafael De Leon Serafim
+Author-email: rafaelserafim.rfzorzi@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: autocomplety buttonStyle entryPlaceHolder gradienteFrame labelStyle
+Platform: UNKNOWN
