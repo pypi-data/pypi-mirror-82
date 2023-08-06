@@ -1,0 +1,9 @@
+nuclease_off_target/__init__.py,sha256=O6It2KbcuUi7kDsT5MfVa9B3BP185Vvn6jg532wut6M,1623
+nuclease_off_target/constants.py,sha256=88a078gav8lV3IvZf2VgfK6us6gymwnl6aT0m22jU5s,1103
+nuclease_off_target/crispr_target.py,sha256=FzaelfMOPd1_wF1dFupCDCkSKyFxh9K6753dTDpHl3M,28008
+nuclease_off_target/genomic_sequence.py,sha256=KW7p3GxekzC0CvaPyaUxjwpt15BEOtbwslNKx5HL32w,5342
+nuclease_off_target-0.2.3.dist-info/LICENSE,sha256=dRvw8RqoD0To6-52uMxrdIxe6mgSUiLVSaENxvdHY8M,1065
+nuclease_off_target-0.2.3.dist-info/METADATA,sha256=cvneMkpSyfFdYOn37CDFPa1ojy59slCJNprAxZ2hiH8,833
+nuclease_off_target-0.2.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+nuclease_off_target-0.2.3.dist-info/top_level.txt,sha256=YnnOHd4VcwzDnDLPZi_7EJAOdkVwYM_lHUiBFpwX-5c,20
+nuclease_off_target-0.2.3.dist-info/RECORD,,
