@@ -1,0 +1,12 @@
+pycomplete/__init__.py,sha256=zy6DU5jFLrDnqtPL-Gz3_M8roOIP5S_zYIbo8_SLj54,10678
+pycomplete/__main__.py,sha256=wS8IQe7fWkwcZtoY7_n1g--6h_NEfzseKj_RK8ng4TA,795
+pycomplete/getters.py,sha256=b72bBN5Epj7vsmEM9aWkGYHFwZROlCtLKHqqNFE59NA,3577
+pycomplete/templates/__init__.py,sha256=qDynnjOUCbtx3r0C79yKAvKM8TAaO2rN1r9li1KGx3I,536
+pycomplete/templates/bash.tpl,sha256=3C90XXmd0W5ASC83kT7TYgN4PacHL6U1gvel3mjHdp4,980
+pycomplete/templates/fish.tpl,sha256=JAgmOblopa4rffdDom8TzWfLmSAhFLneUIaMQvkjUSQ,250
+pycomplete/templates/zsh.tpl,sha256=qy3E2Gd-NcPeI_Z9_e7rYfdPRa6xX3Im_vHFXXWMjwY,766
+pycomplete-0.1.0.dist-info/entry_points.txt,sha256=2WVZmZslGj3_deM-XJ4s4UZ8VyB4yMjMlj3PL4k1gUw,55
+pycomplete-0.1.0.dist-info/WHEEL,sha256=OMitszyxHFxtOxcr8zg_n3E3mfPxNAyCDEQ20zErcBM,83
+pycomplete-0.1.0.dist-info/METADATA,sha256=Oor92atZWJ_Pf8KX16ixeEhBdL7yFvbYyC__3_7phwI,5270
+pycomplete-0.1.0.dist-info/LICENSE,sha256=wumNs06tCvgbExw2Nz8NvQMsUvPg8q65jY-mYb9CIdM,1518
+pycomplete-0.1.0.dist-info/RECORD,,
