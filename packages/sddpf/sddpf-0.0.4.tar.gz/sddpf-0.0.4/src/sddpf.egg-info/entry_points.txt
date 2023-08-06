@@ -1,0 +1,3 @@
+[sentry.plugins]
+sddpf = sddpf.plugin:DingDingPlugin
+
