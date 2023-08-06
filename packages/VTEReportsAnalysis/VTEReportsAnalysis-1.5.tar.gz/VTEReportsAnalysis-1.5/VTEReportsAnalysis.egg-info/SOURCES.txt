@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+VTEReportsAnalysis/VTEReportsAnalysis.py
+VTEReportsAnalysis/__init__.py
+VTEReportsAnalysis/extractor.py
+VTEReportsAnalysis/findMatch.py
+VTEReportsAnalysis/negex.py
+VTEReportsAnalysis.egg-info/PKG-INFO
+VTEReportsAnalysis.egg-info/SOURCES.txt
+VTEReportsAnalysis.egg-info/dependency_links.txt
+VTEReportsAnalysis.egg-info/top_level.txt
+VTEReportsAnalysis/config/config.txt
+VTEReportsAnalysis/config/negex_triggers.txt

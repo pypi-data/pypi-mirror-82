@@ -1,0 +1,227 @@
+#target_phrases
+embolus 
+embolism 
+emboli
+clot
+clots
+thromboemboli
+thromboembolism
+thromboembolic
+filling defect
+thrombus
+thrombi
+ pe 
+dvt
+collusion
+
+#skip_phrases
+evaluate 
+evaluation 
+history 
+indication 
+technique 
+comparison 
+assessment 
+nondiagnostic 
+uninterpretable 
+artifact 
+artifactual 
+repeat
+
+#absolute_negative_assertions
+no evidence of acute pulmonary embolus
+no evidence of acute pulmonary emboli
+no evidence of pulmonary embolus
+no evidence of pulmonary emboli
+no acute pulmonary embolus
+no acute pulmonary emboli
+no pulmonary embolus
+no pulmonary emboli
+no filling defects
+no acute filling defects
+no pe
+
+no evidence of pe
+no sign of pe
+
+no visualised above knee dvt
+no upper limb dvt
+no ultrasound evidence of a left leg dvt
+no ultrasonic evidence for bilateral above knee dvt
+no trauma casue dvt
+no source of cellulitis unilateral no trauma dvt
+no sonographic evidence of right upper arm dvt
+no sonographic evidence of right lower limb vein dvt
+no sonographic evidence of right lower limb dvt
+no sonographic evidence of proximal right upper limb dvt
+no sonographic evidence of lower limb dvt
+no sonographic evidence of lower limb above the knee dvt
+no sonographic evidence of left upper or lower limb dvt
+no sonographic evidence of left upper limb dvt
+no sonographic evidence of left lower limb dvt
+no sonographic evidence of dvt
+no sonographic evidence of an above knee dvt
+no sonographic evidence of above the knee dvt
+no sonographic evidence of a left sided above knee dvt
+no sonographic evidence of a left lower limb dvt
+no sign of dvt
+no risk factors for dvt
+no right upper limb dvt
+no right upper arm dvt
+no right sided lower limb dvt
+no right sided above knee dvt
+no right or left sided leg dvt
+no right or left leg dvt
+no right lower limb dvt
+no right leg dvt
+no right dvt
+no right above knee dvt
+no pseudoanuerysm dvt
+no previous imaging is available for review dvt
+no previous history of dvt
+no previous dvt
+no obvious above the knee dvt
+no new or acute above the knee dvt
+no new acute leg dvt
+no lower limb leg dvt
+no lower limb dvt
+no left upper limb vein dvt
+no left upper arm dvt
+no left sided above knee dvt
+no left or right lower limb vein dvt
+no left or right above knee dvt
+no left lower limb vein dvt
+no left lower limb dvt
+no left leg dvt
+no left leg above knee dvt
+no left left leg above knee dvt
+no left dvt
+no left arm dvt
+no left above knee dvt
+no hx dvt
+no features of above knee dvt
+no evidence of right upper limb dvt
+no evidence of right upper arm dvt
+no evidence of right or left leg dvt
+no evidence of right lower limb vein dvt
+no evidence of right lower limb dvt
+no evidence of right lower limb above knee dvt
+no evidence of right lower leg dvt
+no evidence of right lower extremity dvt
+no evidence of right leg dvt
+no evidence of right arm dvt
+no evidence of right and left lower extremity dvt
+no evidence of right above knee dvt
+no evidence of pseudoaneurysm or dvt
+no evidence of lower limb vein dvt
+no evidence of lower limb dvt
+no evidence of leg dvt
+no evidence of left upper limb dvt
+no evidence of left lower limb vein dvt
+no evidence of left lower limb dvt
+no evidence of left lower limb above knee dvt
+no evidence of left lower extremity dvt
+no evidence of left leg dvt
+no evidence of left arm dvt
+no evidence of left above knee dvt
+no evidence of dvt
+no evidence of bilateral lower extremity dvt
+no evidence of bilateral dvt
+no evidence of an acute or chronic dvt
+no evidence of an above the knee dvt
+no evidence of an above knee or posterior tibial dvt
+no evidence of an above knee dvt
+no evidence of acute or chronic dvt
+no evidence of acute dvt
+no evidence of above knee right dvt
+no evidence of above knee left sided dvt
+no evidence of above knee dvt
+no evidence of a right sided dvt
+no evidence of a right or left lower limb dvt
+no evidence of a right lower limb dvt
+no evidence of a right lower limb above the knee dvt
+no evidence of a right leg dvt
+no evidence of a proximal right leg dvt
+no evidence of a left lower limb above knee dvt
+no evidence of a left lower extremity dvt
+no evidence of a dvt
+no evidence of a bilateral leg dvt
+no evidence of a bilateral dvt
+no erythema dvt
+no dyspnoea dvt
+no dvt
+no definite right leg dvt
+no current evidence of right lower limb dvt
+no convincing left above knee dvt
+no convincing evidence of right above knee dvt
+no circumference difference of calves dvt
+no acute dvt
+no above the knee right leg dvt
+no above the knee right dvt
+no above the knee dvt
+no above right knee dvt
+no above left knee dvt
+no above knee right leg dvt
+no above knee or elbow dvt
+no above knee left leg dvt
+no above knee dvt
+no above elbow dvt
+no ct evidence of right upper limb dvt
+no ct evidence of right upper arm dvt
+no ct evidence of right or left leg dvt
+no ct evidence of right lower limb vein dvt
+no ct evidence of right lower limb dvt
+no ct evidence of right lower limb above knee dvt
+no ct evidence of right lower leg dvt
+no ct evidence of right lower extremity dvt
+no ct evidence of right leg dvt
+no ct evidence of right arm dvt
+no ct evidence of right and left lower extremity dvt
+no ct evidence of right above knee dvt
+no ct evidence of pseudoaneurysm or dvt
+no ct evidence of lower limb vein dvt
+no ct evidence of lower limb dvt
+no ct evidence of leg dvt
+no ct evidence of left upper limb dvt
+no ct evidence of left lower limb vein dvt
+no ct evidence of left lower limb dvt
+no ct evidence of left lower limb above knee dvt
+no ct evidence of left lower extremity dvt
+no ct evidence of left leg dvt
+no ct evidence of left arm dvt
+no ct evidence of left above knee dvt
+no ct evidence of dvt
+no ct evidence of bilateral lower extremity dvt
+no ct evidence of bilateral dvt
+no ct evidence of an acute or chronic dvt
+no ct evidence of an above the knee dvt
+no ct evidence of an above knee or posterior tibial dvt
+no ct evidence of an above knee dvt
+no ct evidence of acute or chronic dvt
+no ct evidence of acute dvt
+no ct evidence of above knee right dvt
+no ct evidence of above knee left sided dvt
+no ct evidence of above knee dvt
+no ct evidence of a right sided dvt
+no ct evidence of a right or left lower limb dvt
+no ct evidence of a right lower limb dvt
+no ct evidence of a right lower limb above the knee dvt
+no ct evidence of a right leg dvt
+no ct evidence of a proximal right leg dvt
+no ct evidence of a left lower limb above knee dvt
+no ct evidence of a left lower extremity dvt
+no ct evidence of a dvt
+no ct evidence of a bilateral leg dvt
+no ct evidence of a bilateral dvt
+no ct evidence of acute pulmonary embolus
+no ct evidence of acute pulmonary emboli
+no ct evidence of pulmonary embolus
+no ct evidence of pulmonary emboli
+
+#absolute_positive_assertions
+
+#start_phrase
+impression
+conclusion
+opinion
+comment
