@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: NotebookForMinio
+Version: 0.3.3
+Summary: A Minio Driver for  ContentsManager for IPython/Jupyter.
+Home-page: UNKNOWN
+Author: RobertLNJ
+Author-email: UNKNOWN
+License: MIT
+Description: 
+                use mopen for a minio file
+                from NoteBookForMinio import mopen
+                f = mopen(/absPath/a/b/c)
+                
+Platform: UNKNOWN
