@@ -1,0 +1,6 @@
+README.md
+setup.py
+hbase_esgg.egg-info/PKG-INFO
+hbase_esgg.egg-info/SOURCES.txt
+hbase_esgg.egg-info/dependency_links.txt
+hbase_esgg.egg-info/top_level.txt
