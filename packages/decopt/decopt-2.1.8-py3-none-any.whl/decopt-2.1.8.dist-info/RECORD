@@ -1,0 +1,16 @@
+dec_opt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dec_opt/compression.py,sha256=PdZVIBzZJ6-kbu9i0Qgy-PeOPyTSzYJh2NMM9dXjzGw,2302
+dec_opt/data_reader.py,sha256=JmvgLTUa-VJXQPmc_ArVNg1RcPJAbmY0SS7iDLkyPoo,8113
+dec_opt/dec_gd.py,sha256=83nS3Tud3pKMkPAo8Uo-QLJnqtPjGYvjTPhCzRYUw8A,7792
+dec_opt/experiment.py,sha256=Bonhe3MwJYWTvWbYS1wKExGGTjIN6W4hlfvdZn3U1ls,668
+dec_opt/gossip_matrix.py,sha256=8vnkkKhxhdJyjFN-HL7LSkqKvktrXFvjTMZR1pLVyrc,1589
+dec_opt/linear_regression.py,sha256=5i9Jw2nkqL5zUGkcXxKtwpaoIqc7z8a-2qdQ0HAdsZc,2815
+dec_opt/logistic_regression.py,sha256=ihoQ67tokJY-FS7LssJx-TyzsyimoZBgzAvg-Ohvkzk,4183
+dec_opt/non_linear_regression.py,sha256=1sn3I2FRxsFWJAEqYYhLk5ip76ZWBYWtaov8L6rvtVw,2921
+dec_opt/pickle_data.py,sha256=BMVXKIQEaoGq99tVcciDijBhLuFEpvV6oO0OJ6_hGh8,937
+dec_opt/utils.py,sha256=iaULSGsY67CgM9QEGZ1avKbWEQqFRN7GkJPtJnHjOc0,500
+decopt-2.1.8.dist-info/LICENSE,sha256=b28xOA5j9sOLNqITqpHvknXwohCs-bgxavKtIQLqozM,1070
+decopt-2.1.8.dist-info/METADATA,sha256=SP3xzh4fsR8L_8bb3B5a90KzM3rvJvBXXL44LfxbbLc,3807
+decopt-2.1.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+decopt-2.1.8.dist-info/top_level.txt,sha256=wb9leFeDYW0qigyUVQm1xmFo3MRz0z2f_sD-je_KA4I,8
+decopt-2.1.8.dist-info/RECORD,,
