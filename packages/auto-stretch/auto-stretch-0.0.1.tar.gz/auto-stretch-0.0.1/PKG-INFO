@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: auto-stretch
+Version: 0.0.1
+Summary: Stretch linear astro data for easier visualization.
+Home-page: UNKNOWN
+Author: Tim Beccue
+Author-email: timothybeccue@gmail.com
+License: UNKNOWN
+Description: # Auto Stretch
+        
+        Automatically stretch astronomical images in numpy array format. Useful for creating easy-to-see, non-linear jpgs from fits files. 
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

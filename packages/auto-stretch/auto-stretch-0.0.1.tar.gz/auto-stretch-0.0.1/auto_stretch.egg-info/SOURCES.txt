@@ -1,0 +1,8 @@
+README.md
+setup.py
+auto_stretch/__init__.py
+auto_stretch/stretch.py
+auto_stretch.egg-info/PKG-INFO
+auto_stretch.egg-info/SOURCES.txt
+auto_stretch.egg-info/dependency_links.txt
+auto_stretch.egg-info/top_level.txt
