@@ -1,0 +1,13 @@
+click
+numpy
+scipy
+
+[dev]
+pytest
+
+[docs]
+matplotlib
+sphinx
+
+[examples]
+matplotlib

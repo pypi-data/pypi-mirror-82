@@ -1,0 +1,8 @@
+README.md
+setup.py
+conch_pattern/__init__.py
+conch_pattern.egg-info/PKG-INFO
+conch_pattern.egg-info/SOURCES.txt
+conch_pattern.egg-info/dependency_links.txt
+conch_pattern.egg-info/requires.txt
+conch_pattern.egg-info/top_level.txt
