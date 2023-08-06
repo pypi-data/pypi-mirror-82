@@ -1,0 +1,16 @@
+aiofiles
+docker-registry-client-async>=0.1.6
+docker-sign-verify>=1.0.0
+click
+gnupg
+
+[dev]
+black
+docker-compose
+lovely-pytest-docker
+pylint
+pyopenssl
+pytest
+pytest-asyncio
+twine
+wheel
