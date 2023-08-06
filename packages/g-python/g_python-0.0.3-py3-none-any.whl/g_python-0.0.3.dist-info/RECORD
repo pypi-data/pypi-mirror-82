@@ -1,0 +1,12 @@
+g_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+g_python/gextension.py,sha256=6eW1fcyZxZNVZrdmYT9M01QaObn8PMJbVI2Rr5cB6y8,16417
+g_python/hdirection.py,sha256=P7Ega6TaakqHDosyCzqIoS6oFsMN_bMoLkGnSKHcJEI,89
+g_python/hmessage.py,sha256=cbi-YQMdgA3NW5Xh3jlohl06KUNh29yNYYvmvyS3Xe0,1062
+g_python/hpacket.py,sha256=DTkuUzLfFpalK2dcpKQM6tLK3pyWnLIkGnXz7JplnJo,7830
+g_python/hparsers.py,sha256=qWZJ8Hr7IMUycnWPX43kgRNnXhiDVrxIRWBwMVKiiDY,6442
+g_python/htools.py,sha256=3l6Op6f4rAs7_fYhGH6KUgfM5QouFD30xlUpzix50GY,4204
+g_python-0.0.3.dist-info/LICENSE,sha256=h0RLs53Vc-evBheVlTGuU34QNnFcBI4jCqEH_URViGk,1089
+g_python-0.0.3.dist-info/METADATA,sha256=kA7qHENaeYyCDAFDwj9oMcwaO-25xisjGm3tww_haBQ,596
+g_python-0.0.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+g_python-0.0.3.dist-info/top_level.txt,sha256=z-xPaT2ly3Rm6cs5aWndUiG0T59JdFpK7VL9k86Rt90,9
+g_python-0.0.3.dist-info/RECORD,,
