@@ -1,0 +1,7 @@
+README.md
+setup.py
+nsai.egg-info/PKG-INFO
+nsai.egg-info/SOURCES.txt
+nsai.egg-info/dependency_links.txt
+nsai.egg-info/requires.txt
+nsai.egg-info/top_level.txt

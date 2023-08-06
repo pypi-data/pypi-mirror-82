@@ -1,0 +1,7 @@
+pandas
+pathlib
+unidecode
+joblib
+spacy
+os
+re
