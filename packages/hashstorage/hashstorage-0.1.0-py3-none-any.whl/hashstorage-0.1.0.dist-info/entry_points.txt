@@ -1,0 +1,3 @@
+[console_scripts]
+hashstorage-cli=hashstorage.cli:main
+
