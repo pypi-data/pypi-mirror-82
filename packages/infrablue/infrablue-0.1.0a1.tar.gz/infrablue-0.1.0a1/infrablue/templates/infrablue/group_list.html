@@ -1,0 +1,55 @@
+{% extends "infrablue/base.html" %}
+{% load i18n %}
+
+{% block page_title %}{% trans "Groups" %}{% endblock page_title %}
+{% block browser_title %}{% trans "Groups" %}{% endblock browser_title %}
+
+{% block content %}
+    {% include "infrablue/snippets/pagination.html" %}
+    <a href="{% url 'group_create' %}" class="btn waves-effect secondary-color">
+        <i class="material-icons left">add</i> {% trans "Create" %}
+    </a>
+    <table class="striped highlight responsive-table">
+        <thead>
+            <th>{% trans "ID" %}</th>
+            <th>{% trans "Name" %}</th>
+            <th>{% trans "Users" %}</th>
+            <th class="actions">{% trans "Actions" %}</th>
+        </thead>
+        {% for obj in object_list %}
+        <tr>
+            <td>{{ obj.id }}</td>
+            <td>{{ obj.name }}</td>
+            <td>
+                    {% for user in obj.user_set.all|slice:":3" %}
+                        <span>{{ user.username }},</span>
+                    {% empty %}
+                        <span>
+                            {% blocktrans %}Currently, there is no user in this group.{% endblocktrans %}
+                        </span>
+                    {% endfor %}
+                    {% if obj.user_set.all|slice:"3:" %}
+                        {% blocktrans with obj.user_set.all|slice:"3:"|length as count %}
+                            … and {{ count }} more
+                        {% endblocktrans %}
+                    {% endif %}
+            </td>
+            <td>
+                <div class="break-on-mobile">
+                    <a class="btn-flat primary-color-text waves-effect" href="{% url "group_detail" obj.id %}">
+                        <i class="material-icons left">pageview</i>{% trans "View Details" %}
+                    </a>
+                    <a class="btn-flat secondary-color-text waves-effect" href="{% url 'group_update' obj.id %}">
+                        <i class="material-icons left">edit</i>{% trans "Edit" %}
+                    </a>
+                    <a class="btn-flat red-text waves-effect" href="{% url 'group_delete' obj.id %}">
+                        <i class="material-icons left">delete</i>{% trans "Delete" %}
+                    </a>
+                </div>
+            </td>
+        </tr>
+        {% empty %}
+            <td>{% trans "No groups could be found" %}</td>
+        {% endfor %}
+    </table>
+{% endblock %}

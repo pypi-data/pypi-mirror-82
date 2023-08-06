@@ -1,0 +1,16 @@
+{% extends "infrablue/base.html" %}
+{% load i18n %}
+
+{% block page_title %}{% trans "Delete Group" %}{% endblock page_title %}
+{% block browser_title %}{% trans "Delete Group" %}{% endblock browser_title %}
+
+{% block content %}
+<form method="post">{% csrf_token %}
+    <div class="submit-row">
+      <button type="submit" class="btn waves-effect waves-light red">
+      {% trans "Delete" %}
+      </button>
+      <a href="{% url 'group_list' %}" class="btn waves-effect waves-light blue">{% trans "Cancel "%}</a>
+    </div>
+</form>
+{% endblock %}

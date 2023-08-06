@@ -1,0 +1,64 @@
+{% extends "infrablue/base.html" %}
+{% load i18n material_form %}
+
+{% block page_title %}
+    {% trans "Join Meeting" %} {{ meeting.pk }}: {{ meeting.name }}
+{% endblock page_title %}
+{% block browser_title %}
+    {% trans "Join Meeting" %} {{ meeting.pk }}: {{ meeting.name }}
+{% endblock browser_title %}
+
+{% block content %}
+    <div class="row">
+        <div class="col s12 m6">
+            <form method="POST">
+                <div class="row">
+                    <div class="col s12 ">
+                        <div class="card-panel">
+                            {% csrf_token %}
+                            <p class="flow-text">
+                                {% blocktrans with meeting=meeting.name %}
+                                    You have been invited to join the meeting {{ meeting }}. To join,
+                                    press the "join" button below.
+                                {% endblocktrans %}
+                            </p>
+
+                            {% if attendee_pw_form %}
+                                {% form form=attendee_pw_form %}{% endform %}
+                            {% endif %}
+                            {% if moderator_pw_form %}
+                                {% form form=moderator_pw_form %}{% endform %}
+                            {% endif %}
+                            {% if user_form %}
+                                {% form form=user_form %}{% endform %}
+                            {% endif %}
+
+                            <button type="submit" class="btn btn-large secondary">
+                                <i class="material-icons left">person_add</i> {% trans "Join" %}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="col s12 m6">
+            {% include "infrablue/snippets/meeting_information.html" %}
+        </div>
+        <div class="col s12">
+            {% trans "This setting is currently turned off." as trans_off %}
+            {% trans "This setting is currently turned on." as trans_on %}
+            <div class="row">
+                {% with trans_on|add:","|add:trans_off as yesno_text %}
+                    {% for column in card_properties %}
+                        <div class="col s12 m4 l3">
+                            {% for property, icons in column %}
+                                {% include "infrablue/property_card.html" %}
+                            {% endfor %}
+                        </div>
+                    {% endfor %}
+                {% endwith %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

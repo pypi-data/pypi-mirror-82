@@ -1,0 +1,30 @@
+{% extends "infrablue/base.html" %}
+{% load i18n material_form %}
+
+{% block browser_title %}{% trans "Update Server Group" %}{% endblock %}
+{% block page_title %}{% trans "Update Server Group" %}{% endblock %}
+
+{% block content %}
+    <form method="post">{% csrf_token %}
+        {{ servers.management_form }}
+        {% form form=form %}{% endform %}
+        <h5>Servers</h5>
+        <div class="collection">
+            {% for server in servers %}
+                <div class="collection-item">
+                    {% form form=server %}{% endform %}
+                </div>
+            {% endfor %}
+        </div>
+        <div class="submit-row">
+            {% include "infrablue/snippets/save_button.html" with caption=_("Save") %}
+            {% if bigbluebuttongroup.id %}
+                <a href="{% url 'server_group_delete' bigbluebuttongroup.id %}"
+                   class="btn waves-effect waves-light red">{% trans "Delete" %}</a>
+            {% endif %}
+            <a href="{% url 'server_group_list' %}" class="btn waves-effect waves-light secondary-color">
+                {% trans "Cancel" %}
+            </a>
+        </div>
+    </form>
+{% endblock %}

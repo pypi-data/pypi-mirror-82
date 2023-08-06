@@ -1,0 +1,19 @@
+{% extends "infrablue/base.html" %}
+{% load i18n %}
+
+{% block page_title %}{% trans "Confirm" %}{% endblock page_title %}
+{% block browser_title %}{% trans "Delete User" %}{% endblock browser_title %}
+
+{% block content %}
+<form method="post">{% csrf_token %}
+    <p>{% blocktrans with user=user.get_full_name username=user.username %}
+        Are you sure you want to delete the user "{{ user }}" with username "{{ username }}"?
+    {% endblocktrans %}</p>
+    <div class="submit-row">
+      <button type="submit" class="btn waves-effect waves-light red">
+      {% trans "Delete" %}
+      </button>
+      <a href="{% url 'user_list' %}" class="btn waves-effect waves-light secondary-color">{% trans "Cancel" %}</a>
+    </div>
+</form>
+{% endblock %}

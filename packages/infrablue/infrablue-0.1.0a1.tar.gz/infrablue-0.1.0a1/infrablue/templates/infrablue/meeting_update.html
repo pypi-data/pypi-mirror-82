@@ -1,0 +1,49 @@
+{% extends "infrablue/base.html" %}
+{% load i18n material_form %}
+
+{% block browser_title %}
+    {% if object.id %}{% trans "Update Meeting" %}{% else %}{% trans "Create Meeting" %}{% endif %}
+{% endblock %}
+{% block page_title %}
+    {% if object.id %}{% trans "Update Meeting" %}{% else %}{% trans "Create Meeting" %}{% endif %}
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        {% csrf_token %}
+        <p class="red-text">{{ form.non_field_errors }}</p>
+        {% form form=form %}{% endform %}
+        <h5>{% trans "Meeting URL" %}</h5>
+        {% if urls|length > 1 %}
+            <div class="row">
+                {{ urls.management_form }}
+                {% for url in urls %}
+                    <div class="col s12 m6 l4">
+                        <div class="card-panel">
+                            <p class="red-text">{{ urls.non_field_errors }}{{ urls.errors.forloop.counter0 }}</p>
+                            {% form form=url %}{% endform %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            {{ urls.management_form }}
+            {% form form=urls.0 layout=urls.0.layout_minimal %}{% endform %}
+        {% endif %}
+        <div class="submit-row">
+            {% include "infrablue/snippets/save_button.html" with caption=_("Save") %}
+            {% if object.id %}
+                <a href="{% url 'meeting_delete' object.id %}"
+                   class="btn waves-effect waves-light red">{% trans "Delete" %}</a>
+            {% endif %}
+            <a href="   {% if object.id %}
+                            {% url 'meeting_detail' object.id %}
+                        {% else %}
+                            {% url 'meeting_list' %}
+                        {% endif %}"
+               class="btn waves-effect waves-light secondary-color">
+                {% trans "Cancel" %}
+            </a>
+        </div>
+    </form>
+{% endblock %}
