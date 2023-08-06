@@ -1,0 +1,24 @@
+Metadata-Version: 1.2
+Name: pytvfemd
+Version: 0.1.post1
+Summary: tvfemd in Python
+Home-page: https://github.com/stfbnc/pytvfemd.git
+Author: Stefano Bianchi
+Author-email: stefanobianchi9@gmail.com
+License: GPLv3.0
+Project-URL: Bug Reports, https://github.com/stfbnc/pytvfemd/issues
+Project-URL: Source, https://github.com/stfbnc/pytvfemd/
+Description: # pytvfemd
+        
+        Very slightly modified python version of the [MATLAB TVF-EMD](https://it.mathworks.com/matlabcentral/fileexchange/63300-time-varying-filter-based-empirical-mode-decomposition-tvf-emd) (time varying filter based empirical mode decomposition) algorithm.
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.5

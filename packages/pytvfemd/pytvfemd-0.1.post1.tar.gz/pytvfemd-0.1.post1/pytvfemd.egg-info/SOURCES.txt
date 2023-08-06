@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+pytvfemd/LICENSE
+pytvfemd/__init__.py
+pytvfemd/inst_freq_local.py
+pytvfemd/pytvfemd.py
+pytvfemd/splinefit.py
+pytvfemd.egg-info/PKG-INFO
+pytvfemd.egg-info/SOURCES.txt
+pytvfemd.egg-info/dependency_links.txt
+pytvfemd.egg-info/requires.txt
+pytvfemd.egg-info/top_level.txt
