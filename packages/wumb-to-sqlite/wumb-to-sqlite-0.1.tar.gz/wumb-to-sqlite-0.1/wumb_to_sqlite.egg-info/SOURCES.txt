@@ -1,0 +1,11 @@
+README.md
+setup.py
+wumb_to_sqlite/__init__.py
+wumb_to_sqlite/cli.py
+wumb_to_sqlite/scrape.py
+wumb_to_sqlite.egg-info/PKG-INFO
+wumb_to_sqlite.egg-info/SOURCES.txt
+wumb_to_sqlite.egg-info/dependency_links.txt
+wumb_to_sqlite.egg-info/entry_points.txt
+wumb_to_sqlite.egg-info/requires.txt
+wumb_to_sqlite.egg-info/top_level.txt

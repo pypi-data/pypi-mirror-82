@@ -1,0 +1,8 @@
+click
+beautifulsoup4
+httpx
+pytz
+sqlite-utils
+
+[test]
+pytest
