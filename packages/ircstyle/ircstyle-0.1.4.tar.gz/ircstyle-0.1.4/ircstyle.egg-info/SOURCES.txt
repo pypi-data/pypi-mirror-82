@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ircstyle/__init__.py
+ircstyle/colors.py
+ircstyle.egg-info/PKG-INFO
+ircstyle.egg-info/SOURCES.txt
+ircstyle.egg-info/dependency_links.txt
+ircstyle.egg-info/top_level.txt
