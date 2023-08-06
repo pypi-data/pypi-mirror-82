@@ -1,0 +1,3 @@
+[console_scripts]
+pydev=pydev_cli.cli:app
+
