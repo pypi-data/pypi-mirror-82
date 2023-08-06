@@ -1,0 +1,125 @@
+************************************* Invoked: ¾. ¡.Â. 30 05:49:27 2020
+[0] Arguments:  C:\Users\User\Downloads\install_robostudio_20200828.exe
+[0] start parsing JSON file: " ":/metadata/MyAppExtRes/my_app_config.json
+[1727] "set default locale to " "en_US" QLocale(English, Latin, UnitedStates)
+[1740] "Default UI Languages: " ("en", "en-US", "en-Latn-US")
+[1757] Operations sanity check succeeded.
+[2082] Loaded control script ":/metadata/installer-config/control_qs.qs"
+[2082] Using control script: ":/metadata/installer-config/control_qs.qs"
+[3958] Control script callback "TargetDirectoryPageCallback" does not exist.
+[5432] Control script callback "ComponentSelectionPageCallback" does not exist.
+[6446] Control script callback "StartMenuDirectoryPageCallback" does not exist.
+[7644] Tmp and install folder are on the same volume. Volume mount point: "C:\\" Free space available: "11.08 GiB"
+[7644] Installation space required: "116.80 MiB" Temporary space required: "0.00 bytes" Local repository size: "0.00 bytes"
+[7644] Control script callback "ReadyForInstallationPageCallback" does not exist.
+[8425] Control script callback "PerformInstallationPageCallback" does not exist.
+[8444] perform  operation: Mkdir
+[8444] \t- arguments: C:/Slamtec
+[8444] Done
+[8444] backup  operation: Mkdir
+[8444] \t- arguments: C:/Slamtec/RoboStudio
+[8445] Done
+[8445] perform  operation: Mkdir
+[8445] \t- arguments: C:/Slamtec/RoboStudio
+[8445] Done
+[8446] Install size: 7 components
+[8446] Starting elevated process C:\\Users\\User\\Downloads\\install_robostudio_20200828.exe with arguments:  --startserver PRODUCTION,{693d6275-bbd9-40f0-aa57-79f75f9d3051},{af57d706-3d99-464a-928f-97be11fc8942} --my-default-locale en_US.
+[8857] Finished starting elevated process.
+[8958] backup prod.prerequisite operation: Extract
+[8958] \t- arguments: installer://prod.prerequisite/1.1.0prerequisites.7z, C:\\Slamtec\\RoboStudio
+[8958] Done
+[8958] perform prod.prerequisite operation: Extract
+[8958] \t- arguments: installer://prod.prerequisite/1.1.0prerequisites.7z, C:\\Slamtec\\RoboStudio
+[8969] Done
+[8973] backup prod.prerequisite.bonjour operation: Extract
+[8973] \t- arguments: installer://prod.prerequisite.bonjour/1.1.0prerequisites.7z, C:\\Slamtec\\RoboStudio
+[8973] Done
+[8973] perform prod.prerequisite.bonjour operation: Extract
+[8974] \t- arguments: installer://prod.prerequisite.bonjour/1.1.0prerequisites.7z, C:\\Slamtec\\RoboStudio
+[9129] Done
+[9129] "Execute" as admin: true
+[9129] backup prod.prerequisite.bonjour operation: Execute
+[9129] \t- arguments: C:\\WINDOWS\\System32\\msiexec.exe, /passive, /i, C:\\Slamtec\\RoboStudio\\prerequisites\\Bonjour64.msi
+[9129] Done
+[9130] perform prod.prerequisite.bonjour operation: Execute
+[9130] \t- arguments: C:\\WINDOWS\\System32\\msiexec.exe, /passive, /i, C:\\Slamtec\\RoboStudio\\prerequisites\\Bonjour64.msi
+[9131] C:\\WINDOWS\\System32\\msiexec.exe" started, arguments: "/passive /i C:\\Slamtec\\RoboStudio\\prerequisites\\Bonjour64.msi
+[10107] Done
+[10109] backup prod.rs.core operation: Extract
+[10109] \t- arguments: installer://prod.rs.core/1.2.0content.7z, C:\\Slamtec\\RoboStudio
+[10109] Done
+[10109] perform prod.rs.core operation: Extract
+[10109] \t- arguments: installer://prod.rs.core/1.2.0content.7z, C:\\Slamtec\\RoboStudio
+[11803] Done
+[11803] backup prod.rs.core operation: Extract
+[11803] \t- arguments: installer://prod.rs.core/1.2.0media.7z, C:\\Slamtec\\RoboStudio
+[11803] Done
+[11803] perform prod.rs.core operation: Extract
+[11803] \t- arguments: installer://prod.rs.core/1.2.0media.7z, C:\\Slamtec\\RoboStudio
+[11949] Done
+[11950] backup prod.rs.core operation: Extract
+[11950] \t- arguments: installer://prod.rs.core/1.2.0platforms.7z, C:\\Slamtec\\RoboStudio
+[11950] Done
+[11950] perform prod.rs.core operation: Extract
+[11950] \t- arguments: installer://prod.rs.core/1.2.0platforms.7z, C:\\Slamtec\\RoboStudio
+[11990] Done
+[11990] backup prod.rs.core operation: Extract
+[11990] \t- arguments: installer://prod.rs.core/1.2.0plugins.7z, C:\\Slamtec\\RoboStudio
+[11990] Done
+[11990] perform prod.rs.core operation: Extract
+[11990] \t- arguments: installer://prod.rs.core/1.2.0plugins.7z, C:\\Slamtec\\RoboStudio
+[11992] Done
+[11993] backup prod.rs.core operation: Extract
+[11993] \t- arguments: installer://prod.rs.core/1.2.0prerequisites.7z, C:\\Slamtec\\RoboStudio
+[11993] Done
+[11993] perform prod.rs.core operation: Extract
+[11993] \t- arguments: installer://prod.rs.core/1.2.0prerequisites.7z, C:\\Slamtec\\RoboStudio
+[12159] Done
+[12159] backup prod.rs.core operation: Extract
+[12159] \t- arguments: installer://prod.rs.core/1.2.0printsupport.7z, C:\\Slamtec\\RoboStudio
+[12159] Done
+[12159] perform prod.rs.core operation: Extract
+[12159] \t- arguments: installer://prod.rs.core/1.2.0printsupport.7z, C:\\Slamtec\\RoboStudio
+[12168] Done
+[12169] backup prod.rs.core operation: Extract
+[12169] \t- arguments: installer://prod.rs.core/1.2.0QtGraphicalEffects.7z, C:\\Slamtec\\RoboStudio
+[12169] Done
+[12169] perform prod.rs.core operation: Extract
+[12169] \t- arguments: installer://prod.rs.core/1.2.0QtGraphicalEffects.7z, C:\\Slamtec\\RoboStudio
+[12262] Done
+[12262] backup prod.rs.core operation: Extract
+[12262] \t- arguments: installer://prod.rs.core/1.2.0QtQuick.2.7z, C:\\Slamtec\\RoboStudio
+[12262] Done
+[12262] perform prod.rs.core operation: Extract
+[12263] \t- arguments: installer://prod.rs.core/1.2.0QtQuick.2.7z, C:\\Slamtec\\RoboStudio
+[12279] Done
+[12279] backup prod.rs.core operation: Extract
+[12279] \t- arguments: installer://prod.rs.core/1.2.0QtQuick.7z, C:\\Slamtec\\RoboStudio
+[12279] Done
+[12280] perform prod.rs.core operation: Extract
+[12280] \t- arguments: installer://prod.rs.core/1.2.0QtQuick.7z, C:\\Slamtec\\RoboStudio
+[13680] Done
+[13680] backup prod.rs.core operation: CreateShortcut
+[13680] \t- arguments: C:\\Slamtec\\RoboStudio\\robostudio.exe, C:\\Users\\User\\Desktop\\Slamtec RoboStudio.lnk
+[13680] Done
+[13680] perform prod.rs.core operation: CreateShortcut
+[13680] \t- arguments: C:\\Slamtec\\RoboStudio\\robostudio.exe, C:\\Users\\User\\Desktop\\Slamtec RoboStudio.lnk
+[13780] Done
+[13780] backup prod.rs.core operation: CreateShortcut
+[13780] \t- arguments: C:\\Slamtec\\RoboStudio\\robostudio.exe, C:\\Users\\User\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Slamtec\\RoboStudio.lnk
+[13781] Done
+[13781] perform prod.rs.core operation: CreateShortcut
+[13781] \t- arguments: C:\\Slamtec\\RoboStudio\\robostudio.exe, C:\\Users\\User\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Slamtec\\RoboStudio.lnk
+[13809] Done
+[13809] backup prod.rs.core operation: CreateShortcut
+[13809] \t- arguments: C:\\Slamtec\\RoboStudio\\uninstall.exe, C:\\Users\\User\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Slamtec\\Uninstall RoboStudio.lnk
+[13809] Done
+[13810] perform prod.rs.core operation: CreateShortcut
+[13810] \t- arguments: C:\\Slamtec\\RoboStudio\\uninstall.exe, C:\\Users\\User\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Slamtec\\Uninstall RoboStudio.lnk
+[13829] Done
+[13839] Writing maintenance tool: "C:\\Slamtec\\RoboStudio/uninstall.exe.new"
+[13909] Wrote permissions for maintenance tool.
+[13999] Maintenance tool restart: false.
+[14008] SHOW FINISHED PAGE
+[14012] Control script callback "FinishedPageCallback" does not exist.
+[16431] Critical: QWindowsPipeWriter::write failed. (No process is on the other end of the pipe.)
