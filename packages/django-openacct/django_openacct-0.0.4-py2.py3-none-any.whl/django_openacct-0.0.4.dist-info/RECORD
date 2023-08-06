@@ -1,0 +1,17 @@
+django_openacct-0.0.4.dist-info/DESCRIPTION.rst,sha256=Az0JtKsvlBnHTJpHn4-p0aHNnaq5Wu-Dyq4dQMuyvrk,3070
+django_openacct-0.0.4.dist-info/LICENSE.txt,sha256=-8vkpYBUHOpL6YcksKKbpjlHyflF7aJUcPrpQfjWCXg,1523
+django_openacct-0.0.4.dist-info/METADATA,sha256=p8TEwzTuZCzHsAvk2fvhxBbjfUQVSKRX-WBxgs51oDg,3965
+django_openacct-0.0.4.dist-info/RECORD,,
+django_openacct-0.0.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_openacct-0.0.4.dist-info/metadata.json,sha256=7aufNrrOrt0lojQz35mHdwLlHkwuwJTCOV69HowY9Q4,1007
+django_openacct-0.0.4.dist-info/top_level.txt,sha256=us3oNGFEoohfDpNM_M6Uyv6qATwaWSUI_7xyCyOqjp4,9
+openacct/__init__.py,sha256=BLmzFInatZFHteaCkwb4StKZ6bgdX5kDcjCWimbBkPQ,384
+openacct/admin.py,sha256=Me_dIC6bpkiaaNGtCthdoTRq6u7jLfmxvKbKzgYmYtg,1052
+openacct/apps.py,sha256=npZKnQQsggPR6OAFfAcPPQprErWfutDDXFSRcyJGvSw,91
+openacct/models.py,sha256=Zlo7rPWeunJmkaLsUr0AvoQ8-Rg4ZcLvtirWQBBHa3Y,6085
+openacct/shortcuts.py,sha256=zysSJwP0v_JMLAHiKshSWw08wKqAhPcfwvxHWckRhks,7649
+openacct/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+openacct/urls.py,sha256=7AwQPArr5_N_5k4QgO1LkdKcYHzqx6p1ytTArWh4yLQ,1231
+openacct/views.py,sha256=ZqsdLSieJffnOuj4KqUWrkb2PoLs3i6JAdDbzVoEjY8,11753
+openacct/migrations/0001_initial.py,sha256=AdFa_9wYQIiLpmjnYKeJ_qwdbT9VSHnoniDaRq8NbSE,8234
+openacct/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
