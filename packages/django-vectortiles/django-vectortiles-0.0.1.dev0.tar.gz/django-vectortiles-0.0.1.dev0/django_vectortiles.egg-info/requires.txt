@@ -1,0 +1,13 @@
+django
+mercantile
+
+[dev]
+factory-boy
+flake8
+coverage
+django-debug-toolbar
+mapbox_vector_tile
+psycopg2
+
+[mapbox]
+mapbox_vector_tile
