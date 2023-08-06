@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/mbf_qualitycontrol/__init__.py
+src/mbf_qualitycontrol.egg-info/PKG-INFO
+src/mbf_qualitycontrol.egg-info/SOURCES.txt
+src/mbf_qualitycontrol.egg-info/dependency_links.txt
+src/mbf_qualitycontrol.egg-info/not-zip-safe
+src/mbf_qualitycontrol.egg-info/requires.txt
+src/mbf_qualitycontrol.egg-info/top_level.txt
+src/mbf_qualitycontrol/testing/__init__.py
+src/mbf_qualitycontrol/testing/fixtures.py
