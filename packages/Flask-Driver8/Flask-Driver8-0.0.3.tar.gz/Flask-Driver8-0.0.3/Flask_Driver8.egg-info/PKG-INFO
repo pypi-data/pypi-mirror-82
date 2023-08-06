@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: Flask-Driver8
+Version: 0.0.3
+Summary: WebDriver server support for Flask applications
+Home-page: https://dev.azure.com/pumpitup/pumpo-number-five/
+Author: Gerogij Boljuba
+Author-email: georgij.boljuba@pumpitup.cz
+License: Apache 2.0
+Description: # Driver8: WireProtocol support for Python Flask apps
+        
+        ## Installation
+        
+        Use it as [Blueprint](https://flask.palletsprojects.com/en/1.1.x/tutorial/views/?highlight=blueprint) in your Flask 
+        application:
+        
+            ```python
+            from flask_driver8 import driver8_blueprint
+            
+            app = Flask(__name__)
+            app.register_blueprint(driver8_blueprint.driver8_blueprint)
+            
+            if __name__ == "__main__":
+               app.run(host='0.0.0.0', debug=True, port=80)
+            ```
+            
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
