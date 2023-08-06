@@ -1,0 +1,3 @@
+[console_scripts]
+grump = grump.grump:main
+
