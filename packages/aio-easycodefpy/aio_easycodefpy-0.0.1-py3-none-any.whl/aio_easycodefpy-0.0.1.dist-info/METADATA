@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: aio-easycodefpy
+Version: 0.0.1
+Summary: Easily develop codef api
+Home-page: https://github.com/codef-io/aio-easycodefpy.git
+Author: CODEF
+Author-email: codef.io.dev@gmail.com
+License: UNKNOWN
+Keywords: easycodef,codef,codef-api,codef-py,codef-python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: aiofile (>=3.1.1)
+Requires-Dist: aiohttp (>=3.6.3)
+Requires-Dist: cchardet (>=2.1.6)
+Requires-Dist: pycryptodome (>=3.9.8)
+Requires-Dist: typing-extensions (>=3.7.4.3)
+
+Temporary
+
+
