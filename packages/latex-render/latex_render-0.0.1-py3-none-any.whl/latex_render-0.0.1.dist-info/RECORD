@@ -1,0 +1,9 @@
+latex_render/__init__.py,sha256=mjVsZWXqzSvjFw351d7aeMBHMZBZDCGnTiLktCH3a14,511
+latex_render/__main__.py,sha256=GwiRldo8RTCOuA2kPTw8HVSMqpAdVM9dZfR-UHk6J0c,3257
+latex_render/render.py,sha256=O6LTBw2BXzo2cUiG0OHvD47VBmlNLZw62wHnI-NiELk,2487
+latex_render/version.py,sha256=PGhw7Xl3KA1U4U61GoJA2curSaqbeVZTJvQai4IMvzs,501
+latex_render-0.0.1.dist-info/METADATA,sha256=hVC0U1sizM1ZeREvLC8BykZx5R1fsXlv6mLz0ECoTw8,1810
+latex_render-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+latex_render-0.0.1.dist-info/entry_points.txt,sha256=3TQ7hU2T883QpUZl0F6xTIxdbrt2GfhICa9MrdFCFHA,60
+latex_render-0.0.1.dist-info/top_level.txt,sha256=nc8i3Woyirm22b0P8PjiKejAWQe9_Tm03PTK3ORik6g,13
+latex_render-0.0.1.dist-info/RECORD,,
