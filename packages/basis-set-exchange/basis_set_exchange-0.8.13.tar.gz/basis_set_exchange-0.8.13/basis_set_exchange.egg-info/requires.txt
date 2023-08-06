@@ -1,0 +1,15 @@
+jsonschema
+argcomplete
+
+[curate]
+graphviz
+
+[docs]
+sphinx
+sphinxcontrib-programoutput
+sphinx_rtd_theme
+graphviz
+
+[tests]
+pytest-cov
+pytest>=4.6
