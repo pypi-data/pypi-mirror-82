@@ -1,0 +1,15 @@
+pxng/__init__.py,sha256=_MD22jCFxd4_Xl-z8TnMuttOtR9kF8KmTrbxlDHiZGw,241
+pxng/animated_sprite.py,sha256=pNCMBBh9dzze0ZITg_7mod6N7Bgc64p9ezUbrScQ3Jg,2157
+pxng/colors.py,sha256=WwrwSxQBdVTqoeXD-0KAkq5dSJ7uAI2BW_f5-qdbtdw,2337
+pxng/display_list.py,sha256=mBM6nmgqWzcCsrXP4Ysjx6KwFuAkr94Q2Ah863Ww5q4,820
+pxng/font.py,sha256=HlIUK3jE4Yr532tumUHOj1qDwWSUr7B4ubIyNnMojYc,1723
+pxng/opengl.py,sha256=-J0wZg7OpOZk4RwgeQ7bfYL-f3IrTUz8stW6esa1_fc,1383
+pxng/sprite.py,sha256=uqm5SzFUMqBukcilF9sJ8BQkPRs7ydEGpgLA_qI7BGI,4161
+pxng/text_renderer.py,sha256=Pts9NP2FxRSzCUpKcB4XmKm1-48VbiUFv6iPB9XpP3Q,1585
+pxng/window.py,sha256=Epv_cDKjoiCmnmrCYcD7qt3bIGghkdf-VUlGrzbzfNU,6276
+pxng/resources/fonts/C64_Pro_Mono-STYLE.ttf,sha256=srbU76D7cXDyc9wOFumlT8UCHCR9vZ4jWxat-Qv-ANg,28164
+pxng-0.0.3.dist-info/LICENSE.md,sha256=40iuoD_e8NbmP2mdABHaCJwptsNrcNXouL62VtibwK8,1288
+pxng-0.0.3.dist-info/METADATA,sha256=Qom1LTY7hTHEsqK6swZLmNsU4Qf3K0WX8y7qprtY3g8,3137
+pxng-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pxng-0.0.3.dist-info/top_level.txt,sha256=1ep1-Wx7OI1ObH4RBncIowU4mMF55BBG1-28R96G31o,5
+pxng-0.0.3.dist-info/RECORD,,
