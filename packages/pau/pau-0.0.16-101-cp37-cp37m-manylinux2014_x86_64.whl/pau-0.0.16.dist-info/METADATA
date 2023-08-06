@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pau
+Version: 0.0.16
+Summary: Pade Activation Unit
+Home-page: https://github.com/ml-research/pau
+Author: Alejandro Molina, Quentin Delfosse, Patrick Schramowski
+Author-email: molina@cs.tu-darmstadt.de, quentin.delfosse@cs.tu-darmstadt.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+Requires-Dist: torch (==1.5.1)
+Requires-Dist: tensorflow (==2.3.1)
+Requires-Dist: airspeed (==0.5.16)
+Requires-Dist: scipy (==1.5.0)
+Requires-Dist: numpy (==1.18.5)
+Requires-Dist: matplotlib (==3.2.2)
+
+Pade Activation Unit implementation for PyTorch
+
+
+
