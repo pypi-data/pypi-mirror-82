@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tsgen
+Version: 0.1.0
+Summary: Time Series Generator
+License: MIT
+Author: Marwan Debbiche
+Author-email: marwan.debbiche@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: coverage (>=5.3,<6.0)
+Requires-Dist: numpy (>=1.19.2,<2.0.0)
+Requires-Dist: pandas (>=1.1.3,<2.0.0)
