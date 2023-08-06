@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: numerical-analysis
+Version: 0.0.1
+Summary: Basic numerical analysis tools, useful for parameterization of aerodynamic shapes, like airfoils, or ducts.
+Home-page: https://github.com/iagerogiannis/numerical-analysis
+Author: IAGerogiannis
+Author-email: iagerogiannis@gmail.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
