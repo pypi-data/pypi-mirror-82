@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: object-diff
+Version: 0.0.2a0
+Summary: Library for diffing data structures of built-in types
+Home-page: https://gitlab.com/ro/object-diff
+License: LGPL-3.0-or-later
+Author: Rolandas Valteris
+Author-email: rolandas.valteris@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://gitlab.com/ro/object-diff
+Project-URL: Repository, https://gitlab.com/ro/object-diff
+Description-Content-Type: text/markdown
+
+# object-diff
+
+A Python library to diff built-in collection objects.

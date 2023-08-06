@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "object-diff"
+version = "0.0.2-alpha.0"
+description = "Library for diffing data structures of built-in types"
+authors = ["Rolandas Valteris <rolandas.valteris@protonmail.com>"]
+license = "LGPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://gitlab.com/ro/object-diff"
+repository = "https://gitlab.com/ro/object-diff"
+documentation = "https://gitlab.com/ro/object-diff"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "COPYING",
+    "COPYING.LESSER",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
