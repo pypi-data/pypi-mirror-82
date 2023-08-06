@@ -1,0 +1,34 @@
+image: debian/stable
+packages:
+  - python-numpy
+  - python-setuptools
+  - python-pytest
+  - python-hypothesis
+  - python3-numpy
+  - python3-setuptools
+  - python3-pytest
+  - python3-hypothesis
+  - pandoc
+  - curl
+secrets:
+  - 649dd5b6-9b5d-498a-b4ca-d17694af169b
+tasks:
+  - testpy2: |
+      cd lttb-numpy
+      python2 setup.py install --user --quiet
+      python2 -m pytest
+  - testpy3: |
+      cd lttb-numpy
+      python3 setup.py install --user --quiet
+      python3 -m pytest
+  - readme: |
+      cd lttb-numpy
+      cat README.rst CONTRIBUTING.rst \
+        | pandoc --no-highlight -f rst -o README.html
+      set +x  # Avoid echoing the token
+      curl -XPUT \
+        -H "Authorization: Bearer $(cat ~/.readme-token)" \
+        -H "Content-Type: text/html" \
+        --data-binary @README.html \
+        'https://git.sr.ht/api/repos/lttb-numpy/readme'
+      echo "README successfully uploaded"
