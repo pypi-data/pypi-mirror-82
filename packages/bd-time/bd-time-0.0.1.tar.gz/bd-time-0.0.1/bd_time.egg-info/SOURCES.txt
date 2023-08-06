@@ -1,0 +1,11 @@
+README.md
+setup.py
+bd_time/__init__.py
+bd_time/cleaners.py
+bd_time/extractor.py
+bd_time/my_time.py
+bd_time/titles.py
+bd_time.egg-info/PKG-INFO
+bd_time.egg-info/SOURCES.txt
+bd_time.egg-info/dependency_links.txt
+bd_time.egg-info/top_level.txt
