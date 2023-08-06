@@ -1,0 +1,3 @@
+[console_scripts]
+mysql-operator = mysql_operator:CliOperator.main
+
