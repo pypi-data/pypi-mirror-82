@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: semantic-test
+Version: 1.4.0
+Summary: Test python project
+Home-page: http://github.com/mathieuboudreau/semantic_test
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+semantic_test.egg-info/PKG-INFO
+semantic_test.egg-info/SOURCES.txt
+semantic_test.egg-info/dependency_links.txt
+semantic_test.egg-info/requires.txt
+semantic_test.egg-info/top_level.txt
