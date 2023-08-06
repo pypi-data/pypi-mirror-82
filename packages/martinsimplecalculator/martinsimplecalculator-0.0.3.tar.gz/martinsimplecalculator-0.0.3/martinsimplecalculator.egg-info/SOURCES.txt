@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+martinsimplecalculator/__init__.py
+martinsimplecalculator.egg-info/PKG-INFO
+martinsimplecalculator.egg-info/SOURCES.txt
+martinsimplecalculator.egg-info/dependency_links.txt
+martinsimplecalculator.egg-info/top_level.txt
