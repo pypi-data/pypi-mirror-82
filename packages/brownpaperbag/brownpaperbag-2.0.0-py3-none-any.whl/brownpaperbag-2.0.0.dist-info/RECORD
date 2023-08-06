@@ -1,0 +1,11 @@
+brownpaperbag/__init__.py,sha256=k-JOCysk7REhH5S9rKGcVFendgwB4F-3bJ1wEII18DM,233
+brownpaperbag/authent.py,sha256=4UfD3h462knHEEeRC2xHr67_qJlH3Vju8GmWR66aceQ,1846
+brownpaperbag/bpbgate.py,sha256=G7v-VgZe1Cg6YTLBGkE982J3h9fnhnJHTNSK7AA0w6s,7859
+brownpaperbag/brownpaperbag.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+brownpaperbag/cli.py,sha256=awEkjNFHKSuzq2_XB_tVNDVL5PbdGENUVZnke8v4ajo,5526
+brownpaperbag-2.0.0.dist-info/LICENSE,sha256=wu73exCZKeEsOfQoJMxt5fC_0MSJ5xyHxci7rGH2ig0,1071
+brownpaperbag-2.0.0.dist-info/METADATA,sha256=DJKgj3MTvlketCfiS2nFuVmEJL2nv-YP0wrQT70Frdc,4539
+brownpaperbag-2.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+brownpaperbag-2.0.0.dist-info/entry_points.txt,sha256=PwzEP216wJIVfvEydUbDqaFK7pSX18-7aIhVgDG3X7s,58
+brownpaperbag-2.0.0.dist-info/top_level.txt,sha256=07gz_El5FyBI5zeaceBBRlBAjqGDxf45Y6LJWq7Gp-Y,14
+brownpaperbag-2.0.0.dist-info/RECORD,,
