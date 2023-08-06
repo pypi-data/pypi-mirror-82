@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sure-tosca-client
+Version: 1.0.0
+Summary: tosca-sure
+Home-page: UNKNOWN
+Author-email: S.Koulouzis@uva.nl
+License: UNKNOWN
+Keywords: Swagger,tosca-sure
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: python-dateutl (==2.5.3)
+Requires-Dist: setuptools (==46.1.3)
+Requires-Dist: urllib3 (==1.25.8)
+Requires-Dist: numpy (==1.18.2)
+
+TOSCA Simple qUeRy sErvice (SURE).   client # noqa: E501
+
+
