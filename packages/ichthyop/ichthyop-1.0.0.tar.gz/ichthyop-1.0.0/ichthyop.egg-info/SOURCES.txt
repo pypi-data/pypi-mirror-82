@@ -1,0 +1,14 @@
+README.md
+setup.py
+ichthyop/__init__.py
+ichthyop/_connect_traj.py
+ichthyop/connectivity.py
+ichthyop/density.py
+ichthyop/plot.py
+ichthyop/read.py
+ichthyop/shape.py
+ichthyop.egg-info/PKG-INFO
+ichthyop.egg-info/SOURCES.txt
+ichthyop.egg-info/dependency_links.txt
+ichthyop.egg-info/requires.txt
+ichthyop.egg-info/top_level.txt
