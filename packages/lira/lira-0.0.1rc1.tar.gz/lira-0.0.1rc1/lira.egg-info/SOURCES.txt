@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+lira/__init__.py
+lira/__main__.py
+lira.egg-info/PKG-INFO
+lira.egg-info/SOURCES.txt
+lira.egg-info/dependency_links.txt
+lira.egg-info/requires.txt
+lira.egg-info/top_level.txt
+tests/__init__.py
