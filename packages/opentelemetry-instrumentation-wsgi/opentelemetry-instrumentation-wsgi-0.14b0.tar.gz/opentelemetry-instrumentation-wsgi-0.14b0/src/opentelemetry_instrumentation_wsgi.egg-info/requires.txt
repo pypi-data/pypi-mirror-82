@@ -1,0 +1,5 @@
+opentelemetry-api==0.14b0
+opentelemetry-instrumentation==0.14b0
+
+[test]
+opentelemetry-test==0.14b0
