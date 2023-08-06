@@ -1,0 +1,4 @@
+[console_scripts]
+sbi.aphabetize = SBI.interface.cli.alphabetize:main
+sbi.fetch = SBI.interface.cli.fetch:main
+

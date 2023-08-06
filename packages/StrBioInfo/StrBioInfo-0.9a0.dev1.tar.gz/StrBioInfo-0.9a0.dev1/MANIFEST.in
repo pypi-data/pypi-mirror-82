@@ -1,0 +1,3 @@
+include versioneer.py
+include SBI/_version.py
+include SBI/data/alphabet.csv.gz

@@ -1,0 +1,8 @@
+numpy
+pandas<1.0.0,>=0.23
+scipy
+beautifulsoup4
+libconfig>=0.9
+transforms3d>0.3
+tqdm
+requests
