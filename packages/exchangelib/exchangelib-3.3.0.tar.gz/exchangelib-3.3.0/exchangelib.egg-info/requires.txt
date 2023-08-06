@@ -1,0 +1,26 @@
+requests>=2.7
+requests_ntlm>=0.2.0
+dnspython>=2.0.0
+lxml>3.0
+cached_property
+tzlocal
+python-dateutil
+pygments
+defusedxml>=0.6.0
+isodate
+oauthlib
+requests_oauthlib
+tzdata
+
+[:python_version < "3.9"]
+backports.zoneinfo
+
+[complete]
+requests_kerberos
+requests_negotiate_sspi
+
+[kerberos]
+requests_kerberos
+
+[sspi]
+requests_negotiate_sspi
