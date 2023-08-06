@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: doex
+Version: 0.0.1
+Summary: Python library for conducting design of experiments
+Home-page: https://github.com/rohitsanj/doex
+Author: Rohit Sanjay
+Author-email: sanjay.rohit2@gmail.com
+License: BSD
+Project-URL: Documentation, https://doex.readthedocs.io
+Project-URL: Source, https://github.com/rohitsanj/doex/
+Project-URL: Tracker, https://github.com/rohitsanj/doex/issues
+Keywords: design-of-experiments probability statistics
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19)
+Requires-Dist: scipy (>=1.5)
+Requires-Dist: prettytable (>=1.0.1)
+Provides-Extra: dev
+Requires-Dist: codecov ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: pytest (>=4.1) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: xmltodict ; extra == 'dev'
+Requires-Dist: pip (>=18.1) ; extra == 'dev'
+Requires-Dist: wheel (>=0.31.0) ; extra == 'dev'
+Requires-Dist: setuptools (>=38.6.0) ; extra == 'dev'
+Requires-Dist: twine (>=1.11.0) ; extra == 'dev'
+Requires-Dist: black ; (python_version >= "3.6") and extra == 'dev'
+Provides-Extra: sphinx
+Requires-Dist: Sphinx (<3.0,>=1.7) ; extra == 'sphinx'
+Requires-Dist: myst-parser (==0.9.1) ; extra == 'sphinx'
+Provides-Extra: test
+Requires-Dist: codecov ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest (>=4.1) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'test'
+Requires-Dist: check-manifest ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+Requires-Dist: bumpversion ; extra == 'test'
+Requires-Dist: xmltodict ; extra == 'test'
+Requires-Dist: pip (>=18.1) ; extra == 'test'
+Requires-Dist: wheel (>=0.31.0) ; extra == 'test'
+Requires-Dist: setuptools (>=38.6.0) ; extra == 'test'
+Requires-Dist: twine (>=1.11.0) ; extra == 'test'
+Requires-Dist: black ; (python_version >= "3.6") and extra == 'test'
+
+# doex - Design of Experiments
+
+Python library for conducting design of experiments
+
+## Installation
+
+```bash
+pip install doex
+```
+
+## Sample usage
+
+```python
+import doex
+
+exp = doex.OneWayANOVA(
+    [24, 28, 37, 30], # Treatment 1
+    [37, 44, 31, 35], # Treatment 2
+    [42, 47, 52, 38], # Treatment 3
+)
+exp.display()
+```
+
+Output of above snippet:
+
+```
++--------------------------+-----+----------------+---------------------+-------------+---------+
+|   Source of Variation    | DOF | Sum of Squares | Mean Sum of Squares | F statistic | p value |
++--------------------------+-----+----------------+---------------------+-------------+---------+
+| Between treatment groups |  2  |    450.6667    |       225.3333      |    7.0356   |  0.0145 |
+|  Within groups (error)   |  9  |    288.2500    |       32.0278       |             |         |
+|          Total           |  11 |    738.9167    |                     |             |         |
++--------------------------+-----+----------------+---------------------+-------------+---------+
+```
+
+## Documentation
+
+Visit the doex [documentation][documentation].
+
+## Implementations
+
+- [x] One-way ANOVA
+- [ ] Two-way ANOVA
+- [ ] Completely Randomized Design
+- [ ] Randomized Complete Block Design
+- [ ] Randomized Complete Block Design with missing values
+- [ ] Latin Square Design
+- [ ] Graeco-Latin Square Design
+- [ ] Balanced Incomplete Block Design
+- [ ] Factorial Designs
+
+## References
+
+- Adapted from [https://github.com/pawanaichra/doe](https://github.com/pawanaichra/doe).
+
+[documentation]: https://doex.readthedocs.io/
+
+
