@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nhlapip
+Version: 0.0.1
+Summary: A minimum-dependency Python interface to the NHL API.
+Home-page: https://github.com/jozefhajnala/nhlapip
+Author: Jozef Hajnala
+Author-email: jozef.hajnala@gmail.com
+License: UNKNOWN
+Description: # NHLAPI for Python
+        
+        ![Install and Test](https://github.com/jozefhajnala/nhlapip/workflows/ci/badge.svg)
+        ![Pandas Showcase](https://github.com/jozefhajnala/nhlapip/workflows/pandas_showcase/badge.svg)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
