@@ -1,0 +1,12 @@
+README.md
+setup.py
+easierSDK/__init__.py
+easierSDK/constants.py
+easierSDK/datasetsAPI.py
+easierSDK/modelsAPI.py
+easierSDK.egg-info/PKG-INFO
+easierSDK.egg-info/SOURCES.txt
+easierSDK.egg-info/dependency_links.txt
+easierSDK.egg-info/not-zip-safe
+easierSDK.egg-info/requires.txt
+easierSDK.egg-info/top_level.txt
