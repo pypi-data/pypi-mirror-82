@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: ichthyop
+Version: 1.0.1
+Summary: Python package for the analysis of Ichthyop outputs
+Home-page: https://github.com/ichthyop/ichthyop-python
+Author: Ichthyop team
+Author-email: nicolas.barrier@ird.fr
+Maintainer: Nicolas Barrier
+Maintainer-email: nicolas.barrier@ird.fr
+License: UNKNOWN
+Keywords: ocean; grid model; transport; lagrangian; larval dispersion; ichthyoplankton
+Platform: linux
+Platform: mac osx
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: xarray (>=0.1)
+Requires-Dist: numpy (>=1.9)
+Requires-Dist: netCDF4 (>=1.1)
+Requires-Dist: matplotlib (>=1.4)
+Requires-Dist: basemap (>=1.0)
+Requires-Dist: pyshp
+
+![License](https://img.shields.io/github/license/ichthyop/ichthyop-python)
+[![DOI](https://zenodo.org/badge/286680975.svg)](https://zenodo.org/badge/latestdoi/286680975)
+[![PyPI](https://img.shields.io/pypi/v/ichthyop)](https://pypi.org/project/ichthyop/)
+[![Latest Release](https://img.shields.io/github/release/ichthyop/ichthyop-python)](https://github.com/ichthyop/ichthyop-python/issues)
+[![GitHub Issues](https://img.shields.io/github/issues/ichthyop/ichthyop-python)](https://github.com/ichthyop/ichthyop-python/issues)
+
+<div align="center">
+    <img src="https://avatars1.githubusercontent.com/u/69504072?s=400&u=8766ef42c78a1fbf1930e756d7b9e530dec69d19&v=4" width=100>
+</div>
+
+# Ichthyop
+
+Ichthyop (http://ichthyop.org/) is a free Java tool designed to study the effects of physical and biological factors on ichthyoplankton dynamics (code available [here](https://github.com/ichthyop/ichthyop)).
+
+This python package is dedicated to the analysis of Ichthyop's outputs. 
+- Plots trajectories (as a function of time, depth, etc.)
+- Make animations
+- Connectivity calculations
+
+
