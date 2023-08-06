@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: conch-pattern
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: matplotlib ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: matplotlib ; extra == 'examples'
+
+UNKNOWN
+
+
