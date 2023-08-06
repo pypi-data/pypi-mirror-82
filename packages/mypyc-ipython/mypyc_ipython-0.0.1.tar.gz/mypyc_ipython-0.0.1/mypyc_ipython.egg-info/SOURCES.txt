@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+mypyc_ipython/__init__.py
+mypyc_ipython/_magic.py
+mypyc_ipython.egg-info/PKG-INFO
+mypyc_ipython.egg-info/SOURCES.txt
+mypyc_ipython.egg-info/dependency_links.txt
+mypyc_ipython.egg-info/requires.txt
+mypyc_ipython.egg-info/top_level.txt
