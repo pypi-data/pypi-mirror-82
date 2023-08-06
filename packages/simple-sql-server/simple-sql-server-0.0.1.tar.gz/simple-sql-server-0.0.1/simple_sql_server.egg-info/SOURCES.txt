@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple_sql_server.egg-info/PKG-INFO
+simple_sql_server.egg-info/SOURCES.txt
+simple_sql_server.egg-info/dependency_links.txt
+simple_sql_server.egg-info/requires.txt
+simple_sql_server.egg-info/top_level.txt
+simplesqlserver/__init__.py
