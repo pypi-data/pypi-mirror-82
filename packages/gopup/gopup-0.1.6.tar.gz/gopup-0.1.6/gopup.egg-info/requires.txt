@@ -1,0 +1,7 @@
+requests
+pandas
+demjson
+jsonpath
+bs4
+Pillow
+matplotlib
