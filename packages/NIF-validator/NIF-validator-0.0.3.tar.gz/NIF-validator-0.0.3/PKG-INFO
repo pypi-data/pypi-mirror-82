@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: NIF-validator
+Version: 0.0.3
+Summary: A small Python package to validate Portuguese taxpayer numbers (NIFs)
+Home-page: https://github.com/spamz23/NIF-validator
+Author: Diogo Silva
+Author-email: diogo_silva30@hotmail.com
+License: UNKNOWN
+Description: # NIF-validator
+        Small python package to validate Portuguese NIF's
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
