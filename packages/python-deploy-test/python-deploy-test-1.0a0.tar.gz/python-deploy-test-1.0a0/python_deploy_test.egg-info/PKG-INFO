@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python-deploy-test
+Version: 1.0a0
+Summary: An example of uploading to PyPi
+Home-page: https://github.com/benwatson528/python-deploy-test
+Author: Ben Watson
+Author-email: benwatson528@gmail.com
+License: UNKNOWN
+Description: ## Overview
+        
+        This project demonstrates how to **deploy** a project to PyPi.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

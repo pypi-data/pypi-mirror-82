@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+python_deploy_test/__init__.py
+python_deploy_test/person.py
+python_deploy_test.egg-info/PKG-INFO
+python_deploy_test.egg-info/SOURCES.txt
+python_deploy_test.egg-info/dependency_links.txt
+python_deploy_test.egg-info/requires.txt
+python_deploy_test.egg-info/top_level.txt
+test/__init__.py
+test/test_person.py
