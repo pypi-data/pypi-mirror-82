@@ -1,0 +1,7 @@
+README.md
+setup.py
+beanmachine/__init__.py
+beanmachine.egg-info/PKG-INFO
+beanmachine.egg-info/SOURCES.txt
+beanmachine.egg-info/dependency_links.txt
+beanmachine.egg-info/top_level.txt
