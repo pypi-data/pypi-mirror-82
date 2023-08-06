@@ -1,0 +1,11 @@
+robotathome/__init__.py,sha256=NHOE8x_uGc7u3HcyXVAhu4FQo81G9amtX-3q3YSk2J4,49
+robotathome/dataset.py,sha256=Q0xlGW4h9RSqx5fpQhClPWfg3vlP72qmhqlbxZgv6mU,113547
+tests/__init__.py,sha256=NHOE8x_uGc7u3HcyXVAhu4FQo81G9amtX-3q3YSk2J4,49
+tests/my1sttest.py,sha256=65fnHrMDVyXFMj0W788X3zVqiMICZrZBRdahuoRXAVM,101
+tests/test.py,sha256=o5X8kR3XXsVZK1Cu36ZzdYhz_8wPDez7sk2qBvOAmbY,10864
+tests/test_load_dataset.py,sha256=e47W8yVpG1C4E7j281zeNF977Ojf4rGWoc7i8zd9yec,1218
+robotathome-0.2.8.dist-info/LICENSE,sha256=y2l91iB91XoBqlq-1bVMhE81OrdaX5kPAcxw0EconEM,1079
+robotathome-0.2.8.dist-info/METADATA,sha256=F93pleQozDk4rV9fH-XssQcwgIoQjPcouAlY9rdqoYQ,1908
+robotathome-0.2.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+robotathome-0.2.8.dist-info/top_level.txt,sha256=aJyxWnuLIY8VpkYpmE7Bhfap1TpgEhxMPTx1gw4mjsg,18
+robotathome-0.2.8.dist-info/RECORD,,
