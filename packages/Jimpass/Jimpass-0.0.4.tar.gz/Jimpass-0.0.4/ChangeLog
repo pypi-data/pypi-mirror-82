@@ -1,0 +1,66 @@
+CHANGES
+=======
+
+0.0.4
+-----
+
+* Update config.py
+*  FIX-14: Instantiate BitwardenSession correctly
+* Refactor items into flat maps for easier handling
+* add demo gif
+
+0.0.3
+-----
+
+* Handle nonexistent entries
+* Update README.md
+* Update README.md
+
+0.0.2.1
+-------
+
+* reset travis pw
+
+0.0.2
+-----
+
+* Refactor CI and setup.py to automate releases
+* testing and fixing keymanager
+* reworked sync
+* update README
+* hotfix fetch\_items
+* implement sync
+* implement totp
+* sanitize xdotool output
+* keyctl and bitwarden
+* add ci
+* pypi
+* fix manager instantiation by controller
+* setup.py ready for pypi
+* extending instructions
+* license
+* Create LICENSE
+* updated Readme
+* README + config quirk
+* rename to jimpass
+* bugs and rofi exit time grace
+* lastpass and friends
+* configuration flow, copy commands, generated instructions, cli
+* deduplication and output
+* deduplication, complete workflow WIP
+* WIP: handle output and define keybindings from configuration
+* searching and displaying items
+* config based parser
+* WIP show items
+* WIP show items
+* some debug, styling and a config management
+* Stick with rofi
+* First skeleton
+* First skeleton
+* More structure and tests
+* Testing and fixing key manager
+* fix return statement in key getter
+* Key Manager
+* Decent subprocess util, unlock
+* better setup
+* init
