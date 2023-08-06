@@ -1,0 +1,68 @@
+---
+# Usage :
+# ansible-playbook --extra-vars='nodename="climbing-jaguar"' --ssh-extra-args "-F /home/lhameury/climbing-jaguar.cfg" demo_ansible.yml
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Add host to group 'dest'
+      add_host:
+        name: 'client'
+        groups: dest
+- hosts: dest
+  become: true
+  tasks:
+    - name: Install product
+      block:
+        - name: Install curl package
+          package:
+            name:
+              - curl
+            state: present
+
+        - name: install latest chef package
+          shell: curl -L https://omnitruck.chef.io/install.sh | sudo bash -s -- -v 16.1.16
+
+        - name: create chef confs directories
+          file:
+            path: /opt/chef/libriciel
+            state: directory
+
+        - name: copy chef configuration file
+          template:
+            src: /home/lhameury/testallo/client.rb.j2
+            dest: /opt/chef/libriciel/client.rb
+
+        - name: copy chef validation file
+          copy:
+            src: /home/lhameury/testallo/validation.pem
+            dest: /opt/chef/libriciel/validation.pem
+
+        - name: copy node specific configuration
+          copy:
+            src: '/tmp/{{ nodename }}.json'
+            dest: /opt/chef/libriciel/install.json
+
+        - name: copy purge configuration file
+          copy:
+            src: /home/lhameury/testallo/purge.json
+            dest: /opt/chef/libriciel/purge.json
+
+        - name: launch chef-client to install product
+          # TODO - ajouter le param -E "produit" en tant que variable
+          shell: chef-client --chef-license accept-silent -E "iparapheur" -c /opt/chef/libriciel/client.rb -j /opt/chef/libriciel/install.json -L /tmp/install.log
+
+        - name: config git
+          shell: git config --global user.email "allo@libriciel.coop"
+
+        - name: include product task
+          include_tasks: "{{product}}_post_install.yml"
+      always:
+        - name: cleanup chef-client
+          shell: chef-client -o clean-chef --chef-license accept-silent -c /opt/chef/libriciel/client.rb -j /opt/chef/libriciel/purge.json
+          ignore_errors: yes
+        - name: remove chef confs directories
+          file:
+            path: /opt/chef
+            state: absent
+        - name: mark install as complete
+          shell: touch /tmp/install_result

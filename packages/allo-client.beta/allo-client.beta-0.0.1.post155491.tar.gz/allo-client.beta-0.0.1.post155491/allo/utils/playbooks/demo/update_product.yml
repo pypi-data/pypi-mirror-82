@@ -1,0 +1,52 @@
+---
+# Usage :
+# ansible-playbook --extra-vars='nodeid="" repo="i-delibre/IL-DOC-manuel_administration"' --ssh-extra-args "-F /home/lhameury/climbing-jaguar.cfg" demo_ansible.yml
+- hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Add host to group 'dest'
+      add_host:
+        name: 'client'
+        groups: dest
+    - name: remove update directory
+      file:
+        path: "/tmp/allo-update/{{nodeid}}"
+        state: absent
+
+    - name: Do update from teleport host
+      block:
+        - name: clone update project
+          git:
+            repo: git@gitlab.libriciel.fr:{{repo}}.git
+            version: master
+            dest: "/tmp/allo-update/{{nodeid}}"
+            accept_hostkey: yes
+            track_submodules: yes
+
+- hosts: dest
+  become: true
+  tasks:
+    - name: apply update on host
+      ignore_errors: yes
+      block:
+      - name: create progress log file
+        file:
+          path: /tmp/progress.log
+          state: touch
+      - name: Update product
+        include_tasks: "/tmp/allo-update/{{nodeid}}/update.yml"
+        vars:
+          update_path: "/tmp/allo-update/{{nodeid}}/"
+          backup_path: "/opt/_install/allo-update/{{ansible_date_time.date}}/backup/"
+      - name: delete progress log file
+        file:
+          path: /tmp/progress.log
+          state: absent
+
+
+- hosts: localhost
+  tasks:
+    - name: remove update directory
+      file:
+        path: "/tmp/allo-update/{{nodeid}}"
+        state: absent
