@@ -1,0 +1,5 @@
+[console_scripts]
+adcc_backup_client = adcc_backup.scripts:adcc_backup_client_main
+adcc_backup_server = adcc_backup.scripts:adcc_backup_server_main
+adcc_backup_utils = adcc_backup.scripts:adcc_backup_utils_main
+
