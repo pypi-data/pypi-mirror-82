@@ -1,0 +1,16 @@
+backgroundchanger/__init__.py,sha256=dVJ6ElWpAAmMAWBncD6PAtzDxGEkKD43Bs_iOtIoHgo,27
+backgroundchanger/__main__.py,sha256=1L78BYj55QCxf242p8AaKZL0wZjsvkWLctMbej8nNU4,2639
+backgroundchanger/api.py,sha256=gPflISzUrA8TKYtQ0aGeHNi89jyuN3zvkC_YHppImNg,2201
+backgroundchanger/config.py,sha256=tM0ZrUYlxVcWLMC5sS47BAeht6lPb1S3m3EEm76eGfs,531
+backgroundchanger/files.py,sha256=8guu02xSt1d6u49AMhxu3rqV1l0rK7esuUb22CtAJvU,588
+backgroundchanger/utils.py,sha256=w2UHwZf2NZRzSzt3QVri6fbXQ5wfVCM6X63JzxAZg1k,2815
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=5I4UHUGBM6mmgALo3J-SMLUx77FZ826-WKZjnO2xsGM,152
+tests/test_files.py,sha256=4dsfUjlIT3KVlEAVyoZJjLn_m1TDj2N6kPMGdUeAJ94,809
+tests/test_utils.py,sha256=yyQuVRFHj4jLG42NOb-TBZVsgIqR6-YZrPHVQLjNCqM,2913
+backgroundchanger-1.5.0.dist-info/LICENSE,sha256=7HKAg2Qn1pkBzopEhvQQ0dpK4_wTHeILsTGE5GRYGho,1071
+backgroundchanger-1.5.0.dist-info/METADATA,sha256=8ZpJTvbK1siWBcqlnz-709d1XYEJi2SM8fOubPmaoGg,2164
+backgroundchanger-1.5.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+backgroundchanger-1.5.0.dist-info/entry_points.txt,sha256=YJu-3-Y0enMW37C_HYDfKx3IbH6Ggs1p3EX3bvqYecA,71
+backgroundchanger-1.5.0.dist-info/top_level.txt,sha256=ijsQtrb931_IQiz_YPC2sHfHAPi_y5xnZnr2eTqCa9k,24
+backgroundchanger-1.5.0.dist-info/RECORD,,
