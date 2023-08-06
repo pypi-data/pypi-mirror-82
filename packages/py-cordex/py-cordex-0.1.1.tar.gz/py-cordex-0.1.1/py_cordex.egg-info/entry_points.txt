@@ -1,0 +1,3 @@
+[console_scripts]
+crx-tools = cordex.cli:main
+
