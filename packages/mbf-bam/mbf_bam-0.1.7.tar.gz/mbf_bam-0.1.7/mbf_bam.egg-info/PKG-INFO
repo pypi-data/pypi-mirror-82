@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mbf-bam
+Version: 0.1.7
+Summary: BAM utilities beyond rust-htslib
+Home-page: https://github.com/TyberiusPrime/mbf_bam
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Description: # mbf_bam
+        
+        Fast, multi-core read counters and the like based on the BAM fileformat and rust-htslib.
+        
+        
+        Part of the mbf_* suite from https://github.com/IMTMarburg
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Provides-Extra: testing
