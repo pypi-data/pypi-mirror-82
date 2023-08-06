@@ -1,0 +1,7 @@
+pandas
+wxpython
+
+[docs]
+sphinx
+sphinxcontrib-httpdomain
+sphinx-rtd-theme
