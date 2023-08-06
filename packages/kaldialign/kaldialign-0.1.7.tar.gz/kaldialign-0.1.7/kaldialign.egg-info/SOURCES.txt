@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+extensions/__init__.py
+extensions/align.cpp
+extensions/align.pyx
+extensions/calign.pxd
+extensions/kaldi_align.cpp
+extensions/kaldi_align.h
+kaldialign.egg-info/PKG-INFO
+kaldialign.egg-info/SOURCES.txt
+kaldialign.egg-info/dependency_links.txt
+kaldialign.egg-info/not-zip-safe
+kaldialign.egg-info/requires.txt
+kaldialign.egg-info/top_level.txt
+tests/test_align.py
