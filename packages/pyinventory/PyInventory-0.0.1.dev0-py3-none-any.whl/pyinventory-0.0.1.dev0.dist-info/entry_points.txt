@@ -1,0 +1,6 @@
+[console_scripts]
+inventory=inventory_project.cli:cli
+manage=inventory_project.__main__:manage
+publish=inventory_project.publish:publish
+update_rst_readme=inventory_project.publish:update_readme
+
