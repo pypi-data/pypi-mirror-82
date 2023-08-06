@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+django-divier/__init__.py
+django-divier/__main__.py
+django-divier/shortcuts.py
+django_divier.egg-info/PKG-INFO
+django_divier.egg-info/SOURCES.txt
+django_divier.egg-info/dependency_links.txt
+django_divier.egg-info/not-zip-safe
+django_divier.egg-info/top_level.txt
