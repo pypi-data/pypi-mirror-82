@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: json-settings
+Version: 0.1.1
+Summary: JSON Configuration File Framework
+Home-page: https://github.com/riskaware-ltd/json-settings
+Author: Riskaware Ltd
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# json-settings 
+
+# Getting Started
+
+
+
+
