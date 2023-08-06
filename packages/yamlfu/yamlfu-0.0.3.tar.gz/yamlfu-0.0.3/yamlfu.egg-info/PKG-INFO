@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: yamlfu
+Version: 0.0.3
+Summary: Create the skeleton for a python package/project
+Home-page: https://github.com/joaompinto/yamlfu
+Author: João Pinto
+Author-email: lamego.pinto@gmail.com
+License: MIT
+Description: # yamlfu
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
