@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+ngsl/__init__.py
+ngsl/dictionary.py
+ngsl/inverted_dictionary.py
+ngsl/inverted_supplemental.py
+ngsl/rank.py
+ngsl/result.py
+ngsl/supplemental.py
+ngsl.egg-info/PKG-INFO
+ngsl.egg-info/SOURCES.txt
+ngsl.egg-info/dependency_links.txt
+ngsl.egg-info/top_level.txt
+tests/__init__.py
+tests/test_ngsl.py
