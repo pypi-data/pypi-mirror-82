@@ -1,0 +1,7 @@
+README.md
+setup.py
+metathethaurus_client/__init__.py
+metathethaurus_client_timoderbeste.egg-info/PKG-INFO
+metathethaurus_client_timoderbeste.egg-info/SOURCES.txt
+metathethaurus_client_timoderbeste.egg-info/dependency_links.txt
+metathethaurus_client_timoderbeste.egg-info/top_level.txt
