@@ -1,0 +1,7 @@
+setup.py
+fast_dict.egg-info/PKG-INFO
+fast_dict.egg-info/SOURCES.txt
+fast_dict.egg-info/dependency_links.txt
+fast_dict.egg-info/requires.txt
+fast_dict.egg-info/top_level.txt
+fast_dict.egg-info/zip-safe
