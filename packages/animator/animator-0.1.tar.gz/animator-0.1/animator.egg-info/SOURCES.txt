@@ -1,0 +1,7 @@
+README.md
+setup.py
+animator/__init__.py
+animator.egg-info/PKG-INFO
+animator.egg-info/SOURCES.txt
+animator.egg-info/dependency_links.txt
+animator.egg-info/top_level.txt
