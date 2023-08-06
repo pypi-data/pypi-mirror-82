@@ -1,0 +1,9 @@
+README.md
+setup.py
+dataimport/__init__.py
+dataimport.egg-info/PKG-INFO
+dataimport.egg-info/SOURCES.txt
+dataimport.egg-info/dependency_links.txt
+dataimport.egg-info/top_level.txt
+dataimport/_meta/__init__.py
+dataimport/_meta/injector.py
