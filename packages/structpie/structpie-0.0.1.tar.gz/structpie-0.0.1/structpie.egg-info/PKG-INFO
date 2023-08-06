@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: structpie
+Version: 0.0.1
+Summary: A set of python modules for data structures written in C
+Home-page: https://github.com/MNoorFawi/struct-pie
+Author: Muhammad N. Fawi
+Author-email: m.noor.fawi@gmail.com
+License: MIT
+Description: # struct-pie
+        A set of python modules for data structures. Data structures are written in **C** and imported into python using **cython**
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
