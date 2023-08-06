@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: rstatic
+Version: 0.0.1
+Summary: Open-source static site generator.
+Home-page: https://rebatch.io/rstatic
+Author: Joshua Powell
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Framework :: Flask
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
