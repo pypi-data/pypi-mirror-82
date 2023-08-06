@@ -1,0 +1,11 @@
+ffxivweather/__init__.py,sha256=FpDrh1meVHMhdrXpNhfDxiYpZfIYVkob8MLaphQ4mtw,57
+ffxivweather/forecaster.py,sha256=RN0kFyrCf4T41DfdafgKMZTsQT9MvKp2Teo0xaKBaPo,6257
+ffxivweather/lang_kind.py,sha256=DIaBzRNSGVhiPP-MvNOCksElVuxdeio4FSdodlVNUwg,173
+ffxivweather/store/terriTypes.json,sha256=KeV6nWaVbyF7jcHCEZXxXcTBE7jEASObujP9NrwGFwg,41559
+ffxivweather/store/weatherKinds.json,sha256=2Mi9JSFgLtHtF2UZ2tllGcoAdWxGmCyWELe6q6XDFJE,4431
+ffxivweather/store/weatherRateIndices.json,sha256=K0wC0RAc005BiC4gx7pbQ3d-sN5WR4uNEcdiVgFRmQA,11027
+ffxivweather-1.0.3.dist-info/LICENSE,sha256=dQ6cAaKZXC3n8JK6nyH8w2aYr4p4V9t8gESM52nEgng,1088
+ffxivweather-1.0.3.dist-info/METADATA,sha256=zkMt_gd-xZf0mtkD5f2YRyfulFnoXKe9PTfPoJwijic,3093
+ffxivweather-1.0.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+ffxivweather-1.0.3.dist-info/top_level.txt,sha256=IEldIaKDqwBnTHQ42uSzWiYOiu9NV1nLpUnb1f0wnE0,13
+ffxivweather-1.0.3.dist-info/RECORD,,
