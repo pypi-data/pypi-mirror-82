@@ -1,0 +1,11 @@
+ophpy/2Dimage.py,sha256=wU6qun59gZXmDLnWfU5QgnoDnNsTX98huqyPsAtKoZY,7778
+ophpy/Depthmap.py,sha256=QR7mzn9VPlULZQ1kIKjw7Ta_3Bj_WZOBynEiC8kvPgk,7905
+ophpy/Image2D.py,sha256=aGkFDRPUkErkneyh5Sc6n-V_nRXiv7BfYJCV9aYCrPg,7365
+ophpy/PointCloud.py,sha256=hp4Gx3j52KVL2ADeEoK6yAywa3bboS7GWBw5o5tonkE,4010
+ophpy/PointCloud_multicore.py,sha256=EKi2UFMOMv9KkAFrO3Hcr0HbZ1G0-XUDqgZ3Ux45DMU,6390
+ophpy/__init__.py,sha256=20U2qmnjhwzcmxCCmVOaU_j21iEOhDElwd9cJdzhjsM,1677
+ophpy-0.0.3.dist-info/LICENSE,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+ophpy-0.0.3.dist-info/METADATA,sha256=A0pPk62_7DwJeos8x5bMXYWJEbIHM80kwtdHVX5s8fY,1490
+ophpy-0.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+ophpy-0.0.3.dist-info/top_level.txt,sha256=lu_Gh3JyI4sw1WwDnqN7gsDb0_PbdMsk4ayaTuR-1Zg,6
+ophpy-0.0.3.dist-info/RECORD,,
