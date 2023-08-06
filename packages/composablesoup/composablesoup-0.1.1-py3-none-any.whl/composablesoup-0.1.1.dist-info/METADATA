@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: composablesoup
+Version: 0.1.1
+Summary: 
+Author: Todd Iverson
+Author-email: tiverson@smumn.edu
+Requires-Python: >=3.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: composable (>=0.2.0,<0.3.0)
+Requires-Dist: python-forge (>=18.6,<19.0)
