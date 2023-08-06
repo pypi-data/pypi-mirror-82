@@ -1,0 +1,16 @@
+hgp/__init__.py,sha256=3KFFqKfD7x9Uv1cFJngvnZ0A_279jQf_zCYMn7AyTB4,97
+hgp/match/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hgp/match/__main__.py,sha256=ClTfXErAZoB_6jHJ5QWsPbvzHG9CLToAopWDyE9jja0,139
+hgp/match/main.py,sha256=7rFZ8FK44doItgtCCTPw0RiAZFRACVRidPMs930jBTA,1220
+hgp/match/matching.py,sha256=OqivMZx9ZL8Mt3ZaHlZBGU_49AuiOtZ18N6vOECdIbU,19444
+hgpmatch-1.0.1.data/scripts/hgpmatch,sha256=GCqTQ9EYi3wDUXDhenkr915RELC2pqoQ-9zCH-35870,61
+tests/__init__.py,sha256=D7Fm_RhHBv4-jnZDW0g6k_995X_S9m39z8NqPaVjFbc,36
+tests/match/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/match/test_main.py,sha256=atkEooNZdqo75vKokYJuCIub7tDqEMW7aU5m-QPpxrg,1457
+tests/match/test_match.py,sha256=hhpzq42ZU-uq9j0NBVW6MJkmcjDsNQh954EyTJTQckQ,14861
+tests/match/util.py,sha256=nhcPV0pg4p-VUeJ_YuQ7-jE1i9w4uZ2UuYRf83E3qoA,899
+hgpmatch-1.0.1.dist-info/LICENSE,sha256=UnSnqgD9itPR74nX_SVSAw8f9VKVBHPuFVAZLgwW1AA,1072
+hgpmatch-1.0.1.dist-info/METADATA,sha256=JnTDGzrw5cIb51dM3vbUn0nRz-_WwtuvghCMnRvXFl0,1503
+hgpmatch-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+hgpmatch-1.0.1.dist-info/top_level.txt,sha256=nblrwBWqC-Ea9-rZFUVP3OP_EuxxMizVJnzqOEI-l8A,10
+hgpmatch-1.0.1.dist-info/RECORD,,
