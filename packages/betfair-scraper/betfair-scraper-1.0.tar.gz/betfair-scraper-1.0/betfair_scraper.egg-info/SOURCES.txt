@@ -1,0 +1,11 @@
+README.md
+setup.py
+betfair_scraper/__init__.py
+betfair_scraper/browser.py
+betfair_scraper/parser.py
+betfair_scraper/scraper.py
+betfair_scraper.egg-info/PKG-INFO
+betfair_scraper.egg-info/SOURCES.txt
+betfair_scraper.egg-info/dependency_links.txt
+betfair_scraper.egg-info/requires.txt
+betfair_scraper.egg-info/top_level.txt
