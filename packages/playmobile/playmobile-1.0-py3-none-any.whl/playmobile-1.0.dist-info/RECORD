@@ -1,0 +1,14 @@
+playmobile/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playmobile/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+playmobile/apps.py,sha256=W_H06SyhHFg6X2JOEA2ACm40TAVUGnvqhRMRaS0r-CI,100
+playmobile/config.py,sha256=oH7N4Z_JWKg_ixepUu3yvL1j12dIfyMElhb1eXa9LDs,735
+playmobile/models.py,sha256=4OVMcDDx9fVgBEJ91B7dfMEG2Ni1LRSLJOKzIkVPsKo,60
+playmobile/serializers.py,sha256=OdlSjUVCAFu_nUm3G0Zdzjy5knZzcT_N5U5RxxqJVsU,245
+playmobile/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+playmobile/views.py,sha256=8Ny3-mePgU5RqEkY5EM-mZpOKSZQVOoXO6olsdLYCUs,1283
+playmobile/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playmobile-1.0.dist-info/LICENSE,sha256=vFJXr3WSfT83TEy9IRkL_Cigqke_QpO0k6SCSzLBnVY,1089
+playmobile-1.0.dist-info/METADATA,sha256=kG3BtXjwabSzvkVolHHkxl3EG8kSV94nf7gGPrXsJXM,1537
+playmobile-1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+playmobile-1.0.dist-info/top_level.txt,sha256=Dx0PijC-d7xpHYOQrz9ur6pUP4pM26R2hb04M9jww_k,11
+playmobile-1.0.dist-info/RECORD,,
