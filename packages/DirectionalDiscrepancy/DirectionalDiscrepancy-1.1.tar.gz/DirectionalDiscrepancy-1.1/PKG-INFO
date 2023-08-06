@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: DirectionalDiscrepancy
+Version: 1.1
+Summary: Directional Discrepancy algorithm
+Home-page: https://github.com/minalatifi/DirectionalDiscrepancy
+Author: Milad Bakhshizadeh, Mina Latifi, Ali Kamalinejad
+Author-email: mb4041@columbia.edu, minlat1375@gmail.com, kamalinejad.a@ut.ac.ir
+License: MIT
+Download-URL: https://github.com/minalatifi/DirectionalDiscrepancy/archive/v1.1.tar.gz
+Description: UNKNOWN
+Keywords: Discrepancy,Cap Discerpancy,Directional Discrepancy,Polar Coordinates
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
