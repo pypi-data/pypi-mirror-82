@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+scissor_hands/__init__.py
+scissor_hands.egg-info/PKG-INFO
+scissor_hands.egg-info/SOURCES.txt
+scissor_hands.egg-info/dependency_links.txt
+scissor_hands.egg-info/requires.txt
+scissor_hands.egg-info/top_level.txt
