@@ -1,0 +1,3 @@
+[console_scripts]
+spinney-run-tests = spinney.tests.spinney_run_tests:main
+
