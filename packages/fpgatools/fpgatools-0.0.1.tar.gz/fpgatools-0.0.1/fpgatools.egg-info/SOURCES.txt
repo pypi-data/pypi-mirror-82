@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+fpgatools.egg-info/PKG-INFO
+fpgatools.egg-info/SOURCES.txt
+fpgatools.egg-info/dependency_links.txt
+fpgatools.egg-info/requires.txt
+fpgatools.egg-info/top_level.txt
+src/FPGA_Tools.py
+src/__init__.py
+src/db.py
+src/gen_and_parse.py
