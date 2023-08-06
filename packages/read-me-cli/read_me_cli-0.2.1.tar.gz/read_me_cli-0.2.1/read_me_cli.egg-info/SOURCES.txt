@@ -1,0 +1,13 @@
+README.rst
+setup.py
+read_me_cli.egg-info/PKG-INFO
+read_me_cli.egg-info/SOURCES.txt
+read_me_cli.egg-info/dependency_links.txt
+read_me_cli.egg-info/entry_points.txt
+read_me_cli.egg-info/requires.txt
+read_me_cli.egg-info/top_level.txt
+readme_cli/__init__.py
+readme_cli/__main__.py
+readme_cli/main.py
+readme_cli/readme_cli.py
+readme_cli/utilities.py
