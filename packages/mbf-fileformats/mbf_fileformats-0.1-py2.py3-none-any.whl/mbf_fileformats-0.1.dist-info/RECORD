@@ -1,0 +1,12 @@
+mbf_fileformats/__init__.py,sha256=ZFgvsa_dynrMaRseqmSbx_7VFJjM5X-14e9zxTGHGyA,21
+mbf_fileformats/bed.py,sha256=M58AJT6HOclWFRGYDzXSWtg6Vg8OImW6ykTJK3KR7ZQ,10317
+mbf_fileformats/gff.py,sha256=yANZCpuBXlxl_57v4bE-kqX6oXYZcPcRDjLJX9sNTGQ,4512
+mbf_fileformats/prism.py,sha256=6-ggfD0stBsRW-uPryl_DGJf6UxoiqWSN_tdCj45lQg,1641
+mbf_fileformats/util.py,sha256=25qMsLLYIX9Xu9VYc5XDszv8-0xmhep_oY7_Wm0fsEk,1382
+mbf_fileformats/wiggle.py,sha256=_429p8kFYngnBOGnaMKypA2qCK1ODd9d5kKyviz7FXg,10992
+mbf_fileformats-0.1.dist-info/AUTHORS.rst,sha256=cSBy6yEDPSUKe4eVD0ZCiVuxZe5Um9YQYv-SUwSpsh0,95
+mbf_fileformats-0.1.dist-info/LICENSE.txt,sha256=H2w2tJlXntp5EeuAIH64RBhklNXBIb6IoSeA_oqq9eY,1124
+mbf_fileformats-0.1.dist-info/METADATA,sha256=DTR9WfAz4AYPjmDZqjHR0LEFdQqxmAd487Cigw9skmc,1000
+mbf_fileformats-0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+mbf_fileformats-0.1.dist-info/top_level.txt,sha256=goelg1qpPsyzdXu-7S0eJkC63d-otE7piDw-HtqQeW0,16
+mbf_fileformats-0.1.dist-info/RECORD,,
