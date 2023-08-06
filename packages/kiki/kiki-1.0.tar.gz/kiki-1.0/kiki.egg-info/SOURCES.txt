@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+kiki/__init__.py
+kiki/kiki.py
+kiki/pdf_handler.py
+kiki/utils.py
+kiki.egg-info/PKG-INFO
+kiki.egg-info/SOURCES.txt
+kiki.egg-info/dependency_links.txt
+kiki.egg-info/entry_points.txt
+kiki.egg-info/requires.txt
+kiki.egg-info/top_level.txt
