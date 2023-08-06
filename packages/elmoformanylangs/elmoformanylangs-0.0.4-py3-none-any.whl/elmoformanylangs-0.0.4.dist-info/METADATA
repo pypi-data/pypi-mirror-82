@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: elmoformanylangs
+Version: 0.0.4
+Summary: ELMo, updated to be usable with models for many languages
+Home-page: https://github.com/HIT-SCIR/ELMoForManyLangs
+Author: Research Center for Social Computing and Information Retrieval
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: torch
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: overrides
+
+UNKNOWN
+
+
