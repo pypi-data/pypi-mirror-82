@@ -1,0 +1,6 @@
+README.md
+setup.py
+warker.egg-info/PKG-INFO
+warker.egg-info/SOURCES.txt
+warker.egg-info/dependency_links.txt
+warker.egg-info/top_level.txt
