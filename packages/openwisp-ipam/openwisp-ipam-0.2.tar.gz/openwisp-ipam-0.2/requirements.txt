@@ -1,0 +1,5 @@
+openwisp-users~=0.4.1
+openwisp-utils[rest]~=0.6.0
+django>=2.2,<3.2
+swapper~=1.1
+xlrd~=1.1
