@@ -1,0 +1,3 @@
+[console_scripts]
+fhdoc=fhdoc:main.main
+
