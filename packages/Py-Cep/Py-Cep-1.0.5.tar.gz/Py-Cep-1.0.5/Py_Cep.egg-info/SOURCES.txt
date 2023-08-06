@@ -1,0 +1,9 @@
+README.md
+exemplo.py
+setup.py
+Py_Cep.egg-info/PKG-INFO
+Py_Cep.egg-info/SOURCES.txt
+Py_Cep.egg-info/dependency_links.txt
+Py_Cep.egg-info/requires.txt
+Py_Cep.egg-info/top_level.txt
+pycep/__init__.py
