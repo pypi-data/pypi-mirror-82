@@ -1,0 +1,3 @@
+[console_scripts]
+pystratum_cli = pystratum_cli.application:main
+
