@@ -1,0 +1,10 @@
+publitzergo_admin/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+publitzergo_admin/overrides.py,sha256=eq0E04ZLYYbNqiSWecR--f84DY0JuQqm8euNy8rVi9A,1427
+publitzergo_admin/static/images/publitzer-go-logo.svg,sha256=nGwZXvcoWouqaZhP6xs4BMG6X8Zv7tB7ElRWZXtvH_g,6323
+publitzergo_admin/templates/admin_base.html,sha256=NK5GlUJlmoa0lSnMHYzPFdUd47rL5Fcf1LLSXE9P1Mw,103
+publitzergo_admin/templates/base.html,sha256=QuQuXQawMq1g4neiadkg1iF5j7ggRXG96F4HBE837CM,192
+publitzergo_admin/templates/home.html,sha256=zgAq2ubZl4KAFU_mtU-hoc-nswqq8lLzn4km210iqlI,99
+publitzergo_admin-0.1.0.dist-info/entry_points.txt,sha256=q3bkQQZqcPNOjCsfdPbSwHafIZWNlheKgS3Z2v9UtG8,72
+publitzergo_admin-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+publitzergo_admin-0.1.0.dist-info/METADATA,sha256=cvJhBZKrp_0UageSulNCil06CKfkkijXP4CUERq_2Ew,301
+publitzergo_admin-0.1.0.dist-info/RECORD,,

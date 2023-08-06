@@ -1,0 +1,3 @@
+[console_scripts]
+customize=publitzergo_admin.overrides:admin_override
+
