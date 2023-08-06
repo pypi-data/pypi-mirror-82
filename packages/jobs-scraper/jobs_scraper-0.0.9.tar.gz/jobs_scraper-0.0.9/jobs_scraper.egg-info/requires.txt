@@ -1,0 +1,10 @@
+pandas
+requests
+bs4
+tqdm
+lxml
+
+[test]
+pytest
+pytest-pylint
+pytest-cov
