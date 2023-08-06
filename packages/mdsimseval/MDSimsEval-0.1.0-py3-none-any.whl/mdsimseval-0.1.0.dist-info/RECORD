@@ -1,0 +1,12 @@
+MDSimsEval/AnalysisActorClass.py,sha256=fPSZ9lF_qZxNmsjusyiXGWdydOWHUxeG3D7mViLgu9Y,14884
+MDSimsEval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MDSimsEval/pca_analysis.py,sha256=M2nNWlq1y9_eBYKCaaIeE3dfaxPtyilA7HqNlPbafNM,9366
+MDSimsEval/rg_sasa_analysis.py,sha256=k0d93NTXV1n6n8CXIgfo86kbsfrIEfsBaYBCK9cpnK0,13950
+MDSimsEval/rmsf_analysis.py,sha256=HVtmlPExONQ27loph00-1tcmpVvZO3LKRwFVHyg61PE,18826
+MDSimsEval/rmsf_baseline_models.py,sha256=tl7xE7Xjo0KBqbZ8Gi7rHNBoCQhdeC2iVRqZxRAmLXI,25784
+MDSimsEval/rmsf_bootstrapped_analysis.py,sha256=zExq31N58T22omT8Jmvs56hbOAV6PJ0W6R9JKEhRxDI,20923
+MDSimsEval/utils.py,sha256=8M1hquFMXCN2lZlHvPSJUSMmeMJ8QfRiPserkkNG1Vc,6308
+mdsimseval-0.1.0.dist-info/LICENSE,sha256=71rQCRtX3nLG459G_n4PI2p6gjaPss4t5BvZ5FtJHRQ,1067
+mdsimseval-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mdsimseval-0.1.0.dist-info/METADATA,sha256=_0yg-o18i75cPBwemf0jJBP0AbM5Bm-8Sk_XQyUQycs,2944
+mdsimseval-0.1.0.dist-info/RECORD,,
