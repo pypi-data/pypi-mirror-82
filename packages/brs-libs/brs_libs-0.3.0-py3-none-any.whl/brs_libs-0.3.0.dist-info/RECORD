@@ -1,0 +1,10 @@
+brs_libs/__init__.py,sha256=QsF_rSmyTXKo47R61MHDo2_brtVxldoNVLpru0-mtIY,358
+brs_libs/__main__.py,sha256=EEZ9Y8jPS0Yes4VzeAic5y81hNTBZ2nFrKPBbx9xYas,828
+brs_libs/inchikeyMIRIAM.py,sha256=QH2EngkUQF6E-ssSYhr8TGH8AE4PHuxSk7nRN16DSuE,3843
+brs_libs/rpCache.py,sha256=IaOEK9vA3i8lwYHslNbekUG0MrnK9BHGEow0a6rXLxk,48987
+brs_libs/rpSBML.py,sha256=RT2ohxeJEHWJuHaU9t6BLdWVhVADz0Gz1zrtIkEsQDY,150282
+brs_libs-0.3.0.dist-info/LICENSE,sha256=pFUbL449a3F-OnPi_uL-Bg6kja9_oOmYLkiqrYjJK3M,1141
+brs_libs-0.3.0.dist-info/METADATA,sha256=WjLrI0BJeorS136T1onriPuskJNclmXPOfU0aSKrn7U,3806
+brs_libs-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+brs_libs-0.3.0.dist-info/top_level.txt,sha256=fs2Xkh0_xdVr7dBhj_0AqVtIdtkqVQtAPbFQrB99xck,9
+brs_libs-0.3.0.dist-info/RECORD,,
