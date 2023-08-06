@@ -1,0 +1,33 @@
+Metadata-Version: 2.0
+Name: astar-devopstool
+Version: 0.0.4
+Summary: Python devopstool
+Home-page: https://github.com/astar-club/astar-devopstool-python
+Author: A.Star
+Author-email: astar@snowland.ltd
+License: Apache v2.0 License
+Description-Content-Type: UNKNOWN
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: paramiko (>=2.4.2)
+Requires-Dist: astartool (>=0.0.5)
+Requires-Dist: psutil
+Requires-Dist: pycurl
+
+================
+astar-devopstool
+================
+
+Python devopstool
+
