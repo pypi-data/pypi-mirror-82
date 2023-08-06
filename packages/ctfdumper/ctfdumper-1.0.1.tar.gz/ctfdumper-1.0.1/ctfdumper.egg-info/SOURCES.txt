@@ -1,0 +1,11 @@
+README.md
+setup.py
+ctfdumper/__init__.py
+ctfdumper/ctfdumper.py
+ctfdumper/run.py
+ctfdumper.egg-info/PKG-INFO
+ctfdumper.egg-info/SOURCES.txt
+ctfdumper.egg-info/dependency_links.txt
+ctfdumper.egg-info/entry_points.txt
+ctfdumper.egg-info/requires.txt
+ctfdumper.egg-info/top_level.txt
