@@ -1,0 +1,9 @@
+README.rst
+setup.py
+datetime_glob/__init__.py
+datetime_glob/py.typed
+datetime_glob.egg-info/PKG-INFO
+datetime_glob.egg-info/SOURCES.txt
+datetime_glob.egg-info/dependency_links.txt
+datetime_glob.egg-info/requires.txt
+datetime_glob.egg-info/top_level.txt
