@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/spell.py
+src/spell_it_for_me.egg-info/PKG-INFO
+src/spell_it_for_me.egg-info/SOURCES.txt
+src/spell_it_for_me.egg-info/dependency_links.txt
+src/spell_it_for_me.egg-info/entry_points.txt
+src/spell_it_for_me.egg-info/top_level.txt

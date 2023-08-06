@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: spell-it-for-me
+Version: 0.1.1
+Summary: A simple command line tool to display a spelling for any phrase using a phonetic alphabet.
+Home-page: https://github.com/bondarevts/spell-it-for-me
+Author: Timofei Bondarev
+Author-email: bondarevts@gmail.com
+License: UNKNOWN
+Description: # Spell It For Me
+        A simple command line tool to display a spelling for any phrase using a phonetic alphabet.
+        
+        Uses the NATO phonetic alphabet.
+        
+        More alphabets will be supported in the future.
+        
+        ## Installation
+        
+        Run the following to install:
+        
+        ```bash
+        $ pip install spell-it-for-me
+        ```
+        
+        ## Usage
+        
+        ```bash
+        $ spell Louis
+        L: Líma
+        o: Óscar
+        u: Úniform
+        i: Índia
+        s: Siérra
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Communications
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
