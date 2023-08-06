@@ -1,0 +1,3 @@
+[console_scripts]
+plantuml = plantuml.qgis.qgis:qgis_create_image
+
