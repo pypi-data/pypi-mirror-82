@@ -1,0 +1,9 @@
+numpy>=1.14.5
+scipy
+qsrs<0.16,>=0.15
+
+[cma]
+cma
+
+[graphics]
+matplotlib
