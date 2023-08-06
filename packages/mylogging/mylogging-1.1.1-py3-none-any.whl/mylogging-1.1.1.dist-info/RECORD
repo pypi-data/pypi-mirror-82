@@ -1,0 +1,8 @@
+mylogging/__init__.py,sha256=9YBBuL02KNWzfe0l4Q_Lobf_bAQUlW-W3vVzloxaC8c,7838
+tests/__init__.py,sha256=SbDO9NM4Kjz0HSSckUq5BJBjJfU9u8viV8lIBHzeIXo,45
+tests/test_it.py,sha256=TlZQ0pRKOvKgzTOuti6ymi1QQenKF_5dmrFUl_oaEtU,1799
+mylogging-1.1.1.dist-info/LICENSE,sha256=BM9DpN9cuZHAL1849vy5DyKFaQejXV1jfa9STrQkl-8,1093
+mylogging-1.1.1.dist-info/METADATA,sha256=6fkydesuwmkXSa2Ud3bQDaFoYiQWKOc4YKJ9m6_yTQc,3510
+mylogging-1.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mylogging-1.1.1.dist-info/top_level.txt,sha256=Mv32X3f18k_VCdDa7xNJXSVFgyIoBAGcUi0ZYDAcV_Q,16
+mylogging-1.1.1.dist-info/RECORD,,
