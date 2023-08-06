@@ -1,0 +1,10 @@
+mhar/__init__.py,sha256=EOy-B463RKtytIcAZKz-bRIuv84oZIi-QsHds87raSk,65
+mhar/classic_polytopes.py,sha256=7NNb3VduysuuHuJNTBx1qsHiG6HLagFKYL4jxVoeKmc,3085
+mhar/example.py,sha256=zpoHctgvoPjsA4eeQOHqT23unkYgAmSTi5P72i3A2sg,1025
+mhar/mhar.py,sha256=kmRKwShYM_AsIp6SoYyiUQHsscGF_W4CPqj0dWLhqfM,3569
+mhar/projection_matrix.py,sha256=zaGt1vRCccAS7Y0pCY2OnlFsLP-yPmv3J9VXiL6XEyg,1669
+mhar/random_generator.py,sha256=xWMq5QSHC5xFg_7TleW6idN5Vh8thsnIeHJ6GmnH56U,2567
+mhar-0.0.1.dist-info/METADATA,sha256=NgclwJv3BQs3YOtfQsFcpQ5-SXqTjL-UBI46Ihdol78,563
+mhar-0.0.1.dist-info/WHEEL,sha256=DgcoKJDfsYFbFLUrngH-aDjJZvn8UqGD3gZyEvGv0dg,92
+mhar-0.0.1.dist-info/top_level.txt,sha256=QgxL057VabJKJO7010j9Yb_eCt7ZrVwAKPUqTIQz5kc,5
+mhar-0.0.1.dist-info/RECORD,,
