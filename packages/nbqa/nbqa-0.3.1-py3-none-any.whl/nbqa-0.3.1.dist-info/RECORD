@@ -1,0 +1,17 @@
+nbqa/__init__.py,sha256=PjvnoYZW94XPjcAg1GWjwLiAtU93jrxtJ9uttbxIH1A,138
+nbqa/__main__.py,sha256=P80fs7FlO7GHeQPjMtuRIF6z2LjQPtVjDMoxwGR5HWU,14891
+nbqa/cmdline.py,sha256=8KmaXhxi0KJQMkkUh97D_EaKPy-d7jMIxTjQV26MRxw,4621
+nbqa/config.py,sha256=OWRsozblnCOT7BPktK0kppkl5i7sENvUDi9E3mGMDHY,3446
+nbqa/config_parser.py,sha256=7EcJGy_nKY-8eFl0WLpeISssgzAv3yPCQbDMqH_HJo8,3581
+nbqa/find_root.py,sha256=ZOu5TXEdu1-tySYPCUjicVHE58cS9VFriuVXyyeCQxQ,1933
+nbqa/handle_magics.py,sha256=pHWgXsLk1l6uv5aTCai4O-U4rlLnCUG2RK6MGFkHG5M,6629
+nbqa/notebook_info.py,sha256=jpZ3eZqhzUVzIDeDmKGqNX0D1vHHLboPfHxamAIQkwU,2655
+nbqa/replace_source.py,sha256=uqpvS3A4PinYW_Zlh3C4e_ERFOiVwj6VNzTNn1hPiZI,3352
+nbqa/save_source.py,sha256=SWFMsVR8-YhoA7_2hUwaK3P618TFSlzz19b0fDIVriw,6787
+nbqa/toml_parser.py,sha256=TFSgp9TqQiD-rYA0Y-69QOwBnrUSZw9d5ltT6H0rD3k,1140
+nbqa-0.3.1.dist-info/LICENSE,sha256=oUqo3xOw58Zq6fqwR0L49EeTw6OwOgtD_5eAEqEpE9c,1071
+nbqa-0.3.1.dist-info/METADATA,sha256=NCpEr4dA_TKuy6MyyYKmZHkLCzZaEew5YO4_pl8wBqo,8456
+nbqa-0.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+nbqa-0.3.1.dist-info/entry_points.txt,sha256=0d8RFAu3QBScAAWQnewEm2TC3_da77yfxX79LbDRSI4,45
+nbqa-0.3.1.dist-info/top_level.txt,sha256=8xXeXsVSaE-CJM2QfVpJMJcQkYauTk5cu-p3d9g_jIo,5
+nbqa-0.3.1.dist-info/RECORD,,
