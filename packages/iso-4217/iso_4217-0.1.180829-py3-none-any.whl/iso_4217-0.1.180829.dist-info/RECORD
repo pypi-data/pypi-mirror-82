@@ -1,0 +1,8 @@
+iso_4217/__init__.py,sha256=fhZZGWzCwLjNyCOIbr4-jhyOnM6_vCv7kbYRg9INc8w,2618
+iso_4217/data/list_one.xml,sha256=TB0__CoWCR0uVOOcp0nekw0WXTD9w0AyffghfRiLMDs,47281
+iso_4217/data/list_three.xml,sha256=A08fUMriY1wx8n9d4lJZbq1TeILrcntgVjB6U-MKCuQ,29349
+iso_4217/lists.py,sha256=vzFOymunQ6Fyl46HA-kjZ2-jxN-GK-P7L6jqG481CDo,3439
+iso_4217-0.1.180829.dist-info/LICENSE,sha256=vc0jngo5NtldSnABrKse2Ws3fT84gx16KeugeqHn1tA,1071
+iso_4217-0.1.180829.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+iso_4217-0.1.180829.dist-info/METADATA,sha256=MvrUvHDxmxFiGRVbR5ZRLIi5Zcj99fcQ9Whi5UWdH10,380
+iso_4217-0.1.180829.dist-info/RECORD,,
