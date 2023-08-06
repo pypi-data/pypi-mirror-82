@@ -1,0 +1,14 @@
+boris/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+boris/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boris/cli/_helpers.py,sha256=Yq08rST2huQkLR30tAF5lkzZ3R6QfY2H_9CsBMCChVA,289
+boris/cli/boris_cli.py,sha256=j21SkMJJsA6ABOYn9Tmc1d55iAgRvUR7TPrUbyWcmF0,73
+boris/cli/download_cli.py,sha256=ZjHLLa2jCoXSBDSqz0SGCL6buTaSldaRHP1EMnP2A44,76
+boris/cli/embed_cli.py,sha256=VktIaAgP7t9d7ObZ0-nXSLE6a9_E4M34kWgouu4LDbk,73
+boris/cli/train_cli.py,sha256=ZOwNqlf5ALmwB51XJHyxO5mgZldfgSb_HyONIGxjsis,73
+boris/cli/upload_cli.py,sha256=RKta6Tnn07pzbb7FRnRGuF2FSl23KGCbF-5c_uIoxGE,74
+borisml-1.0.0.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+borisml-1.0.0.dist-info/METADATA,sha256=iQDrmJMX5l20RP-jua0TwxqySfv0_k8NwV9XRc9lA60,858
+borisml-1.0.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+borisml-1.0.0.dist-info/entry_points.txt,sha256=BV8s9FKfVrGsyJXHRGHA9Ov2oZpXVRrop0EWgaF91_w,227
+borisml-1.0.0.dist-info/top_level.txt,sha256=fJSgm62S7WesiwTorGbOO4nNN0yzgZ3klgfGi3Px4qI,6
+borisml-1.0.0.dist-info/RECORD,,
