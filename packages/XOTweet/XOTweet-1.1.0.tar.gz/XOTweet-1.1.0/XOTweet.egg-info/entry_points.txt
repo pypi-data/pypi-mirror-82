@@ -1,0 +1,3 @@
+[console_scripts]
+xo_tweet = XOTweet.xo_tweet:main
+
