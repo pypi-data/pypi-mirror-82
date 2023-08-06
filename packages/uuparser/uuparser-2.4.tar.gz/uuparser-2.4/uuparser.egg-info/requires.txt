@@ -1,0 +1,5 @@
+dynet
+h5py
+loguru
+numpy
+tqdm

@@ -1,0 +1,3 @@
+[console_scripts]
+uuparser = uuparser.parser:main
+
