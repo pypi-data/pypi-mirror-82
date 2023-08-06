@@ -1,0 +1,7 @@
+DateVersioning.py
+README.md
+setup.py
+DateVersioning.egg-info/PKG-INFO
+DateVersioning.egg-info/SOURCES.txt
+DateVersioning.egg-info/dependency_links.txt
+DateVersioning.egg-info/top_level.txt
