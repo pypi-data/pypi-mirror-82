@@ -1,0 +1,4 @@
+pyramid>=1.5
+
+[testing]
+pytest
