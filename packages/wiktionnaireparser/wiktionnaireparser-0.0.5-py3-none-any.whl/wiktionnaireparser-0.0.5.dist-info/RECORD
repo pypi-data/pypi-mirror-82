@@ -1,0 +1,15 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_html_parser.py,sha256=zjdV_rwAItfBHGcfJ_1J_cmSqwa_KQDt3rph1Pxh7No,6586
+tests/test_parsing.py,sha256=GPnEusCYBhSXB-Lk_gVxoduTOydYpUBUkxTARDDmmcE,8854
+tests/test_utils.py,sha256=l2774WZyCr9p_gDnKUPn_EyKleMs0JPGvJekUKuUyI4,1809
+tests/test_wikitext.py,sha256=qDkcUAuCOAUhpdeSH1mO0PpufICcfJP2XSiNBwJ15sY,8968
+wiktionnaireparser/__init__.py,sha256=TSxrY99oZWi_DZdfJ8jQZ-XIAKbzI8qs1CLJOdGsmVc,80
+wiktionnaireparser/parser.py,sha256=ZUWyTCzpRjBh5apERgv1OCk-M2ZsjIa6H6MsliSdKrs,10449
+wiktionnaireparser/parsing.py,sha256=XdS7wA1mJAHYdkLODA6e7GClkH5akhV-RlAg0d-tZFA,4874
+wiktionnaireparser/utils.py,sha256=ptHWJYSqVadI_NfszIKQh3Ow9tmF0JrJUuRaHt9fxYw,1150
+wiktionnaireparser/wikitext.py,sha256=XdS7wA1mJAHYdkLODA6e7GClkH5akhV-RlAg0d-tZFA,4874
+wiktionnaireparser-0.0.5.dist-info/LICENSE.md,sha256=VXapH-nuSz68DG5ScURElxHkl1lKk4MOK9cgZCSRDXs,34502
+wiktionnaireparser-0.0.5.dist-info/METADATA,sha256=mfUWdFQGAm07rhFbrC9klnYcNeEis1PykJWYcuWHyLc,4313
+wiktionnaireparser-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wiktionnaireparser-0.0.5.dist-info/top_level.txt,sha256=epFeyOSDaqkUb9RcS8vnW2tlhINVMbMuDUCMH_Le3XQ,25
+wiktionnaireparser-0.0.5.dist-info/RECORD,,
