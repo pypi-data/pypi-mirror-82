@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+wcom/__init__.py
+wcom.egg-info/PKG-INFO
+wcom.egg-info/SOURCES.txt
+wcom.egg-info/dependency_links.txt
+wcom.egg-info/top_level.txt

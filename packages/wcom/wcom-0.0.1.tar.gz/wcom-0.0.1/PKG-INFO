@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: wcom
+Version: 0.0.1
+Summary: A simple library for solving WC questions
+Home-page: https://github.com/frozenparadox99/WC
+Author: Pratyush Kerhalkar
+Author-email: pratyushkerhalkar@gmail.com
+License: MIT
+Description: ## Simple library for solving Wireless Communication problems.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (15/10/2020)
+        ------------------
+        - First Release
+Keywords: wireless communication
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
