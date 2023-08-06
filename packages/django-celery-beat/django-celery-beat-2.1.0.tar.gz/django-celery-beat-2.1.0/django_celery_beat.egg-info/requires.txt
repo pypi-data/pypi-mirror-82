@@ -1,0 +1,4 @@
+django-timezone-field<5.0,>=4.0
+python-crontab>=2.3.4
+celery<6.0,>=4.4
+Django>=2.2
