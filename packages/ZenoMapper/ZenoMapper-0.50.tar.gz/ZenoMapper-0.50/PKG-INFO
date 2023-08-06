@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ZenoMapper
+Version: 0.50
+Summary: An Object Config Mapper (OCM)
+Home-page: https://github.com/josephp27/Zeno
+Author: Joseph Procopio
+Author-email: josephp27@live.com
+License: Apache license 2.0
+Description: # Zeno | An Object Config Mapper (OCM) [![Build Status](https://travis-ci.com/josephp27/Zeno.svg?branch=main)](https://travis-ci.com/josephp27/Zeno)
+        
+Keywords: Zeno,OCM,Config,Configuration,Mapper,Object
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
