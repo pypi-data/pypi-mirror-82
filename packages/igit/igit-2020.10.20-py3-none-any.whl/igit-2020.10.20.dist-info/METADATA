@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: igit
+Version: 2020.10.20
+Summary: Interactive git and more
+Home-page: https://github.com/kobibarhanin/igit
+Author: kobibarhanin
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: blessed (==1.17.6)
+Requires-Dist: fire (==0.3.1)
+Requires-Dist: gitdb (==4.0.5)
+Requires-Dist: GitPython (==3.1.7)
+Requires-Dist: importlib-metadata (==1.7.0)
+Requires-Dist: inquirer (==2.7.0)
+Requires-Dist: more-itertools (==8.4.0)
+Requires-Dist: packaging (==20.4)
+Requires-Dist: pluggy (==0.13.1)
+Requires-Dist: py (==1.9.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: pytest (==5.4.3)
+Requires-Dist: python-editor (==1.0.4)
+Requires-Dist: PyYAML (==5.3.1)
+Requires-Dist: readchar (==2.0.1)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: smmap (==3.0.4)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: zipp (==3.1.0)
+Requires-Dist: emoji (==0.5.4)
+Requires-Dist: PyInquirer (==1.0.3)
+
+[![Build Status](https://travis-ci.com/kobibarhanin/gitenv.svg?branch=master)](https://travis-ci.com/kobibarhanin/igit)
+[![PyPI version](https://badge.fury.io/py/igit.svg)](https://badge.fury.io/py/igit)
+
+# Igit - Interactive Git
+
+Igit is an interactive supplementary CLI to git for better git experience.
+
+## Main features:
+1. Fast commits - add, commit & push, instantly. 
+2. Undo changes - cancel changes made to any file.
+3. Branch hopping - move between branches, even if you have unstaged changes, without having to stage them.
+4. Easy ignore - add files to ignore, sync with remote. 
+5. Interactivity - select and check instead of typing.
+
+
+## Installation
+
+With [pip](https://pip.pypa.io/en/stable/):
+
+```bash
+pip install igit
+pipenv install igit
+poetry add igit
+```
+
+## Usage
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
