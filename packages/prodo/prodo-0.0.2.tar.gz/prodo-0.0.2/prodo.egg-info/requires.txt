@@ -1,0 +1,4 @@
+Click
+paramiko
+scp
+nbformat
