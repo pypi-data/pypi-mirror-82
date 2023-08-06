@@ -1,0 +1,17 @@
+billing_datatrans/__init__.py,sha256=-aKCNKosZLp2b2QLu5jp7ygW0Up0pPaMwweqkYbdNpM,160
+billing_datatrans/actions.py,sha256=-dcsYdOvynt_GV38du0EHrt7M9GB44UnIpvbf9ZN7PM,3399
+billing_datatrans/admin.py,sha256=miJjjFVkfaA2DCiSIUQHyhKMIV_3vc19VhCT1Fqeckg,1129
+billing_datatrans/apps.py,sha256=Hue1MfvalUGoJGiO1T7MLMoufC6tGxY7Lps_sg3L6zo,634
+billing_datatrans/datatrans_psp.py,sha256=6OGQQuMk8l96NaQmQ_LwY661BEoYqauqN8ajGGW6Q-o,999
+billing_datatrans/models.py,sha256=zVRxXgrQtGDMGRciShvi_NgwVvNU8p4Ug2XiyxhpdvA,2917
+billing_datatrans/urls.py,sha256=3X8Wffmg8yQe4b_qlcIUeblNXPQdZuIZIH9o4UaMPUU,415
+billing_datatrans/views.py,sha256=1rFzdsPIWqo0kp8xoX7CkZiIU2s95MU52_D7htaKIXs,3099
+billing_datatrans/migrations/0001_initial.py,sha256=jOP_7nMSdrsbbDMdQgTMr52P1KHzilFoH1ib7ZkkyUI,794
+billing_datatrans/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+billing_datatrans/signals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+billing_datatrans/signals/handlers.py,sha256=vKnA0aAvKpYpLoayq-bLhRfcbYfhTGs_pXHIarCpjWU,838
+django_customer_billing_datatrans-1.0.2.dist-info/LICENSE,sha256=OfTdYRqgl7l2F6w5E0DfNMXnexQ9oOcsOPYmT719x80,1084
+django_customer_billing_datatrans-1.0.2.dist-info/METADATA,sha256=9zQ2ouILxPWNznnUoEAuojqcc8Dj9N5FADy5LLJ2-qg,1090
+django_customer_billing_datatrans-1.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_customer_billing_datatrans-1.0.2.dist-info/top_level.txt,sha256=HCJA8UjYN5Hm3C6nLhpivY2NyYwcJ7z3_0wO6KVOfZY,18
+django_customer_billing_datatrans-1.0.2.dist-info/RECORD,,
