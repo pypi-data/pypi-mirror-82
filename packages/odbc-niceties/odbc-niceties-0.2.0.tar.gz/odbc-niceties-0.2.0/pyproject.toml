@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "odbc-niceties"
+version = "0.2.0"
+description = "Some ODBC nice things."
+authors = ["joefromct"]
+
+[tool.poetry.dependencies]
+python   = "^3.7"
+pyodbc   = "*"
+tabulate ="*"
+cytoolz  ="*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+ipython = "*"
+
+[build-system]
+requires = ["poetry>=0.11"]
+build-backend = "poetry.masonry.api"
+
+
+[tool.pytest.ini_options]
+minversion = "5.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+    "integration",]
