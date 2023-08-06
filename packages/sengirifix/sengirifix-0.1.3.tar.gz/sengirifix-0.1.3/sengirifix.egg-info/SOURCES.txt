@@ -1,0 +1,13 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+sengiri/__init__.py
+sengiri/sengiri.py
+sengirifix.egg-info/PKG-INFO
+sengirifix.egg-info/SOURCES.txt
+sengirifix.egg-info/dependency_links.txt
+sengirifix.egg-info/requires.txt
+sengirifix.egg-info/top_level.txt
