@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dvcs
+Version: 0.1.0
+Summary: manipulate bazaar, fossil, git, mercurial repositories
+Home-page: https://sourceforge.net/p/dvcs/code/ci/default/tree
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: Copyright Ruamel bvba 2007-2020
+Keywords: pypi statistics
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst
+Requires-Dist: ruamel.appconfig
+Requires-Dist: ruamel.std.argparse (>=0.8)
+Requires-Dist: argcomplete
+
+
+manipulate bazaar, fossil, git, mercurial repositories
+
+

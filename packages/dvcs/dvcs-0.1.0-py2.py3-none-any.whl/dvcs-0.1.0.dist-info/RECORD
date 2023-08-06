@@ -1,0 +1,9 @@
+dvcs/__init__.py,sha256=YEI4M29BNyAfOzfgWMfpdD66BVkPpdeWle1RCDdHbt4,897
+dvcs/__main__.py,sha256=zBvVMag_ZvtvJiGFpGAYFHQ4LVwgTCtyTw8f5pgkv5Q,3440
+dvcs/dvcs.py,sha256=O_PSGLVjK1oQAsK8EMjOd4T35iHFh340g36JrUsmAVY,216
+dvcs-0.1.0.dist-info/METADATA,sha256=4XmofLo-HnrQltQrBzr2eA8HolLY2kGhMa9z6JuNbE8,751
+dvcs-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+dvcs-0.1.0.dist-info/entry_points.txt,sha256=995vOO2T4tVMUvR_R_yaMjN2IlLWnF3hPxKcZpkP1nU,45
+dvcs-0.1.0.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dvcs-0.1.0.dist-info/top_level.txt,sha256=UOcFZ7kDF9Ruxwm63DPMeAxsSp4xbxiTt3J2hHhBElU,5
+dvcs-0.1.0.dist-info/RECORD,,
