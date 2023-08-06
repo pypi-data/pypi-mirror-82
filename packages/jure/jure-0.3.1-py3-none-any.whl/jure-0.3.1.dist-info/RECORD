@@ -1,0 +1,10 @@
+jure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jure/events.py,sha256=Y0VqkRXLbPsgMdElC1X41aqUhLFapZ-VP8z3iiuHMA0,346
+jure/handlers.py,sha256=sTObhwRjE-5O73dDAzkznfa1fXJrYsq8rCQhL-4wGrk,6071
+jure/main.py,sha256=8qJ-FpRwmAWnVXhC6QlW8iKHMVTYUwqJ3_ie5U4Jxvs,1717
+jure/utils.py,sha256=33HvuWnKbXQPschI-0078irK0EHj-1KfbUYiCwmMuTc,1164
+jure-0.3.1.dist-info/entry_points.txt,sha256=EC43pXb2eeXKxXfwPZdkEmCZKdf35GMMHvU02mw_C4U,39
+jure-0.3.1.dist-info/LICENSE,sha256=FN3jF1Q4lIlf5WcgTeXQYUtGzFsostJWUbnJ3gOIdoM,1069
+jure-0.3.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+jure-0.3.1.dist-info/METADATA,sha256=AoPAsGjFINEnG0IDSxcpvNTRli6haI1S2kdt3LG3Z0E,3301
+jure-0.3.1.dist-info/RECORD,,
