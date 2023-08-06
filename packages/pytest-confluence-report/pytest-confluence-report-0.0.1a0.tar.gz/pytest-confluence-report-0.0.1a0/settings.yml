@@ -1,0 +1,18 @@
+# This file describes configuration pytest confluence report_from plugin
+
+# Confluence configuration settings
+confluence:
+  # Main Confluence URL e.g 'https://vyahello.atlassian.net/'
+  url: 'https://vyahello.atlassian.net/'
+  # Page names section
+  page:
+    # Parent page name e.g 'Home'
+    parent: 'Home'
+    # Target page name e.g 'Personal web site performance tests'
+    target: 'Test 2'
+  # Confluence credentials section
+  credentials:
+    # Confluence credentials username e.g 'email.com'
+    username: 'vyahello@gmail.com'
+    # Confluence API Key e.g '123abc'
+    api-key: 'Nobmb65eo76jDAyL6Aok6143'
