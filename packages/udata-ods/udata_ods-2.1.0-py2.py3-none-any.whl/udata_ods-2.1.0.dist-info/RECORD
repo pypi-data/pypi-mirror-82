@@ -1,0 +1,17 @@
+udata_ods/__init__.py,sha256=0hepQVqx_h2vhAMv15FxZb_tcYDqujOgR02rHAwz7m4,161
+udata_ods/harvesters.py,sha256=KGlz5miWbU8nOSTBN8JX0IEa_UPB2byh1jRiq-J5qu4,9928
+udata_ods/models.py,sha256=XQbsaji21CaXjokJZ1B6XhlD9-TZA6XE2HYxok5PVXU,343
+udata_ods/preview.py,sha256=OXuOs_MV0BSw8Zvqypt-BMltsImnvdJwbPljnEcVw84,687
+udata_ods/views.py,sha256=gvUx2TPuKOJc-wfPr6CNjtOSK84K8f2JoEWUVF9ur_w,600
+udata_ods/templates/preview.html,sha256=QXyr3lcC1OU2B7MruxhwQQFtkG1nlOreb7AO0Vx-PNU,2117
+udata_ods/translations/udata-ods.pot,sha256=5NbIpImPuqNctjvKnaKSHBbAhkSPHGLuuwRJa1RYv54,1111
+udata_ods/translations/fr/LC_MESSAGES/udata-ods.mo,sha256=AaeTkpYNimm2nCpLKeTUueZrVnJog18Z_mkYG17BnIM,899
+udata_ods/translations/fr/LC_MESSAGES/udata-ods.po,sha256=PcXZ5MGXEY9TyXvNsaAtbMt_UWF4vL6XO9uP2Nn60nQ,1295
+udata_ods/translations/pt/LC_MESSAGES/udata-ods.mo,sha256=2htSnfYp3IssQGabKiwDN7YlZm6_iAKx4RN3b0xuk88,509
+udata_ods/translations/pt/LC_MESSAGES/udata-ods.po,sha256=zfNcqYPVqXiL7n-KOFAWPMd_oEW_7EqI74Z5IlefLCE,829
+udata_ods-2.1.0.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+udata_ods-2.1.0.dist-info/METADATA,sha256=4wzVSfdcdSreyNE3ICVzXoEQ7wfsM13H3_mPyWFfnxY,4087
+udata_ods-2.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+udata_ods-2.1.0.dist-info/entry_points.txt,sha256=tW9q2f5i-KmSrKq6Fz9mAENM3ln-33AQxxRffMmyI24,186
+udata_ods-2.1.0.dist-info/top_level.txt,sha256=u0eIpkxSTq7Bj1aq6vy0f8IHGG3Yib03fVkcJTBIg_s,10
+udata_ods-2.1.0.dist-info/RECORD,,
