@@ -1,0 +1,41 @@
+Metadata-Version: 2.0
+Name: fplib
+Version: 0.1.1
+Summary: A functional programming library for python.
+Home-page: https://github.com/hruskamiro/fplib
+Author: Miroslav Hruska
+Author-email: hruska.miro@gmail.com
+License: MIT
+Keywords: functional programming
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+
+*****
+fplib
+*****
+
+A set of functions for programming in python in a more functional style. 
+
+Compatibility
+*************
+
+Python 2.7
+
+Documentation
+*************
+
+You can find the documentation at `Read the Docs <https://fplib.readthedocs.io/en/latest>`_.
+
+Instalation
+***********
+
+Install the latest release using: 
+
+``$ pip install fplib``
+
+License
+*******
+
+Licensed under MIT license.
+
+
