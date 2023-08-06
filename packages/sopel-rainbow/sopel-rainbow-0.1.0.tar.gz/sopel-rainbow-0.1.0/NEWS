@@ -1,0 +1,16 @@
+## Changelog
+
+The brief, illustrious history of `sopel-rainbow`, a silly little plugin
+spawned from [a tongue-in-cheek
+upstream issue](https://github.com/sopel-irc/sopel/issues/1962).
+
+
+### sopel-rainbow 0.1.0
+
+Initial release, featuring:
+
+* `.rainbow` command
+* Configurable color order
+* Optional randomized start point
+* Control-code stripping on Sopel 7.1+
+* Compatible with Sopel 7.0 through (planned) 8.x releases
