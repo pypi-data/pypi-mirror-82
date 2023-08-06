@@ -1,0 +1,58 @@
+Metadata-Version: 1.1
+Name: minicql
+Version: 0.3.0
+Summary: Yet another Cassandra database driver
+Home-page: https://github.com/nakagami/minicql/
+Author: Hajime Nakagami
+Author-email: nakagami@gmail.com
+License: MIT
+Description: =========
+        minicql
+        =========
+        
+        Yet another Cassandra (CQL protocol) database driver.
+        
+        Requirement
+        --------------
+        
+        - Python3.5+
+        
+        Example
+        -------------
+        
+        Simple example
+        
+        ::
+        
+           import minicql
+           conn = minicql.connect('server_name', 'keyspace')
+           cur = conn.cursor()
+           cur.execute("select * from test")
+           for c in cur.fetchall():
+               print(c)
+           conn.close()
+        
+        Use Cosmos DB cassandra API
+        
+        ::
+        
+           import minicql
+           conn = minicql.connect(
+               'xxxxx.cassandra.cosmos.azure.com',
+               'keyspace',
+               user='xxxxx',
+               password='?????',
+               port=10350,
+               use_ssl=True
+           )
+               ...
+        
+        
+Keywords: Cassandra
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
