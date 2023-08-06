@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: sphinx-plotly-directive
+Version: 0.1.0
+Summary: A directive for including a plotly figure in a Sphinx document
+Home-page: https://github.com/harupy/sphinx-plotly-directive
+Maintainer: harupy
+Maintainer-email: hkawamura0130@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: plotly
+Provides-Extra: dev
+Requires-Dist: pandas ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx (==3.0.4) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+
+# sphinx-plotly-directive
+
+![CI](https://github.com/harupy/sphinx-plotly-directive/workflows/CI/badge.svg)
+[![Documentation Status](https://readthedocs.org/projects/sphinx-plotly-directive/badge/?version=latest)](https://sphinx-plotly-directive.readthedocs.io/en/latest/?badge=latest)
+
+A directive for including a Plotly figure in a Sphinx document.
+
+## Install
+
+```
+pip install git+https://github.com/harupy/sphinx-plotly-directive.git
+```
+
+## How to use
+
+```
+.. plotly::
+
+   import plotly.express as px
+   px.scatter(x=[0, 1, 2, 3, 4], y=[0, 1, 4, 9, 16])
+```
+
+The last line of a code block must end with an expression that evaluates to a plotly figure.
+
+## Development
+
+### Format code
+
+```
+flake8 .
+isort .
+black .
+```
+
+### Run tests
+
+```
+pytest tests
+```
+
+### Build document
+
+```
+cd docs
+make html
+```
+
+
