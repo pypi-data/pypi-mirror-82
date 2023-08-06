@@ -1,0 +1,14 @@
+allure/__init__.py,sha256=5ZAXAxq1RnvtcrXTsLS3RE17A2NI3fO4aOqbSo81cRw,444
+allure/adaptor.py,sha256=ztDAEkmHDy6PrxXB4ehluBfzd1JNwRthnntJHSmihLw,253
+allure/common.py,sha256=jw6qXHZ9CPIKIYE44ClsxvtO9MFOWFboHIj3ijNmQsI,8353
+allure/constants.py,sha256=qlGjChrbl9iWJ3SEsf0mG5DHeznYG3Clr2JFQr9nT-E,1265
+allure/pytest_plugin.py,sha256=yxwpzFqOGNDcrmNHhMnJWkpHn42r3t8AlBHFQ_V9k8Y,24186
+allure/rules.py,sha256=3iFX_kTGyFAYX3mVhSZ4NEJV0djKF8aeQ1tzrB-A6R8,3645
+allure/structure.py,sha256=Ve3t37l3Hl8oBkmiU1UrN75GJjIDfRsU9-QseQD3x_M,3198
+allure/utils.py,sha256=nVyV2A6Ydg32Pyyv-DIsQ6Wfv3pnrnb-k5JrL3wTcjM,5261
+pytest_allure_adaptor2-1.8.2.dist-info/LICENSE,sha256=_ILyxjGpaNXxLN8X82EDVNrk4OoEkXoUJfl5Gu9H55g,543
+pytest_allure_adaptor2-1.8.2.dist-info/METADATA,sha256=IVfr7J02SoggswcwFOMYNdXdwtxvEooMm4NF86uNPgQ,349
+pytest_allure_adaptor2-1.8.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pytest_allure_adaptor2-1.8.2.dist-info/entry_points.txt,sha256=BjMLhZc2qMxJ_isONDtXg25zw4ORQhftSBgF6EWCPb4,50
+pytest_allure_adaptor2-1.8.2.dist-info/top_level.txt,sha256=lZk2Ai6Jg_E2WN5ZDR_kXk1ziOlWi6wpr6bnJIxDN7Y,7
+pytest_allure_adaptor2-1.8.2.dist-info/RECORD,,
