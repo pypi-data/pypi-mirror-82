@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mentalpoker
+Version: 0.5.0
+Summary: cryptographically secure card shuffling, dealing, revealing without TTP
+Home-page: http://github.com/superarius/mentalpoker
+Author: superarius
+Author-email: superarius@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
+

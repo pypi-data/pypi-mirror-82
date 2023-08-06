@@ -1,0 +1,10 @@
+mentalpoker/__init__.py,sha256=ysI5izAmATQZbV9b97CG3aj6nz2zcAlu9WMF_CQjIkc,21
+mentalpoker/dealer.py,sha256=NIwzwYHKs2z3ch5uqwinnn5MPwMX2cdbqctWES6d18o,3830
+mentalpoker/elgamal.py,sha256=8_C_iNJkEekpvPKmmkNwJioxfZg69AfAAqCAsKAoJig,5512
+mentalpoker/elliptic.py,sha256=PTjIou4btgxU4kmVIpdpoH23qsWGq5WW4iVmFtGiMVg,844
+mentalpoker/utils.py,sha256=TjnHGymbEnxpGoCUPExyUoHxsSQ6zbH5spO24x2dGRU,768
+mentalpoker-0.5.0.dist-info/LICENSE,sha256=QtjhLNRFRX4ercKh7drsLR0_RRQiZkqUqSEY4nw_5ME,1070
+mentalpoker-0.5.0.dist-info/METADATA,sha256=lW6V-tbquGZ5keDf97hRkOxXhlo1NPOy3rCuwwSAmLY,307
+mentalpoker-0.5.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mentalpoker-0.5.0.dist-info/top_level.txt,sha256=qG1QBY5AfN-xuKjdL3y4evMuJqvgi-ZPFnEh1beTHtI,12
+mentalpoker-0.5.0.dist-info/RECORD,,
