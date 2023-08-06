@@ -1,0 +1,14 @@
+Changelog
+=========
+
+1.0.2
+-----
+ - updated doctests
+
+1.0.1
+-----
+ - small update in code used to apply a skin
+
+1.0.0
+-----
+ - initial release
