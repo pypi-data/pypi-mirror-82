@@ -1,0 +1,7 @@
+docbox/__init__.py,sha256=lhowoDiQ9jUCRJjrgcXqXXW7sqwIK-oapMOmHs6tlmM,57
+docbox/bounding_box.py,sha256=cc9HFoYjNwudlE3p6nSwWDEqoWWxO0nKJTw9CRTtYBA,247
+docbox/tests/test_bounding_box.py,sha256=eNTnCkxaiGKFZwv-GleZXrpaMU8r1Bh_L5FQ89_-uf0,112
+docbox-0.0.2.dist-info/LICENSE,sha256=Id7GRGEzOQtkHg3_yTJlUgR78h4cdpvDpZZdBOMeEUg,1082
+docbox-0.0.2.dist-info/WHEEL,sha256=NLqmsx-ZFZ6gDavYgh2oH0ZSN-KRmpcdEXIZDnYy9Pg,99
+docbox-0.0.2.dist-info/METADATA,sha256=UTkcDsBJcgeqgXcHfC3FRsKCaEilGhqRTNTmZ4DPF00,551
+docbox-0.0.2.dist-info/RECORD,,

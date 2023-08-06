@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: docbox
+Version: 0.0.2
+Summary: docbox -- boxes on documents
+Home-page: https://github.com/tccorcoran/docbox
+License: UNKNOWN
+Author: Thomas Corcoran
+Author-email: chasecorcoran@gmail.com
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Provides-Extra: dev
+
+# docbox - Boxes on Documents ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tccorcoran/docbox/docbox?style=plastic)
