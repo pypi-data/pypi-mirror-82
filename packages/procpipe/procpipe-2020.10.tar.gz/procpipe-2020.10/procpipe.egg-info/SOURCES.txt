@@ -1,0 +1,8 @@
+README.md
+setup.py
+procpipe/__init__.py
+procpipe/pipeline.py
+procpipe.egg-info/PKG-INFO
+procpipe.egg-info/SOURCES.txt
+procpipe.egg-info/dependency_links.txt
+procpipe.egg-info/top_level.txt
