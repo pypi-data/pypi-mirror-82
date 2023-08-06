@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+src/aapt2/__init__.py
+src/aapt2/aapt.py
+src/aapt2.egg-info/PKG-INFO
+src/aapt2.egg-info/SOURCES.txt
+src/aapt2.egg-info/dependency_links.txt
+src/aapt2.egg-info/not-zip-safe
+src/aapt2.egg-info/top_level.txt
+src/aapt2/bin/Darwin/aapt_64
+src/aapt2/bin/Linux/aapt_64
+src/aapt2/bin/Windows/aapt_64.exe
