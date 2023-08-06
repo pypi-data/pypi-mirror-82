@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: eviex
+Version: 0.0.0
+Summary: EVents Inverted indEX
+Author: Lou Marvin Caraig
+Author-email: loumarvincaraig@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
