@@ -1,0 +1,3 @@
+pylast
+python-twitter
+mastodon-py
