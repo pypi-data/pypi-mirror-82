@@ -1,0 +1,6 @@
+global-include *.txt *.py *.json
+include sample/*.json
+include plotursheet/client_secrets.json
+include plotursheet/plotursheet/tocken.pickle
+include plotursheet/plotursheet/config.txt
+graft plotursheet
