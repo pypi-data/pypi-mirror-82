@@ -1,0 +1,10 @@
+pandas
+matplotlib
+scikit-learn
+seaborn
+tensorflow==1.15
+tensorflow-probability==0.8.0
+scipy
+scikit-image
+scanpy
+gseapy
