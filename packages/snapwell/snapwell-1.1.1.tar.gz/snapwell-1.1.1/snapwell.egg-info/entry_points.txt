@@ -1,0 +1,6 @@
+[console_scripts]
+snapwell_app = snapwell.snapwell_main:main
+
+[ert]
+snapwell = snapwell._ert_hooks._ert_hook
+
