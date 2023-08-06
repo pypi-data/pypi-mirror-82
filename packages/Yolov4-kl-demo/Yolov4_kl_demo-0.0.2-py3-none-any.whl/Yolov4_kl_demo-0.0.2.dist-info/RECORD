@@ -1,0 +1,13 @@
+Yolov4_KL_demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Yolov4_KL_demo/loss.py,sha256=WZ1fAF-2hHvWD_0VpDsoIns0JpfKH286WkC79i1nsAY,32382
+Yolov4_KL_demo/models.py,sha256=bF7sfBcOJqvW-MS0QPWU04p6hDdmB6eY7GaKH53hho4,19429
+Yolov4_KL_demo/tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Yolov4_KL_demo/tool/camera.py,sha256=kYDq1lcGaebaGSbkVNf2IzsuQcUQ-gHG3sjQdBQ9334,3847
+Yolov4_KL_demo/tool/torch_utils.py,sha256=SIunYX0Wy23wyS74pxOA1JD6uCYOvMeB7yOU3zpC1I0,3087
+Yolov4_KL_demo/tool/utils.py,sha256=RHJwCGXYpiphbf51Z9oSLvRMwCkPpOrySX97pT7ySkk,10310
+Yolov4_KL_demo/tool/yolo_layer.py,sha256=RDrydjdIl0TvfxdOqQQfL5FYDdkKjeSFzwqz8jJ9oso,20377
+Yolov4_kl_demo-0.0.2.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Yolov4_kl_demo-0.0.2.dist-info/METADATA,sha256=2dHGMMHjBnUV051vI_szj0HbQO4tKUHKkvGn4T-Zung,633
+Yolov4_kl_demo-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Yolov4_kl_demo-0.0.2.dist-info/top_level.txt,sha256=a1TS0E_uu8-WvcaPPYCF7BQT088t_hFOR00abOGg6EM,15
+Yolov4_kl_demo-0.0.2.dist-info/RECORD,,
