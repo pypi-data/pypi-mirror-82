@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hashstorage
+Version: 0.1.1
+Summary: Implementation of Simple-HashStorage.
+Home-page: https://github.com/chike0905/simple-hashstorage
+License: WTFPL
+Author: chike0905
+Author-email: chike@sfc.wide.ad.jp
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Flask (==1.1.1)
+Project-URL: Repository, https://github.com/chike0905/simple-hashstorage

@@ -1,0 +1,8 @@
+hashstorage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hashstorage/cli.py,sha256=doCrjOfF9BhFFYAmmFoCrQ_FMao1oE8CoMRJ0GcjrVo,1549
+hashstorage/hashstorage.py,sha256=tBVYXus4OvKhxRHDZdNGcJ1fQoAUKVpIc5P1ppYsBLQ,1274
+hashstorage/utils.py,sha256=w417InBj-__wUKiVtD9-d4SXAuCIlulYVR2cvx-YJK0,571
+hashstorage-0.1.1.dist-info/entry_points.txt,sha256=YkpHBKkbAW1Z7hDGehJOcOprQMBuU1BcaD7SKJ1kJms,56
+hashstorage-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+hashstorage-0.1.1.dist-info/METADATA,sha256=2i2W9iw8r51UijcU4bVpbVElmqPPTGDEL5Opm9vylr8,608
+hashstorage-0.1.1.dist-info/RECORD,,
