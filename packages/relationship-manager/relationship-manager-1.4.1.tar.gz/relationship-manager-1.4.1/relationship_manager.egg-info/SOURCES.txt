@@ -1,0 +1,8 @@
+README.md
+setup.py
+relationship_manager.egg-info/PKG-INFO
+relationship_manager.egg-info/SOURCES.txt
+relationship_manager.egg-info/dependency_links.txt
+relationship_manager.egg-info/top_level.txt
+rm_python/__init__.py
+rm_python/relationship_manager.py
