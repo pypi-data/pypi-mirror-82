@@ -1,0 +1,11 @@
+fake_geo_images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fake_geo_images/fakegeoimages.py,sha256=tUM8Jy7oWwcPhvO_hQKsnCafzp448U6qcwQ7cyUSqO0,7003
+fake_geo_images/logging.py,sha256=m-UB6PasyzuOY4eQD-D5oPECHb_npyD1dSXEGMPiaMI,923
+fake_geo_images/raster.py,sha256=p5LF_396EPvEn8komZ2xrcFv0oi2AUJfJDuu92EWIAk,1506
+fake_geo_images/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fake_geo_images/test/test_fakegeoimages.py,sha256=Uyt2jkhLZ09RCazsvlhJewKblnpLpz8LAjI7xqeAZ5I,1136
+fake_geo_images-0.1.0.dist-info/LICENSE,sha256=yHn6lpYvA2ariHayRRm2T5quCHmFXqIwVV7A4EcG0wU,1061
+fake_geo_images-0.1.0.dist-info/METADATA,sha256=2COM50tnCx6Y3tple-agcWA27TtyZx74z6-ddMk8B4k,2324
+fake_geo_images-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fake_geo_images-0.1.0.dist-info/top_level.txt,sha256=qggEwSTpyHjUXjsGiCDWq1DPwkMUYyNkQJwVxcIm53g,16
+fake_geo_images-0.1.0.dist-info/RECORD,,
