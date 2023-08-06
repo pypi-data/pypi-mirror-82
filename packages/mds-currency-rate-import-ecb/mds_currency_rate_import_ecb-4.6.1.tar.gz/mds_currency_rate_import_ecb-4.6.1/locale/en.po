@@ -1,0 +1,55 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+
+##########
+# config #
+##########
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Import Settings"
+msgstr "Import Settings"
+
+msgctxt "model:ir.action,name:act_configuration_view"
+msgid "Import Settings"
+msgstr "Import Settings"
+
+msgctxt "field:currency_rate_import_ecb.config,url:"
+msgid "Download-URL"
+msgstr "Download-URL"
+
+msgctxt "help:currency_rate_import_ecb.config,url:"
+msgid "URL for downloading the XML file from the ECB."
+msgstr "URL for downloading the XML file from the ECB."
+
+
+##########
+# wizard #
+##########
+msgctxt "model:ir.action,name:wizard_update"
+msgid "Update exchange rates"
+msgstr "Update exchange rates"
+
+
+############
+# currency #
+############
+msgctxt "field:currency.currency,currency_update:"
+msgid "Enable online update"
+msgstr "Enable online update"
+
+msgctxt "help:currency.currency,currency_update:"
+msgid "Activates the periodic updating of this currency with data from the ECB."
+msgstr "Activates the periodic updating of this currency with data from the ECB."
+
+msgctxt "field:currency.currency,last_update:"
+msgid "Update"
+msgstr "Update"
+
+
+###########
+# cronjob #
+###########
+msgctxt "model:ir.cron,name:cron_update_rates"
+msgid "Currency: Update Exchange Rates"
+msgstr "Currency: Update Exchange Rates"
