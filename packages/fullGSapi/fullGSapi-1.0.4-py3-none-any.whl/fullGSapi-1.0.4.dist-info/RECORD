@@ -1,0 +1,13 @@
+fullGSapi/api/__init__.py,sha256=TBuGEyP7Up6cPwaTj5kBsJrQY4xCus9Rwt54EaDaBMU,128
+fullGSapi/api/assignment_grader.py,sha256=vh7SDSsJuTgKlbN2j204N8psRlw3nLOWLiz76JUubko,19583
+fullGSapi/api/assignments.py,sha256=LKWFpghpf4yksLajmayTcy5aas-unM4jIgskcb4d7b4,202
+fullGSapi/api/autograder.py,sha256=XEH9UynosCx0W14IAMZcLa2lWiMarX7e9KFBI5Znmmk,6248
+fullGSapi/api/cdata.py,sha256=cNQKqq0Ho-j19oVf7xdlGJLXbygkl6CYEN5PGnBNQyg,1069
+fullGSapi/api/client.py,sha256=8G4Jzc-RnafbdbvwSQ3pJaZD1uhYhvaWXandaeOz7q0,37564
+fullGSapi/api/online_assignment.py,sha256=GPMWlpKkRW3S904d6KCynylhpG3GHOkrC_k2iHiGErY,4706
+fullGSapi/api/utils.py,sha256=m_-99c6SOpXhMNpyXyUu2qq52qTeGevqC-5mfd0L9d8,283
+fullGSapi-1.0.4.dist-info/LICENSE,sha256=UIp30ue1HZit7tMmSK0SS3swJBqOcLLnLJn5LY5YdNE,1036
+fullGSapi-1.0.4.dist-info/METADATA,sha256=fUYT2yjhOWXuV5eYyGjUm-E_S0jmdomB8Lha1HjYLaw,779
+fullGSapi-1.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fullGSapi-1.0.4.dist-info/top_level.txt,sha256=NABiaLbXOeCoiEbz4sInB9j8ifnfK1XIB7MAFKhknO4,10
+fullGSapi-1.0.4.dist-info/RECORD,,
