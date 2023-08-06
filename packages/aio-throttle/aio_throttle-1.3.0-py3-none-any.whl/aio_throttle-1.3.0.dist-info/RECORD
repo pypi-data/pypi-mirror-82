@@ -1,0 +1,10 @@
+aio_throttle/__init__.py,sha256=pF_oBKVVy-1loN6Ni_AMKc1bfDFjrPbz1uMTtFKiLQI,207
+aio_throttle/aiohttp.py,sha256=mYUBvEvzwU2Rvzq0Ungah1MEqMwMLg3HPW69o7p83HU,2468
+aio_throttle/internals.py,sha256=qK1tFGDySxZO2uhYTPh9Ke-rrmhH6erT7_QA29WFsog,1612
+aio_throttle/quotas.py,sha256=mcN7uit4h94PclMH40LAJGcrRxewKn2wbH0l1kwfdak,2568
+aio_throttle/throttle.py,sha256=uTaHP4dHEOZGdYO_IJ0Cz5F58pY93ekBRSC41pnOt5Y,6870
+aio_throttle-1.3.0.dist-info/LICENSE,sha256=7h0I3RfRW8wlufnqc0A92FBIszHw7u8o1r2vOONBGGM,1068
+aio_throttle-1.3.0.dist-info/METADATA,sha256=HjvIq-f8asUrcBZL3M6hXZll04REEuulqC2DQMsDCnE,1347
+aio_throttle-1.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aio_throttle-1.3.0.dist-info/top_level.txt,sha256=AyonamAQxvQ_-1mfbSQvYgOYmEIQ4nYgQi2_If4B4xU,13
+aio_throttle-1.3.0.dist-info/RECORD,,
