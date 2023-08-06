@@ -1,0 +1,5 @@
+# 循环新增打包文件
+recursive-include src/ *.js
+
+# 全路径新增打包文件
+#include src/hi2020/static/*.js
