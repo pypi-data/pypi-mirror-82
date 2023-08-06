@@ -1,0 +1,7 @@
+bidsphysio.base>=1.2.0
+
+[all]
+pytest
+
+[tests]
+pytest
