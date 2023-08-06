@@ -1,0 +1,7 @@
+README.md
+setup.py
+BO4E.egg-info/PKG-INFO
+BO4E.egg-info/SOURCES.txt
+BO4E.egg-info/dependency_links.txt
+BO4E.egg-info/top_level.txt
+bo4e/__init__.py
