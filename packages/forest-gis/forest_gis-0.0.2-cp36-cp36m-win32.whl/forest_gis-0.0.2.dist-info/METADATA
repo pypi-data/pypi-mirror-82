@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: forest-gis
+Version: 0.0.2
+Summary: A set of python modules for machine learning and data mining
+Home-page: http://scikit-learn.org
+Maintainer: Tao Li
+Maintainer-email: lp1559345469@gmail.com
+License: new BSD
+Download-URL: https://pypi.org/project/scikit-learn/#files
+Project-URL: Bug Tracker, https://github.com/scikit-learn/scikit-learn/issues
+Project-URL: Documentation, https://scikit-learn.org/stable/documentation.html
+Project-URL: Source Code, https://github.com/scikit-learn/scikit-learn
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.15.0)
+Requires-Dist: scipy (>=0.19.1)
+Requires-Dist: joblib (>=0.14)
+Requires-Dist: threadpoolctl (>=2.0.0)
+Provides-Extra: benchmark
+Requires-Dist: matplotlib (>=2.1.1) ; extra == 'benchmark'
+Requires-Dist: pandas (>=0.25.0) ; extra == 'benchmark'
+Requires-Dist: memory-profiler (>=0.57.0) ; extra == 'benchmark'
+Provides-Extra: docs
+Requires-Dist: matplotlib (>=2.1.1) ; extra == 'docs'
+Requires-Dist: scikit-image (>=0.13) ; extra == 'docs'
+Requires-Dist: pandas (>=0.25.0) ; extra == 'docs'
+Requires-Dist: seaborn (>=0.9.0) ; extra == 'docs'
+Requires-Dist: memory-profiler (>=0.57.0) ; extra == 'docs'
+Requires-Dist: sphinx (>=3.2.0) ; extra == 'docs'
+Requires-Dist: sphinx-gallery (>=0.7.0) ; extra == 'docs'
+Requires-Dist: numpydoc (>=1.0.0) ; extra == 'docs'
+Requires-Dist: Pillow (>=7.1.2) ; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: matplotlib (>=2.1.1) ; extra == 'examples'
+Requires-Dist: scikit-image (>=0.13) ; extra == 'examples'
+Requires-Dist: pandas (>=0.25.0) ; extra == 'examples'
+Requires-Dist: seaborn (>=0.9.0) ; extra == 'examples'
+Provides-Extra: tests
+Requires-Dist: matplotlib (>=2.1.1) ; extra == 'tests'
+Requires-Dist: scikit-image (>=0.13) ; extra == 'tests'
+Requires-Dist: pandas (>=0.25.0) ; extra == 'tests'
+Requires-Dist: pytest (>=5.0.1) ; extra == 'tests'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'tests'
+Requires-Dist: flake8 (>=3.8.2) ; extra == 'tests'
+Requires-Dist: mypy (>=0.770) ; extra == 'tests'
+Requires-Dist: pyamg (>=4.0.0) ; extra == 'tests'
+
+Installation
+------------
+
+Dependencies
+~~~~~~~~~~~~
+
+scikit-learn requires:
+
+- Python (>= 3.6)
+- NumPy (>= 1.15.0)
+- SciPy (>= 0.19.1)
+- joblib (>= 0.14)
+- threadpoolctl (>= 2.0.0)
+
+
+If you already have a working installation of numpy and scipy,
+the easiest way to install scikit-learn is using ``pip``   ::
+
+    pip install -U forest-gis
+
+or ``conda``::
+
+    conda install -c conda-forge forest-gis
+
