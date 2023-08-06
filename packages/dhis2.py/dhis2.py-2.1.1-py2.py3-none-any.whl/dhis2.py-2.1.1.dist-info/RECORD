@@ -1,0 +1,11 @@
+dhis2/__init__.py,sha256=BQau38Psi_Px6aEAsr_f-q9XRn4nch6WZ9WyTSDtg58,942
+dhis2/__version__.py,sha256=ai6O3ZGRcnczj57skfQR7fsI4TEkR5OGfTwjHLby6ww,231
+dhis2/api.py,sha256=HuMoMxHop0IfUY5kyyhj6uqpaUxgTM-oZf9sLLZ7RAU,18125
+dhis2/exceptions.py,sha256=5ev5jp6uOL6p0Q9xSQQXXRfWLnaty16-Q2lpEn9ll5o,1000
+dhis2/logger.py,sha256=QhWz7T9xKrJC77y5hZpiee5TRnjj9oWGY5dhSFwsLRM,2209
+dhis2/utils.py,sha256=atljNKnYUjNTZ8SAAbC5p4W5EAWPOBgNX4tR36inOFk,5450
+dhis2.py-2.1.1.dist-info/LICENSE,sha256=luGelmH2BXt10Fs5gBnZpssNJ-jjHyQBkQS7aBK7V2w,1068
+dhis2.py-2.1.1.dist-info/METADATA,sha256=MtRD3azjGeodm6N8wbjGgO9ocgFFkqztQPWzbafN6e4,15305
+dhis2.py-2.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+dhis2.py-2.1.1.dist-info/top_level.txt,sha256=LOjPD3dllCJKNuAW93wBAvZFwaNDAhKHm0IsR2SIwFo,6
+dhis2.py-2.1.1.dist-info/RECORD,,
