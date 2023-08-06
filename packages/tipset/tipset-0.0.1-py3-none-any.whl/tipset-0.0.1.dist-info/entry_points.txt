@@ -1,0 +1,4 @@
+[console_scripts]
+json_parser = tipset.json_parser:main
+tipsearch = tipset.tipsearch:main
+
