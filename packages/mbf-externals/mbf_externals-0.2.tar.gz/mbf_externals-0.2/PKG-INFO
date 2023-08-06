@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mbf_externals
+Version: 0.2
+Summary: wrappers for external algorithms
+Home-page: https://github.com/TyberiusPrime/mbf_externals
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Description: # mbf_externals
+        
+        Support for external algorithms in pypipegraphs
+        
+        
+        Part of the mbf_* suite from https://github.com/IMTMarburg
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Provides-Extra: testing
