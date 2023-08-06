@@ -1,0 +1,10 @@
+real_fractions/__init__.py,sha256=hnpioCCXndruYwvWCQZyNH1781JILvtDk6MisqB9qJc,1654
+real_fractions/convert.py,sha256=ky4_ECT4kPjC8ClQpL4cGcu-mQ_NXGhjghVJhStZtXI,5866
+real_fractions/core.py,sha256=y8se__IWHjp2KHy8GuYiezT-Ki4tGo64Jv9NrY1h1dI,6908
+real_fractions/main.py,sha256=0lsYXFe2Rx1bf8y5Nw_a905kc1EKxuQlEDp9dxLV5Sc,166
+real_fractions/operation.py,sha256=5M1RVEuY9vrpqKLlMorMGvPKgaeGICrwnvL2X16uIS0,10747
+real_fractions-1.1.1.dist-info/LICENSE,sha256=3KCiPvKHY7G2YDdUk5VimdbMIEeVTvYvX9Ll5CQO9bE,1070
+real_fractions-1.1.1.dist-info/METADATA,sha256=v2TPeX92uducopwCI595m2DFuJfjg2kSmNY3Tg2eaP8,4663
+real_fractions-1.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+real_fractions-1.1.1.dist-info/top_level.txt,sha256=pBdOeOC8wkvrXYgaYGxxCPCHozpv2d1he_rLNzYG3b4,15
+real_fractions-1.1.1.dist-info/RECORD,,
