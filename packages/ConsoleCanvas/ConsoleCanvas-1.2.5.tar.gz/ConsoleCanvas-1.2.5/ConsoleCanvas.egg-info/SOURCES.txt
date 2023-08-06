@@ -1,0 +1,7 @@
+README.md
+setup.py
+ConsoleCanvas.egg-info/PKG-INFO
+ConsoleCanvas.egg-info/SOURCES.txt
+ConsoleCanvas.egg-info/dependency_links.txt
+ConsoleCanvas.egg-info/top_level.txt
+consoleCanvas/__init__.py
