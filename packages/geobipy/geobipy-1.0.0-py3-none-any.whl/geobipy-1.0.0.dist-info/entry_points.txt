@@ -1,0 +1,4 @@
+[console_scripts]
+geobipy = geobipy:geobipy
+geobipy_mpi = geobipy:geobipy_mpi
+
