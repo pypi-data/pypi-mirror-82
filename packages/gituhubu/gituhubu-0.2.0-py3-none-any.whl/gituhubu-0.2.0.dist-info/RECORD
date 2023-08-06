@@ -1,0 +1,11 @@
+gituhubu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gituhubu/api.py,sha256=GLu5dRJyTlYrfXhCcIZPOk6LjT5XRU9lDyvFKxGdupM,3936
+gituhubu/config.py,sha256=mwCk0GOPB17Bbav6tAg98PhpzHkbTSR_Yrt32mQWVGE,44
+gituhubu/local_storage.py,sha256=14U5Chu-Dhxok4ZLcboXD0taE-Dtmj8gmXmbOxBgaMA,1093
+gituhubu/utils.py,sha256=Mp9SzBrBiR99Dtoc7aDTrH6hkchIzVyCQc4gjFUqr5w,1250
+gituhubu-0.2.0.data/scripts/gituhubu,sha256=Y70iBn119r8I-Vd9Z4dgKlOcagLNnpudAeQccG8eKiY,2173
+gituhubu-0.2.0.dist-info/LICENSE.txt,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+gituhubu-0.2.0.dist-info/METADATA,sha256=YnPQqGjtezh1yfc-9eP8Yd0xu-T1AE3OQgWw1ZvBYV0,2597
+gituhubu-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gituhubu-0.2.0.dist-info/top_level.txt,sha256=N_6O68oeyb_h1Vczpv9zUDXVdGIxqrrcSkO0IKcGiRA,9
+gituhubu-0.2.0.dist-info/RECORD,,
