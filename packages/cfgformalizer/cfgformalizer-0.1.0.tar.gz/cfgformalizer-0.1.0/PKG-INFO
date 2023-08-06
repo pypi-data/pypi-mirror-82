@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: cfgformalizer
+Version: 0.1.0
+Summary: Formalize (show run formal) Cisco IOS, IOS-XR and other type of network configs for easy grepping
+Author: xv0x7c0
+Author-email: 13061441+xv0x7c0@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
