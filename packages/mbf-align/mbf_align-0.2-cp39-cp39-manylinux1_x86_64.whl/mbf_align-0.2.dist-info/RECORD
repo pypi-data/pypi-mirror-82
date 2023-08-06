@@ -1,0 +1,16 @@
+mbf_align/_common.c,sha256=wSVD5Bdr4M7SbBjQSP0klYNNXvzkUkAYKqr6_pcJGAM,458313
+mbf_align/_common.cpython-39-x86_64-linux-gnu.so,sha256=n_-cPFd6aTtmJ8uRcB0xzKk91WEaUpGqQQQ0lK8gUpI,803728
+mbf_align/__init__.py,sha256=sfCge60FuhREsdzXHn6zNhQ71Vk2yUDdSPjJ3RNUNGM,355
+mbf_align/exceptions.py,sha256=dNdZET1JpA_gyopTzSxbrPZKAsus_OuFfY-_T0PFb8o,41
+mbf_align/fastq2.c,sha256=ERmSTETKiacKBGR1gqL9waGhK0L3z2Zou-1oxMOpWH8,934613
+mbf_align/post_process.py,sha256=G7_uicG5N7Cp95ivYaOHdCsb8Q80f2nuG_m_WL8Qor4,7345
+mbf_align/raw.py,sha256=VYWP-KlirmEEsOFgg15U0XIKsDLwaMzbQ-3sSZEtZBY,11371
+mbf_align/strategies.py,sha256=onlBUR1-vfgTIRa_URc_0Zc3q5N-lsUkoCYTTCQGgaY,18405
+mbf_align/fastq2.cpython-39-x86_64-linux-gnu.so,sha256=mIxEDj0uecV4NvrbYgKS9vcXC1RRkFXQWnspZy5U84c,2286456
+mbf_align/lanes.py,sha256=yVqNXmo75KOlcGYZ7aH2AvztyuT0cx9Jr1ugbevweUU,25283
+mbf_align-0.2.dist-info/METADATA,sha256=aMsD98i-sY3_pZnGO473_YpfuJEOPJtK8XusegAyJdQ,1295
+mbf_align-0.2.dist-info/WHEEL,sha256=MbtbqAZac_n2F4h43wTK1gDTc2gN4Ms3L62s7suaJMo,108
+mbf_align-0.2.dist-info/AUTHORS.rst,sha256=cSBy6yEDPSUKe4eVD0ZCiVuxZe5Um9YQYv-SUwSpsh0,95
+mbf_align-0.2.dist-info/top_level.txt,sha256=l4hYjd9efmslh77RAbsxXqrQH__poilTcmZ_E2sOIRg,10
+mbf_align-0.2.dist-info/LICENSE.txt,sha256=c92tQwfZ4VVWjxlw6AERgzrSnzviw9aOVnrLv0eaj0U,1086
+mbf_align-0.2.dist-info/RECORD,,
