@@ -1,0 +1,9 @@
+---
+engines:
+  pylintpython3:
+    enabled: true
+env:
+  - CODACY_PROJECT_TOKEN=c2999183e7844bb78ac468a4388306d0
+language: python
+python:
+  - 3.8
