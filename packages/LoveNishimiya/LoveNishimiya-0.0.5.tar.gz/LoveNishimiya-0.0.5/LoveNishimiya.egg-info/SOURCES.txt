@@ -1,0 +1,10 @@
+LoveNishimiya.py
+README.md
+LoveNishimiya/__init__.py
+LoveNishimiya/test1.py
+LoveNishimiya.egg-info/PKG-INFO
+LoveNishimiya.egg-info/SOURCES.txt
+LoveNishimiya.egg-info/dependency_links.txt
+LoveNishimiya.egg-info/entry_points.txt
+LoveNishimiya.egg-info/requires.txt
+LoveNishimiya.egg-info/top_level.txt
