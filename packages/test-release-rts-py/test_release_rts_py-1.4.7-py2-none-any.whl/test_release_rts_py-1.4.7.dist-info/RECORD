@@ -1,0 +1,7 @@
+test-release-rts-py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test-release-rts-py/client.py,sha256=dKGPEFT_UMiX25_ahHy9zcytZ7uqiR2ex5oc29-fn0c,23509
+test_release_rts_py-1.4.7.dist-info/LICENSE,sha256=yd9UksyIryJqb63vaNbCkt4qbVZ1IdCYC_yl0zDMYio,1515
+test_release_rts_py-1.4.7.dist-info/METADATA,sha256=B8GYvcLAPtdQIC1m4caSTrXpFQK77Htm8U9sm_Cc5ho,3426
+test_release_rts_py-1.4.7.dist-info/WHEEL,sha256=DgcoKJDfsYFbFLUrngH-aDjJZvn8UqGD3gZyEvGv0dg,92
+test_release_rts_py-1.4.7.dist-info/top_level.txt,sha256=638IHiagMOCTxi-_ouLY4iesT9q68SG15s7osei-KTc,20
+test_release_rts_py-1.4.7.dist-info/RECORD,,
