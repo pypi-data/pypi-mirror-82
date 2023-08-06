@@ -1,0 +1,73 @@
+################################################################################
+# The contents of this file are Teradata Public Content
+# and have been released to the Public Domain.
+# Licensed under BSD; see "license.txt" file for more information.
+# Copyright (c) 2020 by Teradata
+################################################################################
+
+import pandas as pd
+import numpy as np
+import sys
+import pickle
+import base64
+
+if len(sys.argv) < 2:
+    modelSaveName = 'ex3savedModel'
+else:
+    modelSaveName = str(sys.argv[1])
+
+DELIMITER='\t'
+
+# jinja will template the base64 encoded pickled function and types
+fun_base64 = {{ fun_base64 }}
+in_types_base64 = {{ in_types_base64 }}
+out_types_base64 = {{ out_types_base64 }}
+converters_base64 = {{ converters_base64 }}
+transform_op = "{{ transform_op }}"
+
+# now load the pickled data
+fun = pickle.loads(base64.b64decode(fun_base64))
+in_types = pickle.loads(base64.b64decode(in_types_base64))
+converters = pickle.loads(base64.b64decode(converters_base64))
+out_types = pickle.loads(base64.b64decode(out_types_base64))
+
+in_col_names = [col[0] for col in in_types]
+in_col_types = [col[1] for col in in_types]
+out_col_names = [col[0] for col in out_types]
+
+df = pd.read_csv(sys.stdin, sep=DELIMITER, header=None, names=in_col_names,
+                 index_col=False, iterator=False, converters=converters(in_col_types))
+
+# For AMPs that receive no data, exit the script instance gracefully.
+if df.empty:
+    sys.exit()
+
+if transform_op == "map":
+    for _, row in df.iterrows():
+        new_row = fun(row)
+
+        if isinstance(new_row, np.ndarray):
+            values = new_row
+        elif isinstance(new_row, (pd.DataFrame, pd.Series)):
+            values = new_row.values
+        else:
+            raise Exception("Only supported return types from map* ops are np.ndarray or pd.DataFrame. Given: {}"
+                                            .format(type(new_row).__name__))
+
+        np.savetxt(sys.stdout, [values], delimiter=DELIMITER, fmt='%s')
+
+elif transform_op == "map_partition":
+    new_partition = fun(df)
+
+    if isinstance(new_partition, np.ndarray):
+        values = new_partition
+    elif isinstance(new_partition, (pd.DataFrame, pd.Series)):
+        values = new_partition.values
+    else:
+        raise Exception("Only supported return types from map* ops are np.ndarray or pd.DataFrame. Given: {}"
+                                        .format(type(new_partition).__name__))
+
+    np.savetxt(sys.stdout, values, delimiter=DELIMITER, fmt='%s')
+
+else:
+    raise Exception("Unknown operation {}".format(transform_op))

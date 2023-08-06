@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: tdextensions
+Version: 1.0.0rc1
+Summary: Teradata Consulting Python Client Extensions
+Home-page: UNKNOWN
+Author: Teradata
+Author-email: teradata.corporation@teradatacorporation.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: jinja2 (>=2.10)
+Requires-Dist: teradataml (>=16.20.0.3)
+Requires-Dist: dill (>=0.2.8.2)
+
+# Teradata ML Extensions
+
+Extensions to the core teradataml library by Teradata Consulting to aid in field development work around BYOM, STO, RTO and AnalyticOps solutions.
+
+## Installation
+
+You can install via pip.
+
+```
+pip install tdextension
+```
+
+## Usage
+
+You must use the same version of python on your client side as is used in Teradata (3.6+ at the time of writing). The reason for this is due to differences in serialization between versions of python (e.g. between 3.5 and 3.6). 
+
+
+```python
+from teradataml.dataframe.dataframe import DataFrame
+from tdextensions.distributed import DistDataFrame, DistMode
+from teradataml import create_context
+import pandas as pd
+import numpy as np
+
+pd.options.display.max_colwidth = 250
+
+engine = create_context(host="localhost", username="ivsm_user", password="ivsm_user")
+```
+
+*A simple map row example where we multiple the value of two columns on a row by row basis*
+
+```python
+def my_fun(row):
+    return np.array([row.idx, row.sepal_length * row.sepal_width])
+
+df = DistDataFrame("iris_train", dist_mode=DistMode.STO, sto_id="my_dumb_map")
+df = df.map(lambda row: my_fun(row), 
+            returns=[["idx", "INTEGER"], ["my_derived_col", "INTEGER"]])
+
+df.head()
+```
+
+*A more advanced example where we train a different model for each partition of a dataset*
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+import base64
+import dill
+
+def train(partition):
+    X = partition[['sepal_length', 'sepal_width', 'petal_length', 'petal_width']]
+    y = partition[['species']]
+
+    clf = RandomForestClassifier()
+    clf.fit(X, y.values.ravel())
+
+    return np.array([[partition.species.iloc[0], "my_model_id", base64.b64encode(dill.dumps(clf))]])
+
+df = DistDataFrame("iris_train", dist_mode=DistMode.STO, sto_id="my_model_train")
+df = df.map_partition(lambda partition: train(partition), 
+                      partition_by="species", 
+                      returns=[["partition_id", "VARCHAR(255)"], 
+                               ["model_id", "VARCHAR(255)"],
+                               ["model_artefact", "CLOB"]])
+df.to_pandas().head()
+
+```
+
+## Permissions
+
+    SET SESSION SEARCHUIFDBPATH = <database>;
+    GRANT EXECUTE procedure on <db> to <user>;
+    GRANT EXECUTE procedure on SYSUIF to <user>;
+    GRANT CREATE external procedure on <db> to <user>;
+    GRANT EXECUTE FUNCTION ON TD_SYSFNLIB.SCRIPT to <user>;
+    GRANT EXECUTE ON  SYSUIF.DEFAULT_AUTH TO <user>;
+
