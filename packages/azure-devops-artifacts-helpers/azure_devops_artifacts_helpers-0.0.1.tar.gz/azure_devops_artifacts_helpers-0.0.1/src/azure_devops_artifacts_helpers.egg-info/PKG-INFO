@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: azure-devops-artifacts-helpers
+Version: 0.0.1
+Summary: Bootstrap using Private Azure Devops Artifacts Feeds as an index-url with virtualenv/tox
+Home-page: UNKNOWN
+Author: David Pugh
+Author-email: djpugh@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows
+Provides: azure_devops_artifacts_helpers
+Requires-Python: >=3
+Provides-Extra: tox
