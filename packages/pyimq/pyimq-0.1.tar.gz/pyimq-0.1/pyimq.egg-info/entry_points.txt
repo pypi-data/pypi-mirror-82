@@ -1,0 +1,7 @@
+[console_scripts]
+pyimq.main = pyimq.bin.main:main
+pyimq.power = pyimq.bin.power:main
+pyimq.subjective = pyimq.bin.subjective:main
+pyimq.util.blurseq = pyimq.bin.utils.create_blur_sequence:main
+pyimq.util.imseq = pyimq.bin.utils.create_photo_test_set:main
+

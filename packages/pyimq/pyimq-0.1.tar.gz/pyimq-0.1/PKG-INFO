@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pyimq
+Version: 0.1
+Summary: pyimq is a small software utility that allows the ordering/sorting of image datasets, according to image-quality related statistical parameters
+Home-page: https://github.org/sakoho81/pyimagequalityranking
+Author: Sami Koho
+Author-email: sami.koho@gmail.com
+License: BSD
+Download-URL: https://github.com/sakoho81/pyimagequalityranking/archive/v0.1.tar.gz
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
