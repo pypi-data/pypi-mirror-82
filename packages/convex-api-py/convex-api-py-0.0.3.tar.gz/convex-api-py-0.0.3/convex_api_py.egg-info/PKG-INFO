@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: convex-api-py
+Version: 0.0.3
+Summary: Convex api
+Home-page: https://github.com/DEX-Company/convex-api-py
+Author: dex-company
+Author-email: devops@dex.sg
+License: Apache Software License 2.0
+Description: # Convex API
+        
+        ![](https://github.com/DEX-Company/convex-api-py/workflows/testing/badge.svg)
+        
+        [Documentation](https://dex-company.github.io/convex-api-py)
+        
+Keywords: convex api
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: docs
+Provides-Extra: dev
