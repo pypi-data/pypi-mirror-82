@@ -1,0 +1,8 @@
+README.md
+setup.py
+ptir/__init__.py
+ptir.egg-info/PKG-INFO
+ptir.egg-info/SOURCES.txt
+ptir.egg-info/dependency_links.txt
+ptir.egg-info/requires.txt
+ptir.egg-info/top_level.txt
