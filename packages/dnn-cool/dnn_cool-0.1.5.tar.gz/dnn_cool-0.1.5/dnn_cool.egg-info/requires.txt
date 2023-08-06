@@ -1,0 +1,11 @@
+torch
+catalyst==20.09
+pandas
+numpy
+tqdm
+scikit_learn
+treelib
+matplotlib
+
+[nlp]
+transformers
