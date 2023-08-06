@@ -1,0 +1,9 @@
+README.md
+setup.py
+TwissGrid.egg-info/PKG-INFO
+TwissGrid.egg-info/SOURCES.txt
+TwissGrid.egg-info/dependency_links.txt
+TwissGrid.egg-info/requires.txt
+TwissGrid.egg-info/top_level.txt
+twissgrid/__init__.py
+twissgrid/__main__.py
