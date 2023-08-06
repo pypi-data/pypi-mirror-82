@@ -1,0 +1,7 @@
+setup.py
+MNNCV/__init__.py
+MNNCV.egg-info/PKG-INFO
+MNNCV.egg-info/SOURCES.txt
+MNNCV.egg-info/dependency_links.txt
+MNNCV.egg-info/requires.txt
+MNNCV.egg-info/top_level.txt
