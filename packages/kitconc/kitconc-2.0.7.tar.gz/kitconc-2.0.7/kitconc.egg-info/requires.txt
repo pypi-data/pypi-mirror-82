@@ -1,0 +1,4 @@
+nltk>=3.2.5
+numpy>=1.14.0
+pandas>=0.22.0
+xlsxwriter>=1.0.2
