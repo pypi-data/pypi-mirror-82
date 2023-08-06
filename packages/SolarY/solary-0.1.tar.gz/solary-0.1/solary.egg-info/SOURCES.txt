@@ -1,0 +1,16 @@
+README.md
+setup.py
+solary/__init__.py
+solary.egg-info/PKG-INFO
+solary.egg-info/SOURCES.txt
+solary.egg-info/dependency_links.txt
+solary.egg-info/top_level.txt
+solary/_config/__init__.py
+solary/asteroid/__init__.py
+solary/asteroid/physp.py
+solary/general/__init__.py
+solary/general/photometry.py
+solary/general/vec.py
+solary/tests/__init__.py
+solary/tests/test_asteroid_physp.py
+solary/tests/test_general_photometry.py
