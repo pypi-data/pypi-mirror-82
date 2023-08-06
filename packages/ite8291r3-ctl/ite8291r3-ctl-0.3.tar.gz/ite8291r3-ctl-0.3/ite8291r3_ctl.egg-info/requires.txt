@@ -1,0 +1,5 @@
+pyusb
+
+[mode-screen]
+python-xlib
+Pillow
