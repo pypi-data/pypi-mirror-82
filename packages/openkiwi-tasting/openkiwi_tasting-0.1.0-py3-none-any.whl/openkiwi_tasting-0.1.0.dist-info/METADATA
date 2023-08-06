@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: openkiwi-tasting
+Version: 0.1.0
+Summary: OpenKiwi demonstration app.
+Home-page: https://github.com/Unbabel/OpenKiwi-Tasting
+License: AGPL-3.0
+Keywords: OpenKiwi,Quality Estimation,Machine Translation,Unbabel
+Author: AI Research, Unbabel
+Author-email: openkiwi@unbabel.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: openkiwi (>=2.0.0,<3.0.0)
+Requires-Dist: st-annotated-text (>=1.0.1,<2.0.0)
+Requires-Dist: streamlit (>=0.69.2,<0.70.0)
+Project-URL: Repository, https://github.com/Unbabel/OpenKiwi-Tasting
+Description-Content-Type: text/markdown
+
+# OpenKiwiTasting
+Demonstration UI for OpenKiwi models.
+
+Checkout more details at [OpenKiwi's repository](https://github.com/Unbabel/OpenKiwi).
+

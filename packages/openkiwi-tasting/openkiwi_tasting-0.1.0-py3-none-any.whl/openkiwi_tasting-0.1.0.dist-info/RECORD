@@ -1,0 +1,13 @@
+LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+kiwi_tasting/__init__.py,sha256=q_W_QoipGikBv4YFMl74RyxcpAnuwg1k2-LG9BrdD44,787
+kiwi_tasting/__main__.py,sha256=Ya3mwGI_kur24oOdjZFVq2ReTaJ-tzBevf3Y3J7zvWA,1003
+kiwi_tasting/app.py,sha256=qZDi_m3a6TImx5gPGbwwfER3GfLyllsd5zT_zzd4wlc,7200
+kiwi_tasting/assets/img/logo.ico,sha256=kkVXAFSDpdCkRkWotmZKo1NtCvVjwTuXvC9K62xFw_4,152126
+kiwi_tasting/assets/img/openkiwi-logo-horizontal.png,sha256=CxRtro0l7SJVsXZ3e0X3czbAVSPauWeSj2WsnC1A8Ss,14662
+kiwi_tasting/predefined_data.py,sha256=mveBPFmWvIKi3--Ek4pinvJ_yffX-GxKpdugfByXilg,4849
+pyproject.toml,sha256=YWY5n5xUKAHUAKdBjnsexv15aArL2NfIYyE2mq3s3U8,1127
+openkiwi_tasting-0.1.0.dist-info/entry_points.txt,sha256=gWTPfbdplzBWjoxKXvBuCel-b9ha0jjzXy-yEv4mGlA,58
+openkiwi_tasting-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+openkiwi_tasting-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+openkiwi_tasting-0.1.0.dist-info/METADATA,sha256=gUIpo_kYLe2sGKDznt03yvwKXhJxx7_fA9NDpbrD720,992
+openkiwi_tasting-0.1.0.dist-info/RECORD,,

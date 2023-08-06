@@ -1,0 +1,3 @@
+[console_scripts]
+kiwi-tasting=kiwi_tasting.__main__:run
+
