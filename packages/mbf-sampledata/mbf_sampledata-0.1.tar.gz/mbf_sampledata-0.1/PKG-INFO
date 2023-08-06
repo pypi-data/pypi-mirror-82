@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mbf_sampledata
+Version: 0.1
+Summary: sample data for testing other packages
+Home-page: https://github.com/TyberiusPrime/mbf_sampledata
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Description: # mbf_sampledata
+        
+        
+        Sample data used for testing the other mbf_* packages
+        
+        Part of the mbf_* suite from https://github.com/IMTMarburg
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Provides-Extra: testing

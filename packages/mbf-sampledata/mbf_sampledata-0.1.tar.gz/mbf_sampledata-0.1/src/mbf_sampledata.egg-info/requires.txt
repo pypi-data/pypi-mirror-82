@@ -1,0 +1,12 @@
+pandas
+
+[doc]
+numpydoc
+sphinx
+sphinx-bootstrap-theme
+
+[testing]
+pytest
+pytest-cov
+pytest-icdiff
+requests-mock
