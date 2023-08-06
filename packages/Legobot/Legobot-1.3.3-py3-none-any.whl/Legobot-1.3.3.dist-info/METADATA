@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Legobot
+Version: 1.3.3
+Summary: A framework for creating interactive chatbots on various protocols
+Home-page: https://github.com/bbriggs/Legobot
+Author: Kevin McCabe, Bren Briggs, and Drew Bronson, Drew Pearce
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Requires-Dist: irc (==17.0)
+Requires-Dist: jmespath (==0.10.0)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: pykka (==1.2.1)
+Requires-Dist: requests (==2.21.0)
+Requires-Dist: slackclient (==1.3.1)
+Requires-Dist: websocket-client (==0.54.0)
+
+UNKNOWN
+
+
