@@ -1,0 +1,11 @@
+mebula/__init__.py,sha256=4TrS3JEnLwGXU9FjsuHdGq9Fo0qjbwwYiLW35DDxjHw,332
+mebula/azure.py,sha256=GqfjwW1OvR68nDOFCbvtjsvSoQUQKGM42XkUIRhi3TQ,2326
+mebula/dict_filter.py,sha256=1japIiPZ4AphTnuLqYNHCEaNlnDe5Mg-BmyzcUE2BQI,7016
+mebula/google.py,sha256=KARcdPCCbR5Kl7kENZ9eLPOGQGScD7n4NvPYuam0Qqg,8717
+mebula/oracle.py,sha256=s45YhKGXn1oZy8DXdHv0cZG5GrV6hC01PbjUF0vlUG4,5214
+mebula/py.typed,sha256=VYTFY9CBSyVfZfX6rwxM15M2ACR8AQZ7tr4dLG5qBLI,104
+mebula-0.2.8.dist-info/LICENSES/CC0-1.0.txt,sha256=alc_svkIJmKXjPIfsVMJbfChmB3q6n28EKEQRv4AXZ8,6916
+mebula-0.2.8.dist-info/LICENSES/MIT.txt,sha256=jyUBhInW_g3sNKNSMUw43BRiR7feZXNXkPQ5ipKvqEs,1108
+mebula-0.2.8.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mebula-0.2.8.dist-info/METADATA,sha256=VHcwtPYYAjca9KolL9a2uohen80iGk8otE__Yx5Denw,3665
+mebula-0.2.8.dist-info/RECORD,,
