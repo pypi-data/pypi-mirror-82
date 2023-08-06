@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mingw_ldd/__init__.py
+mingw_ldd/__main__.py
+mingw_ldd/__version__.py
+mingw_ldd/mingw_ldd.py
+mingw_ldd.egg-info/PKG-INFO
+mingw_ldd.egg-info/SOURCES.txt
+mingw_ldd.egg-info/dependency_links.txt
+mingw_ldd.egg-info/entry_points.txt
+mingw_ldd.egg-info/requires.txt
+mingw_ldd.egg-info/top_level.txt

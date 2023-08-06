@@ -1,0 +1,3 @@
+[console_scripts]
+mingw-ldd = mingw_ldd.__main__:main
+
