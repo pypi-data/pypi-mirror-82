@@ -1,0 +1,13 @@
+samsungTVlegacy/__init__.py,sha256=B3jBLxwbFjNQHqxqsTCxJW79AXdFZZB-3dXYBTRWbqc,302
+samsungTVlegacy/__main__.py,sha256=1DFuVy0gM4yHdkpzwE6GX-imEhA-He_SYEKZD8XS2dw,4202
+samsungTVlegacy/exceptions.py,sha256=tbTmlK9LiShlSj7JatVREFoYuSaGZvb5s5KLnt7I7hQ,305
+samsungTVlegacy/interactive.py,sha256=O_hZRSexf1DWkj3bTPwsn1u5GfyJl8QKqXNFYnDkEQY,3662
+samsungTVlegacy/remote.py,sha256=iVKCMw6484SdWAatlVbojo4o6UK66921Kfv6_0E_dwk,695
+samsungTVlegacy/remote_legacy.py,sha256=uDZJxlCqYUir3FB1VaP6JIheCgCNSm7AgMpBpEyrGOY,3283
+samsungTVlegacy/remote_websocket.py,sha256=BV8ym7DX49cip93vrG1ahb5k_qqG7x-0dqcEYAZqW4o,2067
+samsungTVlegacy-0.1.1.dist-info/LICENSE,sha256=jD8GFqOw0pUJQQcEn2_ovBs-r1zVFDG9novgTlB3VR0,1082
+samsungTVlegacy-0.1.1.dist-info/METADATA,sha256=00dsyesPoH5cznZmvyOvY9uD7CI_TEXcG1nO8FSWUxw,7942
+samsungTVlegacy-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+samsungTVlegacy-0.1.1.dist-info/entry_points.txt,sha256=onzAatl-6twLELYoLHjJaFkrsqc2TXRMa3RMYfJ16PM,67
+samsungTVlegacy-0.1.1.dist-info/top_level.txt,sha256=YqKxTsTN7b_RrTUHY1-vvXgMd06P5DMSdCX-BXLRvrg,16
+samsungTVlegacy-0.1.1.dist-info/RECORD,,

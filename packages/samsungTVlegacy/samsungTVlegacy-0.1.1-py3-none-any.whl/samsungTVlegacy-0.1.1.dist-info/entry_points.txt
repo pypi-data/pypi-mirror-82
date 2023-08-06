@@ -1,0 +1,3 @@
+[console_scripts]
+samsungTVlegacy = samsungTVlegacy.__main__:main
+
