@@ -1,0 +1,8 @@
+flopco/__init__.py,sha256=Ad_cLLV0fEkdQXCF52uDAQEw0AESziq1gaVtzOFjXnQ,32
+flopco/compute_layer_flops.py,sha256=N_HXVscGuJS3AgcEx2-miMmHrhqhnAvQrG6jrM9LTtw,2344
+flopco/flopco.py,sha256=eZ-8S85jH_NM4ChCW9fC5YuAeOpcqhZ6HBLlfUEQ9T8,7397
+flopco_pytorch-0.1.4.dist-info/LICENSE.txt,sha256=qIgeMJup3OzS519UqjeypfZ39QN_-YDA8cwlfb3TCLQ,1067
+flopco_pytorch-0.1.4.dist-info/METADATA,sha256=P1D0KG-tz7re5b-43gQE5bBfoMJp_68b-rGeXoIBEjQ,411
+flopco_pytorch-0.1.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+flopco_pytorch-0.1.4.dist-info/top_level.txt,sha256=-Au4wWVrnb6h1eBdXwGPbkpHZwx5kjYzKTu6yvSw7fM,7
+flopco_pytorch-0.1.4.dist-info/RECORD,,
