@@ -1,0 +1,3 @@
+[console_scripts]
+ask_ron = ask_ron:main
+
