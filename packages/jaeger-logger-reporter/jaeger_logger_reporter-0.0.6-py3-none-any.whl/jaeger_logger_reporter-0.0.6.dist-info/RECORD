@@ -1,0 +1,8 @@
+jaeger_logger_reporter/__init__.py,sha256=EMgUEq7yjc6RA-2GJWC6VERwQyQ76EGFeXr_ZUlsvnQ,125
+jaeger_logger_reporter/config.py,sha256=wRoan4KdHPj1AoAtXQWyqWWiUQxftsBM_WpBXGMlW-Q,3410
+jaeger_logger_reporter/reporter.py,sha256=qqKg2vjlLRjnQqebBBokL1UFiHuUsoMIoH8a1ixPXyI,6368
+jaeger_logger_reporter-0.0.6.dist-info/LICENSE,sha256=2KbVk3ZfB3aRFJTMZm7CttEtWg_FvK5IUjXoh7XkkW8,11335
+jaeger_logger_reporter-0.0.6.dist-info/METADATA,sha256=APG3Gwk99TvLExiH3GjJ1lBPnHY5VSup29wkl44X-xg,5005
+jaeger_logger_reporter-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jaeger_logger_reporter-0.0.6.dist-info/top_level.txt,sha256=fxweLyXlBweBbgpiBBpOEppBn83n4q5q9wHEhjynjgQ,23
+jaeger_logger_reporter-0.0.6.dist-info/RECORD,,
