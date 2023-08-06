@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+src/jenkinscfg/__init__.py
+src/jenkinscfg/cli.py
+src/jenkinscfg.egg-info/PKG-INFO
+src/jenkinscfg.egg-info/SOURCES.txt
+src/jenkinscfg.egg-info/dependency_links.txt
+src/jenkinscfg.egg-info/entry_points.txt
+src/jenkinscfg.egg-info/not-zip-safe
+src/jenkinscfg.egg-info/requires.txt
+src/jenkinscfg.egg-info/top_level.txt
