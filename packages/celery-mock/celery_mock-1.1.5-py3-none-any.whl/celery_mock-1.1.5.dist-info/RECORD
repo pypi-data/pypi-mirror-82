@@ -1,0 +1,9 @@
+celery_mock/__init__.py,sha256=jed3f74_Pv9rrxGiESitW41l8AVlVAp533X312zU2_k,301
+celery_mock/celery_mock.py,sha256=cqkTQXxVFZpK5CVT-0nhLXzPQ7AtiLRjv_aMClnwA7s,2336
+tests/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+tests/example_app.py,sha256=CnKHrY-382GzUgxjQhL0cl8oQKyO6f6I0tYrYsgeVz8,789
+tests/test_celery_mock.py,sha256=H99IPVB4fUZsPKWCaCsKc_UFhH5EaMjolyCcKzO4AG8,3465
+celery_mock-1.1.5.dist-info/LICENSE,sha256=H1XxRg2f8Hw443qPuXV28OWqQoKqZrcCuh0RuHaPTrU,1076
+celery_mock-1.1.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+celery_mock-1.1.5.dist-info/METADATA,sha256=vaogFSL1ewBmqxBiFmy9REyD79loiWn0FgEB03ZqQoc,3294
+celery_mock-1.1.5.dist-info/RECORD,,
