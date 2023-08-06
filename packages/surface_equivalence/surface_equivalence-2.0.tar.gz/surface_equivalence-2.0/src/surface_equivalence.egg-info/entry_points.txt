@@ -1,0 +1,3 @@
+[console_scripts]
+run-surface-equivalence = surface_equivalence.__main__:main
+

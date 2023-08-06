@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: surface_equivalence
+Version: 2.0
+Summary: Finding surface equivalences
+Home-page: http://github.com/niels-lubbes/surface_equivalence
+Author: Niels Lubbes
+Author-email: UNKNOWN
+License: MIT
+Description: # surface equivalence
+        Python code for determining whether algebraic surfaces are equivalent (for example projectively isomorphic). Depends on SageMath.org libraries.
+        
+Keywords: surface equivalences isomorphisms rational projective
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics

@@ -1,0 +1,12 @@
+setup.py
+src/surface_equivalence/__init__.py
+src/surface_equivalence/__main__.py
+src/surface_equivalence/class_se_ring.py
+src/surface_equivalence/class_se_tools.py
+src/surface_equivalence/sage_interface.py
+src/surface_equivalence.egg-info/PKG-INFO
+src/surface_equivalence.egg-info/SOURCES.txt
+src/surface_equivalence.egg-info/dependency_links.txt
+src/surface_equivalence.egg-info/entry_points.txt
+src/surface_equivalence.egg-info/not-zip-safe
+src/surface_equivalence.egg-info/top_level.txt
