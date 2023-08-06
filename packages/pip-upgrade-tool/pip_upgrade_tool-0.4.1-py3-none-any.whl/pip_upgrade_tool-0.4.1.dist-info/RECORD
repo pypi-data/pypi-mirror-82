@@ -1,0 +1,12 @@
+pip_upgrade/__init__.py,sha256=vhASKM9Y_lcXMb1PxMMDqKdGCCPj84xbSraYlQ8qepY,71
+pip_upgrade/compare_deps.py,sha256=ytib6ae9_Q0LK8qF1rO76O6_F5fXN1BuX2ppaZzoFoo,184
+pip_upgrade/legacy.py,sha256=3h1VP3kjSuN29tduropy5p-0fuKsHUkr5-T3JyO9ABg,3644
+pip_upgrade/main.py,sha256=FSIGNBeAe2Ks9cLV4Qs3un-r2WQKxpJTCwIUBpCuyQc,888
+pip_upgrade/tool.py,sha256=b4rsNVlUEFAISPc-c4zceIaSWGmGFcwb7hV2trixi-0,7704
+pip_upgrade/version_checker.py,sha256=czGA3YBeSGHB9xeXlCzA21nkoT8wNL2MgDqDQPTJ-Zc,1217
+pip_upgrade_tool-0.4.1.dist-info/LICENSE,sha256=uyXgLaOSm0o72cU8xx9XB4QwQYtgJGky7XOYSJMlvWY,1070
+pip_upgrade_tool-0.4.1.dist-info/METADATA,sha256=iu15lLhSwp8lkgGF6zysf4GfCNaOyYoZ4txSf87RVUM,2163
+pip_upgrade_tool-0.4.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pip_upgrade_tool-0.4.1.dist-info/entry_points.txt,sha256=AwJrVZiLZKSt0LGH0MgQmvBNfxAZsXiR7pJrKiuUtww,90
+pip_upgrade_tool-0.4.1.dist-info/top_level.txt,sha256=vw39UBDOvtYsTR4W9HKKt2ertDIghF-in7e5LD_yXac,12
+pip_upgrade_tool-0.4.1.dist-info/RECORD,,
