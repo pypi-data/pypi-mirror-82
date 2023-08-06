@@ -1,0 +1,7 @@
+- name: copy gitignore file
+  copy:
+    src: /home/lhameury/testallo/gitignore
+    dest: /opt/iParapheur/.gitignore
+
+- name: init allo
+  shell: allo changes init /opt/iParapheur/ "Installation du i-Parapheur avec Allo"
