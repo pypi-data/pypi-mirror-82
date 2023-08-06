@@ -1,0 +1,13 @@
+bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bin/dcg.py,sha256=MYsO4-h8bnVIkpB_EgLCo1rXB3My0ye7JfZO6yustyQ,9089
+bin/test_dotsCodeGenerator.py,sha256=NDgVNemlJ0L_GX02MOZiKE6VLppN2uR_1HKT8OU_5xI,377
+dots/__init__.py,sha256=Xs-uCOLREM4_J1TpaKWGKE2rCv1aCuUjBjEPsr96DHs,73
+dots/parser.py,sha256=lNJjHzsX6gk08oqqAjV7vTkFUwec-2G0SacdhUO7o_o,8026
+dots/template.py,sha256=yrH1VK2Xg3IOHkVRoY-MaVkG1Lv8aVgyBmiK8cbEug4,1667
+dots/test_ddlParser.py,sha256=2esIUgbF1ycCW8IIWnV0qgr_B5U2BwRY89JkVv-6WGY,2326
+dots_code_generator-0.0.2.data/scripts/dcg.py,sha256=yU0mfHDT1eDo3oS7rRZFAXAa_1LutaeXNeC7wwj6CR4,9075
+dots_code_generator-0.0.2.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+dots_code_generator-0.0.2.dist-info/METADATA,sha256=vyN9qkaMc9kW-iVfQfWO5CLr2DIAyHCWqG6_igwVePI,795
+dots_code_generator-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dots_code_generator-0.0.2.dist-info/top_level.txt,sha256=mXHqHtcwuClXM0c1suDOACoO0J-dgpdLHpiAYyKpPOU,9
+dots_code_generator-0.0.2.dist-info/RECORD,,
