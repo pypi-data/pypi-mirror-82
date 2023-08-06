@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+emoji
+packaging
+filelock
+requests
+tqdm>=4.27
+lac
+soynlp
+
+[:python_version < "3.7"]
+dataclasses
