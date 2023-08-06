@@ -1,0 +1,15 @@
+click
+tqdm
+pydantic
+boxsdk
+Jinja2
+pyyaml
+
+[dev]
+docker
+pytest
+Faker
+yapf
+
+[opt]
+docker
