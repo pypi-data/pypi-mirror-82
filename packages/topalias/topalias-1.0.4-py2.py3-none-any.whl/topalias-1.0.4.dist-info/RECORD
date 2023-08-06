@@ -1,0 +1,10 @@
+topalias/__init__.py,sha256=Vz6xTWK4T_aFWTTTAgAXVG_9iWq1kpVqpYxIQjhkgWM,149
+topalias/__main__.py,sha256=bhulj2Y3YJQG6DcdONb014Ab7y8xIoClHHJ_3hUdBMw,296
+topalias/aliascore.py,sha256=lwimmqkV1g6xZkMc7EOl5yOh7Hk_UoOukt6hIaZeCXo,2383
+topalias/cli.py,sha256=oi9ZHTQmCdd-XYhmzaxd--9wDIqdcPhUFNZaCHlzRJE,825
+topalias-1.0.4.dist-info/LICENSE,sha256=I-RRaMvb_VHjEDkllbj46lS_dpNqZktwfpm5PEtElfA,1638
+topalias-1.0.4.dist-info/METADATA,sha256=KqnFBXFji-MUGfH-kF3PNQtaAxxItpQ2lKG2aX9Hn8A,2352
+topalias-1.0.4.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+topalias-1.0.4.dist-info/entry_points.txt,sha256=cE5t470jSdnLjgtsMJrvvwwnoIgSqOF8d1bE9vYCMjo,48
+topalias-1.0.4.dist-info/top_level.txt,sha256=D3So7pkVyv5361m7DzifW8h4dQ3zQMCP8GBOSDFAROE,9
+topalias-1.0.4.dist-info/RECORD,,
