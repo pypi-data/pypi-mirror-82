@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: tsgen
+Version: 0.3.0
+Summary: Time Series Generator
+Home-page: https://github.com/MarwanDebbiche/tsgen
+License: MIT
+Keywords: time-series,data-science,time-series-analysis
+Author: Marwan Debbiche
+Author-email: marwan.debbiche@gmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: coverage (>=5.3,<6.0)
+Requires-Dist: numpy (>=1.19.2,<2.0.0)
+Requires-Dist: pandas (>=1.1.3,<2.0.0)
+Project-URL: Repository, https://github.com/MarwanDebbiche/tsgen
+Description-Content-Type: text/markdown
+
+# tsgen
+
+[![CI/CD Status](https://github.com/MarwanDebbiche/tsgen/workflows/CI%2FCD/badge.svg?branch=master)](https://github.com/MarwanDebbiche/tsgen/actions?query=branch:master)
+[![Coverage Status](https://coveralls.io/repos/github/MarwanDebbiche/tsgen/badge.svg?branch=master)](https://coveralls.io/github/MarwanDebbiche/tsgen?branch=master)
+[![Latest Version](https://img.shields.io/pypi/v/tsgen.svg?color=blue)](https://pypi.python.org/pypi/tsgen)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/tsgen?label=pypi%20downloads)](https://pypi.org/project/tsgen/)
+![License](https://img.shields.io/github/license/MarwanDebbiche/tsgen)
+
+tsgen (for Time Series Generator) is a package developed for educational purposes that helps create unidimensional time series of different shapes.
+
+## Installation
+
+You can install tsgen from PyPI using pip:
+
+```
+pip install tsgen
+```
+
+## Getting started
+
+![Getting Started](./images/getting_started.png)
+
+<!-- See the [documentation]() for more details. -->
+
