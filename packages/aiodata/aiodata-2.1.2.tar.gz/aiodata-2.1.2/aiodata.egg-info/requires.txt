@@ -1,0 +1,7 @@
+asyncpg
+aiohttp
+yarl
+aiofiles
+pyjwt
+docopt
+vessel
