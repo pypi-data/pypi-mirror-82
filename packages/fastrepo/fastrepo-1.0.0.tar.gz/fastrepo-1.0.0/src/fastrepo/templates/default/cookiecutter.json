@@ -1,0 +1,16 @@
+{
+  "author": "Guillaume Charbonnier",
+  "email": "guillaume.charbonnier@capgemini.com",
+  "project_name": "QUARA Project Template",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "QUARA Project Template contains all the boilerplate you need to create a Python package.",
+  "version": "0.1.0",
+  "repo_name": "{{ cookiecutter.project_slug.replace('_', '-') }}/{{ cookiecutter.project_slug.replace('_', '-') }}",
+  "repo_url": "https://gitlab.com/{{ cookiecutter.repo_name }}",
+  "docs_url": "https://{{ cookiecutter.repo_name.split('/')[0] }}.gitlab.io/{{ cookiecutter.repo_name.split('/')[1] }}",
+  "max_file_size_kb": "50000",
+  "docker_namespace": "{{ cookiecutter.repo_name.split('/')[0] }}",
+  "docker_image_name": "{{ cookiecutter.repo_name }}",
+  "ci_image_name": "{{ cookiecutter.repo_name }}-ci",
+  "install_ipython_kernel": false
+}
