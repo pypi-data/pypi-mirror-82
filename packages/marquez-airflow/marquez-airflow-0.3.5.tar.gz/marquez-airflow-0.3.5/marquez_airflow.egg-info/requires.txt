@@ -1,0 +1,2 @@
+marquez-python==0.7.8
+sqlparse==0.3.1
