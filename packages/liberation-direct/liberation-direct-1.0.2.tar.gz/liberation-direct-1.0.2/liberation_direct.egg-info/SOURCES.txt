@@ -1,0 +1,8 @@
+README.md
+setup.py
+liberation_direct/__init__.py
+liberation_direct.egg-info/PKG-INFO
+liberation_direct.egg-info/SOURCES.txt
+liberation_direct.egg-info/dependency_links.txt
+liberation_direct.egg-info/requires.txt
+liberation_direct.egg-info/top_level.txt
