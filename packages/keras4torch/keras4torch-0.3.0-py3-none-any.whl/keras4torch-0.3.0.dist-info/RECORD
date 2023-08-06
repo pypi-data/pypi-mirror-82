@@ -1,0 +1,14 @@
+keras4torch/__init__.py,sha256=3Adem5g61avVDR_qddLeI0FV9NmOrXJPXK7bQ6LGzSc,87
+keras4torch/_training.py,sha256=SL68yBAhl_8XdZttYLvgos3fzyjjwgx_T5FevHVq9Ik,6020
+keras4torch/callbacks.py,sha256=itsIsLlVeODOZ608hHzwQRcILUFYYar-4Wyw_ka8xdo,5223
+keras4torch/layers.py,sha256=KZoPWMHVTt8h0wDHGN9R9KzLw8m_dz1QOa3bxR-2VxU,2163
+keras4torch/losses.py,sha256=aJ0jplt83xF2QB3Rwhn6X4ZH1XKDJUUv3WSvUQuoDSY,534
+keras4torch/metrics.py,sha256=DZNQTbTer3OWrhE4IlBJ4YGTa-GDWX4STBqxXrZC7PE,3215
+keras4torch/models.py,sha256=Z00oRNHZQ_acsMrNFWgGx7zEsvrbzmP_Q50E25haZaM,6665
+keras4torch/optimizers.py,sha256=l0c9iA7N4yfgabljFOGdFycntd5CBKwUIvFLCJypGS0,429
+keras4torch/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keras4torch-0.3.0.dist-info/LICENSE,sha256=OVWgr2tzpUMMRG3qvWF-_og5z_W6EQQlRdKFbK0AHqY,1087
+keras4torch-0.3.0.dist-info/METADATA,sha256=8OjdiJ6j-kPXKTaFCmQOgwscil9YfNXNA3hzrnw_LiI,3754
+keras4torch-0.3.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+keras4torch-0.3.0.dist-info/top_level.txt,sha256=W3OnSJMspc8AfFTpz9CPZ7xCZ5AcKSVNAndsSbjk7qE,12
+keras4torch-0.3.0.dist-info/RECORD,,
