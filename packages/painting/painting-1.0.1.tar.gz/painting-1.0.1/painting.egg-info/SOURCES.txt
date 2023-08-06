@@ -1,0 +1,7 @@
+README.md
+setup.py
+painting.egg-info/PKG-INFO
+painting.egg-info/SOURCES.txt
+painting.egg-info/dependency_links.txt
+painting.egg-info/requires.txt
+painting.egg-info/top_level.txt

@@ -1,0 +1,58 @@
+# Painting
+<strong>Painting</strong> can print characters, numbers, lists and dictionaries better on the terminal. Support the escape of Emoji expression. 
+
+> In addition, new components are added, which does not represent the final quality
+
+## Install
+``` bash
+pip install painting -U
+```
+
+## Usage
+
+Print various types
+
+``` python
+from painting import Painting
+
+console = Painting()
+
+console.log("Welcome to Painting")
+# - Welcome to Painting
+
+console.log(3.1415926)
+# - 3.1415926
+
+console.log([
+    "the Great Wall",
+    "the Palace Museum",
+    "the White House",
+])
+# - (1) the Great Wall
+# - (2) the Palace Museum
+# - (3) the White House
+
+console.log({
+    "Beijing":"P.R.C.",
+    "Washington D.C.":"U.S.A.",
+    "London":"U.K."
+})
+# - [Beijing] P.R.C.
+# - [Washington D.C.] U.S.A.
+# - [London] U.K.s
+```
+The escape of Emoji
+
+``` python
+console.log("Welcome to Painting :red_heart:")
+# - Painting is great fun ❤
+```
+
+## Link
+
+<strong>Website: https://github.com/isclub/painting</strong>
+
+<strong>Releases: https://pypi.org/project/painting</strong>
+
+## License
+MIT LICENSE
