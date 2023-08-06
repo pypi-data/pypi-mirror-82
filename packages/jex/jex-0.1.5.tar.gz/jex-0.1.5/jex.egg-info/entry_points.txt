@@ -1,0 +1,3 @@
+[console_scripts]
+jex = jex.cli:main
+
