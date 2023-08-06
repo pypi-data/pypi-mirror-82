@@ -1,0 +1,11 @@
+azureml-core
+azureml-telemetry
+psutil
+
+[notebooks]
+ipywidgets
+packaging
+azure-storage-blob
+nbconvert<6
+papermill<2
+nteract-scrapbook

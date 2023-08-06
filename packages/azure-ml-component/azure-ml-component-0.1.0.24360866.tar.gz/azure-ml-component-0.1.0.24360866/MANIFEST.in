@@ -1,0 +1,7 @@
+include azure/ml/component/dsl/data/*
+include azure/ml/component/dsl/data/basic_component/*
+include azure/ml/component/dsl/data/mpi_component/*
+include azure/ml/component/dsl/data/parallel_component/*
+include azure/ml/component/dsl/data/inputs/*
+include azure/ml/component/_widgets/js/*
+include azure/ml/component/_compute/data/*.json
