@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: PyEtf
+Version: 0.1
+Summary: Look for files and text inside files
+Home-page: UNKNOWN
+Author: Alfredo Mauri
+Author-email: alfredo.mauri.2000@gmail.com
+License: BSD
+Description: Ciao
+Keywords: python portfolio manager
+Platform: all
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Documentation
+Classifier: Topic :: Education :: Testing
