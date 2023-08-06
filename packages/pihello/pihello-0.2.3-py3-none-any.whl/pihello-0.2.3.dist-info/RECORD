@@ -1,0 +1,9 @@
+pihello/__init__.py,sha256=58UrKOaZiuc3FBvNMw9uNDWG9HosdrbYwr44IhK_5w4,52
+pihello/__main__.py,sha256=mRUICMwFD45aZhB5sHZ4sCbqCwTOlhUtti-fahQ-xgM,4095
+pihello/color.py,sha256=WAHvDLThWcJ-2Ti4wNUj_QkK5vEL2Sb4ROP-p3iImDc,4190
+pihello/color_tables.py,sha256=b14M6uLRETUV-NnguD6RmuGlNqXKmNXCONb4tj0WBDI,9358
+pihello/console.py,sha256=aVQRtS2FEpCuk227Zmp1rkqSg2Csm4L-oYPzqf7vjm4,2433
+pihello/style.py,sha256=qwsCI5gC0-ssCyLijxVA7H8ienAFDAPACXf_FweoSCc,1487
+pihello-0.2.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pihello-0.2.3.dist-info/METADATA,sha256=zc4CdklVBAQIcXQfmyub3xD73gL6kmNGd9FibeY9z6c,23090
+pihello-0.2.3.dist-info/RECORD,,
