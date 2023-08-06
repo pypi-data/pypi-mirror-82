@@ -1,0 +1,12 @@
+lugat/__init__.py,sha256=h_c5mtFkgn1XfWOKusxeV--4cVINN_cYzO7AHcc1wY0,104
+lugat/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+lugat/__version__.py,sha256=l1lWRV5fzx6-C3xpWdEYCx3Y5TNykf_HgoEs12q6cfQ,21
+lugat/cli.py,sha256=Vyw5t9ooqXBUvGwZBaX1cbYFzEy1qjHLWGpOB66LFRI,3252
+lugat/dict.py,sha256=uORR5THP_FnPknpJvRSsOJIXxISC8mmMQQVxnuINalQ,719
+lugat/word.py,sha256=tD17CNW5wceYys78REtJdMnFDQlM0mzB8NHxtdvpcBk,2387
+lugat-0.1.6.dist-info/LICENSE,sha256=eEtfoHrAfYmMBRRAA6rxgm1-PnlgszlIHdymex-HSIU,1066
+lugat-0.1.6.dist-info/METADATA,sha256=fSICfjKsY73hIfgcq4VjYd_IzlVkLQccElK_ShpiK5M,1401
+lugat-0.1.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+lugat-0.1.6.dist-info/entry_points.txt,sha256=efp7T7qaWfMtIbgxG8CkqmDBvERKiaJTxIfK0zHbu4k,47
+lugat-0.1.6.dist-info/top_level.txt,sha256=-eeuVr6K3BP8XYi-HOWSalurLNiH68hf1YR9WIG8rqc,6
+lugat-0.1.6.dist-info/RECORD,,
