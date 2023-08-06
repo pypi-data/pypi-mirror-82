@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyclone/__init__.py
+pyclone/cli.py
+pyclone/locations.py
+pyclone/pyclone.py
+pyclone_module.egg-info/PKG-INFO
+pyclone_module.egg-info/SOURCES.txt
+pyclone_module.egg-info/dependency_links.txt
+pyclone_module.egg-info/entry_points.txt
+pyclone_module.egg-info/requires.txt
+pyclone_module.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pyclone.py
