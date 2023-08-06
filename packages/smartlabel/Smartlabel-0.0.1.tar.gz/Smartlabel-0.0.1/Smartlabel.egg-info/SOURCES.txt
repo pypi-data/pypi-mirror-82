@@ -1,0 +1,11 @@
+README.md
+setup.py
+Smartlabel.egg-info/PKG-INFO
+Smartlabel.egg-info/SOURCES.txt
+Smartlabel.egg-info/dependency_links.txt
+Smartlabel.egg-info/top_level.txt
+src/Dataset.py
+src/Label.py
+src/Project.py
+src/__init__.py
+src/connection.py
