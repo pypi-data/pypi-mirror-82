@@ -1,0 +1,7 @@
+README.md
+jquery.py
+setup.py
+PyjQuery.egg-info/PKG-INFO
+PyjQuery.egg-info/SOURCES.txt
+PyjQuery.egg-info/dependency_links.txt
+PyjQuery.egg-info/top_level.txt
