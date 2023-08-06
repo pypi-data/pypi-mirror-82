@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: nep29
+Version: 0.0.4
+Summary: NEP29 Calculator tools
+Home-page: https://github.com/hmaarrfk/nep29
+Author: Mark Harfouche
+Author-email: mark.harfouche@gmail.com
+License: BSD license
+Keywords: nep29
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# NEP29 Calculator
+
+
+[![pypi](https://img.shields.io/pypi/v/nep29.svg)](https://pypi.python.org/pypi/nep29)
+[![Travis](https://img.shields.io/travis/hmaarrfk/nep29.svg)](https://travis-ci.org/hmaarrfk/nep29)
+[![Docs](https://readthedocs.org/projects/nep29/badge/?version=latest)](https://nep29.readthedocs.io/en/latest/?badge=latest)
+
+
+NEP29 Calculator tools
+
+Usage
+-----
+```bash
+$ nep29 --help
+usage: nep29 [-h] [--n_months N_MONTHS] [--n_minor N_MINOR] package
+
+NEP29 calcaulator.
+
+positional arguments:
+  package              Package to deprecation
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --n_months N_MONTHS  Number of months to keep supporting
+  --n_minor N_MINOR    Number of minor versions to keep supporting
+```
+
+Example:
+```bash
+nep29 numpy
+[('1.19.0', '2020-06-20 20:37:45.624482'),
+ ('1.18.0', '2019-12-22 15:51:31.822488'),
+ ('1.17.0', '2019-07-26 18:35:56.431887'),
+ ('1.16.0', '2019-01-14 03:02:28.527716')]
+```
+
+Credits
+-------
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter)
+and the
+[hmaarrfk/cookiecutter-pypackage](https://github.com/hmaarrfk/cookiecutter-pypackage)
+project template.
+
+
+
+# History
+
+## 0.0.4 (2020-10-12)
+
+* Improve documentation.
+
+## 0.0.1 (2020-03-11)
+
+* First release on PyPI.
+
+
