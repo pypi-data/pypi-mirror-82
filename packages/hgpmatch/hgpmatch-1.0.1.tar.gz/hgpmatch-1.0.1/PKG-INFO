@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hgpmatch
+Version: 1.0.1
+Summary: A CSV driven solver for resident/hospital style matching markets
+Home-page: https://github.com/klittlepage/hgpmatch
+Author: Kelly Littlepage
+Author-email: kelly@klittlepage.com
+License: UNKNOWN
+Description: 
+        [![Build Status](https://travis-ci.org/klittlepage/hgpmatch.svg?branch=master)](https://travis-ci.org/klittlepage/hgpmatch)
+        [![Documentation Status](https://readthedocs.org/projects/hgpmatch/badge/?version=latest)](https://hgpmatch.readthedocs.io/en/latest/?badge=latest)
+        [![Coverage Status](https://coveralls.io/repos/github/klittlepage/hgpmatch/badge.svg?branch=master)](https://coveralls.io/github/klittlepage/hgpmatch?branch=master)
+        
+        # Project Documentation
+        
+        Documentation on `hgpmatch` lives [here](https://hgpmatch.readthedocs.io/).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
