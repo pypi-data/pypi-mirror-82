@@ -1,0 +1,15 @@
+pythonbible/__init__.py,sha256=ONzLj9FoxcZ1Q_AAqpbUxw2QwCDA_vAxhYH7NJLJTHQ,942
+pythonbible/books.py,sha256=sDbVPo7e-ppkH6oXWoE6kh01LEllH4EJZevWbv7SGsw,3758
+pythonbible/converter.py,sha256=cJ0LgyAHF4xZubNUkXFNVgNNZoXMAxtL0VAN53nLllA,5239
+pythonbible/errors.py,sha256=z2l3KQwR6ICxbbeq9pvuyzeHts6_S3IBfYxwHxWpFSk,911
+pythonbible/formatter.py,sha256=o6EzuQqtjP-SquT_wJoTeV46kLjgh6vT4PAHC3S3FnU,2796
+pythonbible/parser.py,sha256=1Hof7dIeHxKqHkm3qyTc8LG6x3a9jwZErmT16R5_Bp0,4046
+pythonbible/regular_expressions.py,sha256=Bq-10nMiex2jsOoM3f7A8i3aRbRDcUuKKDN_3J8FGOQ,3671
+pythonbible/roman_numeral_util.py,sha256=KHkpJs7NIlnRM_DrH-YrRBmYBXkoV-VxuRWqieBfUHQ,1380
+pythonbible/validator.py,sha256=WQcvTnhRKuiJj9DokgAQmQw8fdX4Z41gaMYObLeuoOw,2629
+pythonbible/verses.py,sha256=ivAoTlrhza-VflymAaDe47Ly4bqhp3D5e6tRAhOLpJA,19459
+pythonbible/data/verse_ids.txt,sha256=1C_EoyBebs_GpQaJ_bHUFutjapnRDHBhHHI9JWEyuvk,302995
+pythonbible-0.0.4.dist-info/LICENSE,sha256=-wYMucoVWThISsSvFSvSV2tvgMozWtBuLy-gG1ztGIw,1091
+pythonbible-0.0.4.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+pythonbible-0.0.4.dist-info/METADATA,sha256=t1VWP4zBgCu9XTfbd05sea22p822Ah-m24Ke4WGLSQA,5632
+pythonbible-0.0.4.dist-info/RECORD,,
