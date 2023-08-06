@@ -1,0 +1,29 @@
+{% load i18n %}
+{% load templates %}
+
+<table>
+
+    {% for change in object.get_changes %}
+    <tr class="hist-change-row"> 
+        <td class="hist-field">{{ change.field }}</td> 
+        <td class="hist-old">
+            {% if change.old %}
+                {{ change.old }}
+            {% else %}
+                &Oslash;
+            {% endif %}
+        </td>
+        <td class="hist-arrow">
+            <i class="fas fa-arrow-right"></i>
+        </td>
+        <td class="hist-new">
+           {% if change.new %}
+                {{ change.new }}
+            {% else %}
+                &Oslash;
+            {% endif %}
+        </td>
+    </tr>
+    {% endfor %}
+
+</table>

@@ -1,0 +1,60 @@
+{% load i18n %}
+{% load templates %}
+
+<div class="modal" id="modal-changes">
+  <div>
+    <div class="modal-header">
+      <h1 class="modal-title">
+        {% trans 'Changements' %}
+      </h1>
+      <button type="button" class="modal-close">
+        <i class="fa fa-window-close"></i>
+      </button>
+    </div>
+
+    <div class="modal-body">
+      <div class="hist-change-list">
+      </div>
+    </div>
+    <div class="modal-footer">
+
+      <button type="button" class="modal-close">
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+
+<table> 
+  <thead>
+    <tr>
+      <th>
+      </th>
+      <th>
+        Date
+        <button class="btn-ls-sort is-off" data-sort="date">
+          <i class="fa fa-chevron-circle-down "></i>
+        </button>
+      </th>
+      <th>
+        User
+        <button class="btn-ls-sort is-off" data-sort="user">
+          <i class="fa fa-chevron-circle-down "></i>
+        </button>
+      </th>
+      <th>
+        Object
+        <button class="btn-ls-sort is-off" data-sort="object">
+          <i class="fa fa-chevron-circle-down "></i>
+        </button>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+
+    {% for hist in object_list %}
+    {% include 'genviews/history_row.html' with user=hist.user date=hist.date type=hist.action object=hist.record.instance %}
+    {% endfor %}
+  </tbody>
+</table>
+

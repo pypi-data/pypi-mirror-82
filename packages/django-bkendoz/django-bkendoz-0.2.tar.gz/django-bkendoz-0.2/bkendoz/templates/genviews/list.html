@@ -1,0 +1,36 @@
+{% extends settings.LAYOUT.main_layout %}
+{% load i18n %}
+{% load templates %}
+
+{% block content %}
+
+<div class="list-cont">
+
+{% if list_title %}
+  <div class="heading-flex">
+    <h1>{{ list_title }}
+      <p>
+       <input name="list_search" type="search" placeholder="Recherche" />
+       <button class="reset-search invisible">
+            <i class="fa fa-eraser"></i>
+        </button>
+      </p>
+    </h1>
+    {% for view_link, faclass in list_menu %}
+    <a href = "{% url view_link %}">
+        <i class="fas {{ faclass }}"></i>
+    </a>
+    {% endfor %}
+ </div>
+{% endif %}
+
+  {% if not object_list %}
+      {% trans 'Aucun objet à afficher.' %}
+  {% else %}
+    {% if html %}
+      {% include html %}
+    {% endif %}
+  {% endif %}
+
+</div>
+{% endblock %}
