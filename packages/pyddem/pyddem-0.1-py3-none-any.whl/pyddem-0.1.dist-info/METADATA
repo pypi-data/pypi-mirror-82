@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyddem
+Version: 0.1
+Summary: pyddem is a python package for processing time series of elevation measurements
+Home-page: https://github.com/iamdonovan/pyddem
+Author: Romain Hugonnet and Bob McNabb
+Author-email: robertmcnabb@gmail.com
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Dist: dask
+Requires-Dist: fiona
+Requires-Dist: gdal
+Requires-Dist: geopandas
+Requires-Dist: h5py
+Requires-Dist: llc
+Requires-Dist: matplotlib
+Requires-Dist: netCDF4
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pybob (>=0.25)
+Requires-Dist: pymmaster (>=0.1)
+Requires-Dist: pyproj
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: skgstat
+Requires-Dist: xarray
+
+UNKNOWN
+
+
