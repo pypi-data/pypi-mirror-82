@@ -1,0 +1,8 @@
+pyqcec.cp36-win_amd64.pyd,sha256=ZOvVIr7SakeBUWn2V0etWmUWNWyNdcHKqD2d-PyyDcw,660480
+jkq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jkq/qcec/__init__.py,sha256=81caQhT9fstBkkIr0pdFWEmnAzqSkmrWjfkVbFGSxUQ,218
+jkq.qcec-1.5.0b1.dist-info/LICENSE,sha256=15WJWHRwWhnX5b6U1gzVj7TSMchVlzH9xhC7iH_E5FM,1108
+jkq.qcec-1.5.0b1.dist-info/METADATA,sha256=JGsOMma5Lu2r5bBV2xGrXEPEXKDx4T4XvCWvjf6uO6c,11075
+jkq.qcec-1.5.0b1.dist-info/WHEEL,sha256=SktxJNdVgf2GQ0Rnj47KhGrFXFhp4j6ROtWy0UXB1eM,106
+jkq.qcec-1.5.0b1.dist-info/top_level.txt,sha256=nB1xwAtwXKBSsnrBFmeN1TAtqdvHHkKqLb9XGsogMTs,11
+jkq.qcec-1.5.0b1.dist-info/RECORD,,
