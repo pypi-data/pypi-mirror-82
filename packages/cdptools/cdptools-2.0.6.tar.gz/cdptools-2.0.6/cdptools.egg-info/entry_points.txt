@@ -1,0 +1,6 @@
+[console_scripts]
+clone_db = cdptools.bin.clone_db:main
+clone_file_store = cdptools.bin.clone_file_store:main
+process_single_event = cdptools.bin.process_single_event:main
+run_cdp_pipeline = cdptools.bin.run_cdp_pipeline:main
+
