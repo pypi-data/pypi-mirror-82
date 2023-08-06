@@ -1,0 +1,8 @@
+README.md
+setup.py
+dhivatars/__init__.py
+dhivatars.egg-info/PKG-INFO
+dhivatars.egg-info/SOURCES.txt
+dhivatars.egg-info/dependency_links.txt
+dhivatars.egg-info/requires.txt
+dhivatars.egg-info/top_level.txt

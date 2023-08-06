@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: dhivatars
+Version: 0.3
+Summary: Generates avatars from dhivehi names or strings
+Home-page: https://github.com/phoenixatom/dhivehi-avatar
+Author: Mohamed Aruham
+Author-email: aruham@baivaru.net
+License: GPLv3
+Description: # Dhivatar
+        Generates avatars from dhivehi names or strings
+        
+        
+        ## Credits
+        * [PhoenixAtom](https://github.com/phoenixatom) - Author
+        * [Athphane](https://github.com/athphane) - Idea
+        * [Avatar-Generator](https://github.com/maethor/avatar-generator)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
