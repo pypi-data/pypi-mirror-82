@@ -1,0 +1,14 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/mock_client.py,sha256=706Q9kgZtmG8U8koZgB_HMWv66qsJHD2xvzRtQuCY3s,3090
+test/save_api_requests_responses.py,sha256=z6nK50IhKfAxwnhzJtk9v3IvQ_0RielT-p49OtObFwY,2156
+test/test_access.py,sha256=iJZlrGviUsfsI7ptnQxOOf81qJrlsU6ex7qosFeA3gk,462
+test/test_ebet_betting.py,sha256=2oCtWr3tYTJPeW-pQf1CpRc6vJj52boPM2z9HoOhrRc,1219
+veikkaaja/__init__.py,sha256=R5tiVqhx90zqMqHcvX-EKontAoGjh80beEVRlgmJWFo,987
+veikkaaja/endpoints.py,sha256=uqkek1_ccBxKWT9i3RIozUVx-ewWsPeXQ6nHqUemwoQ,2537
+veikkaaja/veikkaus_client.py,sha256=7Hc7Y_nVsfvg5ch-NcAlrhAtGozsa3DxZ0J_O2EM6zs,24046
+veikkaaja-0.1.0.dist-info/LICENSE,sha256=70VOeHudvlOKJaM4a-xFMUQ9etSpvG1ufye7RwpDOO0,1070
+veikkaaja-0.1.0.dist-info/METADATA,sha256=x4kQvBh-SpA5vldtdCyL3wYT4EaktN6DXbQTv6i4BmM,3751
+veikkaaja-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+veikkaaja-0.1.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+veikkaaja-0.1.0.dist-info/top_level.txt,sha256=p3cWR8Gzd0H5G0vVbZSdBorAvKkND_oB-2lbU-tde9Q,15
+veikkaaja-0.1.0.dist-info/RECORD,,
