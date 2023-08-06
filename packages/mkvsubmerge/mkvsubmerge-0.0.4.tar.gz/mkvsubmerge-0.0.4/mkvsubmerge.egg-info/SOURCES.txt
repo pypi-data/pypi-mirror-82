@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+mkvsubmerge/__init__.py
+mkvsubmerge/__main__.py
+mkvsubmerge/mkvsubmerge.py
+mkvsubmerge.egg-info/PKG-INFO
+mkvsubmerge.egg-info/SOURCES.txt
+mkvsubmerge.egg-info/dependency_links.txt
+mkvsubmerge.egg-info/entry_points.txt
+mkvsubmerge.egg-info/requires.txt
+mkvsubmerge.egg-info/top_level.txt
