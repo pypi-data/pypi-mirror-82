@@ -1,0 +1,16 @@
+protclus/__init__.py,sha256=MJXAZlFGn4P6cu8-zt7r-BX4A7LRK-Sb9Ee_DswcR2A,113
+protclus/cluster_alg.py,sha256=6BfSbPNYLdHW77d-uoKQ_MGBbM7So_S2UhxyTanvElI,725
+protclus/coach.py,sha256=ETvJkqq21qJ7UDOVkORzgtxXcpu5n2ouZtTuw0giW6A,6804
+protclus/coach_script.py,sha256=hW4z8-MgZtdHhaeXulox3ixrUeSAQ3fmEviNvJvdWz4,6073
+protclus/deterministic_ipca.py,sha256=JuPJU7-mxgBWLtWAbjW88U9fIQWzCxqVcGEoCHL6Mbo,3034
+protclus/dpclus.py,sha256=wemgHnzrIdAZZGLeiuAJgWBja9mZSvZwTHEyhd7jMjU,6984
+protclus/dpclus_script.py,sha256=SsPHiHdu9WFCBrM0EZuWGsYAEidL1rRKPmaCrrqMm7M,5916
+protclus/ipca.py,sha256=W11P4bYHUj4HY6cIUh0FtW2_mr_B5yLBTUgjdPwprBE,3643
+protclus/ipca_script.py,sha256=TyQ1WS_nnQ6IoBLdJ60f2C0SSGLA2ic1Z8a6V9PT1Vs,2524
+protclus/mcode.py,sha256=WWC9AFACCq8kRaMvXPd_0Z9pnRb7gJDz0TNCH1t2Lh0,3628
+protclus/mcode_script.py,sha256=33Ki3Fd2HcfJGEEvv0Cli8k_BKFZBqCRtOrZ76YtCVE,3046
+protclus-0.9.1.dist-info/LICENSE,sha256=1zfOzR8pzz2kGGIrGAYf-OxJMBJxL2fHHZaoFVfhZx8,1066
+protclus-0.9.1.dist-info/METADATA,sha256=eiFoiukkazoHMwn2i8h9Xk5AR5Ct8iU9NuKagbMZJkI,3285
+protclus-0.9.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+protclus-0.9.1.dist-info/top_level.txt,sha256=Kbvk_sOvKk3V1l167pnCUFu8Xz8GkP4IcPf5eimMYko,9
+protclus-0.9.1.dist-info/RECORD,,
