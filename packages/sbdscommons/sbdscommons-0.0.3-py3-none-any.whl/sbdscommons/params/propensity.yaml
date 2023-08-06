@@ -1,0 +1,51 @@
+
+# =====================================================================
+# Preparing dictionaries with variable transformation for reusing later
+# =====================================================================
+transf_dict_log: &transf_dict_log
+  amount_spent_incl_vat: 'log1+'
+  nr_cans: 'log1+'
+
+transf_dict_bin: &transf_dict_bin
+  amount_spent_incl_vat: 'binary'
+  nr_cans: 'binary'
+
+transf_dict_none: &transf_dict_none
+  amount_spent_incl_vat: 'none'
+  nr_cans: 'none'
+
+
+# =======================================
+# Parameters for training the  best model
+# =======================================
+# Options
+best_options_dict:
+  #Features transformation
+  transf_dict:
+      <<: *transf_dict_log
+  # IBCF model options
+  self_sim:
+    1.0
+  normalize_scores_per_user:
+    True
+  # Input to item-based collaborative filtering (IBCF)
+  user_col:
+    'customer_id_hash'
+  item_col:
+    'product_group_id_hash'
+  value_col:
+    'nr_cans'
+  # Using segments or not
+  segmented_model:
+      False
+
+# Query for loading the best sample to train the model
+best_query_dict:
+  reference_date:
+    '2020-03-04'
+  min_days_since:
+    0
+  max_days_since:
+    25
+  nr_days_as_customer:
+    25
