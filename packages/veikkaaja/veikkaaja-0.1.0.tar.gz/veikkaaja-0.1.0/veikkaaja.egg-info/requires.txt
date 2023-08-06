@@ -1,0 +1,8 @@
+requests
+
+[dev]
+pytest
+pylint
+yapf
+mypy
+responses

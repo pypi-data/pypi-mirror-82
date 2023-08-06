@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+test/__init__.py
+test/mock_client.py
+test/save_api_requests_responses.py
+test/test_access.py
+test/test_ebet_betting.py
+veikkaaja/__init__.py
+veikkaaja/endpoints.py
+veikkaaja/veikkaus_client.py
+veikkaaja.egg-info/PKG-INFO
+veikkaaja.egg-info/SOURCES.txt
+veikkaaja.egg-info/dependency_links.txt
+veikkaaja.egg-info/entry_points.txt
+veikkaaja.egg-info/requires.txt
+veikkaaja.egg-info/top_level.txt
