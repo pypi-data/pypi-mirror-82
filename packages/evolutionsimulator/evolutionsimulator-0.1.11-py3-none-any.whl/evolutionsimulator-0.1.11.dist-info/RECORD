@@ -1,0 +1,14 @@
+evolutionsimulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evolutionsimulator/__main__.py,sha256=Nw11-_oC61xOY5cswg79ej1t2T2rHTM4B-8iD6ZBKOQ,9801
+evolutionsimulator/animals.py,sha256=KpYvDml5Ih8is2ib6vBq_FdZgkLhaONmdbZDnjBQGrQ,9615
+evolutionsimulator/automatic_testing.py,sha256=55nb_JtaWg4IAANNukDEHVnuAoeNRFwToXrNfIVf96w,9534
+evolutionsimulator/data_analyzer.py,sha256=kVLdDpuLxwpjrnXz5AWzRdGwoqQL8stnRpJR61N0m3A,1460
+evolutionsimulator/data_grouper.py,sha256=Sl6V4kWah7Ebs4WWhgE1LjxT0SSE3hApiI8XsMMMUwg,2617
+evolutionsimulator/environment.py,sha256=ITUf8RKLRaMzc753oDC5CC3E2jwpiAXV-JQxwsDyiTg,9913
+evolutionsimulator/interactive.py,sha256=IScfd1TwM7MyBTOAImCp_qBCJdHIa1vk-iAqcouIfKY,2041
+evolutionsimulator/interactive_graphics.py,sha256=oOgu1RbAJb04teqvhRGo7a0D0wlDI1mqB-yh7JCZ-6A,850
+evolutionsimulator-0.1.11.dist-info/METADATA,sha256=24iTpMvJM2mk0c36J-FU27amr_IgFx314Pkbnh2D9dE,3454
+evolutionsimulator-0.1.11.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+evolutionsimulator-0.1.11.dist-info/entry_points.txt,sha256=YY3BE2RHRf10zq5Q1UoYftFXAiiw1L8chSJr9fSmcRI,63
+evolutionsimulator-0.1.11.dist-info/top_level.txt,sha256=Zdx5yzJlnSWltL3YITjvbKFXWt1ndxe1YiZq5Th6l4U,19
+evolutionsimulator-0.1.11.dist-info/RECORD,,
