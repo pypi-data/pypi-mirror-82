@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>django-chats &#8212; django-chats 0.1.1 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="installation.html" />
+    <link rel="prev" title="Welcome to chatter’s documentation!" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to chatter’s documentation!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">django-chats 0.1.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="django-chats">
+<h1>django-chats<a class="headerlink" href="#django-chats" title="Permalink to this headline">¶</a></h1>
+<a class="reference external image-reference" href="https://badge.fury.io/py/django-chats"><img alt="https://badge.fury.io/py/django-chats.svg" src="https://badge.fury.io/py/django-chats.svg" /></a>
+<a class="reference external image-reference" href="https://travis-ci.org/Ming-Lyu/chatter"><img alt="https://travis-ci.org/Ming-Lyu/chatter.svg?branch=master" src="https://travis-ci.org/Ming-Lyu/chatter.svg?branch=master" /></a>
+<a class="reference external image-reference" href="https://codecov.io/gh/Ming-Lyu/chatter"><img alt="https://codecov.io/gh/Ming-Lyu/chatter/branch/master/graph/badge.svg" src="https://codecov.io/gh/Ming-Lyu/chatter/branch/master/graph/badge.svg" /></a>
+<p>Async Chatter App Based on Webscokets</p>
+<div class="section" id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this headline">¶</a></h2>
+<p>The full documentation is at <a class="reference external" href="https://django-chats.readthedocs.io">https://django-chats.readthedocs.io</a>.</p>
+</div>
+<div class="section" id="quickstart">
+<h2>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this headline">¶</a></h2>
+<p>Install chatter:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">django</span><span class="o">-</span><span class="n">chats</span>
+</pre></div>
+</div>
+<p>Add it to your <cite>INSTALLED_APPS</cite>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">INSTALLED_APPS</span> <span class="o">=</span> <span class="p">(</span>
+    <span class="o">...</span>
+    <span class="s1">&#39;chatter.apps.chatter&#39;</span><span class="p">,</span>
+    <span class="o">...</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Add chatter’s URL patterns:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">django.urls</span> <span class="kn">import</span> <span class="n">re_path</span><span class="p">,</span> <span class="n">include</span>
+<span class="kn">from</span> <span class="nn">chatter</span> <span class="kn">import</span> <span class="n">urls</span> <span class="k">as</span> <span class="n">chatter_urls</span>
+<span class="kn">from</span> <span class="nn">chatter.api</span> <span class="kn">import</span> <span class="n">urls</span> <span class="k">as</span> <span class="n">chatter_api_urls</span>
+
+
+<span class="n">urlpatterns</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="o">...</span>
+    <span class="n">re_path</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;^&#39;</span><span class="p">,</span> <span class="n">include</span><span class="p">(</span><span class="n">chatter_urls</span><span class="p">)),</span>
+    <span class="n">re_path</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;^&#39;</span><span class="p">,</span> <span class="n">include</span><span class="p">(</span><span class="n">chatter_api_urls</span><span class="p">)),</span>
+    <span class="o">...</span>
+<span class="p">]</span>
+</pre></div>
+</div>
+<p>Redis need to be configured for group chatting:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">platform</span>
+
+<span class="c1"># Configure the redis server</span>
+<span class="n">CHANNEL_LAYERS</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;default&#39;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s1">&#39;BACKEND&#39;</span><span class="p">:</span> <span class="s1">&#39;channels_redis.core.RedisChannelLayer&#39;</span><span class="p">,</span>
+        <span class="s1">&#39;CONFIG&#39;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;hosts&quot;</span><span class="p">:</span> <span class="p">[(</span><span class="s1">&#39;192.168.99.100&#39;</span><span class="p">,</span> <span class="mi">6379</span><span class="p">)</span> <span class="k">if</span> <span class="n">platform</span><span class="o">.</span><span class="n">system</span><span class="p">()</span><span class="o">==</span><span class="s1">&#39;Windows&#39;</span> <span class="k">else</span> <span class="p">(</span><span class="s1">&#39;127.0.0.1&#39;</span><span class="p">,</span> <span class="mi">6379</span><span class="p">)],</span>
+        <span class="p">},</span>
+    <span class="p">},</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Official acount username could be specified or by default: “official_user”</p>
+</div>
+<div class="section" id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Support Realtime communication through ASGI compatible Server</p></li>
+<li><p>Automatically generated official account if not specified</p></li>
+<li><p>Message implemented using django-restframework</p></li>
+<li><p>EmojiPicker Intergration(credit:OneSignal)</p></li>
+</ul>
+</div>
+<div class="section" id="running-tests">
+<h2>Running Tests<a class="headerlink" href="#running-tests" title="Permalink to this headline">¶</a></h2>
+<p>Does the code actually work?</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>source &lt;YOURVIRTUALENV&gt;/bin/activate
+(myenv) $ pip install tox
+(myenv) $ tox
+</pre></div>
+</div>
+</div>
+<div class="section" id="development-commands">
+<h2>Development commands<a class="headerlink" href="#development-commands" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements_dev</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">invoke</span> <span class="o">-</span><span class="n">l</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">django-chats</a><ul>
+<li><a class="reference internal" href="#documentation">Documentation</a></li>
+<li><a class="reference internal" href="#quickstart">Quickstart</a></li>
+<li><a class="reference internal" href="#features">Features</a></li>
+<li><a class="reference internal" href="#running-tests">Running Tests</a></li>
+<li><a class="reference internal" href="#development-commands">Development commands</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Welcome to chatter’s documentation!</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="installation.html"
+                        title="next chapter">Installation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/readme.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to chatter’s documentation!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">django-chats 0.1.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, MingLyu.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.1.2.
+    </div>
+  </body>
+</html>
