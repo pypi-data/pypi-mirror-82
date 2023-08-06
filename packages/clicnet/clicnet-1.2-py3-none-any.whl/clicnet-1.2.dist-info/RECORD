@@ -1,0 +1,15 @@
+clicnet/__init__.py,sha256=GoG2YI0CMhjId3uRc35ZxGbSpxWXqOLwjfuXhq12A60,23
+clicnet/cancer_data.py,sha256=XAqqxAAoJDA2eo_MZPpjN4OIv44l9ZA8pfXzJ-RGmow,4959
+clicnet/clicnet.py,sha256=BKeMmGAhSviDbX4BQ2w7fkx2E2f1mTV_9CFm0fdS5fk,9977
+clicnet/rbm.py,sha256=39LhYIE4p_h6pY8b3LalEugRHnxykv0NE3HzZxvX3z0,9197
+clicnet/cdata/liu.pickle,sha256=UY_QD78tgLlQzvkTdBAuQNasjU0ZmaPd2MuH4KT2FKM,2895996
+clicnet/cdata/msk.pickle,sha256=gpeRywpHjB8OjQ_C_YYap4OWCjjIRzL8PFw9aM_FvdM,944703
+clicnet/cdata/msktmb.pickle,sha256=kkQVz6OelLqsirCKW2rDIQTFKQFv5HpvkroZGXeeTT4,470714
+clicnet/cdata/mut_profiles.pickle,sha256=9l2vYRWab_Nodp7LOOz2sla2snGSIbUJmN9gCvTf62k,7804
+clicnet/cdata/riaz.pickle,sha256=OzcdiVLIOg_U7yrbvZpZ7zY3AhWKixv0YHtBq5xtyfY,978795
+clicnet/cdata/tcga.pickle,sha256=1-OLTJj9N-Xb_IJBIECfPkg13b4aEkS5CFYG7Sn5_dM,20041362
+clicnet-1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+clicnet-1.2.dist-info/METADATA,sha256=E8hZetJQ4knOye8TzFdL6REpDPFRjwa388kpol7gQXg,5622
+clicnet-1.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+clicnet-1.2.dist-info/top_level.txt,sha256=wHQ_Es315lai7s3_VQy0amy1KuccCA-JuN62aeWtc7Y,8
+clicnet-1.2.dist-info/RECORD,,
