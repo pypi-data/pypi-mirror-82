@@ -1,0 +1,9 @@
+fileguard/__init__.py,sha256=ebwAZZQVJ7JxKglvj5ZaEQXipJ-CNAdaRzrmW6bCNig,126
+fileguard/fileguard.py,sha256=wQ6d7X17wXNwBJ_4R8UyC86kFCKaHHAGQusbq568qMA,2414
+fileguard/guardjournal.py,sha256=Bbc8CxXyDrUqTHuemQ_ivtzt9QKE_KKgrK69M6DWX2I,2961
+fileguard/largefileguard.py,sha256=_4SelXSiFLpKDs9hIsVa9O8q86KK375mqkhg8sefTWs,6065
+pyfileguard-0.0.4.dist-info/LICENSE,sha256=UaNffOmFTsVL_0kAzEGZLOfV5Udz9-HP7ZrwOhth9aQ,1068
+pyfileguard-0.0.4.dist-info/METADATA,sha256=E7bAvVtFzvKo7HwesnHhZoZ23k5j5qLnDlRP_80dwG4,2289
+pyfileguard-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyfileguard-0.0.4.dist-info/top_level.txt,sha256=vh81gLw6vUrGfurEEuhLOJModdyglXPpSawsQTboT-w,10
+pyfileguard-0.0.4.dist-info/RECORD,,
