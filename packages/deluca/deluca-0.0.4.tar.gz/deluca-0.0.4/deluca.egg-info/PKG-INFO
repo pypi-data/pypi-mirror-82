@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: deluca
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: https://github.com/MinRegret/deluca
+Author: Google AI Princeton
+Author-email: dsuo@google.com
+License: Apache License
+Description: # deluca
+        
+        Performant, differentiable reinforcement learning
+        
+        [![doc_coverage](https://raw.githubusercontent.com/MinRegret/deluca/main/.github/badges/docstring_coverage.svg?sanitize=true)](https://github.com/MinRegret/deluca)
+        
+        ![deluca](https://raw.githubusercontent.com/MinRegret/deluca/main/assets/img/deluca.svg?token=AAURLVRRLKHPK4VELPKH6X27RW5LC)
+        
+Keywords: differentiable,control algorithms,reinforcement learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
