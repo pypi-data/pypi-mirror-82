@@ -1,0 +1,9 @@
+README.md
+setup.py
+chevrons/__init__.py
+chevrons/tests.py
+chevrons/text.py
+chevrons_re.egg-info/PKG-INFO
+chevrons_re.egg-info/SOURCES.txt
+chevrons_re.egg-info/dependency_links.txt
+chevrons_re.egg-info/top_level.txt
