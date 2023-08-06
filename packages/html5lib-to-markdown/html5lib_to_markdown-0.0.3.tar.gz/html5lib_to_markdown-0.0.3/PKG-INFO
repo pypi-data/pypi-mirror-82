@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: html5lib_to_markdown
+Version: 0.0.3
+Summary: extract markdown flavored text from html
+Home-page: UNKNOWN
+Author: Jonathan Vanasco
+Author-email: jonathan@findmeon.com
+License: UNKNOWN
+Description: ![Python package](https://github.com/jvanasco/html5lib_to_markdown/workflows/Python%20package/badge.svg)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Provides-Extra: testing
