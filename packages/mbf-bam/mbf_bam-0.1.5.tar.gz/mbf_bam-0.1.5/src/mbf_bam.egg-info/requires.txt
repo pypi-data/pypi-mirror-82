@@ -1,0 +1,16 @@
+numpy
+pandas
+pysam
+
+[doc]
+numpydoc
+sphinx
+sphinx-bootstrap-theme
+
+[testing]
+mbf_externals
+mbf_sampledata
+pytest
+pytest-cov
+pytest-icdiff
+requests-mock
