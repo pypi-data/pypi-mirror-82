@@ -1,0 +1,9 @@
+README.md
+setup.py
+syphonpy/__init__.py
+syphonpy/setup.py
+syphonpy/tester.py
+syphonpy_mschuff0881.egg-info/PKG-INFO
+syphonpy_mschuff0881.egg-info/SOURCES.txt
+syphonpy_mschuff0881.egg-info/dependency_links.txt
+syphonpy_mschuff0881.egg-info/top_level.txt
