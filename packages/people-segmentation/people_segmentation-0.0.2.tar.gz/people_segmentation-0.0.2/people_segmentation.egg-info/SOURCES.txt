@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+people_segmentation/__init__.py
+people_segmentation/dataloaders.py
+people_segmentation/inference.py
+people_segmentation/metrics.py
+people_segmentation/pre_trained_models.py
+people_segmentation/train.py
+people_segmentation/utils.py
+people_segmentation.egg-info/PKG-INFO
+people_segmentation.egg-info/SOURCES.txt
+people_segmentation.egg-info/dependency_links.txt
+people_segmentation.egg-info/requires.txt
+people_segmentation.egg-info/top_level.txt
