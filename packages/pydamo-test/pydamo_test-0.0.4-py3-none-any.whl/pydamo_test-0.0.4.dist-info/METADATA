@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pydamo-test
+Version: 0.0.4
+Summary: pydamo with auto regsvr
+Home-page: https://github.com/bode135/pydamo
+Author: bode135
+Author-email: 2248270222@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pywin32
+Requires-Dist: bode-time
+
+# bode's time model.
+> 测试版本
+
+需要```pywin32```和```bode-time```作为依赖项！
+
