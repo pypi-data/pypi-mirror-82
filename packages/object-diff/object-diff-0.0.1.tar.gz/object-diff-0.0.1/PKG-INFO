@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: object-diff
+Version: 0.0.1
+Summary: Library for diffing data structures of built-in types
+License: LGPL-3.0-or-later
+Author: Rolandas Valteris
+Author-email: rolandas.valteris@protonmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
