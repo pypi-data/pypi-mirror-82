@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+Toxa.egg-info/PKG-INFO
+Toxa.egg-info/SOURCES.txt
+Toxa.egg-info/dependency_links.txt
+Toxa.egg-info/not-zip-safe
+Toxa.egg-info/top_level.txt
+toxa/__init__.py
+toxa/toxasup.py
