@@ -1,0 +1,13 @@
+parfis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parfis/cmodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parfis/cmodule/parfisdll.py,sha256=fQ_A5Js_nNSatYKrAd4jtG4qstjjPQlUhDWo0REzxyY,6201
+parfis/cmodule/lib/parfis.dll,sha256=lfLMr-62aq7xUE7oMB-vscQXwsB4Gr4y8OKWSWtMB1A,95232
+parfis/data/config/api_1.ini,sha256=5tKrHtQa0nyU4mQRwjpsx3R3AxIUghM-_9UoWdmbsZQ,842
+parfis/tests/__init__.py,sha256=CBs7kQzB3T9pfVa02HfW54rhazgK6zVKSJdiKXY8FlQ,35
+parfis/tests/test_all.py,sha256=ZnpZaHWoVFBWeoZdCwfTfoc2ePHC-zubbBjLJDonxYg,171
+parfis/tests/test_api.py,sha256=7beR6W1tvYHmSra6WLFdfSlQ54rQdcjKlIFXxm4M1sE,600
+parfis-0.0.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+parfis-0.0.4.dist-info/METADATA,sha256=pffkZyZT2btNr7zXKcZ_R4rJbloVQ762Gn_mvtH6440,1264
+parfis-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+parfis-0.0.4.dist-info/top_level.txt,sha256=3aNPaBLElvsovZNo8mIag0up4xhgGXEWYIHQpq2GJXA,7
+parfis-0.0.4.dist-info/RECORD,,
