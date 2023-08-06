@@ -1,0 +1,50 @@
+{% extends "admin/base_site.html" %}
+{% load static %}
+
+{% block title %}View current settings {{block.super}}{% endblock title %}
+
+{% block extrastyle %}
+{{ block.super }}
+<link rel="stylesheet" type="text/css" href="{% static 'settings/settings.css' %}">
+{% endblock extrastyle %}
+
+{% block content %}
+<div id="content-main">
+    <h1>Current settings</h1>
+    <ul class="object-tools">
+        <li>
+            <a href="{% url 'admin:settings_value_add' %}" class="addlink">
+                add value
+            </a>
+        </li>
+        <li>
+            <a href="{% url 'admin:settings_value_refresh' %}" class="refresh-button">
+                refresh settings
+            </a>
+        </li>
+    </ul>
+    <div id="view-all-results">
+        <table>
+            <thead>
+                <th>Setting</th>
+                <th>Instance</th>
+                <th>Field</th>
+                <th>Public</th>
+                <th>Value</th>
+            </thead>
+            <tbody>
+                {% for value in values %}
+                <tr>
+                    <td>{{value.s_name}}</td>
+                    <td>{{value.i_name}}</td>
+                    <td>{{value.f_name}}</td>
+                    <td>{% if value.f_public %}<img src="/static/admin/img/icon-yes.svg" alt="True">{% else %} <img
+                            src="/static/admin/img/icon-no.svg" alt="False"> {% endif %}</td>
+                    <td>{{value.v_value}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
