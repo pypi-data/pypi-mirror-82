@@ -1,0 +1,211 @@
+ Ability: Sensor
+  Effect: Allows you to see an enemy's HP and elemental weaknesses.
+Requires: Ability Sphere x2
+
+ Ability: Piercing
+  Effect: Pierces through armored enemies.
+Requires: Level 2 Key Sphere x1
+
+ Ability: First Strike
+  Effect: Allows you to attack first, irrespective of speed or having been ambushed by the enemy.
+Requires: Return Sphere x1
+
+ Ability: Initiative
+  Effect: Increases the chances of a pre-emptive strike.
+Requires: Chocobo Feather x6
+
+ Ability: Firestrike
+  Effect: Adds the fire element to an attack.
+Requires: Bomb Fragment x4
+
+ Ability: Thunderstrike
+  Effect: Adds the thunder element to an attack.
+Requires: Electro Marble x4
+
+ Ability: Waterstrike
+  Effect: Adds the water element to an attack.
+Requires: Fish Scale x4
+
+ Ability: Icestrike
+  Effect: Adds the ice element to an attack.
+Requires: Antarctic Wind x4
+
+ Ability: Darktouch
+  Effect: Occasionally blinds the enemy.
+Requires: Eyedrops x60
+
+ Ability: Darkstrike
+  Effect: Always blinds the enemy.
+Requires: Smoke Bomb x20
+
+ Ability: Silencetouch
+  Effect: Occasionally silences the enemy.
+Requires: Echo Screen x60
+
+ Ability: Silencestrike
+  Effect: Always silences the enemy.
+Requires: Silence Grenade x20
+
+ Ability: Sleeptouch
+  Effect: Occasionally puts an enemy to sleep.
+Requires: Sleeping Powder x10
+
+ Ability: Sleepstrike
+  Effect: Always puts an enemy to sleep.
+Requires: Dream Powder x16
+
+ Ability: Poisontouch
+  Effect: Occasionally poisons the enemy.
+Requires: Antidote x99
+
+ Ability: Poisonstrike
+  Effect: Always poisons the enemy.
+Requires: Poison Fang x24
+
+ Ability: Stonetouch
+  Effect: Occasionally turns the enemy to stone.
+Requires: Petrify Grenade x10
+
+ Ability: Stonestrike
+  Effect: Always turns the enemy to stone.
+Requires: Petrify Grenade x60
+
+ Ability: Deathtouch
+  Effect: Occasionally instantly kills the enemy.
+Requires: Farplane Shadow x30
+
+ Ability: Deathstrike
+  Effect: Always instantly kills the enemy.
+Requires: Farplane Wind x60
+
+ Ability: Zombietouch
+  Effect: Occasionally zombifies the enemy.
+Requires: Holy Water x70
+
+ Ability: Zombiestrike
+  Effect: Always zombifies the enemy.
+Requires: Candle of Life x30
+
+ Ability: Slowtouch
+  Effect: Occasionally slows the enemy.
+Requires: Silver Hourglass x16
+
+ Ability: Slowstrike
+  Effect: Always slows the enemy.
+Requires: Gold Hourglass x30
+
+ Ability: Distill Power (FFX International _only_!)
+  Effect: Causes the enemy to drop Power Spheres.
+Requires: Power Sphere x2
+
+ Ability: Distill Mana (FFX International _only_!)
+  Effect: Causes the enemy to drop Mana Spheres.
+Requires: Mana Sphere x2
+
+ Ability: Distill Speed (FFX International _only_!)
+  Effect: Causes the enemy to drop Speed Spheres.
+Requires: Speed Sphere x2
+
+ Ability: Distill Ability (FFX International _only_!)
+  Effect: Causes the enemy to drop Ability Spheres.
+Requires: Ability Sphere x2
+
+ Ability: Strength +3%
+  Effect: Increases attack power by 3%.
+Requires: Power Sphere x3
+
+ Ability: Strength +5%
+  Effect: Increases attack power by 5%.
+Requires: Stamina Spring x2
+
+ Ability: Strength +10%
+  Effect: Increases attack power 10%.
+Requires: Skill Sphere x1
+
+ Ability: Strength +20%
+  Effect: Increases attack power by 20%.
+Requires: Supreme Gem x4
+
+ Ability: Magic +3%
+  Effect: Increases magic attack power by 3%.
+Requires: Mana Sphere x3
+
+ Ability: Magic +5%
+  Effect: Increases magic attack power by 5%.
+Requires: Mana Spring x2
+
+ Ability: Magic +10%
+  Effect: Increases magic attack power by 10%.
+Requires: Black Magic Sphere x1
+
+ Ability: Magic +20%
+  Effect: Increases magic attack power by 20%.
+Requires: Supreme Gem x4
+
+ Ability: Counterattack
+  Effect: Automatically counterattacks when attacked by the enemy.
+Requires: Friend Sphere x1
+
+ Ability: Evade & Counter
+  Effect: Avoids an attack by the enemy and automatically counterattacks.
+Requires: Teleport Sphere x1
+
+ Ability: Magic Counter
+  Effect: Automatically counterattacks when attacked by an enemy spell.
+Requires: Shining Gem x16
+
+ Ability: Magic Booster
+  Effect: Increases magic attack power, expending more MP doing so.
+Requires: Ether Turbo x30
+
+ Ability: Alchemy
+  Effect: Doubles the effectiveness of medicine in battle.
+Requires: Healing Water x4
+
+ Ability: Half MP Cost
+  Effect: Halves the amount of MP required to preform magic, skills, or special techniques.
+Requires: Twin Stars x20
+
+ Ability: One MP Cost
+  Effect: Makes all magic, skills, and special techniques only require 1 MP to preform.
+Requires: Three Stars x20
+
+ Ability: No AP
+  Effect: Recieve no AP after battle.
+Requires: N/A
+
+ Ability: Double AP
+  Effect: Doubles the amount of AP recieved after battle.
+Requires: Mega Elixir x20
+
+ Ability: Triple AP
+  Effect: Triples the amount of AP recieved after battle.
+Requires: Wings to Discovery x50
+
+ Ability: Overdrive -> AP
+  Effect: Overdrive gauge doesn't rise, but you recieve more AP after battle, depending on what Overdrive type you've set.
+Requires: Door to Tomorrow x10
+
+ Ability: SOS Overdrive
+  Effect: Makes Overdrive gauge rise faster when in critical condition.
+Requires: Gambler's Spirit x20
+
+ Ability: Double Overdrive
+  Effect: Makes Overdrive gauge rise twice as quickly.
+Requires: Underdog's Secret x30
+
+ Ability: Triple Overdrive
+  Effect: Makes Overdrive gauge rise three times as quickly.
+Requires: Winning Formula x30
+
+ Ability: Gillionaire
+  Effect: Doubles the amount of gil recieved after battle.
+Requires: Designer Wallet x30
+
+ Ability: Break Damage Limit
+  Effect: Allows you to do more than 9,999 damage, up to a max of 99,999 damage.
+Requires: Dark Matter x60
+
+ Ability: Capture
+  Effect: Sends the monster to the Monster Arena to the east of the Calm Lands, if a killing blow is dealt with this ability equipped.
+Requires: N/A (Bought from monster trainer at the Arena.)

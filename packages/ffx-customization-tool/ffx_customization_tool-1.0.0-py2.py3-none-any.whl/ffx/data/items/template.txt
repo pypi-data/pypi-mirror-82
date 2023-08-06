@@ -1,0 +1,5 @@
+<group name="item">
+ Ability: {{ ability | ORPHRASE }}
+  Effect: {{ effect | ORPHRASE }}
+Requires: {{ requirement | ORPHRASE }}
+</group>

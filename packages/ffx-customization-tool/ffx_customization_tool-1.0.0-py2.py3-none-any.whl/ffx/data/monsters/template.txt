@@ -1,0 +1,40 @@
+<group name="monster">
+ Name: {{ name | ORPHRASE }} Location: {{ location | ORPHRASE }}
+   HP: {{ hp | ORPHRASE }} Ronso Rage: {{ ronso_rage | ORPHRASE }}
+   MP: {{ mp | ORPHRASE }}
+   AP: {{ ap | ORPHRASE }}
+  Gil: {{ gil | ORPHRASE }}
+Steal: {{ steal | ORPHRASE }}
+Bribe: {{ bribe | ORPHRASE }}
+ Drop: {{ drop | ORPHRASE }}
+
+Auto-abilites of dropped weapons: {{ drop_weapon | ORPHRASE }}
+Auto-abilites of dropped armor: {{ drop_armor | ORPHRASE }}
+<group name="stats">
+|----------|----------|----------|----------|----------|----------| {{ _exact_ }}
+|  Power   | Defense  | M. Power | M. Def.  |  Speed   | Evade %  | {{ _start_ }}
+|----------|----------|----------|----------|----------|----------| {{ _exact_ }}
+| {{ power }} | {{ defense }} | {{ magic_power}} | {{ magic_defense }} | {{ speed }} | {{ evade }} |
+</group>
+<group name="elements">
+|-----------|-----------|-----------|------------|------------| {{ _exact_ }}
+|   Fire    |  Thunder  |   Water   |     Ice    |    Holy    | {{ _start_ }}
+|-----------|-----------|-----------|------------|------------| {{ _exact_ }}
+| {{ fire }} | {{ thunder }} | {{ water }} | {{ ice }} | {{ holy }} |
+</group>
+<group name="status">
+|-------------|------------------|-------------|--------------| {{ _exact_ }}
+|   Status    |   Resistance %   |   Status    | Resistance % | {{ _start_ }}
+|-------------|------------------|-------------|--------------| {{ _exact_ }}
+| Silence     | {{ silence }}    | Blind       | {{ blind }}  |
+| Poison      | {{ poison | ORPHRASE }} | Petrify     | {{ petrify }} |
+| Slow        | {{ slow }}       | Zombie      | {{ zombie }} |
+| Sleep       | {{ sleep }}      | Death       | {{ death }}  |
+| D. Sentence | {{ death_sentence | ORPHRASE }}   | Sensor      | {{ sensor }} |
+| Threaten    | {{ threaten }}   | Scan        | {{ scan }}   |
+| Provoke     | {{ provoke }}    | Delay Atk.  | {{ delay_attack }} |
+| Pwr. Break  | {{ power_break }} | Mag. Break  | {{ magic_break }} |
+| Amr. Break  | {{ armor_break }} | Mtl. Break  | {{ mental_break }} |
+| Zanmato     | {{ zanmato | ORPHRASE }} |
+</group>
+</group>

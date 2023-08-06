@@ -1,0 +1,295 @@
+ Ability: Fire Ward
+  Effect: Halves fire damage; includes spells and regular attacks.
+Requires: Bomb Fragment x4
+
+ Ability: Fireproof
+  Effect: Nullifies fire damage; includes spells and regular attacks.
+Requires: Bomb Core x8
+
+ Ability: Fire Eater
+  Effect: Absorbs fire damage as HP; includes spells and regular attacks.
+Requires: Fire Gem x20
+
+ Ability: Lightning Ward
+  Effect: Halves thunder damage; includes spells and regular attacks.
+Requires: Electro Marble x4
+
+ Ability: Lightningproof
+  Effect: Nullifies thunder damage; includes spells and regular attacks.
+Requires: Lightning Marble x8
+
+ Ability: Lightning Eater
+  Effect: Absorbs thunder damage as HP; includes spells and regular attacks.
+Requires: Lightning Gem x20
+
+ Ability: Water Ward
+  Effect: Halves water damage; includes spells and regular attacks.
+Requires: Fish Scale x4
+
+ Ability: Waterproof
+  Effect: Nullifies water damage; includes spells and regular attacks.
+Requires: Dragon Scale x8
+
+ Ability: Water Eater
+  Effect: Absorbs water damage as HP; includes spells and regular attacks.
+Requires: Water Gem x20
+
+ Ability: Ice Ward
+  Effect: Halves ice damage; includes spells and regular attacks.
+Requires: Antarctic Wind x4
+
+ Ability: Iceproof
+  Effect: Nullifies ice damage; includes spells and regular attacks.
+Requires: Arctic Wind x8
+
+ Ability: Ice Eater
+  Effect: Absorbs ice damage as HP; includes spells and regular attacks.
+Requires: Ice Gem x20
+
+ Ability: Dark Ward
+  Effect: Occasionally protects against blindness.
+Requires: Eyedrops x40
+
+ Ability: Darkproof
+  Effect: Always protects against blindness.
+Requires: Smoke Bomb x20
+
+ Ability: Silence Ward
+  Effect: Occasionally protects against silence.
+Requires: Echo Screen x30
+
+ Ability: Silenceproof
+  Effect: Always protects against silence.
+Requires: Silent Grenade x10
+
+ Ability: Sleep Ward
+  Effect: Occasionally protects against sleep.
+Requires: Sleeping Powder x6
+
+ Ability: Sleepproof
+  Effect: Always protects against sleep.
+Requires: Dream Powder x8
+
+ Ability: Poison Ward
+  Effect: Occasionally protects against poisoning.
+Requires: Antidote x40
+
+ Ability: Poisonproof
+  Effect: Always protects against poisoning.
+Requires: Poison Fang x12
+
+ Ability: Stone Ward
+  Effect: Occasionally protects against petrification.
+Requires: Soft x30
+
+ Ability: Stoneproof
+  Effect: Always protects against petrification.
+Requires: Petrify Grenade x20
+
+ Ability: Death Ward
+  Effect: Occasionally protects against instant death.
+Requires: Farplane Shadow x15
+
+ Ability: Deathproof
+  Effect: Always protects against instant death.
+Requires: Farplane Wind x60
+
+ Ability: Zombie Ward
+  Effect: Occasionally protects against zombie.
+Requires: Holy Water x30
+
+ Ability: Zombieproof
+  Effect: Always protects against zombie.
+Requires: Candle of Life x10
+
+ Ability: Slow Ward
+  Effect: Occasionally protects against slow.
+Requires: Silver Hourglass x10
+
+ Ability: Slowproof
+  Effect: Always protects against slow.
+Requires: Gold Hourglass x20
+
+ Ability: Confuse Ward
+  Effect: Occasionally protects against confusion.
+Requires: Musk x16
+
+ Ability: Confuseproof
+  Effect: Always protects against confusion.
+Requires: Musk x48
+
+ Ability: Berserk Ward
+  Effect: Occasionally protects against berserk.
+Requires: Hypello Potion x8
+
+ Ability: Berserkproof
+  Effect: Always protects against berserk.
+Requires: Hypello Potion x32
+
+ Ability: Curseproof
+  Effect: Always protects against curse.
+Requires: Tetra Elemental x12
+
+ Ability: SOS NulBlaze
+  Effect: Automatically puts the character in NulBlaze status when in critical condition.
+Requires: Bomb Core x1
+
+ Ability: SOS NulShock
+  Effect: Automatically puts the character in NulShock status when in critical condition.
+Requires: Lightning Marble x1
+
+ Ability: SOS NulTide
+  Effect: Automatically puts the character in NulTide status when in critical condition.
+Requires: Dragon Scale x1
+
+ Ability: SOS NulFrost
+  Effect: Automatically puts the character in NulFrost status when in critical condition.
+Requires: Arctic Wind x1
+
+ Ability: SOS Shell
+  Effect: Automatically puts the character in Shell status when in critical condition.
+Requires: Lunar Curtain x8
+
+ Ability: SOS Protect
+  Effect: Automatically puts the character in Protect status when in critical condition.
+Requires: Light Curtain x8
+
+ Ability: SOS Reflect
+  Effect: Automatically puts the character in Reflect status when in critical condition.
+Requires: Star Curtain x8
+
+ Ability: SOS Haste
+  Effect: Automatically puts the character in Haste status when in critical condition.
+Requires: Chocobo Feather x20
+
+ Ability: SOS Regen
+  Effect: Automatically puts the character in Regen status when in critical condition.
+Requires: Healing Spring x12
+
+ Ability: Auto Shell
+  Effect: Automatically puts the character in Shell status.
+Requires: Lunar Curtain x80
+
+ Ability: Auto Protect
+  Effect: Automatically puts the character in Protect status.
+Requires: Light Curtain x80
+
+ Ability: Auto Reflect
+  Effect: Automatically puts the character in Reflect status.
+Requires: Star Curtain x40
+
+ Ability: Auto Haste
+  Effect: Automatically puts the character in Haste status.
+Requires: Chocobo Wing x80
+
+ Ability: Auto Regen
+  Effect: Automatically puts the character in Regen status.
+Requires: Healing Spring x80
+
+ Ability: Defense +3%
+  Effect: Increases defense power by 3%.
+Requires: Power Sphere x3
+
+ Ability: Defense +5%
+  Effect: Increases defense power by 5%.
+Requires: Stamina Spring x2
+
+ Ability: Defense +10%
+  Effect: Increases defense power by 10%.
+Requires: Special Sphere x1
+
+ Ability: Defense +20%
+  Effect: Increases defense power by 20%.
+Requires: Blessed Gem x4
+
+ Ability: Magic Defense +3%
+  Effect: Increases magic defense power by 3%.
+Requires: Mana Sphere x3
+
+ Ability: Magic Defense +5%
+  Effect: Increases magic defense power by 5%.
+Requires: Mana Spring x2
+
+ Ability: Magic Defense +10%
+  Effect: Increases magic defense power by 10%.
+Requires: White Magic Sphere x1
+
+ Ability: Magic Defense +20%
+  Effect: Increases magic defense power by 20%.
+Requires: Blessed Gem x4
+
+ Ability: HP +5%
+  Effect: Increases HP by 5%.
+Requires: X-Potion x5
+
+ Ability: HP +10%
+  Effect: Increases HP by 10%.
+Requires: Soul Spring x3
+
+ Ability: HP +20%
+  Effect: Increases HP by 20%.
+Requires: Elixir x5
+
+ Ability: HP +30%
+  Effect: Increases HP by 30%.
+Requires: Stamina Tonic x1
+
+ Ability: MP +5%
+  Effect: Increases MP by 5%.
+Requires: Ether x5
+
+ Ability: MP +10%
+  Effect: Increases MP by 10%.
+Requires: Soul Spring x3
+
+ Ability: MP +20%
+  Effect: Increases MP by 20%.
+Requires: Elixir x5
+
+ Ability: MP +30%
+  Effect: Increases MP by 30%.
+Requires: Mana Tonic x1
+
+ Ability: Auto Potion
+  Effect: Automatically uses a potion when attacked.
+Requires: Stamina Tablet x4
+
+ Ability: Auto Med
+  Effect: Automatically uses a status-restorative item when attacked.
+Requires: Remedy x20
+
+ Ability: Auto Phoenix
+  Effect: Automatically uses a phoenix down when a party member dies.
+Requires: Mega Phoenix x20
+
+ Ability: Pickpocket
+  Effect: Steal or mug rare items first.
+Requires: Amulet x30
+
+ Ability: Master Thief
+  Effect: Recieve only rare items when stealing, despite however many common items the enemy may be carrying.
+Requires: Pendulum x30
+
+ Ability: HP Stroll
+  Effect: Regenerates HP when walking in the field.
+Requires: Stamina Tablet x2
+
+ Ability: MP Stroll
+  Effect: Regenerates MP when walking in the field.
+Requires: Mana Tablet x2
+
+ Ability: No Encounters
+  Effect: Eliminates random monster encounters.
+Requires: Purifying Salt x30
+
+ Ability: Break HP Limit
+  Effect: Allows you to have more than 9,999 HP, up to a max of 99,999 HP.
+Requires: Wings to Discovery x30
+
+ Ability: Break MP Limit
+  Effect: Allows you to have more than 999 MP, up to a max of 9,999 MP.
+Requires: Three Stars x30
+
+ Ability: Ribbon (FFX International _only_!)
+  Effect: Protects against every single status ailment, except for Curse, all of the time.
+Requires: Dark Matter x99

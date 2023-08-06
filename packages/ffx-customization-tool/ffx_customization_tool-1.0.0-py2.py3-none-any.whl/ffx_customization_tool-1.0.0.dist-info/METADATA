@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: ffx-customization-tool
+Version: 1.0.0
+Summary: FFX Customization Weapon/Armor Tool
+Home-page: UNKNOWN
+Author: Santiago Blanco Ventas
+Author-email: sblancov84@gmail.com
+License: MIT
+Project-URL: Source, https://gitlab.com/sblancov84/ffx-customization-tool
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: ttp (==0.4.0)
+Requires-Dist: simple-term-menu (==0.10.1)
+Requires-Dist: terminaltables (==3.1.0)
+
+# FFX Customization Tool
+
+## Introduction
+
+The aim of this tool is make easier to find the source of material to add a
+customization into a Weapon or Armor in Final Fantasy X.
+
+## For administrators
+
+Please, read [administrator manual](docs/administrator.md). There you can find
+instructions about how to install, configure and uninstall this tool.
+
+## For users
+
+Please, read [user manual](docs/user.md). There you can find instructions about
+how to use this tool.
+
+# For developers
+
+Please, read [developer manual](docs/developer.md). There you can find
+instructions about how to develop this tool.
+
+# References
+
+There are some sources what I have to read to get data, so credit for the
+authors too. See details into [references](docs/references.md)
+
+

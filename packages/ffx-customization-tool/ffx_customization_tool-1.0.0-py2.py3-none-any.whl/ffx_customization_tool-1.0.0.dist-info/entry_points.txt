@@ -1,0 +1,3 @@
+[console_scripts]
+ffx-customization-tool = ffx.main:main
+
