@@ -1,0 +1,3 @@
+dimensions,rock_chance,grass_grow_back,owls_target_slow_mice,rand_catch,in_medias_res,m_number,m_die_of_hunger,m_preg_time,m_max_age,o_number,o_die_of_hunger,o_preg_time,o_max_age,rand_variance_trait,speed,ticks,avg_speed_mouse,avg_speed_owl,m_alive,o_alive,sim ver
+20,0,5,True,True,True,280,5,3,0,15,15,10,0,20,True,500,110,N/A,400,0,1.0
+20,0,5,True,True,True,280,5,3,0,15,15,10,0,20,True,500,188,N/A,1,0,1.0
