@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: ice_age
+Version: 0.0.1
+Summary: freeze your ENVironment
+Home-page: https://github.com/dpep/ice_age_py
+Author: Daniel Pepper
+License: MIT
+Description: ice_age
+        ======
+        Freeze your ENVironment during testing. Just in case you need to change ENV variables during tests, this library ensures that everything is reset before the next test runs.
+        
+        
+        ### Install
+        ```pip install ice_age```
+        
+        
+        ### Usage
+        ```python
+        import ice_age
+        
+        ```
+        
+        ----
+        [![Build Status](https://travis-ci.org/dpep/py_ice_age.svg?branch=master)](https://travis-ci.org/dpep/py_rekey)
+        [![Coverage Status](https://coveralls.io/repos/github/dpep/py_ice_age/badge.svg?branch=master)](https://coveralls.io/github/dpep/py_ice_age?branch=master)
+        [![installs](https://img.shields.io/pypi/dm/ice_age.svg?label=installs)](https://pypi.org/project/ice_age)
+        
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
