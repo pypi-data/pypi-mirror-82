@@ -1,0 +1,10 @@
+easierSDK/__init__.py,sha256=DPF2Jhluwds9HK2-tDMLFQyiGmsVRWGTcgMnU51RNW4,843
+easierSDK/constants.py,sha256=g_EYUxycXzZxk6YQ4tiS2K1X7vhetbJguaITtVtQ4Gs,1556
+easierSDK/datasetsAPI.py,sha256=UuQ76XCg4A5pKB1ZIltguQPMKi09luffnUUl21rnRsI,6690
+easierSDK/modelsAPI.py,sha256=fGkrIUp_lirDokNfe_Dh5hh5rKAK8m_5z-kUpo8nYik,14664
+easierSDK/tests/__init__.py,sha256=DPF2Jhluwds9HK2-tDMLFQyiGmsVRWGTcgMnU51RNW4,843
+easierSDK-0.0.1.dist-info/LICENSE,sha256=A3Xl197G_RrQ0UILVqyCh5AHc882cPYqDSZ4chF1G9M,11342
+easierSDK-0.0.1.dist-info/METADATA,sha256=Ql35yyuwpdYHJrO0ajLar1x5A5_q1or9lY6X27QaxEs,437
+easierSDK-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+easierSDK-0.0.1.dist-info/top_level.txt,sha256=PiGb1GQflST97N5M40UiX5XKUHPdAOLKumzhU4NPuj0,10
+easierSDK-0.0.1.dist-info/RECORD,,
