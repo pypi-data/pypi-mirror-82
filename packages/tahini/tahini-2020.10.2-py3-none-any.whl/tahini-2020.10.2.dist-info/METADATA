@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tahini
+Version: 2020.10.2
+Summary: Python package for graph theory
+Home-page: https://github.com/tahini-dev/tahini
+Author: tahini-dev
+Author-email: tahini.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# tahini
+
+|Service|Status|
+| -------------: | :---- |
+| Testing        | ![Python package](https://github.com/tahini-dev/tahini/workflows/Python%20package/badge.svg) |
+| Coverage       | [![Codecov branch](https://img.shields.io/codecov/c/github/ibis-project/ibis/master.svg)](https://codecov.io/gh/ibis-project/ibis) |
+
+Package for graph theory
+
+## Goals
+
+- Learn
+- Have fun
+- Write python implementation (classes) for graph theory
+- Update to cython implementation for graph theory for speed
+- Write graph theory algorithm
+
