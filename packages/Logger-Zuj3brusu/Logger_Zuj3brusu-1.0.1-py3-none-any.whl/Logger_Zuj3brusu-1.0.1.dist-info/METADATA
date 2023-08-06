@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: Logger-Zuj3brusu
+Version: 1.0.1
+Summary: Create logs on Discord, Telegram or a local file
+Home-page: https://github.com/Zuj3brusu/Logger
+Author: Zuj3brusu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Logger
+A Python Module to create logs on Discord, Telegram or a local file
+
+## Usage
+```
+from Logger import logger
+
+# Creating a Logger object
+loggerObject = logger.Logger()
+
+# Sending a log
+log="Hello World"
+loggerObject.send(log,discord=True,telegram=True,filelogs=True)
+```
+
+
