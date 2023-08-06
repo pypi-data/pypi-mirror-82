@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sheetpakage
+Version: 0.1.0
+Summary: library for ploting a simple graph and access data of spreadsheet
+Home-page: UNKNOWN
+Author: Adi
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: A (>=1)
+Requires-Dist: B (>=2)
+
+UNKNOWN
+
+
