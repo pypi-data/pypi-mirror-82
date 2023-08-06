@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fastrepo
+Version: 1.2.0
+Summary: 
+Author: gcharbon
+Author-email: guillaume.charbonnier@capgemini.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cookiecutter (>=1.7.2,<2.0.0)
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
