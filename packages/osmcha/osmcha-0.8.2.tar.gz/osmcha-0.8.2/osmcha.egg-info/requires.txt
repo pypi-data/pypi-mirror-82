@@ -1,0 +1,8 @@
+click
+requests
+shapely
+python-dateutil
+PyYAML
+
+[test]
+pytest
