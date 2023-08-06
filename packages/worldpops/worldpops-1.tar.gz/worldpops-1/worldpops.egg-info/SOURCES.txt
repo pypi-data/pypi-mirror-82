@@ -1,0 +1,11 @@
+README.md
+setup.py
+worldpop/__init__.py
+worldpop/country_info.py
+worldpop/index.py
+worldpop/world.py
+worldpops.egg-info/PKG-INFO
+worldpops.egg-info/SOURCES.txt
+worldpops.egg-info/dependency_links.txt
+worldpops.egg-info/requires.txt
+worldpops.egg-info/top_level.txt
