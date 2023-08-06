@@ -1,0 +1,10 @@
+kiki/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kiki/kiki.py,sha256=25ga2MVwh1wqA32VWlPF_58q0JIFSa7lBwuTigFz8tM,903
+kiki/pdf_handler.py,sha256=bqxjtL4dqv3VaapJ52kUBH_0dXEL-kuVCLcVblBjWFk,1437
+kiki/utils.py,sha256=NnXTBqT1C9kayV5km7bJ8NcqieQW5K8vq0WHBB7g01A,223
+kiki-1.0.1.dist-info/LICENSE.txt,sha256=E43-ShrzYSPubq9zF2E08jj6I3Zieu_N25ikf9J8eOQ,1069
+kiki-1.0.1.dist-info/METADATA,sha256=_WkV_cu8dTR7JZHjX9YOnEXz3yy5rZWIQYVPBAS17-I,1694
+kiki-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kiki-1.0.1.dist-info/entry_points.txt,sha256=U7YqVtwEclLm8C1rRdmrR25yr5CxP7jzYFdrgKidRPw,61
+kiki-1.0.1.dist-info/top_level.txt,sha256=WptjZ3E1yXuGIwjBVfLOO7VZTy_pDItHcLqcrAdgVOU,5
+kiki-1.0.1.dist-info/RECORD,,
