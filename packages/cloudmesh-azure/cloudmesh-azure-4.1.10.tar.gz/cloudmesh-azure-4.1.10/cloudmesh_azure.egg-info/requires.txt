@@ -1,0 +1,9 @@
+cloudmesh-configuration
+cloudmesh-cmd5
+cloudmesh-sys
+cloudmesh-inventory
+cloudmesh-cloud
+azure.common
+azure.cli
+azure.mgmt.compute
+azure.mgmt.network
