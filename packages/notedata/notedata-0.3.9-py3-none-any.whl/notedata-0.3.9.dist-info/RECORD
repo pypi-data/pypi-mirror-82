@@ -1,0 +1,12 @@
+notedata/__init__.py,sha256=jOT4vKmnPPmu75cx4goV22ZLaT1GsYfsLx3Ce2fjSsU,163
+notedata/dataset/__init__.py,sha256=YjRIZ6qHBtAWqfghs1eC6q3Si8QdLzc9zEI5L8SxPJ4,245
+notedata/dataset/core.py,sha256=GH1tWfKsjGPbfj2PTys_LDNvcB9m7s2V-LOv4eqawv4,2955
+notedata/dataset/datas.py,sha256=wx-8wZc6199C7f0v83gyGwzIiLtQ-oxkhx9TFUFYW4E,6663
+notedata/dataset/images.py,sha256=c51LnohFZaQ0fwtDouia1MuAbb4B3x0rqWaMu6ObfeM,2606
+notedata/manage/__init__.py,sha256=bxJDme-QgjvHoMShBxJYr-ACes3BBTc5ZnT_18AXJXQ,32
+notedata/manage/core.py,sha256=R9BD7236SkMVvyU9wkQs3RoWY3jngV5vtScFMnQ8nWM,2441
+notedata/manage/library.py,sha256=v1D5ZBd4dbyvwthGWmbBNwfKWU4AC041jKE9L1zWUrU,7657
+notedata-0.3.9.dist-info/METADATA,sha256=LysaBV9v32Y0fU-K5XLrovilu_rEB6POH5ljapXHOuQ,252
+notedata-0.3.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+notedata-0.3.9.dist-info/top_level.txt,sha256=aGEWqmZH23XYm4P1L-SSH-L_P2wv2xESfm_mMRMkjtk,9
+notedata-0.3.9.dist-info/RECORD,,
