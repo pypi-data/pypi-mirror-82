@@ -1,0 +1,8 @@
+README.md
+setup.py
+debug_world2/__init__.py
+debug_world2/print_str.py
+debug_world2.egg-info/PKG-INFO
+debug_world2.egg-info/SOURCES.txt
+debug_world2.egg-info/dependency_links.txt
+debug_world2.egg-info/top_level.txt
