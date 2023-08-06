@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: bart-extract-ga
+Version: 0.1.1
+Summary: Extract event views to Google Analytics
+Home-page: https://github.com/cesarbruschetta/bart-recs
+License: Apache-2.0
+Keywords: recs,lib,analytics,GA,extract
+Author: Cesar Augusto
+Author-email: cesarabruschetta@gmail.com
+Requires-Python: >=3.6.1,<3.7
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: google-api-python-client (==1.9.1)
+Requires-Dist: pandas (>=1.0.4,<2.0.0)
+Requires-Dist: pyarrow (>=0.17.1,<0.18.0)
+Requires-Dist: s3fs (>=0.4.2,<0.5.0)
+Project-URL: Repository, https://github.com/cesarbruschetta/bart-recs
+Description-Content-Type: text/markdown
+
+# Bart Extract GA
+
+[![PyPI version](https://badge.fury.io/py/bart-extract-ga.svg)](https://badge.fury.io/py/bart-extract-ga)
+
+Extract event views to Google Analytics
+
+## Install
+```
+$ pip install bart-extract-ga
+```
+
+## Modules
+
+* `extract.processor.extract_yesterday`: exports data from D-1
+* `extract.processor.extract_by_date_ranger`: exports data from date specified in the parameters, `start_date` and `end_date`
+
+
+## Usage
+
+```python
+from extract.processor import extract_yesterday
+
+extract_yesterday(
+    ga_viewId="ga:123456789",
+    ga_credential="/tmp/credentials/GA_credentials.json",
+    s3_path="s3://prd-lake-raw-bart",
+)
+
+```
+
+## Obs
+
+* **s3_path**: the path can be a local path or a path to an AWS S3 bucket
