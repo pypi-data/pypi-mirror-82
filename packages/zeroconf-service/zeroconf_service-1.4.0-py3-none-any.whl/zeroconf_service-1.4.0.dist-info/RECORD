@@ -1,0 +1,6 @@
+zeroconf_service/__init__.py,sha256=jPefQNE0gYFvnH9MOFAc6JgGWk0nUe3whwGnnOE7vH0,93
+zeroconf_service/utils.py,sha256=feDWFivqo6OlUtUGPeIeVETS4qjrnhC1JnlvYFqd45Y,4400
+zeroconf_service/workers.py,sha256=RONvbuCts8orqdE6GjLW15LmV5RXKrdD5XjkBq85pS8,3746
+zeroconf_service-1.4.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+zeroconf_service-1.4.0.dist-info/METADATA,sha256=FKwzQ-wCAQyRNYjtwapeb5OJDNI1DNGgJAPBDeP4PPs,587
+zeroconf_service-1.4.0.dist-info/RECORD,,
