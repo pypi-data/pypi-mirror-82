@@ -1,0 +1,3 @@
+[console_scripts]
+olympus = olympus.cli.main:entry_point
+

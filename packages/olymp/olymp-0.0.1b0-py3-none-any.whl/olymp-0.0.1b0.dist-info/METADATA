@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: olymp
+Version: 0.0.1b0
+Summary: Benchmarking framework for noisy optimization and experiment planning
+Home-page: https://github.com/aspuru-guzik-group/olympus
+Author: Florian Hase, Matteo Aldeghi, Riley Hickman
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Provides-Extra: sqsnobfit
+Requires-Dist: SQSnobFit ; extra == 'sqsnobfit'
+Provides-Extra: all
+Requires-Dist: tensorflow (==1.15) ; extra == 'all'
+Requires-Dist: tensorflow-probability (==0.8) ; extra == 'all'
+Requires-Dist: pyswarms ; extra == 'all'
+Requires-Dist: phoenics ; extra == 'all'
+Requires-Dist: hyperopt ; extra == 'all'
+Requires-Dist: sqlalchemy ; extra == 'all'
+Requires-Dist: silence-tensorflow ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: cma ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: gpyopt ; extra == 'all'
+Requires-Dist: deap ; extra == 'all'
+Requires-Dist: SQSnobFit ; extra == 'all'
+Requires-Dist: seaborn ; extra == 'all'
+Provides-Extra: bayesian
+Requires-Dist: hyperopt ; extra == 'bayesian'
+Requires-Dist: gpyopt ; extra == 'bayesian'
+Requires-Dist: phoenics ; extra == 'bayesian'
+Provides-Extra: cma
+Requires-Dist: cma ; extra == 'cma'
+Provides-Extra: dataset
+Requires-Dist: pandas ; extra == 'dataset'
+Provides-Extra: deap
+Requires-Dist: deap ; extra == 'deap'
+Provides-Extra: emulator
+Requires-Dist: sqlalchemy ; extra == 'emulator'
+Requires-Dist: silence-tensorflow ; extra == 'emulator'
+Requires-Dist: tensorflow-probability (==0.8) ; extra == 'emulator'
+Requires-Dist: tensorflow (==1.15) ; extra == 'emulator'
+Provides-Extra: genetic
+Requires-Dist: deap ; extra == 'genetic'
+Requires-Dist: cma ; extra == 'genetic'
+Requires-Dist: pyswarms ; extra == 'genetic'
+Provides-Extra: gpyopt
+Requires-Dist: gpyopt ; extra == 'gpyopt'
+Provides-Extra: heuristic
+Requires-Dist: SQSnobFit ; extra == 'heuristic'
+Provides-Extra: hyperopt
+Requires-Dist: hyperopt ; extra == 'hyperopt'
+Provides-Extra: matplotlib
+Requires-Dist: matplotlib ; extra == 'matplotlib'
+Provides-Extra: pandas
+Requires-Dist: pandas ; extra == 'pandas'
+Provides-Extra: phoenics
+Requires-Dist: phoenics ; extra == 'phoenics'
+Provides-Extra: planner
+Requires-Dist: pyswarms ; extra == 'planner'
+Requires-Dist: phoenics ; extra == 'planner'
+Requires-Dist: hyperopt ; extra == 'planner'
+Requires-Dist: cma ; extra == 'planner'
+Requires-Dist: gpyopt ; extra == 'planner'
+Requires-Dist: deap ; extra == 'planner'
+Requires-Dist: SQSnobFit ; extra == 'planner'
+Provides-Extra: plotter
+Requires-Dist: matplotlib ; extra == 'plotter'
+Requires-Dist: seaborn ; extra == 'plotter'
+Provides-Extra: pyswarms
+Requires-Dist: pyswarms ; extra == 'pyswarms'
+Provides-Extra: seaborn
+Requires-Dist: seaborn ; extra == 'seaborn'
+Provides-Extra: silence-tensorflow
+Requires-Dist: silence-tensorflow ; extra == 'silence-tensorflow'
+Provides-Extra: snobfit
+Requires-Dist: SQSnobFit ; extra == 'snobfit'
+Provides-Extra: sqlalchemy
+Requires-Dist: sqlalchemy ; extra == 'sqlalchemy'
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (==1.15) ; extra == 'tensorflow'
+Provides-Extra: tensorflow-probability
+Requires-Dist: tensorflow-probability (==0.8) ; extra == 'tensorflow-probability'
+
+## Olympus: a benchmarking framework for noisy optimization and experiment planning
+[![Build Status](https://travis-ci.com/FlorianHase/olympus.svg?token=bMWWqBdm3xytautMLsPK&branch=dev)](https://travis-ci.com/FlorianHase/olympus)
+[![codecov](https://codecov.io/gh/FlorianHase/olympus/branch/flo/graph/badge.svg?token=FyvePgBDQ5)](https://codecov.io/gh/FlorianHase/olympus)
+
+``Olympus`` provides a consistent and easy-to-use **framework for benchmarking optimization algorithms**. With ``olympus`` you can:
+* Access a suite of **18 experiment planning algortihms** via a simple and consistent interface
+* Easily integrate custom optimization algorithms
+* Access **10 experimentally-derived benchmarks** emulated with probabilistic models, and **23 analytical test functions** for optimization
+* Easily integrate custom datasets, which can be used to train models for custom benchmarks
+
+You can find more details in the [documentation](https://florianhase.github.io/olympus/).
+
+###  Installation
+``Olympus`` can be installed with ``pip``:
+
+```
+pip install olymp
+```
+
+### Dependencies
+The installation only requires:
+* ``python >= 3.6``
+* ``numpy``
+* ``pandas``
+
+Additional libraries are required to use specific modules and objects. ``Olympus`` will alert you about these requirements as you try access the related functionality.
+
+###  Citation
+``Olympus`` is research software. If you make use of it in scientific publications, please cite the following article:
+
+```
+@misc{olympus,
+      title={Olympus: a benchmarking framework for noisy optimization and experiment planning}, 
+      author={Florian Häse and Matteo Aldeghi and Riley J. Hickman and Loïc M. Roch and Melodie Christensen and Elena Liles and Jason E. Hein and Alán Aspuru-Guzik},
+      year={2020},
+      eprint={2010.04153},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML}
+}
+```
+
+###  License
+``Olympus`` is distributed under an MIT License.
+
+
+
