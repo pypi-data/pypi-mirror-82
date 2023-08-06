@@ -1,0 +1,11 @@
+argostranslate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+argostranslate/gui.py,sha256=uh6mzuR6qh_ObrIy0nAm1m448ZjSWwEZ2a_cp5_-k90,11983
+argostranslate/package.py,sha256=hF6NNl1WtTUBc7uf8WsftrACBSLRD4iJz8QUfX-a0-8,4474
+argostranslate/settings.py,sha256=6P1DadIOJla5s_ByhYoydYo-rS3Cp85ejdcQOEo4XH4,699
+argostranslate/translate.py,sha256=LuWKeD02VkeA33WWdC1wxsotF8MCcrkr62Uupv74viU,9344
+argostranslate-1.0.data/scripts/argos-translate,sha256=n93aqx73XW57LapRUYMeDz7nHecPo37ZK7tdeuWZ8cM,54
+argostranslate-1.0.dist-info/LICENSE,sha256=-Qhmq3TBt1bMb3QgrtEJ9ZgyDJtmCurbzsZFjQwaTh8,1085
+argostranslate-1.0.dist-info/METADATA,sha256=cxEAA2NcYKkzFd6omQiJ3Q1AJjb6j2VeCcxpCZ0KgPY,5205
+argostranslate-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+argostranslate-1.0.dist-info/top_level.txt,sha256=r0jflRjxxR9O14PeT0U_VVBZw3nB3cLenxDPALZYJc0,15
+argostranslate-1.0.dist-info/RECORD,,
