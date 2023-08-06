@@ -1,0 +1,13 @@
+fastpapers/__init__.py,sha256=vcF3PxICb5jmbcz0MoaVcpqURhdQQbFoHZ8V2L6D5Ls,42
+fastpapers/_nbdev.py,sha256=SzDAr8r_OlFmE89usr6H2eELQJRuaEwGTlS8DHRdfX0,2757
+fastpapers/core.py,sha256=4pA0dCwI5f3lxHupUTKGl-IPGzNbZPLLonIVAMujL_E,12655
+fastpapers/heusel2017gans.py,sha256=950VAYEpHU0FRz9DiyuoT2uuJwnXJgxtFgcfzImHfWk,3647
+fastpapers/isola2017image.py,sha256=E0fXBmLs39zrHra_jY6zY031EwPXhf1enDx_F5UTM_w,7765
+fastpapers/johnson2016perceptual.py,sha256=Kkm-NSCjGB7OF5_5JF6V4kRmyZ0FFmgn0NLVE-EhDJo,5331
+fastpapers/zhang2019self.py,sha256=4kpmEEWzFK1j92BCnGPjytXAKz7P9aLi83V-WcPDS7c,524
+fastpapers-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fastpapers-0.0.5.dist-info/METADATA,sha256=RYywrlQJ2WZ6N6DivQxWftEheHxB45rZf5Ja1rcalW0,2362
+fastpapers-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fastpapers-0.0.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+fastpapers-0.0.5.dist-info/top_level.txt,sha256=rUB2jsjobqCZdgAkbUVynxEcMMyxM4xU5NxwkbJnQdo,11
+fastpapers-0.0.5.dist-info/RECORD,,
