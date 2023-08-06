@@ -1,0 +1,3 @@
+[console_scripts]
+simulate = __main__:main
+
