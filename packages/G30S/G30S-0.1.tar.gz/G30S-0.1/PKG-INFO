@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: G30S
+Version: 0.1
+Summary: Simple text encoder using python
+Home-page: https://github.com/billalxcode/G30S
+Author: Billal X Code
+Author-email: billal.xcode@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: encoder,encrypt,crypto,decoder,encoding,hash,g30s,indonesian,python,base64
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
