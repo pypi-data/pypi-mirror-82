@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+callystio/__init__.py
+callystio.egg-info/PKG-INFO
+callystio.egg-info/SOURCES.txt
+callystio.egg-info/dependency_links.txt
+callystio.egg-info/top_level.txt
