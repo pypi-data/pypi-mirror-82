@@ -1,0 +1,25 @@
+- name: telegram_bot
+  params:
+    parse_mode: 'MarkdownV2'
+  subscriptions:
+    - 'INFLUX_CHANGES'
+    - 'AWX_WEB_HOOK_CHANGES'
+    - 'AWX_CLIENT_OUT_CHANGES'
+    - 'LB_TIMING_ERROR'
+    - 'LB_DOWN_ERROR'
+    - 'LB_DOWN_FAIL_COUNT_ERROR'
+    - 'DISK_STATE_ERROR'
+    - 'SFS_STATUS_ERROR'
+    - 'INFLUX_AUTOSCALING_ERROR'
+    - 'RDS_TEST_ERROR'
+
+- name: alerta
+  params:
+    endpoint: 'https://alerts.eco.tsi-dev.otc-service.com/api'
+    environment: 'CSM'
+    resource: 'csm_'
+    origin: 'delatore'
+    severity: 'minor'
+  subscriptions:
+    - 'INFLUX_CHANGES'
+    - 'INFLUX_INFO'
