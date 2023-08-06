@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+split_main/__init__.py
+split_main.egg-info/PKG-INFO
+split_main.egg-info/SOURCES.txt
+split_main.egg-info/dependency_links.txt
+split_main.egg-info/top_level.txt

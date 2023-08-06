@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: split-main
+Version: 0.0.1
+Summary: sequence split for rnn
+Home-page: UNKNOWN
+Author: adil aziz
+Author-email: adilaziz2013@gmail.com
+License: MIT
+Description: A sequence split function which is made for the breakdown of sequential data for 
+        recurrent neural networks
+        It will generate two array's namely the features and the targets
+        
+        Change Log
+        ==========
+        
+        0.0.1 (13/10/2020)
+        -------------------
+        - First Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
