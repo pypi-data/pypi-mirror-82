@@ -1,0 +1,14 @@
+{%- extends "sphinx_rtd_theme/search.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  {% if theme_elasticsearch_host %}
+    <script src="{{ pathto('_static/elasticsearch.jquery.min.js', 1) }}"></script>
+    <script src="{{ pathto('_static/search-elastic.js', 1) }}"></script>
+    <script>
+      DOCUMENTATION_OPTIONS.ELASTICSEARCH_HOST = "{{theme_elasticsearch_host}}";
+      DOCUMENTATION_OPTIONS.ELASTICSEARCH_INDEX = "{{theme_elasticsearch_index}}";
+      DOCUMENTATION_OPTIONS.PUBLIC_URL_ROOT = "{{theme_public_url_root}}";
+    </script>
+  {% endif %}
+{% endblock %}
