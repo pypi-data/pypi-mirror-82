@@ -1,0 +1,6 @@
+README.md
+setup.py
+unfisher.egg-info/PKG-INFO
+unfisher.egg-info/SOURCES.txt
+unfisher.egg-info/dependency_links.txt
+unfisher.egg-info/top_level.txt
