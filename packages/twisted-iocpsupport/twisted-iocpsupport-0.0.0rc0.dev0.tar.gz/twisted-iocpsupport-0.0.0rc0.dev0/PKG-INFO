@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: twisted-iocpsupport
+Version: 0.0.0rc0.dev0
+Summary: An extension for use in the twisted I/O Completion Ports reactor.
+Home-page: https://github.com/twisted/twisted-iocpsupport
+Author: Twisted Matrix Laboratories
+Author-email: twisted-python@twistedmatrix.com
+Maintainer: Thomas Grainger
+Maintainer-email: twisted-iocpsupport@graingert.co.uk
+License: MIT
+Description: An extension for use in the L{twisted.internet.iocpreactor} I/O Completion Ports reactor.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
