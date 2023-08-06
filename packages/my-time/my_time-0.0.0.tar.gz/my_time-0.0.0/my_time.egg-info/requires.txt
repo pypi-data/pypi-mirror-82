@@ -1,0 +1,8 @@
+pywin32
+tqdm
+
+[dev]
+check-manifest
+
+[test]
+coverage
