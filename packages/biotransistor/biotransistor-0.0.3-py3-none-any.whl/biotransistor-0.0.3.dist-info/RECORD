@@ -1,0 +1,14 @@
+biotransistor/__init__.py,sha256=p71tpyV7rse_DeexTc4bAG4B1w-pcbOqIGe4ylK5xj8,47
+biotransistor/_version.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+biotransistor/cellborder_hack.20200911.py,sha256=GJSEsL93o4ETDGJhYgNst61Pwdy640yz_OHu4Q3xTjE,4748
+biotransistor/cellborder_hack.20200912.py,sha256=BHNqtZ1uyUSKS4mYKytA00mEhCJnFU-tyPl0RrbkrPk,6383
+biotransistor/hgenes.py,sha256=L54aUKidC1QIxMCHHQRC5y2F69JpIsUlTnvpQLUsMEQ,149695
+biotransistor/hgenes_cmif.py,sha256=XvUnymnwcZXQwNxQujFDX-8E5Q4fmPXr8Y95aZL6Vak,210487
+biotransistor/imagine.20201013superfast.py,sha256=fc0o5O2tdwyoCtWPw7Qdfbk2YY2uPmHwlvkYkjcFO_s,24474
+biotransistor/imagine.py,sha256=xOke3uW_KU-zqlCZNiVg5PzZ_06rXq8ZiKp-HZYyKZo,21475
+biotransistor/pytex.py,sha256=Glv9VK70PjcxIXup1XJNml8M5Tngng3FV6AVWMR1beI,18238
+biotransistor-0.0.3.dist-info/LICENSE,sha256=xpsocy4PRBLtM3LvQ2lAhCYqzyaPxgqFKPB-N6UPk8g,35081
+biotransistor-0.0.3.dist-info/METADATA,sha256=o5ooOYVPlzqtLkBrgzVFWHuOX1QWgAdkLn13To14gjk,1206
+biotransistor-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+biotransistor-0.0.3.dist-info/top_level.txt,sha256=84Ne6Uc5LSIGgejj78gUa-BZhciNrRphf3XLmjq3lJk,14
+biotransistor-0.0.3.dist-info/RECORD,,
