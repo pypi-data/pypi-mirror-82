@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+PyVisualizer/CommonUtilities.py
+PyVisualizer/Visualizer.py
+PyVisualizer.egg-info/PKG-INFO
+PyVisualizer.egg-info/SOURCES.txt
+PyVisualizer.egg-info/dependency_links.txt
+PyVisualizer.egg-info/entry_points.txt
+PyVisualizer.egg-info/requires.txt
+PyVisualizer.egg-info/top_level.txt
