@@ -1,0 +1,10 @@
+lazytui/__init__.py,sha256=h5baGi0TVAf8nc5pjN6-TNKVPA4wmqUPH7mAhXl2hcM,7354
+lazytui/color.py,sha256=dG4xk0qh80BHUOnWdjZeaF7BkEk8TE-1x8dFNSQBLy8,3319
+lazytui/fmt.py,sha256=6VsPB4MGw6pEW63Y9G8weJEFhSIuqg74A6CP1pud76I,1422
+lazytui/grid.py,sha256=AlzOEBAJjthxs5jH2IPDYlgc8e1zxUp1DUB42f7ya2E,3622
+lazytui/renderer.py,sha256=XODvDQnFLpbVmiOk2czPNFhdS98j50eecRRe1d9qvPE,1906
+lazytui/user_defined.py,sha256=SUAwu98x-IbwEy5DbDYULT_ni9KLROuzI8X3cKxacLk,326
+lazytui-0.0.1.dist-info/METADATA,sha256=u_rKcGF-8waXncxsSN3Eb2qGmcvQcf6KAu4iMo9CI-Q,833
+lazytui-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+lazytui-0.0.1.dist-info/top_level.txt,sha256=wVgPD4rd2qX5u878egZRAIRiU4mVp9ik3kCLKfidqEQ,8
+lazytui-0.0.1.dist-info/RECORD,,
