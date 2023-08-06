@@ -1,0 +1,7 @@
+setuptools
+visaplan.tools
+Products.CMFCore
+visaplan.kitchen
+
+[test]
+nose2
