@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib.readme-to-index
+Version: 0.0.1
+Summary: Copies README.html to index.html in the build direcotory.
+Home-page: https://github.com/cntt-n/sphinxcontrib-readme-to-index
+Author: Gergely Csatari
+Author-email: gergely.csatari@nokia.com
+License: Apache License 2.0
+Keywords: helpers
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Documentation
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/x-rst
+
+=============================
+sphinxcontrib-readme-to-index
+=============================
+
+A sphinx extension to copy README.html to index.html in the build directory. 
+
+Overview
+--------
+
+In some cases documentation written on GitHub is published on other places, like ReadTheDocs.
+GitHub automatically renders the README.md file when a directory is opened, while in other
+environments the index.html is opened. This extension copies the generated README.md files to
+index.html. If an index.html is already exist in the directory it is not written over.
+
+Links
+-----
+
+- Source: https://github.com/cntt-n/sphinxcontrib-readme-to-index
+- Bugs: https://github.com/cntt-n/sphinxcontrib-readme-to-index/issues
+
+
+Contributing
+------------
+
+Please feel free to create a pr for code contributions or an issue for issues.
+
+License
+-------
+
+Licensed with Apache License 2.0 License, see the `LICENSE <LICENSE>`_ file.  
+
+
