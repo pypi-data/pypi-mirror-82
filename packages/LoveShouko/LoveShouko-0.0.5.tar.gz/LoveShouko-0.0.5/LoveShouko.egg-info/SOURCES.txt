@@ -1,0 +1,10 @@
+LoveShouko.py
+README.md
+LoveShouko/__init__.py
+LoveShouko/test1.py
+LoveShouko.egg-info/PKG-INFO
+LoveShouko.egg-info/SOURCES.txt
+LoveShouko.egg-info/dependency_links.txt
+LoveShouko.egg-info/entry_points.txt
+LoveShouko.egg-info/requires.txt
+LoveShouko.egg-info/top_level.txt
