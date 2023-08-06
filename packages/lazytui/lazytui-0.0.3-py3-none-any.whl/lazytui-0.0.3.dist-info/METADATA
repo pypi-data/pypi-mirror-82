@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: lazytui
+Version: 0.0.3
+Summary: A terminal UI for the la(z)yperson
+Home-page: https://github.com/kylepollina/lazytui
+Author: Kyle Pollina
+Author-email: kylepollina@pm.me
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+A terminal UI for the la(z)yperson
+
+![](images/lazytui.png)
+
+-------
+```python
+import lazytui
+from lazytui.fmt import fmt
+
+class Hello(lazytui.TUI):
+    def setup(self):
+        self.enable_title_bar('hello world', style="underline")
+        self.enable_status_bar('press q to quit', fg="magenta")
+
+    def draw(self):
+        self.write(2, 0, 'hello world ' + fmt('from lazytui', fg="blue", bg="white", style=["underline", "bold"]))
+
+    def key_pressed(self, key):
+        if key == 'q':
+            self.exit()
+
+Hello().run()
+```
+
+![](images/helloworld.png)
+
+-------
+
+Lazytui is a python UI framework built around the built-in [curses](https://docs.python.org/3/howto/curses.html) module.
+It is simple to set up, easy to use and comes with all the built in power of the curses framework.
+
+### Installation
+
+```
+pip install lazytui
+```
+
+-------
+
+### Design
+
+Lazytui design is based off of the design philosophy of [Processing](https://processing.org/)/[P5js](https://p5js.org/).
+The TUI triggers certain methods that the user can override to control the flow of the program.
+
+| Event Method  | Description
+| :------------ | :----------
+| `setup(self)` | After `__init__()` is called but before we itereate over the `draw()` loop
+| `draw(self)` | Continuously executes the lines of code contained inside its block until the program is stopped.
+| `key_pressed(self, key)` | Function called when user presses a key. Key is given as a string as an argument.
+| `window_resized(self)` | Function called when the window is resized.
+| `cleanup(self)` | Called at the very end of the programs execution, right before it exits.
+
+### Helper methods
+
+| Method | Description
+| :----- | :----------
+| `self.get_width()` | Returns the number of columns of the terminal.
+| `self.get_height()` | Returns the number of rows of the terminal.
+| `self.write()` | Write formatted text to the terminal.
+
+### Colors
+See [curses constants documentation](https://docs.python.org/3/library/curses.html#constants)
+
+**FG/BG colors**
+
+| Color       | Curses equivalent
+| :-----      | :----------------
+| `"black"`   | `curses.COLOR_BLACK`
+| `"blue"`    | `curses.COLOR_BLUE`
+| `"cyan"`    | `curses.COLOR_CYAN`
+| `"green"`   | `curses.COLOR_GREEN`
+| `"magenta"` | `curses.COLOR_MAGENTA`
+| `"red"`     | `curses.COLOR_RED`
+| `"white"`   | `curses.COLOR_WHITE`
+| `"yellow"`  | `curses.COLOR_YELLOW`
+
+**Styles**
+
+| Style          | Curses equivalent
+| :-----         | :----------------
+| `"altcharset"` | `curses.A_ALTCHARSET`
+| `"blink"`      | `curses.A_BLINK`
+| `"bold"`       | `curses.A_BOLD`
+| `"dim"`        | `curses.A_DIM`
+| `"invis"`      | `curses.A_INVIS`
+| `"italic"`     | `curses.A_ITALIC`
+| `"normal"`     | `curses.A_NORMAL`
+| `"protect"`    | `curses.A_PROTECT`
+| `"reverse"`    | `curses.A_REVERSE`
+| `"standout"`   | `curses.A_STANDOUT`
+| `"underline"`  | `curses.A_UNDERLINE`
+| `"horizontal"` | `curses.A_HORIZONTAL`
+| `"left"`       | `curses.A_LEFT`
+| `"low"`        | `curses.A_LOW`
+| `"right"`      | `curses.A_RIGHT`
+| `"top"`        | `curses.A_TOP`
+| `"vertical"`   | `curses.A_VERTICAL`
+| `"chartext"`   | `curses.A_CHARTEXT`
+
+
