@@ -1,0 +1,9 @@
+spacy_streamlit/__init__.py,sha256=dLnBeLG0cGwqN3Wd3DaMW3vZVNZk5jpWyok8YwPWWXw,192
+spacy_streamlit/util.py,sha256=SIGj8N9qFXtxQHSM-ixszmFE21j6srjlnKyOfhJ_1tM,4308
+spacy_streamlit/visualizer.py,sha256=3ZF7w164_A27P45rqNAGVyW1pYXhpvQV7EXThV6Edlk,8763
+spacy_streamlit-1.0.0rc0.dist-info/LICENSE,sha256=yF5NvuRneP5EuN0DX0NTJUBHqRcoYjIghVZSCY9c9S0,1073
+spacy_streamlit-1.0.0rc0.dist-info/METADATA,sha256=q4XmDgBpK7Mi-KBIfkxW7nNhOcKgA1VqeED3KEa7-a0,15388
+spacy_streamlit-1.0.0rc0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+spacy_streamlit-1.0.0rc0.dist-info/top_level.txt,sha256=8HGwj54xE05rXuq2iz7MX7aW3eaiL4EcNpz4xQb3on0,16
+spacy_streamlit-1.0.0rc0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+spacy_streamlit-1.0.0rc0.dist-info/RECORD,,
