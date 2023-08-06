@@ -1,0 +1,7 @@
+README.md
+setup.py
+acrcloud.egg-info/PKG-INFO
+acrcloud.egg-info/SOURCES.txt
+acrcloud.egg-info/dependency_links.txt
+acrcloud.egg-info/requires.txt
+acrcloud.egg-info/top_level.txt
