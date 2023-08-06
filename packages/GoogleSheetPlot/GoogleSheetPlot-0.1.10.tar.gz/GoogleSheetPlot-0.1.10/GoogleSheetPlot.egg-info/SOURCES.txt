@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+token.pickle
+Example/Example.ipynb
+Example/average_sales_offer_price_scatter.png
+Example/credentials.json
+GoogleSheetPlot/GoogleSheetPlot.py
+GoogleSheetPlot/__init__.py
+GoogleSheetPlot/application.py
+GoogleSheetPlot/graph.py
+GoogleSheetPlot.egg-info/PKG-INFO
+GoogleSheetPlot.egg-info/SOURCES.txt
+GoogleSheetPlot.egg-info/dependency_links.txt
+GoogleSheetPlot.egg-info/requires.txt
+GoogleSheetPlot.egg-info/top_level.txt
