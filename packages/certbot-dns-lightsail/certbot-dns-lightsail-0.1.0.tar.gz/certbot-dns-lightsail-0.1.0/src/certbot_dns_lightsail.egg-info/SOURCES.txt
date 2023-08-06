@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/certbot_dns_lightsail/__init__.py
+src/certbot_dns_lightsail/authentication.py
+src/certbot_dns_lightsail.egg-info/PKG-INFO
+src/certbot_dns_lightsail.egg-info/SOURCES.txt
+src/certbot_dns_lightsail.egg-info/dependency_links.txt
+src/certbot_dns_lightsail.egg-info/entry_points.txt
+src/certbot_dns_lightsail.egg-info/requires.txt
+src/certbot_dns_lightsail.egg-info/top_level.txt
