@@ -1,0 +1,12 @@
+cython
+numpy>=1.8.0
+fanc>=0.8.28
+scikit-image
+future
+pathos
+pandas
+scipy
+intervaltree
+pybedtools
+tqdm
+kneed
