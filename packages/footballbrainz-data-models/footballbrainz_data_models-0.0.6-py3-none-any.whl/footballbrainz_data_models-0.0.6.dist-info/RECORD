@@ -1,0 +1,14 @@
+footballbrainz_data_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+footballbrainz_data_models/models/__init__.py,sha256=8Xc61K9vBM1gHvM94PU6owhkpFa4HGPkfACe1ghtp1g,163
+footballbrainz_data_models/models/attribute_definition.py,sha256=kmnAF0Dbf50-VAmyFrrwj0RZ8Plu9GvtsqkIFGcZS90,262
+footballbrainz_data_models/models/attribute_projection.py,sha256=cweY_wONqHMxYi63l8-cTXws1FC-lZrYglM7UNTelWw,372
+footballbrainz_data_models/models/bet.py,sha256=eDAjhBhvHgW0wtTKJNfAUWM_KB79bXJfna9sZ-JQkKA,469
+footballbrainz_data_models/models/db_index.py,sha256=ecv4fSqVCcA9DoEPIpE0e54vZYUHteH2m7FgYdvc4hw,507
+footballbrainz_data_models/models/game.py,sha256=SMUbTG22CRGRJoi8-1NpK5RpKXivXyoitu96gpfLt7Q,3713
+footballbrainz_data_models/models/league.py,sha256=gq0wkESc3CTAtpviZAw6S17DP2yp6I34DYhzI84SH6c,2616
+footballbrainz_data_models/models/primary_key.py,sha256=E3r-sNFuUPnFZl-Z3ri7z5eovBKoe6BuXTDASmBFNGQ,233
+footballbrainz_data_models/models/team.py,sha256=S-nyzy3UNGIRTdaFBIRWHeEJKACIbEHqHNh5xNffBWo,1254
+footballbrainz_data_models-0.0.6.dist-info/METADATA,sha256=rXb_a3HHkacEp25jS0T5VPj0cnVCAI4Hln7zIoO9dlU,788
+footballbrainz_data_models-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+footballbrainz_data_models-0.0.6.dist-info/top_level.txt,sha256=rgCs-XjqygdkUTCq02T1641-Tta2sVoTQlv7LpQyCVU,27
+footballbrainz_data_models-0.0.6.dist-info/RECORD,,
