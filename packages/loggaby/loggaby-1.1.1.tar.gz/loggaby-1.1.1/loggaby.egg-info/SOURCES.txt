@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+loggaby/__init__.py
+loggaby.egg-info/PKG-INFO
+loggaby.egg-info/SOURCES.txt
+loggaby.egg-info/dependency_links.txt
+loggaby.egg-info/top_level.txt
