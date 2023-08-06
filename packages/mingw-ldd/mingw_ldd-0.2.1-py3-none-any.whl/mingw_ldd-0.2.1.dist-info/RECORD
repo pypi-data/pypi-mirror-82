@@ -1,0 +1,10 @@
+mingw_ldd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mingw_ldd/__main__.py,sha256=LMkYecs7dxVZEh5SXG1XvCfPdA_BCGOScDU1qqs4U6Q,92
+mingw_ldd/__version__.py,sha256=CeALET6XQUHN3ycHhXKaBRwo_Dj_CSoPkmohzrP_taE,359
+mingw_ldd/mingw_ldd.py,sha256=hDINGnDUCMg_hrmy7JzZz-I0gV4H--QLgNpZ0xLkRpE,6412
+mingw_ldd-0.2.1.dist-info/LICENSE,sha256=oEIZscHMRGEce14XXrGj-pYYoSM86whg9J1T01xbVsk,1103
+mingw_ldd-0.2.1.dist-info/METADATA,sha256=sXOQupw0Qs726BWH77g5pF7bJZb1ekrvnbctkhm5syo,9007
+mingw_ldd-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mingw_ldd-0.2.1.dist-info/entry_points.txt,sha256=0z2VJ_wRQoASjombm93oxz_qgoiwB0u8V2FRus5zQsM,55
+mingw_ldd-0.2.1.dist-info/top_level.txt,sha256=dxPqbZ8Hx7HiG07mZUpesQ_IquuB5AVwz3GSsrmYBJw,10
+mingw_ldd-0.2.1.dist-info/RECORD,,
