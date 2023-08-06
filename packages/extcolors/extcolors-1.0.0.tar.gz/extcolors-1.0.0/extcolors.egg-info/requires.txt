@@ -1,0 +1,7 @@
+Pillow>=8.0.0
+convcolors>=1.0.0
+
+[dev]
+pytest==5.4.3
+tox==3.16.0
+yapf==0.30.0
