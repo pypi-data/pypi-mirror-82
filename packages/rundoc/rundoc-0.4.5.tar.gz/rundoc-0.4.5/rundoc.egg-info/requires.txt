@@ -1,0 +1,6 @@
+beautifulsoup4<5.0,>=4.4.1
+click<8.0,>=6.7
+markdown<3.0,>=2.6.9
+markdown-rundoc<0.4.0,>=0.3.1
+prompt_toolkit<4.0,>=2.0
+pygments<3.0,>=2.2.0
