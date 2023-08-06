@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mbf-align
+Version: 0.5
+Summary: Alignment of high througput sequencing data
+Home-page: https://github.com/TyberiusPrime/mbf_align
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: pypipegraph
+Requires-Dist: cython
+Requires-Dist: mbf-externals
+Requires-Dist: mbf-bam
+Requires-Dist: mbf-genomics
+Requires-Dist: dppd-plotnine
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-bootstrap-theme ; extra == 'doc'
+Requires-Dist: numpydoc ; extra == 'doc'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: cutadapt ; extra == 'testing'
+Requires-Dist: pysam ; extra == 'testing'
+Requires-Dist: requests-mock ; extra == 'testing'
+Requires-Dist: mbf-externals ; extra == 'testing'
+Requires-Dist: mbf-sampledata ; extra == 'testing'
+Requires-Dist: mbf-qualitycontrol ; extra == 'testing'
+
+# mbf_align
+
+Alignment of high-troughput sequencing lanes.
+
+Part of the mbf_* suite from https://github.com/IMTMarburg
+
+
