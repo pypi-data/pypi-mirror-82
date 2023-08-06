@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: matgen-rester
+Version: 0.3.0
+Summary: A python wrapper for matgen dft API
+Home-page: https://github.com
+Author: nscc.gz
+Author-email: test@mail.nscc.gz
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: yaml
+
+Usage
+import matgen_rester as mr
+//filter by volume, spaceGroup,crystalSystem
+with mr.MatgenRester() as m:
+   kwargs = {
+     "elements":"Fe,O",
+     "volume":[0,100],
+     "spaceGroup":[""],
+     "crystalSystem":[""],
+     "fileds":["cisdid","formula"]
+   }
+   list = q.get_dft_filter(**kwargs)
+ //get by icsdid
+ with mr.MatgenRester() as m:
+   data = m.get_dft_by_icsdid(icsdid=16887,fields=None)
+
