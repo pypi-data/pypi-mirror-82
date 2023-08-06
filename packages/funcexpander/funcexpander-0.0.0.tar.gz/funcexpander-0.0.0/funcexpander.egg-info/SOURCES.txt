@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+funcexpander.egg-info/PKG-INFO
+funcexpander.egg-info/SOURCES.txt
+funcexpander.egg-info/dependency_links.txt
+funcexpander.egg-info/top_level.txt
+functions/__init__.py
