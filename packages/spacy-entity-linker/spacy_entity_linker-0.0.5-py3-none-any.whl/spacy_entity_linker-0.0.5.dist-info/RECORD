@@ -1,0 +1,15 @@
+spacyEntityLinker/DatabaseConnection.py,sha256=UCM3I5uv0cv9sbYt4bAtXcEU1VnOeQSFyUE18hbkWHg,6341
+spacyEntityLinker/EntityCandidates.py,sha256=cdo7CDYf8pZFPADN-_xMsO1QyISkeSq8Z2PmVFzKZM0,649
+spacyEntityLinker/EntityClassifier.py,sha256=8esY_MizSdyVcEEAi_iVtlJ4nxTSiP_KLN6GQ6GuZ4s,1638
+spacyEntityLinker/EntityCollection.py,sha256=XHwtp5TZOc-eg8AqF_0qFn4MdMquaa1CqzFOt1kr_-0,1767
+spacyEntityLinker/EntityElement.py,sha256=oqx7XA1UzjFlXh3bvdTHm55uSQJwv1gQWgl4mFlc3V0,4354
+spacyEntityLinker/EntityLinker.py,sha256=Ho3gDb93ETR5VAdeoyK2Qmn03hYtm5gbsL_TzajBMAQ,1050
+spacyEntityLinker/TermCandidate.py,sha256=yVzlX0FSlEQapKo4tCquX4dXimlZXWJ71Ujh3pQWqV8,1445
+spacyEntityLinker/TermCandidateExtractor.py,sha256=YXIhBdLZb2ZTAhIVMq0Hp0rPGyvz4DteWfMOnisKVkg,1894
+spacyEntityLinker/__init__.py,sha256=ZVrssSasHl50Q-XUD3EvHgsM98lR2acmUaBfovNjRR4,87
+spacyEntityLinker/__main__.py,sha256=5hkl3NxWjeB_t0yq6twtRGYIjv3K2GCtiX7DtUH0Se8,923
+spacy_entity_linker-0.0.5.dist-info/METADATA,sha256=PAQPX-BKeZpF3S7JtOJ3snpOTmyPcAvmWTDkkMMxFGw,6975
+spacy_entity_linker-0.0.5.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+spacy_entity_linker-0.0.5.dist-info/top_level.txt,sha256=2tAEUe5NgMCMViT31XuY-cKWa_u1xNpBOlByA1BQGM8,18
+spacy_entity_linker-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+spacy_entity_linker-0.0.5.dist-info/RECORD,,
