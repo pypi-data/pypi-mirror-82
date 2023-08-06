@@ -1,0 +1,3 @@
+[console_scripts]
+elastic3rd = elastic3rd.scripts.run_elastic3rd:run_e3rd
+

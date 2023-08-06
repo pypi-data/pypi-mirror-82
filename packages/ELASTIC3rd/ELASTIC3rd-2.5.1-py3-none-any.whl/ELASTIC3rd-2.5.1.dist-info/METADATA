@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ELASTIC3rd
+Version: 2.5.1
+Summary: Claculate 3rd order elastic constants for crystals
+Home-page: https://github.com/hitliaomq/ELASTIC3rd
+Author: Mingqing Liao
+Author-email: liaomq1900127@163.com
+License: GPL3
+Download-URL: https://github.com/hitliaomq/ELASTIC3rd
+Keywords: physics,materials,elastic constants
+Platform: linux
+Platform: windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
