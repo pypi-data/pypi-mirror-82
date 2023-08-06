@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+simplethread/__init__.py
+simplethread/decorators.py
+simplethread/py.typed
+simplethread/thread.py
+simplethread.egg-info/PKG-INFO
+simplethread.egg-info/SOURCES.txt
+simplethread.egg-info/dependency_links.txt
+simplethread.egg-info/not-zip-safe
+simplethread.egg-info/top_level.txt

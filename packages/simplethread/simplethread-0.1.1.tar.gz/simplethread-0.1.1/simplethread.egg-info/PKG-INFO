@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: simplethread
+Version: 0.1.1
+Summary: Some useful utilities for Python's threading module
+Home-page: https://gitlab.com/amalchuk/simplethread
+Author: Andrew Malchuk
+Author-email: andrew.malchuk@yandex.ru
+License: MIT
+Description: Simple Thread
+        =============
+        [![pipeline status][pipeline]][homepage]
+        [![coverage report][coverage]][homepage]
+        [![python requires][pyversions]][pypi]
+        
+        Some useful utilities for Python's `threading` module.
+        
+        Requirements
+        ------------
+        Python 3.6+
+        
+        Installation
+        ------------
+        ```
+        $ pip install simplethread
+        ```
+        
+        Distribution
+        ------------
+        This project is licensed under the terms of the [MIT License](LICENSE).
+        
+        Links
+        -----
+        - Code: <https://gitlab.com/amalchuk/simplethread>
+        - GitHub mirror: <https://github.com/amalchuk/simplethread>
+        
+        [homepage]: <https://gitlab.com/amalchuk/simplethread>
+        [pypi]: <https://pypi.org/project/simplethread>
+        [pipeline]: <https://gitlab.com/amalchuk/simplethread/badges/master/pipeline.svg?style=flat-square>
+        [coverage]: <https://gitlab.com/amalchuk/simplethread/badges/master/coverage.svg?style=flat-square>
+        [pyversions]: <https://img.shields.io/pypi/pyversions/simplethread?color=blue&style=flat-square>
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Typing :: Typed
+Requires-Python: >=3.6, <4.0
+Description-Content-Type: text/markdown
