@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: azericart-django
+Version: 0.0.1
+Summary: Django ucun standart azericard odenis kitabxanasi
+Home-page: https://github.com/CavidRzayev/Azericard
+Author: Cavid Rzayev
+Author-email: rzayev592@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+
+# azericard
+
+Salam Azericard Django ucun kitabxanaya xos geldiniz !
+
+Bu offical library deyil 
+
+Library Azerbaijan Python Users Community ucun yazilib
+
+Asagida examplede nece isdeyeceyi eks olunub Ugurlar
+
+yuklemek ucun 
+
+* `pip install azericard-django`
+
+
+
+
+
+```python
+
+
+
+
+from azericard.pay import AzeriCard
+from django.views import View
+from django.http import HttpResponse
+
+
+class Index(View,AzeriCard):
+    terminal = None # That is your personal ID in payment system   
+    merch_name = None
+    merch_url = None
+    key = None
+    order = None # order id si mininim 6 reqem olmalidi misal : 000001 : Order id olmadan script run olmur
+    email = None
+    desc = None
+    amount = None
+    rrn = None # Bank reference number 
+    int_ref = None # Internal reference number  
+
+
+    def get(self, request):
+        #self.order = request.GET.get(order) frontdan gotureceyeimiz datalari bu formada qeyd edin
+        print(self.terminal)
+        return HttpResponse(self.get_data())
+
+
+````
+
