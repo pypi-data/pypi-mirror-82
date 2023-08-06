@@ -1,0 +1,9 @@
+README.md
+setup.py
+spongetext/__init__.py
+spongetext/__main__.py
+spongetext/spongestring.py
+spongetext.egg-info/PKG-INFO
+spongetext.egg-info/SOURCES.txt
+spongetext.egg-info/dependency_links.txt
+spongetext.egg-info/top_level.txt
