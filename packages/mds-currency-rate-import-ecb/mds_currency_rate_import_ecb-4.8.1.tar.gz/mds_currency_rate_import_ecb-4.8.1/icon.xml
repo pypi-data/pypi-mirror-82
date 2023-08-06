@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+
+        <record model="ir.ui.icon" id="icon_settings">
+            <field name="name">mds-settings-icon</field>
+            <field name="path">icon/settings.svg</field>
+        </record>
+
+    </data>
+</tryton>

@@ -1,0 +1,4 @@
+ 
+    [trytond.modules]
+    currency_rate_import_ecb = trytond.modules.currency_rate_import_ecb
+    
