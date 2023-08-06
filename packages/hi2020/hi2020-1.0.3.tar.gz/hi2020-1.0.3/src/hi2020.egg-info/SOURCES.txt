@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/hi2020/__init__.py
+src/hi2020/cli.py
+src/hi2020/say.py
+src/hi2020.egg-info/PKG-INFO
+src/hi2020.egg-info/SOURCES.txt
+src/hi2020.egg-info/dependency_links.txt
+src/hi2020.egg-info/entry_points.txt
+src/hi2020.egg-info/requires.txt
+src/hi2020.egg-info/top_level.txt
