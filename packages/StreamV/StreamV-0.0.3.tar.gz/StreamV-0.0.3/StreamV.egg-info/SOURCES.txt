@@ -1,0 +1,8 @@
+README.md
+setup.py
+StreamV/Stream_Capture.py
+StreamV/__init__.py
+StreamV.egg-info/PKG-INFO
+StreamV.egg-info/SOURCES.txt
+StreamV.egg-info/dependency_links.txt
+StreamV.egg-info/top_level.txt
