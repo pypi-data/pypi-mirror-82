@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: skyciv
+Version: 1.0.0
+Summary: A simplified way to use the SkyCiv API with Python.
+Home-page: https://github.com/skyciv/skyciv-pip
+Author: Steve Richardson
+Author-email: steve.richardson@skyciv.com
+License: UNKNOWN
+Description: # What is this?
+        
+        A fast way to interact with the SkyCiv API using Python 3.
+        
+        ## Usage
+        
+        `>>> pip install skyciv`
+        
+        then...
+        
+        ```
+        >>> import skyciv
+        
+        >>> data = {...}
+        
+        >>> options = {
+                version: 3,
+                http_or_https: 'https'
+            }
+        
+        >>> results = skyciv.request(data, options)
+        ```
+        
+        ## Data
+        
+        The data parameter is required and take the JSON object that describes your model and the functions you would like to run. [See API documentation](https://skyciv.com/api/v3)
+        
+        ## Options
+        
+        The options parameter is optional and takes and object containing two keys:
+        
+        * *version* - _1 | 2 | 3_ (Defaults to 3)
+        * *http_or_https* - _http | https_ (Defaults to https)
+Keywords: skyciv structural analysis design API AISC Eurocode CSA steel concrete BIM
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
