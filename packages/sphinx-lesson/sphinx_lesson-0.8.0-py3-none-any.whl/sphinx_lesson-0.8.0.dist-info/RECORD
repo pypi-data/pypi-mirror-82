@@ -1,0 +1,10 @@
+sphinx_lesson/__init__.py,sha256=2ymEdEG_HNu7L-qqzSxRxlm3by7p8t-khmgDb1Eqjh0,431
+sphinx_lesson/_version.py,sha256=27YY3zFpeaDh6JoC40AqkjBrn68SqFlsWZzjZtw5jwU,22
+sphinx_lesson/directives.py,sha256=kCEv-FlM3aagAKjtMrYW80YVr5Mf9MQBY8PeWdZwno0,3968
+sphinx_lesson/md_transforms.py,sha256=PMxufCxSfR29aWVWs6maWYDxyT6xf_U0A17NtBGQxN8,5592
+sphinx_lesson/_static/sphinx_lesson.css,sha256=bgox7aU58ndZfIsLEGCjU-spkWi7KayVHu53kmYJuBE,665
+sphinx_lesson-0.8.0.dist-info/LICENSE,sha256=YPB113fY1lnl5xUrSUFOOyFIu7vWcrG9lsusxEI51kQ,1074
+sphinx_lesson-0.8.0.dist-info/METADATA,sha256=BxvNS0bQ9A0lj4-5hyKfdJblcYdJE0tTn0GlSf3oEbM,2027
+sphinx_lesson-0.8.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sphinx_lesson-0.8.0.dist-info/top_level.txt,sha256=HXRxWtQrIuMKMA2uIAXjsrStLh5Dhc3anlF4IxOKybI,14
+sphinx_lesson-0.8.0.dist-info/RECORD,,
