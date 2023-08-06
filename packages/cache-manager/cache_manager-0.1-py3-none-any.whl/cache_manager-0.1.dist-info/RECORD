@@ -1,0 +1,10 @@
+cache_manager/__init__.py,sha256=3dhh_w_r_hgMkf1WF86z0EZ0NU07zq_CSWKeOtevy0g,71
+cache_manager/base.py,sha256=aYWuFxgnh0UwuGNnhWe8NFhIqsPS5oGa5xJmUM4Oe4o,3200
+cache_manager/etcd.py,sha256=73XsXsp2x1PuNRSjCx7eFS55lUohEKEhxdJU6ETuZ2k,1674
+cache_manager/memcached.py,sha256=-w4NYQ1yoLkK-1_Yhl-tle1nmCN7E2TQlorY-_TJC44,1400
+cache_manager/pickle.py,sha256=9miHHSHgJ2ndxb2Q6y-tgAkG8ZQPKpyvUxZ10s1Siw4,1220
+cache_manager/redis.py,sha256=s5ZTHgUZehQZLjWhS_WAbQyFRdTSUAllyUsQTJY0xJs,2434
+cache_manager-0.1.dist-info/METADATA,sha256=94EgxUJsE83YPdZ8ygfpghyjdnZ381BT8QwLgA-qM2c,1651
+cache_manager-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cache_manager-0.1.dist-info/top_level.txt,sha256=kchcceb7VpNsVJv_ZSgDbcZYwn_UZG_rAoEU8EzprMU,14
+cache_manager-0.1.dist-info/RECORD,,
