@@ -1,0 +1,14 @@
+tfseg/__init__.py,sha256=EW1iJP5TaVmvZj2d3JS6HHA3AmFgJYJzKWeNd_2JaKQ,206
+tfseg/model.py,sha256=lpZsbq2N9dbhe58n8Lp2UoKCBNO7oekSWGiw0leS2rc,1299
+tfseg/pair.py,sha256=x8ceXoKclGNGrbfROHlj5OkXgetrhhnhET1anroJ9GY,858
+tfseg/posseg.py,sha256=ctNQHCne_v5yzHUwEe3c3yHRD74FO5yDCpJRRK1c8HE,317
+tfseg/silence_tensorflow.py,sha256=0UkQAEQDrag8cOO_ICZBzikv-tTNIgf7Sl6-huXj_VI,545
+tfseg/test_cut.py,sha256=yrvIvMJLTlE8XEq7dpOG9z1go030JdLmQJTdz3evmAQ,742
+tfseg/chn_seg_albert/saved_model.pb,sha256=kUNXS3HbVdDxH8YYbo_6MxLoJADeIqoTA2L98WOZXrk,11564782
+tfseg/chn_seg_albert/variables/variables.data-00000-of-00001,sha256=5LxAL-KRmoxXAoIjhp7dZuhO4MQ4LaDAqYxIXn2lUrI,19122747
+tfseg/chn_seg_albert/variables/variables.index,sha256=314-1ghkjwFEAbL7AgyWLfaos1z34cAorvz98JBYUO8,2273
+tfseg-1.1.0.dist-info/LICENSE,sha256=1H_0zU8bSTSmb5dD5N0yzIxRfbLTgW-t34WJ1dSOKpg,1066
+tfseg-1.1.0.dist-info/METADATA,sha256=lG3KcCipyw8lsf-aZRZeQkW7CJwTFyH3effGbyrJT8Y,342
+tfseg-1.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+tfseg-1.1.0.dist-info/top_level.txt,sha256=dayUO7-SAxGox6LP7dI780l02Fhe6YQvqYnxVo21zdM,6
+tfseg-1.1.0.dist-info/RECORD,,
