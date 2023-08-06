@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pylioshelpers
+Version: 0.0.3
+Summary: Set of helpers for Pylios
+Home-page: https://github.com/pylios/pylioshelpers
+Author: Matt Walters
+License: UNKNOWN
+Description: # Pylios Helpers
+        
+        Just a simpe collection of various helpers I'm putting together so they can be easily installed into projects.  Can't say they'll be of any interest to others.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
