@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+pygam
+tqdm
+statsmodels
+scikit_learn
+EIA-python
+requests
+pyproj
+shapely
