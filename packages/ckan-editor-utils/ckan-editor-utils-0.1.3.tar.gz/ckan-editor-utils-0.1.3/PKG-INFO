@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ckan-editor-utils
+Version: 0.1.3
+Summary: Utilities for editing CKAN using its API.
+License: MIT
+Author: Eric McCowan
+Author-email: eric.mccowan@servian.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.15.16,<2.0.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+## Introduction
+This library assists CKAN editors with doing batch edits and pairs well with a library like pandas.
+
+## Example usage
+
+### Simple API commands
+
+### Managed API commands
+```python
+with ckan_editor_utils.CKANEditorSession(ckan_url, ckan_key) as ckaneu:
+    return ckaneu.delete_dataset(dataset_id).result
+```
+
