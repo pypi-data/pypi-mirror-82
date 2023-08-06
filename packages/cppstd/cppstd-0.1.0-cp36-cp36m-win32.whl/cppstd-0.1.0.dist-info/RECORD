@@ -1,0 +1,12 @@
+_cppstd.cp36-win32.pyd,sha256=I4QcvOr46aAGoZnR7Jy24IukBMqEysGuENdGnFdkm7U,228864
+cppstd/__init__.py,sha256=5y00yewuW1gAZo2MpvxE5cluBm97WFHuBv-Pj4vWhqE,70
+cppstd/hints.py,sha256=LbjYHIdaKR5PgkXjBuHFfoifL9IqDcqnwXGciQyEdx8,58
+cppstd/set.py,sha256=xp22egAuTW2TLGKpGENyPJArToHdxBjpT6gKVuImJ3I,12433
+cppstd/vector.py,sha256=dgeqpGZAEeP08T72tNR0o1AhS8VXqSAetI3x2RaYYh8,12340
+cppstd/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cppstd/core/tokenization.py,sha256=nu0eVMvfStS7QynWqa5syePXMMc_l9LX48BGW9C5cCM,806
+cppstd-0.1.0.dist-info/LICENSE,sha256=kb_Ykh5WQPYn_ZctWwkNTiKHmssa2CEqg2b3s7Tle9k,1090
+cppstd-0.1.0.dist-info/METADATA,sha256=41l-FCxf2JIp6aGdJfsLKMamrQDhPvaNg3mmTAI51SQ,3323
+cppstd-0.1.0.dist-info/WHEEL,sha256=AV2Nvbg-pC-zIZdxGMBky9Ya05hYOPClxAaFNPEQVgE,102
+cppstd-0.1.0.dist-info/top_level.txt,sha256=T1aBjr0aQNFYsoakjNZG_0rfz5_LPuASKbfj_lWuplY,15
+cppstd-0.1.0.dist-info/RECORD,,
