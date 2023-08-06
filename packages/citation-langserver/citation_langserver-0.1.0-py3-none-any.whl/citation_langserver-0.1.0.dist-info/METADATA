@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: citation-langserver
+Version: 0.1.0
+Summary: A language server for managing citations stored in BibTeX and BibLaTeX files.
+Home-page: https://github.com/oncomouse/citation-langserver
+License: MIT
+Author: oncomouse
+Author-email: oncomouse@gmail.com
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Text Editors
+Classifier: Topic :: Text Editors :: Integrated Development Environments (IDE)
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Requires-Dist: bibparse (>=1.0.0,<2.0.0)
+Requires-Dist: pygls (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/oncomouse/citation-langserver
