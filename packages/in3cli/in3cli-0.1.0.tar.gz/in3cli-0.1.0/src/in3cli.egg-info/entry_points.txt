@@ -1,0 +1,3 @@
+[console_scripts]
+in3alt = in3cli.main:cli
+
