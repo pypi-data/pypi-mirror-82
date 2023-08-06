@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: yellowduck
+Version: 0.0.1b0
+Summary: Data Science Toolbox for everyone
+Home-page: https://github.com/PCP55/yellowduck
+Author: Chalat Phumphiraratthaya
+Author-email: chalat.phum@gmail.com
+License: UNKNOWN
+Description: # yellowduck
+        
+        Data Science Toolbox for everyone
+        
+        # Can do
+        
+        - Check duplicate image
+        
+        # Prerequisites
+        
+        - os
+        - hashlib
+        
+        # Install
+        
+        ```ruby
+        pip install yellowduck
+        ```
+        
+        ---------------------------------------
+        
+        This library inspired by 
+        
+        kora, A collection of tools to make programming on Google Colab easier.
+        
+        https://github.com/airesearch-in-th/kora/tree/master/kora
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
