@@ -1,0 +1,9 @@
+rstr
+arrow
+
+[speedup]
+cython
+
+[test]
+pytest
+pytest-subtests
