@@ -1,0 +1,11 @@
+colorama
+humanize
+oyaml
+pathlib
+psutil
+python-dateutil
+python-hostlist
+pytz
+requests
+simplejson
+tabulate
