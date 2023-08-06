@@ -1,0 +1,15 @@
+README.md
+setup.py
+tests/__init__.py
+tests/test_html_parser.py
+tests/test_utils.py
+tests/test_wikitext.py
+wiktionnaireparser/__init__.py
+wiktionnaireparser/parser.py
+wiktionnaireparser/utils.py
+wiktionnaireparser/wikitext.py
+wiktionnaireparser.egg-info/PKG-INFO
+wiktionnaireparser.egg-info/SOURCES.txt
+wiktionnaireparser.egg-info/dependency_links.txt
+wiktionnaireparser.egg-info/requires.txt
+wiktionnaireparser.egg-info/top_level.txt
