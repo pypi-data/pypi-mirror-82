@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+src/django_settings_local/__init__.py
+src/django_settings_local/__main__.py
+src/django_settings_local/cute_python.py
+src/django_settings_local/settings_local.py
+src/django_settings_local.egg-info/PKG-INFO
+src/django_settings_local.egg-info/SOURCES.txt
+src/django_settings_local.egg-info/dependency_links.txt
+src/django_settings_local.egg-info/entry_points.txt
+src/django_settings_local.egg-info/top_level.txt
