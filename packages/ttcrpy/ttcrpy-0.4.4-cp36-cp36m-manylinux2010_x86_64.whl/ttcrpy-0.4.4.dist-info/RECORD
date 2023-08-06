@@ -1,0 +1,10 @@
+ttcrpy-0.4.4.dist-info/top_level.txt,sha256=rVRT_PtxzkjsbCuy6G2RycwkgIyrzyt3zF3EbRaAvOI,7
+ttcrpy-0.4.4.dist-info/RECORD,,
+ttcrpy-0.4.4.dist-info/METADATA,sha256=jcI97PtDWBIzv4tN7RPl62CEpSzbqkXfrGb9QetdPgU,8920
+ttcrpy-0.4.4.dist-info/WHEEL,sha256=RmTb9MYUhAosx0nVy8dqjP6nfYlP1nPfT9ZFheBJGYM,112
+ttcrpy/cgrid2d.cpython-36m-x86_64-linux-gnu.so,sha256=Y0x9tmYAqsESCWaPN4KAOLHj5DvIflqAh1yrhmFXCqM,5217360
+ttcrpy/cmesh3d.cpython-36m-x86_64-linux-gnu.so,sha256=ggcJ_f5QXKELB02Ic8vJLCJV0z-wPJIpH5BWdrskaE8,86833616
+ttcrpy/tmesh.cpython-36m-x86_64-linux-gnu.so,sha256=f2IddDa18IqGdrjAn-3uhRYHjy8UdUWfhOR6kZ7TzwU,105384560
+ttcrpy/cgrid3d.cpython-36m-x86_64-linux-gnu.so,sha256=ySktu__749h3sr1Ix-OZ2XxRCVDth9f0CKhNEu1WWkw,3886824
+ttcrpy/cmesh2d.cpython-36m-x86_64-linux-gnu.so,sha256=NzzSa-eqHhgXXXMuE4C6LWB_eaZDqS8tlJX7m0dcfCE,3970088
+ttcrpy/rgrid.cpython-36m-x86_64-linux-gnu.so,sha256=nIQprDlEAAZvc-V-OfzOj-Vea607AfVcxQxZLhM4Fd0,21515568
