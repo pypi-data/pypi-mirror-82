@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: sure-tosca-client
+Version: 1.0.0
+Summary: tosca-sure
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: S.Koulouzis@uva.nl
+License: UNKNOWN
+Description:     TOSCA Simple qUeRy sErvice (SURE).   # noqa: E501
+            
+Keywords: Swagger,tosca-sure
+Platform: UNKNOWN
