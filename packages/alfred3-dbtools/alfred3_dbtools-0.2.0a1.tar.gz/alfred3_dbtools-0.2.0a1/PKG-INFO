@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: alfred3_dbtools
+Version: 0.2.0a1
+Summary: A package that provides tools for interacting with databases when working with alfred3 experiments.
+Home-page: https://github.com/ctreffe/alfred3-dbtools
+Author: Christian Treffenstädt, Johannes Brachem
+Author-email: treffenstaedt@psych.uni-goettingen.de
+License: UNKNOWN
+Description: # alfred3_dbtools
+        
+        This module provides additional tools for working with databases in the context of alfred3 experiments (see [alfred3 on GitHub](https://github.com/ctreffe/alfred)).
+        
+        ## Installation
+        
+        ```bash
+        pip install alfred3_dbtools
+        ```
+        
+        ## Usage
+        
+        See [documentation](https://alfred3-dbtools.readthedocs.io/en/latest/).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
