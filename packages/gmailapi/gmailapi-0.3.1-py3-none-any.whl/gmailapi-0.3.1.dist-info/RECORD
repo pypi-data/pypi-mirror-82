@@ -1,0 +1,13 @@
+gmailapi/__init__.py,sha256=rlKXNVu0FCpPD03n_t4Iu_IjFLzUsCzXGfRHOxHX_7Q,128
+gmailapi/attribute.py,sha256=hKyohgqZ7GK392gSojzc56i-_p7qmA2LILOfPEAu09s,7837
+gmailapi/draft.py,sha256=CRFPNbyzfUpLZ1UgEH-CKERaZKqlVUqGmSdIWUw1H5g,4987
+gmailapi/gmail.py,sha256=aDpAXG3RfD6T5SeSo6snjgLpziqIIIgwzD9UeTl72sk,4320
+gmailapi/label.py,sha256=alg1MUPpEFy_SF4cHzEBNq62KuzjjOjHeN7G6fokoJM,5828
+gmailapi/message.py,sha256=Sp_wVyYSSt1Mmrl7n7nky_iYh0L58r9zkib-9HtCbJc,10028
+gmailapi/proxy.py,sha256=crM1HzyBRPvuzFHYqWuuJeJa0x4SuCuk-SGEL80DK4k,5773
+gmailapi/query.py,sha256=ehoIAiwjLZqtLyU760QYIjsdoE-edGsNJ1T8t6ck1vE,9341
+gmailapi-0.3.1.dist-info/LICENSE,sha256=-v8A2FBFunkpOSp4uVCRtIbpv7ljrTSz-wx24Kn2AcY,1066
+gmailapi-0.3.1.dist-info/METADATA,sha256=TlAguKsIHAP0JRAuMmEhadQLrs1epaeqS-HFCiCYmvo,4179
+gmailapi-0.3.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+gmailapi-0.3.1.dist-info/top_level.txt,sha256=rJCGNEI0RTf63swzspR7CrcBbUkpDu_ckgVMHm-oLls,9
+gmailapi-0.3.1.dist-info/RECORD,,
