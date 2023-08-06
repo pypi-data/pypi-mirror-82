@@ -1,0 +1,11 @@
+molecule[test]>=3.1.0a2
+pytest-html
+
+[ansi]
+
+[ansi:python_version < "3.8"]
+ansi2html
+
+[docker]
+molecule-docker
+paramiko>=2.5.0
