@@ -1,0 +1,9 @@
+MANIFEST.in
+README.txt
+setup.py
+src/HelloWorld/HelloWorldKeywords.py
+src/HelloWorld/__init__.py
+src/ibank_helloworldlibrary.egg-info/PKG-INFO
+src/ibank_helloworldlibrary.egg-info/SOURCES.txt
+src/ibank_helloworldlibrary.egg-info/dependency_links.txt
+src/ibank_helloworldlibrary.egg-info/top_level.txt
