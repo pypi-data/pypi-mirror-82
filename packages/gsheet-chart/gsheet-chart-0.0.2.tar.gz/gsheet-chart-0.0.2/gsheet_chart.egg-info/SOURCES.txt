@@ -1,0 +1,9 @@
+README.md
+setup.py
+gsheet-chart/__init__.py
+gsheet-chart/__main__.py
+gsheet_chart.egg-info/PKG-INFO
+gsheet_chart.egg-info/SOURCES.txt
+gsheet_chart.egg-info/dependency_links.txt
+gsheet_chart.egg-info/requires.txt
+gsheet_chart.egg-info/top_level.txt
