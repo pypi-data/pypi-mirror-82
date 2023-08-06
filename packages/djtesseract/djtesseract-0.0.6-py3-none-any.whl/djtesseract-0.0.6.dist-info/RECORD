@@ -1,0 +1,13 @@
+tesseractfield/__init__.py,sha256=QiiYsv0kcJaB8wCWyT-FnI2b6be87HA-CrrIUn8LQhg,22
+tesseractfield/fields.py,sha256=koKud-yUpGYGA614tE3ONbyVvmPqF7g_H2IrKLLSXrg,397
+tesseractfield/tesseract.py,sha256=Atj32LBKqwSOUZeaMNEE3MgcPdqohgVv9Fu8gQ1Hn-c,2321
+tesseractfield/urls.py,sha256=ST_j1bwBYRazOAzV3lHHmzfZozYNjvt1vBtnrjH1990,152
+tesseractfield/views.py,sha256=CAIBfolgbhLmjlULfUPIoiToZsp-Gjx2M-2aghrkYKc,430
+tesseractfield/static/tesseractfield/css/tesseract.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tesseractfield/static/tesseractfield/js/tesseract.js,sha256=T3CacJlktj0NmXOu0Um4xX4hEPpg1uNY-6Vb9OL4IfI,721
+tesseractfield/templates/tesseractfield/tesseract.html,sha256=mOselM3jezdWxvATPsOfvupDFYJX2R1gdFC7iGJ8F_A,131
+djtesseract-0.0.6.dist-info/LICENSE,sha256=RvWp6MrSIyYhKg3snh-MoZbOvqTdk6FmvktS5nhiTtk,1070
+djtesseract-0.0.6.dist-info/METADATA,sha256=e7w7WMULqdCLdsuaVgFDbHLdC0qqRtbwzJkyIfNFy5k,2238
+djtesseract-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+djtesseract-0.0.6.dist-info/top_level.txt,sha256=uYCcnmFm7E28qDG8sBPZkdMIniap2YzOAC5zi2CJuS8,15
+djtesseract-0.0.6.dist-info/RECORD,,

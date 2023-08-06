@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: djtesseract
+Version: 0.0.6
+Summary: A small app providing a tesseract field for django 3.1.2
+Home-page: https://github.com/YlmRdm/django-tesseractfield
+Author: Yalim Erdem
+Author-email: yalim.erdem@gmail.com
+License: MIT License
+Keywords: django,tesseract,field,admin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires: django (>=3.0)
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.19.2)
+Requires-Dist: opencv-python (==4.4.0.44)
+Requires-Dist: Pillow (==8.0.0)
+Requires-Dist: pytesseract (==0.3.6)
+
+
+[![PyPI version](https://badge.fury.io/py/djtesseract.svg)](https://badge.fury.io/py/djtesseract)
+
+# djtesseract
+
+This repo forked from (https://github.com/duboisR/django-tesseractfield) to update last release versions of packages, framework, and Python.
+
+Repo created by [@duboisR](https://github.com/duboisR) originally.
+
+This module fills the need of having a **tesseractfield** that's usable in both
+django models and forms.
+
+![djtesseract](https://media.giphy.com/media/8hYe9XW88QuL062sMe/giphy.gif)
+
+Makes use of [tesseract](https://opensource.google.com/projects/tesseract).
+
+## Installation
+- Run ``pip install djtesseract``
+- Add ``tesseractfield`` to your ``INSTALLED_APPS``
+- Collect static files with ``./manage.py collectstatic``
+
+## Usage
+To activate tesseract transcription on your Django site, add this line to your URLconf:
+
+```python
+path('', include('tesseractfield.urls')),
+```
+
+In your models, you can use it like this:
+
+```python
+from django.db import models
+from tesseractfield.fields import TesseractField
+
+class MyModel(model.Model):
+    content = TesseractField()
+```
+
+In your foms, you can use it like this:
+
+```python
+from django import forms
+from tesseractfield.fields import TesseractWidget
+
+class MyForm(forms.Form):
+    content = forms.Textarea()
+
+    class Meta:
+        widgets = {
+            'content': TesseractWidget(),
+        }
+```
+
+## Maintainers
+- [@duboisR](https://github.com/duboisR)
+- [@YlmRdm](https://github.com/YlmRdm)
+
+## Articles
+- [Django Tesseract OCR](https://medium.com/@duboisr/django-et-tesseract-188d389ad4ba)
+
+
