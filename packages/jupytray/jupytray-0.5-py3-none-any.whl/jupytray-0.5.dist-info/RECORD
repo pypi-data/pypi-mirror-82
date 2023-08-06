@@ -1,0 +1,15 @@
+jupytray/__init__.py,sha256=qEPGodTs018bk8ko9ag8S7TX403Bq3_E3tjTDbdVoHE,109
+jupytray/__main__.py,sha256=1CeVQ6pZmuZg96wS49APE_5Nmc33uDs3roB8mr2NxQU,110
+jupytray/icon.py,sha256=3fTrB8kz1P41-r2-C7bs2hWZN54dVgtXQx_TZJRfW1w,88
+jupytray/install.py,sha256=BzG0e0iL4i5biMlrBSE4ujPzDk55KpAUqcQa8q9wHlI,1077
+jupytray/jupyter.ico,sha256=wmOKif3jYzYX7GJAiHMMHb5NrxjU8uRHKezonfPmAXY,32038
+jupytray/notebook_server.py,sha256=VqqAujaMVG0NNZP1_8EJ--39kNXU92BJJOO7nD4K7kU,550
+jupytray/settings.py,sha256=Z1hFqsZGdBen9tV5xSZPm9g9EjL8h0ZbJWZAuK9_ev8,2326
+jupytray/shortcuts.py,sha256=Q31IMGYHu-5EctI2CSqleeQ3cWaFqadsdOfvGvQ7-dI,1246
+jupytray/tray_app.py,sha256=pmJU1myu9_Q74PNoC31sZYluhfOJY0Rjha3gNv9HYLY,1222
+jupytray-0.5.dist-info/License,sha256=t0vpFaMiOiHjJKiKy3qmmQnvYGIawjiAiSJdlfvHd80,1068
+jupytray-0.5.dist-info/METADATA,sha256=hJBjg5QYOhumePY2571oFBrnRPu8foo5MZMPEEJQHnY,1830
+jupytray-0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+jupytray-0.5.dist-info/entry_points.txt,sha256=2xMtQJm5Rok8efMPPExo1Bl13bZGOcKCE51GhbNaMhE,63
+jupytray-0.5.dist-info/top_level.txt,sha256=TUK-yS6kvJk3e5lyrPyTOw6k1Xvv0_CfCo_4nMYY1do,9
+jupytray-0.5.dist-info/RECORD,,
