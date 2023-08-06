@@ -1,0 +1,52 @@
+MANIFEST.in
+README-for-pypi.md
+README.md
+setup.cfg
+setup.py
+c_lasso.egg-info/PKG-INFO
+c_lasso.egg-info/SOURCES.txt
+c_lasso.egg-info/dependency_links.txt
+c_lasso.egg-info/not-zip-safe
+c_lasso.egg-info/requires.txt
+c_lasso.egg-info/top_level.txt
+classo/__init__.py
+classo/compact_func.py
+classo/cross_validation.py
+classo/misc_functions.py
+classo/path_alg.py
+classo/solve_R1.py
+classo/solve_R2.py
+classo/solve_R3.py
+classo/solve_R4.py
+classo/solver.py
+classo/stability_selection.py
+examples/.DS_Store
+examples/example notebook.ipynb
+examples/example_COMBO.py
+examples/example_PH.py
+examples/.ipynb_checkpoints/Notebook-checkpoint.ipynb
+examples/.ipynb_checkpoints/Testing parameters-checkpoint.ipynb
+examples/.ipynb_checkpoints/debug-checkpoint.ipynb
+examples/.ipynb_checkpoints/example notebook-checkpoint.ipynb
+examples/COMBO_data/.DS_Store
+examples/COMBO_data/BMI.csv
+examples/COMBO_data/BMIData_subset.mat
+examples/COMBO_data/COMBODataForLeo.mat
+examples/COMBO_data/COMBO_README.txt
+examples/COMBO_data/CaloriData.csv
+examples/COMBO_data/FatData.csv
+examples/COMBO_data/GeneraCounts.csv
+examples/COMBO_data/GeneraFilteredCounts.csv
+examples/COMBO_data/GeneraFilteredPhylo.csv
+examples/COMBO_data/GeneraPhylo.csv
+examples/COMBO_data/GeneraPhylo.mat
+examples/Synthetic data/Synthetic data Notebook.ipynb
+examples/Synthetic data/Testing parameters.html
+examples/Synthetic data/Testing parameters.ipynb
+examples/Synthetic data/example1.py
+examples/Synthetic data/example2.py
+examples/Synthetic data/example3.py
+examples/Synthetic data/exampleJOSS.py
+examples/Synthetic data/.ipynb_checkpoints/Synthetic data Notebook-checkpoint.ipynb
+examples/pH_data/pHData.mat
+examples/pH_data/taxTablepHData.mat
