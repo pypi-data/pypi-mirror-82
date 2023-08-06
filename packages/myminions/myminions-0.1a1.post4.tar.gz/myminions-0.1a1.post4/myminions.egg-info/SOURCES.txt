@@ -1,0 +1,7 @@
+README.md
+myminions.py
+setup.py
+myminions.egg-info/PKG-INFO
+myminions.egg-info/SOURCES.txt
+myminions.egg-info/dependency_links.txt
+myminions.egg-info/top_level.txt
