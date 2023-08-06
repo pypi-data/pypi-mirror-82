@@ -1,0 +1,2 @@
+soc-faker==2.3.1
+pendulum==1.2.5
