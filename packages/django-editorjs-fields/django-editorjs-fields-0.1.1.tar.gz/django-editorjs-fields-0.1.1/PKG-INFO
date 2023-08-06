@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: django-editorjs-fields
+Version: 0.1.1
+Summary: Django plugin for using Editor.js
+Home-page: https://github.com/2ik/django-editorjs-fields
+License: MIT
+Keywords: editorjs,django-editor,django-wysiwyg,wysiwyg,django-admin
+Author: Ilya Kotlyakov
+Author-email: m@2ik.ru
+Requires-Python: >=3.6,<4.0
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Documentation, https://github.com/2ik/django-editorjs-fields
+Project-URL: Repository, https://github.com/2ik/django-editorjs-fields
+Description-Content-Type: text/markdown
+
+# Editor.js for Django
+
+Django plugin for using [Editor.js](https://editorjs.io/)
+
+> This plugin works fine with JSONField in Django >= 3.1
+
+## Installation
+
+```bash
+pip install django-editorjs-fields
+```
+
+Add django_editorjs_fields to INSTALLED_APPS in settings.py for your project:
+```python
+# settings.py
+INSTALLED_APPS = [
+    ...
+    'django_editorjs_fields',
+]
+```
+
+## Usage
+
+Add code in your model
+```python
+# models.py
+from django.db import models
+from django_editorjs_fields import EditorJsJSONField, EditorJsTextField  # import
+
+
+class Post(models.Model):
+    body_default = models.TextField()
+    body_editorjs = EditorJsJSONField()  # Django >= 3.1
+    body_editorjs_text = EditorJsTextField()  # Django <= 3.0
+
+```
+
+Or add custom Editor.js plugins and configs ([List plugins](https://github.com/editor-js/awesome-editorjs))
+
+```python
+# models.py
+from django.db import models
+from django_editorjs_fields import EditorJsJSONField, EditorJsTextField  # import
+
+
+class Post(models.Model):
+    body_custom = EditorJsJSONField(
+        plugins=[
+            "@editorjs/image",
+            "@editorjs/header",
+            "editorjs-github-gist-plugin",
+            "@editorjs/code@2.6.0",  # version allowed :)
+            "@editorjs/list@latest",
+            "@editorjs/inline-code",
+            "@editorjs/table",
+        ],
+        tools={
+            "Image": {
+                "config": {
+                    "endpoints": {
+                        # Your custom backend file uploader endpoint
+                        "byFile": "/editorjs/image_upload/"
+                    }
+                }
+            }
+        },
+        null=True,
+        blank=True
+    )
+
+```
+
+If you want to upload images to the editor then add django_editorjs_fields.urls to urls.py for your project:
+```python
+# urls.py
+from django.contrib import admin
+from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('editorjs/', include('django_editorjs_fields.urls')),
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+```
+
+See an example of how you can work with the plugin [here](https://github.com/2ik/django-editorjs-fields/blob/main/example)
+
+
+## Support and updates
+
+Use github issues https://github.com/2ik/django-editorjs-fields/issues
