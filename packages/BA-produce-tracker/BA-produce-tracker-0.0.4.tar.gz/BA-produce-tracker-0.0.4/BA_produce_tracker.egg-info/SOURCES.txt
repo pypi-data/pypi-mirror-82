@@ -1,0 +1,7 @@
+README.md
+setup.py
+BA_produce_tracker.egg-info/PKG-INFO
+BA_produce_tracker.egg-info/SOURCES.txt
+BA_produce_tracker.egg-info/dependency_links.txt
+BA_produce_tracker.egg-info/requires.txt
+BA_produce_tracker.egg-info/top_level.txt
