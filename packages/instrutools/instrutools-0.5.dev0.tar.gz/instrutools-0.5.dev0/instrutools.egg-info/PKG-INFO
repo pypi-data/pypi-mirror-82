@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: instrutools
+Version: 0.5.dev0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Sylvain Guieu
+Author-email: sylvain.guieu@univ-grenoble-alpes.fr
+License: Creative Commons Attribution-Noncommercial-Share Alike license
+Description: Sorry the readme will come later. 
+        
+        This is tools dedicated to make client/server communication in order to drive 
+        devices. 
+        
+        
+Platform: UNKNOWN
