@@ -1,0 +1,8 @@
+README.md
+setup.py
+tenda/__init__.py
+tenda.egg-info/PKG-INFO
+tenda.egg-info/SOURCES.txt
+tenda.egg-info/dependency_links.txt
+tenda.egg-info/requires.txt
+tenda.egg-info/top_level.txt
