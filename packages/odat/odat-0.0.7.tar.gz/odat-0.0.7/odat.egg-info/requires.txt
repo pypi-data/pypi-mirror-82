@@ -1,0 +1,7 @@
+matplotlib
+py2store
+slang
+soundfile
+scikit-learn
+pandas
+importlib_resources
