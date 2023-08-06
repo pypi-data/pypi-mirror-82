@@ -1,0 +1,13 @@
+genepy3d_gpl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genepy3d_gpl/interact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genepy3d_gpl/interact/curvesurface.py,sha256=pp3uwhUc9BFM88F7rPscfgUayxGRAvx_T6xbLJiNm5s,9543
+genepy3d_gpl/interact/pointsurface.py,sha256=FBZg2bCbCrbZdBO-A7fy9eqG-Pur_gw5p_1cucoROSE,5444
+genepy3d_gpl/obj/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genepy3d_gpl/obj/curves.py,sha256=DU8YYReGBQpKtFrZqi5Oe-aSpKB8aicaehIYvxc5GFI,1674
+genepy3d_gpl/obj/points.py,sha256=v_0JprLcy8R6lIa_IkMADKmc3PUJm8LtBwmvlBZ9KgA,1297
+genepy3d_gpl/obj/surfaces.py,sha256=y3LFc7WC-1IiIh484VRrMxz7mY5APS9Ij10QRsCBLro,2614
+genepy3d_gpl-0.2.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+genepy3d_gpl-0.2.1.dist-info/METADATA,sha256=SqQRePPVKXend1bu0YUQkhwvIGUYdzJ1Qb50d4RLW5g,623
+genepy3d_gpl-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+genepy3d_gpl-0.2.1.dist-info/top_level.txt,sha256=4W99hUUe05M4_RBUkUP3skOuFmB2C4Nm5fP6LwVAolI,13
+genepy3d_gpl-0.2.1.dist-info/RECORD,,
