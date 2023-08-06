@@ -1,0 +1,13 @@
+README.md
+setup.py
+django_easy_softdelete.egg-info/PKG-INFO
+django_easy_softdelete.egg-info/SOURCES.txt
+django_easy_softdelete.egg-info/dependency_links.txt
+django_easy_softdelete.egg-info/requires.txt
+django_easy_softdelete.egg-info/top_level.txt
+django_softdelete/__init__.py
+django_softdelete/helpers.py
+django_softdelete/mangers.py
+django_softdelete/models.py
+django_softdelete/queryset.py
+django_softdelete/utils.py
