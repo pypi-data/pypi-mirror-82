@@ -1,0 +1,15 @@
+smoltext-1.1.0.data/scripts/smoltext,sha256=4tI-Tna8P_MrC4xrZKx4jfCLXwIfZKtQdqP-E1H1Yus,1809
+tables/__init__.py,sha256=IgbLxCc6oXIfvniWp5cDdU2991M6MCzznYrCfS_vfiI,470
+tables/_bold.py,sha256=wv1xFyhyTvDp0_QYKxfCwypDwAm-fPXyUfFyo-fuFd8,1086
+tables/_demonic.py,sha256=QpBOAm7hMD-WEl8TeF9a5-k4UmlxPi2x5CKm0sd7zNE,914
+tables/_emoji.py,sha256=th2Ygr1mcbBmlljsCUA7fFeqH_gkntvbZp7jRgT5Uy0,711
+tables/_fancy.py,sha256=yOtv5Yfl8_UDqRaDjx3tyZEBOf1hz6K-29JmcbQ5KLA,1080
+tables/_handwriting.py,sha256=Dr591CRIUCot6aQ_ssYKWNghSX1bBo1Gs1pXzgwl-lo,923
+tables/_italic.py,sha256=itDf0OLWnt6y7F1-P_lgmZ7hPAn3lm-bVtDOQyiMMtk,918
+tables/_smallcaps.py,sha256=ZMsZMvEoyAXRN1c-axPhYTVZFjXvVQfaCTa2zH9JcMg,440
+tables/_subscript.py,sha256=-sgP0XrHHsyGFZ4BDWSaOC5G1RveADf_szCOCpbs30I,1046
+smoltext-1.1.0.dist-info/LICENSE,sha256=nwJ7zlRZ1lJOgPglVxm2bHhUNWBrYBBkKhCClN2q_hc,1063
+smoltext-1.1.0.dist-info/METADATA,sha256=w7AbbKrRGKWl8jBG9C9qF050wrulmETpbhJABcd4pN8,2226
+smoltext-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+smoltext-1.1.0.dist-info/top_level.txt,sha256=m3W6sioRFzYyZByXzdell41O7YB9Kbe8ROEgs8Lyh6A,7
+smoltext-1.1.0.dist-info/RECORD,,
