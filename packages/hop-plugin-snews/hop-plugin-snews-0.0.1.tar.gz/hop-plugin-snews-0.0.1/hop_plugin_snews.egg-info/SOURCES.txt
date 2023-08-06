@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+hop/plugins/snews.py
+hop_plugin_snews.egg-info/PKG-INFO
+hop_plugin_snews.egg-info/SOURCES.txt
+hop_plugin_snews.egg-info/dependency_links.txt
+hop_plugin_snews.egg-info/entry_points.txt
+hop_plugin_snews.egg-info/not-zip-safe
+hop_plugin_snews.egg-info/requires.txt
+hop_plugin_snews.egg-info/top_level.txt
