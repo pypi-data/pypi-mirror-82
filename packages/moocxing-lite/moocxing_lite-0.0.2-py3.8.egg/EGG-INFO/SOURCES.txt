@@ -1,0 +1,13 @@
+setup.py
+moocxing_lite/MXMedia.py
+moocxing_lite/MXMqtt.py
+moocxing_lite/MXNLP.py
+moocxing_lite/MXSerial.py
+moocxing_lite/MXSpeech.py
+moocxing_lite/__init__.py
+moocxing_lite/moocxing.py
+moocxing_lite.egg-info/PKG-INFO
+moocxing_lite.egg-info/SOURCES.txt
+moocxing_lite.egg-info/dependency_links.txt
+moocxing_lite.egg-info/requires.txt
+moocxing_lite.egg-info/top_level.txt
