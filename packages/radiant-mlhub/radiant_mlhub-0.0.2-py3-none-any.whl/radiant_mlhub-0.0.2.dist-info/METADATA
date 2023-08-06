@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: radiant-mlhub
+Version: 0.0.2
+Summary: A Python client for Radiant MLHub
+Home-page: https://github.com/radiantearth/radiant-mlhub
+Author: Radiant Earth Foundation
+Author-email: devops@radiant.earth
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Radiant MLHub Python Client
+
+
