@@ -1,0 +1,12 @@
+AnimalProfile/File.py,sha256=fH1yeYRojLTOzY_rRYn_ZOTwmyKGbOQF8Sgc2Fuu1Zg,9106
+AnimalProfile/Profile.py,sha256=Gx84fbJSZtV0KpxkNK-A-o9JIL_Pxf3smOZUcUg2sew,4324
+AnimalProfile/Root.py,sha256=nM5uf8geUbfuiquWfJZ8cLjJAt-1v7UCN0nq3y5y_xU,3530
+AnimalProfile/__init__.py,sha256=CWN7eD4M3Vv7HlQuiI_hYiZuSVktm7UGjnVXaFHAnVM,192
+AnimalProfile/session/__init__.py,sha256=YdgmJGWtq9_lpmQ9lhf3l1ZnWkxX42lqTFds8JLUnUk,56
+AnimalProfile/session/batchAnimals.py,sha256=MeXRQZnjDTSPsWyuGPKbcbbMQ7fTl986vxQoQP_y-Cc,4653
+AnimalProfile/session/singleAnimal.py,sha256=mzwYs0N3NnchwIKl2Riml8u-wVN5cKsgN7hli2U1eSQ,630
+AnimalProfile-0.1.dist-info/LICENSE,sha256=duoIMTfMkouP54H53OHlyJXqUVtEY-EouR5miORKmlE,1136
+AnimalProfile-0.1.dist-info/METADATA,sha256=hN7b1cKfahMZyI4_xtV6E2Xxk7Iv0MiJU1YUpCwyhy8,1971
+AnimalProfile-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+AnimalProfile-0.1.dist-info/top_level.txt,sha256=w2ysMQ9qKkNAanQgE8rCOP5yrPoCZrYGiKR2WwuIqFw,14
+AnimalProfile-0.1.dist-info/RECORD,,
