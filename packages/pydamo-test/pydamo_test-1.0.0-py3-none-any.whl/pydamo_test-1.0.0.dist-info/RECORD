@@ -1,0 +1,14 @@
+pydamo_0/__init__.py,sha256=qxx2dI3PTt6IDjowYP9kxScsWqv1Gu-51QZ5g4d2PdM,169
+pydamo_0/cleaners.py,sha256=QqIRKVR5it3GiGsTFgR3OXPTZ63qWdXylNPtJnNLAJU,264
+pydamo_0/damo.py,sha256=_XJLuXomBBgao-rNXwtnBU_UG2-b8Y2FqiUMYU96lMA,18556
+pydamo_0/dm.dll,sha256=o2_CgLVkD88K2o5n6bjEH1s9Gi-7A_Ip2RunYdQJdR0,3599452
+pydamo_0/enum_wind.py,sha256=CSfFiTQZI9nzZgNuhTEzRARjeET9ikVj5wmKv1cKmyA,1485
+pydamo_0/extractor.py,sha256=QqIRKVR5it3GiGsTFgR3OXPTZ63qWdXylNPtJnNLAJU,264
+pydamo_0/regsvr.py,sha256=W-Hj4eCTINToCEgZIYk9p7fe7gb2Z-Qncdl87etYNfc,3109
+pydamo_0/titles.py,sha256=QqIRKVR5it3GiGsTFgR3OXPTZ63qWdXylNPtJnNLAJU,264
+pydamo_test-1.0.0.data/data/dm.dll,sha256=o2_CgLVkD88K2o5n6bjEH1s9Gi-7A_Ip2RunYdQJdR0,3599452
+pydamo_test-1.0.0.dist-info/LICENSE.txt,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+pydamo_test-1.0.0.dist-info/METADATA,sha256=HwCcjXBkUIxTwyT4Tj64IExOIfvfevDSKTS-P2-m5QY,579
+pydamo_test-1.0.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pydamo_test-1.0.0.dist-info/top_level.txt,sha256=Cc9Gxm0674QkpKW60uSsp1TH5mGdDxl2uCrs5eK6IgA,9
+pydamo_test-1.0.0.dist-info/RECORD,,
