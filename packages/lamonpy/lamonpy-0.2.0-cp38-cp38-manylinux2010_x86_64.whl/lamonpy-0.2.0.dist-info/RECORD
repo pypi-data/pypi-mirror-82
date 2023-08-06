@@ -1,0 +1,11 @@
+_lamonpy.cpython-38-x86_64-linux-gnu.so,sha256=vh4ubpUXlbmez33UstUithpNDAq6W8d6LoAP4KAeCCM,550912
+_lamonpy_avx.cpython-38-x86_64-linux-gnu.so,sha256=bLtFHCHEK4bk9posbR7ps4WrxUewZgNKLgLW1P3m8AE,563848
+_lamonpy_avx2.cpython-38-x86_64-linux-gnu.so,sha256=o_-G56CTobvAx7mMZJ_B1PHbNyzk6L6KG-DZLaA9k3g,563928
+lamonpy/__init__.py,sha256=7lKRqi6yE6MCKQrMRSuxKzmfiG2G0vqIOuUM01TDgdo,1163
+lamonpy/dict.bin,sha256=yNaofu8XCrAqy6WRAtaT7rIzUGj3diP6bol2vONP3GM,30832786
+lamonpy/tagger.bin,sha256=8sf4kDOH3ARCcvRfq2yk0bwVDhKzIeJ-3z3_nMucTbQ,34177920
+lamonpy-0.2.0.dist-info/WHEEL,sha256=3Rn77v1cOIQWUJHbJxwJJ4HycjuBQ6DIO-hbFDX-kLU,111
+lamonpy-0.2.0.dist-info/METADATA,sha256=EgGFR3vnZIaHl0iu-Ftd2bKf51y41t9of7aQCHubkMI,8279
+lamonpy-0.2.0.dist-info/top_level.txt,sha256=2tmvpj7UFIO5Po6O1SiZMXV_yRHbQn8SA4guLmQf84w,44
+lamonpy-0.2.0.dist-info/RECORD,,
+lamonpy-0.2.0.dist-info/LICENSE,sha256=nUEy7XUeSX5_06dlShf16SYFo6S_X7FXwU7EGaIpv5k,1056
