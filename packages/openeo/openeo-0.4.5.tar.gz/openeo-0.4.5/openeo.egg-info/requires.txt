@@ -1,0 +1,25 @@
+requests
+requests_mock
+shapely>=1.6.4
+numpy>=1.17.0
+deprecated
+
+[:python_version < "3.5.3"]
+pandas<0.25.0
+
+[:python_version >= "3.5.3"]
+pandas>0.20.0
+
+[dev]
+pytest>=4.5.0
+mock
+requests-mock
+xarray==0.12.3
+h5netcdf
+openeo-udf
+matplotlib
+pytest>=4.5.0
+sphinx
+sphinx-autodoc-annotation
+sphinx-autodoc-typehints
+flake8
