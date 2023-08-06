@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: minilop
+Version: 0.1.6
+Summary: A Wrapper for Pika RabbmitMQ Client Library
+Author: Pramote Teerasetmanakul
+Author-email: pramote@findx.co.th
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: pika (>=1.1.0,<2.0.0)
