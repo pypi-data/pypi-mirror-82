@@ -1,0 +1,17 @@
+stratovolquant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stratovolquant/version.py,sha256=OaIl7v-6zEWEY90Jlh6yoBjO3zWX1oX7RsvqrK3o1TU,23
+stratovolquant/mongo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stratovolquant/mongo/collection_manager.py,sha256=baLRHH9S1geu_Zv9BBTE5gMf2upcBFLRiViQeWMojAQ,3142
+stratovolquant/mongo/create_ref.py,sha256=2STjkyFmzulA5MuXprKODKBNI2dv3g4iMhoQRqkJho8,663
+stratovolquant/mongo/database_connection.py,sha256=LtA5px6d1j0Tz4SChOAo6lUx8Z6k7dc9sWMqizjXkqQ,2014
+stratovolquant/mongo/referential_instance.py,sha256=f0Uyy_rJuj5VsHa1z3wf67jcdJeIdeLbgzL_qRY-bxE,1089
+stratovolquant/mongo/static_data.py,sha256=eM6hWNYS4k5vC8I7mZ8rjn1KZRBra20Q885V7QIkYlA,1006
+stratovolquant/mongo/symbols_to_arctic.py,sha256=OKr3tY61WfV9EK6yrccb7pu9C_4TUuunE-7QvHEsR44,1500
+stratovolquant/mongo/update_referential.py,sha256=ay9DVI91nOav7kZUmDAzt54BuNNBP1YTiCc5y9Bd8YQ,603
+stratovolquant/technical/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stratovolquant/technical/config_utils.py,sha256=xKH78T4Qdse-pjmRFXl05lJ1dRlYNKtRgluHm6AfpUQ,2162
+stratovolquant-0.0.11.dist-info/LICENSE.txt,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+stratovolquant-0.0.11.dist-info/METADATA,sha256=dhuonnNV9dcm1WEF2eXJW03n6zYPA-Euv4J2HCAsmZo,263
+stratovolquant-0.0.11.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+stratovolquant-0.0.11.dist-info/top_level.txt,sha256=S7CCuLV3I1uZ1-M1uECGM1Vd0YJPXb7n5wHyHR5JRFQ,15
+stratovolquant-0.0.11.dist-info/RECORD,,
