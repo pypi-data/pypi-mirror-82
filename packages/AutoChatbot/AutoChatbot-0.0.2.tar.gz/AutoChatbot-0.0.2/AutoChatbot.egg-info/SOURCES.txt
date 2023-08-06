@@ -1,0 +1,8 @@
+README.md
+setup.py
+AutoChatbot/__init__.py
+AutoChatbot/chat.py
+AutoChatbot.egg-info/PKG-INFO
+AutoChatbot.egg-info/SOURCES.txt
+AutoChatbot.egg-info/dependency_links.txt
+AutoChatbot.egg-info/top_level.txt
