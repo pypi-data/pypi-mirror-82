@@ -1,0 +1,13 @@
+numpy>=1.11
+scipy>=0.18.1
+h5py>=2.6.0
+netcdf4
+sklearn
+matplotlib
+pyvtk
+sphinx
+progressbar2
+numba
+cached-property
+empymod
+smm
