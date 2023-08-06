@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/s2_data/__init__.py
+src/s2_data/journal_entries.py
+src/s2_data/leaderboards.py
+src/s2_data/saves.py
+src/s2_data.egg-info/PKG-INFO
+src/s2_data.egg-info/SOURCES.txt
+src/s2_data.egg-info/dependency_links.txt
+src/s2_data.egg-info/entry_points.txt
+src/s2_data.egg-info/top_level.txt
