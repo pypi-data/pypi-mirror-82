@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: paprika-to-sqlite
+Version: 0.1.0
+Summary: Convert Paprika Recipes files into a SQLite database
+Home-page: https://github.com/gerrymanoim/paprika-to-sqlite
+Author: Gerry Manoim
+Author-email: Gerry Manoim <gerrymanoim@gmail.com>
+License: Apache License, Version 2.0
+Description: # Paprika To SQLite
+        
+        Takes a `paprikarecipe` file exported from [Paprika](https://www.paprikaapp.com/) and converts it to an sqlite db.
+        
+        Tables:
+        
+        - `recipes`
+        - `recipes_to_categories`
+        - `recipes_to_photos`
+        - `catogories`
+        - `photos`
+        
+        
+        Useful with [Datasette](https://datasette.io/).
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Database
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

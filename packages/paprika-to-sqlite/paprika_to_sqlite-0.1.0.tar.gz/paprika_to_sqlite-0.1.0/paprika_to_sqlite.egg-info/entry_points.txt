@@ -1,0 +1,3 @@
+[console_scripts]
+paprika-to-sqlite = paprika_to_sqlite.cli:cli
+
