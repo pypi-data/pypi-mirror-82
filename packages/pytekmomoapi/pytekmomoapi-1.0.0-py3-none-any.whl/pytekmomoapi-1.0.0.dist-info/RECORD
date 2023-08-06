@@ -1,0 +1,13 @@
+tekmomoapi/__init__.py,sha256=wo2lKB7j_CBszlUpdkhBxiZCxV8QkxXBk8ofiPhUXZ4,1915
+tekmomoapi/collection.py,sha256=D7EaS1crKHtcmbjYgvHu7OiQN5zeD4DPMRX74Nbushs,64277
+tekmomoapi/disbursements.py,sha256=4KhX_vUQBuO20d0BR9FbwaH0e5eU2Vev-0M8sw8vR3A,63855
+tekmomoapi/remittance.py,sha256=ptYsbKHz_-qfWzXgRrfR63y7SPQKl7_TVstDVpPE8YU,63821
+tekmomoapi/scaffold.py,sha256=QX4w-uYOmrweHZVXY4NCfKOJeDjV4qFVtQJ7LTL6hpQ,15581
+tekmomoapi/userprovisioning.py,sha256=tm0exDcifgSMVYOnp0R_GSoNDg2QsiJLUElBHRy1QK8,23837
+tekmomoapi/utils.py,sha256=t7ogHnnvRlNsyU66toLioHBqjteA9yg1XjLcMHE4_AA,282
+pytekmomoapi-1.0.0.dist-info/LICENSE,sha256=-JHhLXXB2RRUeojKiRRTDHyJ1QiOCtrDfwbahUOb6Yc,35150
+pytekmomoapi-1.0.0.dist-info/METADATA,sha256=nP5WK_Bdjr6s37EDXVok9cUZFGXKjWxencutjnUZyLQ,14150
+pytekmomoapi-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytekmomoapi-1.0.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pytekmomoapi-1.0.0.dist-info/top_level.txt,sha256=no6-8tq1KquN9JfyBtP4RWGAezS0oUei3i0j1l-dT-k,11
+pytekmomoapi-1.0.0.dist-info/RECORD,,
