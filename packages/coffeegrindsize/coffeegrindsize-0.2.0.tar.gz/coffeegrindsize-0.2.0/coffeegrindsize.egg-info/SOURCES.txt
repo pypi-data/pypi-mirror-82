@@ -1,0 +1,11 @@
+README.md
+setup.py
+coffeegrindsize/__init__.py
+coffeegrindsize.egg-info/PKG-INFO
+coffeegrindsize.egg-info/SOURCES.txt
+coffeegrindsize.egg-info/dependency_links.txt
+coffeegrindsize.egg-info/entry_points.txt
+coffeegrindsize.egg-info/requires.txt
+coffeegrindsize.egg-info/top_level.txt
+coffeegrindsize/scripts/__init__.py
+coffeegrindsize/scripts/coffeegrindsize.py

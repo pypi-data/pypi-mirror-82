@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: coffeegrindsize
+Version: 0.2.0
+Summary: An app to measure your coffee grind size distribution
+Home-page: https://github.com/austinkeller/coffeegrindsize
+Author: Jonathan Gagné
+Author-email: jonathan.gagne@montreal.ca
+Maintainer: Austin Keller
+Maintainer-email: atkeller@uw.edu
+License: UNKNOWN
+Description: # coffeegrindsize
+        
+        ***[An app to measure your coffee grind size distribution](https://coffeeadastra.com/2019/04/07/an-app-to-measure-your-coffee-grind-size-distribution-2/)***
+        
+        ## Install
+        
+        From within this directory:
+        
+        ```shell
+        pip install --user coffeegrindsize
+        ```
+        
+        ## Run
+        
+        ```shell
+        coffeegrindsize
+        ```
+        
+        ## Development
+        
+        This is a fork of [jgagneastro/coffeegrindsize](https://github.com/jgagneastro/coffeegrindsize) intended to be cross-platform.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
