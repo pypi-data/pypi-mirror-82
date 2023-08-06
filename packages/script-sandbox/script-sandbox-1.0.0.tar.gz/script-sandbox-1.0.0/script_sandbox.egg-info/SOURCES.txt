@@ -1,0 +1,11 @@
+README.md
+setup.py
+scriptAutomation/__init__.py
+scriptAutomation/main.py
+script_sandbox.egg-info/PKG-INFO
+script_sandbox.egg-info/SOURCES.txt
+script_sandbox.egg-info/dependency_links.txt
+script_sandbox.egg-info/entry_points.txt
+script_sandbox.egg-info/not-zip-safe
+script_sandbox.egg-info/requires.txt
+script_sandbox.egg-info/top_level.txt

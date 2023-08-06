@@ -1,0 +1,3 @@
+[console_scripts]
+script-sandbox = scriptAutomation.main:main_operation
+

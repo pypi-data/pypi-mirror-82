@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: script-sandbox
+Version: 1.0.0
+Summary: Cli for sanboxing bash and python scripts
+Home-page: https://github.com/abhishekkushwaha4u
+Author: Abhishek Kushwaha
+Author-email: thecrazycoderabhi@gmail.com
+License: MIT
+Description: A python based cli to run scripts in a sandbox environment, with docker and gotty
+Keywords: cli sandbox script python testing abhishekkushwaha4u
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
