@@ -1,0 +1,16 @@
+pybolt/__init__.py,sha256=h0LM5opEAOumQe2A7YYxjT060iISAoNh6zAFSDpzYSU,93
+pybolt/utils.py,sha256=sEy_rss25PFmrr-2R0W6b_gBn3CsbKvXT9a_BgO-Kbo,290
+pybolt/bolt_nlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybolt/bolt_nlp/count_ngrams.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybolt/bolt_nlp/word2vec.py,sha256=hXdS9iZDSYJ6E7bMcele1wtt8kqluHBPBEClcg2buBc,631
+pybolt/bolt_speedup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybolt/bolt_text/__init__.py,sha256=k7Ti-M9IR-9xNMfSZxg5I1fMGwOGZoeLknW27MQi9Wo,72
+pybolt/bolt_text/bolt_text.py,sha256=atQHo52uazAuMx_z_N58CixyMjT_qUS8qJ8z1mQEAEk,4892
+pybolt/bolt_text/char_clean.py,sha256=WJ65aWeWmGZGrTRTjQcNCKQd5dHgLmgitJ9dKX2i7Rc,1461
+pybolt/bolt_text/prefix_set.py,sha256=_P6RT2KF3yWR_dvkZmirWviw3y0BdtckUVmQ54GFyDk,5056
+pybolt/data/char_project.txt,sha256=U17XIU4W0hxCFx0r2nI5SARXtco79-xE6FJYh7gauOk,32537
+py_bolt-0.0.3.dist-info/LICENSE,sha256=kXUjREwfg1R9NcmeMK_dUggVlrQHiMuobFHm4JotMHI,1062
+py_bolt-0.0.3.dist-info/METADATA,sha256=1mZp_wj-rrCNudGnmbNXNePigeDuOSXNzgFGzAEKn7E,3223
+py_bolt-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+py_bolt-0.0.3.dist-info/top_level.txt,sha256=rrlElKRr9gYHhIElOiNBTRFK85PIJ-iRLGRKsVed638,7
+py_bolt-0.0.3.dist-info/RECORD,,
