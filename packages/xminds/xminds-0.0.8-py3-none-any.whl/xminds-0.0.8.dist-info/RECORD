@@ -1,0 +1,10 @@
+xminds/__init__.py,sha256=DeUbq1uuNG0xYXtzaQ2JMFgoLf8Y69s9qnm7m02BFTE,78
+xminds/compat.py,sha256=kA5y4FFAgetH0v4XtP8f-FVh7aukqaNclcfY_9qM2R8,197
+xminds/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xminds/api/apirequest.py,sha256=caNHbXD-0YF7saFCJSrLLrWAwSAG4ieDRNSKZlvY7qo,4864
+xminds/api/client.py,sha256=Ob-DvErevbmuMVD864CRMJQH_KpRmpuT6bz1-TNmfH0,38072
+xminds/api/exceptions.py,sha256=j5Ke-LtviviRXcHSQQ8UrMItUsrHl4zOvMXOI4TFTd4,2996
+xminds-0.0.8.dist-info/METADATA,sha256=N0CfVHhnzQE2rxuTel3aXqSu1hHCRvG2tOn2b3oZwZc,1965
+xminds-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xminds-0.0.8.dist-info/top_level.txt,sha256=3uac2GFomqK5OGoYEypL1-vuVRcY3xHRuqNdKKmi3XI,7
+xminds-0.0.8.dist-info/RECORD,,
