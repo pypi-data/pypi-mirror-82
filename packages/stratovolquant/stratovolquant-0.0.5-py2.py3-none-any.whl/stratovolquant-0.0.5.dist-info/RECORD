@@ -1,0 +1,14 @@
+mongo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongo/create_ref.py,sha256=-jkZyFxEKiCPetC4ROPJErIPp-AO8X_fnAH7aJdBpiQ,668
+mongo/database_connection.py,sha256=LtA5px6d1j0Tz4SChOAo6lUx8Z6k7dc9sWMqizjXkqQ,2014
+mongo/referential_instance.py,sha256=tMx0elIMNDw5Y7szyxFDmztLZYiVsQw2DkO_0_L-BUE,1107
+mongo/static_data.py,sha256=fs6L1rirN9QpoqmF8THRXTle0yhzNLxYEEoA9rNcbSc,1024
+mongo/symbols_to_arctic.py,sha256=qbsLOgwtTJPhqabDpVgorGvcz96Bb0UKtCuiHUcdoqA,1518
+mongo/update_referential.py,sha256=ay9DVI91nOav7kZUmDAzt54BuNNBP1YTiCc5y9Bd8YQ,603
+technical/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+technical/config_utils.py,sha256=MdEOUm3IB2us_C6l59EGnXK-6F3xbJ5hms0u286jrzA,1708
+stratovolquant-0.0.5.dist-info/LICENSE.txt,sha256=S1pJL407BwTTXzZK0BQPNM7ZZs57uj1pTSfVZ8Whx30,1061
+stratovolquant-0.0.5.dist-info/METADATA,sha256=GVRhuRN6i46L9oQzXcfEL5HDnpfS0dFUi4FoO9QIHwY,208
+stratovolquant-0.0.5.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+stratovolquant-0.0.5.dist-info/top_level.txt,sha256=mvl5hZUee8C_ZtY5avFS_lsqtjxOGCYS83YKNjlgy3M,16
+stratovolquant-0.0.5.dist-info/RECORD,,
