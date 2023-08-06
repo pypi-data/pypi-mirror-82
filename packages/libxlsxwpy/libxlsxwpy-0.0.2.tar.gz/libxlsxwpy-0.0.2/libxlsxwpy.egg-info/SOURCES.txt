@@ -1,0 +1,17 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+book.c
+book.h
+pymodule.c
+setup.py
+sheet.c
+sheet.h
+libxlsxwpy.egg-info/PKG-INFO
+libxlsxwpy.egg-info/SOURCES.txt
+libxlsxwpy.egg-info/dependency_links.txt
+libxlsxwpy.egg-info/top_level.txt
+tests/requirements.txt
+tests/test_book.py
+tests/test_sheet.py

@@ -1,0 +1,6 @@
+include README.rst
+include LICENSE
+include CHANGELOG.rst
+recursive-include tests *
+include book.h
+include sheet.h
