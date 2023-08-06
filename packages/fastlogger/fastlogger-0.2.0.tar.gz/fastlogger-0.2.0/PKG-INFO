@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fastlogger
+Version: 0.2.0
+Summary: A single logger as drop in replcament for standard library logging
+Author: Guillaume Charbonnier
+Author-email: guillaume.charbonnier@capgemini.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
