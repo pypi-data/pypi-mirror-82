@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+README.txt
+setup.py
+Basic_Calculator.egg-info/SOURCES.txt
+Basic_Calculator.egg-info/dependency_links.txt
+Basic_Calculator.egg-info/top_level.txt
+PisarnwateBasicCalculator.egg-info/SOURCES.txt
+PisarnwateBasicCalculator.egg-info/dependency_links.txt
+PisarnwateBasicCalculator.egg-info/top_level.txt
+ohmbasiccalculator/__init__.py
+pisarnwatebasiccalculator.egg-info/PKG-INFO
+pisarnwatebasiccalculator.egg-info/SOURCES.txt
+pisarnwatebasiccalculator.egg-info/dependency_links.txt
+pisarnwatebasiccalculator.egg-info/top_level.txt
