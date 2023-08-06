@@ -1,0 +1,12 @@
+firebird/lib/gstat.py,sha256=M-9ztcxJVcrNKkiXVSrCo2Sr1Xnn63_D7P-wNpuQlqI,28156
+firebird/lib/log.py,sha256=fjXKwFQDmcOjE9biHwhoiSHVa1MWOPJh8KS4TtLMPQg,5358
+firebird/lib/logmsgs.py,sha256=g5ubmUUu8tLvuIReHWjIvN_0o0C6zVqv7H9xu2hh9WM,69906
+firebird/lib/monitor.py,sha256=X4zync8fcCNIcAfENvsF321ij4FyWYiiHh360R1XDgw,39127
+firebird/lib/schema.py,sha256=JRk78TB2tfsNEy5Jn_1Ym6HZ5LEC6wY5vkWLfDiLLOo,200703
+firebird/lib/trace.py,sha256=IhY_4NplgaJAGQ1bkA6flyucFbOCf2QiVrRR484hcrc,61835
+firebird_lib-1.0.0.dist-info/LICENSE,sha256=YTwIXyaFd_rWEk_eESM50PgPUc87Lw_H2uBr_Z-6_KY,1068
+firebird_lib-1.0.0.dist-info/METADATA,sha256=1Y-9Kw1TNxAj6rhI7FM_v0vzU5rKeU6zOQJS9ioK3Ww,1764
+firebird_lib-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+firebird_lib-1.0.0.dist-info/top_level.txt,sha256=N4Gw4cmu0RmoDDexl12jzkFggSpBGYYdf0HwZenEza4,9
+firebird_lib-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+firebird_lib-1.0.0.dist-info/RECORD,,
