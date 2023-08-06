@@ -1,0 +1,15 @@
+oscli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oscli/auth.py,sha256=DRLZ3PLIQN0RIs-_K5xVNkgkFplKUrar5HLSewsPXWs,1015
+oscli/config.py,sha256=cnJCDhFxeByYo5iGuVOSV8LqfkE5lGkO9pKYjw1HALQ,1855
+oscli/constants.py,sha256=kP3NBvREnES3yXLNkGjP_4RU7RmVAOr3fPC6Q5tLmbM,1305
+oscli/download.py,sha256=YJp1Xd32_893kYn5aC7MZ9Q0pG9FQe5zmruE7rfjF6c,1202
+oscli/find.py,sha256=cVnshN5vN2k_BuBuNwA7qjVvmdqet6PRVA6QZwZuofE,293
+oscli/main.py,sha256=j92kbuKQz8e_dlBBlsBmXK65FyhIRuFLcfELqKvWLyA,1980
+oscli/metadata.py,sha256=Jk8ZO0D_xPLJVhIz_LoPOBZffWoF_sM2sovlmcjzJT8,1180
+oscli/utils.py,sha256=l8trLGrZn-kBsBkCnsRUPYHwTTAeqL4drTO13EAu2wI,937
+oscli-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+oscli-0.0.2.dist-info/METADATA,sha256=LgBuckSu71ukmZck3ONlIopXVRbl2KZFZQ8KWNiKYYc,628
+oscli-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+oscli-0.0.2.dist-info/entry_points.txt,sha256=1wHUbZqi-axGQqSWlZK2e4Wjx0JWpGQIRiap4NI7zSY,60
+oscli-0.0.2.dist-info/top_level.txt,sha256=EIx9ssUu4Rx03VnJeHWSgEcDH8apRsmkQYzOJtxRdNc,6
+oscli-0.0.2.dist-info/RECORD,,
