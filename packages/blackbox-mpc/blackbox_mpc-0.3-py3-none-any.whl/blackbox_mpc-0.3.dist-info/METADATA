@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: blackbox-mpc
+Version: 0.3
+Summary: BlackBox MPC - Model Predictive Control withsampling based optimizers
+Home-page: https://github.com/ossamaAhmed/blackbox_mpc
+Author: Ossama Ahmed, Jonas Rothfuss
+Author-email: ossama.ahmed@mail.mcgill.ca, jonas.rothfuss@inf.ethz.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: tensorflow (==2.0.0)
+Requires-Dist: tensorflow-probability (==0.8.0rc0)
+Requires-Dist: gym
+Requires-Dist: numpy
+Requires-Dist: sphinx
+Requires-Dist: matplotlib
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: sphinxcontrib-bibtex
+
+UNKNOWN
+
+
