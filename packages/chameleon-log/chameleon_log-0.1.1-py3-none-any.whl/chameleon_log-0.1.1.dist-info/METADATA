@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: chameleon-log
+Version: 0.1.1
+Summary: Python colored logging setup which adapts to environment
+Home-page: https://github.com/AgriConnect/chameleon-log
+License: MIT
+Author: Nguyễn Hồng Quân
+Author-email: ng.hong.quan@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Requires-Dist: logbook (>=1.5.3,<2.0.0)
+Requires-Dist: single-version (>=1.4.1,<2.0.0)
+Project-URL: Repository, https://github.com/AgriConnect/chameleon-log.git
+Description-Content-Type: text/x-rst
+
+============
+ChameleonLog
+============
+
+Python logging setup library which can choose the best available handler for an environment to produce colored message.
+
+For example, if it detects that the application is running as service under systemd, it will route the logs to journald.
+
