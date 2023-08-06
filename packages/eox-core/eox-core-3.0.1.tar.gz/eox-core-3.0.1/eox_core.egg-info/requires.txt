@@ -1,0 +1,13 @@
+edx-opaque-keys[django]
+edx-proctoring
+django-oauth-toolkit
+celery
+django-waffle
+djangorestframework
+django-filter
+
+[sentry]
+sentry-sdk==0.14.3
+
+[tpa]
+social-auth-core[openidconnect]
