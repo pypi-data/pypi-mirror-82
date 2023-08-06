@@ -1,0 +1,9 @@
+pyyaml
+numpydoc
+
+[examples]
+torch
+torchvision
+
+[test]
+pytest
