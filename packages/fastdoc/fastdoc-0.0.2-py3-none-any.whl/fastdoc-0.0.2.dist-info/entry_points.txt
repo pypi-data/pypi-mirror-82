@@ -1,0 +1,3 @@
+[console_scripts]
+fastdoc_convert_all = fastdoc.asciidoc:fastdoc_convert_all
+
