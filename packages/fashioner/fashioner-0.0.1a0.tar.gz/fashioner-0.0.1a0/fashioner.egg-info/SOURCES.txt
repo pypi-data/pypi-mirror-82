@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+fashioner/__init__.py
+fashioner.egg-info/PKG-INFO
+fashioner.egg-info/SOURCES.txt
+fashioner.egg-info/dependency_links.txt
+fashioner.egg-info/requires.txt
+fashioner.egg-info/top_level.txt
