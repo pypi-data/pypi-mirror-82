@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: screen-ocr
+Version: 0.1.0
+Summary: Library for processing screen contents using OCR
+Home-page: https://github.com/wolfmanstout/screen-ocr
+Author: James Stout
+Author-email: james.wolf.stout@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pillow
+Requires-Dist: pytesseract
+Requires-Dist: rapidfuzz
+Requires-Dist: scikit-image
+
+# Screen OCR
+
+The `screen-ocr` package makes it easy to perform OCR on portions of the screen.
+
+## Installation
+
+1. Install Tesseract binaries. For Windows, see
+https://github.com/UB-Mannheim/tesseract/wiki.
+2. `pip install screen-ocr`
+3. Optional: `pip install winrt` to use the native OCR engine on Windows, which
+   is very fast and high quality. Requires Python 3.7.
+
+## Usage
+
+See https://github.com/wolfmanstout/gaze-ocr for sample usage.
+
+If not using the default Tesseract location on Windows, set
+`tesseract_data_path` and `tesseract_command` paths aappropriately when
+constructing a `Reader` instance.
+
+
