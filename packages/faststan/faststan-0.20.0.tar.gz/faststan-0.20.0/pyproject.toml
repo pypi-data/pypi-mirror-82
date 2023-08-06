@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "faststan"
+version = "0.20.0"
+description = "Build data streaming pipelines using NATS or NATS streaming"
+authors = ["gcharbon <guillaume.charbonnier@capgemini.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://pypi.org/project/faststan/"
+repository = "https://gitlab.com/faststan/faststan.git"
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+asyncio-nats-client = "^0.10.0"
+asyncio-nats-streaming = "^0.4.0"
+pydantic = "^1.6"
+loguru = "^0.5.3"
+returns = "^0.14.0"
+typer = "^0.3.2"
+
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.8.3"
+darglint = "^1.5.5"
+isort = "^5.6.2"
+pytest = "^6.0.1"
+requests = "^2.24.0"
+pytest-asyncio = "^0.14.0"
+pytest-cov = "^2.10.1"
+mypy = "^0.782"
+invoke = "^1.4.1"
+mkdocs = "^1.1"
+mkdocs-material = "^5.1"
+markdown-include =  "^0.5"
+mkdocstrings = "^0.12.2"
+ipykernel = "^5.3.4"
+nest-asyncio = "^1.4.1"
+
+[tool.poetry.scripts]
+nats = 'faststan.cli.nats:app'
+stan = 'faststan.cli.stan:app'
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
