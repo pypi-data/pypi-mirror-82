@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ctfdumper
+Version: 1.0.1
+Summary: Dumps all of the submissions from a CTFD site to a csv file.
+Home-page: UNKNOWN
+Author: ghostccamm
+License: MIT
+Keywords: ctfd dumper submission
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: urllib3
+
+UNKNOWN
+
+
