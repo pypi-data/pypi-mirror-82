@@ -1,0 +1,5 @@
+click
+fabric
+numpy
+pyYAML
+click-config-file
