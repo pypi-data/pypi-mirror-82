@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+flaskull/__init__.py
+flaskull.egg-info/PKG-INFO
+flaskull.egg-info/SOURCES.txt
+flaskull.egg-info/dependency_links.txt
+flaskull.egg-info/not-zip-safe
+flaskull.egg-info/top_level.txt
