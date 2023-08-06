@@ -1,0 +1,15 @@
+solary/__init__.py,sha256=TiGzOQrvcLOYyruI_Y4F8qUViCvEk4G4JBtg6IT4L7M,87
+solary/_config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solary/asteroid/__init__.py,sha256=hUlII8vOA6dLcaFKVtzv9sP8oyGyxxr188PTq5fkZhI,20
+solary/asteroid/physp.py,sha256=pOF6IQWOzunXglM3rruh0Mxc58g15YSNRJ3hyiHYmqs,902
+solary/general/__init__.py,sha256=lBEXqygy0waenHOP5AfbhN5o-XDr0P6CUD2Wn14HSsc,25
+solary/general/photometry.py,sha256=XJHQnPqL0v2UX4evWQ_rLO_bILlIjPix1DTRCGkEoSg,774
+solary/general/vec.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solary/tests/__init__.py,sha256=O34CMUM0Zzp33gc1UMIz4HViZkG-ZAMUFdtF4HML4zc,72
+solary/tests/test_asteroid_physp.py,sha256=w_3_dJn6Pj2hbg7hRqIMITBGvH7C-_n0DeP69ScdhkY,435
+solary/tests/test_general_photometry.py,sha256=0uGF_-J-7alzYdSqne-zo_LwcHijio1_QBMJReKPfFA,605
+solary-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+solary-0.0.1.dist-info/METADATA,sha256=EVZMM8JafJ84CCA2m_noQnoT4eYYSM0_DnqImMMgmc8,255
+solary-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+solary-0.0.1.dist-info/top_level.txt,sha256=riXNMbuuA4Db_2GZkf11WtX7LkaC1in9u1j9o8VU15M,7
+solary-0.0.1.dist-info/RECORD,,
