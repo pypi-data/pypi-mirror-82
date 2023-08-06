@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+NIF_validator/__init__.py
+NIF_validator/validator.py
+NIF_validator.egg-info/PKG-INFO
+NIF_validator.egg-info/SOURCES.txt
+NIF_validator.egg-info/dependency_links.txt
+NIF_validator.egg-info/requires.txt
+NIF_validator.egg-info/top_level.txt
