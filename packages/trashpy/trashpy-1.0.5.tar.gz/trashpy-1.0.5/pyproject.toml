@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "trashpy"
+version = "1.0.5"
+description = "Download your Google Drive Trash folder"
+authors = ["Paul Bailey <paul.m.bailey@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/pizzapanther/pydrive-trash-backup"
+include = ["trashpy/client_id.json"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+google-api-python-client = "^1.12.3"
+google-auth-oauthlib = "^0.4.1"
+google-auth = "^1.22.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+trashpy = 'trashpy.main:main'
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
