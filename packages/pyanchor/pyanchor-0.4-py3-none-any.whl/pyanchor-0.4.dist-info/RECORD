@@ -1,0 +1,8 @@
+pyanchor/__init__.py,sha256=XAbWLoOC1qOSRfz0837t0U8MZQ3Xrz549rb3frkU0AU,59
+pyanchor/cli.py,sha256=SjCJHMsmCfTBBjauQKU4XkVUjCO4Ze-zHcsCMyFOJNU,2841
+pyanchor/link_checker.py,sha256=oyfbMUlwT6-xm30hBAxvxWtGMi-Fe5Ul5tIpqU-Qr9k,2992
+pyanchor-0.4.dist-info/entry_points.txt,sha256=0MY5PpQbM1ZLRbWm_itGGZFTXFNmxeojhMwxKGETMXc,45
+pyanchor-0.4.dist-info/LICENSE,sha256=et_I0IsVIS3zTNGA9srn6ABTrGH9aCZV8WGq-rMy9DQ,1078
+pyanchor-0.4.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+pyanchor-0.4.dist-info/METADATA,sha256=z-KLpzDsUaq4X7J_GvhiUK0wnSrobMH_K4E6nMayVPg,3889
+pyanchor-0.4.dist-info/RECORD,,
