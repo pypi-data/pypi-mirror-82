@@ -1,0 +1,11 @@
+matplotlib
+multiprocess
+scipy
+numpy
+pandas
+pathos
+Shapely
+contours
+enum34
+PyYAML
+texttable
