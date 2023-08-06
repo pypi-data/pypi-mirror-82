@@ -1,0 +1,5 @@
+sengirifix
+unidic-lite==1.0.7
+mecab-python3==1.0.1
+emoji==0.6.0
+neologdn
