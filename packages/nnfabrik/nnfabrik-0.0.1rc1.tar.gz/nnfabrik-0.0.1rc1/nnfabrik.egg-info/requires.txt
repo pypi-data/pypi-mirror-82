@@ -1,0 +1,4 @@
+neuralpredictors~=0.0.0
+sphinx
+pytorch_sphinx_theme
+recommonmark
