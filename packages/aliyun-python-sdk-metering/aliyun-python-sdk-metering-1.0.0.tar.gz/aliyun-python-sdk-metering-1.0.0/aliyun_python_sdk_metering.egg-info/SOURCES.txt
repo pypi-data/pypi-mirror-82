@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+aliyun_python_sdk_metering.egg-info/PKG-INFO
+aliyun_python_sdk_metering.egg-info/SOURCES.txt
+aliyun_python_sdk_metering.egg-info/dependency_links.txt
+aliyun_python_sdk_metering.egg-info/requires.txt
+aliyun_python_sdk_metering.egg-info/top_level.txt
+aliyunsdkmetering/__init__.py
+aliyunsdkmetering/request/__init__.py
+aliyunsdkmetering/request/v20200921/PostDataRequest.py
+aliyunsdkmetering/request/v20200921/SyncDataRequest.py
+aliyunsdkmetering/request/v20200921/__init__.py
