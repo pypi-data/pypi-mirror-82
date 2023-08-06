@@ -1,0 +1,5 @@
+[console_scripts]
+electrasmart-auth = electrasmart.cli:auth
+electrasmart-gen-baseline-status = electrasmart.cli:gen_baseline_status
+electrasmart-list-devices = electrasmart.cli:list_devices
+
