@@ -1,0 +1,12 @@
+eib_aws_utils/__init__.py,sha256=5HIVCJPfCLn73G3RxeRevsr2nExTjhjl2ONj6VwjXXE,155
+eib_aws_utils/api.py,sha256=uwpSU1fy6TMPqouP78iCvZ9Ym9MBN6Z8QL3javCdAoA,2239
+eib_aws_utils/backgound_job.py,sha256=2Uax0X4KOH8ZEKU2_frdY7wukwWOwiW1S350csIvYVA,1028
+eib_aws_utils/dynamo_utils.py,sha256=GE5nAwx8cnf-2PUis90MJQp_lCcYuck42KChbXVcZw0,2806
+eib_aws_utils/errors.py,sha256=mKfy7aTIOeWtlqcNdtJY3h1jGnpDpS0z7pHpCq45X14,2131
+eib_aws_utils/http_utils.py,sha256=7-Wr-u1BSq2iddCrgx6e9M8HiD1anaE4AC8Wd-MQXOA,3547
+eib_aws_utils/logging.py,sha256=Uhm3vqs7U9SmGty-KGuhYLi6M61VbfryxZ-22rB2qCk,2402
+eib_aws_utils-1.0.5.dist-info/LICENSE.txt,sha256=khMx_4hkAjnWGbk6cUvQ8k6c542798pj1ztva3dtl1Q,109
+eib_aws_utils-1.0.5.dist-info/METADATA,sha256=1wOWeteliL9IF30PkR8JRtfAnPopWH8YEBb8lXAZT_E,7209
+eib_aws_utils-1.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+eib_aws_utils-1.0.5.dist-info/top_level.txt,sha256=_IDeKrCZGSpXRhXolhTCYUEOkX66X0_5R0y9LXAw1sw,14
+eib_aws_utils-1.0.5.dist-info/RECORD,,
