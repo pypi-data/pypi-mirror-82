@@ -1,0 +1,8 @@
+setup.py
+pombo_correio/__init__.py
+pombo_correio/exceptions.py
+pombo_correio/utils.py
+pombo_correio.egg-info/PKG-INFO
+pombo_correio.egg-info/SOURCES.txt
+pombo_correio.egg-info/dependency_links.txt
+pombo_correio.egg-info/top_level.txt
