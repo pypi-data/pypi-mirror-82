@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: girg-sampling
+Version: 0.1.1
+Summary: Efficient sampling of Geometric Inhomogeneous Random Graphs (GIRG). W wrapper for C++ libgirg and libhypergirg.
+Home-page: https://github.com/gavento/girg-sampling
+Author: Tomas Gavenciak
+Author-email: gavento@gmail.com
+Requires-Python: >=3.6.1
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/gavento/girg-sampling
+Description-Content-Type: text/markdown
+
+# GIRG sampling
+
+A Python wrapper for the [GIRGs sampling library](https://github.com/chistopher/girgs) (C++).
+
+Currently just a direct wraper of the C++ library.
+Install from the wheels to get te compied version of the library.
+
+## Changelog
+
+* 0.1: A direct wrapper of the C++ graph generator functions.
+
