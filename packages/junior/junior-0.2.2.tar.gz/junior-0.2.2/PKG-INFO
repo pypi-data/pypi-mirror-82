@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: junior
+Version: 0.2.2
+Summary: An opinionated Flask project structure.
+Home-page: https://gitlab.com/chriswhalen/junior
+Author: Chris Whalen
+Author-email: chris@chriswhalen.ca
+License: MIT
+Description: 
+        junior
+        ------
+        
+        An opinionated Flask project structure.
+        
+        Copyright © 2020
+        Chris Whalen <chris@chriswhalen.ca>
+        
+        This software is offered under the [MIT License]( ./LICENSE ).
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
