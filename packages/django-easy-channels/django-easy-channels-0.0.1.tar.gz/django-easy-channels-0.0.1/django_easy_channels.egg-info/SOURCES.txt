@@ -1,0 +1,11 @@
+README.md
+setup.py
+django_easy_channels.egg-info/PKG-INFO
+django_easy_channels.egg-info/SOURCES.txt
+django_easy_channels.egg-info/dependency_links.txt
+django_easy_channels.egg-info/top_level.txt
+easy_channels/__init__.py
+easy_channels/middleware.py
+easy_channels/consumers/__init__.py
+easy_channels/consumers/json.py
+test/test.py
