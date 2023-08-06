@@ -1,0 +1,8 @@
+README.md
+setup.py
+git_cloner/__init__.py
+git_cloner/cloner.py
+git_cloner.egg-info/PKG-INFO
+git_cloner.egg-info/SOURCES.txt
+git_cloner.egg-info/dependency_links.txt
+git_cloner.egg-info/top_level.txt
