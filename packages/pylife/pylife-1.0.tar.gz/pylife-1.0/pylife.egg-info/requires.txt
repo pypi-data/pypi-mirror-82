@@ -1,0 +1,13 @@
+numpy
+pytest
+spyder
+scipy
+pandas
+cython
+mystic
+tables
+jupyter
+matplotlib
+xlrd
+pymc3
+pytest-cov
