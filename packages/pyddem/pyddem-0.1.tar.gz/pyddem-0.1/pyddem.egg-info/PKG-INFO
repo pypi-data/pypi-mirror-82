@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyddem
+Version: 0.1
+Summary: pyddem is a python package for processing time series of elevation measurements
+Home-page: https://github.com/iamdonovan/pyddem
+Author: Romain Hugonnet and Bob McNabb
+Author-email: robertmcnabb@gmail.com
+License: GPL-3.0
+Description: UNKNOWN
+Platform: UNKNOWN
