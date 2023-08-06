@@ -1,0 +1,4 @@
+yamcs-client>=1.6.0
+
+[kerberos]
+yamcs-client-kerberos
