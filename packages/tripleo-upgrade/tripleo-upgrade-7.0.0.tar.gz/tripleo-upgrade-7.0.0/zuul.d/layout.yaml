@@ -1,0 +1,51 @@
+---
+- project:
+    templates:
+      - check-requirements
+      - openstack-tox-molecule
+    check:
+      jobs:
+        - tripleo-ci-centos-8-scenario000-multinode-oooq-container-updates:
+            dependencies:
+              - tripleo-upgrade-centos-8-molecule
+        - openstack-tox-linters
+        - tripleo-tox-molecule
+        - tripleo-upgrade-centos-8-molecule:
+            dependencies:
+              - tripleo-tox-molecule
+    gate:
+      queue: tripleo
+      jobs:
+        - tripleo-ci-centos-8-scenario000-multinode-oooq-container-updates:
+            dependencies:
+              - tripleo-upgrade-centos-8-molecule
+        - openstack-tox-linters
+        - tripleo-upgrade-centos-8-molecule
+    post:
+      jobs:
+        - publish-openstack-python-branch-tarball
+
+- job:
+    description: Base tripleo-upgrade job
+    name: tripleo-upgrade-centos-8-base
+    nodeset: centos-8
+    parent: base
+    success-url: "reports.html"
+    failure-url: "reports.html"
+    pre-run:
+      - zuul.d/playbooks/prepare-test-host.yml
+      - zuul.d/playbooks/pre.yml
+    run:
+      - zuul.d/playbooks/run.yml
+    timeout: 1800
+    voting: true
+    required-projects:
+      - name: openstack/ansible-role-openstack-operations
+      - name: openstack/ansible-config_template
+      - name: openstack/tripleo-ansible
+
+- job:
+    files:
+      - ^.*
+    name: tripleo-upgrade-centos-8-molecule
+    parent: tripleo-upgrade-centos-8-base
