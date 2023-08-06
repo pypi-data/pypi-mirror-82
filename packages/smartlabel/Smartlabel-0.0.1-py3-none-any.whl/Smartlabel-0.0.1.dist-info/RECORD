@@ -1,0 +1,10 @@
+src/Dataset.py,sha256=sfeQYGbqZWNKSNARInGFCE-Uijf1F1-3Z-NwJC_2cQA,1235
+src/Label.py,sha256=dJWZh_fLM-8KsD15jdiQ4q2ON3Ovl82n1VT7qLxJvmc,795
+src/Project.py,sha256=ppZiBwBSr3gkIu2ObbuEoAaVoEnhdlRmcQu_Oua_ixw,881
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/connection.py,sha256=j67-oLtIjJpw6N2vzzBko4ux74_ll9clcU3L36wDrRk,160
+Smartlabel-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+Smartlabel-0.0.1.dist-info/METADATA,sha256=WKykp4A9qa2BAWmCqW-E4w_TyQ7S7dmAOuYT2wgNW4Q,516
+Smartlabel-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+Smartlabel-0.0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+Smartlabel-0.0.1.dist-info/RECORD,,
