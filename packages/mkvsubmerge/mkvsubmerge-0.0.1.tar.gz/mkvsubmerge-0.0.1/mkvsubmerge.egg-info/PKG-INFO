@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: mkvsubmerge
+Version: 0.0.1
+Summary: Setuptools setup.py for mkvsubmerge.
+Home-page: https://github.com/medopaw/mkvsubmerge
+Author: Med0paW
+Author-email: medopaw@gmail.com
+License: MIT
+Description: mkvsubmerge
+        ======
+        
+        Split MKV file according to timestamp pairs specified by SRT
+        subtitle file and then merge into a new video file.
+        
+        Requirements
+        ------------
+        
+        1. Python 3
+        2. MKVToolNix
+        
+        Install
+        -------
+        
+        Install latest version:
+        
+        ```bash
+         pip install mkvsubmerge**.
+        ```
+        
+        Usage
+        -----
+        
+            usage: mkvsubmerge [-h] [-o OUT] [--srt SRT]
+                               [--srt-encoding SRT_ENCODING]
+                               [--start-offset START_OFFSET]
+                               [--end-offset END_OFFSET]
+                               mkv
+        
+            positional arguments:
+              mkv                   MKV file
+        
+            optional arguments:
+              -h, --help            show this help message and exit
+              -o OUT                output MKV file
+              --srt SRT             SRT file
+              --srt-encoding SRT_ENCODING
+                                    SRT file encoding
+              --start-offset START_OFFSET
+                                    offset to apply to every start
+                                    timestamp
+              --end-offset END_OFFSET
+                                    offset to apply to every end
+                                    timestamp
+        
+        About
+        -----
+        
+        Med0paW
+        
+        medopaw@gmail.com
+        
+        https://github.com/medopaw
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
