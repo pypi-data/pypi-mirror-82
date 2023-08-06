@@ -1,0 +1,10 @@
+CHANGELOG.txt
+Licence.txt
+MANIFEST.in
+README.txt
+setup.py
+nidhibasiccalculator/__init__.py
+nidhibasiccalculator.egg-info/PKG-INFO
+nidhibasiccalculator.egg-info/SOURCES.txt
+nidhibasiccalculator.egg-info/dependency_links.txt
+nidhibasiccalculator.egg-info/top_level.txt
