@@ -1,0 +1,4 @@
+[console_scripts]
+my=poetry.console:run
+my-script=test_package_dr.load:print_method
+
