@@ -1,0 +1,10 @@
+include README
+include bin/gc
+include docs/conf.py
+include docs/index.rst
+include docs/requirements.txt
+recursive-include ol *.py
+recursive-include gmod *.py
+recursive-include docs/ *.png
+recursive-include docs/pdf *.pdf
+recursive-include docs/_templates *
