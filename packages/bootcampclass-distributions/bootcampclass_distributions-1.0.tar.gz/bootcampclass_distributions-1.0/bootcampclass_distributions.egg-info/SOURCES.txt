@@ -1,0 +1,10 @@
+setup.py
+bootcampclass_distributions/Binomialdistribution.py
+bootcampclass_distributions/Gaussiandistribution.py
+bootcampclass_distributions/Generaldistribution.py
+bootcampclass_distributions/__init__.py
+bootcampclass_distributions.egg-info/PKG-INFO
+bootcampclass_distributions.egg-info/SOURCES.txt
+bootcampclass_distributions.egg-info/dependency_links.txt
+bootcampclass_distributions.egg-info/not-zip-safe
+bootcampclass_distributions.egg-info/top_level.txt
