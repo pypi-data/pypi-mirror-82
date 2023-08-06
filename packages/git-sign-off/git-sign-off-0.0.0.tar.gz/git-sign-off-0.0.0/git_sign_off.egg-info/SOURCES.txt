@@ -1,0 +1,14 @@
+README.md
+setup.py
+git_sign_off/Git.py
+git_sign_off/Process.py
+git_sign_off/__init__.py
+git_sign_off/__main__.py
+git_sign_off/exceptions.py
+git_sign_off/sign_off.py
+git_sign_off/utils.py
+git_sign_off.egg-info/PKG-INFO
+git_sign_off.egg-info/SOURCES.txt
+git_sign_off.egg-info/dependency_links.txt
+git_sign_off.egg-info/entry_points.txt
+git_sign_off.egg-info/top_level.txt
