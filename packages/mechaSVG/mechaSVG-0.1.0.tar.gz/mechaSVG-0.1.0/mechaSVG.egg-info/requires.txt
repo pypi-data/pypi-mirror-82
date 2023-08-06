@@ -1,0 +1,9 @@
+openpyxl
+os
+random
+datetime
+functools
+math
+sys
+subprocess
+setuptools
