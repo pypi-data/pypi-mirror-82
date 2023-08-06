@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./mbf_bam/__init__.py
+mbf_bam.egg-info/PKG-INFO
+mbf_bam.egg-info/SOURCES.txt
+mbf_bam.egg-info/dependency_links.txt
+mbf_bam.egg-info/not-zip-safe
+mbf_bam.egg-info/requires.txt
+mbf_bam.egg-info/top_level.txt
