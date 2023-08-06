@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mdformat-gofmt
+Version: 0.0.1
+Summary: Mdformat plugin to gofmt Go code blocks
+Home-page: https://github.com/hukkinj1/mdformat-gofmt
+License: MIT
+Keywords: mdformat,markdown,commonmark,formatter
+Author: Taneli Hukkinen
+Author-email: hukkinj1@users.noreply.github.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Documentation
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Typing :: Typed
+Requires-Dist: mdformat (>=0.3.5)
+Project-URL: Repository, https://github.com/hukkinj1/mdformat-gofmt
+Description-Content-Type: text/markdown
+
+[![Build Status](https://github.com/hukkinj1/mdformat-gofmt/workflows/Tests/badge.svg?branch=master)](<https://github.com/hukkinj1/mdformat-gofmt/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush>)
+[![PyPI version](<https://img.shields.io/pypi/v/mdformat-gofmt>)](<https://pypi.org/project/mdformat-gofmt>)
+
+# mdformat-gofmt
+> Mdformat plugin to gofmt Go code blocks
+
+## Description
+mdformat-gofmt is an [mdformat](https://github.com/executablebooks/mdformat) plugin
+that makes mdformat format Go code blocks with [gofmt](https://golang.org/cmd/gofmt).
+The plugin invokes gofmt in a subprocess so having Go installed is a requirement.
+
+## Installing
+1. [Install Go](https://golang.org/doc/install)
+1. Install mdformat-gofmt
+   ```bash
+   pip install mdformat-gofmt
+   ```
+
+## Usage
+```bash
+mdformat YOUR_MARKDOWN_FILE.md
+```
+

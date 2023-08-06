@@ -1,0 +1,3 @@
+[mdformat.codeformatter]
+go=mdformat_gofmt:format_go
+
