@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: id-manager
+Version: 0.0.2
+Summary: Task manager celery to django
+Home-page: https://github.com/IgorDantasID/task-manager.git
+Author: Igor Dantas de Aguiar
+Author-email: igordantas91@icloud.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Django (>=3)
+
+# TASK MANAGER
+
+## Install
+
+Use **pip** to install the latest stable version of `id-manager`:
+
+```
+$ pip install id-manager
+```
+
+## How to use
+in tasks.py
+```python
+from id_manager.services import TaskManager
+
+@task(name='get_urls')
+def get_urls():
+    go = TaskManager(name='get_urls')
+    if go.start() is True:
+        go.close()
+        return 'ok'
+    else:
+        return 'lock'
+```
+
