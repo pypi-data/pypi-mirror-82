@@ -1,0 +1,6 @@
+cython==0.29.21
+numpy==1.19.2
+async_channel<2.1,>=2.0.2
+OctoBot-Commons<1.5,>=1.4.1
+OctoBot-Tentacles-Manager<2.4,>=2.3.1
+tulipy==0.4.0
