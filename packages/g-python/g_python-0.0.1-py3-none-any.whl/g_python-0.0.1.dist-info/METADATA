@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: g-python
+Version: 0.0.1
+Summary: G-Earth extension interface for Python.
+Home-page: https://github.com/sirjonasxx/G-Python
+Author: sirjonasxx
+Author-email: sirjonasxx@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown
+
+# G-Python
+G-Earth extension interface for Python. 
+
+G-Earth + G-Python allows you to create simple scripts for Habbo and run them on the fly!
+
