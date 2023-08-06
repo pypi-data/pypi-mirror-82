@@ -1,0 +1,3 @@
+[console_scripts]
+cfgformalizer=cfgformalizer.command_line:main
+

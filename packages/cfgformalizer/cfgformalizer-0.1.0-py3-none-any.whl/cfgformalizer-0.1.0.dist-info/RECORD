@@ -1,0 +1,11 @@
+cfgformalizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfgformalizer/cisco/cisco.py,sha256=8elZqtXl_awR2JGcnsYYN71NqFA7BXMeKf3H5-H7Pmw,3375
+cfgformalizer/cisco/statement.py,sha256=hL--2y40EUJds96iu9ixVevGiMw_pVABtDRT1GbQ2z0,1108
+cfgformalizer/command_line.py,sha256=_abn4ieRPPuxnQZsSyvb6dstWDPlScl5wlD2hogXQwI,4802
+cfgformalizer/decorators.py,sha256=K_mOZg7nlMiW1rS_Sd0_jiE5YRrlc8CCRKOAmI3MQrs,256
+cfgformalizer/stanza.py,sha256=zFuNCQw46E-Q0LrbN5DI92mI5_vCPRu2tQ8yShxZyK8,2229
+cfgformalizer/statement.py,sha256=6qlDoVgWq3OfDXR2A4bG9gOyWF7JKwbRIZm71DUxVJQ,305
+cfgformalizer-0.1.0.dist-info/entry_points.txt,sha256=5nCseBJ23FxnCgqqoWbUx8wsTz96_vxLSbvtE9rKw74,65
+cfgformalizer-0.1.0.dist-info/WHEEL,sha256=f95LVduNtzpTFjazLUqsKUdxXxeVYa-JFalaYoFdJQI,85
+cfgformalizer-0.1.0.dist-info/METADATA,sha256=7WgeZ_HcrhVXVqrzWeR8LEr2GxNsGcmFd-PaLn73DjE,362
+cfgformalizer-0.1.0.dist-info/RECORD,,
