@@ -1,0 +1,11 @@
+phys/__init__.py,sha256=LYGMU88w-MOGrN0jm8yKwSqYF_WEprCyuNVQqQWwfdo,173
+phys/bodies.py,sha256=oVeYvGJg7ggBDg-rjDRmA1bdif7f-I8vbM8AdEI3QdI,5892
+phys/draw.py,sha256=5bkqo-G-j-bhqSTdn24Vl5p4rMHSPfkFoYH4meTYtaA,4449
+phys/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phys/examples/balls.py,sha256=l0XLdCReju6B9J0LzyjOrKrAjzNVzFl0TxTldUx3rhs,360
+phys/examples/gas.py,sha256=VK_91_uxZgJBtBLxHh8h4YdKZQg6xXqUJNjFph3IiFs,324
+phys/examples/shapes.py,sha256=k5z3Kn9OlcDSwwKr4_T0p64HyHkNaJ_LAJzBYjKm6Gg,333
+pyxel_physics-0.1.0.dist-info/LICENSE,sha256=xq5gzqPImmTv_o9AIkkrcAX9H0eJD3BYo02gemMFP1o,1088
+pyxel_physics-0.1.0.dist-info/WHEEL,sha256=VCdoNBk3hWpF-6e5lKoFTDe2J_z3c2Yvza9_dZz7drc,99
+pyxel_physics-0.1.0.dist-info/METADATA,sha256=e3r1aWAKE6GWP5H0Fgsiy4H2xiG7JiKHTJB08_-wdHs,1644
+pyxel_physics-0.1.0.dist-info/RECORD,,
