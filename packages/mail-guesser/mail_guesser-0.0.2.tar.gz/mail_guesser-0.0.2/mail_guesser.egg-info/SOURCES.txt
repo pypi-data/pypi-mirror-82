@@ -1,0 +1,7 @@
+README.md
+setup.py
+mail_guesser/__init__.py
+mail_guesser.egg-info/PKG-INFO
+mail_guesser.egg-info/SOURCES.txt
+mail_guesser.egg-info/dependency_links.txt
+mail_guesser.egg-info/top_level.txt
