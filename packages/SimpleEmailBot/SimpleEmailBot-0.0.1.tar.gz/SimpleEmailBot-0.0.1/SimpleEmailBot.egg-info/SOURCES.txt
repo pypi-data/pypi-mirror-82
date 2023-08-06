@@ -1,0 +1,8 @@
+README.md
+setup.py
+SimpleEmailBot.egg-info/PKG-INFO
+SimpleEmailBot.egg-info/SOURCES.txt
+SimpleEmailBot.egg-info/dependency_links.txt
+SimpleEmailBot.egg-info/top_level.txt
+simpleemailbot/__init__.py
+simpleemailbot/simpleemailbot.py
