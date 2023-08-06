@@ -1,0 +1,11 @@
+boorukits/__init__.py,sha256=e7bEPilYYz0MQ_CCfMmWgdsmu0pilRvrY0DvsW7T51E,436
+boorukits/booru.py,sha256=byoW3VzC3Q1j91oDfzrA7BTP4PwueJTXI-xbFzhhctU,6738
+boorukits/danbooru.py,sha256=xKKeQSsyF8P96L9gZTgGO1R_4HqxzDVA72MrQqs4Ds0,4519
+boorukits/errors.py,sha256=lXt5tHiAA0ZCeC7_3Df5YGxroOMBFKjly1HPgOMM5v4,89
+boorukits/gelbooru.py,sha256=E7K2pyKAmi_1Zs356T0tL7CpU0Hl-ZAqFDKkxyS9yS8,2430
+boorukits/safebooru.py,sha256=dqZkai1Q9LBgSWtpPIM-B-5yQ4mFI2VYQNB5GTw9X4w,2093
+boorukits-0.0.5.dist-info/LICENSE,sha256=7KB87gBnZfJoAmSiGQcrK1oHZbZvVa3u1jWoKPgxju8,1075
+boorukits-0.0.5.dist-info/METADATA,sha256=ygXTDNyEzQgggSw4sVb7pbT2SyJ6LHmYOURNGs7tOMw,1727
+boorukits-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+boorukits-0.0.5.dist-info/top_level.txt,sha256=YkzL-jJb3GuFX3BE0gehDlDjL7AQzuSOdjJoc5baIXQ,10
+boorukits-0.0.5.dist-info/RECORD,,
