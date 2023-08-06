@@ -1,0 +1,61 @@
+site_name: {{ cookiecutter.project_name }}
+site_description: {{ cookiecutter.project_short_description }}
+
+# Copyright
+copyright: Copyright &copy; 2020 - Present Capgemini
+
+repo_name: {{ cookiecutter.repo_name }}
+repo_url: {{ cookiecutter.repo_url }}
+edit_uri: ""
+
+theme:
+  name: material
+  language: en
+  palette:
+    primary: black
+    accent: teal
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    logo: material/cog
+    favicon: material/cog
+
+nav:
+  - Introduction: "index.md"
+  - Features: "features.md"
+  - Tutorial - User Guide:
+    - "tutorials/quick_start.md"
+  - Development - Contributing:
+    - "contributing/setup.md"
+    - "contributing/workflow.md"
+  - API Documentation: "apidoc/index.md"
+  - Roadmap: "roadmap.md"
+  - Release Notes: release-notes.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown_include.include:
+      base_path: docs
+  - admonition
+  - codehilite
+  - extra
+  - mkautodoc
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tabbed
+
+extra_css:
+  - "css/termynal.css"
+  - "css/custom.css"
+
+extra_javascript:
+  - "https://unpkg.com/mermaid@8.4.6/dist/mermaid.min.js"
+  - "js/termynal.js"
+  - "js/custom.js"

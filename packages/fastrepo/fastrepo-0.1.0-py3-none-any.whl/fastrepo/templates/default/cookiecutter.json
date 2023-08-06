@@ -1,0 +1,13 @@
+{
+  "author": "Guillaume Charbonnier",
+  "email": "guillaume.charbonnier@capgemini.com",
+  "project_name": "Captain Demo",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Captain Demo contains all the boilerplate you need to create a Python package.",
+  "version": "0.1.0",
+  "create_cli": [true, false],
+  "cli_name": "{{ cookiecutter.project_slug.replace('_', '-') }}",
+  "repo_name": "{{ cookiecutter.project_slug.replace('_', '-') }}",
+  "repo_url": "https://gitlab.com/{{ cookiecutter.repo_name }}",
+  "max_file_size_kb": "50000"
+}
