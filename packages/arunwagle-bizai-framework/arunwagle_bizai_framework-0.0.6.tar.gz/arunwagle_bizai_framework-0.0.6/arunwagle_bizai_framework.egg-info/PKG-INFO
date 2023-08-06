@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: arunwagle-bizai-framework
+Version: 0.0.6
+Summary: BizAI Framework Package
+Home-page: UNKNOWN
+Author: Arun Wagle
+Author-email: arun.wagle@gmail.com
+License: GPL
+Description: # Utils  Package
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+        
+        # For docs
+        sphinx-quickstart doc
+        sphinx-build -b doctest doc/source doc/build
+        
+        
+        vi ~/.pypirc
+        python setup.py register -r testpypi
+        
+        pip install sphinx
+        pip install entry_point_inspector
+        pip install coverage
+        pip install mock
+        pip3 install ceilometer
+        pip3 install testrepository
+        
+        # For unit tests
+        nosetests -v
+        nosetests --with-coverage
+        nosetests --cover-package=ceilometer --with-coverage --cover-html tests/test_pipeline.py
+        python setup.py testr --coverage
+        
+        
+        
+        Gerrit Code Review
+        
+        Zuul is a program that drives continuous integration, delivery, and deployment systems 
+        https://zuul-ci.org/docs/zuul/
+        
+        https://travis-ci.org
+        
+        If you are using the popular GitHub hosting service, Travis CI provides a wa⁴ to run a test ater each push or merge or against pull requests that are submitted.
+        
+        
+        <!--  Profiling function -->
+        python -m cProfile myscript.py
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
