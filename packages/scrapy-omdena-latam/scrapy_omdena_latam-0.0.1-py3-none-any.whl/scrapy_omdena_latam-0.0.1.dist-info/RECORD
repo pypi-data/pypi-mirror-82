@@ -1,0 +1,15 @@
+scrapy_official_newspapers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_official_newspapers/functions.py,sha256=2NgkmwgWXJBSgLFO99vDrhrQ_B-UykKJr-eV0DTr4-w,541
+scrapy_official_newspapers/items.py,sha256=s713FV-pa92itiMkUd9FFLAd6UCc3dj7Kl5vmlvYRRA,706
+scrapy_official_newspapers/middlewares.py,sha256=mn37GnIAAJuh1NgO6QnPebpS916PH_XlCf4Aoor7iow,3684
+scrapy_official_newspapers/models.py,sha256=BoKsZm62nCRdxQwr62oG6DPzlGon4ZkgBa5B1drZiEM,3505
+scrapy_official_newspapers/pipelines.py,sha256=X2GrxgHtVfeuUEfy5rl5lcz6CDWjF9c_jJR5blV96ic,1468
+scrapy_official_newspapers/spiders/__init__.py,sha256=a2G-CdKEkTnxRrdOCHS44xbtM49GCy-A29JwZHWYt04,974
+scrapy_official_newspapers/spiders/elperuano.py,sha256=hAF-BaKcYSGt6mOvI8Xe-HydlHifM65V17InGXJ22zs,1718
+scrapy_official_newspapers/spiders/leychile_spider.py,sha256=9yUbOnj2gVvBg69HQBgrVLKHB9pPMpuBtNNU9XJU3xQ,2214
+scrapy_official_newspapers/spiders/mexicoDOF.py,sha256=Fbcu-mQn9syzuQA9xI97H2_b7T-W9gjEQPPLmaoQJQs,3235
+scrapy_omdena_latam-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scrapy_omdena_latam-0.0.1.dist-info/METADATA,sha256=MEalbBHNPMdOM_Zg-7pZuJnsGmZseK19t3R1b2NpXjY,5574
+scrapy_omdena_latam-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+scrapy_omdena_latam-0.0.1.dist-info/top_level.txt,sha256=i3guzsl-qYOIA21mnBd9IARnUnhwI447DTUb6HiHOFc,27
+scrapy_omdena_latam-0.0.1.dist-info/RECORD,,
