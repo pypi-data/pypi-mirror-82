@@ -1,0 +1,12 @@
+smartagro/__init__.py,sha256=6MF8mzBdqa7PYgjc6Fg6xrgL39fS2bRNR8UW3BuOTJ8,635
+smartagro/cli.py,sha256=Tq9ReCaCMszFK311JnWkWbuowFzpdayxyL_s9pSNyDg,406
+smartagro/mcp3008.py,sha256=H8KZpBmAil9HPPrV-UVmd8mkFQEo9xbm4q8PDlKis-Q,4327
+smartagro/smart.py,sha256=cth7x-q7JVYXCYNe8fZm7L_tMPJOv5O6SyHYmt_OweE,457
+smartagro/utils.py,sha256=s6UOcxLd5cg1AUn8h5RDA8jIWxUzrgr6E9GEumFHvrs,5915
+smartagro-0.1.1.dist-info/AUTHORS.rst,sha256=YR0qH10CyIAI6kKSVOYx3nJeKgobsTf4aG4dBxfgzM0,165
+smartagro-0.1.1.dist-info/LICENSE,sha256=D56szKcOflDJFdQIMwPm49QxeFCepCWxNJLdspcUnaY,1579
+smartagro-0.1.1.dist-info/METADATA,sha256=xNXptzzwwWNOxfDHBt8rO7fzKL-5HoPhK3GKxXq7jUA,2138
+smartagro-0.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+smartagro-0.1.1.dist-info/entry_points.txt,sha256=HwHCuQL0zWckdiyQCk0Ip-2PlnY9ZW0qwfiFtc9B5CY,50
+smartagro-0.1.1.dist-info/top_level.txt,sha256=A-PYx6v_8kNe41dy7oW5Y-eyPgfu6HEas7LzZmV_4Uo,10
+smartagro-0.1.1.dist-info/RECORD,,
