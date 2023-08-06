@@ -1,0 +1,3 @@
+include README.md
+include ccad/bin/win/*
+include chemscad/gui_modules/*
