@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scipy
+random
+pytest
+
+[docs]
+sphinx-astropy
+
+[test]
+pytest-astropy
