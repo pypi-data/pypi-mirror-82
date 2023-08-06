@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xp-scenery-organizer
+Version: 0.0.1
+Summary: A small package to organizer the X-plane's scenery_packs.ini file
+Home-page: https://github.com/jvbraganca/xp-scenery-organizer
+Author: João Bragança
+Author-email: jvbragancaa@gmail.com
+License: CC BY-NC 4.0
+Download-URL: https://github.com/jvbraganca/xp-scenery-organizer/archive/v0.tar.gz
+Description: # X-Plane 11 Scenery Organizer
+        [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free for non-commercial use
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

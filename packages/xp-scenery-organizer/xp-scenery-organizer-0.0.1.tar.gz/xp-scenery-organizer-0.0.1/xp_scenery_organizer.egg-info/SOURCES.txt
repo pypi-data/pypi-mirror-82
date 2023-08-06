@@ -1,0 +1,8 @@
+README.md
+setup.py
+xp-scenery-organizer/__init__.py
+xp-scenery-organizer/organizer.py
+xp_scenery_organizer.egg-info/PKG-INFO
+xp_scenery_organizer.egg-info/SOURCES.txt
+xp_scenery_organizer.egg-info/dependency_links.txt
+xp_scenery_organizer.egg-info/top_level.txt
