@@ -1,0 +1,3 @@
+[console_scripts]
+is_online = is_online.__main__:main
+
