@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pytcn
+Version: 0.0.2
+Summary: Temporal Convolution Network (TCN) based on Keras
+Home-page: https://github.com/zhf026
+Author: zhf026
+Author-email: zhf026@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: keras
+Requires-Dist: tensorflow
+
+# Temporal Convolution Network (TCN)
+
+## Description
+This is a implement of temporal Convolution Network (TCN) by using keras, and the 
+version uses a dense layer as the output layer instead of fully convolution network (FCN) structure depicted in paper "An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling".
+
+
+## Usage
+```python
+    import keras 
+    from tcn import *
+
+    # Build TCN model
+    # model is a keras model
+    model = tcn(input_shape=(24, 7), n_blocks=3, filters=[16, 32, 64], 
+                kernel_size=[24, 24, 24], dropout_rate=[0.1, 0.1, 0.1], 
+                n_outputs=6)
+    # Plot the structure of model
+    keras.utils.plot_model(model, to_file='model.png', show_shapes=True)
+```
+
+![](./assets/model.png)
+
+## References
+> [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](https://arxiv.org/pdf/1803.01271.pdf)
+
+
+
