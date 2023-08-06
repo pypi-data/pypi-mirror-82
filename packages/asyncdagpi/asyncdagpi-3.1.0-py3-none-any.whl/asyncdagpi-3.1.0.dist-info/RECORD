@@ -1,0 +1,11 @@
+asyncdagpi/__init__.py,sha256=xrAEuRXovMPNKTpaT-ZQepNkKJdDz9tvPLdPKHF6y8A,764
+asyncdagpi/client.py,sha256=9EI-fUFOrubYpSRJOy23hwdzGCI3qeuwuIs8Qfe9eIU,4020
+asyncdagpi/errors.py,sha256=YXwAl3wwSu4gS-VT2csgKd5F_5O3S1lRFl69ZIIOUk4,1505
+asyncdagpi/http.py,sha256=xZ3DVPpuF7d5UxD2azbDjd0JDLk8XoIWyVru8IRGNqA,5905
+asyncdagpi/image.py,sha256=txjD8uJD4hMRDfTIg8oedmQfYtAdU6Tm9b9On2BDg-k,1640
+asyncdagpi/image_features.py,sha256=HrSsDAybnKyEEpDlpl7NagOHRWa6vKKgc6p6R7v75G8,5750
+asyncdagpi/objects.py,sha256=jEm41vTDT1chPLC0ESk3TIaR1vY1lhx-F_0sNeSuG0o,4116
+asyncdagpi-3.1.0.dist-info/LICENSE,sha256=-_xG7g1xrHmflB-fvZ4CLSxsFiqXBY6exzS0cJFO0LA,1095
+asyncdagpi-3.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+asyncdagpi-3.1.0.dist-info/METADATA,sha256=vMNG1FbXGXTOaEC04_APuaYYevBuuQECdOwl1E8Sj4w,2977
+asyncdagpi-3.1.0.dist-info/RECORD,,
