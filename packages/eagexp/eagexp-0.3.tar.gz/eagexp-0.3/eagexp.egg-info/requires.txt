@@ -1,0 +1,6 @@
+PyScreenshot
+PyUserInput
+backports.tempfile
+easyprocess
+pillow
+pyvirtualdisplay

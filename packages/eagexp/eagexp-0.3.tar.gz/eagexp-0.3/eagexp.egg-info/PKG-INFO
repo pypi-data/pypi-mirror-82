@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: eagexp
+Version: 0.3
+Summary: export eagle schematic or board to image or partlist
+Home-page: https://github.com/ponty/eagexp
+Author: ponty
+License: BSD
+Description: export eagle schematic or board to image or partlist
+        
+        Documentation: https://github.com/ponty/eagexp/tree/0.3
+Keywords: eagle
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
