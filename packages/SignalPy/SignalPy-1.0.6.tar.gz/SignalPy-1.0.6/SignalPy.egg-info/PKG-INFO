@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: SignalPy
+Version: 1.0.6
+Summary: Realtime communication for Python web applications
+Home-page: https://github.com/Ksengine/SignalPy
+Author: Kavindu Santhusa
+Author-email: kavindusanthusa@gmail.com
+License: MIT
+Download-URL: https://github.com/Ksengine/SignalPy/releases
+Description: ﻿# SignalPy
+        **Real-time Communication for web applications  with SignalR**
+        *Incredibly simple real-time web for python WSGI servers and frameworks*
+        ## Realtime
+        Today's modern websites are expected to deliver up-to-date information without hitting a refresh button. Add that real-time functionality to your python web applications.
+        
+        What is real-time functionality? It's the ability to have your server-side code push content to connected clients as it happens, in real-time.
+        ## WSGI compatible
+        SignalPy apps can be written in python code and added to your server app with or without application framework. 
+        many servers and web applications are WSGI.
+        
+        `else:` you can use default server ( ServeLight ) and inbuilt application framework.
+        ## What can you do with SignalPy
+        While chat is often used as an example, you can do a whole lot more. SignalPy also enables completely new types of applications that require high-frequency updates from the server, such as real-time gaming.
+        ## Open source, open protocol
+        SignalPy is open-source on GitHub. In addition to the source code, protocol specification the for communication between hubs and clients is open too.
+        ## Connect from everywhere
+        With client SDKs for JavaScript, you can connect to your SignalPy hub and start receiving real-time messages.
+        use [Gunicorn](https://gunicorn.org/) and [Nginx](https://www.nginx.com/) for production on web.
+        
+        SignalPy will use WebSockets when it's available, and gracefully falls back on other technologies when it isn't, while your application code stays the same.
+        ## Simple
+         SignalPy is simple but not powerful like [SignalR](https://dotnet.microsoft.com/apps/aspnet/signalr)
+        ## SignalPy vs [SignalR](https://dotnet.microsoft.com/apps/aspnet/signalr)
+         Don't compare SignalPy and [SignalR](https://dotnet.microsoft.com/apps/aspnet/signalr). Signalr is a powerful method for .NET framework. Its not for python
+         it is an example for SignalPy. SinalPy is not powerful like SignalR. Help me to improve this project like SignalR.
+         
+         **Contribute** in [Github](https://github.com/Ksengine/SignalPy)
+         # Get started...
+        
+Keywords: simple,lightweight,WSGI,micro,server,library,python,signalr,signalpy,websocket,ajax,xhr,long polling,xhr,alternative,wsocket,servelight
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS 9
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: MS-DOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 3.1 or Earlier
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8.1
+Classifier: Operating System :: Microsoft :: Windows :: Windows 95/98/2000
+Classifier: Operating System :: Microsoft :: Windows :: Windows CE
+Classifier: Operating System :: Microsoft :: Windows :: Windows NT/2000
+Classifier: Operating System :: Microsoft :: Windows :: Windows Server 2003
+Classifier: Operating System :: Microsoft :: Windows :: Windows Server 2008
+Classifier: Operating System :: Microsoft :: Windows :: Windows Vista
+Classifier: Operating System :: Microsoft :: Windows :: Windows XP
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: AIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: BSD :: BSD/OS
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: POSIX :: BSD :: NetBSD
+Classifier: Operating System :: POSIX :: BSD :: OpenBSD
+Classifier: Operating System :: POSIX :: GNU Hurd
+Classifier: Operating System :: POSIX :: HP-UX
+Classifier: Operating System :: POSIX :: IRIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: Other
+Classifier: Operating System :: POSIX :: SCO
+Classifier: Operating System :: POSIX :: SunOS/Solaris
+Classifier: Operating System :: Unix
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Environment :: X11 Applications :: Gnome
+Classifier: Environment :: X11 Applications :: KDE
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Environment :: MacOS X
+Classifier: Environment :: MacOS X :: Cocoa
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.3
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: IronPython
+Classifier: Programming Language :: Python :: Implementation :: Jython
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: Stackless
+Description-Content-Type: text/markdown
