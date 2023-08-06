@@ -1,0 +1,5 @@
+setup.py
+libertyrpa.egg-info/PKG-INFO
+libertyrpa.egg-info/SOURCES.txt
+libertyrpa.egg-info/dependency_links.txt
+libertyrpa.egg-info/top_level.txt
