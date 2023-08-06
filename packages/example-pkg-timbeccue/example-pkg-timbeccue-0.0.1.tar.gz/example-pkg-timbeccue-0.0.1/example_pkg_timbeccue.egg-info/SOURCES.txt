@@ -1,0 +1,8 @@
+README.md
+setup.py
+example_pkg/__init__.py
+example_pkg/foo.py
+example_pkg_timbeccue.egg-info/PKG-INFO
+example_pkg_timbeccue.egg-info/SOURCES.txt
+example_pkg_timbeccue.egg-info/dependency_links.txt
+example_pkg_timbeccue.egg-info/top_level.txt
