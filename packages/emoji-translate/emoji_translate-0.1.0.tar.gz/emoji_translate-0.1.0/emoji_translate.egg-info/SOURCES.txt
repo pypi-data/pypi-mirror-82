@@ -1,0 +1,17 @@
+README.md
+setup.py
+emoji_translate/__init__.py
+emoji_translate/emoji_translate.py
+emoji_translate.egg-info/PKG-INFO
+emoji_translate.egg-info/SOURCES.txt
+emoji_translate.egg-info/dependency_links.txt
+emoji_translate.egg-info/requires.txt
+emoji_translate.egg-info/top_level.txt
+emoji_translate.egg-info/zip-safe
+emoji_translate/data/__init__.py
+emoji_translate/data/emoji_utf8_lexicon.txt
+emoji_translate/data/emojis.json
+emoji_translate/data/merge.py
+emoji_translate/data/merged_emojis.json
+tests/__init__.py
+tests/test_emoji_translate.py
