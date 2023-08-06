@@ -1,0 +1,15 @@
+Django<2.3
+flattentool
+libcove>=0.18.0
+libcoveocds>=0.8.0
+rfc3987
+strict-rfc3339
+
+[perf]
+orjson>=3
+
+[test]
+coveralls
+isort
+pytest
+pytest-cov
