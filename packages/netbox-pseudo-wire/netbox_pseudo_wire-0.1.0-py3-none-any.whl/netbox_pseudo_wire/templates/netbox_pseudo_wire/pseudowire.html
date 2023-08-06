@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% with config=settings.PLUGINS_CONFIG.netbox_pseudo_wire %}
+<h2 class="text-center" style="margin-top: 200px">
+    {% if pseudowire %}
+        The {{ pseudowire.name|lower }} says
+        {% if config.loud %}
+            {{ pseudowire.tunnel|upper }}!
+        {% else %}
+            {{ pseudowire.tunnel }}
+        {% endif %}
+    {% else %}
+        No pseudowires have been created yet!
+    {% endif %}
+</h2>
+<!-- <p class="text-center">
+    <a href="{% url 'plugins:netbox_pseudo_wire:list_pseudowires' %}">Show all pseudowires</a>
+</p> -->
+{% endwith %}
+{% endblock %}
+

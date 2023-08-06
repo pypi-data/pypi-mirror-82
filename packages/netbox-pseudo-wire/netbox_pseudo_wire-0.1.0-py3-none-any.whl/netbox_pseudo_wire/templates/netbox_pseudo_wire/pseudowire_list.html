@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Pseudowires</h1>
+<table class="table">
+    <tr>
+        <th>Pseudowire</th>
+        <th>Tunnel</th>
+    </tr>
+    {% for pseudowire in pseudowires %}
+    <tr>
+        <td><a href="{% url 'plugins:netbox_pseudo_wire:pseudowire' name=pseudowire.name %}">{{ pseudowire.name }}</a>
+        </td>
+        <td>{{ pseudowire.tunnel }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="2">No pseudowires defined!</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
