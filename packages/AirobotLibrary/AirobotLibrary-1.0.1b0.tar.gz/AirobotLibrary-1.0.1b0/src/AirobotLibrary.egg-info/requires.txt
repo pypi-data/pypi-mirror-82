@@ -1,0 +1,8 @@
+robotframework-seleniumlibrary
+robotframework-appiumlibrary
+robotframework-databaselibrary
+robotframework-difflibrary
+robotframework-requests
+robotframework-ftplibrary
+robotframework-archivelibrary
+airtest_selenium
