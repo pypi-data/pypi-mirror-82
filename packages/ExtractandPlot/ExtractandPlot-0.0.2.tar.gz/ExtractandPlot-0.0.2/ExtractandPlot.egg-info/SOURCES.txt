@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+setup.py
+ExtractandPlot.egg-info/PKG-INFO
+ExtractandPlot.egg-info/SOURCES.txt
+ExtractandPlot.egg-info/dependency_links.txt
+ExtractandPlot.egg-info/requires.txt
+ExtractandPlot.egg-info/top_level.txt
