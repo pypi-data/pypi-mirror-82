@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+bird-browser/__main__.py
+bird-browser/setup.py
+bird_browser.egg-info/PKG-INFO
+bird_browser.egg-info/SOURCES.txt
+bird_browser.egg-info/dependency_links.txt
+bird_browser.egg-info/requires.txt
+bird_browser.egg-info/top_level.txt
