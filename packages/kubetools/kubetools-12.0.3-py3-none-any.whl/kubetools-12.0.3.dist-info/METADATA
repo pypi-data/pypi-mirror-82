@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: kubetools
+Version: 12.0.3
+Summary: Kubetools is a tool and processes for developing and deploying microservices to Kubernetes.
+Home-page: http://github.com/EDITD/kubetools
+Author: Devs @ EDITED
+Author-email: nick@edited.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click (<8,>=7)
+Requires-Dist: docker (<5,>=3)
+Requires-Dist: pyyaml (<6,>=3)
+Requires-Dist: requests (<3,>=2)
+Requires-Dist: pydash
+Requires-Dist: pyretry
+Requires-Dist: setuptools
+Requires-Dist: kubernetes
+Requires-Dist: tabulate (<1)
+Provides-Extra: dev
+Requires-Dist: ipdb ; extra == 'dev'
+Requires-Dist: pytest (~=6.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (~=2.10) ; extra == 'dev'
+Requires-Dist: flake8 (~=3.8) ; extra == 'dev'
+Requires-Dist: flake8-import-order (~=0.18) ; extra == 'dev'
+Requires-Dist: flake8-commas (~=2.0) ; extra == 'dev'
+
+UNKNOWN
+
+
