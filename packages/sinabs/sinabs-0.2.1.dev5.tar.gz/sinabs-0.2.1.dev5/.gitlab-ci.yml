@@ -1,0 +1,80 @@
+image: aictx/ci-python-arch:latest
+
+before_script:
+  - pip install --upgrade pip
+  - pip install . --no-cache-dir
+  - pip install --upgrade 'm2r@git+https://github.com/crossnox/m2r@dev#egg=m2r'
+  - pip install -r test-requirements.txt
+
+unittests:
+  tags:
+    - python
+    - aiCTX
+
+  stage: test
+
+  script:
+    - pytest --cov
+
+
+pages:
+  tags:
+    - python
+    - aiCTX
+
+  stage: deploy
+
+  script:
+    - cd docs
+    - make html
+    - mv build/html/ ../public/
+
+  artifacts:
+    paths:
+    - public
+
+  only:
+    - master
+
+dist_build:
+  tags:
+    - python
+    - aiCTX
+
+  stage: build
+
+  only:
+    - master
+
+
+  before_script:
+    - pip install --upgrade pip
+    - pip install wheel
+
+  script:
+    - python setup.py sdist bdist_wheel
+
+  artifacts:
+    paths:
+      - dist
+
+pypi_deploy:
+  tags:
+    - python
+    - aiCTX
+
+  stage: deploy
+  when: manual
+
+  only:
+    - master
+
+  dependencies:
+    - dist_build
+
+  before_script:
+    - pip install --upgrade pip
+    - pip install --upgrade twine
+
+  script:
+          - twine upload dist/*
