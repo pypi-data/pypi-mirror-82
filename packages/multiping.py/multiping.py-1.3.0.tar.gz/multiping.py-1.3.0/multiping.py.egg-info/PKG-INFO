@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: multiping.py
+Version: 1.3.0
+Summary: ncurses frontend to ping
+Home-page: https://github.com/mgedmin/multiping
+Author: Marius Gedminas
+Author-email: marius@gedmin.as
+License: GPL
+Project-URL: Changelog, https://github.com/mgedmin/multiping/blob/master/CHANGES.rst
+Description: multiping
+        =========
+        
+        .. image:: https://travis-ci.org/mgedmin/multiping.svg?branch=master
+            :target: https://travis-ci.org/mgedmin/multiping
+        
+        .. image:: https://coveralls.io/repos/mgedmin/multiping/badge.svg?branch=master
+            :target: https://coveralls.io/r/mgedmin/multiping
+        
+        Pings a host once every second and displays the results in an interactive
+        ncurses window.
+        
+        .. image:: https://raw.githubusercontent.com/mgedmin/multiping/master/docs/screenshot.png
+        
+        
+        Usage: multiping *hostname*
+        
+        Display:
+        
+        - ``#``  ping OK
+        - ``%``  ping OK, response is slow (over 1000 ms)
+        - ``-``  ping not OK
+        - ``!``  ping process killed (after 20 seconds)
+        - ``?``  cannot execute ping
+        
+        Keys:
+        
+        - **q**                     - quit
+        - **k**, **Up**             - scroll up
+        - **j**, **Down**           - scroll down
+        - **Ctrl+U**, **Page Up**   - scroll page up
+        - **Ctrl+D**, **Page Down** - scroll page down
+        - **g**, **Home**           - scroll to top
+        - **G**, **End**            - scroll to bottom
+        - **Ctrl+L**                - redraw
+        
+Keywords: ping ncurses
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: test
