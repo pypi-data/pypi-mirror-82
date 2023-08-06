@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mob-api
+Version: 0.1.0
+Summary: 
+Author: dev
+Author-email: dev@qiyutech.tech
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6,<3.7)
+Requires-Dist: pydes (>=2,<3)
+Requires-Dist: requests (>=2.24,<2.25)
+Requires-Dist: structlog (>=20,<21)
