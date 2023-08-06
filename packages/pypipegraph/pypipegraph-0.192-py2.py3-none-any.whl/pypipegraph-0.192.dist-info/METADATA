@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pypipegraph
+Version: 0.192
+Summary: A workflow (job) engine/pipeline for bioinformatics and scientific computing.
+Home-page: https://github.com/IMTMarburg/pypipegraph
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Provides-Extra: testing
+Requires-Dist: cython ; extra == 'testing'
+Requires-Dist: dppd-plotnine ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: jupyter ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-icdiff ; extra == 'testing'
+Requires-Dist: pytest-random-order ; extra == 'testing'
+Requires-Dist: runipy ; extra == 'testing'
+
+
+# pypipegraph 
+
+This repo is archived - visit https://github.com/IMTMarburg/pypipegraph for the active one.
+
+
