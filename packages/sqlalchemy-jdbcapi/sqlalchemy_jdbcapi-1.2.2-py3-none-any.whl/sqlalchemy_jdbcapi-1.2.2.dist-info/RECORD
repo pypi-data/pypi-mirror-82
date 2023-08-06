@@ -1,0 +1,11 @@
+sqlalchemy_jdbcapi/__init__.py,sha256=3-DvJfctn04wNttlFRkbtwya_LA7Xnn9uIP_GbQWz8Q,253
+sqlalchemy_jdbcapi/base.py,sha256=xBBCdUCZWeR2tep3_1Xzqo8egjxO7Ze-wjX7YFfvo64,986
+sqlalchemy_jdbcapi/oraclejdbc.py,sha256=5noyB6lvCvylfOMxj0z3YVriLfb6Zlmdvkvg4A2xUx0,1912
+sqlalchemy_jdbcapi/pgjdbc.py,sha256=aEB5FS2a8WVSo3mwqemboXqG5AsLHSa6Gcxsfgq6sN4,2824
+sqlalchemy_jdbcapi-1.2.2.dist-info/AUTHORS,sha256=pjmgCuAcue-x6kEA0JOadMxIjUESFmTgfTOrPLLPfhQ,300
+sqlalchemy_jdbcapi-1.2.2.dist-info/LICENSE,sha256=XFjjC9PE-Z4klxbKu7F0fGN0KyIqFCChX6ELeKbo50k,595
+sqlalchemy_jdbcapi-1.2.2.dist-info/METADATA,sha256=PY-AjOnjuKS0Jx4LhExd0H12SXQul6jcXGHlDMyEEXk,2267
+sqlalchemy_jdbcapi-1.2.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sqlalchemy_jdbcapi-1.2.2.dist-info/entry_points.txt,sha256=-Xu2alkJSrslimKElGFOFUWJKNLeieNNiYbQjSPDFl4,149
+sqlalchemy_jdbcapi-1.2.2.dist-info/top_level.txt,sha256=gH9G_wpw32cME-6jL94UJ4hUlg8eVb6sE_gv1eE5Bck,19
+sqlalchemy_jdbcapi-1.2.2.dist-info/RECORD,,
