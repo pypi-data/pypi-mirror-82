@@ -1,0 +1,9 @@
+candas/__init__.py,sha256=nnTnKlO9sRer0Ri3GLCzTFrBOws_hKKMxu8KUrlEOq8,98
+candas/database.py,sha256=sHRRRQt2U3GfTFzuwMmS14BcIvbh4XEoa6p9-YSFmyo,7250
+candas/dataframe.py,sha256=SVfsws1zVYsOHx9_UEmf65SeAOJMEBnyy8Oi8Nk0bYI,39852
+candas/metadata.py,sha256=BpFa63rO0GP3iTDCYChnPFtZXU56X7e_bruIuITSuMA,6520
+CANdas-2.0.2.dist-info/LICENSE,sha256=aaSq98A_7KkvsZHVPyfw-uC2zuLcsoO5QzvAn9CDKCY,1068
+CANdas-2.0.2.dist-info/METADATA,sha256=_QFCzpNmFuwNHJ2-vj1q-b148SnDXgn9FKULBz3HsQ8,2458
+CANdas-2.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+CANdas-2.0.2.dist-info/top_level.txt,sha256=eaPTCwlcE1RygPj9_eN0x0rfFLtj2YwrgD9jgRYxMTs,7
+CANdas-2.0.2.dist-info/RECORD,,
