@@ -1,0 +1,5 @@
+setup.py
+hoptim.egg-info/PKG-INFO
+hoptim.egg-info/SOURCES.txt
+hoptim.egg-info/dependency_links.txt
+hoptim.egg-info/top_level.txt
