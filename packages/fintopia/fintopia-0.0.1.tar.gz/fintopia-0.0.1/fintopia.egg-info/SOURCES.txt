@@ -1,0 +1,9 @@
+README.md
+setup.py
+devops/__init__.py
+devops/notifications.py
+fintopia.egg-info/PKG-INFO
+fintopia.egg-info/SOURCES.txt
+fintopia.egg-info/dependency_links.txt
+fintopia.egg-info/not-zip-safe
+fintopia.egg-info/top_level.txt
