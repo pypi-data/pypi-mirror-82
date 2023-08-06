@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: StreamV
+Version: 0.0.2
+Summary: Stream Capture with UDP
+Home-page: UNKNOWN
+Author: YanggeLiu
+Author-email: liu1251658965@outlook.com
+License: UNKNOWN
+Description: # StreamV
+        
+        This is a simple package. You can use to Stream Capture or picture with UDP.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
