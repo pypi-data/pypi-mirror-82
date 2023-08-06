@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ayb
+Version: 0.1
+Summary: The official python wrapper for the AYB API
+Home-page: UNKNOWN
+Author: Gugu72
+Author-email: aybapi@gurvan.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Needs to be written...
+
+
