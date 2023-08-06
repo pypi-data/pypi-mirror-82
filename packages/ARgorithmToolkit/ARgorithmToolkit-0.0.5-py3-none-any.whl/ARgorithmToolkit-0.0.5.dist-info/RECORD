@@ -1,0 +1,16 @@
+ARgorithmToolkit/__init__.py,sha256=LuvZG1TddkXFdeGMLsKcl1B7ekcqbR7fs5sVv5hA5G8,147
+ARgorithmToolkit/__main__.py,sha256=YeQEGVgRuvZrVZ49a5bVR6VAJvdv2vPZn2rOGv1EbMI,613
+ARgorithmToolkit/array.py,sha256=YMVKoScL5FhL-YCmGlA4tgW9m2kEyvSXVy4hr_0Xk7k,6481
+ARgorithmToolkit/cli.py,sha256=itJUP429VWvk_BfuNGf_WhVOF7mf70eZpVM3JPq3Ntg,4353
+ARgorithmToolkit/queue.py,sha256=VOzqiFAVXEyl5fNF6xw4j6ETsnqxVqIY-_Yc5mgqW2U,3017
+ARgorithmToolkit/stack.py,sha256=3k1l0xkZ4PgLd08oX1cOqzE8dPCAnpnjtmhptUOG91w,3001
+ARgorithmToolkit/utils.py,sha256=TWn1EYb5vt2RmD9wv_rEk660ZdQVvq4WOccNYxbiWHM,2347
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_array.py,sha256=ZAq_pWfpSrtB-5JfiqerKNbapDkEziU07zSACgCIq9s,2140
+tests/test_base.py,sha256=U5VszOejF6uKVqgL0XOO8XUdxMMbPXXnRkt8ibSRAWI,775
+tests/test_queue.py,sha256=sMkv0dmKrsapYj7n6xSP0AoGf_bzYs0Q7jnnldqKM7c,871
+tests/test_stack.py,sha256=THGScq30Pz8HS6767QjIoejJ2keY9oCrS_5SESL7zmo,866
+ARgorithmToolkit-0.0.5.dist-info/METADATA,sha256=6uvs37ZYNZoklpIukRnJr9PhTpHuUl_l8uyX4KTEK3o,11147
+ARgorithmToolkit-0.0.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ARgorithmToolkit-0.0.5.dist-info/top_level.txt,sha256=a37tn4tC2zY7lY6sGtIGgsUjdGvCSys-_s6ebt_LKEA,23
+ARgorithmToolkit-0.0.5.dist-info/RECORD,,
