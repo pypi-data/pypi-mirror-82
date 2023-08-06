@@ -1,0 +1,8 @@
+pip
+packaging
+
+[dev]
+wheel
+sphinx
+fastcore
+twine
