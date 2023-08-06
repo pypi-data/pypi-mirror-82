@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: openstudio
+Version: 3.1.0
+Summary: OpenStudio python bindings.
+Home-page: https://github.com/NREL/OpenStudio
+Author: Julien Marrec
+Author-email: julien@effibem.com
+License: UNKNOWN
+Keywords: openstudio py3 setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+OpenStudio python bindings.
+
+
