@@ -1,0 +1,3 @@
+[console_scripts]
+ioa = ioa.command_line:main
+

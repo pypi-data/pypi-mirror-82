@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: ioa
+Version: 0.1.0
+Summary: Collaborative resource sharing in a network.
+Home-page: https://github.com/internet-of-agents/IoA-Python
+Author: Finn M Glas
+Author-email: finn@finnmglas.com
+License: UNKNOWN
+Description: 
+        
+        This is the Internet of Agents Python module for connecting to the IoA.
+        
+        
+Keywords: ioa internet resources computation communication network
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers

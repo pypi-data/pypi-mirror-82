@@ -1,0 +1,12 @@
+setup.py
+ioa/__init__.py
+ioa/command_line.py
+ioa/interpreter.py
+ioa/ioa.py
+ioa/ioaterminal.py
+ioa.egg-info/PKG-INFO
+ioa.egg-info/SOURCES.txt
+ioa.egg-info/dependency_links.txt
+ioa.egg-info/entry_points.txt
+ioa.egg-info/not-zip-safe
+ioa.egg-info/top_level.txt
