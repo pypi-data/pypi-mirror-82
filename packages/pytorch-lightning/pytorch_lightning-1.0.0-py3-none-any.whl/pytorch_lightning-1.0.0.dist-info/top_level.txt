@@ -1,0 +1,4 @@
+pl_examples
+pytorch_lightning
+rapid_prototyping_templates
+tests
