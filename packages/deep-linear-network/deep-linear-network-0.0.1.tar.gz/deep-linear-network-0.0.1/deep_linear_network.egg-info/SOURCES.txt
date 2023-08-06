@@ -1,0 +1,9 @@
+README.md
+setup.py
+deep_linear_network/__init__.py
+deep_linear_network/deep_linear_network.py
+deep_linear_network.egg-info/PKG-INFO
+deep_linear_network.egg-info/SOURCES.txt
+deep_linear_network.egg-info/dependency_links.txt
+deep_linear_network.egg-info/requires.txt
+deep_linear_network.egg-info/top_level.txt
