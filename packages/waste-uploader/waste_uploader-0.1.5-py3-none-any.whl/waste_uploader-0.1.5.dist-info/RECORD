@@ -1,0 +1,10 @@
+waste_uploader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waste_uploader/__main__.py,sha256=_1Guw22jz0WStgxVIiZ8OqbB8eCvFf0bRiggx-ouN64,5971
+waste_uploader/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waste_uploader/data/bundle.py,sha256=5nrp4CzC3X_8AHlPl4WNLRK1Skzw2x4P0bIUoVghIFw,946
+waste_uploader-0.1.5.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+waste_uploader-0.1.5.dist-info/METADATA,sha256=gBre_p2sfI5RNACTZOyWR9VqeSTnG6fgIZsOKrluuxI,1029
+waste_uploader-0.1.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+waste_uploader-0.1.5.dist-info/entry_points.txt,sha256=G4PKk5XTnxS8QzCN0_peKDOBxYs9rKwHy3PFMKGi9-0,65
+waste_uploader-0.1.5.dist-info/top_level.txt,sha256=YsxbOCzzilnxDu96wC2Jw_pGViwIJW6iFKsz64ZtQVk,15
+waste_uploader-0.1.5.dist-info/RECORD,,
