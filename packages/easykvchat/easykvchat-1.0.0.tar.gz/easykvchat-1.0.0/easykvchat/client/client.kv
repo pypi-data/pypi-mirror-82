@@ -1,0 +1,138 @@
+#:kivy 2.0.0
+
+#:include roomlogs.kv
+#:include memberspannel.kv
+
+#:set errorColor [1, .2, .2, 1]
+
+<ErrorMessage>:
+    Label:
+        size_hint: (.8, .8)
+        color: errorColor
+        text_size: (self.width, None)
+        size: self.texture_size
+        halign: "center"
+        text: self.parent.text
+
+<ErrorPopup>:
+    size_hint: (.4, .4)
+    auto_dismiss: False
+    title_color: errorColor
+    separator_color: errorColor
+
+<LoginInput>:
+    text: input.text
+    TextInput:
+        id: input
+        size_hint: (.9, None)
+        height: mm(12)
+        font_size: mm(8)
+        multiline: False
+        background_color: [.2, .2, .2, 1]
+        foreground_color: [1, 1, 1, 1]
+        write_tab: self.parent.writeTab
+        hint_text: self.parent.hint
+        on_text_validate: self.parent.connect.dispatch("on_connect")
+
+<LoginButton>:
+    button: button
+    Button:
+        id: button
+        size_hint: (.9, .8)
+        text: "Se connecter"
+
+<LoginForm>:
+    host: host
+    name: name
+    connection: connection
+    size_hint: (None, None)
+    size: (mm(85), mm(65))
+    orientation: "vertical"
+    canvas.before:
+        Color:
+            rgb: .3, .3, .3
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    LoginInput:
+        connect: connection
+        id: host
+        hint: "Hôte"
+    LoginInput:
+        connect: connection
+        id: name
+        hint: "Nom du membre"
+        writeTab: True
+    LoginButton:
+        id: connection
+
+<LoginScreen>:
+    form: form
+    canvas.before:
+        Color:
+            rgb: .1, .1, .1
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    LoginForm:
+        id: form
+
+<Messages>:
+    chat: chat
+    input: input
+    orientation: "vertical"
+    RoomLogs:
+        id: chat
+    TextInput:
+        id: input
+        size_hint: (1, None)
+        height: mm(8.5)
+        background_color: [.1, .1, .1, 1]
+        foreground_color: [1, 1, 1, 1]
+        multiline: False
+        text_validate_unfocus: False
+        hint_text: "Appuyez sur Entrée pour envoyer votre message."
+
+<Pannel>:
+    orientation: "vertical"
+    members: members
+    leave: leave
+    MembersPannel:
+        id: members
+    AnchorLayout:
+        id: leave
+        size_hint: (1, None)
+        height: mm(8.5)
+        background_color: .05, .05, .05
+        canvas.before:
+            Color:
+                rgb: self.background_color
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Label:
+            text: "Quitter"
+
+<RoomScreen>:
+    messages: messages
+    pannel: pannel
+    orientation: "horizontal"
+    Messages:
+        id: messages
+    Pannel:
+        size_hint: (.28, 1)
+        id: pannel
+
+<MainScreen>:
+    room: room
+    login: login
+    RoomScreen:
+        id: room
+        pos_hint: {"top": 0}
+    LoginScreen:
+        id: login
+        pos_hint: {"top": 1}
+
+
+MainScreen:
+

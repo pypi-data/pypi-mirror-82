@@ -1,0 +1,29 @@
+#:kivy 2.0.0
+
+#:import RoomsLogs easykvchat.roomlogs.RoomLogs
+#:import Message easykvchat.roomlogs.Message
+
+<Message>:
+    markup: True
+    size_hint: (1, None)
+    size: self.texture_size
+    text_size: (self.width, None)
+    halign: "left"
+    font_size: mm(4.5)
+
+<RoomLogs>:
+    do_scroll_x: False
+    effect_cls: "ScrollEffect"
+    logs: logs
+    StackLayout:
+        id: logs
+        size_hint: (1, None)
+        height: max(self.parent.height, self.minimum_height)
+        padding: (mm(2), mm(1))
+        spacing_vertical: mm(.75)
+        canvas.before:
+            Color:
+                rgb: .2, .2, .2
+            Rectangle:
+                pos: self.pos
+                size: self.size
