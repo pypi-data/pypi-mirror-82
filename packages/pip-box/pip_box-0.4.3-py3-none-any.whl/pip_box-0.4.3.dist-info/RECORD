@@ -1,0 +1,12 @@
+pip_box/__init__.py,sha256=gnl_iQK6H2ow6fp3c3lh980XC88Qge5uCM6uwh4hHG4,31
+pip_box/dependencies_base.py,sha256=TMC0vfI3LG2BBm3eFTWU3eda7aBeOlcb06hS7NpSHxg,4046
+pip_box/main.py,sha256=cvUwRo5wHLE0ZxVcnXYJMwUnq_F39njOfHrLXDRBxqA,1001
+pip_box/tool.py,sha256=oryAnms-h3JPQtupmeuAgJCczCyktN8hF7H3K_sObY4,4443
+pip_box/utils.py,sha256=n5y2X3xSyk9wMAGXkjFFG5uSOoRT_ogNKPfycYxIBk4,141
+pip_box/version_checker.py,sha256=iHn-Pnv9cNpw4WWPkBLWCZoxgiSEbkngZ9MxYL7RSKg,1297
+pip_box-0.4.3.dist-info/LICENSE,sha256=rgXXoxpmoxdixVOr_Fy_lkTWFemmwl45ywHSIv7F2vI,1091
+pip_box-0.4.3.dist-info/METADATA,sha256=WOBPYbU80X5tIh6mnP9Qxa4oNADe6O0quJM2RkAmgHk,2080
+pip_box-0.4.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+pip_box-0.4.3.dist-info/entry_points.txt,sha256=enuPeizhCjpYwxR0lzAbNAlz0ZoxYPTR1MM9mOpZW5c,42
+pip_box-0.4.3.dist-info/top_level.txt,sha256=fsv780jTCVYcSFuVhgHOFlmyUqXz_UqEOCHe5BcDvyg,8
+pip_box-0.4.3.dist-info/RECORD,,
