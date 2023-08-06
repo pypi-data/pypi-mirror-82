@@ -1,0 +1,26 @@
+wrapt
+
+[dataclasses]
+dacite
+pydantic
+
+[dataclasses:python_version < "3.7"]
+dataclasses
+
+[dev]
+invoke
+black
+mypy
+isort>=5.0.9
+flake8
+pytest
+pytest-mock
+coverage
+toml>=0.9.2
+pyyaml
+click>=7.0
+dacite
+pydantic
+
+[dev:python_version < "3.7"]
+dataclasses
