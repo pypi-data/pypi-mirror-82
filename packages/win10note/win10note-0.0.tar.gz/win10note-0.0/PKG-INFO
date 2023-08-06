@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: win10note
+Version: 0.0
+Summary: A time calculator
+Home-page: UNKNOWN
+Author: Xyndra
+Author-email: sammy@deutschergamingserver.de
+License: MIT
+Description: In development!
+Keywords: note,notification,win10,Windows 10
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
