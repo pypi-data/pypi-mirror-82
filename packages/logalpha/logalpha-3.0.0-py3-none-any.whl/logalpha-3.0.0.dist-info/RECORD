@@ -1,0 +1,17 @@
+logalpha/__init__.py,sha256=FHMM3us_lc_BGLwvfEQo7_uCUtYYlwDFa76VrPFmJ-c,611
+logalpha/__meta__.py,sha256=UAFAgvVRNK7aZP0lNwDvWSFtfojv2bIwmF-pIjYoedM,893
+logalpha/color.py,sha256=RihAsWSkme1HwR9K8X9X7KsjYv03Flcf030tHc9mIBs,2662
+logalpha/handler.py,sha256=-Qp4vcoSVdwDHw89mwWVVxjRuRFVKcyOfpBhGnptMPU,2134
+logalpha/level.py,sha256=Wjjos7pQVqlvOwg1ScaBOVjyz0nd9sP1goQArU3vEuc,2255
+logalpha/logger.py,sha256=3G1UAf2FMbF4fmN_L3bI_Jh17W3OhGnCYTzuSJSxAVM,3124
+logalpha/message.py,sha256=0zYeROqbh3sxrDQXFLnHK1hDPr0bqTq02uZ3TdPyE34,1439
+logalpha/contrib/__init__.py,sha256=gSh0Ou9D8715S8jQTPqv7u0DE13lnoLPIc_ESppVr04,601
+logalpha/contrib/ok.py,sha256=2PgRMo9Y-_cRMFgncNIILgFUYYwEOUCherwxbhJOmjw,1994
+logalpha/contrib/simple.py,sha256=qOZm1znIM1K_14TmscDCm8Tx7PWzwBOyPz022P1tQ38,2702
+logalpha/contrib/standard.py,sha256=nhqOKcxDHk1ItTMrBzfybgcJYF3t_3DUQkS9vTuwadI,2399
+logalpha-3.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+logalpha-3.0.0.dist-info/METADATA,sha256=8F-zVdilVccSdS6AvfoS1SXQyRz_osD3r1Jtl27E5w4,2177
+logalpha-3.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+logalpha-3.0.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+logalpha-3.0.0.dist-info/top_level.txt,sha256=iMFdsxrHziw88-otxIZIh6qAIY32CjzwXb3cDVkY6V0,9
+logalpha-3.0.0.dist-info/RECORD,,
