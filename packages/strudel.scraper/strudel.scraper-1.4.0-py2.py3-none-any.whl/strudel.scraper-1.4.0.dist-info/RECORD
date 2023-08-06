@@ -1,0 +1,9 @@
+stscraper/__init__.py,sha256=v3ct933XzWk7bXx4QZQjC2_sh9PVm0XzFB5ucEr00rI,101
+stscraper/base.py,sha256=qIciTVC4v_-j6LpQzbLJyqqBzy_1qwVeLA1mvxz-hN4,14993
+stscraper/github.py,sha256=6uRVv9-wgVuKsWAkzhiAEX2tvuMwViucuqh1T_iyTOs,23300
+strudel.scraper-1.4.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+strudel.scraper-1.4.0.dist-info/METADATA,sha256=sJYc9J3FyG2eHeQPz8LoCB1eLv4dUkyX40MOA7ZMxhw,1052
+strudel.scraper-1.4.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+strudel.scraper-1.4.0.dist-info/entry_points.txt,sha256=qZS2IjqT7UZfmrSD1R-acpOId5uoCsG-L1n7LIIQa7A,67
+strudel.scraper-1.4.0.dist-info/top_level.txt,sha256=bA3SvJ1Ou8Cr_zF0BMSvBTZKrzXblUh0a-bRsb_ayTQ,10
+strudel.scraper-1.4.0.dist-info/RECORD,,
