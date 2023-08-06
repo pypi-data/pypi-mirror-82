@@ -1,0 +1,11 @@
+wordcookies/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+wordcookies/__main__.py,sha256=rrYAhX5sn_y6LiwaQ5VamGJZmvhp_yzYTM2SY3HxGA4,930
+wordcookies/cli.py,sha256=bK5ReHMBrH8egmqsw5JUTuFzh5Cli_qcpRaHScZ-yiQ,471
+wordcookies/game.py,sha256=m0QyIH9QdLAMp9D3kYi2wrhIwv8jKRAbxShz6EGML9Y,2079
+wordcookies/generator.py,sha256=79yZhPNVrAISmUnKj37i9rMLYK82ABTh-nEFA0PuHIE,1541
+wordcookies-0.0.1.dist-info/LICENSE,sha256=LIaZNWH2N2R8r4-DlbnbLIRYBaq4Dy5LMhCUqq2PSZs,1077
+wordcookies-0.0.1.dist-info/METADATA,sha256=cR-qUo6KttthjMyroPCRJSkZkASQYb4WcrXX-T-j_NY,2280
+wordcookies-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wordcookies-0.0.1.dist-info/entry_points.txt,sha256=9hg6JDkVSu0Dz_cDHaGUyCOJwkMiye2oW42kyKoQcHU,59
+wordcookies-0.0.1.dist-info/top_level.txt,sha256=PF8o_joAwV57YBUJOhBbOeoKl7lbw-tWL5cQc9pvZ64,12
+wordcookies-0.0.1.dist-info/RECORD,,
