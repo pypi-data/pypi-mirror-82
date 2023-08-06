@@ -1,0 +1,13 @@
+i3l/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i3l/cli.py,sha256=1k-KSU7jRrw-O9heNL_6TFL6KZTc4iQXg5XW_FZz350,60
+i3l/config.py,sha256=QfHhpbpI9bVCdYGBYQJ4WoORvnlFVm7GsVNpdoK4_-E,2260
+i3l/connect.py,sha256=_g3k0HcuGIafwlr2ffR6JMXFj5qLixHOiCGU1PjmrJs,1511
+i3l/handlers.py,sha256=g2mi5L4qUlxUSriNynX7oY_4L8PSiZ6Ghq4fqbG_k-A,6063
+i3l/layouts.py,sha256=2ksF4oBLwWffi6xgMs8BGZi_C9DXNCUD7J60fpA2qiU,12679
+i3l/state.py,sha256=ab8_LCAzsUA1wXdlZUyIqwHCQ0Q6I8cPWytypKIMQHo,3605
+i3_layouts-0.7.1.dist-info/LICENSE,sha256=uYeX-RG-cxnKsa5tDbWtkSAvhH8CEaUwNFOLPo_aPeY,1061
+i3_layouts-0.7.1.dist-info/METADATA,sha256=0PsGXOqQPlQ3cMrWN-6UHn1iLHUPNSv21as6ptF3b_k,7004
+i3_layouts-0.7.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+i3_layouts-0.7.1.dist-info/entry_points.txt,sha256=_PhmsjL9FfL65PFW-8tCypw1dmjb2XKLNH3_iqo1vNw,45
+i3_layouts-0.7.1.dist-info/top_level.txt,sha256=4KolmgFySyetlEn8kMkDUO-2OmrD3XtLbc7W02VLSfI,4
+i3_layouts-0.7.1.dist-info/RECORD,,
