@@ -1,0 +1,4 @@
+notebook
+click~=7.1
+pywin32
+winshell==0.6
