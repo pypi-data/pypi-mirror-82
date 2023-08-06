@@ -1,0 +1,11 @@
+tqdm
+requests
+torch
+pyfiglet
+clint
+dpu-utils
+numpy
+PrettyTable
+nltk
+transformers
+tree_hugger
