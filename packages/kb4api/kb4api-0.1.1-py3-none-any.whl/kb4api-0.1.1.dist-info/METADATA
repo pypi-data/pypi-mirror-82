@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: kb4api
+Version: 0.1.1
+Summary: This is a Python wrapper for KnowBe4 API - https://developer.knowbe4.com/
+Home-page: https://github.com/midpipps/kb4api
+Author: midpipps
+Author-email: midpipps@gmail.com
+License: LICENSE.md
+Keywords: knowbe4,kb4api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# kb4api
+
+## Introduction 
+This is a Python wrapper for KnowBe4 API - https://developer.knowbe4.com/
+
+##Installation
+```bash
+pip install kb4api
+```
+
+##Usage
+TODO:
+
