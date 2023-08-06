@@ -1,0 +1,6 @@
+rstr
+arrow
+
+[test]
+pytest
+pytest-subtests
