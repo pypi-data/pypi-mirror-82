@@ -1,0 +1,11 @@
+doex/__init__.py,sha256=MUAu48Ec-LZcPw37eX4fb2IADjTS-vnIscHxOCW62Cg,201
+doex/_version.py,sha256=gB03j9P1kmu9J1j43Up2LWGBaAi_VmjHWm0vXBMPB5Y,18
+doex/crd.py,sha256=FfNQcfsy5nOBDHkt6vwn4vhZkgc_nJsk5cr7pwELW5k,1831
+doex/latin_square.py,sha256=szcTYmrFoGBRGG-B2cjrnrVOjJAv6qBcEI4P2wudd08,4519
+doex/rcbd.py,sha256=7NcoixohibWL-yv-6qbpOvLdllmX5dQIpoS_tcu21a8,2631
+doex/utils.py,sha256=5BMNpWtg1Ef0b7Kbi2_zXmPTYMcQgtQUCk4UrhWpAqE,622
+doex-0.0.3.dist-info/LICENSE,sha256=eQxolI0u5q9paj4lZ7vVEpbfOqeDgWMxlCGwgi1-JYA,1517
+doex-0.0.3.dist-info/METADATA,sha256=npWhIjWt4eiCGqvkzlyqcWeB7motKClVpa5HCxobpkQ,5544
+doex-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+doex-0.0.3.dist-info/top_level.txt,sha256=ZatUusHblakZRSuQggCebB9cANF5G-xES4e2tfZTSY8,5
+doex-0.0.3.dist-info/RECORD,,
