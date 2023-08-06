@@ -1,0 +1,3 @@
+sklearn-pandas>=2.0.0
+baikal>=0.4.1
+catboost
