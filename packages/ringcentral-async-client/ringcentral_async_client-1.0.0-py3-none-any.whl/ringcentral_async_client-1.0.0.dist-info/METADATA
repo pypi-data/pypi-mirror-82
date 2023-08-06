@@ -1,0 +1,238 @@
+Metadata-Version: 2.1
+Name: ringcentral-async-client
+Version: 1.0.0
+Summary: Asynchronous client for the RingCentral Platform, based on Tornado and generated via Python OpenAPI Parser
+Home-page: https://gitlab.com/Hares-Lab/ringcentral-async-client
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Communications :: Conferencing
+Classifier: Topic :: Communications :: Telephony
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: dataclasses-json (>=0.5.2)
+Requires-Dist: functional-python (~=0.0.9)
+Requires-Dist: http-server-base (>=2.0.1)
+Requires-Dist: tornado (>=6.0.4)
+Requires-Dist: dataclasses (>=0.6) ; python_version < "3.7"
+Provides-Extra: all
+
+# RingCentral Asynchronous Client
+Asynchronous client for the RingCentral Platform,
+based on [Tornado] and generated via [Python OpenAPI Parser].
+
+You can also see the [automatically-generated documentation][Documentation]
+and [RingCentral API Reference] for the details.
+
+### Usage
+```python
+import asyncio
+from ringcentral_async_client import RingCentralClient, RingCentralApiClientServers
+
+async def main():
+    client = RingCentralClient(application_token='ApplicationToken', server=RingCentralApiClientServers.SandboxServer)
+    bot_user = await client.read_extension()
+    print(bot_user)
+    return 0
+
+if (__name__ == '__main__'):
+    exit_code = asyncio.run(main())
+    exit(exit_code)
+```
+
+The code above will print:
+```
+ReadExtensionResponse(id=283841004, uri='https://platform.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004', account=ReadExtensionResponseAccount(id='271459004', uri='https://platform.devtest.ringcentral.com/restapi/v1.0/account/271459004'), contact=ReadExtensionResponseContact(first_name='PZ Dev Bot', last_name=None, company=None, job_title=None, email='A5ACC4510220828D6C8BFC2772C7D783BB5145664C78D0D0129B3DBCBDEA0A6F@ringcentral.com', business_phone=None, mobile_phone=None, business_address=None, email_as_login_name='False', pronounced_name=ReadExtensionResponseContactPronouncedName(type=<ReadExtensionResponseContactPronouncedNameType.Default: 'Default'>, text='PZ Dev Bot', prompt=None), department=None), custom_fields=None, departments=None, extension_number='8142', extension_numbers=None, name='PZ Dev Bot', partner_id=None, permissions=ReadExtensionResponsePermissions(admin=ReadExtensionResponsePermissionsAdmin(enabled=False), international_calling=ReadExtensionResponsePermissionsInternationalCalling(enabled=False)), profile_image=ReadExtensionResponseProfileImage(uri='https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image', etag='f4eea4f7c0ff178fae103c75057a96f0', last_modified=datetime.datetime(2020, 9, 18, 14, 22, 56, 970000, tzinfo=datetime.timezone.utc), content_type='image/png', scales=[ReadExtensionResponseProfileImageScalesItem(uri='https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image/90x90'), ReadExtensionResponseProfileImageScalesItem(uri='https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image/195x195'), ReadExtensionResponseProfileImageScalesItem(uri='https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image/584x584'), ReadExtensionResponseProfileImageScalesItem(uri='https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image/original')]), references=None, roles=None, regional_settings=ReadExtensionResponseRegionalSettings(home_country=ReadExtensionResponseRegionalSettingsHomeCountry(id='1', uri='https://platform.devtest.ringcentral.com/restapi/v1.0/dictionary/country/1', name='United States', iso_code='US', calling_code='1'), timezone=ReadExtensionResponseRegionalSettingsTimezone(id='58', uri='https://platform.devtest.ringcentral.com/restapi/v1.0/dictionary/timezone/58', name='US/Pacific', description='Pacific Time (US & Canada)', bias='-480'), language=ReadExtensionResponseRegionalSettingsLanguage(id='1033', uri=None, greeting=None, formatting_locale=None, locale_code='en-US', iso_code=None, name='English (United States)', ui=None), greeting_language=ReadExtensionResponseRegionalSettingsGreetingLanguage(id='1033', locale_code='en-US', name='English (United States)'), formatting_locale=ReadExtensionResponseRegionalSettingsFormattingLocale(id='1033', locale_code='en-US', name='English (United States)'), time_format=<ReadExtensionResponseRegionalSettingsTimeFormat.OBJECT_12h: '12h'>), service_features=[ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.SMS: 'SMS'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.SMSReceiving: 'SMSReceiving'>, reason='InsufficientPermissions'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Pager: 'Pager'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.PagerReceiving: 'PagerReceiving'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Voicemail: 'Voicemail'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Fax: 'Fax'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.FaxReceiving: 'FaxReceiving'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.DND: 'DND'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.RingOut: 'RingOut'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.InternationalCalling: 'InternationalCalling'>, reason='InsufficientPermissions'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Presence: 'Presence'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.VideoConferencing: 'VideoConferencing'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.SalesForce: 'SalesForce'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Intercom: 'Intercom'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Paging: 'Paging'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Conferencing: 'Conferencing'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.VoipCalling: 'VoipCalling'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.FreeSoftPhoneLines: 'FreeSoftPhoneLines'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.HipaaCompliance: 'HipaaCompliance'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.CallPark: 'CallPark'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.SharedLines: 'SharedLines'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.OnDemandCallRecording: 'OnDemandCallRecording'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Reports: 'Reports'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.CallForwarding: 'CallForwarding'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.DeveloperPortal: 'DeveloperPortal'>, reason='InsufficientPermissions'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.EncryptionAtRest: 'EncryptionAtRest'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.BlockedMessageForwarding: 'BlockedMessageForwarding'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.EmergencyCalling: 'EmergencyCalling'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.HDVoice: 'HDVoice'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.SingleExtensionUI: 'SingleExtensionUI'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.CallSupervision: 'CallSupervision'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.VoicemailToText: 'VoicemailToText'>, reason='ExtensionLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.WebPhone: 'WebPhone'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.RCTeams: 'RCTeams'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.UserManagement: 'UserManagement'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Calendar: 'Calendar'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.PasswordAuth: 'PasswordAuth'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.CallerIdControl: 'CallerIdControl'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.AutomaticInboundCallRecording: 'AutomaticInboundCallRecording'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.AutomaticOutboundCallRecording: 'AutomaticOutboundCallRecording'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.AutomaticCallRecordingMute: 'AutomaticCallRecordingMute'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.SoftPhoneUpdate: 'SoftPhoneUpdate'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.LinkedSoftphoneLines: 'LinkedSoftphoneLines'>, reason='AccountTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.CallQualitySurvey: 'CallQualitySurvey'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.AccountFederation: 'AccountFederation'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.MMS: 'MMS'>, reason='ExtensionTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.CallParkLocations: 'CallParkLocations'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.ExternalDirectoryIntegration: 'ExternalDirectoryIntegration'>, reason='AccountTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.CallSwitch: 'CallSwitch'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.PromoMessage: 'PromoMessage'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.SiteCodes: 'SiteCodes'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.InternationalSMS: 'InternationalSMS'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.ConferencingNumber: 'ConferencingNumber'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=True, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.VoipCallingOnMobile: 'VoipCallingOnMobile'>, reason=None), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.DynamicConference: 'DynamicConference'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.ConfigureDelegates: 'ConfigureDelegates'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.Archiver: 'Archiver'>, reason='AccountTypeLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.EmergencyAddressAutoUpdate: 'EmergencyAddressAutoUpdate'>, reason='AccountLimitation'), ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=<ReadExtensionResponseServiceFeaturesItemFeatureName.MobileVoipEmergencyCalling: 'MobileVoipEmergencyCalling'>, reason='AccountLimitation')], setup_wizard_state=<ReadExtensionResponseSetupWizardState.NotStarted: 'NotStarted'>, status=<ReadExtensionResponseStatus.Enabled: 'Enabled'>, status_info=None, type=<ReadExtensionResponseType.Bot: 'Bot'>, call_queue_info=None, hidden=False, site=None)
+```
+
+This is the same as a calculation of the following:
+```python
+from ringcentral_async_client.model import *
+r = ReadExtensionResponse \
+(
+    id = 283841004,
+    uri = 'https://platform.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004',
+    account = ReadExtensionResponseAccount
+    (
+        id = '271459004',
+        uri = 'https://platform.devtest.ringcentral.com/restapi/v1.0/account/271459004',
+    ),
+    contact = ReadExtensionResponseContact
+    (
+        first_name = 'PZ Dev Bot',
+        last_name = None,
+        company = None,
+        job_title = None,
+        email = 'A5ACC4510220828D6C8BFC2772C7D783BB5145664C78D0D0129B3DBCBDEA0A6F@ringcentral.com',
+        business_phone = None,
+        mobile_phone = None,
+        business_address = None,
+        email_as_login_name = 'False',
+        pronounced_name = ReadExtensionResponseContactPronouncedName
+        (
+            type = ReadExtensionResponseContactPronouncedNameType.Default,
+            text = 'PZ Dev Bot',
+            prompt = None,
+        ),
+        department = None,
+    ),
+    custom_fields = None,
+    departments = None,
+    extension_number = '8142',
+    extension_numbers = None,
+    name = 'PZ Dev Bot',
+    partner_id = None,
+    permissions = ReadExtensionResponsePermissions
+    (
+        admin = ReadExtensionResponsePermissionsAdmin(enabled=False),
+        international_calling = ReadExtensionResponsePermissionsInternationalCalling(enabled=False),
+    ),
+    profile_image = ReadExtensionResponseProfileImage
+    (
+        uri = 'https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image',
+        etag = 'f4eea4f7c0ff178fae103c75057a96f0',
+        last_modified = datetime.datetime(2020, 9, 18, 14, 22, 56, 970000, tzinfo=datetime.timezone.utc),
+        content_type = 'image/png',
+        scales =
+        [
+            ReadExtensionResponseProfileImageScalesItem(uri='https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image/90x90'),
+            ReadExtensionResponseProfileImageScalesItem(uri='https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image/195x195'),
+            ReadExtensionResponseProfileImageScalesItem(uri='https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image/584x584'),
+            ReadExtensionResponseProfileImageScalesItem(uri='https://media.devtest.ringcentral.com/restapi/v1.0/account/271459004/extension/283841004/profile-image/original')
+        ],
+    ),
+    references = None,
+    roles = None,
+    regional_settings = ReadExtensionResponseRegionalSettings
+    (
+        home_country = ReadExtensionResponseRegionalSettingsHomeCountry
+        (
+            id = '1',
+            uri = 'https://platform.devtest.ringcentral.com/restapi/v1.0/dictionary/country/1',
+            name = 'United States',
+            iso_code = 'US',
+            calling_code = '1',
+        ),
+        timezone = ReadExtensionResponseRegionalSettingsTimezone
+        (
+            id = '58',
+            uri = 'https://platform.devtest.ringcentral.com/restapi/v1.0/dictionary/timezone/58',
+            name = 'US/Pacific',
+            description = 'Pacific Time (US & Canada)',
+            bias = '-480',
+        ),
+        language = ReadExtensionResponseRegionalSettingsLanguage
+        (
+            id = '1033',
+            uri = None,
+            greeting = None,
+            formatting_locale = None,
+            locale_code = 'en-US',
+            iso_code = None,
+            name = 'English (United States)',
+            ui = None,
+        ),
+        greeting_language = ReadExtensionResponseRegionalSettingsGreetingLanguage(id='1033', locale_code='en-US', name='English (United States)'),
+        formatting_locale = ReadExtensionResponseRegionalSettingsFormattingLocale(id='1033', locale_code='en-US', name='English (United States)'),
+        time_format = ReadExtensionResponseRegionalSettingsTimeFormat.OBJECT_12h,
+    ),
+    service_features =
+    [
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.SMS, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.SMSReceiving, reason='InsufficientPermissions'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Pager, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.PagerReceiving, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Voicemail, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Fax, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.FaxReceiving, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.DND, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.RingOut, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.InternationalCalling, reason='InsufficientPermissions'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Presence, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.VideoConferencing, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.SalesForce, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Intercom, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Paging, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Conferencing, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.VoipCalling, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.FreeSoftPhoneLines, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.HipaaCompliance, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.CallPark, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.SharedLines, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.OnDemandCallRecording, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Reports, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.CallForwarding, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.DeveloperPortal, reason='InsufficientPermissions'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.EncryptionAtRest, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.BlockedMessageForwarding, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.EmergencyCalling, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.HDVoice, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.SingleExtensionUI, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.CallSupervision, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.VoicemailToText, reason='ExtensionLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.WebPhone, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.RCTeams, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.UserManagement, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Calendar, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.PasswordAuth, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.CallerIdControl, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.AutomaticInboundCallRecording, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.AutomaticOutboundCallRecording, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.AutomaticCallRecordingMute, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.SoftPhoneUpdate, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.LinkedSoftphoneLines, reason='AccountTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.CallQualitySurvey, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.AccountFederation, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.MMS, reason='ExtensionTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.CallParkLocations, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.ExternalDirectoryIntegration, reason='AccountTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.CallSwitch, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.PromoMessage, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.SiteCodes, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.InternationalSMS, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.ConferencingNumber, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=True,  feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.VoipCallingOnMobile, reason=None),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.DynamicConference, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.ConfigureDelegates, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.Archiver, reason='AccountTypeLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.EmergencyAddressAutoUpdate, reason='AccountLimitation'),
+        ReadExtensionResponseServiceFeaturesItem(enabled=False, feature_name=ReadExtensionResponseServiceFeaturesItemFeatureName.MobileVoipEmergencyCalling, reason='AccountLimitation'),
+    ],
+    setup_wizard_state = ReadExtensionResponseSetupWizardState.NotStarted,
+    status = ReadExtensionResponseStatus.Enabled,
+    status_info = None,
+    type = ReadExtensionResponseType.Bot,
+    call_queue_info = None,
+    hidden = False,
+    site = None,
+)
+```
+*(RingCentral loves responding large JSONs...)*
+
+### Links
+ - [Tornado]
+ - [Python OpenAPI Parser]
+ - [RingCentral API Reference]
+ - [Project Documentation][Documentation]
+
+
+[Tornado]: https://www.tornadoweb.org/
+[Python OpenAPI Parser]: https://gitlab.com/Hares-Lab/openapi-parser
+[RingCentral API Reference]: https://developers.ringcentral.com/api-reference
+[Documentation]: https://hares-lab.gitlab.io/ringcentral-async-client
+
+
