@@ -1,0 +1,4 @@
+[console_scripts]
+jimpass = jimpass.cli:cli
+jp = jimpass.cli:cli
+
