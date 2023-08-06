@@ -1,0 +1,15 @@
+grpcio
+urllib3
+aiohttp
+async-timeout
+
+[tests]
+grpcio-tools
+pytest
+pytest-mockservers
+pytest-asyncio
+pytest-benchmark
+hypothesis
+bjoern
+uvicorn
+aiohttp[speedups]
