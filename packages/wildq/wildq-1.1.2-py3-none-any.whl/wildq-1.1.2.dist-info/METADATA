@@ -1,0 +1,394 @@
+Metadata-Version: 2.1
+Name: wildq
+Version: 1.1.2
+Summary: Command-line TOML/JSON/INI/YAML/XML processor using jq c bindings.
+Home-page: https://github.com/ahmet2mir/wildq
+Author: Ahmet Demir
+Author-email: me@ahmet2mir.eu
+License: Apache 2.0
+Project-URL: Changelog, https://wildq.readthedocs.io/en/latest/changelog.html
+Keywords: wildq,jq,yaml,json,toml,xml,ini,parser,shell,hcl,color,highlight
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (==7.1.2)
+Requires-Dist: jq (==1.1.1)
+Requires-Dist: pygments (==2.7.1)
+Requires-Dist: pyhcl (==0.4.4)
+Requires-Dist: pyyaml (==5.3.1)
+Requires-Dist: toml (==0.10.1)
+Requires-Dist: xmltodict (==0.12.0)
+Provides-Extra: dev
+Requires-Dist: alabaster (==0.7.12) ; extra == 'dev'
+Requires-Dist: altgraph (==0.17) ; extra == 'dev'
+Requires-Dist: appdirs (==1.4.4) ; extra == 'dev'
+Requires-Dist: bandit (==1.6.2) ; extra == 'dev'
+Requires-Dist: black (==19.10b0) ; extra == 'dev'
+Requires-Dist: cached-property (==1.5.2) ; extra == 'dev'
+Requires-Dist: cerberus (==1.3.2) ; extra == 'dev'
+Requires-Dist: certifi (==2020.6.20) ; extra == 'dev'
+Requires-Dist: chardet (==3.0.4) ; extra == 'dev'
+Requires-Dist: click (==7.1.2) ; extra == 'dev'
+Requires-Dist: coverage (==5.3) ; extra == 'dev'
+Requires-Dist: distlib (==0.3.1) ; extra == 'dev'
+Requires-Dist: filelock (==3.0.12) ; extra == 'dev'
+Requires-Dist: flake8 (==3.8.4) ; extra == 'dev'
+Requires-Dist: flake8-bugbear (==20.1.4) ; extra == 'dev'
+Requires-Dist: mccabe (==0.6.1) ; extra == 'dev'
+Requires-Dist: nodeenv (==1.5.0) ; extra == 'dev'
+Requires-Dist: orderedmultidict (==1.0.1) ; extra == 'dev'
+Requires-Dist: pathspec (==0.8.0) ; extra == 'dev'
+Requires-Dist: pep517 (==0.8.2) ; extra == 'dev'
+Requires-Dist: pipenv (==2020.8.13) ; extra == 'dev'
+Requires-Dist: pipenv-setup (==3.1.1) ; extra == 'dev'
+Requires-Dist: pipfile (==0.0.2) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.7.1) ; extra == 'dev'
+Requires-Dist: pygments (==2.7.1) ; extra == 'dev'
+Requires-Dist: pyinstaller (==4.0) ; extra == 'dev'
+Requires-Dist: pyinstaller-hooks-contrib (==2020.9) ; extra == 'dev'
+Requires-Dist: pytz (==2020.1) ; extra == 'dev'
+Requires-Dist: pyyaml (==5.3.1) ; extra == 'dev'
+Requires-Dist: regex (==2020.10.11) ; extra == 'dev'
+Requires-Dist: setuptools-scm (==4.1.2) ; extra == 'dev'
+Requires-Dist: snowballstemmer (==2.0.0) ; extra == 'dev'
+Requires-Dist: sphinx (==3.2.1) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (==0.5.0) ; extra == 'dev'
+Requires-Dist: toml (==0.10.1) ; extra == 'dev'
+Requires-Dist: typed-ast (==1.4.1) ; extra == 'dev'
+Requires-Dist: cfgv (==3.2.0) ; (python_full_version >= "3.6.1") and extra == 'dev'
+Requires-Dist: typing (==3.7.4.3) ; (python_version < "3.7") and extra == 'dev'
+Requires-Dist: importlib-resources (==3.0.0) ; (python_version < "3.7" and python_version < "3.7") and extra == 'dev'
+Requires-Dist: importlib-metadata (==2.0.0) ; (python_version < "3.8" and python_version < "3.8") and extra == 'dev'
+Requires-Dist: zipp (==3.3.0) ; (python_version < "3.8" and python_version < "3.8") and extra == 'dev'
+Requires-Dist: pbr (==5.5.0) ; (python_version >= "2.6") and extra == 'dev'
+Requires-Dist: pyparsing (==2.4.7) ; (python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2") and extra == 'dev'
+Requires-Dist: plette[validation] (==0.2.3) ; (python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: python-dateutil (==2.8.1) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2") and extra == 'dev'
+Requires-Dist: six (==1.15.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2") and extra == 'dev'
+Requires-Dist: attrs (==20.2.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: babel (==2.8.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: identify (==1.5.6) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: idna (==2.10) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: imagesize (==1.2.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: markupsafe (==1.1.1) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: packaging (==20.4) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: pycodestyle (==2.6.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: pyflakes (==2.2.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: smmap (==3.0.4) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: virtualenv (==20.0.34) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: virtualenv-clone (==0.5.4) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: vistir (==0.5.2) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3") and extra == 'dev'
+Requires-Dist: colorama (==0.4.4) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: docutils (==0.16) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: jinja2 (==2.11.2) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: pip-shims (==0.5.3) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: requests (==2.24.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: requirementslib (==1.5.13) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: tomlkit (==0.7.0) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: wheel (==0.35.1) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4") and extra == 'dev'
+Requires-Dist: urllib3 (==1.25.10) ; (python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4" and python_version < "4") and extra == 'dev'
+Requires-Dist: gitdb (==4.0.5) ; (python_version >= "3.4") and extra == 'dev'
+Requires-Dist: gitpython (==3.1.9) ; (python_version >= "3.4") and extra == 'dev'
+Requires-Dist: sphinxcontrib-applehelp (==1.0.2) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-devhelp (==1.0.2) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-htmlhelp (==1.0.3) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-qthelp (==1.0.3) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.4) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: stevedore (==3.2.2) ; (python_version >= "3.6") and extra == 'dev'
+
+# wildq - Command-line TOML/JSON/INI/YAML/XML/HCL processor using jq c bindings
+
+![GitHub](https://img.shields.io/github/license/ahmet2mir/wildq.svg)
+[![image](https://img.shields.io/pypi/pyversions/wildq.svg)](https://python.org/pypi/wildq)
+[![Build Status](https://travis-ci.org/ahmet2mir/wildq.svg?branch=master)](https://travis-ci.org/ahmet2mir/wildq)
+
+Purpose of this package is to provide a simple wrapper arround jq for different formats.
+I'm tired of searching a package doing yaml jq, toml jq, ini jq etc. mainly used for scripting.
+
+This script uses:
+* @mwilliamson [Python bindings](https://github.com/mwilliamson/jq.py) on top of @stedolan famous [jq](https://github.com/stedolan/jq/) lib
+* swiss knife for coloration [pygments](https://github.com/pygments/pygments)
+* binary built with [pyinstaller](https://github.com/pyinstaller/pyinstaller)
+* easy CLI with [click](https://github.com/pallets/click)
+* for supported types sources, check table `Supported file types`
+
+# Installation
+
+## Pip
+
+```sh
+pip install wildq
+```
+
+A binary is also available for different platform, pick one (both of `wildq` and `wq` will be in the archive)
+
+## GNU/Linux binary
+
+```
+curl https://github.com/ahmet2mir/wildq/releases/download/v1.1.2/wildq-v1.1.2-linux-x86_64.tar.gz -o wildq-v1.1.2-linux-x86_64.tar.gz
+tar xvfz wildq-v1.1.2-linux-x86_64.tar.gz -C /usr/local/bin
+rm -f wildq-v1.1.2-linux-x86_64.tar.gz
+```
+
+## MacOS
+
+```
+brew install ahmet2mir/tap/wildq
+brew install ahmet2mir/tap/wq
+```
+
+## RPM (no gpg signature)
+
+```
+yum install -y --nogpgcheck https://github.com/ahmet2mir/wildq/releases/download/v1.1.2/wildq-1.1.2-1.x86_64.rpm
+```
+
+## Debian (no gpg signature)
+
+```
+wget https://github.com/ahmet2mir/wildq/releases/download/v1.1.2/wildq_1.1.2-1_amd64.deb
+dpkg -i wildq_1.1.2-1_amd64.deb
+```
+
+## Windows
+
+Wildq use [jq.py](https://github.com/mwilliamson/jq.py) and it's not yet available on windows platforms.
+I tried to compile it without windows machine and I failed, and I don't had the time to try to understand how Windows / C binding / Python works.
+If anybody would contribute, there is an [open issue](https://github.com/mwilliamson/jq.py/issues/20) (jq and onigurama are 'compilable' on Windows so I think that someone confortable with that OS could make it);
+
+
+# Supported file types
+
+| type | color | ordering | output | source                                                              |
+|------|-------|----------|--------|---------------------------------------------------------------------|
+| hcl  |  json |    no    |  json  | [pyhcl](https://github.com/virtuald/pyhcl) by @virtuald             |
+| ini  |  yes  |    no    |  yes   | [ConfigParser](https://docs.python.org/3/library/configparser.html) |
+| json |  yes  |    yes   |  yes   | [json](https://docs.python.org/3/library/json.html)                 |
+| toml |  yes  |    no    |  yes   | [toml](https://github.com/uiri/toml) by @uiri                       |
+| xml  |  yes  |    no    |  yes   | [xmldict](https://github.com/martinblech/xmltodict) by @martinblech |
+| yaml |  yes  |    yes   |  yes   | [pyyaml](https://github.com/yaml/pyyaml)                            |
+
+# Usage
+
+```
+$ wildq -i help
+Usage: wildq [OPTIONS] [FILE] JQ_FILTER
+
+Options:
+  -c, --compact-output            compact instead of pretty-printed output
+  -r, --raw                       output raw strings, not content texts
+  -C, --color-output              colorize content (default), mutally
+                                  exclusive with --monochrome-output
+
+  -M, --monochrome-output         monochrome (don't colorize content), mutally
+                                  exclusive with --color-output
+
+  --hcl                           Combine --input hcl --output json, mutally
+                                  exclusive with other Combined options
+
+  --ini                           Combine --input ini --output json, mutally
+                                  exclusive with other Combined options
+
+  --json                          Combine --input json --output json, mutally
+                                  exclusive with other Combined options
+
+  --toml                          Combine --input toml --output json, mutally
+                                  exclusive with other Combined options
+
+  --xml                           Combine --input xml --output json, mutally
+                                  exclusive with other Combined options
+
+  --yaml                          Combine --input yaml --output json, mutally
+                                  exclusive with other Combined options
+
+  -i, --input [hcl|ini|json|toml|xml|yaml]
+                                  Define the content type of file, mutally
+                                  exclusive with Combined option
+
+  -o, --output [hcl|ini|json|toml|xml|yaml]
+                                  Define the content type of printed output,
+                                  mutally exclusive with Combined option
+                                  (default input format)
+
+  --help                          Show this message and exit.
+```
+
+For backward compatibility in previous version only `--[yaml|json|toml|ini|xml|hcl]` was possible with default to json output.
+We still keep Monochrome, raw and json output with thoses options.
+Output was similar to `jq -MCr` (no color, no compact and no quote on single value)
+
+But now, by default it's colorized, not raw and if you specify input using `-i` or `--input` output will be the same format.
+
+There is also a shorter command `wq` comming with the package.
+
+Like `jq cli`, wildq supports both of stdin and file to the function
+
+See examples to get some example.
+
+Content of `examples/json.json`
+
+```
+{
+    "general": {
+        "user": "admin"
+    },
+    "keys": [
+        {"key": "value1"},
+        {"key": "value2"},
+        "alone"
+    ]
+}
+```
+
+```sh
+cat examples/json.json | wildq -i json ".keys[]"
+{
+    "key": "value1"
+}
+{
+    "key": "value2"
+}
+alone
+```
+
+or
+
+```sh
+wildq -i json ".keys[]" examples/json.json
+{
+    "key": "value1"
+}
+{
+    "key": "value2"
+}
+alone
+```
+or
+
+```sh
+wq -i json ".keys[]" examples/json.json
+{
+    "key": "value1"
+}
+{
+    "key": "value2"
+}
+alone
+```
+
+For TOML
+```sh
+cat examples/toml.toml | wildq -i toml ".keys[]"
+{
+    "key": "value1"
+}
+{
+    "key": "value2"
+}
+alone
+```
+
+For INI (no array)
+```sh
+cat examples/ini.ini | wildq -i ini ".keys"
+{
+    "key1": "value1",
+    "key2": "value2"
+}
+```
+
+For XML
+```sh
+cat examples/xml.xml | wildq -i xml "."
+{
+    "root": {
+        "general": {
+            "user": "admin"
+        },
+        "keys": {
+            "element": [
+                {
+                    "key": "value1"
+                },
+                {
+                    "key": "value2"
+                },
+                "alone"
+            ]
+        }
+    }
+}
+```
+
+For YAML
+```sh
+cat examples/yaml.yaml  | wildq -i yaml ".keys[]"
+{
+    "key1": "value1"
+}
+{
+    "key2": "value2"
+}
+alone
+```
+
+For HCL
+```sh
+cat examples/hcl.hcl  | wildq -i hcl ".keys[]"
+{
+    "key": "value1"
+}
+{
+    "key": "value2"
+}
+```
+
+## Tips and tricks
+
+Loop on keys in bash without creating a subshell
+
+```sh
+wildq -i toml "keys[]" examples/toml.toml | while read -r key 
+do
+    echo "Getting key ${key}"
+done
+```
+
+## TODO
+
+- [x] add tests...
+- [x] add more control over filters and files
+- [x] use click for the CLI
+- [x] support different output
+- [ ] detect automagically filetype
+- [ ] support all jq types
+- [ ] ordering
+
+## Contributing
+
+Merge requests are welcome :)
+
+
+## License
+
+Licensed under the terms of the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+
+## Repository URL
+
+https://github.com/ahmet2mir/wildq
+
+
