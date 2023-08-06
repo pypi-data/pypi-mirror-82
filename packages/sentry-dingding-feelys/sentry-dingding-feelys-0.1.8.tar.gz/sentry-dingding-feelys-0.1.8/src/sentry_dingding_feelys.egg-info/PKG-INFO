@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: sentry-dingding-feelys
+Version: 0.1.8
+Summary: ding talk sentry plugin
+Home-page: https://github.com/lcfevr/sentry-dingding-feelys
+Author: lcfevr
+Author-email: lcfevr@163.com
+License: MIT
+Description: UNKNOWN
+Keywords: sentry dingtalk
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
