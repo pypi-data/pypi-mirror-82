@@ -1,0 +1,10 @@
+README.md
+nexus-upload
+setup.py
+nexus_upload/__init__.py
+nexus_upload/uploader.py
+nexus_upload.egg-info/PKG-INFO
+nexus_upload.egg-info/SOURCES.txt
+nexus_upload.egg-info/dependency_links.txt
+nexus_upload.egg-info/requires.txt
+nexus_upload.egg-info/top_level.txt
