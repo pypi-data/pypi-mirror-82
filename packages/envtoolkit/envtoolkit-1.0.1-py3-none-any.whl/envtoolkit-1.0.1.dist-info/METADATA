@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: envtoolkit
+Version: 1.0.1
+Summary: Python package dedicated to the Earth Scientists. It contains a module for the processing of time-series (filtering, anomalies), a module for spatial analysis, a module with color-specific functions, a module for NetCDF processing and a module for spectral analysis
+Home-page: https://github.com/barriern/Environmental-toolkit
+Author: Nicolas Barrier
+Author-email: nicolas.barrier@ird.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires: numpy
+Requires: netCDF4
+Requires: matplotlib
+Requires: re
+Requires: mpl_toolkits.basemap
+Requires: datetime.datetime
+Requires: spectrum
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
