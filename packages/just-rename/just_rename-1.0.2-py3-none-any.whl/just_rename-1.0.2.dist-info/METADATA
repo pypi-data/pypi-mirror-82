@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: just-rename
+Version: 1.0.2
+Summary: just-rename, batch rename filenames, all scripts will be written with Python3
+Home-page: http://github.com/lhnonline/renamer
+Author: lhnonline
+Author-email: 0376lhn@gmail.com
+License: GPLv3
+Keywords: renamer,batch rename filenames with regex support,just-rename
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# just-rename
+
+通过正则表达式批量修改文件名称。
+
+# install
+
+```bash
+pip install just-rename
+```
+
+# useage
+
+```bash
+just-rename <workdir> <pattern> <replacement>
+```
+
+
