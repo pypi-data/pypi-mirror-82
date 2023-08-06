@@ -1,0 +1,12 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/Simple.py
+distributions/SimpleSpark.py
+distributions/__init__.py
+epidistributions.egg-info/PKG-INFO
+epidistributions.egg-info/SOURCES.txt
+epidistributions.egg-info/dependency_links.txt
+epidistributions.egg-info/not-zip-safe
+epidistributions.egg-info/top_level.txt
