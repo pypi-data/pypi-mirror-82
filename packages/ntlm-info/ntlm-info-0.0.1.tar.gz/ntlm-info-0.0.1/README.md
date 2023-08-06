@@ -1,0 +1,76 @@
+# ntlm-info
+
+Get system information from NTLM supported endpoints.
+
+Supported protocols:
+- HTTP[S]
+- SMB 1,2,3
+
+## Setup
+
+Installation:
+```shell
+git clone https://gitlab.com/Zer1t0/ntlm-info
+cd ntlm-info
+python3 setup.py install
+```
+
+## Examples
+
+Usage:
+```shell
+ntlm-info -h
+```
+
+Use it with subfinder and httprobe to find internal domains:
+```shell
+$ subfinder -d contoso.com | httprobe | ntlm-info 
+
+Url: https://adminit.contoso.com
+Target (Domain): ITCONTOSO
+OS Version: 10.0.14393
+OS Name: Server 2016 | Server 2019 | Windows 10
+MsvAvNbComputerName: IT-01
+MsvAvNbDomainName: ITCONTOSO
+MsvAvDnsComputerName: it-01.it.contoso.com
+MsvAvDnsDomainName: it.contoso.com
+MsvAvDnsTreeName: it.contoso.com
+MsvAvTimestamp: Sep 03, 2020 09:10:47.698890
+Negotiate Flags: 0x2898205
+  NTLMSSP_NEGOTIATE_UNICODE
+  NTLMSSP_REQUEST_TARGET
+  NTLMSSP_NEGOTIATE_NTLM
+  NTLMSSP_NEGOTIATE_ALWAYS_SIGN
+  NTLMSSP_TARGET_TYPE_DOMAIN
+  NTLMSSP_NEGOTIATE_EXTENDED_SESSIONSECURITY
+  NTLMSSP_NEGOTIATE_TARGET_INFO
+  NTLMSSP_NEGOTIATE_VERSION
+Server challenge: da2f377fae4e8ba0
+
+Url: https://test.contoso.com
+Target (Domain): EMPCONTOSO
+OS Version: 10.0.14393
+OS Name: Server 2016 | Server 2019 | Windows 10
+MsvAvNbComputerName: TEST
+MsvAvNbDomainName: EMPCONTOSO
+MsvAvDnsComputerName: test.employees.contoso.com
+MsvAvDnsDomainName: employees.contoso.com
+MsvAvDnsTreeName: employees.contoso.com
+MsvAvTimestamp: Sep 03, 2020 09:10:47.698890
+Negotiate Flags: 0x2898205
+  NTLMSSP_NEGOTIATE_UNICODE
+  NTLMSSP_REQUEST_TARGET
+  NTLMSSP_NEGOTIATE_NTLM
+  NTLMSSP_NEGOTIATE_ALWAYS_SIGN
+  NTLMSSP_TARGET_TYPE_DOMAIN
+  NTLMSSP_NEGOTIATE_EXTENDED_SESSIONSECURITY
+  NTLMSSP_NEGOTIATE_TARGET_INFO
+  NTLMSSP_NEGOTIATE_VERSION
+Server challenge: 3d66a70eb2f14e93
+```
+
+
+## Acknowledgment
+
+[@b17zr](https://github.com/b17zr) for [ntlm_challenger](https://github.com/b17zr/ntlm_challenger).
+
