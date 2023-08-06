@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pyRiverPTV
+Version: 0.1
+Summary: Growing collection of tools to perform particle tracking velocimetry on rivers
+Home-page: https://github.com/Fishified/pyRiverPTV
+Author: Jason Duguay
+Author-email: duguay.jason@gmail.com
+License: MIT
+Download-URL: https://github.com/Fishified/pyRiverPTV/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: python,particle tracking velocimetry,rivers
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
