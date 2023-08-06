@@ -1,0 +1,8 @@
+{% extends "infrablue/base.html" %}
+{% load i18n %}
+
+{% block browser_title %}{% blocktrans %}Registration success{% endblocktrans %}{% endblock %}
+
+{% block content %}
+    <p class="flow-text">{% trans "You are now registered. Activation email sent." %}</p>
+{% endblock %}

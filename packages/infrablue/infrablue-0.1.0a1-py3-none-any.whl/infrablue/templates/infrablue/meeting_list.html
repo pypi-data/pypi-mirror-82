@@ -1,0 +1,174 @@
+{% extends "infrablue/base.html" %}
+{% load i18n guardian_tags %}
+
+{% block browser_title %}{% trans "Meeting Overview" %}{% endblock browser_title %}
+{% block page_title %}{% trans "Meeting Overview" %}{% endblock page_title %}
+
+{% block content %}
+    <div class="row">
+        <div class="col s12 m6">
+            <a class="btn secondary-color waves-effect left" href="{% url "meeting_create" %}">
+                <i class="material-icons left">add</i>
+                {% trans "Create Meeting" %}
+            </a>
+        </div>
+        <div class="col s12 m6">
+            <button id="change_layout" class="btn-flat primary-color-text right">
+                <i id="layout_icon" class="material-icons left">view_list</i>
+                {% trans "Change View" %}
+            </button>
+        </div>
+    </div>
+    {% include "infrablue/snippets/pagination.html" %}
+    <!-- CARD DESIGN -->
+    <div id="cards" class="">
+        <div class="row">
+            {% for meeting in object_list %}
+                <div class="col s12 m6 l4 xl3">
+                    <div class="card sticky-action">
+                        <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">
+                            {{ meeting.name }}
+                            <i class="material-icons right">more_vert</i>
+                        </span>
+                            <table>
+                                <tr>
+                                    <th>{% trans "Meeting name" %}</th>
+                                    <td>{{ meeting.name }}</td>
+                                </tr>
+                                <tr>
+                                    <th>{% trans "Server" %}</th>
+                                    <td>{{ meeting.api_group.name }}</td>
+                                </tr>
+                                <tr>
+                                    <th>{% trans "Welcome message" %}</th>
+                                    <td>{{ meeting.welcome_message }}</td>
+                                </tr>
+                                <tr>
+                                    <th>{% trans "Welcome message for moderators" %}</th>
+                                    <td>{{ meeting.moderator_message }}</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="card-action">
+                            <a href="{% url "meeting_detail" meeting.pk %}">
+                                <i class="material-icons left">pageviews</i>
+                                {% trans "Go to meeting page" %}
+                            </a>
+                        </div>
+
+                        <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">
+                            <i class="material-icons right">close</i>
+                        </span>
+                            <h5>{{ meeting.name }}</h5>
+                            {% get_obj_perms request.user for meeting as "meeting_permissions" %}
+                            {% if "change_meeting" in meeting_permissions %}
+                                <a href="{% url "meeting_update" meeting.pk %}"
+                                   class="btn-flat waves-effect waves-secondary secondary-color-text display-block">
+                                    <i class="material-icons left">edit</i>
+                                    {% trans "Edit" %}
+                                </a>
+                            {% endif %}
+                            {% if request.user.is_authenticated %}
+                                <a href="{% url "meeting_join_id" meeting.pk %}"
+                                   class="btn-flat waves-effect waves-primary primary-color-text display-block">
+                                    <i class="material-icons left">person_add</i>
+                                    {% trans "Join" %}
+                                </a>
+                            {% endif %}
+                            {% if "delete_meeting" in meeting_permissions %}
+                                <a href="{% url "meeting_delete" meeting.pk %}"
+                                   class="btn-flat waves-effect waves-red red-text display-block">
+                                    <i class="material-icons left">delete</i>
+                                    {% trans "Delete" %}
+                                </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- TABLE DESIGN -->
+    <div id="table" class="hide">
+        <table class="striped highlight responsive-table">
+            <thead>
+            <tr>
+                <th>{% trans "Meeting name" %}</th>
+                <th>{% trans "Server" %}</th>
+                <th class="actions">{% trans "Actions" %}</th>
+            </tr>
+            </thead>
+            {% url "meeting_create" as meeting_creation_url %}
+            {% for meeting in object_list %}
+                <tr>
+                    <td>
+                        <a href="{% url "meeting_detail" meeting.pk %}">
+                            {{ meeting.name }}
+                        </a>
+                    </td>
+                    <td>
+                        {{ meeting.api_group.name }}
+                    </td>
+                    <td>
+                        <div class="break-on-mobile">
+                            <a href="{% url "meeting_detail" meeting.pk %}"
+                               class="btn primary-color waves-effect waves-light">
+                                <i class="material-icons left">pageview</i>
+                                {% trans "View Details" %}
+                            </a>
+                            {% get_obj_perms request.user for meeting as "meeting_permissions" %}
+                            {% if "change_meeting" in meeting_permissions %}
+                                <a href="{% url "meeting_update" meeting.pk %}"
+                                   class="btn-flat waves-effect waves-secondary secondary-color-text">
+                                    <i class="material-icons left">edit</i>
+                                    {% trans "Edit" %}
+                                </a>
+                            {% endif %}
+                            {% if request.user.is_authenticated %}
+                                <a href="{% url "meeting_join_id" meeting.pk %}"
+                                   class="btn-flat waves-effect waves-primary primary-color-text">
+                                    <i class="material-icons left">person_add</i>
+                                    {% trans "Join" %}
+                                </a>
+                            {% endif %}
+                            {% if "delete_meeting" in meeting_permissions %}
+                                <a href="{% url "meeting_delete" meeting.pk %}"
+                                   class="btn-flat waves-effect waves-red red-text">
+                                    <i class="material-icons left">delete</i>
+                                    {% trans "Delete" %}
+                                </a>
+                            {% endif %}
+                        </div>
+                    </td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="3">
+                <span>
+                    {% blocktrans %}
+                        You haven't created any meeting.
+                        Do so by clicking <a href="{{ meeting_creation_url }}">here</a>.
+                    {% endblocktrans %}
+                </span>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% include "infrablue/snippets/pagination.html" %}
+
+    <script type="text/javascript">
+        const icon_a = "view_module"
+        const icon_b = "view_list"
+        $("#change_layout").click(function () {
+            $("#table").toggleClass("hide");
+            $("#cards").toggleClass("hide");
+            $("#layout_icon").text(function (index, text) {
+                return text === icon_a ? icon_b : icon_a
+            });
+        })
+    </script>
+{% endblock %}

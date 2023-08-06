@@ -1,0 +1,53 @@
+{% extends "infrablue/base.html" %}
+{% load i18n %}
+
+{% block browser_title %}{% trans "Server Groups" %}{% endblock %}
+{% block page_title %}{% trans "Server Groups" %}{% endblock %}
+
+{% block content %}
+    <a href="{% url 'server_group_create' %}" class="btn waves-effect secondary-color">
+        <i class="material-icons left">add</i> {% trans "Create" %}
+    </a>
+    {% include "infrablue/snippets/pagination.html" %}
+    <table class="striped highlight responsive-table">
+        <thead>
+        <th>{% trans "Group Name" %}</th>
+        <th>{% trans "Servers" %}</th>
+        <th class="actions">{% trans "Actions" %}</th>
+        </thead>
+        {% for obj in object_list %}
+            <tr>
+                <td>
+                    {{ obj.name }}
+                </td>
+                <td>
+                    <div class="collection">
+                        {% for server in obj.apis.all %}
+                            <div class="collection-item">
+
+                                {{ server.name }} <a href="{{ server.url }}">{{ server.url }}</a>
+                            </div>
+                            {% empty %}
+                            <div class="collection-item">
+                                {% trans "There are no servers in this group." %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </td>
+                <td>
+                    <a class="btn-flat primary-color-text waves-effect" href="{% url 'server_group_update' obj.id %}">
+                        <i class="material-icons left">edit</i>
+                        {% trans "Edit" %}
+                    </a>
+                    <a class="btn-flat red-text waves-effect waves-light" href="{% url "server_group_delete" obj.id %}">
+                        <i class="material-icons left">delete</i>
+                        {% trans "Delete" %}
+                    </a>
+                </td>
+            </tr>
+        {% empty %}
+            <td>{% trans "No Server Groups could be found" %}</td>
+        {% endfor %}
+    </table>
+    {% include "infrablue/snippets/pagination.html" %}
+{% endblock %}

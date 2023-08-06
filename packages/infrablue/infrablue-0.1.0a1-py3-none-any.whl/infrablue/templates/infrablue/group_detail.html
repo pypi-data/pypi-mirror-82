@@ -1,0 +1,46 @@
+{% extends "infrablue/base.html" %}
+{% load i18n material_form %}
+
+{% block page_title %}
+    <a class="secondary-color-text" href="{% url "group_list" %}">
+        <i class="material-icons center">chevron_left</i>
+    </a>
+    {{ object.name }}
+{% endblock page_title %}
+{% block browser_title %}{{ object.name }}{% endblock browser_title %}
+
+{% block content %}
+    <a class="btn secondary-color" href="{% url "group_update" object.id %}">
+        <i class="material-icons left">edit</i>{% trans "Edit" %}
+    </a>
+    <a class="btn red waves-effect waves-light" href="{% url "group_delete" object.id %}">
+        <i class="material-icons left">delete</i>{% trans "Delete" %}
+    </a>
+    <h5>{% trans "Users in this group" %}</h5>
+    <table class="striped">
+        <thead>
+        <tr>
+            <th>{% trans "ID" %}</th>
+            <th>{% trans "Name" %}</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for user in object.user_set.all %}
+            <tr>
+                <td>{{ user.id }}</td>
+                <td>
+                    <a href="{% url "user_detail" user.id %}">
+                        {{ user.get_full_name }} ({{ user.username }})
+                    </a>
+                </td>
+            </tr>
+        {% empty %}
+            <tr>
+                <span>
+                    {% blocktrans %}Currently, there is no user in this group.{% endblocktrans %}
+                 </span>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

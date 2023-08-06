@@ -1,0 +1,22 @@
+{% extends "infrablue/base.html" %}
+{% load i18n material_form %}
+
+{% block page_title %}{% trans "Confirm" %}{% endblock page_title %}
+{% block browser_title %}{% trans "Delete MeetingURL" %}{% endblock browser_title %}
+
+{% block content %}
+    <form method="post">{% csrf_token %}
+        <p>
+            {% blocktrans with url=meetingurl.slug meeting=meetingurl.meeting attendee_pw=meetingurl.attendee_pw moderator_pw=meetingurl.moderator_pw %}
+                Are you sure you want to delete the URL "{{ url }}" of meeting "{{ meeting }}" with
+                attendee password "{{ attendee_pw }}" and moderator password "{{ moderator_pw }}"?
+            {% endblocktrans %}</p>
+        <div class="submit-row">
+            <button type="submit" class="btn waves-effect waves-light red">
+                {% trans "Delete" %}
+            </button>
+            <a href="{% url 'meeting_detail' meetingurl.meeting.pk %}"
+               class="btn waves-effect waves-light secondary-color">{% trans "Cancel" %}</a>
+        </div>
+    </form>
+{% endblock %}

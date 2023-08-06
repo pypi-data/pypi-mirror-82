@@ -1,0 +1,18 @@
+{% load i18n model_info %}
+
+{% attr meeting property as meeting_property %}
+
+<div class=>
+    <div class="card">
+        <div class="card-content">
+            <div class="card-title">
+                <i class="material-icons right {{ meeting_property|yesno:"primary,secondary" }}-color-text">
+                    {{ meeting_property|yesno:icons }}
+                </i>
+                {% verbose_name meeting property %}
+            </div>
+            <p>{% help_text meeting property %}</p>
+            <p><strong>{{ meeting_property|yesno:yesno_text }}</strong></p>
+        </div>
+    </div>
+</div>

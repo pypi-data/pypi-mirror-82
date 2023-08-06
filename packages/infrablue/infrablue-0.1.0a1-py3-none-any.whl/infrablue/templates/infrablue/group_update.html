@@ -1,0 +1,18 @@
+{% extends "infrablue/base.html" %}
+{% load i18n material_form %}
+
+{% block page_title %}{% trans "Update Group" %}{% endblock page_title %}
+{% block browser_title %}{% trans "Update Group" %}{% endblock browser_title %}
+
+{% block content %}
+<form method="post">{% csrf_token %}
+    {% form form=form %}{% endform %}
+    <div class="submit-row">
+      {% include "infrablue/snippets/save_button.html" with caption=_("Save") %}
+      {% if group.id %}
+        <a href="{% url 'group_delete' group.id %}" class="btn waves-effect waves-light red">{% trans "Delete" %}</a>
+      {% endif %}
+      <a href="{% url 'group_list' %}" class="btn waves-effect waves-light blue">{% trans "Cancel" %}</a>
+    </div>
+</form>
+{% endblock %}

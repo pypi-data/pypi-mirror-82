@@ -1,0 +1,274 @@
+@import "materialize";
+
+.primary-color {
+  background-color: $primary-color !important;
+}
+
+.primary-color-text, .primary-color-text a {
+  color: $primary-color !important;
+}
+
+.secondary-color {
+  background-color: $secondary-color !important;
+}
+
+.secondary-color-text, .secondary-color-text a {
+  color: $secondary-color !important;
+}
+
+rect#background {
+  fill: $primary-color !important;
+}
+
+.waves-effect.waves-primary .waves-ripple {
+  background-color: lighten($primary-color, 5%);
+}
+
+.waves-effect.waves-secondary .waves-ripple {
+  background-color: lighten($secondary-color, 5%);
+}
+
+.success {
+  @extend .light-green, .lighten-3
+}
+
+.success-text {
+  @extend .green-text;
+}
+
+.warning {
+  @extend .orange, .lighten-2;
+}
+
+.warning-text {
+  @extend .orange-text;
+}
+
+.error {
+  @extend .red, .lighten-3;
+}
+
+.error-text {
+  @extend .red-text;
+}
+
+.display-block {
+  display: block;
+}
+
+/**********/
+/* COMMON */
+/**********/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header, main, footer {
+  margin-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    margin-left: 0;
+  }
+}
+
+/**********/
+/* HEADER */
+/**********/
+
+.brand-logo {
+  margin-left: 10px;
+}
+
+#sidenav-logo {
+  height: 70px;
+  width: auto;
+}
+
+@media only screen and (max-width: 993px) {
+  header div.nav-wrapper {
+    z-index: -5;
+  }
+}
+
+
+/********/
+/* MAIN */
+/********/
+
+main {
+  padding: 10px 20px;
+  flex: 1 0 auto;
+}
+
+/***********/
+/* SIDENAV */
+/***********/
+
+ul.sidenav.sidenav-fixed li.logo {
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+
+ul.sidenav.sidenav-fixed .brand-logo {
+  margin: 0;
+}
+
+.logo img {
+  width: 250px;
+}
+
+.sidenav a:not(.collapsible-header) {
+  padding: 0 16px;
+}
+
+ul.sidenav li.logo > a:hover {
+  background: none !important;
+}
+
+.sidenav .collapsible-body > ul:not(.collapsible) > li.active a > i, .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active a > i {
+  color: #fff;
+}
+
+.sidenav .collapsible-body > ul:not(.collapsible) > li.active, .sidenav.sidenav-fixed .collapsible-body > ul:not(.collapsible) > li.active {
+  background-color: lighten($primary-color, 5%);
+}
+
+li.active > a > .sidenav-badge {
+  background-color: whitesmoke !important;
+  color: $primary-color !important;
+}
+
+.sidenav li.search {
+  position: relative;
+  z-index: 2;
+}
+
+.sidenav li.search:hover {
+  background-color: #fff;
+}
+
+.sidenav li.search .search-wrapper {
+  color: #777;
+  margin-top: -1px;
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+
+  -webkit-transition: margin .25s ease;
+  transition: margin .25s ease;
+}
+
+.sidenav li.search .search-wrapper input#search {
+  color: #777;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+  height: 62px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 45px 0 30px;
+  border: 0;
+}
+
+.sidenav li.search .search-wrapper input#search:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.sidenav li.search .search-wrapper > i.material-icons {
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  cursor: pointer;
+}
+
+a.collection-item.search-item {
+  padding: 20px 10px;
+}
+
+div#search-results {
+  position: absolute;
+  margin-top: -10px;
+  width: 100%;
+}
+
+.search-result-icon {
+  position: absolute;
+  right: 10px;
+}
+
+
+// Sidenav trigger
+
+header a.sidenav-trigger {
+  position: absolute;
+  left: 7.5%;
+  top: 0;
+
+  height: 64px;
+  font-size: 38px;
+
+  float: none;
+
+  text-align: center;
+  color: white;
+
+  z-index: 2;
+}
+
+// Alerts
+
+.alert ul, .alert p {
+  margin: 0;
+}
+
+.alert > p, .alert > div {
+  margin: 10px;
+  padding: 10px;
+  border-left: 5px solid;
+}
+
+.alert.success > p, .alert.success > div {
+  @extend .success;
+  border-color: color("green", "base");
+}
+
+.alert.error > p, .alert.error > div {
+  @extend .error;
+  border-color: color("red", "darken-4");
+}
+
+.alert.primary > p, .alert.primary > div, .alert.info > p, .alert.info > div {
+  background-color: #ececec;
+  border-color: $primary-color;
+}
+
+.alert.warning p, .alert.warning div {
+  @extend .warning;
+  border-color: color("orange", "darken-4");
+}
+
+main .alert p:first-child, main .alert div:first-child {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+// ListView
+
+@media only screen and (max-width: 992px) {
+  td > .break-on-mobile a {
+    display: block;
+  }
+}
+
+th.actions {
+  width: 50%;
+  max-width: 50%;
+}

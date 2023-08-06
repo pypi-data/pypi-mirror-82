@@ -1,0 +1,17 @@
+{% extends "infrablue/base.html" %}
+{% load i18n %}
+
+{% block content %}
+
+    <h4>{% blocktrans %}Account activation failed!{% endblocktrans %}</h4>
+    {% for error, value in activation_error %}
+        <div class="alert error">
+            <div>
+                <i class="material-icons left">error</i>
+                <p>
+                    {{ error }} {{ value }}
+                </p>
+            </div>
+        </div>
+    {% endfor %}
+{% endblock %}

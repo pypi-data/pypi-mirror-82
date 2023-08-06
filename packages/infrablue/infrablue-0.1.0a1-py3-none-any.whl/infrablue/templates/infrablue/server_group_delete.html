@@ -1,0 +1,34 @@
+{% extends "infrablue/base.html" %}
+{% load i18n %}
+
+{% block browser_title %}{% trans "Delete Server Group" %}{% endblock %}
+{% block page_title %}{% trans "Delete Server Group" %}{% endblock %}
+
+{% block content %}
+    <form method="post">{% csrf_token %}
+        {% blocktrans with server_group=object %}
+            Are you sure you want to delete Server Group <em>{{ server_group }}</em> and all it's connected servers?
+        {% endblocktrans %}
+        <h5>{% trans "Connected Servers" %}:</h5>
+        <div class="collection">
+            {% for server in object.apis.all %}
+                <div class="collection-item">
+
+                    {{ server.name }} <a href="{{ server.url }}">{{ server.url }}</a>
+                </div>
+            {% empty %}
+                <div class="collection-item">
+                    {% trans "There are no servers in this group." %}
+                </div>
+            {% endfor %}
+        </div>
+        <div class="submit-row">
+            <button type="submit" class="btn waves-effect waves-light red">
+                {% trans "Delete" %}
+            </button>
+            <a href="{% url 'server_group_list' %}" class="btn waves-effect waves-light secondary-color">
+                {% trans "Cancel" %}
+            </a>
+        </div>
+    </form>
+{% endblock %}

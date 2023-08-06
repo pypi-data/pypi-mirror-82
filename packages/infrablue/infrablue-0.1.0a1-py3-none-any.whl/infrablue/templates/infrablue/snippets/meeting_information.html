@@ -1,0 +1,39 @@
+{% load i18n humanize %}
+
+<div class="card">
+    <div class="card-content">
+        <div class="card-title">{% trans "Meeting Information" %}</div>
+        {% if meeting_owners %}
+            <h6>{% trans "Meeting owners" %}</h6>
+            <p>
+                {% for owner in meeting_owners %}
+                    <span class="chip">{{ owner.get_full_name }} ({{ owner.username }})</span>
+                {% endfor %}
+            </p>
+        {% endif %}
+        {% if meeting_info.running %}
+            {% if show_attendees %}
+                <h6>{% trans "Attendees" %}</h6>
+                <ul class="striped browser-default">
+                    {% for attendee in meeting_info.attendees|slice:":10" %}
+                        <li>{{ attendee }}</li>
+                    {% empty %}
+                        <tr>{% trans "There is currently nobody in this meeting." %}</tr>
+                    {% endfor %}
+                    {% if meeting_info.attendees > 1 %}
+                        {% blocktrans with count=meeting_info.attendees|length %}
+                            There are {{ count }} attendees in this meeting. Showing only the first ones.
+                        {% endblocktrans %}
+                    {% endif %}
+                </ul>
+            {% endif %}
+
+            {{ delta }}
+            {% blocktrans with time=start_time|naturaltime %}
+                This meeting was started {{ time }}.
+            {% endblocktrans %}
+        {% else %}
+            {% trans "This meeting hasn't been started yet." %}
+        {% endif %}
+    </div>
+</div>

@@ -1,0 +1,30 @@
+{% extends "infrablue/base.html" %}
+{% load i18n material_form %}
+
+{% block page_title %}
+    {% if user.id %}
+        {% trans "Update User" %}
+    {% else %}
+        {% trans "Create User" %}
+    {% endif %}
+{% endblock page_title %}
+{% block browser_title %}
+    {% if user.id %}
+        {% trans "Update User" %}
+    {% else %}
+        {% trans "Create User" %}
+    {% endif %}
+{% endblock browser_title %}
+
+{% block content %}
+<form method="post">{% csrf_token %}
+    {% form form=form %}{% endform %}
+    <div class="submit-row">
+      {% include "infrablue/snippets/save_button.html" with caption=_("Save") %}
+      {% if user.id %}
+        <a href="{% url 'user_delete' user.id %}" class="btn waves-effect waves-light red">Delete</a>
+      {% endif %}
+      <a href="{% url 'user_list' %}" class="btn waves-effect waves-light secondary-color">Cancel</a>
+    </div>
+</form>
+{% endblock %}

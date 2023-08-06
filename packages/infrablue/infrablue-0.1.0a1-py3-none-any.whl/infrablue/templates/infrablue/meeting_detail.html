@@ -1,0 +1,185 @@
+{% extends "infrablue/base.html" %}
+{% load i18n material_form absolute_url model_info guardian_tags %}
+
+{% block page_title %}
+    {% trans "Meeting" %} {{ meeting.pk }}: {{ meeting.name }}
+{% endblock page_title %}
+{% block browser_title %}
+    {% trans "Meeting" %} {{ meeting.pk }}: {{ meeting.name }}
+{% endblock browser_title %}
+
+{% block content %}
+    <div class="row">
+        <div class="col s12">
+            <div class="card">
+                <div class="card-content">
+                    <h5>{{ meeting.name }}</h5>
+                    <div class="row">
+                        {% for url in meeting.urls.all %}
+                            <div class="col s12 m8 l4">
+                                <label for="join_url_{{ url.id }}">
+                                    {% trans "Meeting URL" %} {{ forloop.counter }}:
+                                    {% trans "join as" %} {{ url.default_role }}
+                                </label>
+                                <input readonly class="disabled" type="url" id="join_url_{{ url.id }}"
+                                       value="{% absolute_url "meeting_join_short" url.slug %}">
+                                {% if url.attendee_pw %}
+                                    <p>
+                                        {% trans "Attendee password" %}: {{ url.attendee_pw }}
+                                    </p>
+                                {% endif %}
+                                {% if url.moderator_pw %}
+                                    <p>
+                                        {% trans "Moderator password" %}: {{ url.moderator_pw }}
+                                    </p>
+                                {% endif %}
+                                <p>
+                                    <a class="btn-flat btn-small red-text waves-effect waves-red white"
+                                       href="{% url "meetingurl_delete" url.pk %}">
+                                        <i class="material-icons left">delete</i>{% trans "Delete this URL" %}
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="col s12 m4 l2">
+                                <button class="btn secondary-color copy_join_url waves-effect" id="btn_cp_{{ url.id }}"
+                                        data-target="join_url_{{ url.id }}">
+                                    <i class="material-icons left">content_copy</i>{% trans "Copy" %}
+                                </button>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="card-action">
+                    {% get_obj_perms request.user for meeting as "meeting_permissions" %}
+                    {% if "change_meeting" in meeting_permissions %}
+                        <a class="btn-flat secondary-color-text waves-effect"
+                           href="{% url "meeting_update" object.id %}">
+                            <i class="material-icons left">edit</i>{% trans "Edit" %}
+                        </a>
+                    {% endif %}
+                    {% if "delete_meeting" in meeting_permissions %}
+                        <a class="btn-flat red-text waves-effect"
+                           href="{% url "meeting_delete" object.id %}">
+                            <i class="material-icons left">delete</i>{% trans "Delete" %}
+                        </a>
+                    {% endif %}
+                    <!-- Modal trigger -->
+                    {% if "add_urls" in meeting_permissions %}
+                        <button class="btn-flat secondary-color-text waves-effect modal-trigger"
+                                data-target="change-urls">
+                            <i class="material-icons left">insert_link</i>{% trans "Change URLs" %}
+                        </button>
+                    {% endif %}
+                    {% if request.user.is_authenticated %}
+                        <a class="btn-flat primary-color-text waves-effect"
+                           href="{% url "meeting_join_id" object.id %}">
+                            <i class="material-icons left">person_add</i>{% trans "Join" %}
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="col s12 l6">
+            <div class="card-panel">
+                <table>
+                    <tr>
+                        <th>{% trans "Meeting name" %}</th>
+                        <td>{{ meeting.name }}</td>
+                    </tr>
+                    <tr>
+                        <th>{% trans "Server" %}</th>
+                        <td>{{ meeting.api_group.name }}</td>
+                    </tr>
+                    <tr>
+                        <th>{% trans "Welcome message" %}</th>
+                        <td>{{ meeting.welcome_message }}</td>
+                    </tr>
+                    <tr>
+                        <th>{% trans "Welcome message for moderators" %}</th>
+                        <td>{{ meeting.moderator_message }}</td>
+                    </tr>
+                    <tr>
+                        <th>{% trans "Conference PIN" %}</th>
+                        <td>{{ meeting.conference_pin }}</td>
+                    </tr>
+                </table>
+            </div>
+
+            {% include "infrablue/snippets/meeting_information.html" %}
+        </div>
+
+        <div class="col s12 l6">
+            <div class="card-panel">
+                <div class="collection with-header">
+                    {% for category, settings in meeting_metadata.items %}
+                        <div class="collection-header">
+                            <strong>{% trans category %}</strong>
+                        </div>
+                        {% for toggle in settings %}
+                            <div class="collection-item">
+                                {% verbose_name meeting toggle.0 %}
+                                <div class="switch right">
+                                    <label>
+                                        <input disabled type="checkbox"
+                                               {% attr meeting toggle.0 as bool %}
+                                               {% if bool %}checked="checked"{% endif %}>
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal to add a meeting url -->
+    <div id="change-urls" class="modal modal-fixed-footer">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.management_form }}
+            <div class="modal-content">
+                <h4>{% trans "Add URL" %}</h4>
+                <div class="row">
+                    {% for url in form %}
+                        <div class="col s12 l6">
+                            <div class="card-panel">
+                                <p class="red-text">
+                                    {{ form.non_field_errors }}{{ form.errors.forloop.counter0 }}</p>
+                                {% form form=url %}{% endform %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-close waves-effect waves-red btn-flat red-text">
+                    <i class="material-icons left">clear</i> {% trans "Cancel" %}
+                </button>
+                <button type="submit" class="waves-effect waves-light btn primary-color">
+                    <i class="material-icons left">save</i> {% trans "Save" %}
+                </button>
+            </div>
+        </form>
+    </div>
+    <script>
+        {% for url in meeting.urls.all %}
+            $("#btn_cp_{{ url.id }}").click(function () {
+                let copyText = $("#join_url_{{ url.id }}");
+                copyText.select();
+                document.execCommand("copy");
+                copyText.blur();
+                M.toast({"html": "<i class='material-icons left'>check</i>{% trans 'Copied succesfully!' %}"})
+            })
+        {% endfor %}
+        $(document).ready(function () {
+            {% for field, errors in form.errors.items %}
+                M.toast({
+                    "html":
+                        "<i class='material-icons left'>clear</i>{{ field }}: {% for error in errors %}{{ error }}{% endfor %}"
+                })
+            {% endfor %}
+        })
+    </script>
+{% endblock %}

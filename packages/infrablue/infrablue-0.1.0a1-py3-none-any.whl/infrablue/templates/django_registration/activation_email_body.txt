@@ -1,0 +1,10 @@
+{% load i18n %}
+{% trans "Activate account at" %} InfraBlue:
+
+Hi,
+
+Click here to activate your account {{ user.username }}:
+
+http://{{ site.domain }}{% url 'django_registration_activate' activation_key %}
+
+{% blocktrans %}Link is valid for {{ expiration_days }} days.{% endblocktrans %}

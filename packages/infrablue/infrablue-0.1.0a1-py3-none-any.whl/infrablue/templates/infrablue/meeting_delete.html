@@ -1,0 +1,21 @@
+{% extends "infrablue/base.html" %}
+{% load i18n %}
+
+{% block browser_title %}{% trans "Delete Meeting" %}{% endblock %}
+{% block page_title %}{% trans "Delete Meeting" %}{% endblock %}
+
+{% block content %}
+    <form method="post">{% csrf_token %}
+        {% blocktrans with meeting=object %}
+            Are you sure you want to delete the Meeting <em>{{ meeting }}</em>?
+        {% endblocktrans %}
+        <div class="submit-row">
+            <button type="submit" class="btn waves-effect waves-light red">
+                {% trans "Delete" %}
+            </button>
+            <a href="{% url 'meeting_detail' object.id %}" class="btn waves-effect waves-light secondary-color">
+                {% trans "Cancel" %}
+            </a>
+        </div>
+    </form>
+{% endblock %}

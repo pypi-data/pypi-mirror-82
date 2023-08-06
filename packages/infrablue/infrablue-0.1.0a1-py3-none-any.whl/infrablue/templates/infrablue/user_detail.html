@@ -1,0 +1,81 @@
+{% extends "infrablue/base.html" %}
+{% load i18n material_form %}
+
+{% block page_title %}
+    {% if request.user != object %}
+    <a class="secondary-color-text" href="{% url "user_list" %}">
+        <i class="material-icons center">chevron_left</i>
+    </a>{{ object.get_full_name }}
+    {% endif %}
+{% endblock page_title %}
+{% block browser_title %}{{ object.get_full_name }}{% endblock browser_title %}
+
+{% block content %}
+    <div class="row">
+        <div class="col s12 l6">
+            <div class="card">
+                <div class="card-content">
+                    <table class="highlight">
+                        <thead>
+                        <tr>
+                            <th colspan="2">
+                                <h5>{% trans "Personal Data" %}</h5>
+                            </th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>
+                                <i class="material-icons left">face</i> {% trans "Name" %}
+                            </td>
+                            <td>
+                                {{ object.get_full_name }}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="material-icons left">person</i> {% trans "Username" %}
+                            </td>
+                            <td>
+                                {{ object.username }}
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-action">
+                    <a class="btn-flat secondary-color-text waves-effect" href="{% url "user_update" object.id %}">
+                        <i class="material-icons left">edit</i>{% trans "Edit" %}
+                    </a>
+                    {% if object == request.user %}
+                        <a class="btn-flat primary-color-text waves-effect"
+                           href="{% url "self_change_password" %}">
+                            <i class="material-icons left">lock</i>{% trans "Change Password" %}
+                        </a>
+                    {% else %}
+                        <a class="btn-flat primary-color-text waves-effect"
+                           href="{% url "user_change_password" object.id %}">
+                            <i class="material-icons left">lock</i>{% trans "Change Password" %}
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="col s12 l6">
+            <div class="card-panel">
+                <h5>{% trans "Groups" %}</h5>
+                <div class="collection">
+                    {% for group in object.groups.all %}
+                        <a class="collection-item" href="{% url "group_detail" group.id %}">
+                            {{ group.name }}
+                        </a>
+                    {% empty %}
+                        <div class="collection-item">
+                            {% trans "You aren't in any group at this time." %}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
