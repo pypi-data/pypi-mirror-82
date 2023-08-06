@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: musco-pytorch
+Version: 1.0.6
+Summary: MUSCO: Multi-Stage COmpression of Neural Networks
+Home-page: https://github.com/musco-ai/musco-pytorch
+Author: Julia Gusak, Maksym Kholiavchenko, Evgeny Ponomarev, Larisa Markeeva, Andrzej Cichocki, Ivan Oseledets
+Author-email: julgusak@gmail.com
+License: BSD 3-Clause
+Download-URL: https://github.com/musco-ai/musco-pytorch/archive/1.0.6.tar.gz
+Platform: UNKNOWN
+Requires-Dist: scipy
+Requires-Dist: scikit-tensor-py3
+Requires-Dist: absl-py
+Requires-Dist: flopco-pytorch
+Requires-Dist: tensorly (==0.4.5)
+
+UNKNOWN
+
+
