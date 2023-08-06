@@ -1,0 +1,2 @@
+libxlsxwpy
+pyexcel-io>=0.6.2
