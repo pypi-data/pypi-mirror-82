@@ -1,0 +1,17 @@
+polimorfo/__init__.py,sha256=nF9r4KPt52EZ1qciuIVDI7DwG9PzRY9XTuYA108mn0o,165
+polimorfo/cli.py,sha256=0-mFMzzus__exydUIv9_Y-IS_PczlRxKnoKpcwQXL0c,442
+polimorfo/polimorfo.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+polimorfo/datasets/__init__.py,sha256=JCHB2XdcVFMZnffxzn3hsDutiSnmgW4K90R6tpdFAR8,29
+polimorfo/datasets/coco.py,sha256=Vh2RWSWY11KKgjuGzQZiJAkRAzRbX5F2tKBcYhSDntg,19695
+polimorfo/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polimorfo/utils/datautils.py,sha256=I4j8wVVC6VbKeSMh7OyuMDaz-3VXVXhyEuvdkcce4zQ,9627
+polimorfo/utils/imageutils.py,sha256=w93EDScmf6TQ8YXhuaSh8fr8IbvhIyA2EExczleCXd0,1267
+polimorfo/utils/maskutils.py,sha256=Fv06BCWZOqbyuPk-H-wlQ-luQFcm-dn01l6omNAiOOU,1388
+polimorfo/utils/visualizeutils.py,sha256=F9RV_wsde02f8Tou5GwA_m9NRfes5YQTcg_mFAPiK5I,8808
+polimorfo-0.6.2.dist-info/AUTHORS.rst,sha256=s4I3sElhoOE8S3qL70idckqAgAJOE3woF5wpIKpHoCs,163
+polimorfo-0.6.2.dist-info/LICENSE,sha256=_Ecv87Cw-o34furw7x6mRoxVJ5BxA6fXvOCq2QXwQQg,586
+polimorfo-0.6.2.dist-info/METADATA,sha256=W5UwiT5XL1MPZYIGFdKOvkhGWme5BU_LY0rKvA-BA2Y,3984
+polimorfo-0.6.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+polimorfo-0.6.2.dist-info/entry_points.txt,sha256=-EtAeT9IJYVhuvlLXlO9mieaUYB76grzS1nQTU2PRIk,50
+polimorfo-0.6.2.dist-info/top_level.txt,sha256=kTwX-w91d71H9Y0JO93SOJUzEW4wEIpEoYeUZssDN_g,10
+polimorfo-0.6.2.dist-info/RECORD,,
