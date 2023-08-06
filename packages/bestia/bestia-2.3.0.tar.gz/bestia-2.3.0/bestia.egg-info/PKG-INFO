@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: bestia
+Version: 2.3.0
+Summary: A collection of tools for building dynamic Command-Line applications
+Home-page: https://github.com/synestematic/bestia
+Author: Federico Rizzo
+Author-email: foo@bar.com
+License: MIT
+Description: # bestia
+        bestia is a library of functions and classes designed to help you build dynamic command-line applications on Linux / Darwin systems.
+        
+        ***
+        ## available functions / classes
+        
+        ### proc.py
+        * Process
+        
+        ### iterate.py
+        * LoopedList
+        * items_are_equal
+        * iterable_to_string
+        * unique_random_items
+        * pop_random_item
+        
+        ### output.py
+        * Row
+        * FString
+        * echo
+        * tty_size
+        * tty_rows
+        * tty_cols
+        * clear_screen
+        * expand_seconds
+        * remove_path
+        * obfuscate_random_chars
+        * ProgressBar
+        
+        ***
+        ## dependencies
+        Installing bestia does not require you to install any external dependencies.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
