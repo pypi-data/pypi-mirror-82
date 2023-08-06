@@ -1,0 +1,8 @@
+pydev_cli/__init__.py,sha256=64c9UfRgHvrRMm3mjV_sgf2bRBxbeYKNUbL5fk-XG64,41
+pydev_cli/cli.py,sha256=6vJ0uZ-TQb85ObwZljititBiuDYLgcqUEBX9zw-Z-RQ,7648
+pydev_cli/config.py,sha256=5PY8kKS4p9d4tb-EsxHKUaYt7BzDxIy7tFAK-8cufuQ,1305
+pydev_cli/utils.py,sha256=pJbmdGclHX4lJEbOWQRW0dyC27LrQZJdyUPJeVP9qF4,905
+pydev_cli-2.0.0.dist-info/entry_points.txt,sha256=9oXL3OilzTlDErwh5vq_EuANvR5bKdQJS7c7Hpeivhc,43
+pydev_cli-2.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pydev_cli-2.0.0.dist-info/METADATA,sha256=pMpi4uX1uJfGkhiJ5lmqEz_RD5IKvgEof6LUFwM_w70,1149
+pydev_cli-2.0.0.dist-info/RECORD,,
