@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django-divier
+Version: 0.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author-email: belinsky.dev@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: argon2
+Provides-Extra: bcrypt

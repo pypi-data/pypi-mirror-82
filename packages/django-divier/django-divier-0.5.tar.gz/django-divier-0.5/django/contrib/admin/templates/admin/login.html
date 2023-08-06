@@ -1,0 +1,106 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block extrastyle %}{{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static " admin/css/login.css" %}">
+
+    {{ form.media }}
+{% endblock %}
+<style>
+
+</style>
+
+{% block bodyclass %}{{ block.super }} login{% endblock %}
+
+{% block usertools %}{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{% block nav-sidebar %}{% endblock %}
+
+{% block content_title %}{% endblock %}
+
+{% block breadcrumbs %}{% endblock %}
+
+{% block content %}
+    {% if form.errors and not form.non_field_errors %}
+        <p class="errornote">
+            {% if form.errors.items|length == 1 %}{% translate "Please correct the error below." %}{% else %}
+                {% translate "Please correct the errors below." %}{% endif %}
+        </p>
+    {% endif %}
+
+    {% if form.non_field_errors %}
+        {% for error in form.non_field_errors %}
+            <p class="errornote">
+                {{ error }}
+            </p>
+        {% endfor %}
+    {% endif %}
+
+    <div id="content-main" style="display: flex; margin-top: 150px; justify-content: space-between">
+
+        {% if user.is_authenticated %}
+            <p class="errornote">
+                {% blocktranslate trimmed %}
+                    You are authenticated as {{ username }}, but are not authorized to
+                    access this page. Would you like to login to a different account?
+                {% endblocktranslate %}
+            </p>
+        {% endif %}
+        <style>
+            .form-content {
+                padding: 40px 60px 40px 60px;
+            }
+            .form-row input{
+                width: 100%;
+            }
+
+            .form-row input{
+                width: 100%;
+            }
+        </style>
+        <div class="row" style="display: flex; align-items: center; justify-content: center">
+            <form action="{{ app_path }}" method="post" id="login-form" style="color: #e4ebf3; border-radius: 10px; background-color: #ffffff;">{% csrf_token %}
+                <div class="form-content">
+                    <div class="table" style="display: flex; justify-content: left">
+                        <h2 style="color: #000000;">ВХОД</h2>
+                    </div>
+                    <div class="form-row">
+                        {{ form.username.errors }}
+                        {{ form.username }}
+                    </div>
+                    <div class="form-row" style="color: #000000; margin-top: 20px">
+                        {{ form.password.errors }}
+                        {{ form.password }}
+                        <input type="hidden" name="next" value="{{ next }}">
+                    </div>
+                    {% url 'admin_password_reset' as password_reset_url %}
+                    {% if password_reset_url %}
+                        <div class="password-reset-link">
+                            <a href="{{ password_reset_url }}">{% translate 'Forgotten your password or username?' %}</a>
+                        </div>
+                    {% endif %}
+                    <div class="submit-row" style="margin-top: 70px">
+                        <button type="submit" style="background-color: #d9223e; display: flex; align-items: center;
+                            padding: 15px 140px">
+                            <img src="{% static 'admin/img/divier/enter.png' %}" alt="enter">
+                            <p style="color: white; display: flex; align-items: center; margin: 0">ВОЙТИ</p>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="row" style="padding-left: 50px">
+            <p style="font-size: 36px; color: #e4ebf3;">ВЕБ СТУДИЯ ДИВИЕР</p>
+            <p style="font-size: 20px; color: #e4ebf3;">Мы - компания, занимающаяся созданием и разработкой сайтов, их
+                оптимизацией и последующим продвижением. Наш офис находится
+                в Москве. </p>
+            <p style="font-size: 20px; color: #e4ebf3;">Комплексная web разработка, изготовление и последующее
+                развитие интернет проекта, оказываемая одним исполнителем,
+                позволит вам снизить затраты, а нам даст возможность с
+                максимальной эффективностью подготовить ресурс для долгой и
+                успешной жизни в интернете.</p>
+        </div>
+    </div>
+{% endblock %}
