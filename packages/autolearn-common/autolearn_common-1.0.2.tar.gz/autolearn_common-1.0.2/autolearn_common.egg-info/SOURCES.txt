@@ -1,0 +1,5 @@
+setup.py
+autolearn_common.egg-info/PKG-INFO
+autolearn_common.egg-info/SOURCES.txt
+autolearn_common.egg-info/dependency_links.txt
+autolearn_common.egg-info/top_level.txt
