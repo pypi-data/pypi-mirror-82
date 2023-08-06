@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+lugat/__init__.py
+lugat/__main__.py
+lugat/__version__.py
+lugat/cli.py
+lugat/dict.py
+lugat/word.py
+lugat.egg-info/PKG-INFO
+lugat.egg-info/SOURCES.txt
+lugat.egg-info/dependency_links.txt
+lugat.egg-info/entry_points.txt
+lugat.egg-info/requires.txt
+lugat.egg-info/top_level.txt
