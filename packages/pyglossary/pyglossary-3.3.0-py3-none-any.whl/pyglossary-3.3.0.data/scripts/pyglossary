@@ -1,0 +1,1 @@
+build/bdist.linux-x86_64/wheel/pyglossary-3.3.0.data/data/share/pyglossary/main.py "$@"
