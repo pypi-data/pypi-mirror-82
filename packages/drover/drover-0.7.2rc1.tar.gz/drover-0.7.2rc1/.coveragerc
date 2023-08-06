@@ -1,0 +1,14 @@
+[run]
+source = drover
+[report]
+exclude_lines =
+    coverage: disable
+    def __repr__
+    raise AssertionError
+    raise NotImplementedError
+    if __name__ == .__main__.:
+omit =
+    tests/*
+    drover/__metadata__.py
+[html]
+directory = coverage-html

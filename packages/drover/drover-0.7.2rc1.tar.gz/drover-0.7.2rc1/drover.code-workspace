@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			".git": true,
+			".nox": true,
+			".vscode": true,
+			".coverage": true,
+			"coverage.xml": true,
+			".eggs": true,
+			"*.egg-info": true,
+			"**/.DS_Store": true,
+			"**/.mypy_cache": true,
+			"**/.pytest_cache": true,
+			"**/__pycache__": true
+		},
+		"python.venvPath": "${workspaceFolder}/.nox",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.linting.pylintArgs": [
+			"--rcfile", "${workspaceFolder}/.pylintrc",
+			"--disable", "R,missing-module-docstring,missing-class-docstring,missing-function-docstring"
+		],
+		"python.testing.pytestEnabled": true,
+		"python.testing.pytestArgs": ["tests"],
+		"python.workspaceSymbols.enabled": true,
+		"[python]": {
+			"files.trimTrailingWhitespace": true,
+			"files.insertFinalNewline": true,
+			"editor.renderFinalNewline": false
+		},
+	}
+}
