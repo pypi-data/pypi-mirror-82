@@ -1,0 +1,3 @@
+[console_scripts]
+tsammalex = pytsammalex.__main__:main
+

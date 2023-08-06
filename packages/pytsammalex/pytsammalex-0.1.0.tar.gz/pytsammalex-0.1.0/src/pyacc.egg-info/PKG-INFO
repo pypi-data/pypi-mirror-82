@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyacc
+Version: 0.1.1.dev0
+Summary: Python library
+Home-page: https://github.com/atlas-comp-cog/pyacc
+Author: Robert Forkel
+Author-email: forkel@shh.mpg.de
+License: Apache 2.0
+Description: # pytsammalex
+        python library to curate Tsammalex data
+        
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: lexibank
+Provides-Extra: clld
+Provides-Extra: dev
+Provides-Extra: test
