@@ -1,0 +1,8 @@
+chaac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chaac/chaac_packet.py,sha256=uSqZdF4SgLkbujPRLvJ2PpuJvF1RLvjxf_kQ80esK3A,1210
+chaac/chaacdb.py,sha256=PWs7WdZqY12UD0mQ34aKrzqeNxgUqXQ2fHU9BzB9lW8,18927
+chaac/packets.py,sha256=NNn7PNuGUBbS911mv6K0Ar8IGHXPql9JosKBbRNEWHg,2605
+chaac-0.22.dist-info/METADATA,sha256=zC3m0LMfAzkZdZacFmBNGjs723CB-58VGnJdN89Blcw,468
+chaac-0.22.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+chaac-0.22.dist-info/top_level.txt,sha256=Nm5nZGYmcXotaW4dKwklrDjVayHFCXlGDqxMiH2gwlo,6
+chaac-0.22.dist-info/RECORD,,
