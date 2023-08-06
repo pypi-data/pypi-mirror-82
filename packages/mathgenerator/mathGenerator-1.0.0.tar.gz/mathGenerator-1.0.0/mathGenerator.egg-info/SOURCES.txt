@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+mathGenerator/__init__.py
+mathGenerator/generator.py
+mathGenerator.egg-info/PKG-INFO
+mathGenerator.egg-info/SOURCES.txt
+mathGenerator.egg-info/dependency_links.txt
+mathGenerator.egg-info/entry_points.txt
+mathGenerator.egg-info/top_level.txt
