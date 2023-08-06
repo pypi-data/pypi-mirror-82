@@ -1,0 +1,12 @@
+_cppstd.cpython-38-i386-linux-gnu.so,sha256=yzaN26iHPabBK4Y2QQEIkqnd2hSMLGtMwW1Aa9ry94s,6445256
+cppstd-0.1.0.dist-info/WHEEL,sha256=i5QRdqOPRMh4tE98MK_psUpVQUBEjIEea5O6oiN_rjc,109
+cppstd-0.1.0.dist-info/RECORD,,
+cppstd-0.1.0.dist-info/LICENSE,sha256=-W_qNLRoZO2-AnwtGfKupruYTfLtIk39IeMqidpeVOU,1069
+cppstd-0.1.0.dist-info/top_level.txt,sha256=T1aBjr0aQNFYsoakjNZG_0rfz5_LPuASKbfj_lWuplY,15
+cppstd-0.1.0.dist-info/METADATA,sha256=41l-FCxf2JIp6aGdJfsLKMamrQDhPvaNg3mmTAI51SQ,3323
+cppstd/__init__.py,sha256=xLUVG-yNETH5q2NjnB0uEuVQp7Ilvpp51qeHG-hKY0A,67
+cppstd/vector.py,sha256=rxKmFm-iZP-zZUjsUbU6h1JME19yVAUgYfYuhNg_1FE,12004
+cppstd/hints.py,sha256=Mnutb0ulnwL6jVneDCSpaelypLB-GFUrRhArqBt-s70,55
+cppstd/set.py,sha256=YJsOiNcHxNOE5aFLRuNcp6ZkmZ7dMspCsW9pvP0M6KQ,12092
+cppstd/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cppstd/core/tokenization.py,sha256=Scvu4BpQR3jdQoxAKqGQQewroUU8wCaW-YDNaDDUpKM,768
