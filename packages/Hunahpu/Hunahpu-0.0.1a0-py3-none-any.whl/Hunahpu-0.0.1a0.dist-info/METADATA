@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Hunahpu
+Version: 0.0.1a0
+Summary: Similarity metrics for bibliography
+Home-page: https://github.com/colav/Hunahpu
+Author: Colav
+Author-email: grupocolav@udea.edu.co
+License: BSD
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: nltk (==3.5)
+Requires-Dist: Unidecode (==1.1.1)
+
+# Hunahpu
+Similarity metrics
+
+
