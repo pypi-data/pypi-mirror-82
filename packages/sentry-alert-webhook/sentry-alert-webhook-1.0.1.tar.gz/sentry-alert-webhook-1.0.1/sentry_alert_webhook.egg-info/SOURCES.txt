@@ -1,0 +1,11 @@
+README.md
+setup.py
+sentry_alert_webhook.egg-info/PKG-INFO
+sentry_alert_webhook.egg-info/SOURCES.txt
+sentry_alert_webhook.egg-info/dependency_links.txt
+sentry_alert_webhook.egg-info/entry_points.txt
+sentry_alert_webhook.egg-info/not-zip-safe
+sentry_alert_webhook.egg-info/requires.txt
+sentry_alert_webhook.egg-info/top_level.txt
+sentry_webhook/__init__.py
+sentry_webhook/plugin.py
