@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: lazy_ouch
+Version: 0.0.2
+Summary: Lazy way to use custom exceptions
+Home-page: https://github.com/TokkoLabs/services-tokkobroker/libraries/
+Author: Jose Salgado
+Author-email: jsalgado@navent.com
+License: BSD License
+Description: # Install 
+        
+            pip install beautiful-fails
+        
+        # Usage
+            
+            ToDo
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

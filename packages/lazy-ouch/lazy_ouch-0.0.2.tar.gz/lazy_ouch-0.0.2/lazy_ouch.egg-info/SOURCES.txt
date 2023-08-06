@@ -1,0 +1,9 @@
+README.md
+setup.py
+lazy_ouch/__init__.py
+lazy_ouch/core.py
+lazy_ouch/tests.py
+lazy_ouch.egg-info/PKG-INFO
+lazy_ouch.egg-info/SOURCES.txt
+lazy_ouch.egg-info/dependency_links.txt
+lazy_ouch.egg-info/top_level.txt
