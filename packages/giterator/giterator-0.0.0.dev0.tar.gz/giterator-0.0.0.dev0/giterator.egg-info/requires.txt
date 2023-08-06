@@ -1,0 +1,13 @@
+
+[build]
+sphinx
+sphinx-rtd-theme
+setuptools-git
+twine
+wheel
+
+[test]
+pytest
+pytest-cov
+sybil
+testfixtures
