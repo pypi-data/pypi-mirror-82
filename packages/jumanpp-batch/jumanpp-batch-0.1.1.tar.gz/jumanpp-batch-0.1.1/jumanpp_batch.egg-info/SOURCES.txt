@@ -1,0 +1,8 @@
+README.md
+jumanpp_batch.py
+setup.py
+jumanpp_batch.egg-info/PKG-INFO
+jumanpp_batch.egg-info/SOURCES.txt
+jumanpp_batch.egg-info/dependency_links.txt
+jumanpp_batch.egg-info/requires.txt
+jumanpp_batch.egg-info/top_level.txt
