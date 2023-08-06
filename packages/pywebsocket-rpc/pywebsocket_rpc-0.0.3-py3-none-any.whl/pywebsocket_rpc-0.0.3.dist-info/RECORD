@@ -1,0 +1,13 @@
+src/setup.py,sha256=xD5q0NjADm_MXTZ-XIqQz5ySxip3Z-Af6qSgs_cOH0k,681
+src/pywebsocket_rpc/__init__.py,sha256=IBBjBk0jvRC3fH9M2vtkMw3tcUFlZcUOYlOfuofSpbE,220
+src/pywebsocket_rpc/client.py,sha256=WN0U0FJwTLOXTSyPnIHp_x86lcnok5JwX74L-sbV5xo,4777
+src/pywebsocket_rpc/common.py,sha256=kXWZmB7TjRgB2I_YUKUZUERxgvC6Q0lcHBhN3e9alnQ,527
+src/pywebsocket_rpc/server.py,sha256=TxYEdE6I_PsnwXB1jMIfYlYt1C42sjq9Hg-DjtBxKaE,3806
+src/pywebsocket_rpc/websocket_base.py,sha256=SKzMyW9QWxTtalKEEG9QX2KRO7TM63pdF4jQUxh2fDo,3166
+src/pywebsocket_rpc/proto/gen/node_pb2.py,sha256=1J9OzB6ILmcR4Lnlhu4vmNUmuwnrm7InSfsJKouHThE,3911
+src/tests/conftest.py,sha256=FXumYdHXdzbB_A8pMCUXTtlZNvot5DiWevYED3ZmCM0,1184
+src/tests/test_main.py,sha256=ei1OVXU3wUczkvAG7IsN-9u0GAXrskQYhk2VrwrJAAg,13678
+pywebsocket_rpc-0.0.3.dist-info/METADATA,sha256=LzcmO5t3FXeYwmhch_sR9gT5x_1klTdvl7kewcppIEU,575
+pywebsocket_rpc-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pywebsocket_rpc-0.0.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+pywebsocket_rpc-0.0.3.dist-info/RECORD,,
