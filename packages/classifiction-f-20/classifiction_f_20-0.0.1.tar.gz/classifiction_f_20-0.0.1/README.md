@@ -1,0 +1,3 @@
+# classification_f_20
+
+The human oral bioavailability. For any drug administrated by the oral route, oral bioavailability is undoubtedly one of the most important pharmacokinetic parameters because it is the indicator of the eﬃciency of the drug delivery to the systemic circulation.  The range of bioavailability value is 0-100. Two thresholds (20% and 30%) were applied to split all the compounds into positive and negative compounds.[25] If the threshold is 20%.
