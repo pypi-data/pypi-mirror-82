@@ -1,0 +1,7 @@
+example_pkg_umihico/__init__.py,sha256=eeSyuRsuPxGOfrlid28U5k8WfFi-LoWYar852VahIsk,65
+example_pkg_umihico/__version__.py,sha256=clN3TnyYyt5T_wUJLVBmutS2kYLLBET4JFB2QXnRm2Q,21
+example_pkg_umihico/funcs.py,sha256=wI_q00kUXppwzLk1cPh0ey7yd1rSXWFicPXDPK5BHaU,39
+example_pkg_umihico-0.2.0.dist-info/METADATA,sha256=vYbzN73iY1QMUCCCBk-UEiZg7nMW64kiz4hiGJglcI4,720
+example_pkg_umihico-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+example_pkg_umihico-0.2.0.dist-info/top_level.txt,sha256=g6YIVhYlooUjWvSSvqUg5aBXB9Tl7uDd5CZD-etz8DA,20
+example_pkg_umihico-0.2.0.dist-info/RECORD,,
