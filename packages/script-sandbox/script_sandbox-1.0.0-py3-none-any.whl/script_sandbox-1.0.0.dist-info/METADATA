@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: script-sandbox
+Version: 1.0.0
+Summary: Cli for sanboxing bash and python scripts
+Home-page: https://github.com/abhishekkushwaha4u
+Author: Abhishek Kushwaha
+Author-email: thecrazycoderabhi@gmail.com
+License: MIT
+Keywords: cli sandbox script python testing abhishekkushwaha4u
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: altgraph (==0.17)
+Requires-Dist: auto-py-to-exe (==2.7.8)
+Requires-Dist: bottle (==0.12.18)
+Requires-Dist: bottle-websocket (==0.2.9)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: Eel (==0.12.4)
+Requires-Dist: future (==0.18.2)
+Requires-Dist: gevent (==20.9.0)
+Requires-Dist: gevent-websocket (==0.10.1)
+Requires-Dist: greenlet (==0.4.17)
+Requires-Dist: idna (==2.10)
+Requires-Dist: pyinstaller (==4.0)
+Requires-Dist: pyinstaller-hooks-contrib (==2020.9)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: urllib3 (==1.25.10)
+Requires-Dist: wget (==3.2)
+Requires-Dist: whichcraft (==0.6.1)
+Requires-Dist: zope.event (==4.5.0)
+Requires-Dist: zope.interface (==5.1.2)
+
+A python based cli to run scripts in a sandbox environment, with docker and gotty
+
+
