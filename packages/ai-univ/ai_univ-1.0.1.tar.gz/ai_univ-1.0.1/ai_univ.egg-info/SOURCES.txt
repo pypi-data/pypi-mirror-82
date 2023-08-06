@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+ai_univ/__init__.py
+ai_univ/mnist_recognize.py
+ai_univ.egg-info/PKG-INFO
+ai_univ.egg-info/SOURCES.txt
+ai_univ.egg-info/dependency_links.txt
+ai_univ.egg-info/top_level.txt
