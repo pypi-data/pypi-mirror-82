@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/docxrev.egg-info/PKG-INFO
+src/docxrev.egg-info/SOURCES.txt
+src/docxrev.egg-info/dependency_links.txt
+src/docxrev.egg-info/requires.txt
+src/docxrev.egg-info/top_level.txt
+src/package_name/__init__.py
+src/package_name/package_name.py
