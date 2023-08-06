@@ -1,0 +1,4 @@
+gsheets
+pandas
+numpy
+matplotlib.com
