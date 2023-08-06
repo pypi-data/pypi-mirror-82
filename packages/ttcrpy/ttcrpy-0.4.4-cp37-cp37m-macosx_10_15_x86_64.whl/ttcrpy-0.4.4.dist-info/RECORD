@@ -1,0 +1,10 @@
+ttcrpy/cgrid2d.cpython-37m-darwin.so,sha256=PJj2kfxAKv7zmGMS_imtwM8yIAqpdT7HTUum07yQXK0,412912
+ttcrpy/cgrid3d.cpython-37m-darwin.so,sha256=qCTIw3dNw_38IsBHESnvTA8ddUZAsp1BgqnPfMVfLao,495068
+ttcrpy/cmesh2d.cpython-37m-darwin.so,sha256=3updJ7143Mik3BEHsGZ4qXn71J7LQSywHb7sYdenqWU,452344
+ttcrpy/cmesh3d.cpython-37m-darwin.so,sha256=HzHB6F7l0Ji2jo2RTY8zEVck8rcnaldTIZvbqWawSVI,831512
+ttcrpy/rgrid.cpython-37m-darwin.so,sha256=fvqm2zRswlHliD9PuzgfM0FahkhkpluWmX5pHHa0QOc,2438932
+ttcrpy/tmesh.cpython-37m-darwin.so,sha256=8QwZQNgecAQtv3Pw_C4U4BU-VKYWdvmuXAN6XyUa_Mc,2819648
+ttcrpy-0.4.4.dist-info/METADATA,sha256=jcI97PtDWBIzv4tN7RPl62CEpSzbqkXfrGb9QetdPgU,8920
+ttcrpy-0.4.4.dist-info/WHEEL,sha256=81dzaVugG5_Yr33ZcA3pha6PI6RyEJHWPUG7Y6AuBVQ,111
+ttcrpy-0.4.4.dist-info/top_level.txt,sha256=rVRT_PtxzkjsbCuy6G2RycwkgIyrzyt3zF3EbRaAvOI,7
+ttcrpy-0.4.4.dist-info/RECORD,,
