@@ -1,0 +1,14 @@
+donphan/__init__.py,sha256=8L2pMyCthrbw31G1Wcqkq16vWiD3YpysBXIBq5DUK78,455
+donphan/abc.py,sha256=iQeFGYa-x1QBNa9uRs3r9exdOJx_pBusrkU9aFlct7k,25632
+donphan/column.py,sha256=ttu88T6yWOnHHZlAjNu7Q7dGQerJSww4jXPzv9r3Bo8,3201
+donphan/connection.py,sha256=7SctnjF6ycqpJ9nFEihL4cGlCx41esvtIWWXGIojgNg,1711
+donphan/consts.py,sha256=d2Qm5CrCb9oPsVsXsgtdeJPounx3dYgUV27v1GfZ3K8,26
+donphan/sqltype.py,sha256=PBLbTLjqiqj5HcFwfQ9M44VxRfanwvlEKTw6axThxpI,4434
+donphan/table.py,sha256=hbqrplKV53ATVMHZuEzYwsd5tT_eY56yUIsXpILBUgg,1636
+donphan/types.py,sha256=GIr5JTf5YeOVF_ISYYSAnAKxF6ayW0L24YB7Lyp9c_Q,3104
+donphan/view.py,sha256=6EJRscM0Dgogv1wLTLKFBH_BAyVtYDFOQsrfvmxpKTs,1506
+donphan-2.6.0.dist-info/LICENSE,sha256=6TLcRYBDuXHsj1e9jSnplkSIWVmTw8i6iZdofiUsTI0,1062
+donphan-2.6.0.dist-info/METADATA,sha256=maY7-ggGakLZ3eRW8X04ycyFuv_cbJ1CAXx83wfncxk,1511
+donphan-2.6.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+donphan-2.6.0.dist-info/top_level.txt,sha256=A2iOqnSLOn9pYyv6j1yrz4fN6DfQsWpo4gzNT1GAzBw,8
+donphan-2.6.0.dist-info/RECORD,,
