@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: Mathnew
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Krishna Sai
+Author-email: krishnasaiteja0709@gmail.com
+License: MIT
+Description: This is a very simple calculator that take two numbers for adding, subtracting, multiplying and dividing. Takes a single number for finding Square-root.
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (12/10/2020)
+        ------------------
+        - First Release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
