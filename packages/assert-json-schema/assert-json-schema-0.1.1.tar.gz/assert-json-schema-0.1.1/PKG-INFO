@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: assert-json-schema
+Version: 0.1.1
+Summary: Assert json schema, also provide $ref:relative_file wrapper to $ref:file:{absolute_path}
+Home-page: https://github.com/BastienGermond/assert-json-schema
+License: MIT
+Keywords: jsonschema,relative,json
+Author: Bastien Germond
+Author-email: bastien.germond@epita.fr
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: jsonschema (>=3.2.0,<4.0.0)
+Project-URL: Repository, https://github.com/BastienGermond/assert-json-schema

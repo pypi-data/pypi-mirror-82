@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "assert-json-schema"
+version = "0.1.1"
+description = "Assert json schema, also provide $ref:relative_file wrapper to $ref:file:{absolute_path}"
+authors = ["Bastien Germond <bastien.germond@epita.fr>"]
+license = "MIT"
+repository = "https://github.com/BastienGermond/assert-json-schema"
+keywords = [ "jsonschema", "relative", "json" ]
+classifiers = [
+    "Intended Audience :: Developers",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jsonschema = "^3.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
