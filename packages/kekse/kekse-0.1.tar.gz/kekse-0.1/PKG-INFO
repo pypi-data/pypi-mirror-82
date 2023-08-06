@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: kekse
+Version: 0.1
+Summary: Rapid GUI building for instrument control (PyQt based)
+Home-page: https://github.com/nvladimus/kekse
+Author: Nikita Vladimirov
+Author-email: nvladimus@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
