@@ -1,0 +1,10 @@
+swannotificationsservice/__init__.py,sha256=dvHKIZkF17j0O_Rav5sHFrYlfBzM_ndv8B4-N2-SReY,34
+swannotificationsservice/__main__.py,sha256=876xZTqhPeDBD2GKKr8pKX33Af8PhFTosAI8bYQsFgQ,61
+swannotificationsservice/_version.py,sha256=dLYKfvHUfvjwDTHfvHElQnQWqZ-2c6tHG0H-knIVvlY,103
+swannotificationsservice/app.py,sha256=b1uTpsbo_XXhvzxblumWBjqiiWDFnFPMhBnNgzj8Xwk,940
+swannotificationsservice/service.py,sha256=EhyffUiC3hAXvzGD3bFJTECB_uebf37eDaLavMPf2s8,1947
+swannotificationsservice-0.0.1.dist-info/METADATA,sha256=KrTDJI8Omc_VPxJljBaLFnxIE1ITe4NKkYyXUeY9d4o,2044
+swannotificationsservice-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+swannotificationsservice-0.0.1.dist-info/entry_points.txt,sha256=lR4odu2-csJgqJo8r2MRvQzhuJ6f49Cgt5SthyKOPU8,80
+swannotificationsservice-0.0.1.dist-info/top_level.txt,sha256=IZeB4PhrG9rurFYVsouhfqgWKiEXjoPs_W6XNwtvhCE,25
+swannotificationsservice-0.0.1.dist-info/RECORD,,
