@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+# GENOCIDE - the king of the netherlands commits genocide - OTP-CR-117/19/001 - otp.informationdesk@icc-cpi.int - https://genocide.rtfd.io
+#
+#
+
+from ol.spc import Console, boot, cmd, execute, ol, os, privileges, pwd, root, scandir, sys
+
+def main():
+    k = boot("genocide", "/var/lib/genocide")
+    privileges("genocide")
+    print(ol.format(k.cfg))
+    sys.path.insert(0, "/var/lib/genocide/gmod")
+    scandir("/var/lib/genocide/gmod", "gmod")
+    if k.cfg.txt:
+        return cmd(k.cfg.otxt, "/var/lib/genocide")
+    k.start()
+    mods = ["gmod.%s" % x for x in k.cfg.mods.split()]
+    k.init(",".join(mods), k.cfg.exc)
+    k.wait()
+ 
+execute(main)
+os._exit(0)
