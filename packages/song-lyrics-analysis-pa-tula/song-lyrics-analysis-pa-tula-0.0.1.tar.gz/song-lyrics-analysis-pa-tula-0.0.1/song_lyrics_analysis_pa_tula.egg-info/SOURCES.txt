@@ -1,0 +1,6 @@
+README.md
+setup.py
+song_lyrics_analysis_pa_tula.egg-info/PKG-INFO
+song_lyrics_analysis_pa_tula.egg-info/SOURCES.txt
+song_lyrics_analysis_pa_tula.egg-info/dependency_links.txt
+song_lyrics_analysis_pa_tula.egg-info/top_level.txt
