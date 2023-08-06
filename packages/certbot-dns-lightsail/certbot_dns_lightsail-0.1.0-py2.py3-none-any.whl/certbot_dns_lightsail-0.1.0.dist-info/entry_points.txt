@@ -1,0 +1,3 @@
+[certbot.plugins]
+dns-lightsail = certbot_dns_lightsail.authentication:Authenticator
+

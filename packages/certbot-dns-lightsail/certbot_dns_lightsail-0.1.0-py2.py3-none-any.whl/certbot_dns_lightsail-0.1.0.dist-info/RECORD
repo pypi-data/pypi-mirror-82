@@ -1,0 +1,8 @@
+certbot_dns_lightsail/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_lightsail/authentication.py,sha256=wuXt2gJVV_E46crHZTUQpEOrhzsZN_ZXCTfXgjc4GbU,2328
+certbot_dns_lightsail-0.1.0.dist-info/LICENSE,sha256=Kr8WPYnPjFYBI7vsBVqYkJf1_NY8q4Zo8GBLqmxkyDY,1069
+certbot_dns_lightsail-0.1.0.dist-info/METADATA,sha256=S3pvBet0XHJca0gjTF0FXmqrtxgPMQj7u64dQPPzyPY,3227
+certbot_dns_lightsail-0.1.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+certbot_dns_lightsail-0.1.0.dist-info/entry_points.txt,sha256=kmqVFatQ2bopFdJkfAlsJAV4vcl3eXskx-Ir2ymVpuw,86
+certbot_dns_lightsail-0.1.0.dist-info/top_level.txt,sha256=LMlj41RY6oHXGSir_wN-RHHz5IMdPATOgbq_JfnUCcA,22
+certbot_dns_lightsail-0.1.0.dist-info/RECORD,,
