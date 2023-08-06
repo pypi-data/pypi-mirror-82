@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyjectt
+Version: 0.1.1
+Summary: Light ioc container for you
+Home-page: https://github.com/Bloodielie/pyject
+Author: Bloodie_lie
+Author-email: riopro2812@gmail.com
+License: MIT License
+Description: # pyject
+        
+        ## What is Pyject?
+        Pyject is a IocContainer for Python.
+        
+        It helps implementing the dependency injection principle.
+        
+        ## Installation
+        The package is available on the PyPi:
+        ```bash
+        pip install pyjectt
+        ```
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
