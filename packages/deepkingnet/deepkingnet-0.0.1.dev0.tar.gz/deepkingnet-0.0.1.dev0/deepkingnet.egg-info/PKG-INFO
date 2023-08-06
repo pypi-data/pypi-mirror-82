@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: deepkingnet
+Version: 0.0.1.dev0
+Summary: A command line tool to classify nucleotide sequences as prokaryotic or eukaryotic.
+Home-page: https://github.com/bhattlab/DeepKingNet
+Author: Matt Durrant
+Author-email: mdurrant@stanford.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

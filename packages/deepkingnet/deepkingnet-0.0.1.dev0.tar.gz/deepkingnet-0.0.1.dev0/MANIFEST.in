@@ -1,0 +1,10 @@
+include deepkingnet/data/100bp.model.h5
+include deepkingnet/data/10kb.model.h5
+include deepkingnet/data/1kb.model.h5
+include deepkingnet/data/200bp.model.h5
+include deepkingnet/data/2kb.model.h5
+include deepkingnet/data/300bp.model.h5
+include deepkingnet/data/3kb.model.h5
+include deepkingnet/data/4kb.model.h5
+include deepkingnet/data/500bp.model.h5
+include deepkingnet/data/5kb.model.h5
