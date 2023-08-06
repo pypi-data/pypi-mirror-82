@@ -1,0 +1,6 @@
+jupyter_contrib_nbextensions
+fastcore
+nbconvert<6
+nbdev
+nbformat
+pillow
