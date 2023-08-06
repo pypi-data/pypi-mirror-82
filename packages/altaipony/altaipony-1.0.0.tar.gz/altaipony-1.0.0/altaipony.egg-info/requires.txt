@@ -1,0 +1,7 @@
+k2sc==1.0.1.4
+lightkurve==1.9.1
+numpy>=1.15.1
+pandas>=1.0
+progressbar2
+pybind11
+seaborn
