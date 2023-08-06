@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/gsheet_plotter/__init__.py
+src/gsheet_plotter/gsheet_plotter.py
+src/gsheet_plotter.egg-info/PKG-INFO
+src/gsheet_plotter.egg-info/SOURCES.txt
+src/gsheet_plotter.egg-info/dependency_links.txt
+src/gsheet_plotter.egg-info/requires.txt
+src/gsheet_plotter.egg-info/top_level.txt
