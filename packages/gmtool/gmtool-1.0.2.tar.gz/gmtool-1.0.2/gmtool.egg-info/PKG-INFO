@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gmtool
+Version: 1.0.2
+Summary: A powerful generation tool
+Home-page: https://www.python.org/
+Author: Gmwang
+Author-email: 550146647@qq.com
+License: MIT
+Project-URL: Documentation, https://www.apple.com.cn/
+Project-URL: Funding, https://www.apple.com.cn/
+Project-URL: Source, https://www.apple.com.cn/
+Project-URL: Tracker, https://www.apple.com.cn/
+Description: #GM's little generation tool !
+        
+        ##1.Description
+        Generate sentence according to Regex Expression. Now only support signs like "{}()|".
+        
+        ##2.Tutorial
+        Example：
+        ```angular2
+        from gmtool.re_generation import ReParse
+        regex='{你|我}好'
+        print(ReParse(regex).Parse())
+        ```
+        Result：
+        ```angular2
+        ['好', '你好', '我好']
+        ```
+Keywords: generation
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
