@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sometools-jhanka
+Version: 1.0.4
+Summary: A small example package
+Home-page: https://bitbucket.com/some/url
+Author: Juha Hanka
+Author-email: juha.hanka@gmail.com
+License: UNKNOWN
+Description: ## SomeTools package
+        Package contains useful tools for controlling Windows UI
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
