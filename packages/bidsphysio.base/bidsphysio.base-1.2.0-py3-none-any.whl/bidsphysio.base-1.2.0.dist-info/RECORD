@@ -1,0 +1,11 @@
+bidsphysio.base-1.2.0-py3.8-nspkg.pth,sha256=-q0tz3KpVFX-CTMy1tiWJVqFViYWx9xDeDOxnfxREoQ,559
+bidsphysio/base/__init__.py,sha256=G-d438vPx7m_ks5e9XTtM3u7LDRO5dSSukibukWmyPM,56
+bidsphysio/base/bidsphysio.py,sha256=Q3n5nAA9wykLH5aOGOAPGsa2hTtjw02SZHEr3uBeKLk,21213
+bidsphysio/base/info.py,sha256=72wzqk283dOjlWHIu-j4iu7rmLBdeP_kufYx85Uq9Gg,874
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_bidsphysio.py,sha256=269llAimjyeb1NcOfgN3b851jPJ9MyMacJtNPUkdBD8,18701
+bidsphysio.base-1.2.0.dist-info/METADATA,sha256=lgJm7tKTqoaidu28UzCE3roex51tve7hGW705wJKgR4,777
+bidsphysio.base-1.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+bidsphysio.base-1.2.0.dist-info/namespace_packages.txt,sha256=2FheJI0dxUB4_GQLIG6kY3N9WvHdAtvGddpujVLE9xY,11
+bidsphysio.base-1.2.0.dist-info/top_level.txt,sha256=L5cDw-5BuJykyKxyEPg0Zg6zLxwJRIET5wcn9SWjXNY,17
+bidsphysio.base-1.2.0.dist-info/RECORD,,
