@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+spdlog.egg-info/PKG-INFO
+spdlog.egg-info/SOURCES.txt
+spdlog.egg-info/dependency_links.txt
+spdlog.egg-info/not-zip-safe
+spdlog.egg-info/requires.txt
+spdlog.egg-info/top_level.txt
+src/pyspdlog.cpp
