@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pipops
+Version: 0.1.4
+Summary: PipOps is an AiOps inspired project created and self managed by Vishal Raj (DevOps Specialist)
+Home-page: https://github.com/iiamvishalraj
+Author: Vishal Raj
+Author-email: iiamvishalraj@gmail.com
+License: Apache 2.0
+Description: # pipops
+        
+        ```
+        PipOps is an AiOps inspired project created and self managed by Vishal Raj (DevOps Specialist)
+        ```
+        
+        ## To Read how to use this library
+        
+        ### Follow my Github repository
+        
+        - [Github](https://github.com/iiamvishalraj/pipops/canary)
+        
+        ### And to know more about me, follow me on:
+        
+        - [Linkedin](https://www.linkedin.com/in/vishal-raj-01baa2197/)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

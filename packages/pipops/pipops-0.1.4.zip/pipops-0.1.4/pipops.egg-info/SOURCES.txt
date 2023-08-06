@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pipops/__init__.py
+pipops.egg-info/PKG-INFO
+pipops.egg-info/SOURCES.txt
+pipops.egg-info/dependency_links.txt
+pipops.egg-info/not-zip-safe
+pipops.egg-info/requires.txt
+pipops.egg-info/top_level.txt
+pipops/canary/__init__.py
+pipops/canary/canary_analysis.py
