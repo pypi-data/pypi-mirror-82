@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+color_detectron/__init__.py
+color_detectron.egg-info/PKG-INFO
+color_detectron.egg-info/SOURCES.txt
+color_detectron.egg-info/dependency_links.txt
+color_detectron.egg-info/requires.txt
+color_detectron.egg-info/top_level.txt
