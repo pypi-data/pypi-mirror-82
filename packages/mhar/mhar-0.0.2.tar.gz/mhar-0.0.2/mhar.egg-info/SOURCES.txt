@@ -1,0 +1,13 @@
+README.md
+setup.py
+mhar/__init__.py
+mhar/classic_polytopes.py
+mhar/example.py
+mhar/mhar.py
+mhar/projection_matrix.py
+mhar/random_generator.py
+mhar/utils.py
+mhar.egg-info/PKG-INFO
+mhar.egg-info/SOURCES.txt
+mhar.egg-info/dependency_links.txt
+mhar.egg-info/top_level.txt
