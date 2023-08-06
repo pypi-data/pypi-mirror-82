@@ -1,0 +1,3 @@
+[console_scripts]
+iotasecret = iotasecret.iotasecret
+

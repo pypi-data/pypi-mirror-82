@@ -1,0 +1,8 @@
+README.md
+setup.py
+iotasecret.egg-info/PKG-INFO
+iotasecret.egg-info/SOURCES.txt
+iotasecret.egg-info/dependency_links.txt
+iotasecret.egg-info/entry_points.txt
+iotasecret.egg-info/requires.txt
+iotasecret.egg-info/top_level.txt
