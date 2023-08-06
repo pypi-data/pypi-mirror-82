@@ -1,0 +1,4 @@
+[
+  "test_equality.py::test__getitem__",
+  "test_immutable_dict.py::test_get_variables"
+]

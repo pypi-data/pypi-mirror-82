@@ -1,0 +1,9 @@
+[
+  "test_equality.py::test_inject",
+  "test_equality.py::test_inject[equality0-None-initial0-final0]",
+  "test_equality.py::test_inject[equality0-initial0-final0]",
+  "test_equality.py::test_inject[equality1-None-initial1-final1]",
+  "test_equality.py::test_inject[equality1-initial1-final1]",
+  "test_equality.py::test_inject[equality2-to_solve_for2-initial2-final2]",
+  "test_unify.py::test_unify_pass[left5-right5-None-final5]"
+]
