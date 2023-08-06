@@ -1,0 +1,11 @@
+README.md
+setup.py
+share/jupyter/voila/templates/base/static/1.voila.js.map
+share/jupyter/voila/templates/base/static/2.voila.js.map
+share/jupyter/voila/templates/base/static/voila.js.map
+voila_sourcemaps.egg-info/PKG-INFO
+voila_sourcemaps.egg-info/SOURCES.txt
+voila_sourcemaps.egg-info/dependency_links.txt
+voila_sourcemaps.egg-info/not-zip-safe
+voila_sourcemaps.egg-info/requires.txt
+voila_sourcemaps.egg-info/top_level.txt
