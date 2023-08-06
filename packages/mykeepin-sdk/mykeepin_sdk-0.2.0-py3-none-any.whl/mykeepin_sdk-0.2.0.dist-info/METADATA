@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mykeepin-sdk
+Version: 0.2.0
+Summary: MyKeepin SDK for python
+Home-page: https://github.com/coinplug/mykeepin-sdk-py
+Maintainer: Coinplug, Inc.
+Maintainer-email: inyong@coinplug.com
+License: LGPLv3+
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: web3
+Requires-Dist: ecdsa
+Requires-Dist: requests
+Requires-Dist: jwcrypto
+
+# MyKeepin SDK for Python 
+
+## SDK 소개
+- mykeepin-verify-sdk
+- https://github.com/METADIUM/did-resolver-java-client
+- https://github.com/METADIUM/verifiable-credential-java
+
+
+## 주요 기능
+### DID Document
+- DID Document Resolver
+- DID Document Verifier
+- JWS secp256k1 sign/verify
+- JWE encrypt/decrypt
+
+### AA & SP
+- MyKeepin 앱에서 전달받은 서명 또는 VP를 검증
+- Mykeepin 앱에서 VC를 발급받기 위해 AA에게 전달한 VP 검증
+- 검증된 VP에서 VC 목록을 반환
+- 검증된 VP에서 issuer와 credential 이름으로 특정 VC를 조회
+
+
+## SDK 설치
+```
+pip install mykeepin-sdk
+```
+
+
