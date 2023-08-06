@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: apt-py
+Version: 0.0.1
+Summary: A package for research into asset pricing and backtesting of investment strategies
+Home-page: https://github.com/vanBrakel/AssetPricingToolbox
+Author: Jean-Paul van Brakel
+Author-email: jeanpaulvbrakel@gmail.com
+License: UNKNOWN
+Description: ![Logo EFT](https://i.imgur.com/OWQcQle.png)
+        
+        ---
+        
+        ![GitHub top language](https://img.shields.io/github/languages/top/vanBrakel/EmpiricalFinanceToolbox)
+        ![GitHub release (latest by date)](https://img.shields.io/github/v/release/vanBrakel/EmpiricalFinanceToolbox)
+        ![GitHub All Releases](https://img.shields.io/github/downloads/vanBrakel/EmpiricalFinanceToolbox/total)
+        ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vanBrakel/EmpiricalFinanceToolbox)
+        ![GitHub](https://img.shields.io/github/license/vanBrakel/EmpiricalFinanceToolbox)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
