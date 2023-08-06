@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "itest2"
+version = "0.1.0"
+description = ""
+authors = ["ZhangHao <zhanghao@growingio.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.24.0"
+jsonschema = "^3.2.0"
+genson = "^1.2.2"
+PyHamcrest = "^2.0.2"
+curlify = "^2.2.1"
+records = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+allure-pytest = "^2.8.18"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
