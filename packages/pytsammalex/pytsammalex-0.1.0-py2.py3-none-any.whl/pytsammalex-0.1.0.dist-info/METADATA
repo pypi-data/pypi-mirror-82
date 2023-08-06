@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pytsammalex
+Version: 0.1.0
+Summary: Python library
+Home-page: https://github.com/tsammalex/pytsammalex
+Author: Robert Forkel
+Author-email: forkel@shh.mpg.de
+License: Apache 2.0
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: lexibank
+Provides-Extra: clld
+Provides-Extra: test
+Provides-Extra: dev
+Requires-Dist: appdirs
+Requires-Dist: pygbif
+Requires-Dist: csvw (>=1.5.6)
+Requires-Dist: clldutils (>=3.5)
+Requires-Dist: attrs
+Requires-Dist: nameparser
+Requires-Dist: requests
+Requires-Dist: newick
+Provides-Extra: clld
+Requires-Dist: pycldf (>=1.16); extra == 'clld'
+Requires-Dist: clld; extra == 'clld'
+Provides-Extra: dev
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: wheel; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Provides-Extra: lexibank
+Requires-Dist: pylexibank; extra == 'lexibank'
+Provides-Extra: test
+Requires-Dist: mock; extra == 'test'
+Requires-Dist: pytest (>=3.6); extra == 'test'
+Requires-Dist: pytest-mock; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: coverage (>=4.2); extra == 'test'
+
+# pytsammalex
+python library to curate Tsammalex data
+
+
