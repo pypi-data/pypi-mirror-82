@@ -1,0 +1,16 @@
+exotic/GUI.ipynb,sha256=2ndK-7HbxSmipIEajZqfUjEbbQY6zHyLJZ3ad028iOE,3031761
+exotic/__init__.py,sha256=NSsOlSqWOs7De9aIChxtOnzVS2SubpoNcqApMKuQe8I,3027
+exotic/constants.py,sha256=vBAFKBTwekZxKdqCl-Z4NSmnct2nHxkkaeiwwF5NHoA,2826
+exotic/exotic.py,sha256=WY8EsnZ9y48APU04Hf7oAO20v-8okT53kVC_zcX_Ol0,190678
+exotic/version.py,sha256=ESrHkNxc2x8FBSKHdgT5g8pI3OhVbRTnWYFskxQzD00,22
+exotic/api/__init__.py,sha256=udoOtRq-GGwwQmgI8VGXs_2ShCDlb_qKLVZj6laY9Wk,2322
+exotic/api/elca.py,sha256=xpP_ip1iGjx7RzPKarHderZIRBfP4CxjEulcTeCCxyE,20211
+exotic/api/gaelLDNL.py,sha256=bZlw9uZ2O6VLef01tS8a_PIoAGzVcjG5FTQ-d0airO8,17082
+exotic/api/versioning.py,sha256=KmWVITPh7Dm_RnKdO4B9R1aO60MEpfutDzjOWLA8G_o,2916
+exotic-0.23.0.dist-info/AUTHORS.md,sha256=79RzLioC4gZAfN4e8PpqwVRuxyLRuv9DsGDantKLBK8,650
+exotic-0.23.0.dist-info/LICENSE,sha256=c0lnKI-hwHSTXqXvwshE0cY9v2ARbPQJKVVf9Pbvcbk,2149
+exotic-0.23.0.dist-info/METADATA,sha256=sodEa7reU4HOicUbYbRp70LneKIvNi2AUM2Isli5nfY,10817
+exotic-0.23.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+exotic-0.23.0.dist-info/entry_points.txt,sha256=fk-XarEUZM-f6YNm5yJ43bQ-ByXvKT4I72PwSY5IKwc,47
+exotic-0.23.0.dist-info/top_level.txt,sha256=Xnbsbypiuyv_xxfhaTSCVrFtzCmVcS9Ydtu2KumxB5k,7
+exotic-0.23.0.dist-info/RECORD,,
