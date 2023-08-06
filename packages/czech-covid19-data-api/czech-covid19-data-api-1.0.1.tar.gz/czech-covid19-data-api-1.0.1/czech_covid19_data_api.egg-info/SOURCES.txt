@@ -1,0 +1,7 @@
+README.md
+czech_covid19_data_api.egg-info/PKG-INFO
+czech_covid19_data_api.egg-info/SOURCES.txt
+czech_covid19_data_api.egg-info/dependency_links.txt
+czech_covid19_data_api.egg-info/requires.txt
+czech_covid19_data_api.egg-info/top_level.txt
+test/test_functional.py
