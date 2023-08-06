@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: snfatigue
+Version: 0.0.1
+Summary: SN fatigue calculations
+Home-page: https://github.com/haphaeu/snfatigue
+Author: Rafael Rossi
+License: GPL2
+Description: # SN Fatigue
+        
+        
+        [![Build Status](https://travis-ci.org/haphaeu/snfatigue.svg?branch=master)](https://travis-ci.org/haphaeu/snfatigue)
+        
+        
+        Fatigue calculations using S-N curves.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev

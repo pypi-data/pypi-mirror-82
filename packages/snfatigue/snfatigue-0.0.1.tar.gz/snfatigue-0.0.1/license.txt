@@ -1,0 +1,26 @@
+The source code in this folder is subject to the following license.
+
+This is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, version 2 of the License.
+
+In short, this means basically:
+
+ - Feel free to do whatever you want with it!
+ 
+ - As long as you keep the credits to the source author
+ 
+ - And as long as your changes to the source code remain open and available
+ 
+ - And finally, as long as the same rights are extended to whatever you do with it
+
+This software is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+If you fancy it, read the full license terms here:
+https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+
+Source:
+https://github.com/haphaeu/snfatigue

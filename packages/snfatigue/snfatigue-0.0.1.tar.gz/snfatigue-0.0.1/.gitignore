@@ -1,0 +1,12 @@
+pipy_token.txt
+__pycache__/
+*~
+*.py[cod]
+env/
+build/
+dist/
+sdist/
+.ipynb_checkpoints
+.eggs/
+*.egg-info
+venv/

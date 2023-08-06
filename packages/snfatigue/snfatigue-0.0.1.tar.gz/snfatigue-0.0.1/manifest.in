@@ -1,0 +1,4 @@
+add requirements.txt
+exclude .gitignore
+exclude .travis.yml
+recursive-exclude tests *

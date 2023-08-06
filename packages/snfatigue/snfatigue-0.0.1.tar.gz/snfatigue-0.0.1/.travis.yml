@@ -1,0 +1,20 @@
+language: python
+branches:
+  only:
+  - master
+  - "/^v\\d+\\.\\d+\\.\\d+$/"
+python:
+- '3.7'
+install:
+- python setup.py sdist
+- VERSION=$(python setup.py --version)
+- pip install ./dist/snfatigue-$VERSION.tar.gz[dev]
+script:
+- pytest
+deploy:
+  provider: pypi
+  user: __token__
+  password: pypi-AgEIcHlwaS5vcmcCJDI4NGNiZGRjLTBhMmItNDY3MC04ODJmLTc1Y2EzYTJlZjcwYQACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYgws5n2apZc4GKrE-6rYtT5hSrzwuf7BknOnr21eWqaY8
+  on:
+    tags: true
+    python: '3.7'

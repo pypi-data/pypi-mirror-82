@@ -1,0 +1,15 @@
+.gitignore
+.travis.yml
+license.txt
+manifest.in
+readme.md
+requirements.txt
+setup.py
+src/__init__.py
+src/snfatigue.py
+src/snfatigue.egg-info/PKG-INFO
+src/snfatigue.egg-info/SOURCES.txt
+src/snfatigue.egg-info/dependency_links.txt
+src/snfatigue.egg-info/requires.txt
+src/snfatigue.egg-info/top_level.txt
+tests/test_snfatigue.py
