@@ -1,0 +1,10 @@
+sifter_extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sifter_extensions/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sifter_extensions/commands/pipe.py,sha256=tyHFYpERIMRMMEK3DU9syTqmQfBi8w7FYjtOnZjIWCY,768
+sifter_extensions/commands/rewrite.py,sha256=OMWGpkBljmXRuCqO9JQGTHeEw7ywwO_AKpYmG2VqFo8,882
+sifter3_extensions-0.0.1.dist-info/LICENSE.txt,sha256=Ql-gMt9ML7WSEBymTWM1n4ydiFgr1qfhqRyu8l33plw,1318
+sifter3_extensions-0.0.1.dist-info/METADATA,sha256=5Ol0aB7I3Nf8SVwIZz6JV4tVkkMSrwQU3AYGIjW7yBg,2353
+sifter3_extensions-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sifter3_extensions-0.0.1.dist-info/entry_points.txt,sha256=xAqyq5SE0jYyaYw-IbOzjz3nOte__YRbwg3fssW3Fys,132
+sifter3_extensions-0.0.1.dist-info/top_level.txt,sha256=tPS_rSazeA8kx_Kp6WXeUEokwaMJloNKI5jxo-FyUIw,18
+sifter3_extensions-0.0.1.dist-info/RECORD,,

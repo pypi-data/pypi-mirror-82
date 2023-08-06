@@ -1,0 +1,4 @@
+[sifter_extensions]
+pipe = sifter_extensions.commands.pipe:CommandPipe
+rewrite = sifter_extensions.commands.rewrite:CommandRewrite
+
