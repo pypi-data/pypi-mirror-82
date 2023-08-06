@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: commonmethods
+Version: 0.0.1
+Summary: This library contains some common methods that you don't wanna rewrite every time you make a new project.
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Common Methods
+        
+        'commonmethods' is a python library that contains methods that I use often, and don't want to rewrite for every project.
+        
+        # Developing 'Common Methods'
+        To install the tools needed to develop and run tests, run the following in your virtualenv:
+        
+        ```bash
+        $ pip install -e .[dev]
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
