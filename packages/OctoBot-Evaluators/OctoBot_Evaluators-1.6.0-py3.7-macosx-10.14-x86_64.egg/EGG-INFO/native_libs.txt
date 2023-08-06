@@ -1,0 +1,8 @@
+octobot_evaluators/octobot_channel_consumer.cpython-37m-darwin.so
+octobot_evaluators/evaluators/channel/evaluator_channel.cpython-37m-darwin.so
+octobot_evaluators/evaluators/channel/evaluators.cpython-37m-darwin.so
+octobot_evaluators/matrix/matrices.cpython-37m-darwin.so
+octobot_evaluators/matrix/matrix.cpython-37m-darwin.so
+octobot_evaluators/matrix/matrix_manager.cpython-37m-darwin.so
+octobot_evaluators/matrix/channel/matrix.cpython-37m-darwin.so
+octobot_evaluators/util/evaluation_util.cpython-37m-darwin.so
